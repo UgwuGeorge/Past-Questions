@@ -44,7 +44,7 @@
   }
 
   .btn-secondary {
-    @apply relative px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 overflow-hidden glass text-white hover:border-primary/50;
+    @apply relative px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 overflow-hidden bg-card backdrop-blur-xl border border-glass-border text-white hover:border-primary/50;
     transform: scale(1);
   }
 
@@ -53,7 +53,7 @@
   }
 
   .input-premium {
-    @apply glass rounded-xl px-4 py-3 outline-none focus:border-primary/50 transition-colors w-full;
+    @apply bg-card backdrop-blur-xl border border-glass-border rounded-xl px-4 py-3 outline-none focus:border-primary/50 transition-colors w-full;
   }
 }
 
