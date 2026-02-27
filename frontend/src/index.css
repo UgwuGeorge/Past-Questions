@@ -34,16 +34,22 @@
     @apply transition-all duration-300 hover:bg-white/[0.05] hover:border-white/20;
   }
 
-  .btn-premium {
-    @apply relative px-6 py-3 rounded-xl font-medium transition-all active:scale-95 flex items-center gap-2 overflow-hidden;
+  .btn-primary {
+    @apply relative px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 overflow-hidden bg-primary text-white shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5;
+    transform: scale(1);
   }
 
-  .btn-primary {
-    @apply btn-premium bg-primary text-white shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5;
+  .btn-primary:active {
+    transform: scale(0.95);
   }
 
   .btn-secondary {
-    @apply btn-premium glass text-white hover:border-primary/50;
+    @apply relative px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 overflow-hidden glass text-white hover:border-primary/50;
+    transform: scale(1);
+  }
+
+  .btn-secondary:active {
+    transform: scale(0.95);
   }
 
   .input-premium {

@@ -1,0 +1,55 @@
+{
+    "exam_name": "WAEC",
+    "year": 2022,
+    "subject_name": "Mathematics",
+    "questions": [
+        {
+            "text": "Solve for x: 2x + 5 = 15",
+            "topic": "Algebra",
+            "difficulty": "EASY",
+            "explanation": "Subtract 5 from both sides: 2x = 10, then divide by 2: x = 5.",
+            "choices": [
+                {
+                    "text": "5",
+                    "is_correct": true
+                },
+                {
+                    "text": "10",
+                    "is_correct": false
+                },
+                {
+                    "text": "20",
+                    "is_correct": false
+                },
+                {
+                    "text": "15",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "text": "Find the area of a circle with radius 7cm (Take pi = 22/7).",
+            "topic": "Mensuration",
+            "difficulty": "MEDIUM",
+            "explanation": "Area = pi * r^2 = (22/7) * 7 * 7 = 154.",
+            "choices": [
+                {
+                    "text": "154 cm^2",
+                    "is_correct": true
+                },
+                {
+                    "text": "44 cm^2",
+                    "is_correct": false
+                },
+                {
+                    "text": "77 cm^2",
+                    "is_correct": false
+                },
+                {
+                    "text": "14 cm^2",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}

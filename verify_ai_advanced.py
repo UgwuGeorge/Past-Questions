@@ -15,29 +15,25 @@ async def test_essay_and_interview_logic():
     
     # 1. Mock Essay Response
     mock_essay_response = MagicMock()
-    mock_essay_response.choices = [
-        MagicMock(message=MagicMock(content=json.dumps({
-            "overall_score": "7.5",
-            "breakdown": {"Task Response": 8, "Coherence": 7},
-            "strengths": ["Clear arguments"],
-            "weaknesses": ["Minor grammar issues"],
-            "corrections": [],
-            "improvement_plan": "Practice more transitions."
-        })))
-    ]
+    mock_essay_response.text = json.dumps({
+        "overall_score": "7.5",
+        "breakdown": {"Task Response": 8, "Coherence": 7},
+        "strengths": ["Clear arguments"],
+        "weaknesses": ["Minor grammar issues"],
+        "corrections": [],
+        "improvement_plan": "Practice more transitions."
+    })
     
     # 2. Mock Interview Response
     mock_intv_response = MagicMock()
-    mock_intv_response.choices = [
-        MagicMock(message=MagicMock(content=json.dumps({
-            "confidence_rating": 8,
-            "content_rating": 7,
-            "positive_aspects": ["Good eye contact (simulated)"],
-            "areas_for_improvement": ["Be more concise"],
-            "model_response": "...",
-            "overall_feedback": "Well done."
-        })))
-    ]
+    mock_intv_response.text = json.dumps({
+        "confidence_rating": 8,
+        "content_rating": 7,
+        "positive_aspects": ["Good eye contact (simulated)"],
+        "areas_for_improvement": ["Be more concise"],
+        "model_response": "...",
+        "overall_feedback": "Well done."
+    })
     
     # 3. Mock DB Session
     mock_db = MagicMock()
@@ -47,8 +43,8 @@ async def test_essay_and_interview_logic():
     
     # Test Essay Grading
     essay_req = EssaySubmission(content="I think technology is good.", criteria="IELTS")
-    with patch("server.core.ai.client.chat.completions.create", new_callable=AsyncMock) as mock_create:
-        mock_create.return_value = mock_essay_response
+    with patch("server.core.ai.model.generate_content") as mock_generate:
+        mock_generate.return_value = mock_essay_response
         result = await grade_essay(essay_req, user_id=1, db=mock_db)
         print(f"Essay grading result: {result['overall_score']}")
         assert result['overall_score'] == "7.5"
@@ -59,8 +55,8 @@ async def test_essay_and_interview_logic():
     # Test Interview Simulation
     mock_db.reset_mock()
     intv_req = InterviewRequest(user_id=1, question="Tell me about yourself", user_answer="I am a developer.")
-    with patch("server.core.ai.client.chat.completions.create", new_callable=AsyncMock) as mock_create:
-        mock_create.return_value = mock_intv_response
+    with patch("server.core.ai.model.generate_content") as mock_generate:
+        mock_generate.return_value = mock_intv_response
         result = await simulate_interview(intv_req, db=mock_db)
         print(f"Interview simulation result: {result['confidence_rating']}")
         assert result['confidence_rating'] == 8

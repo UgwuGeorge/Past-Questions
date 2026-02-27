@@ -1,17 +1,32 @@
 {
-    "exam": "JAMB",
+    "exam_name": "JAMB",
     "year": 2023,
-    "subject": "Use of English",
+    "subject_name": "Use of English",
+    "description": "2023 UTME Use of English Past Questions",
     "questions": [
         {
-            "text": "Example question text here?",
+            "text": "Choose the option that best completes the sentence: The principal said that the students ______ be punished for their behavior.",
+            "topic": "Grammar",
+            "difficulty": "EASY",
+            "explanation": "The modal 'must' or 'should' would fit here depending on the context of obligation.",
             "choices": [
-                {"text": "Option A", "is_correct": false},
-                {"text": "Option B", "is_correct": true},
-                {"text": "Option C", "is_correct": false},
-                {"text": "Option D", "is_correct": false}
-            ],
-            "explanation": "Explanation of why Option B is correct."
+                {
+                    "text": "must",
+                    "is_correct": true
+                },
+                {
+                    "text": "will",
+                    "is_correct": false
+                },
+                {
+                    "text": "can",
+                    "is_correct": false
+                },
+                {
+                    "text": "might",
+                    "is_correct": false
+                }
+            ]
         }
     ]
 }

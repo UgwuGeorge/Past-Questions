@@ -13,24 +13,22 @@ os.environ["OPENAI_API_KEY"] = "sk-dummy-key-for-testing"
 async def test_ai_generation_logic():
     print("Starting verification of AI question generation logic...")
     
-    # 1. Mock OpenAI Response
+    # 1. Mock Gemini Response
     mock_response = MagicMock()
-    mock_response.choices = [
-        MagicMock(message=MagicMock(content=json.dumps({
-            "questions": [
-                {
-                    "text": "What is the capital of Nigeria?",
-                    "choices": [
-                        {"text": "Abuja", "is_correct": True},
-                        {"text": "Lagos", "is_correct": False},
-                        {"text": "Kano", "is_correct": False},
-                        {"text": "Ibadan", "is_correct": False}
-                    ],
-                    "explanation": "Abuja became the capital in 1991."
-                }
-            ]
-        })))
-    ]
+    mock_response.text = json.dumps({
+        "questions": [
+            {
+                "text": "What is the capital of Nigeria?",
+                "choices": [
+                    {"text": "Abuja", "is_correct": True},
+                    {"text": "Lagos", "is_correct": False},
+                    {"text": "Kano", "is_correct": False},
+                    {"text": "Ibadan", "is_correct": False}
+                ],
+                "explanation": "Abuja became the capital in 1991."
+            }
+        ]
+    })
     
     # 2. Mock DB Session and Subject
     mock_db = MagicMock()
@@ -50,8 +48,8 @@ async def test_ai_generation_logic():
         count=1
     )
     
-    with patch("server.core.ai.client.chat.completions.create", new_callable=AsyncMock) as mock_create:
-        mock_create.return_value = mock_response
+    with patch("server.core.ai.model.generate_content") as mock_generate:
+        mock_generate.return_value = mock_response
         
         # 4. Call the endpoint function
         result = await generate_questions(request_data, mock_db)

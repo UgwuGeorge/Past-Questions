@@ -1,15 +1,17 @@
-from openai import AsyncOpenAI
+import google.generativeai as genai
 import json
 import os
 from typing import List, Dict
 
-client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Configure Gemini
+genai.configure(api_key=os.getenv("OPENAI_API_KEY")) # Using the existing variable name for compatibility
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 class AIEngine:
     @staticmethod
     async def grade_essay_or_sop(content: str, criteria: str) -> Dict:
         """
-        Grades an essay or SOP using GPT-4 with specific rubrics.
+        Grades an essay or SOP using Gemini with specific rubrics.
         """
         rubric_instructions = ""
         if "IELTS" in criteria.upper():
@@ -47,15 +49,13 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await client.chat.completions.create(
-            model="gpt-4-turbo-preview",
-            messages=[
-                {"role": "system", "content": "You are a professional academic grader."},
-                {"role": "user", "content": prompt}
-            ],
-            response_format={"type": "json_object"}
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(
+                response_mime_type="application/json"
+            )
         )
-        return json.loads(response.choices[0].message.content)
+        return json.loads(response.text)
 
     @staticmethod
     async def generate_questions(exam_type: str, topic: str, difficulty: str, count: int = 5) -> List[Dict]:
@@ -83,18 +83,19 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await client.chat.completions.create(
-            model="gpt-4-turbo-preview",
-            messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"}
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(
+                response_mime_type="application/json"
+            )
         )
-        data = json.loads(response.choices[0].message.content)
+        data = json.loads(response.text)
         return data.get("questions", [])
 
     @staticmethod
     async def simulate_interview(question: str, user_answer: str) -> Dict:
         """
-        Simulates an interview response evaluation using GPT-4.
+        Simulates an interview response evaluation using Gemini.
         """
         prompt = f"""
         Act as a professional interviewer for a high-stakes scholarship or professional role.
@@ -118,12 +119,10 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await client.chat.completions.create(
-            model="gpt-4-turbo-preview",
-            messages=[
-                {"role": "system", "content": "You are a professional hiring manager and interview coach."},
-                {"role": "user", "content": prompt}
-            ],
-            response_format={"type": "json_object"}
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(
+                response_mime_type="application/json"
+            )
         )
-        return json.loads(response.choices[0].message.content)
+        return json.loads(response.text)

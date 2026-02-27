@@ -1,0 +1,55 @@
+{
+    "exam_name": "JAMB",
+    "year": 2023,
+    "subject_name": "Use of English",
+    "questions": [
+        {
+            "text": "Choose the option that is nearest in meaning to the underlined word: The professor's lecture was very 'lucid'.",
+            "topic": "Synonyms",
+            "difficulty": "EASY",
+            "explanation": "Lucid means clear and easy to understand.",
+            "choices": [
+                {
+                    "text": "Clear",
+                    "is_correct": true
+                },
+                {
+                    "text": "Confusing",
+                    "is_correct": false
+                },
+                {
+                    "text": "Long",
+                    "is_correct": false
+                },
+                {
+                    "text": "Boring",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "text": "Which of the following sentences is grammatically correct?",
+            "topic": "Grammar",
+            "difficulty": "MEDIUM",
+            "explanation": "Subject-verb agreement requires 'none of the boys is' since 'none' is often treated as singular.",
+            "choices": [
+                {
+                    "text": "None of the boys is here.",
+                    "is_correct": true
+                },
+                {
+                    "text": "None of the boys are here.",
+                    "is_correct": false
+                },
+                {
+                    "text": "Either of the two boys are coming.",
+                    "is_correct": false
+                },
+                {
+                    "text": "Each of the books were stolen.",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}
