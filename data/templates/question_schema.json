@@ -1,0 +1,17 @@
+{
+    "exam": "JAMB",
+    "year": 2023,
+    "subject": "Use of English",
+    "questions": [
+        {
+            "text": "Example question text here?",
+            "choices": [
+                {"text": "Option A", "is_correct": false},
+                {"text": "Option B", "is_correct": true},
+                {"text": "Option C", "is_correct": false},
+                {"text": "Option D", "is_correct": false}
+            ],
+            "explanation": "Explanation of why Option B is correct."
+        }
+    ]
+}
