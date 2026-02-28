@@ -2,12 +2,19 @@ import json
 import os
 import sys
 from sqlalchemy.orm import Session
+from dotenv import load_dotenv
 
 # Add project root to path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, project_root)
 
-from server.database import SessionLocal, engine
-from server.models.main_models import Exam, Subject, Question, Choice
+load_dotenv(os.path.join(project_root, ".env"))
+
+from agent_core.database import SessionLocal, engine, Base
+from agent_core.models.main_models import Exam, Subject, Question, Choice
+
+# Create SQLite tables if they don't exist
+Base.metadata.create_all(bind=engine)
 
 def import_json_data(file_path: str, db: Session):
     print(f"Importing data from {file_path}...")

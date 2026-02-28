@@ -40,6 +40,7 @@ class QuestionBase(BaseModel):
     explanation: Optional[str] = None
     difficulty: str
     topic: str
+    year: Optional[int] = None
     subject_id: int
 
 class QuestionCreate(QuestionBase):
@@ -47,6 +48,7 @@ class QuestionCreate(QuestionBase):
 
 class Question(QuestionBase):
     id: int
+    year: Optional[int] = None
     is_ai_generated: bool
     choices: List[Choice]
 

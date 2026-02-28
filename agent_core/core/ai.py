@@ -4,7 +4,8 @@ import os
 from typing import List, Dict
 
 # Configure Gemini
-genai.configure(api_key=os.getenv("OPENAI_API_KEY")) # Using the existing variable name for compatibility
+api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-flash-latest")
 
 class AIEngine:
@@ -49,7 +50,7 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = model.generate_content(
+        response = await model.generate_content_async(
             prompt,
             generation_config=genai.GenerationConfig(
                 response_mime_type="application/json"
@@ -83,7 +84,7 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = model.generate_content(
+        response = await model.generate_content_async(
             prompt,
             generation_config=genai.GenerationConfig(
                 response_mime_type="application/json"
@@ -119,7 +120,7 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = model.generate_content(
+        response = await model.generate_content_async(
             prompt,
             generation_config=genai.GenerationConfig(
                 response_mime_type="application/json"

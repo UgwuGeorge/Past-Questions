@@ -54,6 +54,7 @@ class Question(Base):
     explanation = Column(String)
     difficulty = Column(SQLEnum(DifficultyLevel), default=DifficultyLevel.MEDIUM)
     topic = Column(String, index=True)
+    year = Column(Integer)
     is_ai_generated = Column(Boolean, default=False)
     
     subject = relationship("Subject", back_populates="questions")
