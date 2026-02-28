@@ -5,7 +5,7 @@ from typing import List, Dict
 
 # Configure Gemini
 genai.configure(api_key=os.getenv("OPENAI_API_KEY")) # Using the existing variable name for compatibility
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-flash-latest")
 
 class AIEngine:
     @staticmethod

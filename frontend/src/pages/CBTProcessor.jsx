@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { clsx } from 'clsx';
 import { Timer, ChevronLeft, ChevronRight, Flag, HelpCircle, CheckCircle2, XCircle } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 

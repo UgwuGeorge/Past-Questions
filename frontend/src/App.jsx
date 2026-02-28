@@ -6,10 +6,8 @@ import AIInterview from './pages/AIInterview';
 
 function App() {
   const [view, setView] = useState('dashboard');
-  const [activeExam, setActiveExam] = useState(null);
 
-  const startExam = (examId) => {
-    setActiveExam(examId);
+  const startExam = () => {
     setView('cbt');
   };
 

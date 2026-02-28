@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { clsx } from 'clsx';
 import { GraduationCap, Briefcase, Globe, Star, FileText, Mic, LayoutDashboard, Settings, LogOut } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 

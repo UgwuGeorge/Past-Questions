@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/app
 
-# Set work directory
+# Set work directory inside /app
 WORKDIR /app
 
 # Install system dependencies
@@ -15,15 +15,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python dependencies
+# Copy requirements from the server directory and install
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project
-COPY . .
+# Copy the entire server directory as a package named 'server'
+COPY . ./server
 
 # Expose port
 EXPOSE 8000
 
-# Command to run the application
+# Command to run the application (PYTHONPATH=/app, package is server)
 CMD ["uvicorn", "server.main:app", "--host", "0.0.0.0", "--port", "8000"]
