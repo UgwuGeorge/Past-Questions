@@ -92,3 +92,16 @@ class AIFeedback(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     
     user = relationship("User", back_populates="ai_feedback")
+
+class UserProgress(Base):
+    __tablename__ = "user_progress"
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    question_id = Column(Integer, ForeignKey("questions.id"))
+    topic = Column(String, index=True)
+    difficulty = Column(SQLEnum(DifficultyLevel))
+    is_correct = Column(Boolean)
+    attempt_date = Column(DateTime, default=datetime.utcnow)
+    
+    user = relationship("User")
+    question = relationship("Question")
