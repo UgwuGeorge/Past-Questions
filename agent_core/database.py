@@ -3,8 +3,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import os
 
-# Using SQLite for a purely local, single-file performance
-DATABASE_URL = "sqlite:///./agent_local_data.db"
+# Using SQLite for a purely local, single-file performance by default
+DATABASE_URL = os.getenv("DATABASE_URL") or "sqlite:///./agent_local_data.db"
 
 engine = create_engine(
     DATABASE_URL, connect_args={"check_same_thread": False}

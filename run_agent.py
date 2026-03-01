@@ -40,7 +40,9 @@ async def main():
         except KeyboardInterrupt:
             break
         except Exception as e:
-            print(f"\n[Error]: {e}")
+            import traceback
+            print(f"\n[Error Traceback]:\n{traceback.format_exc()}")
+            print(f"\n[Error Message]: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -1,0 +1,39 @@
+{
+    "exam_name": "ICAN Professional",
+    "year": 2023,
+    "subject_name": "Financial Reporting",
+    "term": "Skills Level",
+    "paper_number": "Section A",
+    "instructions": "All questions are compulsory.",
+    "questions": [
+        {
+            "number": 1,
+            "text": "Which of the following describes the objective of financial statements according to the IASB Framework?",
+            "topic": "Conceptual Framework",
+            "difficulty": "MEDIUM",
+            "explanation": "To provide information about the financial position, performance and changes in financial position of an entity that is useful to a wide range of users in making economic decisions.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "To show the market value of the entity.",
+                    "is_correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "To provide information useful to a wide range of users for economic decisions.",
+                    "is_correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "To assist management in daily operations.",
+                    "is_correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "To ensure tax compliance.",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}

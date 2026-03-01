@@ -6,9 +6,26 @@ from typing import List, Dict
 # Configure Gemini
 api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-flash-latest")
+model = genai.GenerativeModel("models/gemini-flash-latest")
 
 class AIEngine:
+    @staticmethod
+    def grade_essay_or_sop_sync(content: str, criteria: str) -> Dict:
+        """Sync version of grading."""
+        rubric_instructions = ""
+        if "IELTS" in criteria.upper():
+            rubric_instructions = "Use the IELTS Writing Task 2 descriptors..."
+        elif "SOP" in criteria.upper() or "SCHOLARSHIP" in criteria.upper():
+            rubric_instructions = "Evaluate based on scholarship standards..."
+
+        prompt = f"Act as an expert examiner for {criteria}. {rubric_instructions}\nSubmission:\n{content}\nReturn ONLY JSON."
+        
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(response_mime_type="application/json")
+        )
+        return json.loads(response.text)
+
     @staticmethod
     async def grade_essay_or_sop(content: str, criteria: str) -> Dict:
         """
@@ -59,6 +76,37 @@ class AIEngine:
         return json.loads(response.text)
 
     @staticmethod
+    def generate_questions_sync(exam_type: str, topic: str, difficulty: str, count: int = 5) -> List[Dict]:
+        """Sync version of question generation."""
+        prompt = f"""
+        Generate {count} multiple choice questions for {exam_type} on the topic: {topic}.
+        Difficulty level: {difficulty}.
+        
+        Format:
+        {{
+            "questions": [
+                {{
+                    "text": "Question content",
+                    "choices": [
+                        {{"text": "Option A", "is_correct": false}},
+                        {{"text": "Option B", "is_correct": true}},
+                        {{"text": "Option C", "is_correct": false}},
+                        {{"text": "Option D", "is_correct": false}}
+                    ],
+                    "explanation": "Brief explanation"
+                }}
+            ]
+        }}
+        Return ONLY valid JSON.
+        """
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(response_mime_type="application/json")
+        )
+        data = json.loads(response.text)
+        return data.get("questions", [])
+
+    @staticmethod
     async def generate_questions(exam_type: str, topic: str, difficulty: str, count: int = 5) -> List[Dict]:
         prompt = f"""
         Generate {count} multiple choice questions for {exam_type} on the topic: {topic}.
@@ -92,6 +140,16 @@ class AIEngine:
         )
         data = json.loads(response.text)
         return data.get("questions", [])
+
+    @staticmethod
+    def simulate_interview_sync(question: str, user_answer: str) -> Dict:
+        """Sync version of interview evaluation."""
+        prompt = f"Act as an interviewer. Question: {question}\nAnswer: {user_answer}\nEvaluate and return ONLY JSON."
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(response_mime_type="application/json")
+        )
+        return json.loads(response.text)
 
     @staticmethod
     async def simulate_interview(question: str, user_answer: str) -> Dict:

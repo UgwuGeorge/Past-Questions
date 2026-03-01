@@ -19,3 +19,7 @@ htmlcov/
 # Logs
 *.log
 test_output.txt
+
+# Databases
+*.db
+*.sqlite

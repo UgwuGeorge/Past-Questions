@@ -39,30 +39,27 @@ async def test_essay_and_interview_logic():
     mock_db = MagicMock()
     
     # 4. Import components
-    from server.routes.ai import grade_essay, EssaySubmission, simulate_interview, InterviewRequest
+    from agent_core.core.agent import ExamAgent
+    
+    agent = ExamAgent()
     
     # Test Essay Grading
-    essay_req = EssaySubmission(content="I think technology is good.", criteria="IELTS")
-    with patch("server.core.ai.model.generate_content") as mock_generate:
+    with patch("agent_core.core.ai.model.generate_content") as mock_generate:
         mock_generate.return_value = mock_essay_response
-        result = await grade_essay(essay_req, user_id=1, db=mock_db)
+        result_json = await agent.grade_essay("I think technology is good.", "IELTS")
+        result = json.loads(result_json)
         print(f"Essay grading result: {result['overall_score']}")
         assert result['overall_score'] == "7.5"
-        assert mock_db.add.called
-        assert mock_db.commit.called
-        print("Essay grading persistence verified.")
+        print("Essay grading logic verified.")
 
     # Test Interview Simulation
-    mock_db.reset_mock()
-    intv_req = InterviewRequest(user_id=1, question="Tell me about yourself", user_answer="I am a developer.")
-    with patch("server.core.ai.model.generate_content") as mock_generate:
+    with patch("agent_core.core.ai.model.generate_content") as mock_generate:
         mock_generate.return_value = mock_intv_response
-        result = await simulate_interview(intv_req, db=mock_db)
+        result_json = await agent.run_interview_coach("Tell me about yourself", "I am a developer.")
+        result = json.loads(result_json)
         print(f"Interview simulation result: {result['confidence_rating']}")
         assert result['confidence_rating'] == 8
-        assert mock_db.add.called
-        assert mock_db.commit.called
-        print("Interview simulation persistence verified.")
+        print("Interview simulation logic verified.")
         
     print("Verification successful!")
 

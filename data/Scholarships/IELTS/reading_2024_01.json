@@ -1,0 +1,78 @@
+{
+    "exam_name": "IELTS Academic",
+    "year": 2024,
+    "subject_name": "Reading",
+    "term": "Academic Module",
+    "paper_number": "Passage 1",
+    "instructions": "Read the following passage and answer the questions that follow.",
+    "questions": [
+        {
+            "number": 1,
+            "section": "Section B: Reading Comprehension",
+            "context": {
+                "title": "Educational Technology Trends",
+                "content": "In recent years, educational technology has become an integral part of the classroom experience. From interactive whiteboards to personalized learning platforms, these tools are designed to enhance student engagement and outcomes. Proponents argue that such technology allows for differentiation in teaching, making it easier for educators to reach students of varying abilities. Critics, however, suggest that an over-reliance on digital tools could negatively impact social interactions in schools."
+            },
+            "text": "What is the main argument of those who support the use of technology in education?",
+            "topic": "Reading Comprehension",
+            "difficulty": "MEDIUM",
+            "explanation": "The passage states that proponents argue technology allows for 'differentiation in teaching', which supports students of all ability levels.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "It reduces the workload for teachers.",
+                    "is_correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "It improves social interactions among students.",
+                    "is_correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "It enables teachers to better support students with different learning needs.",
+                    "is_correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "It eliminates the need for physical textbooks.",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "section": "Section B: Vocabulary",
+            "context": {
+                "title": "Educational Technology Trends",
+                "content": "In recent years, educational technology has become an integral part of the classroom experience. From interactive whiteboards to personalized learning platforms, these tools are designed to enhance student engagement and outcomes. Proponents argue that such technology allows for differentiation in teaching, making it easier for educators to reach students of varying abilities. Critics, however, suggest that an over-reliance on digital tools could negatively impact social interactions in schools."
+            },
+            "text": "According to the passage, what is one potential drawback of excessive use of educational technology?",
+            "topic": "Reading Analysis",
+            "difficulty": "EASY",
+            "explanation": "The text mentions critics' concern about a negative impact on 'social interactions in schools'.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Decreased student academic performance.",
+                    "is_correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Reduced face-to-face communication in school environments.",
+                    "is_correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "High costs associated with maintaining digital tools.",
+                    "is_correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Lack of teacher training in new technologies.",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}

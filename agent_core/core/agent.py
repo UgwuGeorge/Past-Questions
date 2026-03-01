@@ -6,13 +6,13 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func, Float
 from agent_core.database import SessionLocal
 from agent_core.models import main_models
-from agent_core.models.main_models import Exam, Subject, Question, Choice, UserProgress, DifficultyLevel
+from agent_core.models.main_models import Exam, Subject, Question, Choice, UserProgress, DifficultyLevel, ExamSession
 from agent_core.core.ai import AIEngine
 
 # Configure Gemini
 api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
 genai.configure(api_key=api_key)
-model_name = "gemini-1.5-flash"
+model_name = "models/gemini-flash-latest"
 
 class ExamAgent:
     """
@@ -132,15 +132,126 @@ class ExamAgent:
         }
         return json.dumps(response)
 
-    async def grade_essay(self, content: str, criteria: str) -> str:
+    def get_practice_batch(self, user_id: int, exam_name: str, count: int = 5) -> str:
+        """
+        Fetches a batch of tailored questions for a practice session.
+        Use this when the user asks for a specific number of questions.
+        """
+        exam = self.db.query(Exam).filter(Exam.name.ilike(exam_name)).first()
+        if not exam:
+            return f"Error: Exam '{exam_name}' not found."
+
+        # Fetch up to 'count' questions
+        subids = [s.id for s in exam.subjects]
+        questions = self.db.query(Question).filter(Question.subject_id.in_(subids)).limit(count).all()
+        
+        if not questions:
+            return "No questions available for this exam yet."
+
+        results = []
+        for q in questions:
+            choices = [f"[{c.id}] {c.text}" for c in q.choices]
+            correct_choice = next((c.text for c in q.choices if c.is_correct), "")
+            results.append({
+                "question_id": q.id,
+                "topic": q.topic,
+                "text": q.text,
+                "options": choices,
+                "internal_correct_answer": correct_choice
+            })
+        
+        return json.dumps(results)
+
+    def get_session_summary(self, user_id: int, last_n: int) -> str:
+        """
+        Analyzes the last N logged answers and provides a score.
+        Use this to 'score' the user after they finish a set of questions.
+        """
+        recent_progress = self.db.query(UserProgress).filter(
+            UserProgress.user_id == user_id
+        ).order_by(UserProgress.attempt_date.desc()).limit(last_n).all()
+        
+        if not recent_progress:
+            return "No recent practice attempts found."
+        
+        correct = sum(1 for p in recent_progress if p.is_correct)
+        total = len(recent_progress)
+        percentage = round((correct / total) * 100, 1)
+        
+        # Save to ExamSession if we can find the exam association
+        # For simplicity, we just return the report for now
+        report = {
+            "score": f"{correct}/{total}",
+            "percentage": f"{percentage}%",
+            "remarks": "Excellent!" if percentage >= 70 else "Good effort! Keep practicing."
+        }
+        
+        return json.dumps(report)
+
+    def grade_essay(self, content: str, criteria: str) -> str:
         """Grades an IELTS essay, Scholarship SOP, or academic writing."""
-        result = await AIEngine.grade_essay_or_sop(content, criteria)
+        result = AIEngine.grade_essay_or_sop_sync(content, criteria)
         return json.dumps(result, indent=2)
 
-    async def run_interview_coach(self, scenario: str, user_text: str) -> str:
+    def run_interview_coach(self, scenario: str, user_text: str) -> str:
         """Provides expert feedback on an interview response."""
-        result = await AIEngine.simulate_interview(scenario, user_text)
+        result = AIEngine.simulate_interview_sync(scenario, user_text)
         return json.dumps(result, indent=2)
+
+    def generate_new_content(self, exam_name: str, topic: str, difficulty: str, count: int = 5) -> str:
+        """
+        Generates new practice questions and stores them in the local database.
+        Use this when a user wants to practice a topic that 'get_adaptive_v2' says is empty.
+        """
+        # 1. Verify exam exist
+        exam = self.db.query(Exam).filter(Exam.name.ilike(exam_name)).first()
+        if not exam:
+            return f"Error: Exam '{exam_name}' not found. Please create it first."
+
+        # 2. Find or Create Subject for this Exam
+        # We'll use the topic as a hint or a generic subject name
+        subject_name = topic.split()[0] # e.g. "Physics Motion" -> "Physics"
+        subject = self.db.query(Subject).filter(
+            Subject.name.ilike(subject_name), 
+            Subject.exam_id == exam.id
+        ).first()
+        
+        if not subject:
+            # Fallback to first subject or create new
+            subject = exam.subjects[0] if exam.subjects else Subject(name=subject_name, exam_id=exam.id)
+            if not subject.id:
+                self.db.add(subject)
+                self.db.commit()
+                self.db.refresh(subject)
+
+        # 3. Generate via AI
+        questions_data = AIEngine.generate_questions_sync(exam_name, topic, difficulty, count)
+        
+        # 4. Save to DB
+        added_count = 0
+        for q_data in questions_data:
+            new_q = Question(
+                subject_id=subject.id,
+                text=q_data['text'],
+                topic=topic,
+                difficulty=DifficultyLevel(difficulty.lower()) if difficulty.lower() in [d.value for d in DifficultyLevel] else DifficultyLevel.MEDIUM,
+                explanation=q_data.get('explanation'),
+                is_ai_generated=True
+            )
+            self.db.add(new_q)
+            self.db.flush()
+            
+            for choice_data in q_data.get('choices', []):
+                choice = Choice(
+                    question_id=new_q.id,
+                    text=choice_data['text'],
+                    is_correct=choice_data['is_correct']
+                )
+                self.db.add(choice)
+            added_count += 1
+        
+        self.db.commit()
+        return f"Successfully generated and stored {added_count} new questions for {exam_name} - {topic}."
 
     async def chat(self, user_id: int, message: str, history: List[Dict] = []) -> str:
         # Architect-level tool registry
@@ -150,19 +261,24 @@ class ExamAgent:
             self.get_adaptive_v2,
             self.log_answer,
             self.grade_essay,
-            self.run_interview_coach
+            self.run_interview_coach,
+            self.generate_new_content,
+            self.get_practice_batch,
+            self.get_session_summary
         ]
         
-        agent_model = genai.GenerativeModel(model_name, tools=tools)
+        agent_model = genai.GenerativeModel("models/gemini-flash-latest", tools=tools)
         
         chat_session = agent_model.start_chat(
             history=[
                 {"role": "user", "parts": [
                     f"You are the 'Antigravity Exam Architect', an expert AI Agent managing local exam systems. "
                     f"You are currently assisting User ID: {user_id}. "
-                    f"Use tool 'get_adaptive_v2' to find tailored practice content. "
-                    f"The tool returns a JSON including the 'internal_correct_answer' for you to verify their response. "
-                    f"Always use 'log_answer' after the user responds to update their profile."
+                    f"Protocol: "
+                    f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "
+                    f"2. Ask questions ONE BY ONE to the user. Do not show them all at once. "
+                    f"3. After each response, use 'log_answer' to record if they were correct based on 'internal_correct_answer'. "
+                    f"4. Once the requested count is reached, use 'get_session_summary' with the correct count to show their final score."
                 ]},
                 {"role": "model", "parts": ["Architect protocol active. I will use the established database and feedback tools to guide the user's learning path."]},
                 * [{"role": h["role"], "parts": [h["text"]]} for h in history]

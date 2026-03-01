@@ -1,0 +1,100 @@
+{
+    "exam_name": "PTDF Scholarship",
+    "year": 2024,
+    "subject_name": "Quantitative Reasoning",
+    "term": "Post-Graduate Aptitude Test",
+    "paper_number": "1",
+    "instructions": "Attempt all questions in this section. Calculators are allowed.",
+    "questions": [
+        {
+            "number": 1,
+            "section": "Mathematics",
+            "text": "If a car travels 240km in 3 hours, what is its average speed in meters per second (m/s)?",
+            "topic": "Speed, Distance and Time",
+            "difficulty": "MEDIUM",
+            "explanation": "Speed = Distance / Time = 240km / 3h = 80km/h. Convert to m/s: (80 * 1000) / 3600 = 22.22 m/s.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "22.22 m/s",
+                    "is_correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "25.00 m/s",
+                    "is_correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "33.33 m/s",
+                    "is_correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "15.55 m/s",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "section": "Algebra",
+            "text": "Solve for x: 3x - 7 = 5x + 9",
+            "topic": "Linear Equations",
+            "difficulty": "EASY",
+            "explanation": "Subtract 3x from both sides: -7 = 2x + 9. Subtract 9: -16 = 2x. Thus x = -8.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "x = 8",
+                    "is_correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "x = -8",
+                    "is_correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "x = 1",
+                    "is_correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "x = -1",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "section": "Chemistry-Engineering",
+            "text": "What is the primary component of Natural Gas?",
+            "topic": "Petroleum Geology",
+            "difficulty": "EASY",
+            "explanation": "Methane (CH4) typically makes up 70% to 90% of natural gas.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ethane",
+                    "is_correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Methane",
+                    "is_correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Propane",
+                    "is_correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Butane",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}

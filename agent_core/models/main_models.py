@@ -15,6 +15,11 @@ class DifficultyLevel(enum.Enum):
     MEDIUM = "medium"
     HARD = "hard"
 
+class ExamCategory(enum.Enum):
+    ACADEMICS = "Academics"
+    PROFESSIONAL = "Professional"
+    SCHOLARSHIPS = "scholarships"
+
 class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True)
@@ -31,7 +36,8 @@ class Exam(Base):
     __tablename__ = "exams"
     id = Column(Integer, primary_key=True)
     name = Column(String, unique=True)  # e.g., "JAMB", "ICAN", "IELTS"
-    category = Column(String)  # e.g., "Professional", "International", "Scholarship"
+    category = Column(SQLEnum(ExamCategory), nullable=False)
+    sub_category = Column(String) # e.g., "Medical", "Secondary"
     description = Column(String)
     
     subjects = relationship("Subject", back_populates="exam")
@@ -45,12 +51,42 @@ class Subject(Base):
     
     exam = relationship("Exam", back_populates="subjects")
     questions = relationship("Question", back_populates="subject")
+    papers = relationship("QuestionPaper", back_populates="subject")
+
+class QuestionPaper(Base):
+    """Represents a specific year's paper (e.g., 2022 Mathematics Paper 1)."""
+    __tablename__ = "question_papers"
+    id = Column(Integer, primary_key=True)
+    subject_id = Column(Integer, ForeignKey("subjects.id"))
+    year = Column(Integer)
+    term = Column(String) # e.g., "June/July", "Nov/Dec"
+    paper_number = Column(String) # e.g., "Paper 1", "Paper 2", "Obj"
+    duration_minutes = Column(Integer)
+    instructions = Column(String)
+    
+    subject = relationship("Subject", back_populates="papers")
+    questions = relationship("Question", back_populates="paper")
+
+class QuestionContext(Base):
+    """Comprehension passages, common diagrams, or shared instructions."""
+    __tablename__ = "question_contexts"
+    id = Column(Integer, primary_key=True)
+    title = Column(String)
+    content = Column(String) # Passage text
+    image_url = Column(String) # Shared diagram image
+    
+    questions = relationship("Question", back_populates="context")
 
 class Question(Base):
     __tablename__ = "questions"
     id = Column(Integer, primary_key=True)
     subject_id = Column(Integer, ForeignKey("subjects.id"))
+    paper_id = Column(Integer, ForeignKey("question_papers.id"), nullable=True)
+    context_id = Column(Integer, ForeignKey("question_contexts.id"), nullable=True)
+    question_num = Column(Integer) # Question 1, 2, 3...
+    section = Column(String) # e.g., "Section A"
     text = Column(String, nullable=False)
+    image_url = Column(String) # For diagram questions
     explanation = Column(String)
     difficulty = Column(SQLEnum(DifficultyLevel), default=DifficultyLevel.MEDIUM)
     topic = Column(String, index=True)
@@ -58,13 +94,17 @@ class Question(Base):
     is_ai_generated = Column(Boolean, default=False)
     
     subject = relationship("Subject", back_populates="questions")
+    paper = relationship("QuestionPaper", back_populates="questions")
+    context = relationship("QuestionContext", back_populates="questions")
     choices = relationship("Choice", back_populates="question")
 
 class Choice(Base):
     __tablename__ = "choices"
     id = Column(Integer, primary_key=True)
     question_id = Column(Integer, ForeignKey("questions.id"))
+    label = Column(String) # "A", "B", "C", "D"
     text = Column(String, nullable=False)
+    image_url = Column(String) # Some choices are images
     is_correct = Column(Boolean, default=False)
     
     question = relationship("Question", back_populates="choices")

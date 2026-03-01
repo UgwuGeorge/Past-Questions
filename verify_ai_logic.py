@@ -39,31 +39,20 @@ async def test_ai_generation_logic():
     mock_db.query().filter().first.return_value = mock_subject
     
     # 3. Import and patch components
-    from server.routes.ai import generate_questions, QuestionGenRequest
+    from agent_core.core.ai import AIEngine
     
-    request_data = QuestionGenRequest(
-        subject_id=1,
-        topic="Geography",
-        difficulty="EASY",
-        count=1
-    )
-    
-    with patch("server.core.ai.model.generate_content") as mock_generate:
+    with patch("agent_core.core.ai.model.generate_content_async") as mock_generate:
         mock_generate.return_value = mock_response
         
-        # 4. Call the endpoint function
-        result = await generate_questions(request_data, mock_db)
+        # 4. Call the engine function
+        result = await AIEngine.generate_questions("UTME", "Geography", "EASY", 1)
         
         # 5. Assertions
-        print(f"Result message: {result['message']}")
-        assert "Successfully generated and saved 1 questions" in result['message']
-        assert len(result['questions']) == 1
+        print(f"Generated {len(result)} questions")
+        assert len(result) == 1
+        assert result[0]['text'] == "What is the capital of Nigeria?"
         
-        # Check DB calls
-        # We expect at least one add for the question and 4 for the choices
-        assert mock_db.add.called
-        assert mock_db.commit.called
-        print("Database persistence logic verified.")
+    print("AI Content Logic verified.")
         
     print("Verification successful!")
 
