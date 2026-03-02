@@ -1,26 +1,73 @@
 # NDA Past Questions (2022)
 
-## Objectives
-1. What is the minimum age for enlisting in the Nigerian Armed Forces?
-   A) 16 years
-   B) 18 years
-   C) 21 years
-   D) 25 years
-   **Answer: B**
+## Questions
 
-2. Calculate the area of a circle with radius 7cm (take $\pi = 22/7$).
-   A) 44cm²
-   B) 154cm²
-   C) 88cm²
-   D) 22cm²
-   **Answer: B**
-
-## English/Verbal Aptitude
-1. Choose the correctly spelt word:
-   A) Embarrassment
-   B) Embarassment
-   C) Embarasment
-   D) Embrasment
+**1.** The Ogboni Cult in the pre-colonial Yoruba political system played the role of the  
+   A) judiciary  
+   B) executive  
+   C) police  
+   D) legislation 
    **Answer: A**
 
-*(Simulated web scraped data from myschool.ng / educational portals)*
+**2.** The first independence day speech in Nigeria was given by??.
+   A) Muhammadu Buhari
+   B) Obafemi Awolowo
+   C) Tafawa Balewa
+   D) Nnamdi Azikwe
+   **Answer: C**
+
+**3.** All of the following are renowned historians except  
+   A) Prof Ade Ajayi 
+   B) Prof Toyin Falola  
+   C) Prof Obaro Ikime  
+   D) Prof Akin Oyebade 
+   **Answer: D**
+
+**4.** The colonial government whose constitution introduced elective principle into Nigerian politics was  
+   A) Arthur Richards  
+   B) Fredrick Lugard  
+   C) Hugh Clifford  
+   D) John Macpherson 
+   **Answer: C**
+
+**5.** Nigerian educated elites agitated against colonial rule  
+   A) by bribing colonial governors  
+   B) through lobbying  
+   C) through newspapers 
+   D) by fighting civil war 
+   **Answer: C**
+
+**6.** Gombe State belongs to the ____ geo-political zone in Nigeria 
+   A) South West 
+   B) North East 
+   C) North West 
+   D) South East 
+   **Answer: B**
+
+**7.** Alau Dam and Alan Lake are located in  
+   A) Calabar 
+   B) Okitipupa
+   C) Maiduguri 
+   D) Warri 
+   **Answer: C**
+
+**8.** The current Secretary-General of the United Nations is from 
+   A) United Kingdom 
+   B) South Africa 
+   C) South Korea 
+   D) Ukraine 
+   **Answer: C**
+
+**9.** Which of these was never a Senate President in Nigeria? 
+   A) Chuba Okadigbo 
+   B) Pius Anyim 
+   C) Umaru Dikko 
+   D) Ameh Ebute 
+   **Answer: C**
+
+**10.** Maseru is the capital city of  
+   A) Mauritius
+   B) Rwanda 
+   C) Lesotho 
+   D) Gambia 
+   **Answer: C**
