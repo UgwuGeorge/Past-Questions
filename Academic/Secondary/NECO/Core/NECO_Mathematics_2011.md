@@ -2,186 +2,194 @@
 
 ## Objectives
 
-**1.** Find all real number x which satisfy the inequality 1/3 (x + 1) - 1 > 1/5(x + 4)
-   A) x < 11
-   B) x < -1
-   C) x > 6
-   D) x > 11
+**1.** In the diagram above, PST is a straight line, PQ = QS = RS. If ∠RST = 72°, find x
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710697968/ALOC-Questions/Mathematics/2002/math_2000_q43_ugfbxx.jpg)*
+   A) 36°
+   B) 18°
+   C) 72°
+   D) 24°
    **Answer: D**
-   *Explanation: 1/3 (x + 1) - 1 > 1/5(x + 4)  = (x+1)/3−1 > (x+4)/5
- 
-
-(x+1)/3 − (x + 4)/5 − 1 > 0 
-
-= (5x + 5 − 3x − 12)/15
- 
-
-2x - 7 > 15
-
-2x > 22 = x > 11*
-   *(Note: Closest available year from ALOC database: utme)*
-
-**2.** A trader bought goats for N4000 each. He sold them for N180,000 at a loss of 25%. How many goats did he buy?
-   A) 60
-   B) 50
-   C) 45
-   D) 36
-   **Answer: A**
-   *Explanation: Let the number of goats be X
-C.P of X goats = N4000X
-S.P of X goats = (75/100) x 4000X = N3000X
-
-3000X = 180,000
-
-=> X = 180000/3000 = 60.
-X = 60 goats*
+   *Explanation: In Δ PQS, ∠PSQ = X(base ∠s of isoc Δ PQS)
+In Δ QRS, ∠RQS = ∠PSQ + X(Extr ∠ = sum of two intr. opp ∠s)
+∴ ∠RQS = X + X
+= 2X
+Also ∠QRS = 2X(base ∠s of isoc Δ QRS in Δ PRS,
+72 = ∠RPS + ∠PRS(Extr, ∠ = sum of two intr. opp ∠s)
+∴ 72 = x + 2x
+72 = 3x
+x = 72/3
+x = 24°*
    *(Note: Closest available year from ALOC database: 2002)*
 
-**3.** Evaluate <sup>n+1</sup>C<sub>n-2</sub> If n =15
-   A) 3630
-   B) 3360
-   C) 1120
-   D) 560
-   **Answer: D**
-   *Explanation: n+1(n−2)/(n+1)!
-
-
-(n+1)+(n−2)!(n−2)!/(n+1)!
-
-
-(n+1)(n+1−1)(n+1−2)(n+1−3)/!3!(n−2)!
-
-
-(n+1)(n)(n−1)(n−2)/!3!(n−2)!
-
-
-(n+1)(n)(n−1/)3!
-
-
-Since n = 15
-
-(15+1)(15)(15−1)/3!
-
-
-16×15×14/3×2×1
-
-
-= 560*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**4.** The sum of the first n positive integers is
-   A) 1/2 n(n-1)
-   B) n(n+1)
-   C) n(n-1)
-   D) 1/2 n(n-1)
-   **Answer: D**
-   *Explanation: Let the positive integers be 1, 2, ,3, 4, .....n
-∴ a = 1, d = 1 and n = n
-Sn = n/2(2a + (n-1)d)
-= n/2 (2 + n – 1)
-= 1/2n(n + 1)*
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**5.** If log7.5 = 0.8751, evaluate 2 log75 + log750
-   A) 6.6252
-   B) 6.6253
-   C) 66.252
-   D) 66.253
+**2.** Find the locus of a particle which moves in the first quadrant so that it is equidistant from the lines x = 0 and y = 0 (where k is a constant)?
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547196/ALOC-Questions/Mathematics/2009/MATH_2009_Q28_SOLUTION_bqdqr5.jpg)*
+   A) x + y = 0
+   B) x - y = 0
+   C) x + y + k = 0
+   D) x - y - k = 0
    **Answer: B**
-   *Explanation: If log 7.5 = 0.8751
-Then 2log75 + log750
-= 2(1.8751) + 2.8751
-= 3.7502 + 2.8751
-= 6.6253*
-   *(Note: Closest available year from ALOC database: 2014)*
+   *Explanation: Locus of a particle which moves in the first quadrant so that it is equidistant from the lines
+X = 0 and Y = 0 are the x and y axes as the lines bisecting the angle between x and y axes.*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**6.** In how many ways can a delegation of 3 be chosen from among 5 men and 3 women, if at least one man and at least one woman must be included?
-   A) 15
-   B) 28
-   C) 30
-   D) 45
-   **Answer: D**
-   *Explanation: No of ways of choosing 1 man, 2 women = 5C1 x 3C2
-No of ways of choosing 2 men, 1 woman = 5C2 x 3C1
-Summing, => (5C1 x 3C2) + (5C2 x 3C1) = 15 + 30 = 45*
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**7.** If log<sub>5</sub>20 = x, find x
-   A) 1.761
-   B) 1.354
-   C) 1.861
-   D) 2.549
-   **Answer: C**
-   *Explanation: log<sub>5</sub>20 = x
-
-5x = 20(Take log<sub>10</sub> of both sides)
-
-log<sub>5x</sub> = log<sub>20</sub>
-
-xlog<sub>5</sub> = log<sub>20</sub>
-
-x= [log<sub>20</sub> ÷ log<sub>20</sub>]
-
-[1.30103 ÷ 0.69897]
-
-x = 1.861*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**8.** In the diagram above, l<sub>1</sub> is parallel to l<sub>2</sub>, Find the value of < PMT
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724002943/ALOC-Questions/Mathematics/2016/MATH_JAMB_2016_Q8_r1aiyw.jpg)*
-   A) 82°
-   B) 36°
-   C) 72°
-   D) 118°
+**3.** A group of market women sell at least one of yam, plantain and maize. 12 of them sell maize, 10 sell yam and 14 sell plantain. 5 sell plantain and maize, 4 sell yam and maize, 2 sell yam and plantain only while 3 sell all the three items. How many women are in the group?
+   A) 25
+   B) 19
+   C) 18
+   D) 17
    **Answer: A**
-   *Explanation: < MPT = 180° - 118° = 62°
+   *Explanation: Let the three items be M, Y and P.
+n{M ∩ Y} only = 4-3 = 1
+n{M ∩ P) only = 5-3 = 2
+n{ Y ∩ P} only = 2
+n{M} only = 12-(1+3+2) = 6
+n{Y} only = 10-(1+2+3) = 4
+n{P} only = 14-(2+3+2) = 7
+n{M∩P∩Y} = 3
+Number of women in the group = 6+4+7+(1+2+2+3) as above =25 women.*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-< PML = 62° ( Alternative angle)
+**4.** The model height and range of heights 1.35, 1.25, 1.35, 1.40, 1.35, 1.50, 1.35, 1.50, and 1.20 are m and r respectively. Find m+2r.
+   A) 1.35
+   B) 1.65
+   C) 1.95
+   D) 3.00
+   **Answer: C**
+   *Explanation: 1.35, 1.25, 1.35, 1.40, 1.35, 1.50, 1.35, 1.50, and 1.20
+Modal height = 1.35
+Range (r) = 1.50 - 1.20
+= 0.30
+∴m + 2r = 1.35 + 2(0.30)
+= 1.35 + 0.60
+= 1.95*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-y + 2y + 10° + 62° = 180° (Angles on a straight line)
-
-3y = 180 - 72
-3y/3 = 108/3
-
-y = 36°
-
-< PMT = 2y + 10 = 2(36) + 10 = 82°*
+**5.** Evaluate ∫
+(cos4x + sin3x)dx
+   A) sin4x - cos3x + k
+   B) sin4x + cos3x + k
+   C) 1/4 sin4x - 1/3cos3x + k
+   D) 1/4sin4x + 1/3 cos3x + k
+   **Answer: C**
+   *Explanation: ∫(cos4x+sin3x)dx
+= 1/4sin4x − 1/3cos3x+k*
    *(Note: Closest available year from ALOC database: 2016)*
 
-**9.** Find the value of x for which the function f(x) = 2x<sup>3</sup> - x<sup>2</sup> - 4x + 4 has a maximum value
-   A) 2/3
-   B) 1
-   C) - 2/3
-   D) - 1
-   **Answer: B**
-   *Explanation: f(x) = 2x<sup>3</sup> - x<sup>2</sup> - 4x – 4
-f’(x) = 6x<sup>2</sup> - 2x – 4
-As f’(x) = 0
-Implies 6x<sup>2</sup> - 2x – 4 = 0
-3x – x – 2 = 0 (By dividing by 2)
-(3x – 2)(x + 1) = 0
-3x – 2 = 0 implies x = -2/3
-Or x + 1 = 0 implies x = -1
-f’(x) = 6x<sup>2</sup> - 2x – 4
-f’’(x) = 12x – 2
-At max point ...*
+**6.** A man 40 m from the foot of a tower observes the angle of elevation of the tower to be 30°. Determine the height of the tower.
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715545089/ALOC-Questions/Mathematics/2007/JAMB_2007_Q40_solution_kjvuqf.jpg)*
+   A) (40√3)/3 m
+   B) 20 m
+   C) 40√3 m
+   D) 40 m
+   **Answer: A**
+   *Explanation: Tan30=h/40  1/√3=h/40 h√3=40h=40/√3 h=40/√3×√3/√3 h=(40√3)/3*
    *(Note: Closest available year from ALOC database: 2007)*
 
-**10.** If x = {n<sup>2</sup>+1:n is a positive integer and 1 ≤ n ≤ 5},
-Y = {5n:n is a positive integer and 1 ≤ n ≤ 5}, find x ∩ y.
-   A) {5,10}
-   B) {5, 10, 15}
-   C) {2, 5, 10}
-   D) {5, 10, 15, 20}
+**7.** What is the solution of x−5/x+3 <−1?
+   A) =-3 < x < 1
+   B) x < -3 or x > 1
+   C) -3 < x < 5
+   D) x < -3 or x > 5
    **Answer: A**
-   *Explanation: X = {n<sup>2</sup> +1:n is a positive integer and 1 ≤ n ≤ 5}
-Implies X = {2, 5, 10, 17, 26} i.e. put n= 1, 2, 3, 4 and 5
-Y = {5n:n is a positive integer and 1 ≤ n ≤ 5}
-Put X = 1, 2, 3, 4, and 5
-Y = {5, 10, 15, 20, 25}
-X ∩ Y = {2, 5, 10, 17, 26} ∩ {5, 10, 15, 20, 25}
-= {5, 10}*
+   *Explanation: Consider the range -3 < x < -1
+
+= { -2, -1, 0}, for instance
+
+When x = -2,
+
+(−2−5)/(−2 + 3) < −1
+
+
+−7/1 < −1
+
+
+When x = -1,
+
+(−1−5)/(−1+3) <−1
+
+
+−6/2 < −1
+
+
+= -3 < -1
+
+When x = 0,
+
+(0−5)/(0 + 3) < −1
+
+
+−5/3 < −1
+
+
+Hence -3 < x < 1*
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**8.** The area A of a circle is increasing at a constant rate of 1.5 cm <sup>2</sup>s<sup>−1</sup>
+. Find, to 3 significant figures, the rate at which the radius r of the circle is increasing when the area of the circle is 2 cm<sup>2</sup>
+.
+   A) 0.200 cms<sup>−1</sup>
+   B) 0.798 cms<sup>−1</sup>
+   C) 0.300 cms<sup>−1</sup>
+   D) 0.299 cms<sup>−1</sup>
+   **Answer: D**
+   *Explanation: Area of a circle (A) = πr<sup>2</sup>
+
+
+Given
+
+dA/dt=1.5 cm<sup>2</sup>s<sup>-1</sup>
+
+
+dr/dt = ?
+
+A = 2cm<sup>2</sup>
+
+
+Now
+
+2 = πr <sup>2</sup> 
+
+
+= r<sup>2</sup> = 2/π
+
+
+r = √(2/π) cm = 0.798cm
+
+dr/dt = dA/dt × dr/dt
+
+
+dA/dr= 2πr (differentiating A = πr<sup>2</sup>)
+
+
+dr/dA=1/2πr
+
+
+dr/dt=1.5 × 1/...*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**9.** In how many ways can 9 people be seated if 3 chairs are available?
+   A) 720
+   B) 504
+   C) 336
+   D) 210
+   **Answer: B**
+   *Explanation: 9P3 =9!ways/(9-3)!
+ 
+=9!/6!
+ 
+=9 x 8 x 7 x 6!/6!
+
+= 504 ways*
    *(Note: Closest available year from ALOC database: 2009)*
+
+**10.** from the table above, if the pass mark is 5, how many students failed the test?
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716128453/ALOC-Questions/Mathematics/2010/MATH_2010_Q18_xbacd9.jpg)*
+   A) 6
+   B) 2
+   C) 7
+   D) 9
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2010)*
 
 
 ---

@@ -2,58 +2,51 @@
 
 ## Questions
 
-**1.** Which of the following made the earliest contact with the Nigerian societies?  
-   A) The Portuguese 
-   B) The Germans  
-   C) The British 
-   D) The French
-   **Answer: A**
-
-**2.** The Committee that recommended Abuja as the New Federal Capital was headed by  
-   A) Graham Douglas  
-   B) Mamman Nasir  
-   C) Rotimi Williams  
-   D) Akinola Aguda 
-   **Answer: D**
-
-**3.** In Yorubaland, the concept which derived mainly from the wave of dispersal that attended the process of state formation is known as
-   A) Omo iya  
-   B) Ebi  
-   C) Oduduwa  
-   D) all of the above 
+**1.** The Ekitiparapo war lasted for  
+   A) 10 years  
+   B) 16 years  
+   C) 100years
+   D) 50 years 
    **Answer: B**
 
-**4.** The 1804 Jihad in Northern Nigeria could be referred to all except  
-   A) Sokoto Jihad  
-   B) Uthman Dan Fodiyo Jihad  
-   C) Fulani Jihad  
-   D) Seku Ahmadu Jihad 
+**2.** All of the following are renowned historians except  
+   A) Prof Ade Ajayi 
+   B) Prof Toyin Falola  
+   C) Prof Obaro Ikime  
+   D) Prof Akin Oyebade 
    **Answer: D**
 
-**5.** Abayon, Adim and Adun are ethnic groups in  
-   A) Adamawa Stat 
-   B) Rivers State 
-   C) Bauchi State 
-   D) Cross River State 
+**3.** Which of the following in the pre-colonial era had integrated political structure  
+   A) Tiv  
+   B) Ilaje 
+   C) Jukun  
+   D) Nupe 
    **Answer: D**
 
-**6.** The current Secretary-General of the United Nations is from 
-   A) United Kingdom 
-   B) South Africa 
-   C) South Korea 
-   D) Ukraine 
+**4.** The capital of Iran is  
+   A) Iranian 
+   B) Dublin 
+   C) Teheran 
+   D) Baghdad 
    **Answer: C**
 
-**7.** Assop Falls can be found in 
-   A) Plateau State 
-   B) Kano State 
-   C) Taraba State 
-   D) Niger State 
+**5.** The Inspector-General of Police 2014 is 
+   A) Mr Iyami Aganike 
+   B) Alhaji Mohammed Dahiru Abubakar 
+   C) Mr Tafa Balogun 
+   D) Mr Sunday Ehindero 
+   **Answer: B**
+
+**6.** The United Nations Charter was formed on 
+   A) 6/26/1945
+   B) 2/1/1946
+   C) 10/24/1945
+   D) 3/15/1943
    **Answer: A**
 
-**8.** Paparada Square is in 
-   A) Ilorin 
-   B) Lokoja 
-   C) Kaduna 
-   D) Sokoto 
+**7.** The capital of Uruguay is 
+   A) Bangkok 
+   B) Montevideo
+   C) Bern 
+   D) Manila 
    **Answer: B**

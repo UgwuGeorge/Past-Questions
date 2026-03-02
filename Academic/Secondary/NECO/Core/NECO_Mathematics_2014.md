@@ -2,126 +2,150 @@
 
 ## Objectives
 
-**1.** Find ∫(x<sup>2</sup>  + 3x − 5)dx
-   A) x3/3  - 3x2/2 - 5x + k
-   B) x3/3 - 3x2/2
- + 5x + k
-   C) x3/3  + 3x2/2 - 5x + k
-   D) x3/3  + 3x2/2
- + 5x + k
+**1.** Find the equation of a straight line parallel to the line 2x - y = 5 and having intercept of 5
+   A) 2x + y = 5
+   B) 2x + y = -5
+   C) 2x - y = -5
+   D) 2x - y = 5
    **Answer: C**
-   *Explanation: ∫x<sup>n</sup>dx = x<sub>n+1</sub>/n+1
+   *Explanation: Condition for Parallelism means that their gradient value is same
 
+line 2x - y = 5 is rearranged
 
-∫dx = x + k
+As y = 2x - 5 from y = mx + c
 
-where k is constant
+: line 2x - y = 5 has the gradient of 2
 
-∫(x<sup>2</sup>  + 3x − 5)dx
+A parallel line with gradient of 2 and intercept of 5
 
-∫x<sup>2</sup>  dx + ∫3xdx − ∫5dx
+→ 2x - y = -5
 
-(2<sub>2</sub> + 1)/(2 + 1)
- + 3x<sup>1+1</sup>/(1+1)
- − 5x + k
+Rearranged as y = 2x + 5*
+   *(Note: Closest available year from ALOC database: 2022)*
 
-x<sub>3</sub>/3 + 3x<sub>2</sub>/2 − 5x + k*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**2.** Solve 4x2 +20x -24 =0
-   A) 1, 6
-   B) -1, -6
-   C) 6, -1
-   D) -6, 1
+**2.** A cylindrical tank has a capacity of 3080m<sup>3</sup>
+. What is the depth of the tank if the diameter of its base is 14m?
+   A) 25 cm
+   B) 23 cm
+   C) 22 cm
+   D) 20 cm
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2013)*
+   *Explanation: V = 2080 cm<sup>3</sup>, h = ? 
 
-**3.** A. cylinder has height 4cm and base radius 5cm.its volume to 3 significant figure is
-   A) 314.2cm2
-   B) 31.42 cm2
-   C) 251 4cm2
-   D) 251cm2
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
+r = 7 cm
 
-**4.** If p and q are two non zero numbers and 18(p+q) = (18+p)q, which of the following must be true?
-   A) q = 18
-   B) p <1
-   C) p = 18
-   D) q < 1
-   **Answer: A**
-   *Explanation: If 18(p + q) = (18 + p)q
-
-then 18p + 18q = 18q + pq
-
-18p = pq ⟹ q = 18.*
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** The average age of the three children in a family is 9 years. If the average age of their parent is 39 years, the average age of the whole family is:
-   A) 20 years
-   B) 21years
-   C) 24years
-   D) 27years
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**6.** Find the positive number n such that thrice its square is equal to twelve time the number
-   A) 1
-   B) 4
-   C) 2
-   D) 5
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**7.** Evaluate ∫<sup>2</sup>
-<sub>3</sub>(x2−2x)dx
-   A) 4
-   B) 2
-   C) 4/3
-   D) 1/3
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**8.** 5, 8, 6 and k occur with frequency 3, 2, 4, and 1 respectively and have a mean of 5.7. Find the value of k?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547324/ALOC-Questions/Mathematics/2009/MATH_2009_Q41_SOLUTION_kripfc.jpg)*
-   A) 4
-   B) 3
-   C) 2
-   D) 1
-   **Answer: C**
-   *Explanation: Mean =	∑fx/∑fx
+V = V/πr<sup>2</sup>h
+h = Vπr<sup>2</sup> = 3080/(22/7) × 49
  
 
+3080/54
+ = 20cm*
+   *(Note: Closest available year from ALOC database: utme)*
 
-5.7 =55+k/10
+**3.** A particle P moves between points S and T such that angles SPT is always constant of ST constant. Find the locus of P
+   A) It is a semi circle with ST as diameter
+   B) It is a perpendicular bisector of St
+   C) It is a quadrant of a circle with ST as diameter
+   D) It is a straight line perpendicular to ST
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
 
-57 = 55 + k
-k = 57 - 55
-k = 2*
+**4.** The range of the data: k+2, k-3, k+4, k-2, k, k-5, k+3, k-1, and k+6 is
+   A) 10
+   B) 11
+   C) 6
+   D) 8
+   **Answer: B**
+   *Explanation: Range = Highest value - Lowest value
+
+= (k + 6) - (k - 5)
+
+= 11*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**5.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
+   A) 1
+   B) 0
+   C) -1/2
+   D) -1
+   **Answer: B**
+   *Explanation: mΔn = m+n+mn
+Let e be the identity element
+∴mΔe = eΔm = m
+m+e+me = m
+e+me = m-m
+e+me = 0
+e(1+m) = 0
+e = 0 / (1+m)
+e = 0*
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**6.** Which of the following equations represent the graph above?
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547011/ALOC-Questions/Mathematics/2009/MATH_2009_Q12_dxlsag.jpg)*
+   A) y = 2+7x+4x<sup>2</sup>
+   B) y = 2-7x+4x<sup>2</sup>
+   C) y = 2+7x-4x<sup>2</sup>
+   D) y = 2-7x-4x<sup>2</sup>
+   **Answer: D**
+   *Explanation: x = -2 and x = 1/4
+x = -2 and 4x = 1
+x+2 and 4x-1
+(x+2)(4x-1) = 0
+4x2 - x + 8x -2 = 0
+4x2 + 7x – 2 = 0 but y intercept is positive. Multiply the equation by -1
+-4x2 - 7x + 2 = 0
+∴y = 2 – 7x – 4x<sup>2</sup>*
    *(Note: Closest available year from ALOC database: 2009)*
 
-**9.** An arc of a circle subtends an angle of 30° on the circumference of a circle of radius 21cm. Find the length of the arc.
-   A) 11cm
-   B) 22cm
-   C) 44cm
-   D) 66cm
-   **Answer: B**
-   *Explanation: θ = 30 x 2(∠ at center twice ∠ at θ)
-∴ θ = 60°
-Length of arc = θ/360 x 2πr = 60/360 x 2 x 22/7 x 21/1 = 22cm*
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**10.** The angle of elevation of the top of a tree from a point on the ground 60m away from the foot of the tree is 78°. Find the height of the tree correct to the nearest whole number.
-   A) 148 m
-   B) 382 m
-   C) 282 m
-   D) 248 m
+**7.** If tan θ = 5/4, find sin<sup>2</sup>θ - cos<sup>2</sup>θ.
+   A) 5/4
+   B) 41/9
+   C) 9/41
+   D) 1
    **Answer: C**
-   *Explanation: tan78 = h/60
-h = 60tan78
-h = 60 × 4.705 = 282.27m  ≊
-282m to the nearest whole number.*
-   *(Note: Closest available year from ALOC database: 2019)*
+   *Explanation: Tan θ = 5/4
+x<sup>2</sup> = 5<sup>2</sup> + 42
+= 25 + 16
+= 41
+x = √41
+sin<sup>2</sup>θ - cos<sup>2</sup>θ = (5/√41)<sup>2</sup> - (4/√41)<sup>2</sup>
+= 25/41 - 16/41
+= 9/41*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**8.** Evaluate ∫<sup>2</sup><sub>1</sub> 5/x
+ dx
+   A) 1.47
+   B) 2.67
+   C) 3.23
+   D) 3.47
+   **Answer: D**
+   *Explanation: ∫5/x dx = 5 ∫1/x = 5Inx
+
+Since the integral of 1/x is Inx
+
+ ∫<sup>2</sup><sub> 1</sub>
+∫ 5/x dx = 5
+
+ dx = 5 (In<2 – InIn1)
+
+  = 3.4657
+
+  = 3.47*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**9.** In how many ways can the word MACICITA be arranged?
+   A) 8!/2!
+   B) 8!/3!2!
+   C) 8!/2!2!2!
+   D) 8!
+   **Answer: C**
+   *Explanation: MACICITA is an eight letter word = 8!
+
+Since we have repeating letters, we have to divide to remove duplicates accordingly. There are 2A, 2C, 2I
+
+∴ 8!/2!2!2!*
+   *(Note: Closest available year from ALOC database: 2017)*
 
 
 ---

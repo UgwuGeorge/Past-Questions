@@ -2,72 +2,72 @@
 
 ## Questions
 
-**1.** The Committee that recommended Abuja as the New Federal Capital was headed by  
-   A) Graham Douglas  
-   B) Mamman Nasir  
-   C) Rotimi Williams  
-   D) Akinola Aguda 
+**1.** In the Oyo empire, the Alaafin was 
+   A) an absolute monarch  
+   B) popularly elected  
+   C) a constitutional  monarch 
+   D) worshipped as deity 
+   **Answer: A**
+
+**2.** The Head of the Sokoto Caliphate was known as  
+   A) Sultan  
+   B) Caliph  
+   C) Emir  
+   D) Alhaji 
+   **Answer: B**
+
+**3.** In the pre-colonial Igbo political system, which of the following was the most democratic organ of government
+   A) The Umand 
+   B) Eze  
+   C) Isu  
+   D) Ohanaeze
    **Answer: D**
 
-**2.** Which of the following titles among the Igbos in the pre-colonial era required substantial wealth before one could acquire it?
-   A) Obi  
-   B) Eze  
-   C) Ozo  
-   D) Ofo 
-   **Answer: C**
-
-**3.** The Colonial Administration in Nigeria was  
+**4.** The Colonial Administration in Nigeria was  
    A) Authoritarian
    B) Democratic  
    C) A&B  
    D) None of the above 
    **Answer: A**
 
-**4.** Samori Toure was captured in 1893 by  
-   A) French imperialism  
-   B) British imperialism  
-   C) Germany imperialist  
-   D) none of the above 
-   **Answer: A**
+**5.** The Aro system in Igboland was a 
+   A) Political organisation  
+   B) Commercial organisation  
+   C) Religious organisation  
+   D) Imperial organisation 
+   **Answer: C**
 
-**5.** All of the following are renowned historians except  
-   A) Prof Ade Ajayi 
-   B) Prof Toyin Falola  
-   C) Prof Obaro Ikime  
-   D) Prof Akin Oyebade 
+**6.** ____ was the Chief Justice of Nigeria between 1995 and 2006 
+   A) Justice Idris Lagbo Kutigi 
+   B) Justice Mohammad Lawal Uwais 
+   C) Justice George Sodeinde Sowemimo 
+   D) Justice Mohammed Bello 
+   **Answer: B**
+
+**7.** Gombe State belongs to the ____ geo-political zone in Nigeria 
+   A) North Central 
+   B) North East 
+   C) North West 
+   D) South West 
+   **Answer: B**
+
+**8.** Desmond Tutu was awarded the Nobel Peace Prize in 
+   A) 1983
+   B) 1987
+   C) 2000
+   D) 1984
    **Answer: D**
 
-**6.** The full meaning of UEFA is 
-   A) Union of European Federation Associations 
-   B) United European Football Associations 
-   C) Union of European Football Associations 
-   D) United English Football Associations 
+**9.** Victoria is the capital city of 
+   A) Somalia 
+   B) Morocco 
+   C) Seychelles 
+   D) Lesotho 
    **Answer: C**
 
-**7.** Shanga and Kyenga are ethnic groups in 
-   A) Sokoto State 
-   B) Niger State 
-   C) Bauchi State 
-   D) Niger State 
-   **Answer: A**
-
-**8.** Nelson Mandela was awarded the Nobel Peace Prize in 
-   A) 1993
-   B) 1994
-   C) 1995
-   D) 1996
-   **Answer: A**
-
-**9.** The National Security Adviser in 2014 was
-   A) Col. Sambo Dasuki 
-   B) Gen.  Aliyu Mohammed Gusau 
-   C) Gen.  Andrew Owoeye Azazi (rtd
-   D) Gen. Korede Bello
-   **Answer: A**
-
-**10.** Maseru is the capital city of  
-   A) Mauritius
-   B) Rwanda 
-   C) Lesotho 
-   D) Gambia 
-   **Answer: C**
+**10.** The Inspector-General of Police 2014 is 
+   A) Mr Iyami Aganike 
+   B) Alhaji Mohammed Dahiru Abubakar 
+   C) Mr Tafa Balogun 
+   D) Mr Sunday Ehindero 
+   **Answer: B**

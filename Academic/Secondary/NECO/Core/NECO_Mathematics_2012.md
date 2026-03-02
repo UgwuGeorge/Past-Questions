@@ -2,192 +2,161 @@
 
 ## Objectives
 
-**1.** Find the range of values of m which satisfy (m - 3)(m - 4) < 0
-   A) 2 < m < 5
-   B) -3 < m < 4
-   C) 3 < m < 4
-   D) -4 < m < 3
-   **Answer: C**
-   *Explanation: (m - 3)(m - 4) < 0
+**1.** X is due east point of y on a coast. Z is another point on the coast but 6.0km due south of Y. If the distance ZX is 12km, calculate the bearing of Z from X
+   A) 240°
+   B) 150°
+   C) 60°
+   D) 270°
+   **Answer: A**
+   *Explanation: Sinθ = 6/12
 
-(m - 3) < 0 ; (m - 4) < 0
+Sinθ = 1/2
 
-m < 3 ; m < 4
+θ =  Sin 0.5
 
-3 < m < 4*
+θ = 30°
 
-**2.** In the diagram above, QR is in the diameter of the semicircle QR. Find the areas of the figure to the nearest whole number.
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715542656/ALOC-Questions/Mathematics/2006/MATH_JAMB_2006_Q25_vybvn4.jpg)*
-   A) 89 cm<sup>2</sup>
-   B) 70 cm<sup>2</sup>
-   C) 90 cm<sup>2</sup>
-   D) 80 cm<sup>2</sup>
-   **Answer: C**
-   *Explanation: Area of rectangle PQRS
-= 10 x 7 = 70 cm2
-Area of semi circle
-QR = Dπ = 7 x 22/7 = 22cm2
-∴Area of the figure = 70 + 22
-= 92cm<sup>2</sup>
-= 90cm<sup>2</sup>*
-   *(Note: Closest available year from ALOC database: 2006)*
+Bearing of Z from X, (270 - 30)° = 240°*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-**3.** In the diagram above calculate the value of x
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710702104/ALOC-Questions/Mathematics/2005/math_2005_q19_gir53c.jpg)*
-   A) 60°
-   B) 100°
-   C) 120°
-   D) 140°
-   **Answer: C**
-   *Explanation: p + 40° = 100° (exterior ∠ = sum of two interior opp ∠s)
-p = 100° - 40°
-P = 60°
-But q + p = 180° (∠s on a straight line)
-q + 60°
-q = 180° - 60°
-q = 120°
-x = q (corresponding ∠)
-∴x = 120°*
-   *(Note: Closest available year from ALOC database: 2005)*
+**2.** At what rate will the interest on N400 increases to N24 in 3 years reckoning in simple interest?
+   A) 3%
+   B) 2%
+   C) 5%
+   D) 4%
+   **Answer: B**
+   *Explanation: Using simple interest = P × T × R/100,
 
-**4.** A cylindrical tank has a capacity of 3080m<sup>3</sup>
-. What is the depth of the tank if the diameter of its base is 14m?
-   A) 25 cm
-   B) 23 cm
-   C) 22 cm
-   D) 20 cm
-   **Answer: D**
-   *Explanation: V = 2080 cm<sup>3</sup>, h = ? 
+where: P denoted principal = N400
+T denotes time = 3 years
+R denotes interest rate = ?
 
-r = 7 cm
+24 = 400×3×R/100
 
-V = V/πr<sup>2</sup>h
-h = Vπr<sup>2</sup> = 3080/(22/7) × 49
- 
+24 x 100 = 400 x 3 x R
 
-3080/54
- = 20cm*
-   *(Note: Closest available year from ALOC database: utme)*
+R = (24 × 100)/(400 × 3)
 
-**5.** In the diagram above, find the value of x
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715542717/ALOC-Questions/Mathematics/2006/MATH_JAMB_2006_Q29_as5nyb.jpg)*
-   A) 55°
-   B) 50°
-   C) 45°
-   D) 40°
-   **Answer: C**
-   *Explanation: y = 55 (alternate angles)
-x = x (same reason)
-260 + y + x = 360 (∠s at a point)
-260 + 55 + x = 360
-315 + x = 360
-x = 360 - 315
-x = 45°*
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**6.** Let '*' and '^' be two binary operations such that a * b = a<sup>2</sup>b and a ^ b = 2a + b. Find (-4 * 2) ^ (7 * -1).
-   A) -49
-   B) 64
-   C) 113
-   D) 15
-   **Answer: D**
-   *Explanation: Given that, a * b = a<sup>2</sup>b and a ^ b = 2a + b
-
-(-4 * 2) = (-4)<sup>2</sup> x 2 = 16 x 2 = 32
-
-(7 * -1) = 7<sup>2</sup> x (-1) = 49 x (-1) = -49
-
-∴ (-4 * 2) ^ (7 * -1) = 2(32) + (-49) = 64 - 49 = 15*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**7.** At what value of X does the function y = -3 - 2x + X2 attain a minimum value?
-   A) -1
-   B) 14
-   C) 4
-   D) 1
-   **Answer: D**
-   *Explanation: Given that y = -3 - 2x + X<sup>2</sup>
-
-then, dy/dx = -2 + 2x
-
-At maximum value, dydx = O
-
-therefore, -2 + 2x
-
-2x = 2
-
-x = 2/2 = 1*
+= 2%*
    *(Note: Closest available year from ALOC database: 2010)*
 
-**8.** Find the equation of a line perpendicular to line 2y = 5x + 4 which passes through (4, 2).
-   A) 5y - 2x -18 = 0
-   B) 5y + 2x - 18 = 0
-   C) 5y - 2x + 18 = 0
-   D) 5y + 2x - 2 = 0
+**3.** Find the derivative of the function y = 2x<sup>2</sup>(2x - 1) at the point x = -1?
+   A) 18
+   B) 16
+   C) -4
+   D) -6
    **Answer: B**
-   *Explanation: 2y = 5x + 4 (4, 2)
+   *Explanation: y = 2x<sup>2</sup>(2x - 1)
+y = 4x<sup>3</sup> - 2x<sup>2</sup>
 
-y = 5x/2 + 4 comparing with
+dy/dx = 12x<sup>2</sup>
+ - 4x
+at x = -1
+dy/dx = 12(-1)<sup>2</sup>
+ - 4(-1)
+= 12 + 4
+= 16*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-y = mx + e
-
-m = 5/2
-
-
-Since they are perpendicular
-
-m<sub>1</sub>m<sub>2</sub> = -1
-
-m<sub>2</sub> = −1/m<sub>1</sub> = -1
-
-5/2 = -1 x 2/5
-
-
-The equator of the line is thus
-
-y = mn + c (4, 2)
-
-2 = -2/5(4) + c
-
-2/1 + 8/5 = c
-
-c = 18/5
-y = -2/5x + 18/5
-...*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**9.** Evaluate 3(x + 2) > 6(x + 3)
-   A) x < 4
-   B) x > -4
-   C) x < -4
-   D) x > 4
+**4.** Find the remainder when 3x<sup>3</sup> + 5x<sup>2</sup> - 11x + 4 is divided by x + 3
+   A) -4
+   B) 4
+   C) 1
+   D) -1
    **Answer: C**
-   *Explanation: 3(x + 2) > 6(x + 3)
+   *Explanation: x = -3
+substitute x = -3 in 3x<sup>3</sup> + 5x<sup>2</sup> - 11x + 4
+3(-3)<sup>3</sup> + 5(-3)<sup>2</sup> - 11(-3) + 4
+-81 + 45 + 33 + 4
+-81 + 82
+= 1*
+   *(Note: Closest available year from ALOC database: 2004)*
 
-3x + 6 > 6x + 18
+**5.** Factorize 4x<sup>2</sup>  - 9y<sup>2</sup>  + 20x + 25
+   A) (2x -3y + 5)(2x - 3y - 5)
+   B) (2x - 3y)(2x + 3y)
+   C) (2x - 3y +5)(2x + 3y + 5)
+   D) (2x + 5)(2x - 9y +5)
+   **Answer: C**
+   *Explanation: Given: 4x<sup>2</sup> - 9y<sup>2</sup> + 20x + 25
+Collect like terms: 4x<sup>2</sup> + 20x + 25 - 9y<sup>2</sup> (2x + 5)(2x + 5) - 9y<sup>2</sup> 
+(2x + 5)<sup>2</sup> - (3y)<sup>2</sup>                            (2x - 3y +5)(2x + 3y + 5)*
+   *(Note: Closest available year from ALOC database: 2001)*
 
-3x - 6x > 18 - 6
+**6.** The smallest section of a rod which can be cut 36cm in length is
+   A) 90cm
+   B) 180cm
+   C) 360cm
+   D) 540cm.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2007)*
 
--3x > 12
+**7.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
+   A) 1
+   B) 0
+   C) -1/2
+   D) -1
+   **Answer: B**
+   *Explanation: mΔn = m+n+mn
+Let e be the identity element
+∴mΔe = eΔm = m
+m+e+me = m
+e+me = m-m
+e+me = 0
+e(1+m) = 0
+e = 0 / (1+m)
+e = 0*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-x < -4*
-   *(Note: Closest available year from ALOC database: 2013)*
+**8.** Find the simple interest on N325 in 5years at 3% per annum.
+   A) N48.75K
+   B) N50.10K
+   C) N75.50K
+   D) N15.75K
+   **Answer: A**
+   *Explanation: I =[ PRT ÷ 100]
 
-**10.** If y = x<sup>2</sup>  - 1/x, find δy/δx
-   A) 2x - 1/x<sup>2</sup>
-   B) 2x + x<sup>2</sup>
-   C) 2x - x<sup>2</sup>
-   D) 2x + 1x<sup>2</sup>
-   **Answer: D**
-   *Explanation: y = x<sup>2</sup>  - 1/x
+[(325 × 5 × 3) ÷ (100)]
+
+N(195 ÷ 4)
+
+N48.75K*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**9.** A man bought a car for N800 and sold it for N520. Find his loss per cent
+   A) 15%
+   B) 25%
+   C) 35%
+   D) 10%
+   **Answer: C**
+   *Explanation: Percentage Loss = (actual loss ) ÷ (Cost price) × 100
+
+Actual loss = Cost Price − Selling Price (sold price)
+
+= N800 − N520 = N280
+
+Percentage loss = (280 ÷ 800) × 100 = 35%
+
+∴ His loss percent = 35%*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**10.** Evaluate <sup>n</sup><sup>2 </sup> + <sup>1</sup>C<sub>(n+5)</sub> 
+ if n = 3
+   A) 55
+   B) 45
+   C) 35
+   D) 25
+   **Answer: B**
+   *Explanation: <sup>3</sup><sup>2 </sup> + <sup>1</sup>C<sub>(3+5)</sub>
+
+<sup>9+1</sup>C<sub>3+5</sub>
+ 
 
 
-y = x<sup>2</sup>  - x<sup>-1</sup> 
-
-δy/δx = 2x + x<sup>-2</sup> 
-
-
-δy/δx = 2x + 1/x<sup>2</sup>*
+<sup>10</sup>C<sub>8</sub> = 10!/(8!2!)
+(10∗9∗8!)/(8!2!)= (10∗9)/2
+= 45*
+   *(Note: Closest available year from ALOC database: 2022)*
 
 
 ---

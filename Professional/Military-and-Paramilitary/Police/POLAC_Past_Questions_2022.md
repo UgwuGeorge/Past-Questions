@@ -2,72 +2,51 @@
 
 ## Questions
 
-**1.** The Ogboni Cult in the pre-colonial Yoruba political system played the role of the  
-   A) judiciary  
-   B) executive  
-   C) police  
-   D) legislation 
-   **Answer: A**
-
-**2.** The first independence day speech in Nigeria was given by??.
-   A) Muhammadu Buhari
-   B) Obafemi Awolowo
-   C) Tafawa Balewa
-   D) Nnamdi Azikwe
-   **Answer: C**
-
-**3.** All of the following are renowned historians except  
-   A) Prof Ade Ajayi 
-   B) Prof Toyin Falola  
-   C) Prof Obaro Ikime  
-   D) Prof Akin Oyebade 
+**1.** The ratification of the appointment and dismissal of an emir in the pre-colonial Fulani empire was done by
+   A) Emir of Kano  
+   B) Emir of Sokoto  
+   C) Emir of Gwandu  
+   D) B & C
    **Answer: D**
 
-**4.** The colonial government whose constitution introduced elective principle into Nigerian politics was  
-   A) Arthur Richards  
-   B) Fredrick Lugard  
-   C) Hugh Clifford  
-   D) John Macpherson 
-   **Answer: C**
-
-**5.** Nigerian educated elites agitated against colonial rule  
-   A) by bribing colonial governors  
-   B) through lobbying  
-   C) through newspapers 
-   D) by fighting civil war 
-   **Answer: C**
-
-**6.** Gombe State belongs to the ____ geo-political zone in Nigeria 
-   A) South West 
-   B) North East 
-   C) North West 
-   D) South East 
+**2.** An acephalous pre-colonial system is best represented by the  
+   A) Oyo Empire  
+   B) Igbo political organisation  
+   C) Ijaw political organisation  
+   D) Benin Empire 
    **Answer: B**
 
-**7.** Alau Dam and Alan Lake are located in  
+**3.** The Sokoto Jihad led to the formation of Islamic States in following States except  
+   A) Senegal  
+   B) Mali  
+   C) Chad  
+   D) Togo 
+   **Answer: D**
+
+**4.** The capital of Iran is  
+   A) Iranian 
+   B) Dublin 
+   C) Teheran 
+   D) Baghdad 
+   **Answer: C**
+
+**5.** Alau Dam and Alan Lake are located in  
    A) Calabar 
    B) Okitipupa
    C) Maiduguri 
    D) Warri 
    **Answer: C**
 
-**8.** The current Secretary-General of the United Nations is from 
-   A) United Kingdom 
-   B) South Africa 
-   C) South Korea 
-   D) Ukraine 
-   **Answer: C**
+**6.** The full meaning of UEFA is 
+   A) Union of European Federation Associations 
+   B) United European Football Associations 
+   C) Union of English Football Associations 
+   D) Union of European Football Associations 
+   **Answer: D**
 
-**9.** Which of these was never a Senate President in Nigeria? 
-   A) Chuba Okadigbo 
-   B) Pius Anyim 
-   C) Umaru Dikko 
-   D) Ameh Ebute 
-   **Answer: C**
-
-**10.** Maseru is the capital city of  
-   A) Mauritius
-   B) Rwanda 
-   C) Lesotho 
-   D) Gambia 
-   **Answer: C**
+**7.** The Governor of Anambra State 2014 is  
+   A) Mr. Peter Obi 
+   B) Owelle Rochas Okorocha 
+   C) Peter Odili 
+   D) Chris Ngige 
+   **Answer: A**

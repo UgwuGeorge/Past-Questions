@@ -2,192 +2,140 @@
 
 ## Objectives
 
-**1.** find the limit of y = x<sup>3</sup>+6x−7/x−1
- as x tends to 1
-   A) 9
-   B) 8
-   C) 0
-   D) 7
-   **Answer: A**
-   *Explanation: x<sup>3</sup>+6x−7/(x−1):
-
-When numerator is differentiated → 3x<sup>2</sup> + 6  
-
-When denominator is differentiated → 1
-
-: 3x<sup>2</sup>+6/1
-substitute x for 1
-
- 3∗1<sup>2</sup>+6/1 =  (3+6)/1
- 
-
-=  9/1
-= 9*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**2.** Solve 5<sup>(2(x-1))</sup> × 5<sup>(x+1)</sup>=0.04
-   A) 1/3
-   B) 1/4
-   C) -1/5
-   D) -1/3
-   **Answer: D**
-   *Explanation: 5<sup>(2(x-1))</sup> × 5<sup>(x+1)</sup> = 0.04 
-5<sup>(2(x-1))</sup>  × 5<sup>(x+1)</sup> =5<sup>−2</sup>
-2x − 2 + x + 1 = −2
-3x − 1 = −2 ⟹ 3x = −2 + 1 = −1
-x =−1/3*
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**3.** A senatorial candidate had planned to visit seven cities prior to a primary election. However, he could only visit four of the cities. How many different itineraries could be considered?
-   A) 640
-   B) 840
-   C) 520
-   D) 920
+**1.** The range of the data: k+2, k-3, k+4, k-2, k, k-5, k+3, k-1, and k+6 is
+   A) 10
+   B) 11
+   C) 6
+   D) 8
    **Answer: B**
-   *Explanation: Number of itineraries = <sup>7</sup>P<sub>4</sub>. 7!/((7-4)!)=7!/3!=(7×6×5×4×3!)/3!=840*
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: Range = Highest value - Lowest value
 
-**4.** Find the area, to the nearest cm<sup>2</sup>, of the triangle whose sides are in the ratio 2 : 3 : 4 and whose perimeter is 180 cm.
-   A) 1162 cm<sup>2</sup>
-   B) 1163 cm<sup>2</sup>
-   C) 1160 cm<sup>2</sup>
-   D) 1161 cm<sup>2</sup>
-   **Answer: A**
-   *Explanation: Let the length of the sides of triangle be 2x, 3x and 4x.
+= (k + 6) - (k - 5)
 
-Perimeter of triangle = 180cm
+= 11*
+   *(Note: Closest available year from ALOC database: 2002)*
 
-⇒ 2x + 3x + 4x = 180
-⇒ 9x = 180
-⇒ x=180/9
- = 20 cm
-
-Then the sides of the triangle are:
-
-2x = 2 × 20 = 40 cm; 3x = 3 × 20 = 60cm and 4x = 4 × 20 = 80cm
-
-Using Heron's formula
-
-Area of triangle = s√(s−a)(s−b)(s−...*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**5.** I.S∩T∩W=S II. S ∪ T ∪ W = W
-III. T ∩ W = S
-If S⊂T⊂W, which of the above statements are true?
-   A) I and II
-   B) I and III
-   C) II and III
-   D) I, II and III
-   **Answer: A**
-   *Explanation: If S ⊂ T ⊂ W,
-
-S ∩ T ∩ W = S is true since S ∩ T = S and S ∩ W = S.
-
-S ∪ T ∪ W = W is also true. S ∪ T = T and T ∪ W = W.
-
-However, to say that T ∩ W = S is not very true mathematically. Instead, it is safe to say S ⊂ (T ∩ W).*
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**6.** The third term of an A.P is 6 and the fifth term is 12. Find the sum of its first twelve terms
-   A) 201
-   B) 144
-   C) 198
-   D) 72
-   **Answer: C**
-   *Explanation: T<sub>3</sub>  = 6
-
-T<sub>5</sub>  = 12
-
-S<sub>12</sub>  = ?
-
-T<sub>n</sub>  = a + (n - 1)d
-
-⇒ T<sub>3</sub>  = a + 2d = 6 ----- (i)
-
-⇒ T<sub>5</sub>  = a + 4d = 12 ----- (ii)
-
-Subtract equation (ii) from (i)
-
-⇒ -2d = -6
-
-⇒ d(−6/−2) = 3
-
-Substitute 3 for d in equation (i)
-
-⇒ a + 2(3) = 6
-
-⇒ a + 6 = ...*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**7.** A poultry farmer realized 200 eggs from his birds and sold 5(1/2) crates of eggs. What percentages of eggs are left?
-   A) 82.5%
-   B) 15%
-   C) 17.5%
-   D) 85%
-   **Answer: C**
-   *Explanation: 5 crates = 30 eggs * 5 = 150eggs
-
-1/2 crate = 15 eggs
-
-Total sold = 165
-
-remainder = 200 - 165 = 35
-
-And 35 is equivalent 17.5% of the realized eggs*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**8.** The marks scored by 30 students in a Mathematics test are recorded in the table below: What is the total number of marks scored by the children?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724006858/ALOC-Questions/Mathematics/2019/MATH_JAMB_2019_Q20_r3zmlm.jpg)*
-   A) 82
-   B) 15
-   C) 63
-   D) 75
+**2.** If α and β are the roots of the equation 3x<sup>2</sup + 5x - 2 = 0, find the value of 1/α + 1/β
+   A) -5/4
+   B) -2/3
+   C) 1/2
+   D) 5/2
    **Answer: D**
+   *Explanation: 1/α + 1/β = β+α/αβ
+3x<sup>2</sup + 5x - 2 = 0
+x<sup>2</sup + 5x/3 - 2/3 = 0
+αβ = -2/3
+β+α = -5/3
+Thus; β+α/αβ = -2/3 -2/3 = -5/2*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**3.** (2/3÷4/5)/(1/4+3/5-1/3)
+   A) 31/50
+   B) 20/31
+   C) 31/20
+   D) 50/31
+   **Answer: D**
+   *Explanation: (2/3÷4/5)/(1/4+3/5-1/3).  2/3÷4/5=2/3×5/4 = 5/6                         1/4+3/5-1/3=(15+36-20)/60 = 31/60  ∴ ∴(2/3÷4/5)/(1/4+3/5-1/3)=5/6÷31/60 = 5/6 x 60/31 = 50/31*
    *(Note: Closest available year from ALOC database: 2019)*
 
-**9.** Evaluate <sup>n+1</sup>C<sub>n-2</sub> If n =15
-   A) 3630
-   B) 3360
-   C) 1120
-   D) 560
+**4.** A car uses one litre of petrol for every 14km. If one litre of petrol cost N63.00, how far can the car go with N900.00 worth of petrol?
+   A) 420 Km
+   B) 405 Km
+   C) 210 Km
+   D) 200 Km
    **Answer: D**
-   *Explanation: n+1(n−2)/(n+1)!
+   *Explanation: since 1litre cost ₦63
 
+  So ₦900 is the cost of 90/063
+ litres
 
-(n+1)+(n−2)!(n−2)!/(n+1)!
+= 14.2857litres of petrol
 
+nbsp; The car uses 1 litre for 14 km
 
-(n+1)(n+1−1)(n+1−2)(n+1−3)/!3!(n−2)!
+So 14.2857 litres will be used for (14.2857 x 14)
 
+  = 200 km*
+   *(Note: Closest available year from ALOC database: 2018)*
 
-(n+1)(n)(n−1)(n−2)/!3!(n−2)!
-
-
-(n+1)(n)(n−1/)3!
-
-
-Since n = 15
-
-(15+1)(15)(15−1)/3!
-
-
-16×15×14/3×2×1
-
-
-= 560*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**10.** Find the range of values of x which satisfy the inequalities 4x - 7 ≤ 3x and 3x - 4 ≤ 4x
-   A) -4 ≤ x ≤ 7
-   B) -7 ≤ x ≤ 4
-   C) x ≥ -7
-   D) -7 ≤ x ≤ 6
+**5.** A binary operation * on the set of rational numbers is defined asx×y=(x^2-y^2)/2xy find-5×3
+   A) -8/15
+   B) 8/15
+   C) 17/15
+   D) -17/15
    **Answer: A**
-   *Explanation: 4X - 7 ≤ 3X and 3X - 4 ≤ 4X
-4X - 3X ≤ 7 and 3X - 4X ≤ 4
-X ≤ 7 and -X ≤ 4 = X ≥ -4
-Range -4 ≤ x ≤ 7*
+   *Explanation: (x)×(y)=(x<sup>2</sup>-y<sup>2</sup>)/2xy find-5×3=((x+y)(x-y))/2xy=((-5+3)(-5-3))/(2(-5×3))=(-2×-8)/(2(-5×3))=(-8)/15*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**6.** Given that the first and forth terms of G.P are 6 and 162 respectively, find the sum of the first three terms of the progression
+   A) 27
+   B) 8
+   C) 78
+   D) 48
+   **Answer: C**
+   *Explanation: a=6,U<sub>4</sub> =162. U<sub>4</sub>=ar<sup>(4-1)</sup> UU<sub>4</sub> = ar<sup>3</sup> 162=6(r)<sup>3</sup>. r<sup>3</sup>=27. r=∛27.  r=3.  S<sub>4</sub>=(a(r<sup>n</sup>-1))/(r-1)=(6(3<sup>3</sup>-1))/(3-1)=(6(27-1))/2=3×26=78*
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**7.** In a class of 40 students, 32 offer Mathematics, 24 offer Physics and 4 offer neither Mathematics nor Physics. How many offer both Mathematics and Physics?
+   A) 4
+   B) 8
+   C) 16
+   D) 20
+   **Answer: D**
+   *Explanation: Let the number of people that offer both Mathematics and Physics = y
+
+Then, (32−y)+y+(24−y)+4=40
+60−y=40⟹y=20
+∴
+20 students offer both Mathematics and Physics.*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**8.** The table above shows the frequency distribution of marks obtained by a group of students. If the total mark is 48, find the value of y.
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724003093/ALOC-Questions/Mathematics/2016/MATH_JAMB_2016_Q19_gwzbht.jpg)*
+   A) 6
+   B) 8
+   C) 7
+   D) 5
+   **Answer: C**
+   *Explanation: (2 x 4) + (3 x 4) + (4 x y) = 48
+8 + 12 + 4y = 48
+4y = 48 - 20
+4y/4 = 28/4
+y = 7*
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**9.** The cost of kerosene per liter increased from N60 to N85. What is the percentage rate of increase?
+   A) 42%
+   B) 41%
+   C) 40%
+   D) 25%
+   **Answer: A**
+   *Explanation: N85 - N60 = N25 increase
+∴percentage increase 25/60 × 100/1 = 125/3 = 41.67 = 42*
    *(Note: Closest available year from ALOC database: 2008)*
+
+**10.** Evaluate Log<sub>2</sub> 8 + Log<sub>2</sub> 16 - Log<sub>2</sub> 4
+   A) 3
+   B) 4
+   C) 5
+   D) 6
+   **Answer: C**
+   *Explanation: =log<sub>2</sub> (8 × 16)/4
+
+
+=log<sub>2</sub> 32
+
+=log<sub>2</sub> 2<sup>5</sup> 
+
+
+=5log<sub>2</sub>2 
+
+
+= 5 × 1
+
+
+= 5*
+   *(Note: Closest available year from ALOC database: 2014)*
 
 
 ---
