@@ -2,150 +2,143 @@
 
 ## Objectives
 
-**1.** The 3rd term of an arithmetic progression is -9 and the 7th term is -29. Find the 10th term of the progression
-   A) -44
-   B) -165
-   C) 165
-   D) 44
-   **Answer: A**
-   *Explanation: 3rd term : a + 2d = -9 .......(1)
-7th term : a + 6d = -29 ......(2)
-(2) - (1): 4d = -20
-:. d = -20/4 = -5
-From (1) : a + 2(-5) = -9
-a - 10 = -9
-:. a = -9 + 10 = 1
-:. 10th term of A.P is a + 9d = 1 + 9 (-5)
-= 1 - 45 = -44*
-   *(Note: Closest available year from ALOC database: 2010)*
+**1.** An arc of a circle of radius 14cm subtends angle 300° at the centre. Find the perimeter of the sector formed by the arc (take π = 22/7)
+   A) 14.67 cm
+   B) 73.33 cm
+   C) 101.33 cm
+   D) 513.33 cm
+   **Answer: C**
+   *Explanation: Length of the arc = θ/360 × 2πr
+= 300/360 × 2 × 22/7 × 14
+= 220/3
+= 73.33 cm
 
-**2.** A regular polygon has each of it angles as 1600. What is the number of sides of the polygon?
-   A) 18,
-   B) 36,
-   C) 9,
-   D) 20
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
+Perimeter of the sector = Length of the arc + 2r
 
-**3.** A solid hemisphere has a radius of 7 cm. Find the total surface area.
-   A) 400 cm<sup>2</sup>
-   B) 462 cm<sup>2</sup>
-   C) 66 cm<sup>2</sup>
-   D) 308 cm<sup>2</sup>
-   **Answer: B**
-   *Explanation: Total surface area of hemisphere = half of TSA of sphere + circumference of circle
+= 73.33 + 2(14)
 
-= 2πr<sup>2</sup> + πr<sup>2</sup> = 3πr<sup>2</sup>
-= 3 × (22)/7 × 7<sup>2</sup> = 462cm<sup>2</sup>*
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**4.** The table above shows the scores of 20 students in further mathematics test. What is the range of the distribution?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716131294/ALOC-Questions/Mathematics/2013/JAMB_MATH_2013_Q27_hctpg2.jpg)*
-   A) 7
-   B) 6
-   C) 3
-   D) 10
-   **Answer: A**
-   *Explanation: Range = Highest score - Lowest score
-
-= 10 - 3
-
-= 7*
-
-**5.** A machine valued at N20,000 depreciates by 10% every year. What will be the value of the machine at the end of two years?
-   A) N16,200
-   B) N14,200
-   C) N12,000
-   D) N8,000
-   **Answer: A**
-   *Explanation: Since it depreciates by 10% At the end of first year, its value = 90% of 20000
-
-= 90/100
- x 20000 =18000
-
-  At the end of second year, its value = 90% of 18000
-
-  = 90/100
- x 18000 = ₦16,200*
+= 101.33 cm*
    *(Note: Closest available year from ALOC database: 2018)*
 
-**6.** In the figure, find x
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724005818/ALOC-Questions/Mathematics/2017/MATH_JAMB_2017_Q22_hjbo4i.jpg)*
-   A) 40°
-   B) 55°
-   C) 50°
-   D) 60°
-   **Answer: A**
-   *Explanation: Sum of angle at a point = 360°
+**2.** The shaded region in the Venn diagram above is
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710700796/ALOC-Questions/Mathematics/2004/math_2004_q39_uuly9k.jpg)*
+   A) Pc ∪ (Q ∩ R)
+   B) Pc ∩ (Q ∪ R)
+   C) P ∩ Q
+   D) Pc ∩ (Q ∩ R)
+   **Answer: D**
+   *Explanation: The shaded portion shows the elements in Q and R, but not in P, Q n R n P'*
+   *(Note: Closest available year from ALOC database: 2004)*
 
-2x + 3x + 4x = 360
+**3.** Calculate the perimeter of a sector of a circle of raduis 9cm and angle 36o.
+   A) 18cm
+   B) (18 + 9π/5)cm
+   C) (9 + 9π/5)cm
+   D) 9π/5cm
+   **Answer: B**
+   *Explanation: Perimeter = 2r + θ/360
+ x 2πr
+2(9) + 36/360 x 2 x π x 9 = 18 + 9π/5*
+   *(Note: Closest available year from ALOC database: 2016)*
 
-9x = 360
+**4.** What is the place value of 9 in the number 3.0492?
+   A) 9/10000
+   B) 9/1000
+   C) 9/100
+   D) 9/10
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2018)*
 
-x = 360/9
-
-
-x = 40°*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**7.** Solve for x and y in the equations below
-x<sup>2</sup>  - y<sup>2</sup>  = 4
-x + y = 2
-   A) x = 0, y = -2
-   B) x = 0, y = 2
-   C) x = 2, y = 0
-   D) x = -2, y = 0
-   **Answer: C**
-   *Explanation: x<sup>2</sup>  - y<sup>2</sup>  = 4 .... (1)
-x + y = 2 .... (2)
-
-Simplify eqn (1)
-
-(x + y)(x - y) = 4
-
-From eqn (2)
-x + y = 2 so substitute it into simplified eqn (1), we have
-
-2 (x - y) = 4
-
-therefore,
-x - y = 2 ... (1)
-x + y = 2
----------
-2x = 4
----------
-
-x = 2, when y = 0*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** In the diagram above, PQ = 10 cm, PS = 8 cm and ∠PSR is 60o while ∠SRQ is a right angle. Find SR
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715542791/ALOC-Questions/Mathematics/2006/MATH_JAMB_2006_Q35_tsamyg.jpg)*
-   A) 14 cm
-   B) 14√3 cm
-   C) 10 cm
-   D) 10√3 cm
-   **Answer: A**
-   *Explanation: In ΔPST; cos 60 = ST/8
-ST = 8cos 60
-ST = 8 x 1/2 = 4
-TR = 10 cm (opp. sides of a rectangle PQRT)
-SR = ST + TR
-SR = 4 + 10
-SR = 14 cm*
+**5.** In a small village of 500 people, 350 speak the local language while 200 speak pidgin English. What percentage of the population speak both.
+   A) 30%
+   B) 10%
+   C) 50%
+   D) 14%
+   **Answer: B**
+   *Explanation: Let n(L∩P) = x
+n(L) only = 350 - x
+n(P) only = 200 - x
+∴350 - x + x + 200 - x = 500
+550 - x = 500
+x = 550 - 500
+x = 50 speak both
+∴x% = (50/500) * (100/1)
+= 10%*
    *(Note: Closest available year from ALOC database: 2006)*
 
-**9.** 
-   **Answer: **
+**6.** In a school, 220 students offer Biology or Mathematics or both. 125 offer Biology and 110 mathematics. How many offer Biology but not Mathematics?
+   A) 95
+   B) 80
+   C) 125
+   D) 110
+   **Answer: D**
+   *Explanation: Hint: Represent the question in a venn diagram, such that
+n(B ∩ M) = x
+n(B) only = 125-x
+n(M) only = 110-x
+=> 125-x + 110-x + x = 220
+=> x = 15.
+
+n(B) only = 125 - 15 = 110*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**7.** A woman bought a grinder for N60,000. She sold it at a loss of 15%. How much did she sell it?
+   A) N53,000
+   B) N52,000
+   C) N51,000
+   D) N50,000
+   **Answer: C**
+   *Explanation: SP = Nx
+CP = N60,000
+Percentage loss = 15%
+Using percentage loss...
+
+(CP−SP)/CP = 100%
+
+
+15% = (60000− x)/ 60000 × 100%
+
+
+15% × 60000=(60000−x)100%
+
+
+60000 − x = (15% × 60000)100%
+
+
+60000 - x = 3 x 3000
+
+60000 -x = 9000
+
+x = 60000 - 9000
+
+x = N51,000*
    *(Note: Closest available year from ALOC database: 2014)*
 
-**10.** if 6x<sup>3</sup>+2x<sup>2</sup>-5x+1 divides x<sup>2</sup>−x−1
-, find the remainder.
-   A) 9x + 9
-   B) 2x + 6
-   C) 6x + 8
-   D) 5x - 3
+**8.** P(-6, 1) and Q(6, 6) are the two ends of the diameter of a given circle. Calculate the radius
+   A) 6.5 units
+   B) 13.0 units
+   C) 3.5 units
+   D) 7.0 units
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2019)*
+   *Explanation: PQ<sup>2</sup>  = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup>   + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup> 
+ 
+
+= 12<sup>2</sup>  + 5<sup>2</sup>  
+= 144 + 25
+= 169
+
+PQ = √169 = 13
+
+But PQ = diameter = 2r, r = PQ/2 = 6.5 units*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**9.** What is the product of 27/5 ¸(3)3 and (1/5)
+   A) 5
+   B) 3
+   C) 2
+   D) 1
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
 
 
 ---

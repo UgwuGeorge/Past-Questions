@@ -92,6 +92,10 @@ def run_population():
             filename = f"NECO_{folder_name}_{year}.md"
             filepath = os.path.join(full_folder, filename)
             
+            # Skip if already populated (size > 1000 bytes as a safe threshold)
+            if os.path.exists(filepath) and os.path.getsize(filepath) > 1000:
+                print("already populated")
+                continue
             md_lines = [f"# NECO {subject_label} Past Questions ({year})\n", "## Objectives\n"]
             for i, q in enumerate(collected, 1):
                 md_lines.append(format_question_block(q, i, year))

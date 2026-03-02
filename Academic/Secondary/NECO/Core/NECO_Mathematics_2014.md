@@ -2,150 +2,161 @@
 
 ## Objectives
 
-**1.** Find the equation of a straight line parallel to the line 2x - y = 5 and having intercept of 5
-   A) 2x + y = 5
-   B) 2x + y = -5
-   C) 2x - y = -5
-   D) 2x - y = 5
-   **Answer: C**
-   *Explanation: Condition for Parallelism means that their gradient value is same
-
-line 2x - y = 5 is rearranged
-
-As y = 2x - 5 from y = mx + c
-
-: line 2x - y = 5 has the gradient of 2
-
-A parallel line with gradient of 2 and intercept of 5
-
-→ 2x - y = -5
-
-Rearranged as y = 2x + 5*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**2.** A cylindrical tank has a capacity of 3080m<sup>3</sup>
-. What is the depth of the tank if the diameter of its base is 14m?
-   A) 25 cm
-   B) 23 cm
-   C) 22 cm
-   D) 20 cm
-   **Answer: D**
-   *Explanation: V = 2080 cm<sup>3</sup>, h = ? 
-
-r = 7 cm
-
-V = V/πr<sup>2</sup>h
-h = Vπr<sup>2</sup> = 3080/(22/7) × 49
- 
-
-3080/54
- = 20cm*
-   *(Note: Closest available year from ALOC database: utme)*
-
-**3.** A particle P moves between points S and T such that angles SPT is always constant of ST constant. Find the locus of P
-   A) It is a semi circle with ST as diameter
-   B) It is a perpendicular bisector of St
-   C) It is a quadrant of a circle with ST as diameter
-   D) It is a straight line perpendicular to ST
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** The range of the data: k+2, k-3, k+4, k-2, k, k-5, k+3, k-1, and k+6 is
-   A) 10
-   B) 11
-   C) 6
-   D) 8
-   **Answer: B**
-   *Explanation: Range = Highest value - Lowest value
-
-= (k + 6) - (k - 5)
-
-= 11*
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**5.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
-   A) 1
-   B) 0
-   C) -1/2
-   D) -1
-   **Answer: B**
-   *Explanation: mΔn = m+n+mn
-Let e be the identity element
-∴mΔe = eΔm = m
-m+e+me = m
-e+me = m-m
-e+me = 0
-e(1+m) = 0
-e = 0 / (1+m)
-e = 0*
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**6.** Which of the following equations represent the graph above?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547011/ALOC-Questions/Mathematics/2009/MATH_2009_Q12_dxlsag.jpg)*
-   A) y = 2+7x+4x<sup>2</sup>
-   B) y = 2-7x+4x<sup>2</sup>
-   C) y = 2+7x-4x<sup>2</sup>
-   D) y = 2-7x-4x<sup>2</sup>
-   **Answer: D**
-   *Explanation: x = -2 and x = 1/4
-x = -2 and 4x = 1
-x+2 and 4x-1
-(x+2)(4x-1) = 0
-4x2 - x + 8x -2 = 0
-4x2 + 7x – 2 = 0 but y intercept is positive. Multiply the equation by -1
--4x2 - 7x + 2 = 0
-∴y = 2 – 7x – 4x<sup>2</sup>*
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**7.** If tan θ = 5/4, find sin<sup>2</sup>θ - cos<sup>2</sup>θ.
-   A) 5/4
-   B) 41/9
-   C) 9/41
+**1.** Find the variance of 2x, 2x-1 and 2x+1
+   A) 2/3
+   B) 2
+   C) √(2/3)
    D) 1
-   **Answer: C**
-   *Explanation: Tan θ = 5/4
-x<sup>2</sup> = 5<sup>2</sup> + 42
-= 25 + 16
-= 41
-x = √41
-sin<sup>2</sup>θ - cos<sup>2</sup>θ = (5/√41)<sup>2</sup> - (4/√41)<sup>2</sup>
-= 25/41 - 16/41
-= 9/41*
+   **Answer: A**
+   *Explanation: ∑x=6x∑(x-¯x )<sup>2</sup> =2¯x=(∑x)/n=6x/3=2xVariance=(∑(x-¯x )<sup>2</sup> )/n=2/3*
    *(Note: Closest available year from ALOC database: 2006)*
 
-**8.** Evaluate ∫<sup>2</sup><sub>1</sub> 5/x
- dx
-   A) 1.47
-   B) 2.67
-   C) 3.23
-   D) 3.47
+**2.** Correct 241.34(3 x 10<sup>-3</sup>
+)2<sup>2</sup>
+ to 4 significant figures
+   A) 0.0014
+   B) 0.001448
+   C) 0.0022
+   D) 0.002172
    **Answer: D**
-   *Explanation: ∫5/x dx = 5 ∫1/x = 5Inx
+   *Explanation: first work out the expression and then correct the answer to 4 s.f = 241.34..............(A)
 
-Since the integral of 1/x is Inx
+(3 x 10<sup>-3</sup>)<sup>2</sup>............(B)
 
- ∫<sup>2</sup><sub> 1</sub>
-∫ 5/x dx = 5
+= 3<sup>2</sup>x<sup>2</sup>
 
- dx = 5 (In<2 – InIn1)
 
-  = 3.4657
+= 1/10<sup>3</sup>
+ x 1/10<sup>3</sup>
 
-  = 3.47*
-   *(Note: Closest available year from ALOC database: 2018)*
 
-**9.** In how many ways can the word MACICITA be arranged?
-   A) 8!/2!
-   B) 8!/3!2!
-   C) 8!/2!2!2!
-   D) 8!
+(Note that x<sup>2</sup> = 1/x<sup>3</sup>)
+
+= 24.34 x 3<sup>2</sup> x 1/10<sup>6</s...*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**3.** Find the range of the value of x satisfying the inequalities 5 + x ≤ 8 and 13 + x ≥ 7
+   A) -3 ≤ x ≤ 3
+   B) 3 ≤ x ≤ 6
+   C) -6 ≤ x ≤ 3
+   D) -6 ≤ x ≤ -3
    **Answer: C**
-   *Explanation: MACICITA is an eight letter word = 8!
+   *Explanation: 5 + x ≤ 8 and 13 + x ≥ 7
+5 + x ≤ 8
+X ≤ 8 – 5
+X ≤ 3
+And 13 + x ≥ 7
+X ≥ 7 – 15
+X ≥ -7
+Combining the two together
+-6 ≤ x ≤ 3*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-Since we have repeating letters, we have to divide to remove duplicates accordingly. There are 2A, 2C, 2I
+**4.** Factorize 6x2 – 14x – 12
+   A) 2(x + 3)(3x – 2)
+   B) 6(x – 2)(x + 1)
+   C) 2(x – 3)(3x + 2)
+   D) 6(x + 2)(x – 1)
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
 
-∴ 8!/2!2!2!*
-   *(Note: Closest available year from ALOC database: 2017)*
+**5.** A student sitting on a tower 68 metres high observes his principal's car at the angle of depression of 20°. How far is the car from the bottom of the tower to the nearest metre?
+   A) 184 m
+   B) 185 m
+   C) 186 m
+   D) 187 m
+   **Answer: D**
+   *Explanation: Tan 20° = 68m/x
+
+x tan 20° = 68
+
+x = 68/tan20 = 68/0.364
+
+x = 186.8
+
+= 187m*
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**6.** How many sides has a regular polygon whose interior angle is 135°?
+   A) 12
+   B) 10
+   C) 9
+   D) 8
+   **Answer: D**
+   *Explanation: If each interior angle of the polygon is 135°, then each exterior angle is 180° - 135° = 45°.
+
+Hence, number of sides =
+
+360°/one exterior angle
+
+
+360°/45°
+
+
+= 8*
+
+**7.** If p : q = 2/3 : 5/6 and q : r = 3/4 : 1/2, find p : q : r
+   A) 12 : 15 : 10
+   B) 12 : 15 : 16
+   C) 10 : 15 : 24
+   D) 9 : 10 : 15
+   **Answer: A**
+   *Explanation: If p : q = 2/3 : 5/6, then the sum S1 of ratio = 2/3 + 5/6 = 9/6
+
+If q : r = 3/4 : 1/2, then the sum S2 of ratio = 3/4 + 1/2 = 5/4
+
+Let p + q = T1, then
+
+q = (5/6÷9/6)T1 = (5/6×6/9)T1 = 5/9T1
+
+Again, let q + r = T2, then
+
+q = (3/4÷5/4)T2 = (3/4×4/5)T2 = 3/5T2
+
+Using q = q
+
+5/9T1 = 3/5T2
+
+5 x 5T1 = 9...*
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**8.** An unbiased die is rolled 100 times and the outcome is tabulated above.
+What is the probability of obtaining a 5?
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710700694/ALOC-Questions/Mathematics/2004/math_2004_q17_mka1pg.jpg)*
+   A) 1/5
+   B) 1/2
+   C) 1/6
+   D) 1/4
+   **Answer: A**
+   *Explanation: Number of times 5 was obtained = 20
+P(obtaining 5) = 20/100
+= 1/5*
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**9.** In a group of 500 people, 350 people can speak English, and 400 people can speak French. Find how many people can speak both languages.
+   A) 750
+   B) 850
+   C) 250
+   D) 150
+   **Answer: C**
+   *Explanation: Let F be the set of people who can speak French and E be the set of people who can speak English. Then,
+
+n(F) = 400
+
+n(E) = 350
+
+n(F ∪ E) = 500
+
+We have to find n(F ∩ E).
+
+Now, n(F ∪ E) = n(F) + n(E) – n(F ∩ E)
+
+⇒ 500 = 400 + 350 – n(F ∩ E)
+
+⇒ n(F ∩ E) = 750 – 500 = 250.
+
+∴ 250 people can speak both...*
+   *(Note: Closest available year from ALOC database: 2023)*
 
 
 ---
