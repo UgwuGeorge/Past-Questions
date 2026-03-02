@@ -1,7 +1,8 @@
-import requests
+import requests  # type: ignore
 import json
 import os
 import time
+from typing import Dict, Any, Optional, cast
 
 BASE_PATH = r'C:\Users\USER\.gemini\antigravity\scratch\Past-Questions'
 API_BASE = 'https://questions.aloc.com.ng/api/v2/q'
@@ -46,32 +47,39 @@ def fetch_question(subject, year):
         print(f"Error fetching {subject} {year}: {e}")
         return None
 
-def format_question_block(q, idx, year):
+def format_question_block(q: Any, idx: int, year: int) -> str:
     if not isinstance(q, dict):
         return ""
-        
-    question_text = str(q.get('question', '')).strip()
-    options = q.get('option')
+    
+    q_dict = cast(Dict[str, Any], q)
+    question_text = str(q_dict.get('question', '')).strip()
+    
+    options = q_dict.get('option')
     if not isinstance(options, dict):
         options = {}
+    options_dict = cast(Dict[str, Any], options)
         
-    answer = str(q.get('answer', '')).strip().upper()
-    solution_raw = q.get('solution', '')
+    answer = str(q_dict.get('answer', '')).strip().upper()
+    solution_raw = q_dict.get('solution', '')
     solution = str(solution_raw if solution_raw is not None else '').strip()
-    image = q.get('image', '')
-    actual_year = q.get('examyear', '')
+    image = q_dict.get('image', '')
+    actual_year = q_dict.get('examyear', '')
 
     lines = [f"**{idx}.** {question_text}"]
     if image: lines.append(f"   *(See diagram: {image})*")
     for key in ['a', 'b', 'c', 'd', 'e']:
-        val = str(options.get(key, '') if options.get(key) is not None else '').strip()
+        val = str(options_dict.get(key, '') if options_dict.get(key) is not None else '').strip()
         if val: lines.append(f"   {key.upper()}) {val}")
     lines.append(f"   **Answer: {answer}**")
     
     if solution and solution.lower() != 'none':
-        # Cast to string explicitly to satisfy stricter linters for slicing
+        # Use explicit string slicing with start and end to satisfy stricter linters
         sol_str = str(solution)
-        sol_short = sol_str[:300] + ('...' if len(sol_str) > 300 else '')
+        limit = 300
+        if len(sol_str) > limit:
+            sol_short = sol_str[0:limit] + '...'
+        else:
+            sol_short = sol_str
         lines.append(f"   *Explanation: {sol_short}*")
         
     if actual_year and str(actual_year) != str(year):
