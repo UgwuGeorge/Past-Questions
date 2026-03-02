@@ -6,7 +6,7 @@ from typing import List, Dict
 # Configure Gemini
 api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("models/gemini-flash-latest")
+model = genai.GenerativeModel("models/gemini-2.0-flash")
 
 class AIEngine:
     @staticmethod

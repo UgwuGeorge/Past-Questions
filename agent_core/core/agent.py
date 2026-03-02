@@ -267,7 +267,7 @@ class ExamAgent:
             self.get_session_summary
         ]
         
-        agent_model = genai.GenerativeModel("models/gemini-flash-latest", tools=tools)
+        agent_model = genai.GenerativeModel("models/gemini-2.0-flash", tools=tools)
         
         chat_session = agent_model.start_chat(
             history=[
