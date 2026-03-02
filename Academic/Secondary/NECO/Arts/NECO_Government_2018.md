@@ -2,84 +2,100 @@
 
 ## Objectives
 
-**1.** The fees collected by local governments at motor parks represents
-   A) levies
-   B) fines
-   C) income tax
-   D) user charge
+**1.** Under military regimes in Nigeria, the branches of government that were fused are:
+   A) executive and the legislature
+   B) executive and the judiciary
+   C) legislature and the judiciary
+   D) executive, the legislative and the judiciary
    **Answer: A**
-   *Explanation: The fees collected by local governments at motor parks represents levies*
-   *(Note: Closest available year from ALOC database: 2002)*
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**2.** Socialism is a mode of production based on
-   A) state state ownership of the means of production
-   B) collective ownership of the means of production
-   C) national ownership of the means of productions
-   D) mixed ownership of means of production
+**2.** A political system which empowers the leader with the ultimate responsibility to execute laws is
+   A) parliamentarianism
+   B) presidentialism
+   C) dictatorship
+   D) autocracy.
    **Answer: B**
-   *Explanation: Socialism is primarily defined by the principle that the means of production—such as factories, resources, and infrastructure—are owned collectively by the community rather than by private individuals. This collective or communal ownership is intended to ensure that production and the benefits deriv...*
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**3.** A major consequence of proportional representation is that it
-   A) reduces the chances of political instability
-   B) favours the development of a two-party system
-   C) discourages voting along ethnic lines
-   D) encourages the proliferation of parties
-   **Answer: D**
-   *Explanation: A major consequence of proportional representation is that it encourages the proliferation of parties, as the possibility of obtaining separate representation is there for each party no matter how small.*
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**4.** The private ownership of the means of production is a feature of
-   A) capitalism
-   B) socialism
-   C) communalism
-   D) communism.
-   **Answer: A**
    *(Note: Closest available year from ALOC database: 2012)*
 
-**5.** Which of the following parties formed the opposition in the House of Representatives during Nigerian first republic?
-   A) NCNC and NEPU
-   B) AG and UMBC
-   C) NPC and NNDP
-   D) NCNC and MDF
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**6.** The ultimate aim of a communist system of government is 	the distribution of goods and services according to
-   A) age
-   B) qualification
-   C) party loyalty
-   D) need, want and ability
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 1988)*
-
-**7.** As an executive, the commissioner is charged with the responsibility of
-   A) making laws
-   B) implementing laws
-   C) writing laws
-   D) giving loans.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**8.** Which of the following is the function of the Council of the Ministers of the O.A.U
-   A) Cordinating of the general policy of the organization
-   B) Directing the finances of the organization
-   C) Preparing the agenda of the organization's meetings
-   D) Reviewing the functions and activities of other organs of the organizations
-   **Answer: C**
-   *Explanation: Preparing the agenda of the organisation's meeting is the function of the council of Ministers of the O.A.U.
-
-The Council of Ministers is the body which is composed of the foreign ministers of member countries. it meets about twice a year but extra-ordinary meetings may be called if and such a reque...*
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**9.** Who re-organised the Nigeria's four regions into twelve states in May 1967?
-   A) General Yakubu Gowon
-   B) Lieutenant-Colonel Ojukwu
-   C) Philip Effiong
-   D) Abubakar Tafawa Balewa
+**3.** The most representative organ of the united nations is the_______
+   A) General Assembly
+   B) Security Council
+   C) Economic and Social Council
+   D) International Court of Justice
    **Answer: A**
-   *Explanation: On May 27, 1967, General Yakubu Gowon, who was Nigeria’s Head of State at the time, announced the creation of twelve states from the existing four regions (Northern, Western, Eastern, and Mid-Western regions). This was done to reduce ethnic tensions and prevent the secession of the Eastern Region (w...*
-   *(Note: Closest available year from ALOC database: 2021)*
+   *Explanation: General Assembly. The UN General Assembly comprises the Heads of State and Government of all the State Parties in the UN body.*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**4.** Which of the following was not established by the 1979 Nigerian constitution?
+   A) Police Service Commission
+   B) National Universities Commission
+   C) Federal Electoral Commission
+   D) National Population Commission
+   **Answer: B**
+   *Explanation: The National Universities Commission (NUC) was established earlier, in 1962, by the Federal Government of Nigeria to oversee the development of higher education in the country. The 1979 Constitution of Nigeria established the Police Service Commission, the Federal Electoral Commission (now known as ...*
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**5.** The Inspector General of Police is appointed by the executive on the advice of the
+   A) Nigerian Police Council
+   B) Police Service Commission
+   C) House of Representatives
+   D) Senate of the Federal Republic
+   **Answer: A**
+   *Explanation: The Inspector General of Police (IGP) in Nigeria is appointed by the President (executive) on the advice of the Nigerian Police Council. This council, established under Section 153 of the 1999 Constitution (as amended), includes:
+
+The President (Chairman)
+
+State Governors
+
+The IGP
+
+The Chairman of t...*
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**6.** The party that did not control any state in the Second Republic was
+   A) NAP
+   B) PRP
+   C) NPP
+   D) GNPP
+   **Answer: A**
+   *Explanation: NAP was the party that did not control any state in the Second Republic. Nigeria Advanced Party (NAP) was not recognized for the 1979 election. The reason was that it was unable to establish branches in 13 states of the federation as stipulated by FEDECO. In the 1983 general elections, which the par...*
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**7.** Which of the following documents granted Nigeria its independence?
+   A) The Lancaster House Agreement
+   B) The Atlantic Charter
+   C) The Nigerian Independence Act
+   D) The United Nations Declaration on Decolonization
+   **Answer: C**
+   *Explanation: Nigeria gained its independence through the Nigerian Independence Act. The Nigerian Independence Act 1960 was an Act of the Parliament of the United Kingdom that conferred independence on Nigeria with effect from 1 October 1960.*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**8.** The last measure used by the pressure groups issuing a condition to be satisfied within a stipulated time is called_______
+   A) Lobbying
+   B) Ultimatum
+   C) Dialogue
+   D) Strike
+   **Answer: B**
+   *Explanation: Pressure groups commonly issued deadlines(ultimatum) for the government to fulfill their requests and queries before embarking on strike action.*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**9.** Which of the following is the basic unit of a local government in Nigeria?
+   A) State assembly
+   B) Ward
+   C) Local Council Development Area(LCDA)
+   D) Ministry of Local government
+   **Answer: B**
+   *Explanation: The basic unit of a local government in Nigeria is the Ward. A local government area is divided into wards, each of which is represented by a councillor. Local Council Development Areas (LCDAs), state assemblies, and the Ministry of Local government are not the basic units of local government*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**10.** The notion of equality before the law is the same as the principle of
+   A) supremacy of the constitution
+   B) rule of law
+   C) independence of the judiciary
+   D) nominate ministers
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 1999)*
 
 
 ---

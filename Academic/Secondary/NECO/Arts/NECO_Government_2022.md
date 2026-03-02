@@ -2,97 +2,99 @@
 
 ## Objectives
 
-**1.** catered for the three  regions of Nigeria
-   A) a renewed concept in international studies
-   B) limited to the west
-   C) a process of making the world  smaller
-   D) an increasing integration of the world.
-   **Answer: B**
+**1.** In which city was the ECOWAS Treaty signed
+   A) Lagos
+   B) Banjul
+   C) Accra
+   D) Abuja
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**2.** The independent African countries that signed the OAU Charter on May 25th 1963 were
-   A) Togo and Sierra Leone
-   B) Morocco and Angola
-   C) Togo and Morocco
-   D) none of the above
-   **Answer: D**
-   *Explanation: The Organisation of African Unity (OAU) Charter was signed on 25 May 1963 by 30 independent African nations during the Addis Ababa conference. Notably, Morocco and Togo were not among the original signatories on that date:
-
-Morocco signed the charter later, on 19 September 1963.
-
-Togo also signed la...*
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**3.** Twelve States creation is a known achievement of the ... Regime
-   A) Abdulsalam Abubakar's
-   B) Ibrahim Babaginda's
-   C) Yakubu Gowon's
-   D) Murtala Mohammed's
-   **Answer: C**
-   *Explanation: Yakubu Gowon created 12 states for Nigeria in 1967.*
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**4.** Election among candidates from the same party before the final elections are called
-   A) Primaries
-   B) Running Mates
-   C) Second ballots
-   D) Party conventions
+**2.** Nigeria played fundamental roles in the creation of
+   A) ECOWAS
+   B) OPEC
+   C) UN
+   D) Commonwealth
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 1989)*
+   *Explanation: The Economic Community of West African States (ECOWAS) was created on the 28th of May, 1975 in Lagos, Nigeria under the leadership of General Yakubu Gowon of Nigeria and President Eyedama of Togo. 
 
-**5.** The 1976 Reforms have been most beneficial to the
-   A) Nigerian police
-   B) federal government
-   C) local government
-   D) civil service
-   **Answer: C**
-   *Explanation: The 1976 Local Government Reforms in Nigeria were a landmark initiative aimed at restructuring and empowering local governance. These reforms established local governments as the third tier of Nigeria's federal system, granting them constitutional recognition, defined boundaries, and specific admini...*
-   *(Note: Closest available year from ALOC database: 2003)*
+The organisation is headquartered in Abuja, Nigeria whereas its financial headquarters is in Lome, To...*
+   *(Note: Closest available year from ALOC database: 2024)*
 
-**6.** Another word for red-tapism is
-   A) democracy
-   B) autocracy
-   C) idiosyncrasy.
-   D) bureaucracy
+**3.** Under the 1979 Nigeria constitution, the national assembly was made up of the
+   A) House of Chiefs and the Senate.
+   B) House of Lords and the House of Representatives.
+   C) Lower House and House of Representatives.
+   D) Senate and House of Representatives.
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 1988)*
+   *(Note: Closest available year from ALOC database: 2013)*
 
-**7.** The African leader mostly credited for spearheading the formation of the African Union is
-   A) Muammar Ghaddafi
-   B) Abdelaziz Bouteflika
-   C) Abdoulaye Wade
-   D) Thabo Mbeki.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** A meeting of the legislature is usually brought to an end with
-   A) a dissolution
-   B) an adjournment
-   C) suspension
-   D) a prorogation
+**4.** Membership of a society is
+   A) reserved
+   B) voluntary
+   C) mandatory
+   D) honorary
    **Answer: B**
-   *Explanation: A meeting of the legislature is usually brought to an end with an adjournment, which means a temporary suspension of proceedings until the next scheduled meeting or session. An adjournment is a break in legislative proceedings, either for a short time (e.g., for the day) or until a later date. A dis...*
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Membership of a society is voluntary.
 
-**9.** In the First Republic,politics in the Northern region was dominated by the
-   A) NEPU
-   B) UMBC
-   C) NCNC
-   D) NPC
-   **Answer: D**
-   *Explanation: In the First Republic,politics in the Northern region was dominated by the NPC.
-The Northern People's Congress (NPC) was founded in October 1951. It sprang up from the northern cultural organization known as Jamiyy or Mutanen Arewa which was founded in 1949. NPC was highly dominated by the Hausa Ful...*
-   *(Note: Closest available year from ALOC database: 2003)*
+Society could include any of the multiplicity of groups, units or organizations found among men. e.g. Society of Friends, Society for the Advancement of Human Rights, Clubs, Fraternities, Criminal Groups, Professional Organizations, Families, Kinship Groups and...*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**10.** An unwritten Constitution is
-   A) entirely based on case laws
-   B) completely sourced from parliamentary law
-   C) partially written and based on convention
-   D) completely unwritten and based on convention
+**5.** Which of the following types of citizenship cannot be withdrawn?
+   A) Citizenship by naturalization.
+   B) Citizenship by conquest.
+   C) Citizenship by birth.
+   D) Honorary citizenship.
    **Answer: C**
-   *Explanation: An unwritten constitution is partially written and based on conventions.
+   *(Note: Closest available year from ALOC database: 2013)*
 
-F. Adigwe (1974) defined unwritten constitution as that made up of several enactments and conventions like the British constitution. He also pointed out that an attempt was made to codify some of, but not all, the rules and pr...*
+**6.** A key characteristics of the civil service is
+   A) transparency
+   B) patriotism
+   C) merit system
+   D) quota system
+   **Answer: C**
+   *Explanation: A fundamental characteristic of a professional civil service is that it is based on a merit system. This means that appointments, promotions, and other personnel decisions are made based on qualifications, competence, and performance rather than on political connections, favoritism, or quotas. This ...*
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**7.** An elected legislator in a presidential system can loose his seat by
+   A) a vote of no confidence
+   B) impeachment
+   C) cross-carpeting
+   D) recall
+   **Answer: D**
+   *Explanation: An elected legislator in a presidential system can loose his seat by recall.
+
+The word ''Recall'' was defined by G.A.I. Ofoegbu (1999) as a device by which elected officials in the legislature or government could be called back even before their tenure expires.*
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**8.** The option A4 model was used in the conduct of the
+   A) 2007 elections
+   B) 1983 elections
+   C) 1993 elections
+   D) 1999 elections
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**9.** Unicameralism is a feature of the legislature in
+   A) the United Kingdom
+   B) the United States
+   C) Ghana
+   D) Israel
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**10.** The commission established to handle the electoral activities in the Second Republic of Nigeria was
+   A) FEDECO
+   B) NEC
+   C) INEC
+   D) NECON
+   **Answer: A**
+   *Explanation: The commission established to handle the electoral activities in the Second Republic of Nigeria was FEDECO.
+
+The establishment of FEDECO was one of the arrangements made by the military to return the government to civilian rule on 1st of October, 1979.
+
+It was established by Murtala/Obasanjo's regim...*
    *(Note: Closest available year from ALOC database: 2005)*
 
 

@@ -2,91 +2,93 @@
 
 ## Objectives
 
-**1.** The officer responsible for announcing the result of an election is known as
-   A) ballot officer
-   B) presiding office
-   C) returning officer
-   D) electoral officer
+**1.** The council constituted by Lord Lugard in 1914 has
+   A) 105 members seat
+   B) 50 members on seat
+   C) 36 members on seat
+   D) 25 members on seat
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2014)*
+   *Explanation: The council constituted by Lord Lugard in 1914, following the amalgamation of Northern and Southern Nigeria, had 36 members; 24 official and 12 unofficial members. This was part of his administrative structure aimed at unifying the two regions.*
+   *(Note: Closest available year from ALOC database: 2015)*
 
-**2.** The commission established to handle the electoral activities in the Second Republic of Nigeria was
-   A) FEDECO
-   B) NEC
-   C) INEC
-   D) NECON
+**2.** The Mid-Western Region was created in Nigeria in
+   A) 1961
+   B) 1962
+   C) 1963
+   D) 1964
+   **Answer: C**
+   *Explanation: The Mid-Western Region was created in Nigeria on August 9, 1963. It was established as a result of the 1962 census and was the first new region to be created in Nigeria after independence. This change was part of a broader effort to accommodate Nigeria's diverse ethnic and cultural groups in the fed...*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**3.** The rule of law is an essential ingredient of
+   A) democracy
+   B) democracy
+   C) monarchy
+   D) autocracy
    **Answer: A**
-   *Explanation: The commission established to handle the electoral activities in the Second Republic of Nigeria was FEDECO.
-
-The establishment of FEDECO was one of the arrangements made by the military to return the government to civilian rule on 1st of October, 1979.
-
-It was established by Murtala/Obasanjo's regim...*
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**3.** catered for the three  regions of Nigeria
-   A) a renewed concept in international studies
-   B) limited to the west
-   C) a process of making the world  smaller
-   D) an increasing integration of the world.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** The Secretary-General of the United Nations is appointed by the
-   A) Permanent members of the Security Council on the   recommendation of the General Assembly
-   B) General Assembly on the recommendation of the Security Council
-   C) General Assembly in plenary session
-   D) Security Council acting alone.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** Revenue allocation means the sharing of the
-   A) national cake among the people
-   B) wealth of a nation among different levels of government
-   C) wealth of a nation among the state governments for specific purposes
-   D) wealth of a nation between the federal and local governments
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**6.** Lack of separation of power is a feature of
-   A) presidential system
-   B) cabinet system
-   C) democratic government
-   D) military government
-   **Answer: D**
-   *Explanation: Separation of power is the division of powers and functions among the three arms of government - the legislature, executive and judiciary. This is essential to prevent the abuse of power when it is concentrated in the hands of a single authority. In a presidential system, there is a clear separation...*
+   *Explanation: The rule of law is an essential ingredient of democracy. Considering that democracy is a government of the people, by the people and for the people, it is imperative that every person within this system is treated equally and fairly. This equality is assured when the rule of law is practiced (the ru...*
    *(Note: Closest available year from ALOC database: 2024)*
 
-**7.** The organ of the United Nations Organization responsible for the former colonies of defeated World War II power is the
-   A) General Assembly
-   B) Security Council
-   C) Economic and Social Council
-   D) Trusteeship Council
+**4.** A major objective of the Public Complaints Commission is
+   A) training and promotion of public servants
+   B) settlement of disputes among individuals
+   C) addressing the grievances of individuals and groups
+   D) fighting corruption and indiscipline.
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 1999)*
+   *(Note: Closest available year from ALOC database: 2012)*
 
-**8.** What was the name of the highest ruling body during General Babangida’s rule?
-   A) The presidency
-   B) Armed Forces Ruling Council
-   C) The National Council of states
-   D) The Federal  Executive Council
+**5.** One of the problems facing the Economic Community of West African States (ECOWAS) is that
+   A) member states do not attend meetings regularly
+   B) member states do not have a common currency
+   C) some members states want to contribute larger funds to the community
+   D) it is a rival to the Organization of African Unity
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *(Note: Closest available year from ALOC database: 2000)*
 
-**9.** The question of civil war was raised for the first time at the 	meeting of the O.A.U in September 1967 in
-   A) Kampala
-   B) Addis Ababa
-   C) Lagos
-   D) Kinshasa
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 1988)*
+**6.** One of the features of a sovereign state is that it
+   A) has the capacity to defend itself from external aggression
+   B) has a large number of soldiers
+   C) practises the presidential system of government
+   D) is not indebted to other countries
+   **Answer: A**
+   *Explanation: One of the features of a Sovereign state is that it has the capacity to defend itself from external aggression.
 
-**10.** The head of state under the independence constitution of Nigeria was
-   A) an absolute monarch
-   B) a constitution monarch
-   C) imposed by the British
-   D) invested with executive power
-   **Answer: B**
+It must have supreme power to enable it make and enforce laws A Sovereign State must be free from any form of external control eg. Political, military, economic and social control.*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**7.** Under the 1999 Constitution, the appointment of Ministers and Ambassadors must be ratified by the ........
+   A) Senate
+   B) House of Representatives
+   C) National Council of States
+   D) Presidency
+   **Answer: A**
+   *Explanation: The appointment of ministers and ambassadors must be ratified by the Senate Under the 1999 Constitution.*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**8.** Nigeria supports the South-South cooperation as a foreign policy objective for mutual understanding among
+   A) nations south of the equator
+   B) sub-saharan African countries
+   C) developing countries
+   D) Asian and sub-saharan African countries
+   **Answer: C**
+   *Explanation: South-South cooperation refers to collaboration among developing countries, particularly in Africa, Asia, and Latin America, to promote economic and political solidarity. Nigeria supports this as part of its foreign policy to foster economic growth, trade and mutual understanding among developing na...*
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**9.** Which of the following is not the responsibility of the Electoral Commission in Nigeria?
+   A) Swearing in of members of the House of Assembly
+   B) Counting and publication of election results
+   C) delimitation of constituencies
+   D) Compilation of electoral register
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 1989)*
+
+**10.** Nigeria’s voting at the United Nations is guided primarily by
+   A) her national interests
+   B) world peace
+   C) the cold war
+   D) her concern for Africa
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2013)*
 
 
 ---
