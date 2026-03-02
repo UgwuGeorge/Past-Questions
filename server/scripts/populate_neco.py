@@ -75,9 +75,8 @@ def format_question_block(q: Any, idx: int, year: int) -> str:
     if solution and solution.lower() != 'none':
         # Use explicit string slicing with start and end to satisfy stricter linters
         sol_str = str(solution)
-        limit = 300
-        if len(sol_str) > limit:
-            sol_short = sol_str[0:limit] + '...'
+        if len(sol_str) > 300:
+            sol_short = sol_str[:300] + '...'  # type: ignore
         else:
             sol_short = sol_str
         lines.append(f"   *Explanation: {sol_short}*")
