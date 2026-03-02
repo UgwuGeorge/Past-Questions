@@ -2,160 +2,117 @@
 
 ## Objectives
 
-**1.** An electron in a hydrogen atom makes a transition from the ground level to the third level. If the energy at the ground level, calculate the energy at the third level. [h = 6.6 × 10⁻³⁴ Js; f = 10¹⁵ Hz]
-   A) 1.41 eV
-   B) 1.71 eV
-   C) 1.61 eV
-   D) 1.51 eV
-   **Answer: D**
-   *Explanation: For hydrogen atom energy levels:
-The energy at level n is given by:
-E_n = -13.6/n² eV
-Energy at ground level (n=1):
-E₁ = -13.6/1² = -13.6 eV
-Energy at third level (n=3):
-E₃ = -13.6/3² = -13.6/9 = -1.51 eV
-Since energy levels are negative (bound states), the magnitude is:
-|E₃| = 1.51 eV*
+**1.** An object of height 3.00cm is placed 10cm from a biconvex lens of 15cm, the image of the object is
+   A) real and 3.00cm tall
+   B) virtual and 3.00cm tall
+   C) virtual and 9.00cm tall
+   D) real and 9.00cm tall
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**2.** Which of the following statements is NOT correct?
+   A) Brownian motion is an evidence of the particle nature of matter
+   B) Atoms combine to form molecules
+   C) The molecules of matter are not in constant motion
+   D) matter is made up of molecules
+   **Answer: C**
+   *Explanation: This statement is NOT correct because molecules are always in constant motion according to the kinetic theory of matter.*
    *(Note: Closest available year from ALOC database: 2016)*
 
-**2.** A 500kg car was initially at rest travelled with an acceleration of 5ms-2, what is its kinetic energy after 4s
-   A) 2.5 x 103J
-   B) 105J
-   C) 5 x 103J
-   D) 5 x 105J
+**3.** I. Refraction II. Interference III. Diffraction Which of the above properties are common to all waves?
+   A) II and III only
+   B) I, II and III
+   C) I and II only
+   D) I and III only
+   **Answer: B**
+   *Explanation: All three properties, refraction, interference, and diffraction, are fundamental wave phenomena that occur in ALL types of waves, whether mechanical (sound, water) or electromagnetic (light, radio).*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**4.** Under constant tension and constant mass per unit length, the note produced by a plucked string is 500Hz when the length of the string is 0.90m, at what length is the frequency 150Hz?
+   A) 6m
+   B) 3m
+   C) 5m
+   D) 4m
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**3.** The pitch of a screw jack is 0.45cm and the arm is 60cm long. If the efficiency of the Jack is 75/π %, calculate the mechanical advantage.
-   A) 400
-   B) 300
-   C) 200
-   D) 150
+**5.** Which of the following statements is correct about a machine?
+   A) Efficiency of a machine is always greater than I
+   B) Efficiency decreases with an increase in friction
+   C) Velocity ratio depends on friction
+   D) Mechanical advantage increases with an increase in friction
+   **Answer: B**
+   *Explanation: Friction causes energy losses, which reduces the efficiency of any machine.*
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**6.** When a 2kg body is at a height 5m above the floor, its velocity  is 4m/s. What is its total energy  at this height? (acceleration due to gravity = 10m/s2)
+   A) 80J
+   B) 00J
+   C) 116J
+   D) 180J
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**7.** What force has to be exerted on a mass 60kg to give it an acceleration of 10ms-2 vertically upwards?
+[g = 10ms-2
+   A) 300N
+   B) 600N
+   C) 1200N
+   D) 400N
    **Answer: C**
    *Explanation: Given information:
 
-Pitch (p) = 0.45 cm
-Length of arm (L) = 60 cm
-Efficiency = 75/π %
-Mechanical Advantage (M.A) = ?
+Mass (m) = 60 kg
+Acceleration upward (a) = 10 m/s²
+Acceleration due to gravity (g) = 10 m/s²
+Applied force (F) = ?
 
-Step 1: Calculate Velocity Ratio (V.R)
-For a screw jack:
-V.R = 2πL/p
-V.R = (2π × 60)/0.45
-V.R = 120π/0.45
-V.R = 120π × (100/45)
-V.R = 120π × (20/9)
-V.R = 2400π/9
-V.R = 800π/3
-Step 2:...*
-   *(Note: Closest available year from ALOC database: 2019)*
+Forces acting on the mass:
 
-**4.** A constant force of 5N acts for 5 seconds on a mass of 5kg initially at rest. Calculate the final momentum
-   A) 125 kgms⁻¹
-   B) 25 kgms⁻¹
-   C) 15 kgms⁻¹
-   D) 0 kgms⁻¹
+Applied force (F) acting upward
+Weight (W = mg) acting downward
+
+Using Newton's Second Law:
+Net force = mass × acceleration
+For upward m...*
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**8.** An air column 10cm in length is trapped into the sealed end of a capillary tube by a 15cm column of mercury with the tube held vertically. On inverting the tube, the air column becomes 15cm long, what is the atmospheric pressure during the experiment?
+   A) 76cm
+   B) 75cm
+   C) 60cm
+   D) 70cm
    **Answer: B**
-   *Explanation: Given information:
+   *(Note: Closest available year from ALOC database: 2007)*
 
-Force (F) = 5 N
-Time (t) = 5 seconds
-Mass (m) = 5 kg
-Initial velocity = 0 (at rest)
-Final momentum = ?
+**9.** Which of the following liquids has the highest surface tension?
+   A) Soapy water
+   B) Water
+   C) Mercury
+   D) Oil
+   **Answer: C**
+   *Explanation: Surface tension is the force that acts on the surface of a liquid, tending to minimize the surface area. It is caused by the cohesive forces between the molecules of the liquid. The stronger the cohesive forces, the higher the surface tension.
 
-Using Impulse-Momentum Theorem:
-Impulse = Change in momentum
-Ft = Final momentum - Initial momentum
-Since initial momentum = 0 (at rest):
-Ft = Final momentum
-Calculating:
-Final...*
-   *(Note: Closest available year from ALOC database: 2017)*
+Mercury has the highest surface tension of all the liqu...*
 
-**5.** When the breaks in a car are applied, the frictional force on the tyres is?
-   A) a disadvantage because it is in the direction of the motion of the car
-   B) a disadvantage because it is in the opposite direction of the motion of the car
-   C) an advantage because it is in the direction of the motion of the car
-   D) an advantage because it is in the opposite direction of the motion of the car
-   **Answer: D**
-   *Explanation: Frictional force opposes motion*
-   *(Note: Closest available year from ALOC database: 2021)*
-
-**6.** What is the inductance (L) of an inductor whose reactance is 1Ω at 50/ π hertz (H)?
-   A) 100 H
-   B) 0.01H
-   C) 10H
-   D) 1H
-   **Answer: B**
-   *Explanation: Given information:
-
-Inductive reactance (Xₗ) = 1Ω
-Frequency (f) = 50/π Hz
-Inductance (L) = ?
-
-Formula for Inductive Reactance:
-Xₗ = 2πfL
-Rearranging to find L:
-L = Xₗ/(2πf)
-Substituting values:
-L = 1/(2π × 50/π)
-L = 1/(2 × 50)
-L = 1/100
-L = 0.01 H
-Answer: B. 0.01H*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**7.** Which of the following may be used to explain a mirage?
-I. Layers of air near the road surface have varying refractive indices in hot weather
-II. Road surfaces sometimes becomes invisible in hot weather
-III. Light from the sky can be refracted upwards after coming close to the road surface.
-   A) I and III only
-   B) II and III only
-   C) II only
-   D) I, II and III
+**10.** The surface temperature of a swimming pool on a warm day is 25ºC and the temperature at the bottom is 15ºC. If the swimming pool has a surface area of 620 m² and a depth of 1.5m. Find the rate at which energy is transferred by conduction from the surface to the bottom of the swimming pool. [Thermal conductivity of water (k) = 0.6071 Wm⁻¹K⁻¹]
+   A) 2.5 kW
+   B) 250 kW
+   C) 300 kW
+   D) 3.0 kW
    **Answer: A**
-   *Explanation: Statements I and III correctly explain mirages through the physics of refraction, while statement II merely describes an observation.*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**8.** The eclipse of the moon occurs when?
-   A) the moon reflects the rays from the sun to the earth
-   B) the moon comes exactly between the earth and the sun
-   C) the earth comes exactly between the moon and the sun
-   D) the sun comes exactly between the earth and the moon
-   **Answer: C**
-   *Explanation: A lunar eclipse (eclipse of the moon) occurs when Earth passes directly between the sun and moon, casting Earth's shadow onto the moon's surface. This can only happen during a full moon when the three celestial bodies are aligned.*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**9.** The direction of the path taken by light is called
-   A) Locus
-   B) Lines
-   C) Ray
-   D) Beam
-   **Answer: C**
-   *Explanation: Ray – a beam of light or radiation*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**10.** A solid weighs 10.00N in air, 6N when fully immersed in water, and 7.0N when fully immersed in a liquid X. Calculate the relative density of the liquid X.
-   A) 5/3
-   B) 4/3
-   C) 3/4
-   D) 7/10
-   **Answer: C**
    *Explanation: Given information:
 
-Weight in air (W_air) = 10.00 N
-Weight in water (W_water) = 6.0 N
-Weight in liquid X (W_X) = 7.0 N
-Relative density of liquid X = ?
+Surface temperature, T₁ = 25°C
+Bottom temperature, T₂ = 15°C
+Temperature difference, ΔT = 25 - 15 = 10°C = 10 K
+Surface area, A = 620 m²
+Depth (thickness), d = 1.5 m
+Thermal conductivity, k = 0.6071 W m⁻¹ K⁻¹
+Rate of heat transfer, Q/t = ?
 
-Step 1: Calculate upthrust in water
-Upthrust in water = W_air - W_water
-Upthrust in water = 10.00 - 6.0 = 4.0 N
-Step 2: Calculate upthrust in liqui...*
-   *(Note: Closest available year from ALOC database: 2021)*
+Solution:
+Using the thermal conduction ...*
 
 
 ---

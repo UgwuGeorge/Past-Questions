@@ -2,7 +2,71 @@
 
 ## Objectives
 
-**1.** Water has the ability to dissolve almost all substances because its molecule has a structure with
+**1.** The produce of the combustion of candle wax are
+   A) Carbon(IV) oxide and water
+   B) Oxygen and water
+   C) Hydrogen and water
+   D) Carbon(II)oxide an d water
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**2.** The ores that can be concentrated by flotation are
+   A) Nitride ores
+   B) Chloride ores
+   C) Oxide ores
+   D) Sulphide ores
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**3.** A dense white fume is formed when ammonia gas reacts with
+   A) H2(g)
+   B) O2(g)
+   C) HCI(g)
+   D) Cl2(g)
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**4.** The efficiency of a solid catalyst to increase reaction rates depends on its
+   A) Concentration
+   B) Solubility
+   C) Quantity
+   D) Surface area
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**5.** Chlorine gas is prepared in the laboratory by
+   A) Adding concentrated hydrochloric acid to solid manganese (IV) oxide
+   B) Adding concentrated tetraoxosulphate (VI) acid to solid sodium chloride
+   C) Dropping concentrated hydrochloric acid onto potassium tetraoxomanganate (VII) crystals
+   D) Oxidizing concentrated hydrochloric acid using potassium heptaoxodichromate (VI) crystals
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**6.** Which of the following gives a precipitate when treated with NaOH solution
+   A) Na2CO3
+   B) CH3COONa
+   C) NH4Cl
+   D) AlCl3
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**7.** An element X with relative atomic mass 16.2 contains two isotopes      X  with relative abundance of 90% and      X with relative abundance of 10%. The value of m is
+   A) 16
+   B) 18
+   C) 12
+   D) 14
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**8.** Carbon is tetravalent because
+   A) The electrons in both the 2s and 2p orbitals are equivalent
+   B) The electrons in all the orbitals of carbon are equivalent
+   C) The 2s and 2p atomic orbitals hybridize
+   D) All the atomic orbitals of carbon hybridize
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**9.** Water has the ability to dissolve almost all substances because its molecule has a structure with
    A) One positive end and one neutral end
    B) Two positive ends
    C) One positive end and one negative end
@@ -10,77 +74,13 @@
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2006)*
 
-**2.** sulphur (IV) oxide bleaches by
-   A) Reduction
-   B) Oxidation
-   C) Hydration
-   D) Absorption
+**10.** What quantity of aluminum is deposited when a current of 10A is passed through a solution of an aluminum salt for 1930s  {AI = 27, F = 96500 C mol-}
+   A) 1.8g
+   B) 5.4g
+   C) 14.2g
+   D) 0.2g
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**3.** [Molar volume of a gas at s.t.p + 22.4dm3} Nuclear fission involves the splitting of a heavy element into two nuclei of
-   A) Equal masses with a release of energy
-   B) Nearly equal masses with a release of energy and radiation
-   C) Equal masses with a release of energy and radiation
-   D) Unequal masses without any release of energy
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**4.** Two hydrocarbons X and Y were treated with bromine water. Decolorized the solution and Y did not. Which class of compound does Y belong
-   A) Alkynes
-   B) Alkenes
-   C) Alkanes
-   D) Benzene
-   **Answer: C**
    *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** How many unpaired electron(s) are there in the nitrogen  sub - levels
-   A) 2
-   B) 1
-   C) 0
-   D) 3
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**6.** Which of the following are structural isomers
-   A) Propanoic acid and propan-1, 2-diol
-   B) Ethanoic acid and propanoic acid
-   C) Ethan-1, 2 –diol and ethanoic acid
-   D) Propanal and propanone
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**7.** One of the major uses of Alkanes is
-   A) In the hydrogenation of oils
-   B) In the textile industries
-   C) In the production of plastics
-   D) As domestic and industrial fuels
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**8.** Which of the following results in the fall of acid rain
-   A) Gaseous hydrocarbons
-   B) Oxide of lead
-   C) Particulate matter
-   D) Oxides of sulphur
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**9.** A chemical reaction is always associated with
-   A) An increase in the composition of one of the substances
-   B) A change in the volume of the reactants
-   C) A change in the nature of the reactants
-   D) The formation of new substances
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**10.** The most suitable metal that can be used as a lightening  conductor is
-   A) Aluminium
-   B) Iron
-   C) Copper
-   D) Silver
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
 
 
 ---

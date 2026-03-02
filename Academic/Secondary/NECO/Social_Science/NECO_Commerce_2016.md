@@ -2,85 +2,76 @@
 
 ## Objectives
 
-**1.** An author’s exclusive right to published and unpublished works is known as
-   A) patent right
-   B) fundamental human right
-   C) copyright
-   D) authorship
+**1.** Which of the following is a function of employers’ association?
+   A) Undertaking research on behalf of employees
+   B) Promotion of thrift in workers
+   C) Promotion of workers’ welfare
+   D) Dissemination of information through sponsored journals.
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 1990)*
+   *(Note: Closest available year from ALOC database: 2002)*
 
-**2.** A major advantage of a cooperative society is that it
-   A) gives members the opportunity to unite
-   B) draws members closer to government
-   C) promotes awareness among members
-   D) encourages thrift among members.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**3.** The marketing activity that stimulates immediate demand for a product is
-   A) sales promotion
-   B) publicity
-   C) consumer relations
-   D) personal selling
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**4.** A functional organizational structure is where
-   A) staff performing the same functions are grouped together
-   B) departments performing similar functions are grouped together
-   C) activities of similar nature are-grouped together
-   D) staff performing similar functions are grouped together.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**5.** The oldest and commonest form of business in Nigeria is
-   A) partnership
-   B) the co-operative society
-   C) sole proprietorship
-   D) joint stock venture
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 1990)*
-
-**6.** The tree components of staffing are
-   A) recruitment, interview and appointment
-   B) recruitment, test and placement
-   C) recruitment, selection and appointment
-   D) recruitment, selection and placement
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**7.** Which of these is both merit and demerit in partnership?
-   A) The number of partners
-   B) Its unlimited nature
-   C) The bearing of risk
-   D) The withdrawal of a major partner.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**8.** The assembling of products into usable forms is known as
-   A) creation
-   B) manufacturing
-   C) construction
-   D) formation
-   **Answer: C**
+**2.** The final link in the chain of distribution is the
+   A) agent
+   B) consumer
+   C) manufacturer
+   D) retailer
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2013)*
 
-**9.** A step-by-step method of carrying out functions in  an office is known as
-   A) procedure
-   B) organizing
-   C) policy
-   D) programme.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**10.** The major divisions of Commerce are
-   A) import, export and transport
-   B) trade, communication and warehousing
-   C) trade and auxiliaries to trade
-   D) exchange, consumption and production
+**3.** The daily official publications of the Nigerian Stock Exchange give detailed information on the
+   A) changes in the official rules set by the market
+   B) method of transactions agreed upon by members
+   C) participation of members in a day
+   D) changes in the price of securities
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 1990)*
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**4.** Which of the following is used for temporary storage of data on a computer?
+   A) RAM.
+   B) ROM.
+   C) floppy disk.
+   D) flash disk.
+   **Answer: A**
+
+**5.** One of the functions of the Niger Basin Commission is to
+   A) ensure equal treatment of African nations
+   B) foster closer co-operation among West African nations
+   C) map out regulations that will guide all forms of navigation
+   D) guarantee freedom of navigation for all West African nations.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**6.** Products that have stayed long on themselves in a shop can be sold easily through
+   A) branding
+   B) discounting
+   C) doorstep selling
+   D) franchising
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**7.** The most important function of commerce is in
+   A) enhancing business relationships
+   B) helping people to improve their profits
+   C) facilitating exchange among individuals and firms
+   D) assisting trade through banking and insurance
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**8.** Citizens are against privatisation mainly because of
+   A) the rationalization of organizations
+   B) increased prices of goods and services
+   C) the likelihood of monopoly
+   D) ineffective management.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**9.** Those engaged in extraction, manufacturing, and construction occupations are called ___ workers.
+   A) commercial
+   B) direct
+   C) indirect
+   D) industrial
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2013)*
 
 
 ---

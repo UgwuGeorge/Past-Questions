@@ -2,178 +2,187 @@
 
 ## Objectives
 
-**1.** The mean of 2-t, 4+t, 3-2t, 2+t and t-1 is
-   A) 2
-   B) t
-   C) -t
-   D) -2
+**1.** Find the value of x if √2/(x+√2)= 1/√(x−2)
+   A) 3√2 + 4
+   B) 3 - 2√2
+   C) 4 + 2√2
+   D) 3√2 + 7
    **Answer: A**
-   *Explanation: Mean = (2−t+4+t+3−2t+2+t+t−1)/5
+   *Explanation: √2/(x + 2) = x - 1/√2
+x√2 (x - √2) = x + √2 (cross multiply)
 
+x√2 - 2 = x + √2 
 
-= 10/5
- = 2*
+= x√2 - x 
 
-**2.** The average age of x pupils in a class is 14 years 2 months. A pupils of 15years 2 months joins the class and  the average age is increased  by one month. Find x.
-   A) 12,
-   B) 6,
-   C) 11,
-   D) 14,
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+= 2 + √2
+x (√2 - 1) = 2 + √2
+= (2+√2)/(√2 − 1) × (√2+1)/(√2 + 1)
+x = (2√2 + 2 + 2 + √2)/(2 − 1)
+ 
 
-**3.** If the mean of 2, 5, (x+1), (x+2), 7 and 9 is 6. Find the median
-   A) 5.5
-   B) 5
-   C) 6.5
-   D) 6
-   **Answer: C**
-   *Explanation: Firstly; solving for x
+= 3√2 + 4*
+   *(Note: Closest available year from ALOC database: utme)*
 
-6 = (2+5+x+1+x+2+7+9)/6
-cross multiply to have:
-
-6 * 6 = 2 + 5 + x+1 + x+2 + 7 + 9
-
-36 = 2x + 26
-
-36 - 26 = 2x
-
-10 = 2x
-
-x = 5
-
-Median = 7+6/2
-→ 6.5*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**4.** If x varies directly as square root of y and x = 81 when y = 9, Find x when y = 1(7/9)
-   A) 20(1/4)
-   B) 27
-   C) 2(1/4)
-   D) 36
+**2.** The angle of a sector of a circle, radius 10.5 cm, is 48°, Calculate the perimeter of the sector
+   A) 8.8 cm
+   B) 25.4 cm
+   C) 25.6 cm
+   D) 29.8 cm
    **Answer: D**
-   *Explanation: x α√y
+   *Explanation: Length of Arc AB = θ/360 2πr
+
+= 48/360 x 2(22/7) x 21/2
 
 
-x = k√y
+= (4 × 22 × 3)/30 =  88/10
+ = 8.8 cm
 
+Perimeter = 8.8 + 2r
 
-81 = k√9
+= 8.8 + 2(10.5)
 
+= 8.8 + 21
 
-k = 81/3
+= 29.8 cm*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-
-= 27
-
-therefore, x = 27√y
-
-
-y = 1(7/9) = 16/9
-
-
-x = 27 x √(16/9)
-
-
-= 27 x 4/3
-
-
-dividing 27 by 3
-
-= 9 x 4
-
-= 36*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**5.** A matrix P is such that P<sup>T</sup>= p, where P<sup>T</sup> is the transpose of P, if b = 1, then P is
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710692182/ALOC-Questions/Mathematics/2000/question-48_dp4ky2.jpg)*
-   A) (0, 1)
-(1, 0)
-   B) (0, 1)
-(-1, 0)
-   C) (0, 1) 
-(1, 1)
-   D) (1, 1)
-(-1,0)
+**3.** A room is 12m long, 9m wide and 8m high. Find the cosine of the angle which a diagonal of the room makes with the floor of the room.
+   A) 15/17
+   B) 9/17
+   C) 8/15
+   D) 12/17
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2000)*
+   *Explanation: Given length of the room = 12m; breadth = 9m and height = 8m.
 
-**6.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
-   A) 1
-   B) 0
-   C) -1/2
-   D) -1
-   **Answer: B**
-   *Explanation: mΔn = m+n+mn
-Let e be the identity element
-∴mΔe = eΔm = m
-m+e+me = m
-e+me = m-m
-e+me = 0
-e(1+m) = 0
-e = 0 / (1+m)
-e = 0*
-   *(Note: Closest available year from ALOC database: 2008)*
+The room is a cuboid in shape, therefore the length of the diagonal = √(l<sup>2</sup>+b<sup>2</sup>+h<sup>2</sup>)
+= √(12<sup>2</sup>+9<sup>2</sup>+8<sup>2</sup>)
+=√(289)
+= 17m.
 
-**7.** On a pie chart, there are four sectors of which three angles are 45°, 90° and 135°. If the smallest sector represents N28.00, how much is the largest sector?
-   A) N96.00
-   B) N84.00
-   C) N48.00
-   D) N42.00
-   **Answer: B**
-   *Explanation: Let the 4th angle be = x
-∴ x + 45 + 90 + 135 = 360
-x + 270 = 360
+The diagonal makes an angle with the diagonal of the floor...*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**4.** The pie chart shows the allocation of money to each sector in a farm. The total amount allocated to the farm is ₦ 80 000. Find the amount allocated to fertilizer
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724005849/ALOC-Questions/Mathematics/2017/MATH_JAMB_2017_Q29_a1bx8w.jpg)*
+   A) ₦ 35, 000
+   B) ₦ 40,000
+   C) ₦ 25,000
+   D) ₦ 20,000
+   **Answer: D**
+   *Explanation: Total angle at a point = 3600
+
+∴ To get the angle occupied by fertilizer we have,
+
+40 + 50 + 80 + 70 + 30 + fertilizer(x) = 360
+
+270 + x = 360
+
 x = 360 - 270
+
 x = 90
-∴ smallest angle = 45°
-45° = N28.00
-1° = 28.00/45
-135° = (28.00/45) * (135/1)
-= N84.00*
-   *(Note: Closest available year from ALOC database: 2003)*
 
-**8.** If (K2)
-<sub>6</sub> * 3<sub>6</sub> = 3<sub>5</sub>(K4)<sub>5</sub>, what is the value of k?
-   A) 1
-   B) 4
-   C) 3
-   D) 2
-   **Answer: D**
-   *Explanation: (K2)
-<sub>6</sub> * 3<sub>6</sub> = 3<sub>5</sub>(K4)<sub>5</sub>
-k*6<sup>1</sup>  + 2*6<sup>0</sup>  + 3*5<sup>0</sup>  = 3*5<sup>0</sup>  + K*5<sup>1</sup>  + 4*5<sup>0</sup> 
-6K + 2 = 5K + 4
-6K - 5k = 4 - 2
-K = 2*
-   *(Note: Closest available year from ALOC database: 2006)*
+Total amount allocated to the farm
+= ₦ 80,000
 
-**9.** Solve the quadratic inequalities x<sup>2</sup> - 5x + 6 ≥ 0
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715545860/ALOC-Questions/Mathematics/2008/MATH_2008_Q18_SOLUTION_qtwz0u.jpg)*
-   A) x ≤ 2, x ≥ 3
-   B) x ≤ 3, x ≥ 2
-   C) x ≤ -2, x ≥ -3
-   D) x ≤-3, x ≥ 2
+∴Amount allocated to the fertilizer
+
+= (fertilizer (angle) × Total amount)/total angle...*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**5.** Calculate the time taken for N3000 to earn N600 if invested at 8% simple interest
+   A) 2(1/2) years
+   B) 3 years
+   C) 3(1/2) years
+   D) 1(1/2) years
    **Answer: A**
-   *Explanation: x<sup>2</sup> - 5x + 6 = 0
-(X-2)(X-3) = 0
-X-2 = 0 implies X = 2
-X-3 = 0 implies X = 3
-− x ≤ 2, x ≥ 3*
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: Using S.I = P × T × R/100
 
-**10.** Calculate the perimeter of a sector of a circle of raduis 12cm and angle 60°.
-   A) (12 + 4π)cm
-   B) (24 + 4π)cm
-   C) (12 + 6π)cm
-   D) (24 + 6π)cm
-   **Answer: B**
-   *Explanation: Perimeter = 2r + θ/360
- x 2πr
-= 2(12) + 60/360
- x 2 x π x 12
-= (24 + 4π)cm*
+
+600=3000 × T × 8/100
+
+
+T = 600 × 100/3000×8
+
+
+20/8
+
+
+= 2(1/2) years*
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**6.** If 9x<sup>2</sup>  + 6xy + 4y<sup>2</sup>  is a factor of 27x<sup>3</sup>  - 8y<sup>3</sup> , find the other factor.
+   A) 2y + 3x
+   B) 2y - 3x
+   C) 3x + 2y
+   D) 3x - 2y
+   **Answer: D**
+   *Explanation: 27x<sup>3</sup>  - 8y<sup>3</sup> = (3x - 2y)3
+
+But 9x<sup>2</sup>  + 6xy + 4y<sup>2</sup>  = (3x +2y)2
+
+So, 27x<sup>3</sup>  - 8y<sup>3</sup>  = (3x - 2y)(3x - 2y)<sup>2</sup> 
+
+Hence the other factor is 3x - 2y*
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**7.** If two smaller sides of a right angled triangle are 4cm and 5cm, find its area
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716128286/ALOC-Questions/Mathematics/2010/MATH_2010_Q12_SOLUTION_sixqeq.jpg)*
+   A) 10 cm<sup>2</sup>
+   B) 6 cm<sup>2</sup>
+   C) 24 cm<sup>2</sup>
+   D) 8 cm<sup>2</sup>
+   **Answer: A**
+   *Explanation: Area of a triangle = 1/2 base x height
+= 1/2 x 4 x 5
+= 10 cm<sup>2</sup>*
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**8.** Find y, if √12-√147+y√3=0
+   A) 5
+   B) 1
+   C) 7
+   D) 3
+   **Answer: A**
+   *Explanation: √12-√147+y√3=0√(4×3)-√(49×3)+y√3=02√3-7√3+y√3=0y√3=7√3-2√3 y=(5√3)/√3 y=5*
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**9.** The value of y for which 1/5y + 1/5 < 1/2y + 2/5 is
+   A) y > 2/3
+   B) y < 2/3
+   C) y > −2/3
+   D) y < −2/3
+   **Answer: C**
+   *Explanation: 1/5y + 1/5 < 1/2y + 2/5
+
+
+Collect like terms
+
+y/5 − y/2 < 2/5 − 1/5
+
+
+2y−5y/10 < 2−1/5
+
+
+−3y/10 < 1/5
+
+
+y > −2/3*
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**10.** If the gradient of the curve y = 2kx<sup>2</sup> + x + 1 at x = 1 is 9, find k.
+   A) 4
+   B) 3
+   C) 2
+   D) 1
+   **Answer: C**
+   *Explanation: y = 2kx<sup>2</sup> + x + 1
+Gradient function dy/dx = 4kx + 1
+at dy/dx = 9, => 9 = 4kx + 1
+=> 8 = 4kx, and k = 8/4x.
+
+At x = 1, k = 8/4 = 2*
+   *(Note: Closest available year from ALOC database: 2001)*
 
 
 ---

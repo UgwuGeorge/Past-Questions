@@ -2,69 +2,77 @@
 
 ## Objectives
 
-**1.** An agreement between two parties which is enforceable by law is a
-   A) promise
-   B) warranty
-   C) contract
-   D) condition
+**1.** Which of the following is charged by the NIPOST on postal order?
+   A) Dividend
+   B) Interest
+   C) Poundage
+   D) Premium
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *(Note: Closest available year from ALOC database: 2013)*
 
-**2.** Which of the following countries are members the Lake Chad Basin Commission?
-   A) Niger and Cameroun
-   B) Benin and Niger
-   C) Chad and Benin
-   D) Nigeria and Mali.
+**2.** The breaking down of a market into separate and identifiable elements is known as
+   A) differentiation
+   B) segmentation
+   C) skimming
+   D) penetration
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**3.** “MTN, Your Best Connection” is an example of ___ advertisement.
+   A) competitive
+   B) direct
+   C) informative
+   D) mass
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2002)*
+   *(Note: Closest available year from ALOC database: 2013)*
 
-**3.** Partnerships are most effective where
-   A) the partners are family friends
-   B) professionals are involved
-   C) members can easily raise enough capital
-   D) government regulations are favourable
+**4.** The sole legal right held by the author to publish his book is a
+   A) trademark
+   B) copyright
+   C) patent right
+   D) book mark
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**5.** The manufactures’ Association of Nigeria is an example of a
+   A) labour union
+   B) pressure group
+   C) conglomerate
+   D) cartel
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2009)*
 
-**4.** Non-insurable risks include
-   A) gambling
-   B) damage to property
-   C) death
-   D) marine
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**5.** Which of the following is not an essential of a contract?
-   A) Offer and acceptance
-   B) Intention to create legal relations
-   C) All contracts written out
-   D) Legality of object
+**6.** A law made by a country to prohibit importation of certain goods into the country is called _____ laws.
+   A) export
+   B) import
+   C) protectionist
+   D) tariff
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 1990)*
+   *(Note: Closest available year from ALOC database: 2013)*
 
-**6.** A contract of sale where ownership passes to the buyer on the payment of the first instalment is known as
-   A) hire purchase
-   B) lease
-   C) cash on delivery
-   D) credit sale
+**7.** Tourism can be classified as
+   A) tangible import
+   B) intangible import
+   C) visible export
+   D) invisible export
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2000)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**7.** Which of the following statements is not true?
-   A) Commercial services are the life blood of a country economic system
-   B) There cannot occur commercial services until goods have been produced.
-   C) Without commercial services most goods and services will not be produced
-   D) There is no stage of production that does not employ commercial services.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 1990)*
+**8.** The ECOBANK is the initiative of
+   A) some well-meaning Nigerian shareholders
+   B) the Federal Government of  Nigeria
+   C) West African states to foster trade
+   D) the Lagos State Government to enhance capital mobilization.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**8.** The   media    used   for   inter-departmental communication include.
-   A) circulars, advertisement and notice boards
-   B) memoranda, circulars and the telephone
-   C) memoranda, advertising and face-to-face
-   D) memoranda, advertising and the grapevine
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+**9.** The variety of goods and services which a company offers for sale is its
+   A) place mix
+   B) promotion mix
+   C) price mix
+   D) product mix
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2011)*
 
 
 ---

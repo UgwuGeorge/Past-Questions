@@ -2,116 +2,143 @@
 
 ## Objectives
 
-**1.** A magnetic needle is suspended first at the earth's north magnetic pole and then at a point on the magnetic equator. The respective angles between the needle and the horizontal are
-   A) 0° and 0°
-   B) 60° and 60°
-   C) 90° and 90°
-   D) 90° and 0°
-   **Answer: D**
-   *Explanation: At the Earth's north magnetic pole, the angle is 90° (needle vertical), and at the magnetic equator, the angle is 0° (needle horizontal).*
-
-**2.** Under which of the following conditions is workdone
-   A) A man supports a heavy food above his head with his hands
-   B) A boy climbs onto a table
-   C) A man pushes unto a table
-   D) A woman holds a pot of water
-   **Answer: B**
-   *Explanation: For work to be done, distance must be involved because
-workdone = force × distance*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**3.** An open-tube mercury manometer is used to measure the pressure in a gas tank. When the atmospheric pressure is 101,325 Pa, what is the absolute pressure in Pa in the tank if the height of the mercury in the open tube is 25 cm higher. density of mercury = 13600kg/m³, g=9.8m/s²
-   A) 108,986 Pa
-   B) 165,238 Pa
-   C) 122,364 Pa
-   D) 134,645 Pa
-   **Answer: D**
-   *Explanation: Given information:
-
-Atmospheric pressure, P₀ = 101,325 Pa
-Height difference, h = 25 cm = 0.25 m
-Density of mercury, ρ = 13,600 kg/m³
-Acceleration due to gravity, g = 9.8 m/s²
-Absolute pressure in tank, P = ?
-
-Solution:
-Step 1: Understand manometer reading
-When the mercury in the open tube is higher ...*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**4.** What will happen to the pressure of a gas if its temperature is reduced to -273°C?
-   A) It will decrease
-   B) it will drop to zero
-   C) It will increase
-   D) It will remain constant
-   **Answer: B**
-   *Explanation: At -273°C (absolute zero), the pressure of an ideal gas becomes zero because all molecular motion ceases.*
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**5.** The amount of heat needed to raise the temperature of 10kg of Copper by 1K is its
-   A) specific heat capacity
-   B) latent heat
-   C) heat capacity
-   D) internal energy
-   **Answer: C**
-   *Explanation: The amount of heat needed to raise the temperature of 10kg of copper (a specific object) by 1K is its heat capacity.*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**6.** The scent from a jar of perfume open move through the air molecules by
-   A) evaporation
-   B) osmosis
-   C) diffusion
-   D) Convection
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**7.** The energy of light of frequency 2.0 x 10¹⁵Hz is (h = 6.63 x 10⁻³⁴Js)
-   A) . 3.33 x 10⁻¹⁸J
-   B) 1.33 x 10⁻¹⁸J
-   C) 1.33 x 10⁻¹⁹J
-   D) 3.33 x 10⁻¹⁹J
+**1.** A wheelbarrow inclined at 60º to the horizontal is pushed with a force of 150N. What is the horizontal component of the applied force
+   A) 130N
+   B) 75N
+   C) 60N
+   D) 50N
    **Answer: B**
    *Explanation: Given information:
 
-Frequency, f = 2.0 × 10¹⁵ Hz
-Planck's constant, h = 6.63 × 10⁻³⁴ J·s
-Energy, E = ?
+Applied force, F = 150 N
+Angle to the horizontal, θ = 60º
+Horizontal component, Fₓ = ?
 
 Solution:
-Step 1: Apply Planck's equation
-The energy of a photon:
-E = hf
+Step 1: Resolve force into horizontal component
+The horizontal component of a force is given by:
+Fₓ = F cos θ
 Step 2: Substitute the known values
-E = 6.63 × 10⁻³⁴ × 2.0 × 10¹⁵
-Step 3: Calculate the energy
-E = (6.63 × 2.0) × (10⁻³⁴ × ...*
+Fₓ = 150 × cos 60º
+Fₓ = 150 × 0.5
+St...*
    *(Note: Closest available year from ALOC database: 2024)*
 
-**8.** The lowest note emitted by a stretched string has a frequency of 40Hz. How many overtones are there between 40Hz and 180Hz?
-   A) 4
-   B) 3
-   C) 2
-   D) 1
+**2.** A bar magnet is divided into two pieces, which of the following statement is correct?
+   A) two new magnets are created
+   B) the magnetic field of each separate piece becomes stronger
+   C) the electric field is created
+   D) the bar magnet is demagnetized
+   **Answer: A**
+   *Explanation: When it is cut into two, the two cut pieces will have their own north and south poles.*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**3.** A man on a bench will exert the greatest pressure on the bench when he
+   A) lies flat on his back
+   B) lies flat on his belly
+   C) stands on both feet
+   D) stands on the toes of one foot
+   **Answer: D**
+   *Explanation: A man exerts the greatest pressure when standing on the toes of one foot because this position has the smallest contact area, and pressure is inversely proportional to area.*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**4.** The slope of the straight line displacement-time graph indicates?
+   A) distance traveled
+   B) uniform velocity
+   C) uniform acceleration
+   D) uniform speed
    **Answer: B**
-   *Explanation: There are 3 overtones between 40Hz and 180Hz (specifically at 80Hz, 120Hz, and 160Hz).*
+   *Explanation: The slope of a straight line displacement-time graph indicates uniform velocity, meaning the object is moving with constant velocity (constant speed in a constant direction).*
    *(Note: Closest available year from ALOC database: 2021)*
 
-**9.** Which of the following is true of an electrical charge?
-   A) Positive charge means deficit electrons
-   B) Negative charge means excess of electrons
-   C) electric current means movement of electrons
-   D) All of the above
-   **Answer: D**
-   *Explanation: All three statements correctly describe aspects of electrical charge and current.*
-   *(Note: Closest available year from ALOC database: 2018)*
+**5.** For  a particle having an x co-ordinate that varies in time according to the express ion x = 4t -2t2 The instantaneous velocity for of the particle at t = 2.5s is:
+   A) 12m/s
+   B) 6m/s
+   C) 0m/s
+   D) 10m/s
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**10.** Which of these is not contained in a dry cell?
-   A) carbon rod
-   B) paste of magnesium dioxide
-   C) paste of ammonium chloride
-   D) zinc case
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
+**6.** What is the relationship mechanical advantage (MA) velocity Ratio (V.R) and efficiency with percentage?
+   A) e = M.A/V.R × 100 %
+   B) M.A = E.V.R
+   C) V.R = 1 ÷ sin θ M.A
+   D) M.A = 1/E × 100%
+   **Answer: A**
+   *Explanation: Efficiency of a machine relates the output to the input of the machine.
+Key definitions:
+
+Mechanical Advantage (M.A) = Output force/Input force (what you get out)
+Velocity Ratio (V.R) = Input distance/Output distance (what you put in)
+Efficiency (E) = (Useful work output)/(Work input)
+
+Relationship:...*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**7.** A substance has half of 3 min. After 6 min, the count rate was observed to be 400. What was its count rate at zero time?
+   A) 1600
+   B) 1200
+   C) 200
+   D) 2400
+   **Answer: A**
+   *Explanation: Given information:
+
+Half-life (T½) = 3 min
+Time elapsed (t) = 6 min
+Count rate at t = 6 min: N(6) = 400
+Initial count rate at t = 0: N₀ = ?
+
+Step 1: Determine number of half-lives
+Number of half-lives (n) = t / T½
+n = 6 / 3 = 2
+So 2 half-lives have passed.
+Step 2: Apply radioactive decay formula
+Aft...*
+
+**8.** In an elastic collision
+
+I. Energy is conserved
+II. Energy is decreased
+III. Energy is increased
+IV. Linear momentum conserved
+   A) I only
+   B) I and IV only
+   C) II only
+   D) III only
+   **Answer: B**
+   *Explanation: In an inelastic collision, linear momentum is conserved and energy is decreased
+
+Momentum and kinetic energy are conserved in elastic collision*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**9.** What is the dimension of pressure?
+   A) ML-1T-2
+   B) MLT-2
+   C) ML2T-3
+   D) ML-3
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**10.** A man walks 1km due east and then 1 km due north His displacement?
+   A) √2 km N 45°E
+   B) 1 km N 30°E
+   C) 1 km N 15°E
+   D) √2 km N 60°E
+   **Answer: A**
+   *Explanation: Given information:
+
+Distance east = 1 km
+Distance north = 1 km
+Displacement = ?
+
+Step 1: Calculate magnitude of displacement using Pythagoras theorem
+The path forms a right-angled triangle.
+Displacement² = (1)² + (1)²
+Displacement² = 1 + 1 = 2
+Displacement = √2 km
+Step 2: Calculate direction
+tan θ =...*
+   *(Note: Closest available year from ALOC database: 2018)*
 
 
 ---

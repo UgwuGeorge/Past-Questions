@@ -2,127 +2,147 @@
 
 ## Objectives
 
-**1.** Simolify (7/9-2/3)/(1/3+(2/5)/(4/5))
-   A) 11/12
-   B) 5/6
-   C) 1/5
-   D) 2/15
-   **Answer: D**
-   *Explanation: (7/9-2/3)/(1/3+(2/5)/(4/5))=((7-6)/9)/(1/3+(2/5)/(4/5))=(1/9)/(1/3+(2/5×5/4))=(1/9)/(1/3+1/2)=(1/9)/((2+3)/6)=(1/9)/(5/6)=1/9×6/5=2/15*
-   *(Note: Closest available year from ALOC database: 2006)*
+**1.** A man bought a second-hand photocopying machine for N34,000. He serviced it at a cost of N2,000 and then sold it at a profit of 15%. What was the selling price?
+   A) N37,550
+   B) N40,400
+   C) N41,400
+   D) N42,400
+   **Answer: C**
+   *Explanation: C.P = N34000 + N2000 = N36000
+Gain = 100 + 15 = 115%   S.P = 115/100×N3600/1
+= N41400*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**2.** In the diagram above, PQ is parallel to RS. What is the value of α + β + γ?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710699608/ALOC-Questions/Mathematics/2003/math_2003_q40_olppxr.jpg)*
-   A) 360°
-   B) 200°
-   C) 180°
-   D) 90°
-   **Answer: A**
-   *Explanation: γ + S = 180(Allied angles)
-S = 180 - γ
-α + P = 180(Allied angles)
-p = 180 - α
-β = P + S
-β = 180 - α + 180 - γ
-β = 360 - α - γ
-β + α + γ = 360*
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**3.** The shadow of a pole 5√3m high is 5m. Find the angle of elevation of the sun.
-   A) 45°
-   B) 75°
-   C) 30°
-   D) 60°
-   **Answer: D**
-   *Explanation: Tan θ = 5√3/5
-Tan θ = √3
-θ = 60°*
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**4.** The mean age group of some students is 15years. When the age of a teacher, 45 years old, is added to the ages of the students, the mean of their ages become 18 years. Find the number of students in the group.
-   A) 7
-   B) 9
-   C) 15
-   D) 42
+**2.** Find the sum of the first 20 terms of the series 8, 12, 16, ....., 96
+   A) 1400
+   B) 1040
+   C) 960
+   D) 920
    **Answer: B**
-   *Explanation: x( ∑x)/N
-15 = (∑x)/N
-∑x = 15N........(i)
-
-y = ∑y/Ny = (∑x+45)/(N + 1)
-18/1 = (15N + 45)/(N + 1)
- 
-
-18(N + 1) = 15N + 45
-
-18N + 18 = 15N + 45
-
-18N - 15N = 45 - 18 
-
-3N = 27 
-
-N = 27/3
- 
-
-= 9*
-   *(Note: Closest available year from ALOC database: utme)*
-
-**5.** In the diagram above, PQ = 10 cm, PS = 8 cm and ∠PSR is 60o while ∠SRQ is a right angle. Find SR
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715542791/ALOC-Questions/Mathematics/2006/MATH_JAMB_2006_Q35_tsamyg.jpg)*
-   A) 14 cm
-   B) 14√3 cm
-   C) 10 cm
-   D) 10√3 cm
-   **Answer: A**
-   *Explanation: In ΔPST; cos 60 = ST/8
-ST = 8cos 60
-ST = 8 x 1/2 = 4
-TR = 10 cm (opp. sides of a rectangle PQRT)
-SR = ST + TR
-SR = 4 + 10
-SR = 14 cm*
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**6.** Find the value of t if the standard deviation of 2t, 3t, 4t, 5t, and 6t is √2
-   A) 1
-   B) 2
-   C) 3
-   D) 4
-   **Answer: A**
-   *Explanation: mean(x)=20t/5=4t. Standard deviation=√((10t<sup>2</sup> )/5) √2=√((10t<sup>2</sup> )/5) √2=√(2t<sup>2</sup>  ) 2=2t<sup>2</sup>  t<sup>2</sup> =1. t=1*
+   *Explanation: 8, 12, 16, .....96
+a = 8, d = 4, l = 96, n = 20
+S20 = n/2(a + l)
+= 20/2(8 + 96)
+= 10 * 104
+= 1040*
    *(Note: Closest available year from ALOC database: 2005)*
 
-**7.** If the mean of five consecutive integers is 30, find the largest of the numbers
-   A) 28
-   B) 30
-   C) 32
-   D) 34
-   **Answer: C**
-   *Explanation: ((a+a+1+a+2+a+3+a+4))/5 30=(5a+10)/5 30×5=5a+105a=150-105a=140a=28∴a+4=28+4=32*
-   *(Note: Closest available year from ALOC database: 2006)*
+**3.** The expression a 3 + b 3 is equal  to
+   A) (a2 +b)(a-ab+b2 )
+   B) (a+b)(a2 –ab+b2 )
+   C) (a-b2)(a2-  ab+b)
+   D) (a­-b)(a2+ab+b2)
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**8.** For what of n is <sup>n+1</sup> C<sub>3</sub> = 4(<sup> n</sup>C<sub>3</sub>)?
-   A) 6
-   B) 5
-   C) 4
-   D) 3
+**4.** Find the rate of change of the volume, V of a sphere with respect to its radius, r when r = 1.
+   A) 12π
+   B) 4π
+   C) 24π
+   D) 8π
+   **Answer: B**
+   *Explanation: Volume of sphere, V = 4/3 x πr<sup>3</sup>
+Rate of change of V = dv/dr
+Thus if V = 4/3 x πr<sup>3</sup>,
+=> dv/dr = 4πr<sup>2</sup>
+
+At r = 1, Rate = 4 x π x 1 = 4π*
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**5.** Given an isosceles triangle with length of 2 equal sides t units and opposite side √3t units with angle θ. Find the value of the angle θ opposite to the √3t units.
+   A) 100°
+   B) 120°
+   C) 30°
+   D) 60°
+   **Answer: B**
+   *Explanation: Cos θ° = t<sup>2</sup> + t<sup>2</sup> -(√3t)<sup>2</sup> 2 x t x t
+
+= 2t<sup>2</sup> - 3t<sup>2</sup> 2t<sup>2</sup>
+= -t<sup>2</sup>/2t<sup>2</sup>
+= -1/2
+
+Thus θ = cos<sup>-1</sup> (-0.5) = 120°*
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**6.** A man wishes to keep his money in a savings deposit at 25% compound interest so that after three years he can buy a car for N150,000. How much does he need to deposit?
+   A) N112,000.50
+   B) N96,000.00
+   C) N85,714.28
+   D) N76,800.00
    **Answer: D**
-   *Explanation: <sup>n+1</sup>C<sub>3</sub = 4 (<sup> n</sup> C<sub>3</sub>)frac(n+1)!(n+1-3)!3!=4(n!/((n-3)!3!))frac(n+1)n!(n-2)(n-3)!=4(n!/(n-3!))"\="  (n+1)/(n-2)=4/1 "\n"+1=4(n-2)"\n"+1=4n-8"\-" 3n=-9frac-9-3"\n"=3*
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: Amount A = P(1+r)n;
+A = N150,000, r = 25%, n = 3.
+150,000 = P(1+0.25)3 = P(1.25)3
+P = 150,000/1.253 =N76,800.00*
+   *(Note: Closest available year from ALOC database: 2000)*
 
-**9.** If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, find δy/δx
-   A) 8x<sup>2</sup> - 2x + 1
-   B) 8x<sup>2</sup> - 4x + 1
-   C) 12x<sup>2</sup> - 2x + 1
-   D) 12x<sup>2</sup> - 4x + 1
+**7.** Evaluate ∫<sup>2</sup><sub>1</sub> 5/x
+ dx
+   A) 1.47
+   B) 2.67
+   C) 3.23
+   D) 3.47
    **Answer: D**
-   *Explanation: If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, then;
+   *Explanation: ∫5/x dx = 5 ∫1/x = 5Inx
 
-δy/δx
- = 3(4x<sup>2</sup>) - 2(2x) + 1
+Since the integral of 1/x is Inx
 
-= 12x<sup>2</sup> - 4x + 1*
-   *(Note: Closest available year from ALOC database: 2014)*
+ ∫<sup>2</sup><sub> 1</sub>
+∫ 5/x dx = 5
+
+ dx = 5 (In<2 – InIn1)
+
+  = 3.4657
+
+  = 3.47*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**8.** Evaluate (0.14<sup>2</sup> x 0.275) 7(0.02) to 3 decimal places.
+   A) 0.039
+   B) 0.358
+   C) 0.033
+   D) 0.308
+   **Answer: A**
+   *Explanation: (0.14<sup>2</sup> x 0.275) 7(0.02) = (0.14 x 0.14 x 0.275)/(7 x 0.02) = (0.14 x 0.14 x 0.275)/(0.14)
+
+=0.14 x 0.275 = 0.0385 Approx. 0.039*
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**9.** Calculate the perimeter of a sector of a circle of raduis 9cm and angle 36o.
+   A) 18cm
+   B) (18 + 9π/5)cm
+   C) (9 + 9π/5)cm
+   D) 9π/5cm
+   **Answer: B**
+   *Explanation: Perimeter = 2r + θ/360
+ x 2πr
+2(9) + 36/360 x 2 x π x 9 = 18 + 9π/5*
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**10.** If x is positive real number, find the range of values for which 1/3x + 1/2 > 1/4x
+   A) x > -1/6
+   B) x > 0
+   C) 0 < x < 6
+   D) 0 < x <1/6
+   **Answer: A**
+   *Explanation: 1/3x + 1/2x = (2 + 3x)/6x > 1/4x
+ 
+
+= 4(2 + 3x) > 6x = 12x<sup></sup>
+ - 2x = 0
+
+= 2x(6x - 1) > 0 = x(6x - 1) > 0
+
+Case 1 (-, -) = x < 0, 6x - 1 > 0
+
+= x < 0, x < 1/6 (solution) 
+
+Case 2 (+, +) = x > 0, 6x - 1 > 0 = x > 0
+x > 1/6
+Combining solutions in cases (1) and (2) 
+
+= x > 0, x < 1/6 = 0 < x < ...*
+   *(Note: Closest available year from ALOC database: utme)*
 
 
 ---

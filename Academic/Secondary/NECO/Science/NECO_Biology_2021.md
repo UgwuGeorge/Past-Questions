@@ -2,85 +2,85 @@
 
 ## Objectives
 
-**1.** The blackly is a vector of
-   A) material
-   B) trypanosomiasis
-   C) onchocerciasis
-   D) yellow fever
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2005)*
+**1.** The  soil type that contains nutrients which are not readily available for plants is
+   A) sandy
+   B) Alluvial
+   C) loamy
+   D) clayey
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**2.** The movement response of a cockroach away  from a light source can be described as
-   A) negative phototaxism
-   B) negative photropism
-   C) positive  photropism
-   D) positive phototaxism
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
+**2.** Mendel, s second law of inheritance states that
+   A) alleles separate predictably
+   B) alleles segregate  independently
+   C) chromosomes segregate independently
+   D) alleles combine randomly
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**3.** Radial symmetry is a feature common to the
-   A) platyhelminthes
-   B) nematodes
-   C) coelentrates
-   D) arthropods
-   **Answer: C**
+**3.** The ability of a chameleon to change its colour is an adaptive feature for
+   A) attraction
+   B) defence
+   C) display
+   D) attack
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2008)*
 
-**4.** In plants, the structures that play roles similar to the arteries and veins of animals are the
-   A) xylem and phloem
-   B) root hairs and xylem
-   C) lenticels and phloem
-   D) roots and stems
+**4.** The larval stage of a mosquito is called
+   A) wriggler
+   B) Grub
+   C) maggot
+   D) Caterpillar
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *(Note: Closest available year from ALOC database: 2004)*
 
-**5.** In the root vascular system, the stele is directly surrounding by the
-   A) pericycle
-   B) cortex
-   C) endodermis
-   D) Parenchyma
-   **Answer: C**
+**5.** The function of the fluid filled pericardium is to
+   A) reduce the friction caused by the pumping movements of the heart
+   B) supply the heart with oxygen and nutrients
+   C) prevent disease organisms from attacking the heart
+   D) reduce the  intensity of the pumping action of the heart
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2005)*
 
-**6.** Bird toes suitable for digging have claws that are
-   A) blunt
-   B) curved
-   C) hooked
-   D) sharp
-   **Answer: A**
+**6.** The feature that makes locomotion in water easy for fish is the
+   A) scaly body
+   B) slimy body
+   C) steam lined body
+   D) lateral line
+   **Answer: C**
    *(Note: Closest available year from ALOC database: 2009)*
 
-**7.** A major  adaptive feature of endo-parasites is the
-   A) loss of the organ of movement
-   B) presence of claws
-   C) loss of the central nervous system
-   D) presence of piercing mouthparts
+**7.** The mammalian lung is made air light by the
+   A) pleural cavity
+   B) mucous membrane
+   C) pleural membrane
+   D) diaphragm
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**8.** Throxne and adrenalin are examples of hormones which control
-   A) blood grouping
-   B) tongue rolling
-   C) behavioural patterns
-   D) colour variation
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
+**8.** The structure can be found in the
+   A) sympathetic and parasympathetic nervous systems
+   B) peripheral and central nervous systems
+   C) peripheral nervous system only
+   D) central nervous system only
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**9.** Pineapple is an example of
-   A) a composite fruit
-   B) a simple fruit
-   C) an aggregate fruit
-   D) a dehiscent fruit
+**9.** In the kidney of mammals, the site of ultra filtration is the
+   A) urinferous tuble
+   B) Bowman capsule
+   C) loop of Henle
+   D) renal tuble
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**10.** An example of a fish that aestivates is
+   A) lung fish
+   B) shark
+   C) cat fish
+   D) croaker
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2007)*
-
-**10.** The vector of the malaria parasite is a
-   A) female anopheles mosquito
-   B) male culex mosquitoes
-   C) female culex mosquito
-   D) female Aids mosquito
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
 
 
 ---

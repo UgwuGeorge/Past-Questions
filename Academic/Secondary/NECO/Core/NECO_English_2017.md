@@ -2,94 +2,96 @@
 
 ## Objectives
 
-**1.** Lemoti ………..
-   A) is gifted only not
-   B) is only not gifted
-   C) not only
-   D) is only gifted
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**2.** b<u>oa</u>t?
-   A) board
-   B) bought
-   C) go
-   D) glory
-   **Answer: C**
-   *Explanation: boat; /bəʊt/                                                       go; /ɡəʊ/*
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**3.** The man declared his intention from the -----
-   A) outset
-   B) inset
-   C) onset
-   D) offset
-   **Answer: C**
-   *Explanation: onset simply means the beginning of something. in the statement above, it means the man made his intentions known from the beginning. option C best fits into the statement.*
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**4.** 
-   A) interpreter
-   B) remarkable
-   C) impossible
-   D) criticism
+**1.** Always strive to get what is <i>legitimate,</i>
+   A) illicit
+   B) legal
+   C) good
+   D) impure
    **Answer: A**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**2.** Early in which month did the southwest moonsoon break?
+   A) August
+   B) May
+   C) July
+   D) June
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**3.** 
+   A) impound
+   B) canoe
+   C) subject(verb)
+   D) knowledge
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2005)*
 
-**5.** The plan to upgrade the dispensary to a general hospital did not materialized?
-   A) The plan did not meet the required specifications
-   B) The arrangement did not work out as wished
-   C) It was difficult to obtain the materials
-   D) The materials purchased were not the right ones
-   **Answer: B**
-   *Explanation: If a possible or expected event does not materialize, it does not happen.*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**6.** choose the option opposite in meaning to the word(s) in italics.
-
-  Everyone testifies to the <i>unique</i> taste of our flavor.
-   A) Offensive
-   B) Common
-   C) Uncommon
-   D) Sufficient
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**7.** 
-   A) competent
-   B) misread
-   C) resign
-   D) compel
+**4.** Of course we all saw the culprit ....... and hit the man on the head?
+   A) approached
+   B) approching
+   C) approach
+   D) approches
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2001)*
 
-**8.** All the following are roles of the media but?
-   A) Entertainment
-   B) Sensitization
-   C) Information
-   D) Moralization
-   **Answer: D**
-   *Explanation: moralization - means indulgence in moral pronouncements; or the exposition of a particular moral code.
+**5.** From the words lettered A to D, choose the word that has the same consonant sound(s)
 
-This is not a role of mass media according to the passage*
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**9.** More ...... to your elbow as you as you campaign for press freedom?
-   A) power
-   B) effort
-   C) grease
-   D) energy
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**10.** Bobo proved Mr Bello's advice on infatuation as right when he
-   A) presented a gift to Aliya
-   B) flirts with other girls
-   C) eventually left for Ireland without saying a word to Aliya
-   D) proclaimed his love for Aliya
+Strange
+   A) vague
+   B) mirage
+   C) logic
+   D) legume
    **Answer: C**
-   *Explanation: The fact that Bobo later travelled to Ireland without even informing Aliya finally and undoubtedly cements Mr Bello's advice that his love for her was temporary.*
-   *(Note: Closest available year from ALOC database: 2019)*
+   *Explanation: the ''ge'' in ''strange'' is the same consonant sound as the ''g'' in logic
+
+strange is pronounced as  [streɪn(d)ʒ]*
+
+**6.** Choose the option opposite in meaning to the underlined word
+
+The delegates found it better to resort to <u>consultation</u> rather than __________
+   A) conflict
+   B) confrontation
+   C) reconciliation
+   D) consent
+   **Answer: B**
+   *Explanation: Consultation ; the action or process of formally consulting or discussing. example: "they improved standards in consultation with consumer representatives"
+
+synonyms: discussion, dialogue, discourse, debate, negotiation, conference, deliberation
+ 
+
+confrontation; a hostile or argumentative situation...*
+
+**7.** The idle steward could not see ....... on the wall, and he lost his job.
+   A) the writing
+   B) what will be written
+   C) the handwriting
+   D) what is written
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**8.** The last criticism at the rally was made <i>in ignorance</i>
+   A) uniformed
+   B) objective
+   C) unimpeaccable
+   D) impeccable
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**9.** The warming tribes have told been told to <u>parley</u> with each other?
+   A) observe a truce
+   B) hold talks
+   C) sign a treaty
+   D) suspend hostilities
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**10.** My advice to Tolu was: 'Look before you leap.'
+   A) Tolu was advised to consider her opinions before reaching any decisions.
+   B) Tolu was advised to consider the possible consequences before taking action.
+   C) Tolu was advised to weigh her decisions by looking and leaping.
+   D) Tolu was advised to leap only after looking.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2007)*
 
 
 ---

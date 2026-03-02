@@ -2,85 +2,86 @@
 
 ## Objectives
 
-**1.** What is the decrease in volume of air when pyrogallol is shaken with 30.00cm3 of air
-   A) 15.00cm3
-   B) 6.00cm3
-   C) 0.63cm3
-   D) 0.06cm3
+**1.** A little quantity of Trichloromethane (b.pt.600C) was added to a large quantity of ethanol (b.pt.780C). the most probable boiling point of the resultant mixture is from
+   A) 699C – 700C
+   B) 820C – 840C
+   C) 600C – 780C
+   D) 700C – 744C
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**2.** 2H2(g) +    O2(g)  ⇌ 2H2O(g)    ΔH   =  - ve  What happens to the equilibrium constant of the reaction above if the temperature is increased?
+   A) It becomes zero
+   B) It decreases
+   C) It increases
+   D) It is unaffected
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**2.** Fermentation is the
-   A) Breaking down of carbohydrate to glucose
-   B) Conversion of sugar to alcohol in the presence of yeast
-   C) Breaking down of sugar to carbohydrate
-   D) Conversion of alcohol to sugar in the presence of yeast
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**3.** Which of the following statements is true of sulphur (IV) oxide
-   A) It forms Tetraoxosulphate (VI) acid with water
-   B) It is an odourless gas
-   C) It is an acid anhydride
-   D) It forms white precipitate with acidified barium chloride
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**4.** A gas exerts pressure on its container because
-   A) Some of its molecules are moving faster than others
-   B) Of the collision of the molecules with each other
-   C) Of the mass of the molecules of gas
-   D) The molecules of a gas collide with the walls of the container
+**3.** Ethanol reacts with excess acidified K2Cr2O7 to produce
+   A) Ethanoic acid
+   B) Ethanol
+   C) Ethyl ethanoate
+   D) Ethanoic acid
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**5.** A metal M displaces zinc from zinc chloride solution. This shows that
-   A) M is more electronegative than zinc
-   B) Zinc is above hydrogen in the series
-   C) M is more electropositive than zinc
-   D) Electrons flow from zinc to M
+**4.** When a salt loses its water of crystallization to the atmosphere on exposure, the process is said to be
+   A) Deliquescence
+   B) Effervescence
+   C) Efflorescence
+   D) Fluorescence
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2002)*
 
-**6.** The property of chlorine which causes hydrogen chloride to be more ionic than the chlorine molecule is its
+**5.** The oxidation state of chlorine in HClO4 is
+   A) -5
+   B) -1
+   C) 1
+   D) 7
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**6.** Hydrogen is readily released when dilute hydrochloric acid reacts with
+   A) Au
+   B) Cu
+   C) Na
+   D) Ag
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**7.** To a solution of an unknown compound, a little dilute Tetraoxosulphate (IV) acid was added with some freshly prepared (II) Tetraoxosulphate (VI) Solution. The brown ring observed after the addition of a stream of concentrated  Tetraoxosulphate (VI) acid confirmed the presence of
+   A) CI
+   B) SO
+   C) NO
+   D) CO
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**8.** Alkanol + Alkanoic acid ⇌  Ester + water.
+The reverse reaction of the equation above is known as
+   A) Hydrolysis
+   B) Saponification
+   C) Hydration
+   D) Fermentation
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**9.** If an equilibrium reaction has   H>0, the reaction will proceed favourably in the forward direction at
+   A) High temperature
+   B) Any temperature
+   C) Low temperature
+   D) Minimum temperature
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**10.** The property of chlorine which causes hydrogen chloride to be more ionic than the chlorine molecule is its
    A) Electrovalency
    B) Electron affinity
    C) Electropositivity
    D) Electronegativity
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2004)*
-
-**7.** The boiling of fat and aqueous caustic soda is referred as
-   A) Saponification
-   B) Esterification
-   C) Acidification
-   D) Hydrolysis
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**8.** The structural component that makes detergent dissolve more quickly in water than soap is
-   A) –SO3 –Na+
-   B) –COO-Na+
-   C) –SO4- Na+
-   D) –COO-K+
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**9.** The stability of the noble gases is due to the fact that they
-   A) Have duplet or octet electron configurations
-   B) Belong to group zero of the periodic table
-   C) Are volatile in nature
-   D) Have no electron in their outermost shells
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**10.** Which of the following gives a precipitate when treated with NaOH solution
-   A) Na2CO3
-   B) CH3COONa
-   C) NH4Cl
-   D) AlCl3
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2002)*
 
 
 ---

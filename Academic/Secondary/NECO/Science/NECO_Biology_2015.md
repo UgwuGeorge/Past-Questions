@@ -2,77 +2,85 @@
 
 ## Objectives
 
-**1.** The dark reaction of photosynthesis involves the
-   A) reduction of carbon (IV) oxides to organic compounds
-   B) release of oxygen and the splitting of water
-   C) photolysis of water and the production of starch
-   D) splitting of water into hydrogen ions.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
+**1.** What will happen when two equal  sized pieces of unripe pawpaw labeled X and Y are dropped into equal volumes of concentrated salt solution and distilled water respectively?
+   A) Pawpaw X will become  turgid
+   B) Both  will increase in size
+   C) pawpaw Y will become turgid
+   D) Both will decrease in size
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**2.** A characteristic exhibited by all living organism is
-   A) sexual reproduction
-   B) aerobic respiration
-   C) the ability to move from one place to another
-   D) the ability to remove unwanted substances.
+**2.** The highest level of ecological organization is the
+   A) niche
+   B) biosphere
+   C) population
+   D) Ecosystem
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**3.** Organisms I, II, III and IV have surface volume ratios  of 1:2, 1:3, 1:4, 1:5, respectively. The organism that is likely to have the most complex transport system is
-   A) IV
-   B) III
-   C) I
-   D) II
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**4.** Plant  growth can be artificially stimulated by the addition of
-   A) gibberellin
-   B) kinin
-   C) abscisic acid
-   D) ethylene
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**5.** Hassan and Hussain are identical twins but Hasan grows taller and fatter than Hussain. This is probably  because
-   A) Hussain in endowed with genes for shortness and thinness
-   B) They are raised in different environments
-   C) they have dissimilar genotypes
-   D) Hassan inherits genes for tallness and fatness from the father.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**6.** The part of the human gut  that has an acidic  content is the
-   A) stomach
-   B) duodenum
-   C) ileum
-   D) colon
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**7.** A water medium is necessary for fertilization in
-   A) angisperms
-   B) ferns
-   C) fungi
-   D) conifers
-   **Answer: B**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**8.** Plants of temperate origin can be grown in tropical areas in the vegetation zones of the
-   A) rain forest
-   B) Guinea savanna
-   C) Sudan savanna
-   D) montane forest
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
+**3.** One example of fossil fuel is
+   A) limestone
+   B) coral
+   C) coal
+   D) firewood
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**9.** The dominant phase in the life cycle of a fern is the
-   A) gametophyte
-   B) prothallus
-   C) sporophyte
-   D) antheridium
+**4.** The structure can be found in the
+   A) sympathetic and parasympathetic nervous systems
+   B) peripheral and central nervous systems
+   C) peripheral nervous system only
+   D) central nervous system only
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**5.** Which of the following theories was NOT considered by Darwin in his evolutionary theory?
+   A) survival of the fittest
+   B) use and disuse
+   C) competition
+   D) variation
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**6.** Which of the following is a homeostatic response in humans?
+   A) withdrawing the hand from a hot object
+   B) the mouth getting watery when food is lighted
+   C) yawning owing to tiredness
+   D) shivering in a cold environment
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**7.** Plants that grow in an area that is neither too wet nor too dry are
+   A) xerophytes
+   B) mesophytes
+   C) epiphytes
+   D) hydrophytes
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**8.** An example of a sex-linked  trait is the
+   A) ability to roll the tongue
+   B) possession of facial hair in adult humans
+   C) ability to grow long hair in females
+   D) colour of the skin in human
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**9.** The mammalian lung is made air light by the
+   A) pleural cavity
+   B) mucous membrane
+   C) pleural membrane
+   D) diaphragm
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**10.** The sequence of the one way gaseous exchange mechanism in a fish is
+   A) gills _ operculum _ mouth
+   B) mouth_operculum_ gills
+   C) mouth _gills _operculum
+   D) operculum _ gills_ mouth
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2011)*
 
 
 ---

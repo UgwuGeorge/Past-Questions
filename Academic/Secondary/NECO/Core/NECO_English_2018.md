@@ -2,88 +2,96 @@
 
 ## Objectives
 
-**1.** l<u>u</u>ck
-   A) lock
-   B) lack
-   C) brother
-   D) turn
+**1.** People dislike Mariam because she is ……………
+   A) trickful
+   B) trickish
+   C) trickly
+   D) tricker
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**2.** The president said that he found himself between a rock and a hard place when the press said that he has resigned.
+   A) Hard places are dangerous for the president.
+   B) He dreamt that he was abandoned.
+   C) He thought that hard places were unsafe.
+   D) He had a hard decision to make.
+   **Answer: D**
+   *Explanation: If you are caught between a rock and a hard place, you are in a difficult situation where you have to choose between two equally unpleasant courses of action.*
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**3.** The solution lies in choosing between various negative alternatives?
+   A) the solution can be found in one of negative options
+   B) the solution lies in choosing between the positively and the negative and the negative
+   C) the solutions are many
+   D) the solution is a negative one
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *(Note: Closest available year from ALOC database: 2001)*
 
-**2.** The school authority dismissed him for ...... but I won't tell you about it yet?
-   A) certain reason
-   B) a reason
-   C) more reason
-   D) a certain reason
-   **Answer: D**
-   *Explanation: The school authority dismissed him for a certain reason but I won't tell you about it yet?*
+**4.** L<u>ea</u>ch?
+   A) gear
+   B) cedar
+   C) cheer
+   D) death
+   **Answer: B**
+   *Explanation: leach; /liːtʃ/
+
+cedar; /ˈsiːdə/*
    *(Note: Closest available year from ALOC database: 2011)*
 
-**3.** The word inclinations, as in the passage
-means
-   A) creeds
-   B) tendencies
-   C) inhibitions
-   D) power.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+**5.** Choose the word that has the same rhyme 
 
-**4.** Some people consider the leather uphoistery and thick rugs a bit <i>sumptuous</i>
-   A) expensive
-   B) desirable
-   C) lavish
-   D) simple
+Thyme
+   A) climb
+   B) bind
+   C) time
+   D) lime
+   **Answer: C**
+   *Explanation: Time' sounds approximately the same way when pronounced as 'Thyme'*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**6.** 'fam<u>ou</u>s''
+   A) soup
+   B) cook
+   C) pilot
+   D) colonel
+   **Answer: C**
+   *Explanation: famous: /ˈfeɪməs/
+
+pilot: /ˈpʌɪlət/*
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**7.** He has no reason to <i>have his heart in his mouth</i>
+   A) think negatively
+   B) feel guilty
+   C) be afraid
+   D) be confident
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**5.** 
-   A) release
-   B) exit
-   C) exchange
-   D) explode
+**8.** Her findings [exploded] widely held beliefs about learning
+   A) challenged
+   B) debunked
+   C) projected
+   D) confirmed
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: Exploded as used in this context means to refute or criticise.*
+   *(Note: Closest available year from ALOC database: 2019)*
 
-**6.** Didn't .......  draw your attention to the entry requirements?
-   A) anyone
-   B) everyone
-   C) everybody
-   D) no body
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**7.** If I went to the village I would visit the King.
-   A) If i go to the village, i will visit the king
-   B) I did not go to the village and I did not visit the king
-   C) All the times I went to the village I also visited the king
-   D) I will visit the king when I go to the village
-   **Answer: B**
-   *Explanation: He hasn't visited the village yet, but when he does, he will visit the king.*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**8.** When they examined his body, they found that he ...
-   A) had been dead
-   B) had been dying
-   C) died
-   D) was dead
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**9.** Though he is our elected representative he often takes a rather jaundiced view of our problems?
-   A) He takes a rather hazy view of our problems
-   B) He takes an unfavourable position concerning our problems
-   C) He takes a rather forceful view of our problems
-   D) He takes a sickly view of our problems
-   **Answer: B**
+**9.** Our culture does not allow one to ........ when an elderly person is speaking?
+   A) cut of
+   B) cut off
+   C) cut in
+   D) cut on
+   **Answer: C**
    *(Note: Closest available year from ALOC database: 2000)*
 
-**10.** 
-   A) Secondment
-   B) Orthopaedic
-   C) oriental
-   D) photographic
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
+**10.** In question number 23 above, choose the best option from letters A-D that best completes the gap.
+   A) findings
+   B) quries
+   C) experiment
+   D) inquries
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2002)*
 
 
 ---

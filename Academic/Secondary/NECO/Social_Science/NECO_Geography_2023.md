@@ -2,90 +2,81 @@
 
 ## Objectives
 
-**1.** Noonday sun is vertically overhead along the Tropic of Cancer during the month of
-   A) June
-   B) July
-   C) August
-   D) September
+**1.** Which of the following observation can be inferred from the table above, which shows the hydro-electric power (HEP) development in some selected countries?
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582572/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2019_16_y0csjv.jpg)*
+   A) Power from hydro-electricity is cheaper than power from other sources
+   B) More factories use HEP in Brazil than in Switzerland
+   C) Per capita HEP consumption is higher in Switzerland than in Italy
+   D) More HEP stations are built in Canada than in Japan
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *(Note: Closest available year from ALOC database: 2019)*
 
-**2.** The latitude which marks the lines of the Sun's apparent movement north and south of the equator is
-   A) 60.5°
-   B) 66.5°
-   C) 23.5°
-   D) 45.5°
-   E) 75.5°
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2017)*
+**2.** The most important determinants of air temprature of a region are
+   A) Latitude and altitude
+   B) Evaporationa and sunshine hours
+   C) Wind and air mass
+   D) Rainfall and humidity
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2020)*
 
-**3.** Horse latitudes refers to
-   A) areas around the gulf of guinea
-   B) areas around the equator
-   C) areas around the Mediterranean sea
-   D) areas around latitude 300 in both hemispheres.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
+**3.** One basic mineral that is common to Sokoto, Ewekoro, Calabar, and Nkalagu is
+   A) Gypsum
+   B) Coal
+   C) Marble
+   D) Iron-ore
+   E) Limestone
+   **Answer: E**
+   *(Note: Closest available year from ALOC database: 2018)*
 
-**4.** Intervisibility is possibility between the points marked X and Y because the intervening slope is
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582574/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2018_03_and_07_byo7zc.jpg)*
-   A) Convex
-   B) Rectilinear
-   C) Convexo-concave
-   D) Steep slope
-   E) Concave
+**4.** Lakes Kivu and Malawi are related in that they
+   A) Lie in the Northern Hemisphere
+   B) Are crater lakes
+   C) Attract a large number of tourists
+   D) Are drift valley lakes
+   E) Artificial in nature
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2018)*
 
-**5.** The second Equinox in any year take place during the month of
-   A) March
-   B) June
-   C) September
-   D) December
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**6.** Which one of the following ports occupies the best natural site in West Africa?
-   A) Monrovia
-   B) Tema
-   C) Banjul
-   D) Lagos
-   E) Freetown
-   **Answer: E**
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**7.** What is the size, in square kilometers of the area covered by the map?
-   A) 58.0 sqkm
-   B) 64.0 sqkm
-   C) 51.0 sqkm
-   D) 62.0 sqkm
-   E) 55.0sqkm
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**8.** Which of the locations in Nigeria has the highest mean annual rainfall total ?
-   A) Benin City
-   B) Port-Harcourt
-   C) C.Calabar
-   D) Ondo
+**5.** The captain of a ship in the mid sea observed that it was local noon as he was listening to 08.00 hour BBC world news. On which longitude was his ship?
+   A) 120°E
+   B) 60°E
+   C) 120°W
+   D) 60°W
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
+   *(Note: Closest available year from ALOC database: 2019)*
 
-**9.** The World largest Ocean is:
-   A) Pacific Ocean
-   B) Atlantic Ocean
-   C) Indian Ocean
-   D) Arctic Ocean
+**6.** Which of these economic activities is LEAST characteristics of typical urban centres?
+   A) Commerce
+   B) quarrying
+   C) transportation
+   D) manufacturing
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**7.** The oldest system of agriculture in Nigeria which now survives only in very remote areas is
+   A) Bush fallowing
+   B) Mixed farming
+   C) Shifting cultivation
+   D) Market gardening
+   E) Mechanized farming
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**8.** Kinshasa is a:
+   A) Central African City
+   B) North African City
+   C) East African City
+   D) South African City
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2014)*
 
-**10.** The lack of access to food in some parts of the world emanates from
-   A) Educational inequality
-   B) Poor transport system
-   C) Economic inequality
-   D) Low development of natural resources
-   E) Lack of manpower
-   **Answer: B**
+**9.** In which of the following countries is cotton growing under irrigation the mainstay of the agricultural economy?
+   A) Zimbabwe
+   B) Uganda
+   C) Mali
+   D) Ghana
+   E) Sudan
+   **Answer: E**
    *(Note: Closest available year from ALOC database: 2018)*
 
 

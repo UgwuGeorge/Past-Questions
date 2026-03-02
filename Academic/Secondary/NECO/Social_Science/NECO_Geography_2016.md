@@ -2,92 +2,86 @@
 
 ## Objectives
 
-**1.** The highest category of rural settlement is the
-   A) Hut
-   B) Village
-   C) Homestead
-   D) Hamlet
-   E) Metropolis
+**1.** Which of the following timber trees are found in the tropical rain forest of Africa?
+   A) Obeche and teak
+   B) Mahogany and teak
+   C) Obeche and Mahogany
+   D) Iroko and Eucalyptus
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**2.** Cattle are sent from Great Plains of U.S.A for fattening and sale in the
+   A) Industrial North East
+   B) South East
+   C) Wheat belt
+   D) Corn belt
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**3.** Soil that are formed by the wind deposition are called
+   A) Laterites
+   B) loess
+   C) podsols
+   D) prairies
    **Answer: B**
+   *(Note: Closest available year from ALOC database: 2007)*
 
-**2.** Which is commodity associated with OPEC?
-   A) Coffee
-   B) Iron and Steel
-   C) Vegetable oil
-   D) Mineral oil
-   E) Sugar
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**3.** The greatest advantage of road transportation over other modes is that the former is
-   A) Less risky
-   B) Faster
-   C) More flexible
-   D) Cheaper
-   E) Expensive
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**4.** Which one of the following seas has highest degree of salinity in the world?
-   A) Caspian sea
-   B) Mediterranean sea
-   C) Dead Sea
-   D) Red sea
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**5.** The above diagram on which the contours are in meters shows
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582573/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2020_6_denat6.jpg)*
-   A) Mesa
-   B) Knoll
-   C) Drumlin
-   D) Volcanic cone
+**4.** A country well known for the production of copper in Africa is
+   A) Egypt
+   B) Zambia
+   C) Ghana
+   D) Republic of Benin
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2020)*
 
-**6.** The mean temperature of Station Y is
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582573/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2019_12_to_14_kwqvds.jpg)*
-   A) 27.3°C
-   B) 31.5°C
-   C) 30.0°C
-   D) 26.8°C
-   E) 22.1°C
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2019)*
+**5.** Which of these is a textual classification of soils?
+   A) Rounded, Irregular, and Flat
+   B) Angular, Prismatic and Columnar
+   C) Rounded, Pebbles, and Silt
+   D) Angular, Sand, and Clay
+   E) Sand, Loamy, and Clay
+   **Answer: E**
 
-**7.** Which of the following is not a form of precipitation?
-   A) Dew
-   B) Snow
-   C) hail
-   D) fog
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**8.** Which is the main crop grown in the Ghezira plains
-   A) Wheat
-   B) Millet
-   C) Rice
-   D) Cotton
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**9.** Pulp-wood which is used in the manufacturing of paper cardboard and cellulose is derived mainly from
-   A) Desert plants
-   B) Tropical rainforest
-   C) Coniferous forest
-   D) Broad leaved forest
-   E) Savannah woodland
+**6.** Isobar refers to:
+   A) Line that connects points of equal humidity.
+   B) Line that connects points of equal rainfall.
+   C) Line that connects points of equal pressure.
+   D) Line that connects points of equal temperature.
    **Answer: C**
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**7.** Which of the following rocks is composed of the skeletons of microscopic sea plants and animals?
+   A) Granite
+   B) Chalk
+   C) Slate
+   D) Sandstone
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**8.** Which one of the following sates of Nigeria is a major kolanut producer?
+   A) Plateau
+   B) Bendel
+   C) Rivers
+   D) Ogun
+   E) Yobe
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2017)*
 
-**10.** One basic mineral that is common to Sokoto, Ewekoro, Calabar, and Nkalagu is
-   A) Gypsum
-   B) Coal
-   C) Marble
-   D) Iron-ore
-   E) Limestone
-   **Answer: E**
-   *(Note: Closest available year from ALOC database: 2018)*
+**9.** Which of the following is not a form of precipitation?
+   A) Haze
+   B) Snow
+   C) Hail
+   D) Fog
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**10.** The main composition of coal is
+   A) Iron
+   B) Quartz
+   C) Clay
+   D) Carbon
+   E) Zinc
+   **Answer: D**
 
 
 ---

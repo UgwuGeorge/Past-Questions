@@ -2,92 +2,98 @@
 
 ## Objectives
 
-**1.** Choose the option to which the given sentence relates
-
-Aderonke STATED she had a right to her privacy
-   A) Did Omowunmi state she had a right to her privacy?
-   B) Did Aderonke lament she had a right to her privacy?
-   C) Did Aderonke state she had a right to her openness?
-   D) did Aderonke state she had a right to his privacy
-   **Answer: B**
-   *Explanation: Stated' has been emphasized in the question, therefore Option B is the answer because the verb lament contradicts the emphasized word as used in the question*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**2.** Everyone's condition was <u>appalling</u>
-   A) cloudy
-   B) pleasant
-   C) complex
-   D) simple
-   **Answer: B**
-   *Explanation: Appalling; very bad; awful.*
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**3.** You don't like Mathematics, ........... you?
-   A) do
-   B) don't
-   C) cant
-   D) can
+**1.** 
+   A) librarian
+   B) immunize
+   C) militia
+   D) continuous
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2008)*
 
-**4.** He arrived ....... to see his family leave for the countryside?
-   A) in time
-   B) timely
-   C) late
-   D) with
+**2.** According to the writer, people lead and
+motivate others because they want to
+   A) project individual contribution
+   B) encourage selfless service
+   C) make the world a home
+   D) prevent empty search
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2000)*
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**5.** Funmi is just being <u>facetious</u> about her marrying a soldier?
-   A) unserious
-   B) crazy
-   C) serious
-   D) unfaithful
+**3.** He needed not to have played in the position of quarterback in volley ball.
+   A) He participated in the game in his unusual position
+   B) Nobody expected him to have participated in the game
+   C) He wanted to play in a position other than the one he was offered
+   D) Someone did not want him to play in the position that he played
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**6.** He was both a writer and a politician, but he was better ........ a singer
-   A) As if
-   B) Like
-   C) As
-   D) to be
-   **Answer: C**
-   *Explanation: The adverb "as" is the most suitable answer here to govern the noun phrase "a singer".*
-
-**7.** EDUCATION?
-   A) duplicity
-   B) economics
-   C) elaborate
-   D) conjectural
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**8.** The student's union leader delivered his speech <u>extempore</u>
-   A) out-of -hand
-   B) off the cuff
-   C) accurately
-   D) courageously
-   **Answer: B**
-   *Explanation: Extempore; spoken or done without preparation.
-
-off the cuff; without preparation.*
+   *Explanation: This means he did not have to have played in the position he played in. He played in a wrong position*
    *(Note: Closest available year from ALOC database: 2012)*
 
-**9.** The voyagers fetched up in Nigeria
-   A) the foreigners finally settled in Nigeria
-   B) The journey by sea ended in Nigeria
-   C) The travellers made a stopover in Nigeria
-   D) The discoverers landed in Nigeria after a long journey,
+**4.** own
+   A) brown
+   B) frown
+   C) gown
+   D) phone
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**10.** The chairman's conduct <u>redounds</u> to the image of the company?
-   A) assists in
-   B) reflects on
-   C) contributes
-   D) detracts from
+**5.** The mistake brought the show to an <u>ignominious</u> end?
+   A) a good
+   B) a palatable
+   C) a disgraceful
+   D) a satisfactory
+   **Answer: C**
+   *Explanation: Ignominious; deserving or causing public disgrace or shame.*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**6.** Choose the option that best completes the gap. Wherever the leader went people struggled to catch a __________ of him
+   A) glimpse
+   B) look
+   C) view
+   D) picture
+   **Answer: A**
+   *Explanation: To catch a glimpse of someone or something means to briefly look at someone or to briefly see the person or thing. The verb ‘catch’ cannot be used with ‘look’ in option B, ‘view’ in option C and ‘picture’ in option D.*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**7.** The expression....stage and hall, as used in the passage, means the
+   A) artist and the audience
+   B) producer and the director
+   C) Director and audience
+   D) artiste and his music
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**8.** With remarkable agility, he mounted The 
+Fallen Goliath and went on to stuff his mouth 
+with earth.
+Who was the Fallen Goliath in the excerpt 
+above?
+   A) Cromwell
+   B) David
+   C) Polycarp
+   D) Samuel
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2002)*
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**9.** choose the option opposite in meaning to the word(s) in italics.
+
+  Father Francis thanked God for the <i>abundance</i> of blessings his family received
+   A) Nature
+   B) Quantity
+   C) Quality
+   D) Paucity
+   **Answer: D**
+   *Explanation: Abundance means an excessive availability of something.
+
+Paucity means fewness in number*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**10.** That <i>fateful</i> decision change the company’s outlook in many ways.
+   A) wonderful
+   B) uncontrollable
+   C) disastrous
+   D) unsuccessful
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2005)*
 
 
 ---

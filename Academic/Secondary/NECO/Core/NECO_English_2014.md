@@ -2,89 +2,95 @@
 
 ## Objectives
 
-**1.** bl<u>ues</u>
-   A) book
-   B) root
-   C) foot
-   D) look
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**2.** 
-   A) Circulation
-   B) eleven
-   C) impossible
-   D) criticism
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**3.** Both questions are alternatives; you answer ........ one ........ the other
-   A) either/or
-   B) neither/nor
-   C) either/nor
-   D) neither/or
-   **Answer: A**
-   *Explanation: Option A is the best answer. Note that 'either' goes with 'or' and the usage of both creates an impression as to alternatives.*
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**4.** Now, I am used ____________ bread without butter
-   A) to eat
-   B) in eating
-   C) of eating
-   D) to eating
-   **Answer: D**
-   *Explanation: eating is present participle. 
-used is an adjective that qualiffied the verb eating. therefore it is is right to say ''to eating'' rightly fits into that statement
-I am used to eating bread without butter.*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**5.** His comment was not <i>printable</i>
-   A) punishable
-   B) suitable
-   C) offensive
-   D) unfair.
+**1.** In question number 22 above, choose the best option from letters A-D that best completes the gap.
+   A) climate
+   B) period
+   C) season
+   D) weather
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**6.** Some aspects of their culture are <i>out of date</i>
-   A) genuine
-   B) pragmatic
-   C) fashionable
-   D) fake
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**7.** The new manager was responsible for the …….of the organization.
-   A) uplifting
-   B) lifting
-   C) uplift
-   D) upliftment
-   **Answer: D**
    *(Note: Closest available year from ALOC database: 2002)*
 
-**8.** Musa is STAYING in Enugu.
-   A) Was Musa staying in Enugu?
-   B) Is Musa going through Enugu?
-   C) Is Musa staying on the outskirt of Enugu?
-   D) Is Audu staying in Enugu?
+**2.** Choose the option that best fills the gap.
+
+Whilst the thief was -------------- the passengers kept apologizing for the inconveniences he was causing them.
+   A) rabbing
+   B) rubbing
+   C) robbing
+   D) rubbying
+   **Answer: C**
+   *Explanation: Robbing; take property unlawfully from (a person or place) by force or threat of force.*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**3.** I do not think any sane person would have acted in such a ....... manner?
+   A) rational
+   B) composed
+   C) secret
+   D) cruel
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**4.** The lady has devised a means of <u>tackling</u> her current challenges.
+   A) attacking
+   B) avoiding
+   C) handling
+   D) suspending
    **Answer: B**
+   *Explanation: Tackling: make determined efforts to deal with (a problem or difficult task).
 
-**9.** The traditional chief NARRATED the story to the children
-   A) the children heard the story from the traditional chief
-   B) who narrated the story to the children
-   C) the children could not listen to the story by the traditional chief
-   D) did the chief hide the story from the children
-   **Answer: D**
-   *Explanation: By way of juxtaposition, and recurring emphatic importance, Did the chief hide the story from the children is the most preferred answer.*
-   *(Note: Closest available year from ALOC database: 2019)*
+Avoiding: keep away from or stop oneself from doing (something).*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-**10.** There must be something <i>sinister</i> about her late arrival
-   A) reasonable
-   B) joyful
-   C) hopeful
-   D) ominous.
+**5.** 
+   A) impound
+   B) canoe
+   C) subject(verb)
+   D) knowledge
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**6.** The debt the company incurred became rather <i>intolerable</i>.
+   A) inevitable
+   B) unprecedented
+   C) insupportable
+   D) dangerous.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**7.** We won't leave until it ……..  Raining
+   A) will stop
+   B) stopped
+   C) stops
+   D) has stopped
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**8.** definite limitation used to describe the human body in the passage means that
+   A) the body cannot be made to work continuously like a machine
+   B) the body should only perform simple tasks
+   C) body parts must be limited
+   D) the body is equal to man-made machines.
+   **Answer: A**
+   *Explanation: Definite limitation' is used to emphasize the body's limited energy to work.*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**9.** The President gave another <u>extemporaneous</u> speech last Friday?
+   A) unprepared
+   B) fascinating
+   C) planned
+   D) unfavourable
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**10.** Choose the option nearest in meaning to the word or phrase in italics
+
+Aisha <i>impelled</i> to the party
+   A) compelled
+   B) accompained
+   C) authority
+   D) finance
+   **Answer: A**
+   *Explanation: The words 'impel and compel' are synonymous impel means drive, force or urge someone to do something while compel means force or oblige someone to do something.*
+   *(Note: Closest available year from ALOC database: 2017)*
 
 
 ---

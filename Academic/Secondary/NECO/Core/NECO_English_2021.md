@@ -2,88 +2,82 @@
 
 ## Objectives
 
-**1.** His gift to the poor was always <u>infinitesimal</u>
-   A) large
-   B) small
-   C) supportive
-   D) shameful
+**1.** Everybody is allowed to ………. his views on state matters
+   A) Air
+   B) hear
+   C) show
+   D) share
    **Answer: A**
-   *Explanation: Infinitesimal; extremely small.*
-   *(Note: Closest available year from ALOC database: 2012)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**2.** Ayodeji is an <u>ardent</u> supporter of education for the child
-   A) cogent
-   B) a passionate
-   C) an ignorant
-   D) an optimistic
-   **Answer: B**
-   *Explanation: Ardent means very passionate and enthusiastic*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**3.** Yours is to command.....is to obey
-   A) theirs'
-   B) their's
-   C) their
-   D) theirs
+**2.** I have always believed that my mother is a very <u>impassioned</u> woman?
+   A) emotion
+   B) impartial
+   C) impassive
+   D) emotional
    **Answer: D**
-   *Explanation: Theirs is a personal pronoun, used to modify a noun in order to indicate possession but with greater emphasis on identity of possession.
+   *(Note: Closest available year from ALOC database: 2000)*
 
-Example; Those books are theirs.*
-   *(Note: Closest available year from ALOC database: 2013)*
+**3.** The doctor tried to <i>soothe</i> the patient before the operation
+   A) examine
+   B) treat
+   C) calm
+   D) induce
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**4.** As election day draws near, the party looks ...... because many of its members have....... other parties?
-   A) successful / decleared for
-   B) vulnerable / defected to
-   C) cheerful / moved to
-   D) cheerless / cross-carpeted from
+**4.** Ndeni gave a  <i>flawless</i>  speech at the party
+   A) a wonderful
+   B) a careless
+   C) an interesting
+   D) an imperfect
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**5.** The incumbent president <u>conceded</u> defeat before the final result was announced.
+   A) accepted
+   B) rejected
+   C) opposed
+   D) challenged
+   **Answer: B**
+   *Explanation: Concede: admit or agree that something is true after first denying or resisting it.
+
+Reject: refuse to agree to (a request).*
+
+**6.** From the words lettered A to D, choose the word that rhymes with the given word.
+
+Fret
+   A) freight
+   B) height
+   C) threat
+   D) thread
+   **Answer: C**
+   *Explanation: The answer is ‘C’ because only ‘threat’ rhymes with ‘fret’. The others do not rhyme.*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**7.** Almost everyone she had worked with took advantage of her <u>meekness</u>
+   A) gentleness
+   B) weakness
+   C) steadfastness
+   D) generosity
+   **Answer: A**
+   *Explanation: Meekness: the fact or condition of being meek; submissiveness.*
+
+**8.** In question number 25 above, choose the best option from letters A-D that best completes the gap.
+   A) deduction
+   B) law
+   C) notion
+   D) thesis
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2002)*
 
-**5.** Akin is an <u>inveterate</u> gambler
-   A) a selfish and self-centred
-   B) an extremely unlucky but popular
-   C) an incurable but fearful
-   D) a long time incorrigible
-   **Answer: D**
-   *Explanation: Inveterate; of one having a particular habit, activity, or interest that is long-established and unlikely to change.
-
-Incorrigible; (of a person or their behaviour) not able to be changed or reformed.*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**6.** The Major demanded an <u>unalloyed</u> and not a __________ loyalty from his soldiers
-   A) strict
-   B) wavering
-   C) clumsy
-   D) alterable
-   **Answer: B**
-   *Explanation: unalloyed means not mixed, complete or unadulterated.*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**7.** In his <u>naivety</u> he believed all the stories his friend told him?
-   A) artlessness
-   B) stupidity
-   C) friendliness
-   D) incredulity
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**8.** Between you and _____, he is a liar.
-   A) all of the above
-   B) me
-   C) i
-   D) none of the above
-   **Answer: B**
-   *Explanation: Use the pronoun "me" when the person speaking is receiving the action of the verb in some way, either directly or indirectly.*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**9.** You must not attend the end-of year party?
-   A) It is not necessary that you attend the party
-   B) It is necessary that you attend the party
-   C) You do not have to decided whether to attend the party or not
-   D) You have to decided whether to attend the party or not
+**9.** When he.........from his journey, I want to see him.
+   A) returns
+   B) might have returned
+   C) returned
+   D) must have returned
    **Answer: A**
-   *Explanation: 'You must not attend the end-of year party'' this statement means that, attending the party is not compulsory or a necessity. it is optional*
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2008)*
 
 
 ---

@@ -2,86 +2,85 @@
 
 ## Objectives
 
-**1.** I. Stomata _ spirogyra   II alveoli _ earthworm  III malpighian tubule_mammal Iv.Contractile vacuole _protozoa 
-Which of the above structures is correctly matched with the organisms in which it is found?
-   A) III
-   B) II
-   C) I
-   D) IV
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
+**1.** A biotic factor which affects the distribution and abundance of organisms in a terrestrial  habitat is
+   A) competition
+   B) temperature
+   C) light
+   D) pH
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
 
-**2.** A yellow maize is planted and all the fruits obtained are of yellow seeds. When they are cross bred, yellow seeds and white seeds are obtained in a ratio 3:1. The yellow seed is said to be
-   A) non heritable
-   B) sex linked
-   C) a recessive trait
-   D) a dominant trait
-   **Answer: D**
+**2.** Which of the following animals an exist solely on the water they get from food and metabolic reactions?
+   A) Forest arboreal dwellers
+   B) Desert dwellers
+   C) forest ground dwellers
+   D) rainforest dwellers
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2012)*
 
-**3.** The mambilla plateau is a unique Nigeria biome located in
-   A) Plateau State
-   B) Borno state
-   C) Taraba state
-   D) Benue state
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
+**3.** In which of the following groups of vertebrates is parental  care mostly exhibited?
+   A) Amphibia
+   B) Aves
+   C) Mammalia
+   D) Reptilia
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**4.** The soil type that will be most difficult to plough in a wet season is one that is
-   A) loamy
-   B) clayey
-   C) sandy
-   D) silty
-   **Answer: B**
+**4.** Which of the following vertebrates has the most simple structured heart?
+   A) fish
+   B) Mammal
+   C) Amphibian
+   D) Reptile
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**5.** The absence of special food and water-conducting systems  restricts the body size in
+   A) algae, liverworts and mosses
+   B) liverworts, mosses and ferns
+   C) the bryophytes and the pteriodophytes
+   D) the thallophytes and the pteriodphytes
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2004)*
 
-**5.** I. Rettus rattus   II. Agama agama  II Bufo regularis  IV. Tilapia Zill. The order of evolutionary advancement  of the above
-   A) I, II and III , IV
-   B) I, IV, III, II
-   C) II, III, IV, I
-   D) IV, III, II, I
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**6.** Plant  growth can be artificially stimulated by the addition of
-   A) gibberellin
-   B) kinin
-   C) abscisic acid
-   D) ethylene
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**7.** The point marked I is referred to as
-   A) myelin sheath
-   B) dendrites
-   C) axon
-   D) node of Ranvier
+**6.** An example of cryptic colouration is the
+   A) mottled colours on moths that rest o lichens
+   B) bright colour of an insect pollinated flower
+   C) green colour of a plant
+   D) bright marks on a poisonous tropical frog on variegated  leaves
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**8.** Which of the following is true of leucocytes?
-   A) They are most numerous and ramify all cells
-   B) They are large and nucleated
-   C) They are involved in blood clotting
-   D) They are respiratory pigments
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+**7.** Inn a dictyledonous stem, the zone between the epidermis and the pericycle is the
+   A) cortex
+   B) stele
+   C) xylem
+   D) phloem
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**9.** Which of the following  is involved1 in secondary  thickening in plants?
-   A) collenchyma  and  xylem cells
-   B) Vascular cambium and collenchyma’s cells
-   C) vascular cambium and cork cambium
-   D) Cork cambium and sclerenchyma
+**8.** An accurate identification  of a rapist can be carried out by conducting a
+   A) blood group test
+   B) behavioural traits test
+   C) DNA analysis
+   D) RNA analysis
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *(Note: Closest available year from ALOC database: 2007)*
 
-**10.** The reproductive  system of a male mammal is made up of
-   A) claspers, prostrate, gland, sperm duct and vas deferns
-   B) testis, prostrate gland, sperm duct and vas deferns
-   C) oviduct , urethra, testis and sperm  duct
-   D) testis, uterus, prostrate gland and sperm duct.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+**9.** The best method of propagating sugarcane by
+   A) seed sowing
+   B) layering
+   C) grafting
+   D) stem cuttings
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**10.** In the egg of bird, the embryo is located in the
+   A) Chalaza
+   B) Yolk
+   C) albumen
+   D) embryo
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2003)*
 
 
 ---

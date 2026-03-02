@@ -2,133 +2,130 @@
 
 ## Objectives
 
-**1.** A sector of circle of radius 7.2cm which substends an angle of 300°
- at the centre is used to form a cone. What s the radius of the base of the cone?
-   A) 8 cm
-   B) 9 cm
-   C) 6 cm
-   D) 7 cm
+**1.** In the diagram above calculate the value of x
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710702104/ALOC-Questions/Mathematics/2005/math_2005_q19_gir53c.jpg)*
+   A) 60°
+   B) 100°
+   C) 120°
+   D) 140°
    **Answer: C**
-   *(Note: Closest available year from ALOC database: utme)*
+   *Explanation: p + 40° = 100° (exterior ∠ = sum of two interior opp ∠s)
+p = 100° - 40°
+P = 60°
+But q + p = 180° (∠s on a straight line)
+q + 60°
+q = 180° - 60°
+q = 120°
+x = q (corresponding ∠)
+∴x = 120°*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**2.** If tan θ = 5/4, find sin<sup>2</sup>θ - cos<sup>2</sup>θ.
-   A) 5/4
-   B) 41/9
-   C) 9/41
-   D) 1
-   **Answer: C**
-   *Explanation: Tan θ = 5/4
-x<sup>2</sup> = 5<sup>2</sup> + 42
-= 25 + 16
-= 41
-x = √41
-sin<sup>2</sup>θ - cos<sup>2</sup>θ = (5/√41)<sup>2</sup> - (4/√41)<sup>2</sup>
-= 25/41 - 16/41
-= 9/41*
+**2.** Evaluate ((〖81〗<sup>(3/4)</sup> -〖27〗<sup>(1/3)</sup>)))/(3×2^3 )
+   A) 3
+   B) 1
+   C) 1/3
+   D) 1/8
+   **Answer: B**
+   *Explanation: (81<sup>(3/4)</sup> - 27<sup>(1/3)</sup>)/(3×2<sup>3</sup> )=((3<sup>(3-3/4)</sup>-33<sup>(3-3/4)</sup>))/(3×2<sup>3</sup> )=(3<sup>3</sup> -3)/(3 ×8) = (27 - 3 ) / 24 = 24/24 = 1*
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**3.** In triangle XYZ, ∠XYZ = 15o, ∠XZY = 45o and lXYl = 7 cm. Find lYZl.
+   A) 14√2 cm
+   B) 7(√6/2)
+   C) 7√2 cm
+   D) 7 cm
+   **Answer: B**
+   *Explanation: ∠yxz = 180 - (45 + 15)
+= 180 - 60
+= 120o
+Using sine rule                                 x/sinx=7/sinz  x/sin120=7/sin45 x=7sin120/sin45 x=(7sin(180-120))/sin45 x=7sin60/sin45=(7(√3/2)÷1/√2)x=(7(√3/2)÷1/√2)x=7(√6/2)*
    *(Note: Closest available year from ALOC database: 2006)*
 
-**3.** The sum of the interior angles of a pentagon is 6x + 6y. Find y in the terms of x
-   A) y = 90 - x
-   B) y = 150 - x
-   C) y = 60 - x
-   D) y = 120 -x
-   **Answer: A**
-   *Explanation: 6x + 6y = (n - 2) 180
-6x + 6y= (5 - 2) 180
-6(x + y) = 3 * 180
-x + y = (3 * 180)/6
-x + y = 90o
-y = 90 - x*
-   *(Note: Closest available year from ALOC database: 2004)*
+**4.** Calculate the total surface area of a cupboard which measures 12cm by 10cm by 8cm
+   A) 1920cm<sup>2</sup>
+   B) 592cm<sup>2</sup>
+   C) 296cm<sup>2</sup>
+   D) 148cm<sup>2</sup>
+   **Answer: B**
+   *Explanation: Total surface area of a cupboard is given by the equation A = 2(lb + bh + lh) L = 12, b = 10, h = 8
 
-**4.** Three consecutive terms of a geometric progression are given as n-2, n and n+3. Find the common ratio
-   A) 1/4
-   B) 1/2
-   C) 2/3
+  A = 2((12 x 10) + (10 x 8) + (12 x 8))
+
+  A = 2(120 + 80 + 96)
+
+  A = 2 x 296
+
+A = 592cm<sup>2</sup>*
+
+**5.** Find the determinant of the matrix A = (2133)
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724007576/ALOC-Questions/Mathematics/2022/JAMB_MATH_2022_Q17_sbc8oo.jpg)*
+   A) 4
+   B) 2
+   C) 5
+   D) 3
+   **Answer: D**
+   *Explanation: |A| = (2*3) - (1*3)
+
+→ 6 - 3
+
+= 3*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**6.** Simplify √2+1/√3)(√2-1/√3
+   A) 7/3
+   B) 5/3
+   C) 5/2
    D) 3/2
-   **Answer: D**
-   *Explanation: r = n/n−2 and r= n+3/n                    ∴n/n−2= n+3/n n<sup>2</sup> = n<sup>2</sup> + 3n − 2n − 6. 0 = n−6. ∴ n = 6. But r = n/n−2. r = 6/6−2.6/4 = 3/2*
-   *(Note: Closest available year from ALOC database: 2003)*
+   **Answer: B**
+   *Explanation: √2+1/√3)(√2-1/√3.    √4-√2/√3+√2/√3-1/√9 = 2 - 1/3
 
-**5.** ake r subject of the formula given that x/r+a = a/r
-   A) a<sub>2</sub>/(x−a)
-   B) a<sub>2</sub>/(x+a)
-   C) a/(x - a)
-   D) a/(x + a)
-   **Answer: A**
-   *Explanation: x/r+a = a/r
- 
-⟹ rx = ar + a<sub>2</sub>
-rx − ra = a<sub>2</sub> ⟹ r = a<sub>2</sub>/ (x−a)*
+
+= (16−1)/3
+
+
+= 5/3*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**7.** How many three-digit numbers can be formed from 32564 without repeating any of the digits?
+   A) 120
+   B) 10
+   C) 20
+   D) 60
+   **Answer: D**
+   *Explanation: To get the answer, we simply do
+
+5!/(5−3)!
+= 5×4×3×2×1/(2×1)
+= 60*
    *(Note: Closest available year from ALOC database: 2002)*
 
-**6.** y is inversely proportional to x and y is 6 when x = 7. Find the constant of the variation
-   A) 47
-   B) 42
-   C) 54
-   D) 46
-   **Answer: B**
-   *Explanation: Y ∝ 1/2
+**8.** The sixth term of an A.P is half of its twelfth term. The first term of the A.P is equal to
+   A) Zero
+   B) half of the common difference
+   C) double the common difference
+   D) the common difference
+   **Answer: D**
+   *Explanation: 1st statement: U<sub>6</sub> = 1/2(U<sub>12</sub>)
+a + (n -1)d = 1/2[a + (n-1)d]
+a + 5d = a + 11d
+2(a + 5d) = a + 11d
+2a + 10d = a + 11d
 
+Solving, => a = d
+Hence the first term is equal to the common difference*
+   *(Note: Closest available year from ALOC database: 2001)*
 
-Y = 6, X = 7
-
-Y = k/x
- where k is constant
-
-6 = k/7
-
-
-k = 42*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**7.** Given a regular hexagon, calculate each interior angle of the hexagon
-   A) 60
-   B) 30
-   C) 120
-   D) 15
+**9.** If three staff of Myschool Limited agreed to share their salary arrears in the ration of their ages, which are 18 years, 20 years, 22 years respectively. If the sum of the money collected is N120,000.00K, How much does the second staff received?
+   A) N36,000
+   B) N44,000
+   C) N40,000
+   D) N15,000
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Total of their ages: 18 + 20 + 22 = 60
 
-**8.** If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, find δy/δx
-   A) 8x<sup>2</sup> - 2x + 1
-   B) 8x<sup>2</sup> - 4x + 1
-   C) 12x<sup>2</sup> - 2x + 1
-   D) 12x<sup>2</sup> - 4x + 1
-   **Answer: D**
-   *Explanation: If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, then;
-
-δy/δx
- = 3(4x<sup>2</sup>) - 2(2x) + 1
-
-= 12x<sup>2</sup> - 4x + 1*
-   *(Note: Closest available year from ALOC database: 2014)*
-
-**9.** A trader bought goats for N4000 each. He sold them for N180,000 at a loss of 25%. How many goats did he buy?
-   A) 60
-   B) 50
-   C) 45
-   D) 36
-   **Answer: A**
-   *Explanation: Let the number of goats be X
-C.P of X goats = N4000X
-S.P of X goats = (75/100) x 4000X = N3000X
-
-3000X = 180,000
-
-=> X = 180000/3000 = 60.
-X = 60 goats*
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**10.** Find dy/dx if y = cosx
-.
-   A) sinx
-   B) −sinx
-   C) tanx
-   D) −tanx
-   **Answer: B**
-   *Explanation: If y = cosx                            dy/dx =—sinx*
-   *(Note: Closest available year from ALOC database: 2012)*
+The second staff will get 20/60 × 120,000
+= N40,000.00K*
+   *(Note: Closest available year from ALOC database: 2015)*
 
 
 ---

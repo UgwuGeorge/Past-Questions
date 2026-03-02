@@ -2,91 +2,82 @@
 
 ## Objectives
 
-**1.** The political achievement of UN is the promotion of ___
-   A) economic development
-   B) educational development
-   C) international peace and security
-   D) democratic institution.
-   **Answer: C**
-   *Explanation: The UN's primary political achievement is maintaining international peace and security.*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**2.** Which of the following is the lowest in the hierarchy of feudal system?
-   A) Knights
-   B) Serfs
-   C) Nobles
-   D) Lords
-   **Answer: B**
-   *Explanation: Serfs were the lowest class in the feudal system.*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**3.** The defence pact between Nigeria and Britain was cancelled in the year
-   A) 1967
-   B) 1960
-   C) 1962
-   D) 1965
-   **Answer: C**
-   *Explanation: The defence pact between Nigeria and Britain, known as the Anglo-Nigerian Defense Pact, was indeed cancelled in 1962. This agreement, signed in 1960 shortly after Nigeria gained independence from Britain, allowed British military presence and assistance in Nigeria. However, Nigeria sought to assert ...*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**4.** The study of Government offers an individual all the following, except a
-   A) knowledge of his rights and duties
-   B) training in good citizenship
-   C) knowledge of the processes of government
-   D) training to become a judge
+**1.** One of the following reasons is unlikely to necessitate the emergence of a federal system?
+   A) social factors
+   B) geographical factors
+   C) cultural diversity
+   D) political sovereignty
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 1989)*
-
-**5.** The tenure of the President of the UN Security Council is
-   A) two years
-   B) one month
-   C) six months
-   D) one year
-   **Answer: B**
-   *Explanation: The President of the United Nations Security Council serves a tenure of one month, with the position rotating among the 15 member states (5 permanent and 10 non-permanent) in alphabetical order (based on English country names). This monthly rotation ensures equitable representation and shared leader...*
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**6.** The AU differs from the OAU in having
-   A) no assembly of Heads of State
-   B) effective tools for decision enforcement.
-   C) no permanent headquarters
-   D) a minimum of divergent viewpoints
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**7.** Nigeria spearheaded the formation of ECOWAS during the regime of
-   A) Olusegun Obasanjo
-   B) Yakubu Gowon
-   C) Muritala Muhammad
-   D) Ibrahim Babangida
-   **Answer: B**
-   *Explanation: Nigeria played a pivotal role in the formation of the Economic Community of West African States (ECOWAS) during the regime of General Yakubu Gowon. In collaboration with Togolese President Gnassingbé Eyadéma, Gowon initiated efforts to promote economic integration in West Africa. Their joint diploma...*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**8.** The concept of delegated legislation is often criticised for all but one of the following reasons?
-   A) it may lead to abuse of the powers
-   B) for reasons of sheer ignorance on legislative substance and procedure
-   C) for reasons of expertise rule making on specific subject matters
-   D) it is a clear violation of the separation of powers concept
-   **Answer: C**
-   *Explanation: Delegated Legislation is supported largely because certain specialist idea is needed for the purpose of rule making on areas upon which the legislature may not have sufficient knowledge and skill in. Example, the INEC is empowered to make election guidelines and regulations aside the Electoral Act a...*
+   *Explanation: Other options are necessary reasons for the adoption of a federal system except for sake of defining or strengthening the political sovereignty which invariably belongs to the citizens.*
    *(Note: Closest available year from ALOC database: 2019)*
 
-**9.** Prorogation is the bringing of a session of a parliament to an end through
-   A) royal proclamation
-   B) final reading
-   C) guillotine
-   D) impeachment
+**2.** The first institution introduced by the military to exercise legislative power was the
+   A) Supreme Military Council
+   B) Armed Forces Ruling Council
+   C) Federal Executive Council
+   D) Provisional Ruling Council.
    **Answer: A**
-   *Explanation: Prorogation is the bringing of a session of a parliament to an end through royal proclamation. It is termination of a session of the legislature after a period of one year. The president gives his speech after a year before the house resumes. That is after the long vacation.*
-   *(Note: Closest available year from ALOC database: 2009)*
+   *(Note: Closest available year from ALOC database: 2012)*
 
-**10.** The court that has ultimate power to interprets the constitution is the
-   A) Supreme Court
-   B) Magistrate Court
-   C) High Court
-   D) Court of Appeal
+**3.** Who among the following was NOT an officer in the pre-colonial Yoruba society?
+   A) Aremo
+   B) Are-Onakakanfo
+   C) Balogun
+   D) Oluwo
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**4.** Nigeria commitment to the liberation of Africa could best be seen in her policy towards
+   A) Namibia and Mozambique
+   B) the Congo and Zimbabwe
+   C) Sierra Leone and Chad
+   D) South Africa and Angola
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**5.** The parties that formed the coalition government in 1960 were ___ and ___
+   A) AG, NCNC
+   B) AG, NPC
+   C) NCNC.NEPU
+   D) NPC, NCNC
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**6.** On 1 October 1995, Abacha announced a three-year program for return to civilian rule. Parties were allowed to form in July 1998. Which of the following parties was not registered by the Provisional Ruling Council?
+   A) Alliance for Democracy
+   B) Action Congress
+   C) All People's partys
+   D) People's Democratic Party
+   **Answer: B**
+   *Explanation: Three parties were registered by the Provisional Ruling Council for participation in local, state and national elections: the All People's Party or APP led by Mahmud Waziri; the People's Democratic Party or PDP led by Soloman Lar; and the Alliance for Democracy or AD, led by Ayo Adebanjo.*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**7.** Which of the following is a merit of aristocracy?
+   A) Leaders must have military experience
+   B) The best citizen is in control of government
+   C) Organised few control the government
+   D) Majority control the government.
+   **Answer: B**
+   *Explanation: The best citizen is in control of government – Aristocracy is a system where governance is by the most qualified individuals.*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**8.** The ....... is responsible for advising the president of Nigeria on the sovereignty and territorial Integrity of the country.
+   A) National Defence Council
+   B) Council of State
+   C) National Security Council
+   D) Federal Executive Council
    **Answer: A**
+   *Explanation: The role of the National Defense Council is to advise the President on matters relating to the defense of the sovereignty and territorial integrity of Nigeria”*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**9.** Citizenship refers to the
+   A) legal status of a member of a state
+   B) indigenous member of a state
+   C) highest position in a state
+   D) social status of a person in a state
+   **Answer: A**
+   *Explanation: Citizenship refers to the legal recognition of a person as a member of a state. The word "legal" guarantees you the constitutional right to enjoy the benefits of the state.*
+   *(Note: Closest available year from ALOC database: 2015)*
 
 
 ---

@@ -47,23 +47,34 @@ def fetch_question(subject, year):
         return None
 
 def format_question_block(q, idx, year):
+    if not isinstance(q, dict):
+        return ""
+        
     question_text = str(q.get('question', '')).strip()
-    options = q.get('option', {}) or {}
+    options = q.get('option')
+    if not isinstance(options, dict):
+        options = {}
+        
     answer = str(q.get('answer', '')).strip().upper()
-    solution = str(q.get('solution', '') or '').strip()
+    solution_raw = q.get('solution', '')
+    solution = str(solution_raw if solution_raw is not None else '').strip()
     image = q.get('image', '')
     actual_year = q.get('examyear', '')
 
     lines = [f"**{idx}.** {question_text}"]
     if image: lines.append(f"   *(See diagram: {image})*")
     for key in ['a', 'b', 'c', 'd', 'e']:
-        val = (options.get(key, '') or '').strip()
+        val = str(options.get(key, '') if options.get(key) is not None else '').strip()
         if val: lines.append(f"   {key.upper()}) {val}")
     lines.append(f"   **Answer: {answer}**")
-    if solution and solution != 'None':
-        sol_short = solution[:300] + ('...' if len(solution) > 300 else '')
+    
+    if solution and solution.lower() != 'none':
+        # Cast to string explicitly to satisfy stricter linters for slicing
+        sol_str = str(solution)
+        sol_short = sol_str[:300] + ('...' if len(sol_str) > 300 else '')
         lines.append(f"   *Explanation: {sol_short}*")
-    if actual_year and actual_year != str(year):
+        
+    if actual_year and str(actual_year) != str(year):
         lines.append(f"   *(Note: Closest available year from ALOC database: {actual_year})*")
     lines.append("")
     return "\n".join(lines)

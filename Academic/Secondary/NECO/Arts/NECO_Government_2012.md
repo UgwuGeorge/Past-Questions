@@ -2,93 +2,87 @@
 
 ## Objectives
 
-**1.** The final stage in the process of enacting legislation is
-   A) assent
-   B) final reading
-   C) notification
-   D) guillotine
-   **Answer: A**
-
-**2.** Nigeria's relations with Britain was at a very low ebb under the
-   A) Shagari Regime
-   B) Buhari Regime
-   C) Gowon Regime
-   D) Babangida Regime
-   **Answer: B**
-   *Explanation: Nigeria's relations with Britain was at a very low ebb under the Buhari Regime.
-
-The attempt to kidnap Alhaji Umaru Dikko and bring him back to Nigeria to answer charges brought against him was foiled by the British police. This strained the relationship between Nigeria and Britain in such a way tha...*
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**3.** The granting of internal authority to the regions came under which constitution?
-   A) Littleton Constitution
-   B) Richard Constitution
-   C) Clifford Constitution
-   D) Macpherson Constitution
-   **Answer: B**
-   *Explanation: This constitution was the only constitution that granted Internal authority*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**4.** Which of the following was the last to win independence from colonial rule ?
-   A) Cote d'Ivoire
-   B) Algeria
-   C) Tanzania
-   D) Angola
+**1.** The most effective instrument adopted by Nigeria against the East-West Cold War in the 1960s was
+   A) Good neighbourliness
+   B) Africa as the centrepiece
+   C) Anti-apartheid stance
+   D) Non-alignment policy
    **Answer: D**
-   *Explanation: Angola was the last among the options to gain independence from colonial rule.
+   *Explanation: During the 1960s, Nigeria adopted the non-alignment policy as an effective instrument to navigate the East-West Cold War. This policy meant that Nigeria chose not to align with either the capitalist bloc (led by the United States) or the communist bloc (led by the Soviet Union). Instead, it focused ...*
+   *(Note: Closest available year from ALOC database: 2024)*
 
-Côte d'Ivoire – Gained independence from France in 1960.
-Algeria – Gained independence from France in 1962 after a long and bloody war.
-Tanzania – (Formerly Tanganyika) Gained independence from Britain in 1961, later uni...*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**5.** The bringing of a session of a parliament to an end through royal proclamation is known as
-   A) political impasse
-   B) dissolution of parliament
-   C) vote of no confidence
-   D) prorogation of parliament.
-   **Answer: B**
-
-**6.** The necessary attributes of a state are
-   A) resources, population, sovereignty and government
-   B) sovereignty, police, army and immigration
-   C) definite territory, population, sovereignty and government
-   D) police, army, sovereignty custom.
-   **Answer: C**
+**2.** The UN succeeded the
+   A) Warsaw Pact
+   B) NATO
+   C) SEATO
+   D) League of Nations
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2014)*
 
-**7.** The organ of the United Nations Organization responsible for the former colonies of defeated World War II power is the
-   A) General Assembly
-   B) Security Council
-   C) Economic and Social Council
-   D) Trusteeship Council
+**3.** As part of the reforms in the UN, two slots were proposed in the Security Council for
+   A) Asia
+   B) Africa
+   C) America
+   D) Europe.
+   **Answer: B**
+
+**4.** Delegated legislation refers to the laws made by
+   A) the legislature
+   B) military governments
+   C) civilian governments
+   D) non-legislative bodies
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 1999)*
+   *Explanation: Delegated legislation refers to laws or regulations made by bodies other than the legislature, having been granted the authority to do so. This means they are created by non-legislative bodies, such as administrative agencies or local governments, under powers conferred by the legislature.*
+   *(Note: Closest available year from ALOC database: 2004)*
 
-**8.** ECOWAS comprises
-   A) 16 independent states
-   B) The whole Africa
-   C) All West African states
-   D) English speaking countries only
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2016)*
+**5.** Capitalism often encourages
+   A) Private ownership of the means of production
+   B) Deconcentration of political and economic powers in the same hands
+   C) A centrally planned economy
+   D) Public ownership of all forms enterprises
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 1989)*
 
-**9.** The parties that formed the coalition government in 1960 were ___ and ___
-   A) AG, NCNC
-   B) AG, NPC
-   C) NCNC.NEPU
-   D) NPC, NCNC
+**6.** Nigeria's membership of the UN complements her foreign policy in the area of
+   A) bilateral diplomacy
+   B) regional diplomacy
+   C) sub-regional diplomacy
+   D) multilateral diplomacy
+   **Answer: D**
+   *Explanation: Nigeria's membership of the UN complements her foreign policy in the area of multilateral diplomacy.*
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**7.** The primary purpose of the state is to
+   A) establish a system of law and order
+   B) train people to become good citizens
+   C) cater for all the needs of the citizens
+   D) ensure the self sufficiency of its people
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 1988)*
+
+**8.** A manifesto is essential to political parties because it enables them to
+   A) assess the electorates
+   B) gauge public opinion
+   C) manipulate election
+   D) present programme of action
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2013)*
 
-**10.** Nigeria's recognition of the Popular Movement for the Liberation of Angola to lead that country was made under
-   A) General Yakubu Gowon
-   B) General Murtala Mohammed
-   C) General Muhammadu Buhari
-   D) General Ibrahim Babangida
+**9.** The main representative body of the United Nations is the
+   A) Secretariat
+   B) Security Council
+   C) General Assembly
+   D) Trusteeship Council.
    **Answer: B**
-   *Explanation: Under General Murtala Mohammed's regime, Nigeria adopted an assertive foreign policy supporting liberation movements. During his short tenure in 1975–1976, Nigeria recognized the Popular Movement for the Liberation of Angola (MPLA) as the legitimate leadership of Angola when it gained independence.*
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**10.** Which of the following is not the function of the government?
+   A) Building of roads, bridges, canals, etc.
+   B) Provision of education.
+   C) Maintenance of relations with other states.
+   D) Provision of all the material needs of all citizens.
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 1988)*
 
 
 ---

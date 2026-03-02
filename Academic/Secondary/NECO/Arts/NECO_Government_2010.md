@@ -2,90 +2,113 @@
 
 ## Objectives
 
-**1.** The council constituted by Lord Lugard in 1914 has
-   A) 105 members seat
-   B) 50 members on seat
-   C) 36 members on seat
-   D) 25 members on seat
-   **Answer: C**
-   *Explanation: The council constituted by Lord Lugard in 1914, following the amalgamation of Northern and Southern Nigeria, had 36 members; 24 official and 12 unofficial members. This was part of his administrative structure aimed at unifying the two regions.*
-   *(Note: Closest available year from ALOC database: 2015)*
+**1.** The type of government operated in Nigeria between October 1st 1979 to December 3 1983 is called a __________
+   A) Collegial system of government
+   B) Presidential system of government
+   C) Unitary system of government
+   D) Parliamentary system of government
+   **Answer: B**
+   *Explanation: During this period, Nigeria operated under the Second Republic, which was modelled after the United States' presidential system. In this system, the President is both the head of state and the head of government, separate from the legislature. This period marked a shift from the parliamentary system...*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-**2.** A disadvantage of the one-party system is that it
-   A) emphasizes political differences
-   B) makes accountability difficult
-   C) negates freedom of association
-   D) delays decision - making
-   **Answer: C**
+**2.** Which of the following is a basic feature of the rule of law?
+   A) Secret trial of offenders
+   B) Unlimited power of the executive
+   C) Dependent judiciary
+   D) Equality before the law
+   **Answer: D**
+   *Explanation: The basic features rule of the law are:
+
+1. Equality before the law
+
+2. Impartiality
+
+3. Individual rights
+
+4. Supremacy of the law
+
+5. Fair hearing, etc.
+
+In a country that upholds the rule of law, everyone is equal before the law. This means that everyone is treated fairly regardless of political,...*
+   *(Note: Closest available year from ALOC database: 2024)*
+
+**3.** Decree 34 of 1966 was unacceptable to many Nigeria because it was
+   A) seen as an instrument of impoverishment
+   B) perceived to abolish the federal system
+   C) promulgated without consultation with the people
+   D) considered as alien
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2016)*
 
-**3.** Which of the following is used in gauging public opinion?
-   A) Constitution
-   B) .		
-Educational institution.
-   C) Mass media.
-   D) Electoral college.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**4.** The leader of the northern people’s congress was
-   A) Yakubu Maitama Sule
-   B) Abubakar Tafawa Balewa
-   C) Aminu Kano
-   D) Ahmadu Bello
+**4.** A major problem of the defunct Organization of African Unity was
+   A) language barrier
+   B) inadequate resources
+   C) cultural diversity
+   D) ideological differences
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Ideological differences is the major problem of defunct Organization of African Unity (OAU). Another major problem is inadequate resources: the organization was plunged into heavy debt as many member countries found it difficult to pay their dues and levies.*
+   *(Note: Closest available year from ALOC database: 2004)*
 
-**5.** A characteristic feature of communism is __________
-   A) Free enterprise
-   B) liberal democracy
-   C) dictatorship
-   D) multi-party system
-   **Answer: C**
-   *Explanation: Communism often involves a centralised government with significant control over economic and political life, which can manifest as a dictatorship or a single-party state. This centralisation is meant to enforce collective ownership and eliminate class distinctions, but it frequently results in a con...*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**6.** Bicameral legislature are a common feature of
-   A) monarchical systems
-   B) confederal systems
-   C) federal systems
-   D) unitary systems
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 1999)*
-
-**7.** An electoral process in which candidates are selected for elective offices by party members is
-   A) primary election
-   B) electoral college
-   C) bye election
-   D) general election
+**5.** Federalism was introduced in Nigeria by the
+   A) Lyttleton Constitution
+   B) Clifford constitution
+   C) Macpheson constitution
+   D) 1999 constitution.
    **Answer: A**
-   *Explanation: It is only the party that can nominate (choose) an individual for a position or post. Furthermore, it an in-house affair where the party’s candidate is given a ticket to vote for a particular post.*
-   *(Note: Closest available year from ALOC database: 2015)*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**8.** One of the principal objectives of the OPEC is to
-   A) determine oil prices in the international market
-   B) harmonise the oil policies of member countries
-   C) discipline erring oil-producing countries
-   D) assist non-oil producing developing states
+**6.** An attribute that Nigeria shares with most non-aligned countries is
+   A) her large population
+   B) the state of her economy
+   C) her heterogenous population
+   D) her large size
    **Answer: B**
-   *Explanation: One of the principal objectives of the Organisation of the Petroleum Exporting Countries (OPEC) is to harmonise and coordinate the oil production policies of its member countries. This coordination helps to stabilise oil markets and ensure fair and stable prices for petroleum producers while securin...*
-   *(Note: Closest available year from ALOC database: 2015)*
+   *Explanation: An attribute that Nigeria shares with most non-aligned countries is the state of her economy.
 
-**9.** Which of these constitutions recognized local government is the third tier of government?
-   A) The 1946 constitution
-   B) The 1960 constitution
-   C) The  1963 constitution
-   D) the 1979 constitution.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+Like other members of the non-aligned movement, Nigeria's internal economic structures that depend on external support has made Nigeria to be political on-aligned and economically aligned.*
+   *(Note: Closest available year from ALOC database: 2002)*
 
-**10.** Which of the following is not an objective in foreign policy?
-   A) Prestige
-   B) Large population
-   C) Territorial integrity
-   D) Survival
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 1989)*
+**7.** The first Nigerian constitution to provide for the fundamental objectives and directive principles of state policy was the
+   A) 1979 Constitution
+   B) 1989 Constitution
+   C) 1999 Constitution
+   D) 1960 Constitution
+   **Answer: A**
+   *Explanation: 1979 Constitution The first Nigerian constitution to provide for the fundamental objectives and directive principles of state policy.
+
+The Constitution marked a turning point on the struggle for self determination and emancipation of Nigeria from the shackles of colonialism.
+
+It marked the beginning...*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**8.** The independence of the Judiciary can be undermined through the
+   A) politicization of the appointment of judges
+   B) appointment of the minister of justice as the Attorney-General
+   C) confirmation of the appointment of judges by the legislature
+   D) payment of the salaries of judicial officers by the government
+   **Answer: A**
+   *Explanation: Independence of the judiciary has to do with the idea that courts should be separated from the Executive and Legislative arm of government. This independence is important to aid the judges to remain impartial to serve the constitution, act fairly, reasonably, free of any fear or favor. 
+
+One way to ...*
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**9.** Some pre-colonial Nigerian societies are described as stateless because ......
+   A) They had no formal governmental institutions
+   B) They were not independent
+   C) They had no definite political boundaries
+   D) Their population was too smalls
+   **Answer: A**
+   *Explanation: Some pre-colonial Nigerian societies are described as stateless because they had no formal governmental institutions.*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**10.** Equality before the law is a component of
+   A) separation of powers
+   B) checks and balances
+   C) the rule of law
+   D) constitutional law
+   **Answer: C**
+   *Explanation: "Equality before the law" is a core component of the rule of law, which ensures that all individuals and institutions—including the government—are subject to and accountable under the law. This principle mandates that laws are applied impartially, without favoritism or discrimination based on status...*
+   *(Note: Closest available year from ALOC database: 2008)*
 
 
 ---

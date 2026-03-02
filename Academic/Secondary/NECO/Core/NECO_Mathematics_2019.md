@@ -2,176 +2,155 @@
 
 ## Objectives
 
-**1.** X and Y are two sets such that n(X) = 15, n(Y) = 12 and n{X ∩ Y} = 7. Find ∩{X ∪ Y}
-   A) 21
-   B) 22.5
-   C) 15
-   D) 20
-   **Answer: D**
-   *Explanation: n(X ∪ Y) = n(X) + n(Y) − n(X ∩ Y)
-
-= 15 + 12 − 7
-
-∴ n(X ∪ Y) = 20*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**2.** The journey from Lagos to Ibadan usually takes a motorist 1 hour 30 minutes. By increasing his average speed by 20km/hr, the motorist saves 15 minutes. His usual speed, in Km/hr is
-   A) 100
-   B) 90
-   C) 85
-   D) 80
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**3.** What is the probability that an integer x,(1 ≤
- x ≤
- 20) chosen at random is divisible by both 2 and 3?
-   A) 1/20
-   B) 1/3
-   C) 3/20
-   D) 7/10
+**1.** If sin θ = -1/2 for 0 < θ < 360°, the value of θ is
+   A) 30° and 150°
+   B) 150° and 210°
+   C) 210° and 330°
+   D) 150° and 330°
    **Answer: C**
-   *Explanation: U = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}
-A = {x/x is divisible by 2}
-A = {2,4,6,8,10,12,14,16,18,20}
-B = {x/x is divisible by 3}
-A ∩ B = {6, 12, 18}
-P(Number divisible by both 2 and 3)
-= 3/20*
+   *Explanation: sin θ = -1/2
+= -0.5
+θ = sin-1 (0.5)
+θ = 30°
+Since θ is negative
+θ = 180 + 30 = 210°
+θ = 360 - 30 = 330°
+∴θ = 210° and 330°*
    *(Note: Closest available year from ALOC database: 2005)*
 
-**4.** ( −2 2 1 3 ) ( p r q s ) = ( 1 0 0 1 ) . What is the value of r?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715546423/ALOC-Questions/Mathematics/2008/MATH_2008_Q47_nqccri.jpg)*
-   A) -1/8
-   B) 3/8
-   C) 5/8
-   D) 1/4
+**2.** If the binary operation ∗
+ is defined by m ∗
+ n = mn + m + n for any real number m and n, find the identity of the elements under this operation
+   A) e = 1
+   B) e = -1
+   C) e = -2
+   D) e = 0
    **Answer: D**
-   *Explanation: -2p + r = 1.......(i)
+   *Explanation: Identity(e) : a ∗ e = a
 
-2p + 3r = 0.......(ii)
+m ∗ e = m...(i)
 
-r - 1 + 2p ........(iii)
+m ∗ e = me + m + e
 
-2p + 3(1 + 2p) = 0
+Because m ∗ e = m 
 
-2p + 3(1 + 2p) = 0
+: m = me + m + e
 
-2p + 3 + 6p = 0
+m - m = e(m + 1)
 
-3 - 8p = 0 → 8p = 3
+e = 0/(m + 1)
+e = 0*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-p = 3/8
+**3.** If ∣∣∣5, x, 3, 2∣∣∣ = ∣∣∣3, 4, 5, 5∣∣∣, find the value of x
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716130351/ALOC-Questions/Mathematics/2012/2012_JAMB_Q21_ljgupi.jpg)*
+   A) 3
+   B) 4
+   C) 5
+   D) 7
+   **Answer: C**
+   *Explanation: 10 - 3x = 15 - 20
 
-6 = 1 - 2 (3/8)
+-3x = 15 - 20 - 10
 
-= 1 - 6/8
+-3x = -15
 
-8−6/8 = 2/8
+x = 5*
+   *(Note: Closest available year from ALOC database: 2012)*
 
-= 1/4*
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**5.** Find the area of the figure above
-[π = 22/7]
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715546154/ALOC-Questions/Mathematics/2008/MATH_2008_Q25_stpony.jpg)*
-   A) 12.5 cm2
-   B) 75.0 cm2
-   C) 78.5 cm2
-   D) 84.8 cm2
+**4.** A woman buys 270 oranges for N1800.00 and sells at 5 for N40.00. What is her profit?
+   A) N2,160.00
+   B) N1, 620.00
+   C) N630.00
+   D) N360.00
    **Answer: D**
-   *Explanation: Area of the figure = Area of rect + area of semi circle                                   =L×h+1/2 πr<sup>2</sup> 5×15+1/2×22/7×〖(5/2)〗<sup>2</sup>=75+((22×25))/(2×7)=75+9 23/28=84.8cm*
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: C.P = N1800
+S.P = (270/5) x 40 = N2160.00
+Profit = S.P - C.P = N2160 - N1800 = N360.00*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**6.** Given an isosceles triangle with length of 2 equal sides t units and opposite side √3t units with angle θ. Find the value of the angle θ opposite to the √3t units.
-   A) 100°
-   B) 120°
-   C) 30°
-   D) 60°
+**5.** In how many ways can the word MATHEMATICS be arranged?
+   A) 11!/(9! 2!)
+   B) 11!/(9! 2! 2!)
+   C) 11!/(2! 2! 2!)
+   D) 11!/(2! 2!)
+   **Answer: C**
+   *Explanation: Number of letter in MATHEMATICS = 11
+Number of letter M = 2
+Number of letter T = 2
+Number of letter A = 2
+
+Arrangement = 11!/(2! 2! 2!) ways*
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**6.** On a pie chart, there are four sectors of which three angles 
+are 45°, 90° and 135°. if the smallest sector represents
+#28.00, how much is the largest sector?
+   A) #48.00
+   B) #56.00
+   C) #42.00
+   D) #84.00
    **Answer: B**
-   *Explanation: Cos θ° = t<sup>2</sup> + t<sup>2</sup> -(√3t)<sup>2</sup> 2 x t x t
+   *(Note: Closest available year from ALOC database: 2003)*
 
-= 2t<sup>2</sup> - 3t<sup>2</sup> 2t<sup>2</sup>
-= -t<sup>2</sup>/2t<sup>2</sup>
-= -1/2
+**7.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
+   A) 1
+   B) 0
+   C) -1/2
+   D) -1
+   **Answer: B**
+   *Explanation: mΔn = m+n+mn
+Let e be the identity element
+∴mΔe = eΔm = m
+m+e+me = m
+e+me = m-m
+e+me = 0
+e(1+m) = 0
+e = 0 / (1+m)
+e = 0*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-Thus θ = cos<sup>-1</sup> (-0.5) = 120°*
+**8.** Find the mean of t + 2, 2t - 4, 3t + 2 and 2t.
+   A) t + 1
+   B) 2t
+   C) 2t + 1
+   D) t
+   **Answer: B**
+   *Explanation: ∑x
+  = (t + 2) + (2t + 4) + (3t + 2) + 2t = 8t
+
+N = 4
+
+∴ Mean, x = ∑xN=8t4=2t
+
+
+= 2t*
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**9.** A group of market women sell at least one of yam, plantain and maize. 12 of them sell maize, 10 sell yam and 14 sell plantain. 5 sell plantain and maize, 4 sell yam and maize, 2 sell yam and plantain only while 3 sell all the three items. How many women are in the group?
+   A) 25
+   B) 19
+   C) 18
+   D) 17
+   **Answer: A**
+   *Explanation: Let the three items be M, Y and P.
+n{M ∩ Y} only = 4-3 = 1
+n{M ∩ P) only = 5-3 = 2
+n{ Y ∩ P} only = 2
+n{M} only = 12-(1+3+2) = 6
+n{Y} only = 10-(1+2+3) = 4
+n{P} only = 14-(2+3+2) = 7
+n{M∩P∩Y} = 3
+Number of women in the group = 6+4+7+(1+2+2+3) as above =25 women.*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**10.** Simplify (3√(64a<sup>3</sup>))<−1
+   A) 4a
+   B) 1/8a
+   C) 8a
+   D) 1/4a
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2001)*
-
-**7.** The sum of the first n terms of the arithmetic progression 5, 11, 17, 23, 29, 35, ... is?
-   A) n(3n - 0.5)
-   B) n(3n + 2)
-   C) n(3n + 2.5)
-   D) n(3n + 5)
-   **Answer: B**
-   *Explanation: a = 5, d = 6, n = n
-Sn = n/2(2a + (n-1)d)
-= n/2(2(5) + (n-1)6)
-= n/2(10 + 6n-6)
-= n/2(6n+4)
-= 6n2/2 + 4n/2
-= 32 + 2n
-= n(3n + 2)*
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**8.** Find the simple interest on N325 in 5years at 3% per annum.
-   A) N48.75K
-   B) N50.10K
-   C) N75.50K
-   D) N15.75K
-   **Answer: A**
-   *Explanation: I =[ PRT ÷ 100]
-
-[(325 × 5 × 3) ÷ (100)]
-
-N(195 ÷ 4)
-
-N48.75K*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**9.** Find the total surface area of a cylinder of base radius 5cm and length 7cm ( π = 3.14)
-   A) 17.8 cm<sup>2</sup>
-   B) 15.8 cm<sup>2</sup>
-   C) 75.4 cm<sup>2</sup>
-   D) 377.0 cm<sup>2</sup>
-   **Answer: D**
-   *Explanation: The total surface area of a cylinder = 2πrl + 2πr<sup>2</sup> 
-
-= 2πr(l + r)
-
-= 2 × 3.14 x 5(7+5)
-
-2 × 3.14 × 12 x 5
-
-= 377.1 cm (1DP)*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**10.** What will be the result obtained when the numerator of 96/50
- is decreased by 37.5% and its denominator decreased by 20%.
-   A) 1.5
-   B) 5/2
-   C) 96/48
-   D) 0.5
-   **Answer: A**
-   *Explanation: Numerator: 96 → 37.5% of 96 = 36
-
-Decreased by 36 → 96 - 36
-
-New numerator = 60
-
- 
-
-Denominator: 50 → 20% of 50 = 10
-
-Decreased by 10 → 50 - 10 = 40
-
-New Denominator = 40
-
- 
-
-New fraction = 60/40
- or 1.5*
-   *(Note: Closest available year from ALOC database: 2022)*
 
 
 ---

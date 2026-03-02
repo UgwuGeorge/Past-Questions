@@ -2,77 +2,77 @@
 
 ## Objectives
 
-**1.** When a crystal was added to the clear solution of its salt, the crystal did not dissolve and the solution remained unchanged. This showed that the solution was
-   A) Supersaturated
-   B) Unsaturated
-   C) Saturated
-   D) Concentrated
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**2.** Which of the following organic compounds is very soluble in water
-   A) C2H2
-   B) C2H4
-   C) CH3COOC2H5
-   D) CH3COOH
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**3.** Which of the following shows little or no net reaction when the volume of the system is decreased
-   A) H2(g)  +  l2(g)  ⇌  2Hl(g)
-   B) 2NO2(g)  ⇌  N2O4(g)
-   C) PCl5(g)   ⇌ PCl3(g)  + Cl2(g)
-   D) 203(g)   ⇌  3O2(g)
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**4.** A given volume of methane diffuses in 20s. how long will it take the same volume of sulphur(IV) oxide to diffuse under the same conditions    [C = 12, H = 1, S = 32, O = 16]
-   A) 5s
-   B) 20s
-   C) 40s
-   D) 60s
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**5.** A characteristic of the alkane family is
-   A) Addition reaction
-   B) Elimination reaction
-   C) Substitution reaction
-   D) Neutralization reaction
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**6.** If an equilibrium reaction has   H>0, the reaction will proceed favourably in the forward direction at
-   A) High temperature
-   B) Any temperature
-   C) Low temperature
-   D) Minimum temperature
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**7.** When sugar is dissolved in tea, the reaction is always accompanied by
-   A) Positive entropy change
-   B) Negative entropy change
-   C) No entropy change
-   D) A minimum entropy change
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**8.** The oxidation state of chlorine in HClO4 is
-   A) -5
-   B) -1
-   C) 1
-   D) 7
+**1.** An electron can be added to a halogen atom to form a halide ion with
+   A) 2 valence electrons
+   B) 3 valence electrons
+   C) 7 valence electrons
+   D) Valence electrons
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2004)*
 
-**9.** Iron can be protected from corrosion by coating the surface with
-   A) Silver
-   B) Copper
-   C) Zinc
-   D) Gold
+**2.** A characteristic reaction of the compounds with the general formula CnH2n is
+   A) Esterification
+   B) Polymerization
+   C) Decarboxylation
+   D) Substitution
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**3.** In the electrolysis of a concentrated solution of sodium chloride using inert electrodes, which of the following ions are discharged at the cathode and anode respectively
+   A) Na+ and Cl-
+   B) Na+ and OH-
+   C) H+ and OH-
+   D) H+ and Cl-
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**4.** Kerosene is commonly used to remove the red colour stain of palm oil from clothes because it
+   A) Helps to spread the oil over a larger surface area
+   B) Makes the oil evaporate easily by dissolving it
+   C) Helps to dilute the oil and reduce its colour
+   D) Reacts with the oil to form an odourless compound
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**5.** A liquid that will dissolve fast is
+   A) Hydrochloric acid
+   B) Calcium hydroxide
+   C) Kerosene
+   D) Water
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**6.** Which of these properties gives a solid its definite shape
+   A) Weak intermolecular attraction
+   B) High boiling point
+   C) High melting point
+   D) Strong intermolecular attraction
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**7.** An oxide X02 has a vapour density of 32. What is the atomic mass of X [O = 16]
+   A) 32
+   B) 20
+   C) 14
+   D) 12
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**8.** The property which makes alcohol soluble in water is the
+   A) Hydrogen bonding
+   B) Covalent nature
+   C) Ionic character
+   D) Boiling point
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**9.** Sodium metal is always kept under oil because it
+   A) Readily reacts with water
+   B) Is reduced by atmospheric nitrogen
+   C) Reacts vigorously on exposure to air
+   D) Reacts with oxygen and carbon(IV) oxide
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2004)*
 
 
 ---

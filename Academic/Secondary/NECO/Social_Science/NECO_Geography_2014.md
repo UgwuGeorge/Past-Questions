@@ -2,89 +2,87 @@
 
 ## Objectives
 
-**1.** The most extensive vegetation type in the are marked Z is the
-   A) Mangrove swamp
-   B) Coastal thicket
-   C) Fresh water swamp
-   D) Guinea savanna
-   E) Rain forest
+**1.** The highest lands in Nigeria are found on the
+   A) Oban Hills
+   B) Western Highlands
+   C) Marbule Plateau
+   D) North Central Plateau
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2018)*
+   *(Note: Closest available year from ALOC database: 2019)*
 
-**2.** The rock of the basement complex are generally referred to as
-   A) Sedimentary formation
-   B) Volcanic rocks
-   C) Younger granites
-   D) Older granites
-   E) Fold mountain
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**3.** Which of the following rocks is composed of the skeletons of microscopic sea plants and animals?
-   A) Chalk
-   B) Granite
-   C) Sandstone
-   D) Slate
-   E) Clay
+**2.** The most densely populated city which is also the capital of a county in Africa is
+   A) Cairo
+   B) Dakar
+   C) Cape town
+   D) Abuja
+   E) Lagos
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**4.** The time difference between a place on longitude 35° W and another on longitude 25° E is
-   A) 5 hours
-   B) 4 hours
-   C) 3 hours
-   D) 2 hours
-   E) 1 hour
-   **Answer: B**
    *(Note: Closest available year from ALOC database: 2017)*
 
-**5.** The most important cause of tides is the,
-   A) distribution of the prevailing winds
-   B) rotation of the earth on its own axis
-   C) inclination of the earth’s axis
-   D) gravity attraction of the moon
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**6.** The lower part of a river valley that has been submerged by the sea is called
-   A) Estuary
-   B) Reef
-   C) Spit
-   D) Bar
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**7.** The best natural harbour in West Africa is at
-   A) Lome
-   B) Tema
-   C) Lagos
-   D) Freetown
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**8.** The roads in area run mainly along
-   A) Gentle slopes
-   B) Watersheds
-   C) Steep slopes
-   D) Hilltop
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**9.** Which of the following features is produced by wave deposition
-   A) caves
-   B) stack
-   C) tomobolo
-   D) blow holes
+**3.** The bearing, to the nearest degree, of the mosque in Amagu settlement from the middle of the bridge across the River Zogo is
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582573/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2019_06_to_10_hkwszi.jpg)*
+   A) 41°
+   B) 51°
+   C) 61°
+   D) 31°
+   E) 71°
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *(Note: Closest available year from ALOC database: 2019)*
 
-**10.** The Latitude which marks the limits of the overhead sun’s apparent movement is
-   A) 0
-   B) 66.5
-   C) 32.5
-   D) 23.5
+**4.** One of these is not true of rain gauges:
+   A) Rain gauge provide excellent measurement of rainfall
+   B) Their measurements may be affected by the particular type used
+   C) Their readings may be influenced by slope of the land
+   D) Rain splashes during heavy rains may lead to over estimation
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**5.** The scale of a map is the ratio between the
+   A) distance over the land and the distance over the water
+   B) distance on the map and the distance on the globe
+   C) vertical and horizontal differences
+   D) distance on the map and that on the earth’s surface
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**6.** Which of the following statements is not true for lines of latitudes?
+   A) they range from 00 to 1800 North and South
+   B) they range from 00 to 900 North and South
+   C) They vary in D. they form parallel circles
+   D) only one line is a great circle.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**7.** Kariba Dam is found in River
+   A) Zambezi
+   B) Congo
+   C) Niger
+   D) Nile
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**8.** The most dominant pair of active factors affecting plants growth is
+   A) Topography and man
+   B) Climate and Topography
+   C) Soil and fauna
+   D) Climate and soil
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**9.** Nairobi is a:
+   A) North African City
+   B) West African City
+   C) South African City
+   D) East African City
+   **Answer: D**
+
+**10.** A layer of fine wind-deposited sand on silt is known as
+   A) Loess
+   B) Bajada
+   C) Barchan
+   D) Seif
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2020)*
 
 
 ---

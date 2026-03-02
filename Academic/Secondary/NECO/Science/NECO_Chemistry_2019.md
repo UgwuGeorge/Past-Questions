@@ -2,86 +2,77 @@
 
 ## Objectives
 
-**1.** Calcium Tetraoxosulphate(VI) dissolves in water only sparingly to form a
-   A) Solution
-   B) Suspension
-   C) Precipitate
-   D) Colloid
+**1.** Proteins in acid solution undergo
+   A) Polymerization
+   B) Substitution
+   C) Fermentation
+   D) Hydrolysis
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *(Note: Closest available year from ALOC database: 2001)*
 
-**2.** To a solution of an unknown compound, a little dilute Tetraoxosulphate (IV) acid was added with some freshly prepared (II) Tetraoxosulphate (VI) Solution. The brown ring observed after the addition of a stream of concentrated  Tetraoxosulphate (VI) acid confirmed the presence of
-   A) CI
-   B) SO
-   C) NO
-   D) CO
+**2.** Natural water collected from rivers and ponds contains oxygen, carbon(IV) oxide and
+   A) Chlorine
+   B) Hydrogen
+   C) Sulphur(IV) oxide
+   D) Nitrogen
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**3.** When water boilers are used for a long period of time, the solid substances left behind as scale are
-   A) Magnesium trioxosilicate (IV) and calcium Tetraoxosulphate(VI)
-   B) Magnesium trioxosilicate(IV) and rust
-   C) Clay and magnesium trioxosilicate (IV)
-   D) clay and rust
-   **Answer: **
    *(Note: Closest available year from ALOC database: 2005)*
 
-**4.** To obtain pure carbon(II) oxide from its mixture with carbon (IV)oxide, the mixture should be
-   A) Bubbled through concentrated Tetraoxosulphate(VI) acid
-   B) Bubbled through sodium hydroxide
-   C) Passed over heated copper(II) oxide
-   D) Bubbled through water
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**5.** N2O4(g)    ⇌  2NO2(g)
-   A) A constant volume
-   B) An increase in pressure
-   C) A decrease in pressure
-   D) A decrease in volume
+**3.** 25cm3 of a gas X contains Zmolecules at 150C and 75mmHg. How many molecules will 25cmm3 of another gas Y contain at the same temperature and pressure
+   A) 2Y
+   B) 2Z
+   C) Z
+   D) Y
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *(Note: Closest available year from ALOC database: 2001)*
 
-**6.** sulphur (IV) oxide bleaches by
-   A) Reduction
-   B) Oxidation
-   C) Hydration
-   D) Absorption
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**7.** 2CO(g)  +  O2(g) →  2CO2(g)
-Given that   Δ H [CO] is 110.4kJ mol-1 and Δ H [CO2] is -393.0kJ mol-1, the energy change for the reaction above is
-   A) -503.7kJ
-   B) -282.6kJ
-   C) +282.6kJ
-   D) +503.7kJ
-   **Answer: N**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**8.** The chromatographic separation of ink is based on the ability of the components to
-   A) React with each other
-   B) React with the solvent
-   C) Dissolve in each other in the column
-   D) Move at different speeds in the column
+**4.** Which of the following gives a precipitate when treated with NaOH solution
+   A) Na2CO3
+   B) CH3COONa
+   C) NH4Cl
+   D) AlCl3
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2002)*
 
-**9.** Stainless steel is used for making
-   A) Tools
-   B) Coins and medals
-   C) Moving parts of clocks
-   D) Magnets
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
+**5.** The leachate of a certain plant ash is used in local soap making because it contains
+   A) Sodium chloride and potassium hydroxide
+   B) Sodium hydroxide
+   C) Potassium hydroxide
+   D) Soluble carbonates and hydrogen carbonates
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**10.** Deliquenscent substances are used for
-   A) Cooling
-   B) Wetting
-   C) Melting
-   D) Drying
+**6.** Equal moles of ethyne and hydrogen iodide react to give
+   A) CH2 = CH2
+   B) CH2 = CHI
+   C) CH2 – CHI
+   D) CH2 – CI3
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**7.** When 5.0cm3 of a saturated solution of sugar of molar mass 342g at 400C was evaporated to dryness, 34.2g of dry solid was obtained. The solubility of sugar at 400C is
+   A) 7.0 mol dm-3
+   B) 3.5 mol dm-3
+   C) 2.0 mol dm-3
+   D) 10.0mol dm-3
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**8.** Which of the following results in the fall of acid rain
+   A) Gaseous hydrocarbons
+   B) Oxide of lead
+   C) Particulate matter
+   D) Oxides of sulphur
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**9.** Which of the following is found in cotton
+   A) Starch
+   B) Cellulose
+   C) fat
+   D) oil
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
 
 
 ---

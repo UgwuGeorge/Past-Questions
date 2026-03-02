@@ -2,177 +2,197 @@
 
 ## Objectives
 
-**1.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
-   A) 1
-   B) 0
-   C) -1/2
-   D) -1
+**1.** If (2√3−√2)/(√3+2√2) = m + n √ 6, find the values of m and n respectively
+   A) 1, − 2
+   B) − 2, n = 1
+   C) −2/5 , 1
+   D) 2/3
    **Answer: B**
-   *Explanation: mΔn = m+n+mn
-Let e be the identity element
-∴mΔe = eΔm = m
-m+e+me = m
-e+me = m-m
-e+me = 0
-e(1+m) = 0
-e = 0 / (1+m)
-e = 0*
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: (2√3−√2)/(√3+2√2) = m + n √ 6
 
-**2.** THe cost of renovating a 6 m square room is N540. What is the cost of renovating a 9 m square room?
-   A) N1215
-   B) N720
-   C) N1620
-   D) N810
+(2√3 − √2)/(√3 + 2√2)
+ x (√3 − 2√2)/(√3 − √2)
+
+
+
+[2√3(√3 − 2√2) − √2(√3 − 2√2)]/[√3(√3 − 2√2) + 2√2(√3 − 2√2)]
+
+
+(2 × 3 − 4√6 − 6 + 2 × 2)/(3−2√6 + 2√6 − 4 × )2
+
+
+= (6 − 4√6 − √6 + 4)/(3−8)
+
+
+=( 0−4√6 − 6)/5
+
+
+= (10−5√6)/5
+
+
+= − 2 + √6
+
+∴ m + n√6= − 2 + √6
+
+m = − 2, n ...*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**2.** The mean of ten positive numbers is 16. When another number is added, the mean becomes 18. Find the eleventh number
+   A) 3
+   B) 16
+   C) 38
+   D) 30
+   **Answer: C**
+   *Explanation: Mean of 10 numbers = 16
+
+The total sum of numbers = 16 x 10 = 160
+
+Mean of 11 numbers = 18
+
+Total sum of numbers = 11 x 18
+
+= 198
+
+The 11th no. = 198 - 160
+
+= 38*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**3.** A cinema hall contains a certain number of people. If 22(1/2)% are children, 47{1/2)% are men and 84 are women, find the number of men in the hall.
+   A) 63
+   B) 84
+   C) 113
+   D) 133
    **Answer: D**
-   *Explanation: Cost of removing a 6m2 room = N540
-Cost of renovating a 1m2 room = 540 / 6
-Cost of removing a 9m2 room
-= (540 / 6) * 9
-= N810*
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: 45/2% + 95/2% = 70%
+100% - 70% = 30% (i.e women)
+=> 30% = 84
+1% = 84/30
+95/2% = (84/30 x 95/2) = 133.*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**3.** The nth term of the sequence 3/2, 3, 7, 16, 35, 74 ..... Is
-   A) 5 . 2<sup>n-2</sup> - n
-   B) 5 . 2<sup>n-2</sup>  - (n+1) / 2
-   C) 3 . 2<sup>n-2</sup>
-   D) 3/2 n
+**4.** Evaluate 1.25×0.025/0.05
+, correct to 1 decimal place
+   A) 0.6
+   B) 6.2
+   C) 6.3
+   D) 0.5
    **Answer: A**
-   *Explanation: 3/2, 3, 7, 16, 35, 74, ....
-Using the method of substitution
-When n = 1, 5 . 2<sup>n-2</sup> - 1 = 5 . 2<sup>1-2</sup> - 1
-= 5 x 2<sup>-1</sup> - 1
-= 5 x 1/2 - 1
-= 5/2 - 1 = 3/2
-When n = 1, 5 . 2<sup>n-2</sup> - n
-= 5 . 2<sup>2-2</sup> - 2
-= 5 x 2<sup>0</sup> - 2
-= 5 x 1 – 2 = 3
-When n = 3, 5 . 2<su...*
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: 1.25 × 0.025/0.05
 
-**4.** A trader realizes 10x - x<sup>2</sup>
- naira profit from the sale of x bags on corn. How many bags will give him the desired profit?
-   A) 4
-   B) 5
-   C) 6
-   D) 7
-   **Answer: B**
-   *Explanation: y = 10x - x<sup>2</sup>
-dy/dx = 10 - 2x
-As dy/dx = 0,
-10 - 2x = 0
-2x = 10
-x = 5*
-   *(Note: Closest available year from ALOC database: 2000)*
 
-**5.** Find the distance between the points (1/2, 1/2) and (-1/2, -1/2).
-   A) 1
-   B) 0
-   C) √3
-   D) √2
-   **Answer: D**
-   *Explanation: Let D denote the distance between (1/2, -1/2) then using                                                         D = √((x<sub>2</sub>-x<sub>1</sub> )<sup>2</sup>+(y<sub>2</sub>-y<sub>1</sub> )<sup>2</sup> ) = √((-1/2-1/2 )<sup>2</sup> + (-1/2-1/2 )<sup>2</sup> ) = √((-1)<sup>2</sup>+(-1)<sup>2</sup>...*
-   *(Note: Closest available year from ALOC database: 2010)*
+=125×10<sup>−2</sup> × 25 × 10<sup>−3</sup>/5× 10<sup>−2</sup>
 
-**6.** In the diagram above, PQ//RS. The size of the angle marked x is?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715546116/ALOC-Questions/Mathematics/2008/MATH_JAMB_2008_Q22_pfrgbn.jpg)*
-   A) 100°
-   B) 80°
-   C) 50°
-   D) 30°
-   **Answer: B**
-   *Explanation: Exterior angle = sum of two interior opposite angles
-y = 50° (vert. opp ∠s are equal)
-X = y + 30
-X = 50 + 30
-X = 80°*
-   *(Note: Closest available year from ALOC database: 2008)*
 
-**7.** In how many ways can the letters of the word TOTALITY be arranged?
-   A) 6720
-   B) 6270
-   C) 6207
-   D) 6027
+= 125 x 5 x 10<sup>−3</sup>
+
+= 625 x 0.001
+
+= 0.625
+
+= 0.6 Approx to 1 d.p.*
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**5.** W is directly proportional to U. If W = 5 when U = 3, find U when W = 2/7
+   A) 6/35
+   B) 10/21
+   C) 21/10
+   D) 35/6
    **Answer: A**
-   *Explanation: 8!/3!
- 
-
-8×7×6×5×4×3×2×1/3×2×1
-
-
-==> 8 x 7 x 6 x 5 x 4 = 6720*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** Determine the value of x for which (x<sup>2</sup> - 1) > 0?
-   A) x < -1 or x > 1
-   B) -1 < x < 1
-   C) x > 0
-   D) x < -1
-   **Answer: B**
-   *Explanation: x<sup>2</sup> > 0
-(x+1)(x-1) > 0
-x = 1 or -1
-
--1 < x < 1*
+   *Explanation: W∝U.   W=KU.  K = W/U. K = 5/3.    W = 5/3U.   2/7=5/3U.  U = 2/7 × 3/5.   U = 6/35*
    *(Note: Closest available year from ALOC database: 2009)*
 
-**9.** The area A of a circle is increasing at a constant rate of 1.5 cm <sup>2</sup>s<sup>−1</sup>
-. Find, to 3 significant figures, the rate at which the radius r of the circle is increasing when the area of the circle is 2 cm<sup>2</sup>
-.
-   A) 0.200 cms<sup>−1</sup>
-   B) 0.798 cms<sup>−1</sup>
-   C) 0.300 cms<sup>−1</sup>
-   D) 0.299 cms<sup>−1</sup>
-   **Answer: D**
-   *Explanation: Area of a circle (A) = πr<sup>2</sup>
+**6.** From the diagram above, find x
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716128227/ALOC-Questions/Mathematics/2010/MATH_2010_Q10_d2xag1.jpg)*
+   A) 65°
+   B) 50°
+   C) 75°
+   D) 55°
+   **Answer: A**
+   *Explanation: ∠RTS = 90° (∠ in semi circle)
+∠UTS = 25° (∠ in alternate segment)
+X + 90 + 25 = 180(sum of ∠s on a str line)
+X + 115 = 180
+X = 180 - 115
+X = 65°*
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**7.** The gradient of a line joining (x,4) and (1,2) is 1/2
+. Find the value of x
+   A) 5
+   B) 3
+   C) -3
+   D) -5
+   **Answer: A**
+   *Explanation: Gradient m=y<sub>2</sub> −y<sub>1</sub> /x<sub>2</sub> −x<sub>1</sub> 
+ 
+
+1/2 = (2−4)/(1−x)
 
 
-Given
+1 - x = 2(2 - 4)
 
-dA/dt=1.5 cm<sup>2</sup>s<sup>-1</sup>
+1 - x = 4 - 8
 
+1 - x = -4
 
-dr/dt = ?
+-x = -4 - 1
 
-A = 2cm<sup>2</sup>
+x = 5*
+   *(Note: Closest available year from ALOC database: 2014)*
 
-
-Now
-
-2 = πr <sup>2</sup> 
-
-
-= r<sup>2</sup> = 2/π
-
-
-r = √(2/π) cm = 0.798cm
-
-dr/dt = dA/dt × dr/dt
-
-
-dA/dr= 2πr (differentiating A = πr<sup>2</sup>)
-
-
-dr/dA=1/2πr
-
-
-dr/dt=1.5 × 1/...*
-
-**10.** Given an isosceles triangle with length of 2 equal sides t units and opposite side √3t units with angle θ. Find the value of the angle θ opposite to the √3t units.
-   A) 100°
-   B) 120°
-   C) 30°
-   D) 60°
+**8.** From the table above, find the median and range of the data respectively.
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716129770/ALOC-Questions/Mathematics/2011/MATH_JAMB_2011_Q38_a2z1n7.jpg)*
+   A) (8,5)
+   B) (3, 5)
+   C) (5 , 8)
+   D) (5 , 3)
    **Answer: B**
-   *Explanation: Cos θ° = t<sup>2</sup> + t<sup>2</sup> -(√3t)<sup>2</sup> 2 x t x t
+   *Explanation: Median = ∑fx/∑f 
+ 
 
-= 2t<sup>2</sup> - 3t<sup>2</sup> 2t<sup>2</sup>
-= -t<sup>2</sup>/2t<sup>2</sup>
-= -1/2
+∑fx = 0 + 4 + 6 + 24 + 8 + 25 = 67
 
-Thus θ = cos<sup>-1</sup> (-0.5) = 120°*
-   *(Note: Closest available year from ALOC database: 2001)*
+∑f = 23
+
+Median = ∑fx/∑f = 67/23 =2.913
+
+= ≈ 3
+
+Range = 5 - 0 = 5
+
+(3, 5)*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**9.** Find the maximum value of y in the equation y = 1 - 2x - 3x<sup>2</sup>
+   A) 5/4
+   B) 5/3
+   C) 3/4
+   D) 4/3
+   **Answer: D**
+   *Explanation: Tn=a+(n−1)d
+  (nth term of an AP).
+
+T9=5T5
+a+8d=5(a+4d)⟹a+8d=5a+20d
+5a−a+20d−8d=0⟹4a+12d=0
+a+3d=0*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**10.** Factorize 2y<sup>2</sup> - 15xy + 18x<sup>2</sup>
+   A) (2y - 3x) (y + 6x)
+   B) (2y - 3x) (y - 6x)
+   C) (2y + 3x) (y - 6x)
+   D) (3y + 2x) (y - 6x)
+   **Answer: B**
+   *Explanation: 2y<sup>2</sup> - 15xy + 18x<sup>2</sup>
+
+2y<sup>2</sup> - 12xy - 3xy + 18x<sup>2</sup>
+
+2y(y - 6x) - 3x(y - 6x)
+
+(2y - 3x) (y - 6x)*
+   *(Note: Closest available year from ALOC database: 2014)*
 
 
 ---

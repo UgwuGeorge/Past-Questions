@@ -2,86 +2,87 @@
 
 ## Objectives
 
-**1.** Which of the following places in Nigeria has the highest mean annual rainfall amount
-   A) Sokoto
-   B) Maiduguri
-   C) Nguru
-   D) Kano
-   **Answer: C**
-
-**2.** If a map has a scale of 1:50,000 and a cocoa plantation is represented on the map by a rectangle 4cm by 3cm, what is the area of the plantation?
-   A) 3 sq. km
-   B) 30 sq. km
-   C) 12 sq. km
-   D) 20 sq. km
+**1.** An example of a rock formed by wood subjected to pressure and heat is
+   A) Lignite
+   B) Granite
+   C) Sandstone
+   D) Biotite
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**3.** A degree of latitudinal distance is approximately
-   A) 111km
-   B) 221KM
-   C) 121km
-   D) 212km
-   **Answer: A**
-
-**4.** The world's busiest seaport is
-   A) London
-   B) Bombay
-   C) Kobe
-   D) Rotterdam
-   **Answer: D**
    *(Note: Closest available year from ALOC database: 2020)*
 
-**5.** The Stevenson’s screen is used to keep
-   A) barometer
-   B) thermometers
-   C) hygrometers
-   D) evapori meters
+**2.** When it is 12.00 noon on longitude 30°W, local time on longitude 75°E is
+   A) 7.00 am
+   B) 7.00 pm
+   C) 5.00 pm
+   D) 5.00 am
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *(Note: Closest available year from ALOC database: 2020)*
 
-**6.** The statements ‘one cm 2 km can be represented by the ratio of
-   A) 1:50,000
-   B) 1:500,000
-   C) 120,000
-   D) 1:200,000
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
+**3.** The diagram is a
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582572/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2020_26_jnguwo.jpg)*
+   A) Bar graph
+   B) Proportion graph
+   C) Pie chart
+   D) Chloropleth map
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2020)*
 
-**7.** An alternative graphic method that can be used to depict that same information is the
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582574/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2018_01_and_02_v2sqab.jpg)*
-   A) Divided rectangle
-   B) Chloropath
-   C) Dotman
-   D) Proportinal circle
-   E) Histograph
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2018)*
+**4.** Orographic rainfall is also called
+   A) Relief rainfall
+   B) cyclonic rainfall
+   C) convectional rainfall
+   D) frontal rainfall
+   **Answer: A**
 
-**8.** Fishing is the mainstay of the economy of
-   A) Iceland
-   B) Kuwait
-   C) Libya
-   D) Argentina
-   E) Brazil
-   **Answer: D**
+**5.** The port that handle the highest volume of cocoa export in Nigeria is
+   A) Sapele
+   B) Warri
+   C) Lagos
+   D) Port Harcourt
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**6.** The relative relief of the area is slight above
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582574/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2017_6_and_7_y30z7q.jpg)*
+   A) 575m
+   B) 485m
+   C) 75m
+   D) 105m
+   E) 100m
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2017)*
 
-**9.** A lake is a:
-   A) Large body of water surrounded by forest.
-   B) Large body of water surrounded by land.
-   C) Large body of water surrounded by rocks
-   D) Large body of water surrounded by water.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2014)*
+**7.** The earth rotates from
+   A) Southeast to Southwest
+   B) Southwest  to Southeast
+   C) West to East
+   D) East to West
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2013)*
 
-**10.** Isotherms are lines drawn on maps joining places having equal
-   A) Temperature
-   B) Cloud cover
-   C) Pressure
-   D) Water level
+**8.** Which of the following routes must have least gradient?
+   A) Motorway
+   B) Rail line
+   C) Bush path
+   D) Carnal
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**9.** Which of the following statements is not true for lines of latitude?
+   A) they form parallel circles
+   B) they range from 00 to 1800 N and S
+   C) only one line is also a Great Circle
+   D) They form parallel circles
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**10.** Which of the following landforms originates from Aeolian erosion?
+   A) Deflation hollow
+   B) Sand dune
+   C) Playa
+   D) Wadi
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2014)*
+   *(Note: Closest available year from ALOC database: 2013)*
 
 
 ---

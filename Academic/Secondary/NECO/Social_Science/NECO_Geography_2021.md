@@ -2,88 +2,90 @@
 
 ## Objectives
 
-**1.** To obtain the climate of a place the average atmospheric weather conditions should be considered
-   A) 20years
-   B) 24years
-   C) 35years
-   D) 10years
+**1.** British Columbia, Iceland, and Norway are noted for
+   A) Power
+   B) Fishing is an old industry in the basin
+   C) Lumbering
+   D) Mining
+   E) Farming
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**2.** Which one of the following ports occupies the best natural site in West Africa?
+   A) Monrovia
+   B) Tema
+   C) Banjul
+   D) Lagos
+   E) Freetown
+   **Answer: E**
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**3.** Topographic maps are:
+   A) Representations of features on the Earth's surface
+   B) Features on the Earth's surface.
+   C) Detailed and accurate graphic representations of features on the Earth's surface
+   D) Geographic coordinate grid on the Earth's surface.
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2014)*
 
-**2.** The most dominant pair of active factors affecting plants growth is
-   A) Topography and man
-   B) Climate and Topography
-   C) Soil and fauna
-   D) Climate and soil
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2020)*
+**4.** The lack of access to food in some parts of the world emanates from
+   A) Educational inequality
+   B) Poor transport system
+   C) Economic inequality
+   D) Low development of natural resources
+   E) Lack of manpower
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2018)*
 
-**3.** The main composition of coal is
-   A) Iron
-   B) Quartz
-   C) Clay
-   D) Carbon
-   E) Zinc
-   **Answer: D**
+**5.** Some rivers in their delta regions breaks into many branches before entering the sea. These divisions are known as
+   A) Creeks
+   B) Distributaries
+   C) Tributaries
+   D) Effluents
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**6.** From a point, the whole circle bearing of a line is 135°. A clockwise angle from the line was measured to be 260° to another line. What is the whole circle bearing of the later line?
+   A) 225°
+   B) 35°
+   C) 125°
+   D) 395°
+   E) 90°
+   **Answer: C**
    *(Note: Closest available year from ALOC database: 2016)*
 
-**4.** Aeolian erosion refers to the work of
-   A) Plants
-   B) Wind
-   C) Ice
-   D) Running water
-   **Answer: B**
+**7.** What type of climate is experienced in the region "P" shaded on the map?
+   A) Cool temperature Western Margin
+   B) Tropical Continental
+   C) Mediterranean
+   D) Tropical Monsoon
+   E) Tropical Marine
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**8.** At the summer solstice (June 21), which of the following latitudes will have the shortest night?
+   A) 30 “N
+   B) 30 “S
+   C) 50 “N
+   D) 50 “S
+   **Answer: C**
    *(Note: Closest available year from ALOC database: 2012)*
 
-**5.** Aeolian erosion refers to the work of
-   A) Plants
-   B) Wind
-   C) Ice
-   D) running water
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**6.** A radio message sent from a location on Longitude 15°W at 7.00 a.m is received at another location at 2.00 p.m on the same day. What is the longitudinal position of the other location?
-   A) 90°W
-   B) 105°E
-   C) 75°W
-   D) 105°W
-   E) 90°E
-   **Answer: E**
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**7.** Kariba Dam is found in River
-   A) Zambezi
-   B) Congo
-   C) Niger
-   D) Nile
+**9.** Which of the following is a feature  of a rejuvenated river?
+   A) Incised meanders
+   B) Braided channel
+   C) Delta
+   D) Levees
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *(Note: Closest available year from ALOC database: 2013)*
 
-**8.** Podsols and laterites share the following characteristics in common, except
-   A) infertility
-   B) high degree of leaching
-   C) associated with forest vegetation
-   D) colour
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**9.** What is the size, in square kilometers of the area covered by the map?
-   A) 58.0 sqkm
-   B) 64.0 sqkm
-   C) 51.0 sqkm
-   D) 62.0 sqkm
-   E) 55.0sqkm
+**10.** Which of the following countries has a large number of people of Africa descent?
+   A) England
+   B) Canada
+   C) Chile
+   D) Brazil
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**10.** The distribution of minerals resources in Nigeria is related to its:
-   A) relief
-   B) soil
-   C) vegetation
-   D) geology
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *(Note: Closest available year from ALOC database: 2008)*
 
 
 ---

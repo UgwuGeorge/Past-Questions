@@ -2,139 +2,150 @@
 
 ## Objectives
 
-**1.** A house hold refrigerator is rated 200 watts. If electricity cost 5k per Kwh, what is the cost of operating it for 20 days
-   A) N4.80
-   B) N48.00
-   C) N480.00
-   D) N4800.00
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**2.** Neutrons were discovered by
-   A) Faraday
-   B) Dalton
-   C) James Chadwick
-   D) Rutherford
+**1.** Which of the following radiations cannot be deflected by an electric field or
+   A) (i) and (ii) only
+   B) (ii) only
+   C) (iii) and (iv) only
+   D) (i) and (iii) only
    **Answer: C**
-   *Explanation: It was discovered by James Chadwick in 1932.*
-   *(Note: Closest available year from ALOC database: 2019)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**3.** An object is placed 15cm in front of a plane mirror. If the mirror is moved further 5cm away from the object and the image is
-   A) 80cm
-   B) 40cm
-   C) 50cm
-   D) 70cm
-   **Answer: B**
-   *Explanation: Given information:
-
-Initial object distance from mirror = 15 cm
-Mirror is moved 5 cm away from object
-New object distance = 15 + 5 = 20 cm
-
-Property of plane mirror:
-Image distance behind mirror = Object distance in front of mirror
-After moving the mirror:
-
-Object distance from mirror = 20 cm
-Image ...*
-
-**4.** The fourth overtone of a closed pipes is 900Hz, its fundamental frequency is
-   A) 50Hz
-   B) 100Hz
-   C) 200Hz
-   D) 400Hz
-   **Answer: B**
-   *Explanation: Solution:
-Understanding closed pipe harmonics:
-In a closed pipe (one end closed, one end open):
-
-Only odd harmonics are present
-Fundamental frequency (f₀) = 1st harmonic
-1st overtone = 3rd harmonic = 3f₀
-2nd overtone = 5th harmonic = 5f₀
-3rd overtone = 7th harmonic = 7f₀
-4th overtone = 9th harmonic ...*
-   *(Note: Closest available year from ALOC database: 2024)*
-
-**5.** A 20kg mass is to be pulled up a slope inclined at 30° to the horizontal. If efficiency of the plane is 75%, the force required to pull the load up the plane is [g = 10ms⁻²]
-   A) 87N
-   B) 73.5N
-   C) 133.3N
-   D) 533.2N
-   **Answer: C**
-   *Explanation: Given information:
-
-Mass (m) = 20 kg
-Angle of inclination (θ) = 30°
-Efficiency = 75% = 0.75
-g = 10 m/s²
-Effort (Force) = ?
-
-Step 1: Calculate Load (Total weight)
-Load = mg
-Load = 20 × 10 = 200 N
-Step 2: Calculate Velocity Ratio (V.R)
-For an inclined plane:
-V.R = 1/sin θ = 1/sin 30° = 1/0.5 = 2
-Step ...*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**6.** If two masses 40g and 60g respectively, are attached firmly to end of a light metre rule, what is the centre of gravity of the system?
-   A) at the mid point of the metre rule
-   B) 40cm from the lighter mass
-   C) 40cm from the heavier masses
-   D) 60cm from the heavier masses
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**7.** A string of length 5cm is extended by 0.04m when a load of 0.8kg is suspended at the end. How far will it extend if a force of 16N is applied? [g = 10ms⁻²]
-   A) 0.04m
-   B) 0.12m
-   C) 0.01m
-   D) 0.08m
+**2.** An open-tube mercury manometer is used to measure the pressure in a gas tank. When the atmospheric pressure is 101,325 Pa, what is the absolute pressure in Pa in the tank if the height of the mercury in the open tube is 25 cm higher. density of mercury = 13600kg/m³, g=9.8m/s²
+   A) 108,986 Pa
+   B) 165,238 Pa
+   C) 122,364 Pa
+   D) 134,645 Pa
    **Answer: D**
    *Explanation: Given information:
 
-Original length = 5 cm (not needed for calculation)
-Extension₁ (e₁) = 0.04 m
-Mass = 0.8 kg
-Force₂ (F₂) = 16 N
-g = 10 m/s²
-Extension₂ (e₂) = ?
+Atmospheric pressure, P₀ = 101,325 Pa
+Height difference, h = 25 cm = 0.25 m
+Density of mercury, ρ = 13,600 kg/m³
+Acceleration due to gravity, g = 9.8 m/s²
+Absolute pressure in tank, P = ?
 
-Step 1: Calculate initial force
-F₁ = mg = 0.8 × 10 = 8 N
-Step 2: Apply Hooke's Law
-For elastic materials: F ∝ e (Force is proportional to...*
+Solution:
+Step 1: Understand manometer reading
+When the mercury in the open tube is higher ...*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**3.** The net capacitance in the circuit above is
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1765610999/ALOC-Questions/Physics/2017/2017_Q_20_jqc9yc.png)*
+   A) 80µF
+   B) 6.0µF
+   C) 4.0µF
+   D) 2.0µF
+   **Answer: D**
+   *Explanation: Series arrangement:
+If the two 2µF are in parallel first: 2 + 2 = 4µF
+Then this 4µF is in series with the other 4µF:
+1/C_total = 1/4 + 1/4 = 2/4
+C_total = 2µF*
    *(Note: Closest available year from ALOC database: 2017)*
 
-**8.** The force between the molecules of a liquid in contact with that of a solid is?
-   A) Adhesive
-   B) Cohesive
-   C) Magnetic
-   D) Repulsive
-   **Answer: A**
-   *Explanation: The force between molecules of a liquid in contact with molecules of a solid is adhesive force - the attraction between molecules of different substances.*
-   *(Note: Closest available year from ALOC database: 2018)*
+**4.** The sensitivity of a thermometer is
+   A) All of the above
+   B) how quickly a temperature change can be detected
+   C) the difference between the maximum and the minimum temperature
+   D) the smallest temperature change that can be detected or measured
+   **Answer: D**
+   *Explanation: The sensitivity of a thermometer is defined as the smallest temperature change that can be detected or measured, NOT how quickly that temperature change can be detected.
 
-**9.** A wire of length 10m is cooled from 50oC to 10oC. Calculate the decrease in the length of the wire. [c = 3 x 10-5K-1]
-   A) 1.8 x  10⁻⁴ m
-   B) 1.5 x  10⁻⁴ m
-   C) 1.2 x 10⁻² m
-   D) 1.8 x 10⁻³m
-   **Answer: C**
+In contrast, the difference between the maximum and the minimum temperature is the range of a thermometer*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**5.** Determine the focal length of a thin converging lens if the power is 5.0 dioptres
+   A) 0.1 m
+   B) 0.2 m
+   C) 2.0 m
+   D) 2.5 m
+   **Answer: B**
    *Explanation: Given information:
 
-Original length (L₀) = 10 m
-Initial temperature (T₁) = 50°C
-Final temperature (T₂) = 10°C
-Linear expansivity (α) = 3 × 10⁻⁵ K⁻¹
-Decrease in length (ΔL) = ?
+Power (P) = 5.0 dioptres (D)
+Focal length (f) = ?
 
-Step 1: Calculate temperature change
-ΔT = T₁ - T₂ = 50°C - 10°C = 40°C = 40 K
-Step 2: Use linear expansion formula
-ΔL = αL₀...*
+Formula:
+P = 1/f
+where:
+
+P is in dioptres (D)
+f is in meters (m)
+
+Rearranging to find focal length:
+f = 1/P
+Substituting values:
+f = 1/5.0
+f = 0.2 m*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**6.** From the diagram above, calculate the total current in the circuit
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1765611100/ALOC-Questions/Physics/2017/2017_Q_42_fqgmd3.jpg)*
+   A) 5.0A
+   B) 3.7A
+   C) 4.5A
+   D) 4.0A
+   **Answer: B**
+   *Explanation: Given information:
+
+Voltage = 12V
+Three resistors: 18Ω, 12Ω, and 6Ω
+From the diagram, the resistors appear to be in parallel
+
+Step 1: Calculate equivalent resistance for parallel resistors
+1/Rₑq = 1/R₁ + 1/R₂ + 1/R₃
+1/Rₑq = 1/18 + 1/12 + 1/6
+Finding common denominator (36):
+1/Rₑq = 2/36 + 3/36 + 6/3...*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**7.** The optical instrument which is suitable for viewing a nearby objects is ………..?
+   A) Telescope
+   B) sextant
+   C) microscope
+   D) periscope
+   **Answer: C**
+   *Explanation: Microscope is used for nearby object*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**8.** A mass of gas at 40mmHg is heated from 298k to 348k at constant volume. Cal the pressure exerted by the gas.
+   A) 50.21mmHg
+   B) 46.71mmHg
+   C) 42.35mmHg
+   D) 35.12mmHg
+   **Answer: B**
+   *Explanation: Given information:
+
+Initial pressure, P₁ = 40 mmHg
+Initial temperature, T₁ = 298 K
+Final temperature, T₂ = 348 K
+Volume is constant
+Final pressure, P₂ = ?
+
+Solution:
+Step 1: Apply Gay-Lussac's Law
+At constant volume:
+P₁/T₁ = P₂/T₂
+Step 2: Rearrange to find final pressure
+P₂ = P₁ × (T₂/T₁)
+Step 3: Su...*
+   *(Note: Closest available year from ALOC database: 2024)*
+
+**9.** When a ball rolls on a  smooth level ground, the motion of its centre is
+   A) translational
+   B) Random
+   C) Oscillatory
+   D) Rotational
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**10.** A nail is pulled from a wall with a string tied to the nail. If the string is inclined at an angle of 30oC to the wall and the tension in the string is 50N, the effective force used in pulling the nail is:
+   A) 25N
+   B) 25√3 N
+   C) 50N
+   D) 50√3N
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
 
 
 ---

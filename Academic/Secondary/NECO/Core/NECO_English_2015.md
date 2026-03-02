@@ -2,99 +2,90 @@
 
 ## Objectives
 
-**1.** The police officer looks <u>pudgy</u>
-   A) tall and lean
-   B) short and slim
-   C) short and fat
-   D) tall and fat
+**1.** Both questions are alternatives; you answer ........ one ........ the other
+   A) either/or
+   B) neither/nor
+   C) either/nor
+   D) neither/or
    **Answer: A**
-   *Explanation: Pudgy means someone that is short and fat or thick, the opposite of pudgy according the options is ''tall and lean''.*
+   *Explanation: Option A is the best answer. Note that 'either' goes with 'or' and the usage of both creates an impression as to alternatives.*
    *(Note: Closest available year from ALOC database: 2019)*
 
-**2.** My bag is made of LEATHER
-   A) Whose bag is made of leather?
-   B) Is my bag made of polythene?
-   C) Is Abu's bag made of leather?
-   D) Is my bag made of leather
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
+**2.** The idea makes me <i>cringe</i>
+   A) quiver
+   B) tremble
+   C) resolute
+   D) writhe
+   **Answer: C**
+   *Explanation: <i>cringe</i>; bend one's head and body in fear or apprehension or in a servile manner.
+synonyms; shake, tremble, quiver, quail, quake
+resolute; admirably purposeful, determined, and unwavering.*
+   *(Note: Closest available year from ALOC database: 2016)*
 
-**3.** The police are not happy with the growing number of <i>depraved</i> people around the politician.
-   A) violent
-   B) immoral
-   C) indolent
-   D) loquacious
+**3.** My father has been away on a journey but my mother  says she …...he …… this Friday.
+   A) expects/would arrive
+   B) expected/win arrive
+   C) expects/will arrive
+   D) expected/would arrive
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**4.** The flying Eagles put up a <i>plucky</i> defence against their opponents.
-   A) strong
-   B) weak
-   C) careless
-   D) tactful
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**5.** photography
-   A) phoTOgraphy
-   B) PHOtograhy
-   C) photoGRAphy
-   D) photograPHY
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**6.** By the expression "climb down", the author implies that modern playwrights should _______
-   A) be simplistic in the use of language
-   B) not move up
-   C) use language that is most appreciated by the people
-   D) wait for the community to catch up with them
-   **Answer: A**
-   *Explanation: In the passage 'climb down' implies to descend in the use of language to be understandable by the common man'
-
-Option A is the best answer.*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**7.** The politician was pilloried by the press for his inflammatory remarks?
-   A) The politician was snubbed by the press for his remarks
-   B) The politician was criticized by the press for his remarks
-   C) The politician was closely questioned by the press for his remarks
-   D) The politician was ridiculed by the press for his remarks
-   **Answer: D**
-   *Explanation: To transcribe the statement above, we first need to know the meaning of the various words used;
-
-pilloried means to be attacked or ridiculed publicly. 
-
-inflammatory (relating to speech or writing) arousing or intended to arouse angry or violent feelings. example "inflammatory remarks"
-
-synonyms: pr...*
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**8.** Adike ………….. a message from the club regularly.
-   A) Receive
-   B) had received
-   C) receive
-   D) has received
+**4.** The armed robbers went into the house and robbed the three
+   A) woman occupants
+   B) women's occupants
+   C) woman's occupants
+   D) women occupants.
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**9.** Ola thought that her father was very <u>callous</u>
-   A) parlous
-   B) wicked
-   C) compassionate
-   D) cheerful
-   **Answer: C**
-   *Explanation: Callous; showing or having an insensitive and cruel disregard for others.
+**5.** I shall find time for my ……… when I get …… with this difficult assignment.
+   A) Pat time /over
+   B) pass-time/over
+   C) pastime/through
+   D) pastime/through
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2004)*
 
-compassionate; feeling or showing sympathy and concern for others.*
+**6.** Choose the most appropriate option for the gap labelled 18.
+   A) a gazetteer
+   B) an article
+   C) a column
+   D) a magazine
+   **Answer: D**
+   *Explanation: magazine; a periodical publication containing articles and illustrations, often on a particular subject or aimed at a particular readership.*
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**7.** When they examined his body, they found that he ...
+   A) had been dead
+   B) had been dying
+   C) died
+   D) was dead
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**8.** People are not interested in who rules
+   A) People are not ruled by the leaders they want
+   B) People are not concerned about who rules them
+   C) The rulers are not concerned about the people
+   D) People who rule are not interested in the ruled.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**9.** From the passage, one can say that all the ethnic groups have
+   A) different traditional religion with some elements of similarities
+   B) completely different religious practices
+   C) the same traditional religion
+   D) the same religious manifestation with common deities
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2012)*
 
-**10.** More ...... to your elbow as you as you campaign for press freedom?
-   A) power
-   B) effort
-   C) grease
-   D) energy
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
+**10.** The popularity of the military dictator <i>waned</i>  after war
+   A) increased
+   B) changed
+   C) declined
+   D) skyrocketed.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2008)*
 
 
 ---

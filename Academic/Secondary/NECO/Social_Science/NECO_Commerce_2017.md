@@ -2,85 +2,85 @@
 
 ## Objectives
 
-**1.** A country is said to be experiencing an unfavourable balance of trade if her
-   A) exports exceed imports
-   B) visible exports  exceed  visible imports
-   C) imports and export are equal
-   D) visible imports exceed visible exports
+**1.** Which of the following is NOT a function of courier companies?
+   A) Ensuring international transmission of message
+   B) Providing door to door delivery services
+   C) Providing efficient means of mail delivery
+   D) Undertaking the shipment of export and import
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2013)*
 
-**2.** A liquidator's fee is to be charged to the
-   A) realization account
-   B) trading account
-   C) revaluation account
-   D) reconstruction account.
+**2.** A distinctive advantage of GSM is its
+   A) mobility
+   B) cost
+   C) stability
+   D) coverage.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**3.** Partners who allow their names to be used in a partnership but do not take part in the management of the business are
+   A) active partners
+   B) limited partners
+   C) general partners
+   D) nominal partners
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**4.** The merger of a textile mill, a cement company and a tannery is referred to as
+   A) conglomerate merger
+   B) horizontal merger
+   C) lateral merger
+   D) vertical merger
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**5.** The development of commerce resulted from
+   A) trading
+   B) competition
+   C) importation
+   D) specialization.
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2006)*
 
-**3.** An agreement between two parties which is enforceable by law is a
-   A) promise
-   B) warranty
-   C) contract
-   D) condition
+**6.** An opportunity to reject a binding contract at will by a third party is said to be a
+   A) valid contract
+   B) quasi contract
+   C) voidable contract
+   D) conditional  contract
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**4.** The function  of money that facilitates the comparison of the quality of goods as a basis of exchange is the
-   A) unit of account
-   B) measure of value
-   C) store of value
-   D) medium of exchange
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**5.** Resources obtained from the extractive sector that are transformed into finished products are examples of
-   A) primary production
-   B) tertiary production
-   C) direct production
-   D) secondary production.
+**7.** The label on a product such as ‘pampers’ is a type of
+   A) trademark
+   B) branding
+   C) packaging
+   D) patent right
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**6.** The type of letters that are delivered through the normal mail or by airmail express service is referred to as
-   A) Inland letters
-   B) registered letters
-   C) airmail letters
-   D) express letters
+**8.** Who is the offeree in this contract?
+   A) Musa
+   B) Audu
+   C) Adamu
+   D) Jacob.
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *(Note: Closest available year from ALOC database: 2001)*
 
-**7.** The promotion and protection of trade, industry and agriculture thorugh trade fairs is a function of
-   A) NACRDB
-   B) NACCIMA
-   C) the Consumer Protection Council
-   D) the Chamber of Commerce
+**9.** A cheque which a bank draws on its own funds is a
+   A) bankdraft
+   B) cashier’s cheque
+   C) bank cheque
+   D) crossed cheque
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**10.** The unit through which results of a processed data are displayed is the
+   A) logic unit
+   B) display unit
+   C) control unit
+   D) output unit.
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** The commercialization of public enterprises aimed at
-   A) increasing efficiency and making the enterprises self-sufficient
-   B) advertising a promoting the goods and services of the enterprises
-   C) increased assistance and patronage of the enterprises by the public
-   D) selling the goods and services of the enterprises.
-   **Answer: A**
    *(Note: Closest available year from ALOC database: 2002)*
-
-**9.** To meet security requirement before gaining access to data, a computer operator supplies
-   A) an e-mail address
-   B) a yahoo address
-   C) a password
-   D) a modem
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**10.** The body charged with the responsibility of regulating foods and drugs in Nigeria is the
-   A) SON
-   B) NDLEA
-   C) NAFDAC
-   D) CAC
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
 
 
 ---

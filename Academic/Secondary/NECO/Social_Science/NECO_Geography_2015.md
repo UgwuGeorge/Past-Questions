@@ -2,89 +2,88 @@
 
 ## Objectives
 
-**1.** Linseed oil is associated with
-   A) flax
-   B) coconut
-   C) olives
-   D) rapeseeds
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
+**1.** A broad-based population pyramid is composed mainly of
+   A) Active inhabitants
+   B) Old dependents
+   C) Young dependents
+   D) More females than males
+   E) More males than females
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2018)*
 
-**2.** Sugar plantations in Africa are most likely developed in the lowlands of
-   A) Coast and Mozambique
-   B) The mediterranean seaboard and the Guinea coast
-   C) Natal and the Lower Nile
-   D) Mozambique and Natal
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**3.** The capital of Niger state in Nigeria is:
-   A) Gusau
-   B) Yola
-   C) Makurdi
-   D) Minna
+**2.** Which of the following soil types favours the growth of cocoa in Nigeria?
+   A) Regosols
+   B) Vertisols
+   C) Ferruginous soils
+   D) Ferrallitic soil
+   E) Humus soils
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2014)*
+   *(Note: Closest available year from ALOC database: 2017)*
 
-**4.** Which of the following continents has the largest area with a tropical type of climate?
-   A) Asia
-   B) South America
-   C) North America
-   D) Africa
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**5.** The pair of countries which has the largest area of coniferous forest in the world is made up of Canada and
-   A) The U.S.A
-   B) New Zealand
-   C) Brazil
-   D) The U.S.S.R
-   E) Norway
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**6.** Which of these statements does NOT correctly describe the relationship between settlements and relief in the area? The settlements are
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1632582573/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2019_06_to_10_hkwszi.jpg)*
-   A) All spring-line settlements
-   B) Located mainly in valleys
-   C) Generally located on the summits
-   D) Not on the immediate banks of the major streams
-   E) Located at the foot-slopes
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**7.** A small hill resulting from the process peneplanation is called
-   A) An inselberg
-   B) A hum
-   C) An arete
-   D) A monadnock
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**8.** The world driest desert is
-   A) Atacama
-   B) Sahara
-   C) Kalahari
-   D) California
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**9.** Which of the following is a feature  of a rejuvenated river?
-   A) Incised meanders
-   B) Braided channel
-   C) Delta
-   D) Levees
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**10.** A radio message sent from a location on Longitude 15°W at 7.00 a.m is received at another location at 2.00 p.m on the same day. What is the longitudinal position of the other location?
-   A) 90°W
-   B) 105°E
-   C) 75°W
-   D) 105°W
-   E) 90°E
+**3.** With which of the following processes are drumlins boulder clay and terminal moraines associated?
+   A) River deposition
+   B) Wind deposition
+   C) Glacial erosion
+   D) River erosion
+   E) Glacial deposition
    **Answer: E**
    *(Note: Closest available year from ALOC database: 2019)*
+
+**4.** Drought-tolerant plants are known as
+   A) Epiphytes
+   B) Hydrophytes
+   C) Drouphytes
+   D) Xerophytes
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**5.** On of the following is least important to ocean movement
+   A) salinity of the ocean water
+   B) temperature of the water
+   C) planetary wind
+   D) curvature of the coastal areas
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**6.** The main work of a river in its torrent stage is
+   A) Widening its valley
+   B) Down cutting
+   C) Deposition
+   D) Bifurcation
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**7.** A boat building industry is least likely to be situated in
+   A) Kebbi state
+   B) Kano state
+   C) Tarabe state
+   D) Kogi state
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**8.** One of these is not true of rain gauges:
+   A) Rain gauge provide excellent measurement of rainfall
+   B) Their measurements may be affected by the particular type used
+   C) Their readings may be influenced by slope of the land
+   D) Rain splashes during heavy rains may lead to over estimation
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**9.** Fossil fuel reserves are found in the Lake Chad basin because
+   A) The basin lies approximately along he axis on which the rich Bakassi oil fields are found
+   B) The basin is at the edge of the desert with conditions similar to that of Iraq
+   C) it is an inland drainage basin with many large rivers emptying into it
+   D) Its rocks are sedimentary
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**10.** Nigeria Sat I is designed by primarily to
+   A) help GSM provider in achieving a wide national coverage
+   B) strengthen rapid response by Nigeria’s Armed Forces
+   C) help in the 2006 Census
+   D) provide information about various regions of the earth
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2006)*
 
 
 ---

@@ -2,85 +2,85 @@
 
 ## Objectives
 
-**1.** The first terrestrial vertebratese volved from
-   A) pisces
-   B) Reptilia
-   C) Amphibia
-   D) Mammalia
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**2.** Habitats are generally classified into
-   A) aquatic and terrestrial
-   B) arboreal  and marine biomes
-   C) microhabitats and macro habitats
-   D) biotic and abiotic
-   **Answer: A**
+**1.** the interaction of a community of organisms with its abiotic environment constitutes
+   A) a food chain
+   B) an ecosystem
+   C) a microhabitat
+   D) a niche
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2011)*
 
-**3.** Insectivorous plants traps and kill their prey to derive
-   A) phosphorous
-   B) calcium
-   C) nitrogen
-   D) Zinc
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+**2.** The axial  skeleton is found in the
+   A) skull , ribs, vertebral column and breast bone
+   B) skull humerus, vertebral column and ribs
+   C) breastbone, clavicle, rids and vertebral column
+   D) femur, sternum, ulnae and skull
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**4.** Counter shading is an adaptive  feature that enables animals to
-   A) flight enemies
-   B) remain undetected
-   C) warn enemies
-   D) attract mates
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
+**3.** If the pair of alleles for baidness is given as Bb, a female carrier will be denoted by
+   A) XbY
+   B) XBXB
+   C) XBY
+   D) XBXb
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**5.** In terms of the number of individuals, which of the following  taxa is most inclusive?
-   A) order
-   B) family
-   C) class
-   D) species
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**6.** Yeast respires anaerobically  to covert simple sugar to carbon (IV) oxide and
-   A) alcohol
-   B) acid
-   C) oxygen
-   D) water
+**4.** Which of the following stimuli is likely to elicit a nastic response in an organism?
+   A) Touch
+   B) Light intensity
+   C) Chemical substances
+   D) gravity
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**7.** If a DNA strand has a base sequence TCA, its complementary strand must be
-   A) ATG
-   B) TAG
-   C) GAT
-   D) AGT
+**5.** Which  of the following possesses mammary gland?
+   A) Dogfish
+   B) Whale
+   C) Shark
+   D) Catfish
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**6.** The most important hormone that induces the ripening of fruit is
+   A) ethylene
+   B) indole acetic acid
+   C) gibberellin
+   D) cytokinin
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**7.** An example of cryptic colouration is the
+   A) mottled colours on moths that rest o lichens
+   B) bright colour of an insect pollinated flower
+   C) green colour of a plant
+   D) bright marks on a poisonous tropical frog on variegated  leaves
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**8.** A function of the hydrochloric acid produced in the human stomach during digestion is to
-   A) neutralize the effect of bile
-   B) coagulate milk protein and emulsify fats
-   C) stop the action of ptyalin
-   D) break up food into smaller particles
-   **Answer: C**
+**8.** Which of the following is true in blood transfusion?
+   A) a person of blood group AB can donate blood only to another person of blood group AB
+   B) Persons of blood groups A and B can donate or receive blood from each other
+   C) A person of blood group AB can receive blood only from persons of blood group A or B
+   D) A person of blood group O can donate only to a person of blood group O.
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2012)*
 
-**9.** Night blindness result from a deficiency of
-   A) Vitamin E
-   B) Vitamin K
-   C) Vitamin C
-   D) Vitamin A
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
+**9.** The Scarcity of food causes a sudden decrease in population size by
+   A) decrease the reproductive rate
+   B) bringing about immigration
+   C) raising the mortality rate
+   D) minimizing the rate of competition
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2004)*
 
-**10.** A characteristic exhibited by all living organism is
-   A) sexual reproduction
-   B) aerobic respiration
-   C) the ability to move from one place to another
-   D) the ability to remove unwanted substances.
+**10.** Which of the following is a homeostatic response in humans?
+   A) withdrawing the hand from a hot object
+   B) the mouth getting watery when food is lighted
+   C) yawning owing to tiredness
+   D) shivering in a cold environment
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *(Note: Closest available year from ALOC database: 2005)*
 
 
 ---

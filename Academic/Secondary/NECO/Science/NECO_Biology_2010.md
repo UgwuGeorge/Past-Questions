@@ -2,62 +2,37 @@
 
 ## Objectives
 
-**1.** Alternation of a sexual and sexual modes of reproduction is found in
-   A) blue-green algae
-   B) Euglena
-   C) fern
-   D) maize
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**2.** Radial symmetry is a feature common to the
-   A) platyhelminthes
-   B) nematodes
-   C) coelentrates
-   D) arthropods
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**3.** A density dependent factor that regulates the population size of organism is
-   A) disease
-   B) sudden flood
-   C) drought
-   D) fire outbreak
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**4.** One adaptation  shown by hydrophytes in fresh water habitats is the
-   A) poor  development of roots and xylem tissues
-   B) well developed roots and supporting system
-   C) leaves reduced to spines
-   D) waxy  cuticle on shoot surface
-   **Answer: A**
+**1.** Which of the following is common to the mosquito, housefly and blackfly?
+   A) Their  immature stages are aquatic
+   B) They undergo complete metamorphosis
+   C) Their adults have two pairs of wings
+   D) They are parasites of man
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**5.** The first terrestrial vertebratese volved from
-   A) pisces
-   B) Reptilia
-   C) Amphibia
-   D) Mammalia
+**2.** Which of the following organisms is mainly  found in the marine habitat?
+   A) Achatina
+   B) Tilapia
+   C) Dog fish
+   D) Tortoise
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
 
-**6.** The correct sequence of biomes from northern to southern Nigeria is
-   A) gulnea savanna _ sudan savanna_ tropical rain forest_ sahel savanna_eetuarine
-   B) estuarine_tripical rainforest_guinea savanna _ sahel_ savanna
-   C) sahel savanna_ tropical_rain forest_ estuarine _guinea savanna
-   D) sahel savanna_sudan savanna_guinea savanna _tropical rain forest_estuarine
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
+**3.** The mammalian lung is made air light by the
+   A) pleural cavity
+   B) mucous membrane
+   C) pleural membrane
+   D) diaphragm
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**7.** The primary structure responsible for pumping blood for circulation through the mammalian circulatory systems is the
-   A) veins
-   B) right auricle
-   C) arteries
-   D) left ventricle
-   **Answer: D**
+**4.** The part of the human gut  that has an acidic  content is the
+   A) stomach
+   B) duodenum
+   C) ileum
+   D) colon
+   **Answer: A**
 
-**8.** A blue-green alga is not a protophytes because
+**5.** A blue-green alga is not a protophytes because
    A) it is aquatic
    B) its cells are prokaryotic
    C) it cannot move
@@ -65,21 +40,37 @@
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2009)*
 
-**9.** A plant  parenchyma cell also acts as a supporting tissue when it
-   A) becomes faccid
-   B) contains cystals
-   C) becomes turgid
-   D) is pigmented
+**6.** The adult form of III is a vector of
+   A) river blindness
+   B) cholera
+   C) elephantiasis
+   D) sleeping sickness
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**10.** Stunted growth and poor root development are a result of as deficiency in
-   A) calcium
-   B) sulphur
-   C) iron
-   D) phosphorous
+**7.** The soil type that will be most difficult to plough in a wet season is one that is
+   A) loamy
+   B) clayey
+   C) sandy
+   D) silty
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**8.** In rabbits, the chamber of the heart that receives oxygenated blood from the lungs is the
+   A) left auricle
+   B) right auricle
+   C) left ventricle
+   D) right ventricle
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**9.** A density dependent factor that regulates the population size of organism is
+   A) disease
+   B) sudden flood
+   C) drought
+   D) fire outbreak
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
 
 
 ---

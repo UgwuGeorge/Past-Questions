@@ -2,83 +2,103 @@
 
 ## Objectives
 
-**1.** The armed robbers went into the house and robbed the three
-   A) woman occupants
-   B) women's occupants
-   C) woman's occupants
-   D) women occupants.
+**1.** The word absorbed as used in the passage, means
+   A) disturbed
+   B) engrossed
+   C) covered
+   D) entailed
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**2.** <u>h</u>igh
+   A) what
+   B) honest
+   C) who
+   D) vehicle
+   **Answer: C**
+
+**3.** The author uses the novel to portray some of the
+   A) NGO's activities only
+   B) environment conditions
+   C) feelings of teachers only
+   D) societal problems
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**4.** Men<u>t</u>ion?
+   A) that
+   B) machine
+   C) church
+   D) test
+   **Answer: B**
+   *Explanation: mention; /ˈmɛnʃ(ə)n/
+
+machine; /məˈʃiːn/*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**5.** Toyin is married to an <i>impatient, self-centred man
+   A) a tolerant
+   B) a tolerable
+   C) a fretful
+   D) an edgy
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**2.** HONOUR?
-   A) hotel
-   B) hyena
-   C) human
-   D) humane
+**6.** You may have the pencil, but you can't have the ballpoint ________.
+   A) As well.
+   B) Either.
+   C) Futhermore.
+   D) Also.
    **Answer: A**
-   *Explanation: Honour is stressed as HO-nour.
-
-same as HO-tel*
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**3.** Governing a country is not always as  <i>straightforward as</i>  people sometimes imagine.
-   A) complicated
-   B) troublesome
-   C) untoward
-   D) Irksome
-   **Answer: D**
-
-**4.** b<u>ee</u>r
-   A) bear
-   B) pear
-   C) fair
-   D) pier
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**5.** In the latter part of his life, the famous soldier showed signs of <u>youthfulness</u>?
-   A) energy
-   B) senility
-   C) bravery
-   D) vitality
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**6.** From the words lettered A to D, choose the word that has the same consonant sounds as the one represented by the letters underlined.
-
-Di<u>ce</u>
-   A) shame
-   B) cue
-   C) chair
-   D) loss
-   **Answer: D**
-   *Explanation: The correct answer is ‘D’ because only ‘loss’ /lcs/ has the same consonant sound as ‘dice’ /dais/. Others are ‘shame’ /seim/, ‘cue’ /kju/, ‘chair’ /ʧea/ or /ʧer/*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**7.** The man reasoned that there ought to be a limit to sycophancy?
-   A) there can be no favour beyond a reasonable point
-   B) sycophants need not talk all the time
-   C) people should know when not use flattery
-   D) sycophants should know when to grant people's requests
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**8.** All the candidates looked <u>aghast</u> at the reading of the questions.
-   A) Relaxed.
-   B) Fulfilled.
-   C) Dismayed.
-   D) Satisfied.
-   **Answer: C**
-   *Explanation: ghast; filled with horror or shock.*
+   *Explanation: You may have the pencil, but you can't have the ballpoint  As well*
    *(Note: Closest available year from ALOC database: 2014)*
 
-**9.** According to the passage, scientific evidence has made it possible
-   A) for the dead to return and tell their experince
-   B) to make conjectures about what happens after death
-   C) to know a littlt about what happens in the world of the dead
-   D) for one to experience the sensation of dying and living again
+**7.** Though David's condition is <u>serious</u>, his life is not in immediate danger?
+   A) nastly
+   B) hypertensive
+   C) dangerous
+   D) grave
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**8.** The lawmakers are perceived to be the <u>greediest</u> set of politicians.
+   A) selfless
+   B) unwanted
+   C) popular
+   D) corrupt
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *Explanation: Greedy: Having or showing a strong or excessive desire to acquire money or possess things,
+
+Selfless: concerned more with the needs and wishes of others than with one's own; unselfish.*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**9.** QUALITY?
+   A) guarantee
+   B) accepted
+   C) bachelor
+   D) related
+   **Answer: C**
+   *Explanation: Quality is stressed on the first syllable /ˈkwɒlɪti/
+
+A. guarantee  is stressed on the third syllable /ɡar(ə)nˈtiː/
+
+B. accepted  is stressed on the second syllable /əkˈsɛptid/
+
+C. bachelor  is stressed on the first syllable /ˈbatʃələ/
+
+D. related  is stressed on the second syllable /rɪˈleɪt/*
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**10.** Suara needn't come with us, .......?
+   A) does she
+   B) will she
+   C) can she
+   D) need she
+   **Answer: D**
+   *Explanation: When there is no special emphasis, the rule of thumb often applies that a positive sentence has a negative tag and vice versa. This form may express confidence, or seek confirmation of the asker's opinion or belief.
+
+For example: It's cold (positive), isn't it (negative)? just like in the question a...*
+   *(Note: Closest available year from ALOC database: 2011)*
 
 
 ---

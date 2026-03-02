@@ -2,7 +2,31 @@
 
 ## Objectives
 
-**1.** The formation of water in tissue  respiration  results from the
+**1.** The function of the fluid filled pericardium is to
+   A) reduce the friction caused by the pumping movements of the heart
+   B) supply the heart with oxygen and nutrients
+   C) prevent disease organisms from attacking the heart
+   D) reduce the  intensity of the pumping action of the heart
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**2.** The anaerobic fermentation of a glucose molecule yields.
+   A) 38ATP molecules
+   B) 2ATP molecules and alcohol
+   C) Pyruvic acid and alcohol
+   D) water and carbon (IV) oxide
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**3.** The Scarcity of food causes a sudden decrease in population size by
+   A) decrease the reproductive rate
+   B) bringing about immigration
+   C) raising the mortality rate
+   D) minimizing the rate of competition
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**4.** The formation of water in tissue  respiration  results from the
    A) combination of water  molecules
    B) breakdown of water molecules
    C) reduction of carbon (IV) oxide
@@ -10,69 +34,46 @@
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2006)*
 
-**2.** If the cross of a red  flowered plant with a white flowered plant produces a pink flowered plant, it is an example of
-   A) incomplete dominance
-   B) mutation
-   C) linkage
-   D) co dominance
+**5.** A yellow maize is planted and all the fruits obtained are of yellow seeds. When they are cross bred, yellow seeds and white seeds are obtained in a ratio 3:1. The yellow seed is said to be
+   A) non heritable
+   B) sex linked
+   C) a recessive trait
+   D) a dominant trait
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**6.** The number of alleles controlling  blood groups in humans is
+   A) 4
+   B) 5
+   C) 2
+   D) 3
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2011)*
 
-**3.** The increasing order of the particle size in the following soil types  is
-   A) clay_silt_sand_gravel
-   B) Silt_clay-sand_gravel
-   C) clay_sand_slit_gravel
-   D) silt_sand_clay gravel
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** Pineapple is an example of
-   A) a composite fruit
-   B) a simple fruit
-   C) an aggregate fruit
-   D) a dehiscent fruit
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**5.** Organisms I, II, III and IV have surface volume ratios  of 1:2, 1:3, 1:4, 1:5, respectively. The organism that is likely to have the most complex transport system is
-   A) IV
-   B) III
-   C) I
-   D) II
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**6.** In the kidney of mammals, the site of ultra filtration is the
-   A) urinferous tuble
-   B) Bowman capsule
-   C) loop of Henle
-   D) renal tuble
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**7.** In mammalian males, the excretory and reproductive  systems share the
-   A) ureter
-   B) vas deferens
-   C) urethra
-   D) Testes.
+**7.** Water is necessary for a germinating seed because  it
+   A) wets the soil for proper germination
+   B) protects the seed from desiccation
+   C) activates the enzymes
+   D) promotes aerobic respiration
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**8.** If the pair of alleles for baidness is given as Bb, a female carrier will be denoted by
-   A) XbY
-   B) XBXB
-   C) XBY
-   D) XBXb
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
+**8.** Angiosperms and gymnosperms belong to the class
+   A) schizophyta
+   B) spermatophyte
+   C) pteridophyta
+   D) bryophta
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**9.** The carrying capacity of a habitat is reached when the population growth begins to
-   A) increase slowly
-   B) increase exponentially
-   C) slow down
-   D) remain steady
+**9.** I. Adoption of appropriate nocturnal habits   II. Burrowing   III. adjusting their  internal body temperature   IV. Possession of many sweat pores.
+Which of the above are ways in which desert animals adapt to extreme heat of environment?
+   A) I and IV only
+   B) II and III only
+   C) I and II only
+   D) I, II and III only
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *(Note: Closest available year from ALOC database: 2010)*
 
 
 ---

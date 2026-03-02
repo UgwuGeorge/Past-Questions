@@ -2,31 +2,15 @@
 
 ## Objectives
 
-**1.** The main work of a river in its torrent stage is
-   A) Widening its valley
-   B) Down cutting
-   C) Deposition
-   D) Bifurcation
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**2.** Aeolian erosion refers to the work of
-   A) Plants
-   B) Wind
-   C) Ice
-   D) running water
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**3.** Which of the following landforms is the results of  river rejuvenated?
-   A) Ox-box lake
-   B) flood plain
-   C) terrace
-   D) alluvial fan
+**1.** Commercial grape cultivation is associated with?
+   A) cool temperature climate
+   B) monsoon regions
+   C) Mediterranean regions
+   D) Montane climate
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**4.** From a point, the whole circle bearing of a line is 135°. A clockwise angle from the line was measured to be 260° to another line. What is the whole circle bearing of the later line?
+**2.** From a point, the whole circle bearing of a line is 135°. A clockwise angle from the line was measured to be 260° to another line. What is the whole circle bearing of the later line?
    A) 225°
    B) 35°
    C) 125°
@@ -35,54 +19,72 @@
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2016)*
 
-**5.** Rural settlements can be distinguished from urban settlements by their?
-   A) function  and population
-   B) Site and function
-   C) demography and morphology
-   D) morphology and location
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**6.** Which of the following is an evidence to show that the earth is spherical in shape?
-   A) Elliptical orbit
-   B) Ea th s  u ed ho izo
-   C) Revolution of the earth
-   D) Seasonal changes
+**3.** An igneous rock with distinct grains of mica feldspar and quartz is
+   A) Basalt
+   B) Granite
+   C) Schist
+   D) Rhyolite
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2014)*
+   *(Note: Closest available year from ALOC database: 2019)*
 
-**7.** Soil conservation can be achieved through
-   A) Monoculture
-   B) Mechanization
-   C) Strip-cropping
-   D) Floriculture
-   E) Market Garden
-   **Answer: C**
+**4.** The Nigerian river with the longest distance of internal waterways is
+   A) Cross River
+   B) River Benue
+   C) River Osun
+   D) River Niger
+   E) River Ogun
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2016)*
 
-**8.** Which of the following basins has the highest population concentration? the
-   A) Indus
-   B) Niger
+**5.** The world’s longest river is
+   A) Amazon
+   B) Mississippi
    C) Nile
-   D) Mississippi
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**9.** Identify the non-fuel mineral among the following
-   A) Lignite
-   B) Peat
-   C) Cassiterite
-   D) Petroleum
-   E) Copper
+   D) Chang Jiang
    **Answer: C**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**6.** Which od these West African countries is known for the mining of phosphates?
+   A) Liberia
+   B) Togo
+   C) Nigeria
+   D) Ghana
+   E) Liberia
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2017)*
 
-**10.** Which of the following statistical mapping techniques is most suitable for showing the spatial distribution of cattle in different northern states of Nigeria
-   A) Isopleths
-   B) Pie chart
-   C) Proportional circles
-   D) Dot map
+**7.** Coombes are associated with
+   A) honey-bee farms
+   B) Karst environment
+   C) rift valley system
+   D) cases in the desert
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**8.** The scale of a map is the ratio between the
+   A) distance over the land and the distance over the water
+   B) distance on the map and the distance on the globe
+   C) vertical and horizontal differences
+   D) distance on the map and that on the earth’s surface
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2020)*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**9.** Kinshasa is a:
+   A) Central African City
+   B) North African City
+   C) East African City
+   D) South African City
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**10.** In terms of both the area of land cultivated and the volume of production, the most important cereal crop in Nigeria is
+   A) Guinea Corn
+   B) Rice
+   C) Maize
+   D) Millet
+   E) Wheat
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2017)*
 
 
 ---

@@ -2,136 +2,150 @@
 
 ## Objectives
 
-**1.** Find the area, to the nearest cm<sup>2</sup>, of the triangle whose sides are in the ratio 2 : 3 : 4 and whose perimeter is 180 cm.
-   A) 1162 cm<sup>2</sup>
-   B) 1163 cm<sup>2</sup>
-   C) 1160 cm<sup>2</sup>
-   D) 1161 cm<sup>2</sup>
-   **Answer: A**
-   *Explanation: Let the length of the sides of triangle be 2x, 3x and 4x.
-
-Perimeter of triangle = 180cm
-
-⇒ 2x + 3x + 4x = 180
-⇒ 9x = 180
-⇒ x=180/9
- = 20 cm
-
-Then the sides of the triangle are:
-
-2x = 2 × 20 = 40 cm; 3x = 3 × 20 = 60cm and 4x = 4 × 20 = 80cm
-
-Using Heron's formula
-
-Area of triangle = s√(s−a)(s−b)(s−...*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**2.** Differentiate (x<sup>2</sup> - 1/x)<sup>2</sup> with respect to x
-   A) 4x<sup>2</sup> - 4x - 2/x
-   B) 4x<sup>2</sup> - 2 + 2/x3
-   C) 4x<sup>2</sup> - 2 - 2/x3
-   D) 4x<sup>2</sup> - 3x + 2/x
+**1.** Simplify (√98 -√50)/√32
+   A) 3
+   B) 1
+   C) 1/2
+   D) 1/4
    **Answer: C**
-   *Explanation: y = (x<sup>2</sup> - 1/x)<sup>2</sup>
-y = (x<sup>2</sup> - 1/x)(x<sup>2</sup> - 1/x)
-y = x<sup>4</sup> - x - x + 1/x<sup>2</sup>
-y = x<sup>4</sup> - 2x + 1/x<sup>2</sup>
-y= x<sup>4</sup> - 2x + x<sup>-2</sup>
-dy/dx = 4x<sup>2</sup> - 2 - 2x<sup>-3</sup>
-= 4x<sup>2</sup> - 2 - 2/x<sup>3</sup>*
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: (√98 - √50)/√32 = √(49x2) - √(25x2) √(16x2)
+=> (7√2 - 5√2)/4√2 = 1/2*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**3.** Integrate the expression 6x<sup>2</sup> - 2x + 1
-   A) 3x<sup>3</sup> - 2x<sup>2</sup>
- + x + c
-   B) 2x<sup>3</sup> - x<sup>2</sup>
- + x + c
-   C) 2x<sup>3</sup>
- – 3x<sup>2</sup>
- + c
-   D) x<sup>2</sup> + x<sup>2</sup>
- – x + c
-   **Answer: B**
-   *Explanation: 6x<sup>2</sup> - 2x + 1
-
-(6x<sup>(2+1)</sup>)/(2+1)-(2x<sup>(1+1)</sup>)/(1+1)+1x=(6x<sup>3</sup>)/3-(2x<sup>2</sup>)/2+x
-2x<sup>3</sup>−x<sup>2</sup>+x+c*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**4.** Evaluate 1011<sup>2</sup><sub>2</sub>  - 101<sup>2</sup><sub>2</sub>
-   A) 110000<sub>2</sub>
-   B) 110<sub>2</sub>
-   C) 1100000<sub>2</sub>
-   D) 11000<sub>2</sub>
-   **Answer: C**
-   *Explanation: 1011<sup>2</sup><sub>2</sub> - 101<sup>2</sup><sub>2</sub> = (1x2<sup>3</sup> + 0x2<sup>2</sup> + 1x2<sup>1</sup> + 1x2<sup>0</sup>)<sup>2</sup> - (1x2<sup>2</sup> + 0x2<sup>1</sup> + 1x2<sup>2</sup>)2
-(1x8 + 0x4 + 1x2 + 1x1)<sup>2</sup> - (1x4 + 0x2 + 1x1)<sup>2</sup>)
-= (8 + 0 + 2 + 1) <sup>2</sup...*
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**5.** A sum of money was invested at 8% per annum simple interest. If after 4 years, the   money became
-   A) N180
-   B) N 165
-   C) N15
-   D) N 200
+**2.** If line p = 5x + 3 is parallel to line p = wx + 5. Find the value of w.
+   A) 7
+   B) 3
+   C) 6
+   D) 5
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: P = 5x + 3, P = wx + 5
+M1 = 5, M2 = w
+M1 = M2 (parallel lines)
+w = 5*
+   *(Note: Closest available year from ALOC database: 2016)*
 
-**6.** The table above represents the outcome of throwing a die 100 times. What is the probability of obtaining at least a 4?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1725206703/ALOC-Questions/Mathematics/2014/MATH_JAMB_2014_Q41_robr9k.jpg)*
-   A) 1/5
-   B) 1/2
-   C) 2/5
-   D) 3/4
+**3.** Find the derivatives of (2 + 3x)(1 - x) with respect to x
+   A) 6
+   B) -3
+   C) 1-6x
+   D) 6x-1
    **Answer: C**
-   *Explanation: Let E demote the event of obtaining at least a 4
-Then n(E) = 16 + 10 + 14 = 40
-
-Hence, prob (E) = n€/n(S)
-
-
-=40/100
-
-
-= 2/5*
-   *(Note: Closest available year from ALOC database: 2014)*
-
-**7.** Simply {2(2/3)×1(1/2)}/4(4/5)
-   A) 1(1/4)
-   B) 1(1/6)
-   C) 5/6
-   D) 4/5
-   **Answer: C**
-   *Explanation: (2 2/3×1 1/2)/(4 4/5)     8/3 ×3/2 ÷ 24/5
- 
-
-8/3 × 3/2 × 5/24
-
-
-5/6*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** Three teachers shared a packet of chalk. The first teacher got 2/5 of the chalk and the second teacher received 2/15 of the remainder. What fraction the the third teacher receive?
-   A) 8/15
-   B) 11/25
-   C) 12/25
-   D) 13/25
-   **Answer: D**
-   *Explanation: First teacher received 2/5
- ∴Remainder =1−2/5=3/5
-
-2nd teacher received; 2/15 of 3/5 = 2/15 × 3/5 = 2/25
-
-3rd teacher will receive; 1−2/5 – 2/25 = (25−10−2)/15 = 13/25*
+   *Explanation: y = (2 + 3x)(i - x)
+y = 2 - 2x + 3x - 3x<sup>2</sup>
+y = 2 + x - 3x<sup>2</sup>
+dy/dxb = 1 - 6x*
    *(Note: Closest available year from ALOC database: 2004)*
 
-**9.** When the price of egg was raised by N2 an egg, the number of eggs which can be bought for N 120 is reduced by 5. The present price of an egg is
-   A) N 6.
-   B) N 7
-   C) N 8
-   D) N10
-   **Answer: C**
+**4.** Given that Z = {1,2,4,5} what is the power of set Z?
+   A) 16
+   B) 8
+   C) 10
+   D) 12
+   **Answer: A**
+   *Explanation: Z has 4 elements, power = number of subset = 2p
+
+Z = 2<sub>n</sub>  = 2<sub>4</sub> 
+
+= 16*
+
+**5.** Simplify 3/5÷(2/7×4/3÷4/9)
+   A) 4/5
+   B) 7/10
+   C) 6/6
+   D) 21/6
+   **Answer: B**
+   *Explanation: 3/5÷(2/7×4/3÷4/9)=3/5÷(2/7×4/3×9/4)=3/5÷6/7=3/5×7/6=7/10*
    *(Note: Closest available year from ALOC database: 2007)*
+
+**6.** Find the value of p, if the line of which passes through 
+(-1, -p) and (-2, 2) is parallel to the line 2y + 8x – 17
+= 0
+   A) –2/7
+   B) 7/6
+   C) –6/7
+   D) 6/7
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**7.** In a regular polygon, each interior angle doubles its corresponding exterior angle. Find the number of sides of the polygon
+   A) 8
+   B) 6
+   C) 4
+   D) 3
+   **Answer: B**
+   *Explanation: 2x + x = 180°
+
+3x = 180°
+
+x = 60° (exterior angle of the polygon)
+
+angle = total angle/number of sides
+
+
+60 = 360/n
+
+
+n = 360/60
+
+
+n = 6 sides*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**8.** If w varies inversely as (uv)/(u + v) and w = 8 when
+
+u = 2 and v = 6, find a relationship between u, v, w.
+   A) uvw = 16(u + v)
+   B) 16uv = 3w(u + v)
+   C) uvw = 12(u + v)
+   D) 12uvw = u + v
+   **Answer: C**
+   *Explanation: W α (1/uv)/(u + v)
+
+
+∴ w = (k/uv)/(u + v)
+
+
+= k(u+v)/(uv)
+
+
+w = k(u+v)/uv
+
+
+w = 8, u = 2 and v = 6
+
+8 = k(2+6)/2(6)
+
+
+= k(8)/12
+
+
+k = 12
+
+i.e 12 ( u + v) = uwv*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**9.** Evaluate 0.00000231/0.007
+ and leave the answer in standard form
+   A) 3.3 x 10<sup>-4</sup>
+   B) 3.3 x 10<sup>-3</sup>
+   C) 3.3 x 10<sup>-5</sup>
+   D) 3.3 x 10<sup>-8</sup>
+   **Answer: A**
+   *Explanation: 0.00000231/0.007 to standard form
+
+= 231×10<sup>-8</sup>/7×10<sup>-3</sup>
+
+
+= 33 × 10<sup>−8−(−3)</sup>
+
+
+= 33 × 10<sup>−8 + 3</sup>
+
+
+= 33 × 10<sup>-5</sup>
+
+= 3.3 x 10<sup>-4</sup>*
+   *(Note: Closest available year from ALOC database: 2017)*
 
 
 ---

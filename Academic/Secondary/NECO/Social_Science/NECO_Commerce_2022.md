@@ -2,77 +2,85 @@
 
 ## Objectives
 
-**1.** A business organization that exploits the capabilities of a member to remedy the weaknesses of another is a
-   A) joint venture
-   B) partnership
-   C) nominal partnership
-   D) cooperative
+**1.** A broker is an agent who links a potential investor with
+   A) a shareholder who wants to register a company
+   B) Other members of the exchange who want to trade
+   C) government official on the exchange
+   D) a quoted company
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**2.** A firm that adapts itself to delivering the desired satisfaction more effectively and efficiently than its competitors is said to be practicing
-   A) price concept
-   B) distribution concept
-   C) product concept
-   D) marketing concept
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**3.** The arrangement and interrelationship of the various components and positions of a business is referred to as
-   A) organizational structure
-   B) clarity of objective
-   C) unity of direction
-   D) line structure
-   **Answer: A**
    *(Note: Closest available year from ALOC database: 2011)*
 
-**4.** The factors essential for tourism are
-   A) accessibility, capital, amenities and schools
-   B) goods weather, amenities, accessibility and scenery.
-   C) amenities, capital, accessibility and markets
-   D) good weather, capital, schools and scenery.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**5.** Calculate the total liabilities.
-   A) 40,000
-   B) 50,000
-   C) 55,000
-   D) 57,000
-   **Answer: C**
+**2.** The difference between indemnity insurance and non-indemnity insurance is that the latter provides
+   A) cover for exporters against risks
+   B) cover for importers against risks
+   C) full payment to the insured
+   D) consolation payment to the insured
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2013)*
 
-**6.** In international trade, documentary credit is also known as
-   A) credit note
-   B) letters of credit
-   C) bankers' draft
-   D) letter of hypothecation
+**3.** Communication process involves the transmission of a message over a selected channel to the
+   A) receiver
+   B) audience
+   C) sender
+   D) encoder
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**7.** One of the disadvantages of sole proprietorship is
-   A) secrecy of annual reports
-   B) pride of ownership
-   C) limited liability
-   D) unlimited liability.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
+**4.** An ancillary to trade which promotes socio-cultural development all over the world is
+   A) transportation
+   B) communication
+   C) tourism.
+   D) insurance.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2016)*
 
-**8.** The average stock is
-   A) N=2000
-   B) N=3000
-   C) N=5000
-   D) N=6000
+**5.** A crossed cheque with the inscription ‘not negotiable’ must be paid into the
+   A) current account of the drawer
+   B) current account of the payee of the drawer
+   C) savings account of the payee
+   D) fixed account of the payee
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**6.** The exchange of goods for other goods in home trade is known as
+   A) entrepot trade
+   B) home trade
+   C) barter trade
+   D) foreign trade
    **Answer: C**
    *(Note: Closest available year from ALOC database: 1990)*
 
-**9.** An agent who brings a customer into business contact with his principal is known as
-   A) a del credere agent
-   B) an auctioneer
-   C) a factor
-   D) a broker
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
+**7.** Stimulation of demand is a kind of communication in marketing which connotes
+   A) personal selling
+   B) sales promotion
+   C) advertising
+   D) merchandising
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**8.** The final link in the chain of distribution is the
+   A) agent
+   B) consumer
+   C) manufacturer
+   D) retailer
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**9.** The central bank differs from commercial banks  because it
+   A) renders service to customers
+   B) carriers but foreign exchange transactions
+   C) issues currencies
+   D) discounts bills
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**10.** A step-by-step method of carrying out functions in  an office is known as
+   A) procedure
+   B) organizing
+   C) policy
+   D) programme.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2005)*
 
 
 ---

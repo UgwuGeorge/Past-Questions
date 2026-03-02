@@ -2,92 +2,99 @@
 
 ## Objectives
 
-**1.** Public opinion is important because it
-   A) Tells government what action it must take
-   B) Lets government know what the people want
-   C) Allows police to manage crisis
-   D) Mothers the minorities in resource learn areas
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+**1.** The highest grade in the Civil Service is known as the ............
+   A) Technical cadre
+   B) Executive cadre
+   C) Clerical cadre
+   D) Administrative cadre
+   **Answer: D**
+   *Explanation: The Administrative cadre comprises the most senior civil servants who organize and coordinate the activities of the ministries. They execute high-level administrative work, advise ministers in the formulation and implementation of policies and serve as the communication link between the minister and...*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-**2.** In important advantage of creating more constituents in a federal state is to
-   A) Enhance the people’s participation in government
-   B) Enable ambitions politicians gain political power
-   C) Make the states gain more power from the federal government
-   D) curb the excesses of the federal government
+**2.** The central objective of privatization in Nigeria is to
+   A) reduce the retrenchment of workers
+   B) encourage prompt payment of salaries
+   C) improve standard of living
+   D) improve the efficiency of enterprises.
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**3.** The electoral system used in Nigeria is primarily based on __________
+   A) mixed-member proportional
+   B) preferential voting
+   C) first-past-the-post
+   D) proportional representation
+   **Answer: C**
+   *Explanation: The electoral system used in Nigeria is primarily based on the first-past-the-post system. This means that the candidate with the most votes in an election wins, regardless of whether they have a majority of the total votes. This system is used in Nigeria's presidential, gubernatorial, and legislati...*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**4.** Political authority is vested in the_________
+   A) state
+   B) judiciary
+   C) government
+   D) armed forces
+   **Answer: C**
+   *Explanation: Political Authority is the authority conferred on a persons holding political offices, e.g the president, legislators etc. and the president, legislator and others are considered to be the Government
+
+So Political authority is vested in the Government*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**5.** A major issue that distinguishes pressure groups from political parties is
+   A) membership drive
+   B) the objective
+   C) the voting pattern
+   D) idealogy
+   **Answer: B**
+   *Explanation: The objective is a major issue that distinguishes pressure groups from political parties.
+
+Political parties aim at contesting and winning elections and controlling government while pressure groups aim at pursing the interest of their members but do not attempt to control government machinery direct...*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**6.** Which of the following is a limitation of pressure groups?
+   A) They only represent the interests of the wealthy.
+   B) They have no influence on the government policies
+   C) They may prioritize their own interests over the public interest
+   D) They often resort to violent tactics
+   **Answer: C**
+   *Explanation: Pressure groups may prioritize their own interests over the public interest. This is because pressure groups are formed by individuals or organizations with specific interests or objectives. They aim to influence public policy and decision-making in favor of their interests, which may not always ali...*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**7.** Who was the political head of the Old Oyo Empire?
+   A) Bashorun
+   B) Oyomesi
+   C) Aremo
+   D) Alaafin
+   **Answer: D**
+   *Explanation: This position is regarded as sacred and spirit being. So the Alafin is regarded as the spiritual head of the Oyo kingdom.*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**8.** Delegated legislation is suitable for
+   A) relieving the parliament of its workload
+   B) enthroning the rule of law
+   C) ensuring the fusion of powers
+   D) checking the executive arm of government.
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Delegated legislation allows the executive and agencies to make laws under parliamentary supervision.*
+   *(Note: Closest available year from ALOC database: 2018)*
 
-**3.** Rule adjudication is the main function of the
-   A) Executive
-   B) President
-   C) legislature
-   D) judiciary
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 1988)*
-
-**4.** Southern Nigeria was divided into Eastern and Western provinces for administrative purposes in _________
-   A) 1935
-   B) 1937
-   C) 1939
-   D) 1941
+**9.** The method used to determine the possible outcome of an electoral contest is
+   A) press review
+   B) plebiscite
+   C) opinion poll
+   D) referendum
    **Answer: C**
-   *Explanation: In 1939, Southern Nigeria was officially divided into the Eastern and Western Provinces by Governor Bernard Bourdillon for administrative convenience.
+   *Explanation: The method used to determine the possible outcome of an electoral contest is opinion poll.
 
-Before this, Southern Nigeria was administered as a single entity after the 1914 amalgamation of the Northern and Southern Protectorates.
-The divisi...*
-   *(Note: Closest available year from ALOC database: 2020)*
+Opinion poll is the questioning of a number of people chosen by chance to find out general opinion about something or someone. In civilized societies, newspaper columns contain public opinions on government a...*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**5.** Public opinion refers to the
-   A) aggregate of attitudes held by members of the national assembly
-   B) aggregate views of groups on particular government activities
-   C) views held by the president of a country
-   D) views of the Chief Justice of a country.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**6.** The indirect rule system of administration was more successful in Northern Nigeria because
-   A) the people were mainly interested in being governed indirectly
-   B) of the existence of an organized structure in the area
-   C) the Europeans ensured that the farmlands of the natives were not confiscated
-   D) the natives showed little or no resistance.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**7.** Which of the following countries significantly contributed to the formation of ECOMOG?
-   A) Ghana
-   B) Gambia
-   C) Liberia
-   D) Nigeria
-   **Answer: D**
-   *Explanation: Nigeria played a major role in the formation and operations of ECOMOG.*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**8.** The Armed Forces Ruling Council came into existence under the
-   A) Buhari Administration
-   B) Gowon  Administration
-   C) Ironsi Administration
-   D) Babangida Administration
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 1988)*
-
-**9.** The most effective instrument adopted by Nigeria against the East-West Cold War in the 1960s was
-   A) Good neighbourliness
-   B) Africa as the centrepiece
-   C) Anti-apartheid stance
-   D) Non-alignment policy
-   **Answer: D**
-   *Explanation: During the 1960s, Nigeria adopted the non-alignment policy as an effective instrument to navigate the East-West Cold War. This policy meant that Nigeria chose not to align with either the capitalist bloc (led by the United States) or the communist bloc (led by the Soviet Union). Instead, it focused ...*
-   *(Note: Closest available year from ALOC database: 2024)*
-
-**10.** Laws made by state governments are known as
-   A) bye laws
-   B) decrees
-   C) edicts
-   D) acts
-   **Answer: C**
-   *Explanation: Laws made by state governments are known as edicts. It should be noted that edicts are the laws made by the state military governments.*
-   *(Note: Closest available year from ALOC database: 2004)*
+**10.** Indirect legislation can be achieved by
+   A) judicial interpretation and precedent
+   B) passing a private member’s bill
+   C) second read of the law
+   D) the two legislative chambers considering a bill
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 1999)*
 
 
 ---

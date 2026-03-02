@@ -2,113 +2,135 @@
 
 ## Objectives
 
-**1.** Light of wavelength 589 nm in vacuum passes through a piece of fused quartz of index of refraction n = 1.458. What is the frequency of the light in fused quartz? [Speed of light c = 3.00×10⁸ms⁻¹]
-   A) 5.09×10¹⁵Hz
-   B) 5.09×10¹⁴ Hz
-   C) 1.77×10¹⁵ Hz
-   D) 1.77×10¹⁴ Hz
+**1.** Neutrons were discovered by
+   A) Faraday
+   B) Dalton
+   C) James Chadwick
+   D) Rutherford
+   **Answer: C**
+   *Explanation: It was discovered by James Chadwick in 1932.*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**2.** A devise that converts sound energy into electrical energy is
+   A) the horn of a motor car
+   B) An AC generator
+   C) A microphone
+   D) Telephone earpiece
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**3.** Gases conduct electricity under
+   A) high pressure & high voltage
+   B) low pressure & low voltage
+   C) normal pressure & low voltage
+   D) low pressure & high voltage
+   **Answer: D**
+   *Explanation: Gases conduct electricity under low pressure & high voltage*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**4.** The main factor which affects the speed of sound wave is the?
+   A) properties of the medium
+   B) amplitude of the sound wave
+   C) intensity of the sound wave
+   D) loudness of the sound wave
+   **Answer: A**
+   *Explanation: Sound speed depends entirely on the physical properties of the medium through which it travels (elasticity, density, temperature). Amplitude, intensity, and loudness only affect the energy and perceived volume of the sound, not its propagation speed.*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**5.** When a charged ebonite rod is brought near a charged glass rod, there will be
+   A) attraction
+   B) repulsion
+   C) spark
+   D) no force experienced
+   **Answer: A**
+   *Explanation: Ebonite rods are negatively charged, while glass rods are positively charged when rubbed. Opposite charges attract each other, leading to an attractive force between the rods.*
+   *(Note: Closest available year from ALOC database: 2024)*
+
+**6.** The fourth overtone of a closed pipes is 900Hz, its fundamental frequency is
+   A) 50Hz
+   B) 100Hz
+   C) 200Hz
+   D) 400Hz
+   **Answer: B**
+   *Explanation: Solution:
+Understanding closed pipe harmonics:
+In a closed pipe (one end closed, one end open):
+
+Only odd harmonics are present
+Fundamental frequency (f₀) = 1st harmonic
+1st overtone = 3rd harmonic = 3f₀
+2nd overtone = 5th harmonic = 5f₀
+3rd overtone = 7th harmonic = 7f₀
+4th overtone = 9th harmonic ...*
+   *(Note: Closest available year from ALOC database: 2024)*
+
+**7.** The two liquids which are often used in thermometer on experiment basic is known as
+   A) Mercury only
+   B) Alcohol and Water
+   C) Mercury and Alcohol
+   D) Alcohol only
+   **Answer: C**
+   *Explanation: Mercury and alcohol are often used in THERMOMETER
+
+Note:Water is never allowed to be used in thermometer because, it doesn’t expand uniformly*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**8.** A solid cube of aluminum is 1.5cm on each edge. The density of aluminum is 2700kgm⁻³. Find the mass of the cube.
+   A) 7.5g
+   B) 9.1g
+   C) 12.0g
+   D) 15.0g
    **Answer: B**
    *Explanation: Given information:
 
-Wavelength in vacuum, λ₀ = 589 nm = 589 × 10⁻⁹ m
-Refractive index of fused quartz, n = 1.458
-Speed of light in vacuum, c = 3.00 × 10⁸ m/s
-Frequency in fused quartz, f = ?
+Length of each edge, L = 1.5 cm = 0.015 m
+Density of aluminum, ρ = 2700 kg/m³
+Mass, m = ?
 
 Solution:
-Step 1: Key principle
-When light passes from one medium to another:
+Step 1: Calculate volume of the cube
+Volume = L³
+V = (0.015)³
+V = 3.375 × 10⁻⁶ m³
+Step 2: Apply density formula
+Density = Mass/Volume
+ρ = m/V
+m = ρV
+Step 3: Substitute values
+m = ...*
+   *(Note: Closest available year from ALOC database: 2024)*
 
-Frequency remains constant
-Wa...*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**2.** A boy standing some distance from the foot of a tall cliff claps his hands and hears an echo 0.5s later. If the speed of sound is 340ms⁻¹, how far is he from the cliff?
-   A) 680m
-   B) 170m
-   C) 34m
-   D) 85m
+**9.** The energy contained in wire when it is extended by 0.02m by a force 500N is
+   A) 104J
+   B) 103J
+   C) 10J
+   D) 5J
    **Answer: D**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**10.** Calculate the inductance of a coil of resistance 30Ω connected to a 100V a.c source if the coil draws an r.m.s current of 2A
+   A) 0.13 H
+   B) 2.50H
+   C) 1.25H
+   D) 0.04H
+   **Answer: A**
    *Explanation: Given information:
 
-Time for echo = 0.5 s
-Speed of sound (v) = 340 m/s
-Distance to cliff = ?
+Resistance (R) = 30Ω
+Voltage (V) = 100V (r.m.s)
+Current (I) = 2A (r.m.s)
+Inductance (L) = ?
 
-Understanding echo:
-
-Sound travels from boy to cliff and back to boy
-Total distance = 2 × distance to cliff
-Time given is for the round trip
-
-Step 1: Calculate total distance traveled by sound
-Total distanc...*
-   *(Note: Closest available year from ALOC database: 2021)*
-
-**3.** Which of the following is not a consequence of hydrogen bubbles covering the copper plate of a primary cell?
-   A) formation of hydrogen bubbles on the electrode
-   B) increase in the resistance of the cell
-   C) local action
-   D) polarization
-   **Answer: C**
-   *Explanation: If the zinc used in the simple cell is of the impure commercial variety bubbles of hydrogen will be seen coming off the zinc. This is called local action.*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**4.** A machine has a velocity ratio of 5, if it requires a 50kg weight to overcome 200kg weight, the efficiency is?
-   A) 4%
-   B) 5%
-   C) 40%
-   D) 80%
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**5.** The force required to make an object of mass m, travelling with velocity v, turn in a circle of radius r is
-   A) mv²/r
-   B) mr²/v
-   C) mrv
-   D) mv/r²
-   **Answer: A**
-   *Explanation: Understanding circular motion:
-For an object moving in a circle at constant speed, a centripetal force is required to keep it moving in that circular path.
-Centripetal force formula:
-F = mv²/r
-where:
-
-m = mass of the object
-v = velocity (speed) of the object
-r = radius of the circular path
-
-Derivati...*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**6.** The energy needed to move a unit positive charge around a complete electric circuit is called the
-   A) electromotive force
-   B) electric potential difference
-   C) electric energy
-   D) kinetic energy
-   **Answer: A**
-   *Explanation: The energy needed to move a unit positive charge around a complete electric circuit is indeed referred to as Electromotive Force (EMF).*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**7.** A magnetic needle is suspended first at the earth's north magnetic pole and then at a point on the magnetic equator. The respective angles between the needle and the horizontal are
-   A) 0° and 0°
-   B) 60° and 60°
-   C) 90° and 90°
-   D) 90° and 0°
-   **Answer: D**
-   *Explanation: At the Earth's north magnetic pole, the angle is 90° (needle vertical), and at the magnetic equator, the angle is 0° (needle horizontal).*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**8.** Primary colours of light are
-   A) Red, blue and green
-   B) Cyan, magneta and yellow
-   C) Black, blue and green
-   D) None of these colours
-   **Answer: A**
-   *Explanation: Primary colours of light are red, blue and green
-
-Secondary colours of light are cyan, magneta and yellow*
-   *(Note: Closest available year from ALOC database: 2015)*
+Step 1: Calculate impedance (Z)
+Z = V/I = 100/2 = 50Ω
+Step 2: Find inductive reactance (X_L)
+For an R-L series circuit:
+Z² = R² + X_L²
+50² = 30² + X_L²
+2500 = 900 + X_L²
+X_L² = 1600
+X_L =...*
+   *(Note: Closest available year from ALOC database: 2016)*
 
 
 ---

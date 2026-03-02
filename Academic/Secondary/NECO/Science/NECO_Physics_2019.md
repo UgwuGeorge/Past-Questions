@@ -2,142 +2,159 @@
 
 ## Objectives
 
-**1.** The motion of a body is simple harmonic if the?
-   A) acceleration is always directed towards a fixed point
-   B) path of motion is a straight line
-   C) acceleration is proportional to the square of the distance from a fixed point
-   D) acceleration is constant and directed towards a fixed point
-   **Answer: A**
-   *Explanation: In simple harmonic motion, the acceleration of the particle is directed towards its mean position and directly proportional to its displacement.*
-   *(Note: Closest available year from ALOC database: 2021)*
+**1.** A ray of light passes through the centre of curvature of a concave mirror and strikes the mirror. At what angle is the ray reflected?
+   A) 180°
+   B) 90°
+   C) 0°
+   D) 60°
+   **Answer: C**
+   *Explanation: The ray is reflected at 0° because it retraces its path back through the centre of curvature along the same line with no angular deviation.*
 
-**2.** A force of 5N acts at a point Y on a rod XYZ as shown in this diagram. If XYZ is 2m, what is the moment of the force about point X?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1765611795/ALOC-Questions/Physics/2018/2018_Q_50_ru9ogm.jpg)*
-   A) 0 Nm
-   B) 3 Nm
-   C) 7 Nm
-   D) 10 Nm
-   **Answer: A**
-   *Explanation: Given information:
-
-Force (F) = 5 N (acting at point Y)
-Distance XY = 2 m
-Moment about point X = ?
-
-Understanding the diagram:
-
-The force acts along the line of the rod (from the arrow direction)
-The force appears to act along the rod's length
-
-Formula for moment:
-Moment = Force × Perpendicular dist...*
+**2.** Which of the following is true of an electrical charge?
+   A) Positive charge means deficit electrons
+   B) Negative charge means excess of electrons
+   C) electric current means movement of electrons
+   D) All of the above
+   **Answer: D**
+   *Explanation: All three statements correctly describe aspects of electrical charge and current.*
    *(Note: Closest available year from ALOC database: 2018)*
 
-**3.** An object is placed 35 cm away from a convex mirror with a focal length of magnitude 15 cm. What is the location of the image?
-   A) 26.25 cm behind the mirror
-   B) 10.5 cm behind the mirror
-   C) 26.25 cm in front of the mirror
-   D) 10.5 cm in front of the mirror
+**3.** I. Refraction II. Interference III. Diffraction Which of the above properties are common to all waves?
+   A) II and III only
+   B) I, II and III
+   C) I and II only
+   D) I and III only
+   **Answer: B**
+   *Explanation: All three properties, refraction, interference, and diffraction, are fundamental wave phenomena that occur in ALL types of waves, whether mechanical (sound, water) or electromagnetic (light, radio).*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**4.** The lead-acid accumulator consists of
+   A) lead as the positive electrode
+   B) lead acid as the negative electrode
+   C) hydrochloric acid as the electrolyte
+   D) tetraoxosulphate (vi) acid as the electrolyte
+   **Answer: D**
+   *Explanation: The lead-acid accumulator uses tetraoxosulphate (VI) acid (sulfuric acid, H₂SO₄) as the electrolyte.*
+
+**5.** From the diagram above, calculate the energy stored in the capacitor
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1765611037/ALOC-Questions/Physics/2017/2017_Q_28_lvf0sz.jpg)*
+   A) 4.0 × 10⁻²J
+   B) 4.0 × 10⁻⁴J
+   C) 8.0 × 10⁻⁴J
+   D) 8.0 × 10⁻²J
    **Answer: B**
    *Explanation: Given information:
 
-Object distance, u = 35 cm
-Focal length magnitude = 15 cm
-For convex mirror, f = +15 cm (positive by sign convention)
-Image distance, v = ?
+Capacitance (C) = 8µF = 8 × 10⁻⁶ F
+Voltage (V) = 10V
+Energy (E) = ?
+
+Formula for energy stored in a capacitor:
+E = ½CV²
+Substituting values:
+E = ½ × 8 × 10⁻⁶ × (10)²
+E = ½ × 8 × 10⁻⁶ × 100
+E = ½ × 800 × 10⁻⁶
+E = 400 × 10⁻⁶
+E = 4.0 × 10⁻⁴ J*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**6.** The half life of a radioactive material is 12 days. Calculate the decay constant.
+   A) 0.8663 day⁻¹
+   B) 0.04331 day⁻¹
+   C) 0.17325 day⁻¹
+   D) 0.05775 day⁻¹
+   **Answer: D**
+   *Explanation: Given information:
+
+Half-life, t½ = 12 days
+Decay constant, λ = ?
 
 Solution:
-Step 1: Apply sign convention for convex mirror
-For a convex mirror:
-
-Object distance, u = -35 cm (object is in front, negative)
-...*
+Using the relationship between half-life and decay constant:
+λ = ln(2)/t½
+or
+λ = 0.693/t½
+Step 1: Substitute the known values
+λ = 0.693/12
+Step 2: Calculate the decay constant
+λ = 0.05775 day⁻¹*
    *(Note: Closest available year from ALOC database: 2023)*
 
-**4.** The scent from a jar of perfume open move through the air molecules by
-   A) evaporation
-   B) osmosis
-   C) diffusion
-   D) Convection
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**5.** Consider the three forces acting at O and in equilibrium as shown in the figure. Which of the following equations is/are CORRECT?
-I. P₁ cos θ₁ = P₂ cos θ₂
-II. P₃ = P₁ cos θ₁ + P₂ cos θ₂
-III. P₁ sin θ₁ = P₂ sin θ₂
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1765612655/ALOC-Questions/Physics/2020/PHYSICS_2020_Q_23_l9aleb.png)*
-   A) I only
-   B) II only
-   C) III only
-   D) II and III
+**7.** A man of mass 50kg ascends a flight of stairs 5m high in 5 seconds. If acceleration due to gravity is 10ms⁻², the power expended is
+   A) 100W
+   B) 200W
+   C) 400W
+   D) 500W
    **Answer: D**
-   *Explanation: Understanding equilibrium of forces:
-For three forces in equilibrium at point O, the sum of forces in any direction must equal zero.
-Resolving forces:
-Horizontal direction (along P₃):
-P₃ = P₁ cos θ₁ + P₂ cos θ₂
-Vertical direction (perpendicular to P₃):
-P₁ sin θ₁ = P₂ sin θ₂
-(upward component of P₁ b...*
-   *(Note: Closest available year from ALOC database: 2020)*
+   *Explanation: Given information:
 
-**6.** A sample of radioactive substance, whose half-life is 16 days, registers 32 decays per second. How long will it take for the rate of decay to reduce to 2 decays per second?
-   A) 80 days
-   B) 64 days
-   C) 48 days
-   D) 32 days
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+Mass (m) = 50 kg
+Height (h) = 5 m
+Time (t) = 5 seconds
+Acceleration due to gravity (g) = 10 m/s²
+Power (P) = ?
 
-**7.** One of the following readings represents the measurement of the length of a metal rod using vernier callipers. Taking the reading accuracy into consideration, the most likely one is
-   A) 5.16cm
-   B) 5.165cm
-   C) 5.0cm
-   D) 5.160cm
-   **Answer: A**
-   *Explanation: Vernier Calipers Accuracy: Vernier calipers usually measure with an accuracy of 0.01 cm (0.1 mm), allowing for readings with two decimal places to ensure precision.
+Step 1: Calculate work done against gravity
+Work = Force × Distance
+Work = Weight × Height
+Work = mgh
+Work = 50 × 10 × 5
+Work = 2500 J
+Step 2: Calculate power
+Power = W...*
+   *(Note: Closest available year from ALOC database: 2017)*
 
-Hence, 5.16cm*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**8.** When a ball rolls on a  smooth level ground, the motion of its centre is
-   A) translational
-   B) Random
-   C) Oscillatory
-   D) Rotational
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**9.** The mode of heat transfer which does not require material medium is
-   A) conduction
-   B) radiation
-   C) convection
-   D) propagation
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**10.** A car of mass 800kg attains a speed of 25m/s in 20secs. The power developed in the engine is?
-   A) 1.25 × 10⁴W
-   B) 2.50 × 10⁴W
-   C) 1.25 × 10⁶W
-   D) 2.50 × 10⁶W
+**8.** If the fraction of the atoms of a radioactive material left after 120 years is 1/64, what is the half-life of the material?
+   A) 20 years
+   B) 10 years
+   C) 2 years
+   D) 24 years
    **Answer: A**
    *Explanation: Given information:
 
-Mass (m) = 800 kg
-Final velocity (v) = 25 m/s
-Initial velocity (u) = 0 m/s (starts from rest)
-Time (t) = 20 seconds
-Power (P) = ?
+Time elapsed (t) = 120 years
+Fraction remaining = 1/64
+Half-life (T½) = ?
 
-Step 1: Calculate kinetic energy gained
-Change in KE = ½mv² - ½mu²
-ΔKE = ½mv² - 0  (since u = 0)
-ΔKE = ½ × 800 × (25)²
-ΔKE = 400 × 625
-ΔKE = 250,000 ...*
+Understanding radioactive decay:
+After each half-life, half of the material remains.
+Step 1: Determine number of half-lives
+Fraction remaining = (1/2)ⁿ
+where n = number of half-lives
+1/64 = (1/2)ⁿ
+Finding ...*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**9.** A boy standing some distance from the foot of a tall cliff claps his hands and hears an echo 0.5s later. If the speed of sound is 340ms⁻¹, how far is he from the cliff?
+   A) 680m
+   B) 170m
+   C) 34m
+   D) 85m
+   **Answer: D**
+   *Explanation: Given information:
+
+Time for echo = 0.5 s
+Speed of sound (v) = 340 m/s
+Distance to cliff = ?
+
+Understanding echo:
+
+Sound travels from boy to cliff and back to boy
+Total distance = 2 × distance to cliff
+Time given is for the round trip
+
+Step 1: Calculate total distance traveled by sound
+Total distanc...*
    *(Note: Closest available year from ALOC database: 2021)*
+
+**10.** Which of the following  is common to evaporation and boiling, they
+   A) take place at any temperature
+   B) are surface phenomena
+   C) involve change of state
+   D) take place at a definite pressure
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
 
 
 ---

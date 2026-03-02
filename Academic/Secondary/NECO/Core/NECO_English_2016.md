@@ -2,97 +2,105 @@
 
 ## Objectives
 
-**1.** There are still [virtuous] women in our society today
-   A) devilish
-   B) clever
-   C) intelligent
-   D) upright
-   **Answer: D**
-   *Explanation: Upright is correct answer. Virtuous means having and demonstrating high level of moral standards or ethics, which is the same as being upright,*
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**2.** Many workers were............ as a result of the textile closure
-   A) laid down
-   B) laid off
-   C) laid out
-   D) laid up
+**1.** Tsadu always cautions that difficult jobs should be done
+   A) step from step
+   B) step by step
+   C) steps after steps
+   D) steps by steps
    **Answer: B**
-   *Explanation: If workers are laid off, they are told by their employers to leave their job, usually because there is no more work for them to do.
+   *(Note: Closest available year from ALOC database: 2005)*
 
-Many workers were laid off as a result of the textile closure*
+**2.** According to the novel, Obu was good at
+   A) Proverbs
+   B) Cricket
+   C) Games
+   D) Jokes
+   **Answer: A**
+   *Explanation: See page 171*
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**3.** The man is refurbishing the flat with a view to ……. it.
+   A) sell
+   B) selling
+   C) have sold
+   D) be selling
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**4.** The full meaning of IPO is ______
+   A) Independent Police Officer
+   B) International Police Officer
+   C) Investigating Police Officer
+   D) Investigative Police Officer
+   **Answer: C**
+   *Explanation: See page 25*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**5.** Many countries no longer have _______ punishment as the penalty for murder
+   A) mortal
+   B) corporal
+   C) capital
+   D) fatal
+   **Answer: C**
+   *Explanation: Capital punishment is also called 'death penalty', therefore in this context option C is the appropriate answer.s*
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**6.** Based on the facts before me, I have no alternative...........to hold you responsible
+   A) only
+   B) as
+   C) than
+   D) but
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**7.** Hardworking students must not have a finger in every pie at school.
+   A) Hardworking students must not have a role to play in most activities in the school
+   B) Only hardworking students must participate in all activities in the school
+   C) Hardworking students do not participate in all activities in the school
+   D) Hardworking students must ask others to participate in school activities
+   **Answer: A**
+   *Explanation: Someone who has a finger in every pie is involved in a lot of different activities or knows about a lot of different things.*
    *(Note: Closest available year from ALOC database: 2012)*
 
-**3.** He travelled ONLY 20 kilometres before his car stopped?
-   A) Did he travel only 20 kilometres after his car stopped?
-   B) Did he travel exactly 20 kilometres before his car stopped?
-   C) Did you walk only 20 kilometres before the vehicle stopped?
-   D) Did he travel more than 20 kilometres before his car stopped?
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**4.** Your performance will improve if you…….  Hard
-   A) are practicing
-   B) practical
-   C) would practice
-   D) practise
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**5.** A suitable title for this passage is
-   A) Species of snakes in Nigeria and Other lands
-   B) Feeding Habits of Snakes
-   C) Some Characteristics of Snakes
-   D) Snakes as legless, Cold-blooded reptiles
+**8.** Pick out the option with a different rhyme
+   A) Roar
+   B) Four
+   C) Growl
+   D) Bore
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2014)*
+   *Explanation: Only Growl has a different rhyme*
+   *(Note: Closest available year from ALOC database: 2022)*
 
-**6.** Conspiracy.
-   A) CONspiracy.
-   B) conspiRAcy.
-   C) conspiraCY
-   D) conSPIracy.
+**9.** Choose the option to which the given sentence relates
+
+My Boss has an amiable DISPOSITION
+   A) Does your boss have an amiable disposition
+   B) Does my boss have an unfriendly disposition
+   C) Does my colleague have an amiable disposition?
+   D) Does my boss have an amiable complexion?
    **Answer: D**
-   *Explanation: conspiracy; /kənˈspɪrəsi/*
-   *(Note: Closest available year from ALOC database: 2014)*
-
-**7.** Okonkwo's <u>lethal</u> right foot the magic in the football match?
-   A) weak
-   B) wicked
-   C) fat
-   D) harmless
-   **Answer: D**
-   *Explanation: Lethal; (in a sporting context) means very accurate or skillful. lethal is defined as 'very dangerous and able to kill you' The opposite in meaning is option D ''harmless''*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**8.** Government should invest more in …...   training.
-   A) teacher's
-   B) teacher
-   C) teachers
-   D) teachers
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**9.** Choose the best option that best completes the gap(s)
-
-Garba acquiesced______their decision
-   A) for
-   B) on
-   C) in
-   D) by
-   **Answer: C**
-   *Explanation: The preposition 'in' is used with the verb 'Acquiesce'*
+   *Explanation: Still going by the rule when answering questions on emphatic stress, the option that doesn't have the emphasized word. In this case 'DISPOSITION' is the emphasized word on the only option without it is option D*
    *(Note: Closest available year from ALOC database: 2017)*
 
-**10.** The pastor asked the women to _________ their hearts to God in prayers.
-   A) Bare
-   B) Bear
-   C) Bar
-   D) Barrr
-   **Answer: A**
-   *Explanation: To bare one’s mind means to reveal or uncover all that is in it.
+**10.** Choose the most appropriate stress pattern from the options below
 
-  Note the spelling.*
-   *(Note: Closest available year from ALOC database: 2018)*
+palatable
+   A) PAL—a—ta—ble
+   B) pal—A—ta—ble
+   C) pal—a—TA—ble
+   D) pal—a—ta—BLE
+   **Answer: A**
+   *Explanation: Some words are made up of a root  and a suffix:
+
+dangerous   =    root –> danger  +  ous –<  suffix
+commercial   =    root –> commerc(e)  + al –<  suffix
+
+In some words with suffixes, the stress stays on the same syllable as in the root. Compare:
+
+‘danger and: ‘dangerous
+
+In other words, the suffix ...*
+   *(Note: Closest available year from ALOC database: 2017)*
 
 
 ---

@@ -2,89 +2,86 @@
 
 ## Objectives
 
-**1.** In our college, the regulations concerning resists are a grey area
-   A) The regulations have just been revised
-   B) The regulations have often been ignored
-   C) The regulations are perfectly clear
-   D) The regulations are not very clear.
+**1.** Adawo is an imp?
+   A) Adawo behaves queerly
+   B) Adawo behaves decently
+   C) Adawo behaves differently
+   D) Adawo behaves badly
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**2.** One of the women who .... in the premises.... been  ordered to quit
-   A) sells/have
-   B) sell/has
-   C) sell/have
-   D) sells/has
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**3.** The train ………. before I arrived
-   A) was leaving
-   B) has left
-   C) had left
-   D) would leave
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**4.** In question number 8 above, choose the best option from the letters A-D that best completes the gap.
-   A) experiment
-   B) data
-   C) conclusion
-   D) questionaires
-   **Answer: A**
    *(Note: Closest available year from ALOC database: 2001)*
 
-**5.** I do not trust him', he said, in a rare moment of <u>candour</u>?
-   A) reproach
-   B) dishonesty
-   C) frankness
-   D) fairness
-   **Answer: B**
-   *Explanation: Candour; the quality of being open and honest; frankness*
+**2.** Ada gave her husband a look that made words  <i>superfluous</i>
+   A) redundant
+   B) spurious
+   C) unnecessary
+   D) scanty.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**6.** There has been a <i>downturn</i> in the affairs of the company.
-   A) a massive increase
-   B) little progress
-   C) a turn-around
-   D) a decline
+**3.** The party supporters <i>vilified</i> the Chairman for the role he played in the crisis that rocked the party
+   A) impeached
+   B) condemned
+   C) challenged
+   D) elected
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**4.** The pastor asked the women to _________ their hearts to God in prayers.
+   A) Bare
+   B) Bear
+   C) Bar
+   D) Barrr
+   **Answer: A**
+   *Explanation: To bare one’s mind means to reveal or uncover all that is in it.
+
+  Note the spelling.*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**5.** Mr Bello is a/an _______ by profession in the novel?
+   A) accountant
+   B) engineer
+   C) nurse
+   D) journalist
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Mr Bello is a Journalist. 
 
-**7.** In question number 21 above, choose the best option from letters A - D that best completes the gap.
-   A) popularity
-   B) energy
-   C) ingenuity
-   D) incapability
+See page 1, Paragraph 5.*
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**6.** The country is holding its first free elections for five years.
+   A) The last time the country held free electors  was five years ago.
+   B) The first free elections in the  country have now taken five years to conduct.
+   C) The country held elections five years ago but they were not free.
+   D) There were elections in the country five years ago.
    **Answer: C**
-   *Explanation: Ingenuity; the quality of being clever, original, and inventive.*
+   *(Note: Closest available year from ALOC database: 2007)*
 
-**8.** choose the option opposite in meaning to the word or phrase in italics
+**7.** She only gives a <u>superficial</u> impression of warmth and friendliness?
+   A) a strong
+   B) a fake
+   C) deep
+   D) an unrealistic
+   **Answer: C**
+   *Explanation: superficial; Fake or artificial. existing or occurring at or on the surface.
 
-They come here on bootless <i>errand</i>
-   A) worthwhile
-   B) vain
-   C) delusive
-   D) intended
+Deep; very intense or extreme.  extending far down from the top or surface.*
+
+**8.** His gift to the poor was always <u>infinitesimal</u>
+   A) large
+   B) small
+   C) supportive
+   D) shameful
    **Answer: A**
-   *Explanation: The word bootless means ineffectual, useless of a task or undertaking, while the answer worthwhile means worth the time, effort spent
-Bootless explains that the errand was useless while worthwhile explains it was the effort, which is also synonymous to the word useful*
-   *(Note: Closest available year from ALOC database: 2017)*
+   *Explanation: Infinitesimal; extremely small.*
+   *(Note: Closest available year from ALOC database: 2012)*
 
-**9.** Democracy
-   A) DEmocracy
-   B) deMOcracy
-   C) demoCRAcy
-   D) democraCY
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2021)*
-
-**10.** The writer says 'the firearms figure are rising' because
-   A) more teenagers are now getting killed by firearms than by motor vehicle accidents
-   B) firearms now have figures that are terribly high
-   C) more teenagers now carry firearm than used to be the case
-   D) more teenagers are now getting killed by firearm than used to be the case
+**9.** There was a general  <i>acquiescence</i>  on the new drug law
+   A) resistance
+   B) discrepancy
+   C) compromise
+   D) agreement
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2000)*
+   *(Note: Closest available year from ALOC database: 2010)*
 
 
 ---

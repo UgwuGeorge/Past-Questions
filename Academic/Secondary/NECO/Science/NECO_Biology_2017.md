@@ -10,31 +10,21 @@
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**2.** The main function of the caudal fin in tilapia  is to
-   A) propel it forward in water
-   B) seer it while changing directions
-   C) balance it in eater
-   D) enable it to float in water
+**2.** Zone  © (mm)
+I 45 300
+II 32 2000
+III 30 2200
+IV 15 800
+
+Which of the zones is likely to be a desert
+   A) I
+   B) II
+   C) III
+   D) IV
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *(Note: Closest available year from ALOC database: 2004)*
 
-**3.** Circulation of blood to all parts of the body except the lungs is through
-   A) the pulmonary artery
-   B) systemic circulation
-   C) the lymphatic system
-   D) pulmonary circulation
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**4.** The water cycle is maintained mainly by
-   A) evaporation  of water in the environment
-   B) evaporation and condensation of water  in the environment
-   C) condensation of water in the environment
-   D) transpiration and respiration in plants
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**5.** An example of a adially symmetrical organism is
+**3.** An example of a adially symmetrical organism is
    A) planaria
    B) Hydra
    C) tapeworm
@@ -42,37 +32,61 @@
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2005)*
 
-**6.** Grasses recover quickly from bush fires in the savanna  because of their
-   A) succulent stems
-   B) rapid growth
-   C) fibrous roots
-   D) perennating organs
+**4.** The pioneer organism in ecological  succession are usually the
+   A) mosses
+   B) lichens
+   C) ferns
+   D) Algae
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**7.** The association between bacteria residing I the caecum and the ruminant is
-   A) parasitism
-   B) predation
-   C) saprophytism
-   D) mutalism
+**5.** The cell component that is present in a prokaryotic cell is the
+   A) chloroplast
+   B) ribosome
+   C) mitochondrion
+   D) nuclear envelope
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**6.** If the cross of a red  flowered plant with a white flowered plant produces a pink flowered plant, it is an example of
+   A) incomplete dominance
+   B) mutation
+   C) linkage
+   D) co dominance
    **Answer: D**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**7.** Which of the following is true of the transverse section of a dicot stem?
+   A) The epidermis is completely encircled by the cortex
+   B) The xylem is more interiorly located than the phloem
+   C) The cambium lies between the cortex and the vascular bundles
+   D) The vascular bundles are randomly scattered within the  cortex
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**8.** During the dry season in the tropics, the body metabolism of some animals slows to a minimal level in a process referred to as
+   A) hibernation
+   B) aestivation
+   C) dormancy
+   D) sense scense
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2009)*
 
-**8.** A boy who is fond of swimming in a pond finds himself passing urine with traces of blood. He is likely to have contracted
-   A) Schistosomiasis
-   B) onchoerciasis
-   C) poliomyelitis
-   D) salmonellosis
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
+**9.** An organ  that has been extensively used to test the chromosome theory of heredity is
+   A) Drosophila   melanogaster
+   B) Muscat domestic
+   C) Zea mays
+   D) homo sapiens
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**9.** One basic similarly between nervous and endocrine system is that both
-   A) produce precise and short –lived  effects
-   B) Involve the use of chemical substances
-   C) transmit very fast impulses
-   D) produce widespread effects.
+**10.** The presence of stilt roots, pneumatophores, sunken stomata and salt glands are adaptive features of plants found in the
+   A) tropical rainforest
+   B) mangrove swamps
+   C) grassland
+   D) montane forest
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *(Note: Closest available year from ALOC database: 2012)*
 
 
 ---

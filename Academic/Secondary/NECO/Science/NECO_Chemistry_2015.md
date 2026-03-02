@@ -2,85 +2,85 @@
 
 ## Objectives
 
-**1.** A chemical reaction is always associated with
-   A) An increase in the composition of one of the substances
-   B) A change in the volume of the reactants
-   C) A change in the nature of the reactants
-   D) The formation of new substances
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**2.** The ores that can be concentrated by flotation are
-   A) Nitride ores
-   B) Chloride ores
-   C) Oxide ores
-   D) Sulphide ores
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**3.** In the purification of impure samples of ethyl ethanoate synthesized by esterification, concentrated sodium trioxocarbonate(IV) solution is used to remove
-   A) Water
-   B) Acidic impurities
-   C) Basic impurities
-   D) Ethoxyethane
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**4.** A characteristic of the alkane family is
-   A) Addition reaction
-   B) Elimination reaction
-   C) Substitution reaction
-   D) Neutralization reaction
+**1.** A dense white fume is formed when ammonia gas reacts with
+   A) H2(g)
+   B) O2(g)
+   C) HCI(g)
+   D) Cl2(g)
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**5.** When a solid substance disappears completely as a gas on heating, the substance is said to have under gone
-   A) Evaporation
-   B) Distillation
-   C) Crystallization
-   D) Sublimation
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**6.** The commonest feature of the reactions at the anode is that
-   A) Electrons are consumed
-   B) Oxidation is involved
-   C) Ions are reduced
-   D) Electrode dissolves
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**7.** The pair of organic compounds that are isomers is
-   A) Benzene and methylbenzene
-   B) Trichloromethane and Tetrachloromethane
-   C) Ethanol and propanone
-   D) But-1-ene and but-2-ene
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**8.** The idea of planetary electrons was that of
-   A) Bohr
-   B) Thompson
-   C) Rutherford
-   D) Dalton
+**2.** Treatment of cancer   II. Detection of leakages in water mains   III. Detection of the ages of ancient tools    Which combination of the above refers to the uses of radioactive isotopes?
+   A) I, II and III
+   B) I, II, III and IV
+   C) II and III
+   D) I and II
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**9.** Which of the following is an electrolyte
-   A) Alcohol
-   B) Sodium acetate solution
-   C) Solid potassium hydroxide
-   D) Mercury
+**3.** The modern process of manufacturing steel from iron is by
+   A) Treatment with acids
+   B) Oxidation
+   C) Blast reduction
+   D) Treatment with alkalis
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**4.** Which of the following is found in cotton
+   A) Starch
+   B) Cellulose
+   C) fat
+   D) oil
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**10.** Aluminium hydroxide is used in the dyeing industry as a
-   A) Salt
-   B) Dye
-   C) Mordant
-   D) Dispersant
+**5.** When sulphur (IV) oxide is passed into a solution of sodium hydroxide for a long time. It eventually produces a solution of
+   A) Na2SO4
+   B) NaHSO4
+   C) Na2SO3
+   D) NaHSO3
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**6.** Phenolphthalein in acidic solution is
+   A) Colourless
+   B) Yellow
+   C) Red
+   D) Orange
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**7.** How many moles of limestone will be required to produce 5.6g of CaO
+   A) 0.20 mol
+   B) 1, 12mol
+   C) 0.10 mol
+   D) 0.56 mol
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**8.** The most suitable metal that can be used as a lightening  conductor is
+   A) Aluminium
+   B) Iron
+   C) Copper
+   D) Silver
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**9.** The air around smelting industries is likely to contain
+   A) CO2, SO3 and H2
+   B) SO2N2 and CO2
+   C) H2, SO2 and CO2
+   D) H2S, CO and N2
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**10.** Natural water collected from rivers and ponds contains oxygen, carbon(IV) oxide and
+   A) Chlorine
+   B) Hydrogen
+   C) Sulphur(IV) oxide
+   D) Nitrogen
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2005)*
 
 
 ---

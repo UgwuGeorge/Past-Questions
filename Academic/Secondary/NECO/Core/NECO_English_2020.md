@@ -2,90 +2,90 @@
 
 ## Objectives
 
-**1.** Okon's company took a hit last year?
-   A) His company improved last year
-   B) His company made a huge success last year
-   C) His company was badly damaged last year
-   D) His company was established last year
-   **Answer: C**
-   *Explanation: To suffer heavy losses or be badly affected (by something).*
-   *(Note: Closest available year from ALOC database: 2011)*
+**1.** My UNCLE retired from the police?
+   A) Did your brother resign from the police?
+   B) Did your sister resign from the police?
+   C) Did your uncle retire from the army
+   D) Did your brother retire from the police?
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2002)*
 
-**2.** suggestible?
-   A) suggeSTIble
-   B) Suggestible
-   C) suGGEstible
-   D) suggestiBLE
-   **Answer: C**
-   *Explanation: su-gge-STi-ble*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**3.** The girl says she is averse.....what others admire
-   A) to
-   B) with
-   C) for
-   D) from
+**2.** He shared his room with a person whose behaviour was quite <i>nauseating</i>
+   A) disgusting
+   B) disrespectful
+   C) disagraceful
+   D) discouraging
    **Answer: A**
-   *Explanation: 'To'' as an adverb is used here to connect the relationship the speaker and the subject*
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**4.** Choose the most appropriate option for the gap labelled [....12.....] above
-   A) stage
-   B) circle
-   C) track
-   D) ring
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**5.** The exotic bird looked <u>resplendent</u>; its bright plumage contrasted with the rather _________ undergrowth
-   A) immobile
-   B) foreign
-   C) bright
-   D) drab
-   **Answer: D**
-   *Explanation: Resplendent simply means shiny and colourful as opposed to Drab which means 'dull'*
-
-**6.** It was a free-for-all and the students were blamed for taking the law
-   A) in their own hands
-   B) into their own hands
-   C) into their hands
-   D) in their hands.
-   **Answer: B**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**7.** The weather was still very  <i>heavy and sultry </i>
-   A) wintry and shadowy
-   B) cold and friendly
-   C) cloudy and thundery
-   D) hot and uncomfortable
+**3.** H<u>ea</u>d
+   A) bead
+   B) red
+   C) rear
+   D) stir
+   E) heel
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-**8.** As debutants in that tournament, the Super Eagles were up against their first opponents by three goals to nil
-   A) The Super Eagles were playing in the tournament for the first time, but they won their match by three goals to nothing
-   B) Though the Super Eagles were rated as the weakest side in the tournament they won their first match by three goals to nil
-   C) Even though the Super Eagles were playing without some of their regulars, they won their match by three goals to nil.
-   D) As the best attackers in the match. the Super Eagles easily defeated their opponents by three goals to nothing.
+**4.** In question number 12 above choose the best option from letters A- E that best complete the gap
+   A) larger
+   B) enormous
+   C) thicker
+   D) older
+   E) wiser
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *Explanation: During the egg- laying period, the queen bee's abdomen is greatly elongated, thus, she appears larger than the drones and workers.*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-**9.** In our last play, Segun acted the <i>hero</i>
-   A) villain
-   B) devil
-   C) criminal
-   D) assassin
+**5.** It was our collective idea but Ado was doing every­ thing to steal the snow
+   A) Ado was not part of the planning but he tried to rub us of the benefits of it.
+   B) We planned the show together out Ado was trying to abort it.
+   C) It was a joint project but Ado is trying to attract the most attention
+   D) We collated the idea for the show but Ado was trying to steal the programme.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**6.** 
+   A) impound
+   B) canoe
+   C) subject(verb)
+   D) knowledge
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**7.** definite limitation used to describe the human body in the passage means that
+   A) the body cannot be made to work continuously like a machine
+   B) the body should only perform simple tasks
+   C) body parts must be limited
+   D) the body is equal to man-made machines.
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: Definite limitation' is used to emphasize the body's limited energy to work.*
+   *(Note: Closest available year from ALOC database: 2021)*
 
-**10.** The writer advocates for multiple sources of university funding in order to ______
-   A) enhance university autonomy
-   B) reduce dependence on the government
-   C) ensure that the numerous needs of the universities are met
-   D) maintain acceptable levels of infrastructural development
+**8.** The noise of the fan <i>unnerved</i>  the star player.
+   A) refreshed
+   B) confused
+   C) helped
+   D) calmed
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**9.** Oche entered the principal's office in a rather <u>abrasive</u> manner.
+   A) gentle
+   B) rude
+   C) lackadaisical
+   D) indifferent
    **Answer: A**
-   *Explanation: In the passage, Paragraph 1 tells us the writer considers it desirable that effort be made to reduce the government contributions in the interest of University autonomy even if the government was in a position to meet all of the university's financial requirements.
+   *Explanation: Abrasive; showing little concern for the feelings of others; harsh.*
+   *(Note: Closest available year from ALOC database: 2012)*
 
-Option A is the correct answer.*
+**10.** The stadium was <i>seething</i> with people when we entered
+   A) filled
+   B) crowded
+   C) empty
+   D) noisy.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2007)*
 
 
 ---

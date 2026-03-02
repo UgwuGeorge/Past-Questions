@@ -2,86 +2,85 @@
 
 ## Objectives
 
-**1.** The oily substance that lubricates the mammalian hair to keep it flexible ad water repellent is secreted by the
-   A) sweat glands
-   B) sebaceous glands
-   C) fatty  cells
-   D) granular layer
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**2.** A function of the hydrochloric acid produced in the human stomach during digestion is to
-   A) neutralize the effect of bile
-   B) coagulate milk protein and emulsify fats
-   C) stop the action of ptyalin
-   D) break up food into smaller particles
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**3.** The barrier between maternal and foetal blood is the
-   A) placenta
-   B) liver
-   C) umbilical chord
-   D) uterine wall
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**4.** The easiest way to establish  the level of pollution in a local stream is to measure the level of
-   A) oxygen
-   B) carbon(IV) oxide
-   C) ammonia
-   D) alkalinity
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**5.** From his study of Galapagos finches, Darwin derived his theory of evolution from
-   A) comparative anatomy
-   B) comparative physiology
-   C) fossil remains
-   D) comparative embryology.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**6.** I. Test tube containing cane sugar and water  II. Test tube containing cane sugar and dilute acid  III Test tube containing cane sugar and its degrading enzyme 
-In which of the test tubes will glucose be detected after complete hydrolysis?
-   A) II and III only
-   B) I only
-   C) I, II and III
-   D) I and II only
+**1.** Seed plants are divided into
+   A) angiosperms and gymnosperms
+   B) monocotyledons and dicotyledons
+   C) thallophyes and pbryophytes
+   D) Tracheophytes and ferns
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2011)*
 
-**7.** The mammalian lung is made air light by the
-   A) pleural cavity
-   B) mucous membrane
-   C) pleural membrane
-   D) diaphragm
+**2.** In plants, the structures that play roles similar to the arteries and veins of animals are the
+   A) xylem and phloem
+   B) root hairs and xylem
+   C) lenticels and phloem
+   D) roots and stems
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**8.** In mammals, the exchange of nutrients and metabolic products occurs in the
-   A) oesophagus
-   B) trachea
-   C) lymph
-   D) lungs
+**3.** A woman with the ability to roll her tongue (Tt) marries a man who cannot roll his tongue  (tt). What is the probability of each of their children being a tongue roller?
+   A) 100%
+   B) 75%
+   C) 50%
+   D) 25%
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**9.** A plant like feature I Euglena is the
-   A) Pellicle
-   B) pigment sport
-   C) large vacuole
-   D) gullet
+**4.** Which of the following  is involved1 in secondary  thickening in plants?
+   A) collenchyma  and  xylem cells
+   B) Vascular cambium and collenchyma’s cells
+   C) vascular cambium and cork cambium
+   D) Cork cambium and sclerenchyma
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**5.** In a bean seed, absorption of water at the beginning  of germination is through the
+   A) hilum
+   B) micropyle
+   C) testa
+   D) plumule
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**10.** An example of an endospermous seed is
-   A) cashew  nut
-   B) cottons seed
-   C) bean seed
-   D) maize grain
+**6.** The vascular tissues in higher plants are responsible for
+   A) suction pressure
+   B) transpiration pull
+   C) the transport of gases and water
+   D) the movement of food and water
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2011)*
+
+**7.** What is the level of organization  of an onion bulb?
+   A) tissue
+   B) organ
+   C) systemic
+   D) organism
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**8.** The basking of Agama lizards in the sun is to
+   A) chance the colour of their body
+   B) raise their body temperature to become active
+   C) fight to defend their territories
+   D) attract the female for courtship
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**9.** A marine protozoan is likely to have no contractile acuole  mainly because the cytoplasm is
+   A) isotonic to sea water
+   B) hypotonic to sea water
+   C) hypertonic to sea water
+   D) impervious to seas water
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**10.** If the pair of alleles for baidness is given as Bb, a female carrier will be denoted by
+   A) XbY
+   B) XBXB
+   C) XBY
+   D) XBXb
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
 
 
 ---

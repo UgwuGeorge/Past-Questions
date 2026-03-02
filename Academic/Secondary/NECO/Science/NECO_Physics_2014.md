@@ -2,75 +2,134 @@
 
 ## Objectives
 
-**1.** A man stands 4m in front of a plane mirror. If the mirror is moved 1m towards the man, the distance between him and his new image is?
-   A) 3m
-   B) 5m
-   C) 6m
-   D) 10m
-   **Answer: C**
-   *Explanation: Objects distance (u) = image distance (v)
-
-object distance = 3m
-
-|uv| = 3 + 3 = 6m*
-   *(Note: Closest available year from ALOC database: 2021)*
-
-**2.** If a source of solid is moving, a stationary listener will hear a sound of different frequency. This is called?
-   A) doppler effect
-   B) resonance
-   C) ultra sound
-   D) rarefaction
-   **Answer: A**
-   *Explanation: The Doppler effect or Doppler shift is the change in frequency of a wave in relation to an observer who is moving relative to the wave source.
-
-The drop in pitch of ambulance sirens as they pass by and the shift in red light are common examples of the Doppler Effect.*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**3.** When two mirrors are placed at an angle of 90º to each other, how many images will be formed when an object is placed in front of the mirrors
-   A) 5
-   B) 4
-   C) 3
-   D) 2
-   **Answer: C**
-   *Explanation: When two plane mirrors are placed at an angle, multiple images are formed due to repeated reflections. The number of images depends on the angle between the mirrors. At 90°, three images are formed.*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**4.** The mode of heat transfer which does not require material medium is
-   A) conduction
-   B) radiation
-   C) convection
-   D) propagation
+**1.** The  term “Viscosity” is used to describe
+   A) surface tension in fluids
+   B) friction in fluids
+   C) surface tension in solids
+   D) moment in solids
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**5.** An explosion occurs at an altitude of 312 m above the ground. If the air temperature is -10.00°C, how long does it take the sound to reach the ground? [velocity of sound at 0°C = 331 ms⁻¹]
-   A) 0.94s
-   B) 0.96s
-   C) 0.93s
-   D) 0.95s
+**2.** A sonometer's fundamental note is 50Hz, what is the new frequency when the tension is four times the original?
+   A) 25Hz
+   B) 100Hz
+   C) 200Hz
+   D) 250Hz
    **Answer: B**
    *Explanation: Given information:
 
-Height (distance), d = 312 m
-Air temperature, T = -10.00°C
-Velocity of sound at 0°C, v₀ = 331 m/s
-Time, t = ?
+Initial frequency, f₁ = 50 Hz
+New tension, T₂ = 4T₁
+New frequency, f₂ = ?
 
 Solution:
-Step 1: Calculate velocity of sound at -10°C
-The velocity of sound in air varies with temperature:
-v = v₀ + 0.6T
-Where T is in degrees Celsius.
-v = 331 + 0.6(-...*
+Step 1: Recall frequency formula for a sonometer
+For a vibrating string:
+f = (1/2L)√(T/μ)
+Where:
+
+L = length of string
+T = tension
+μ = mass per unit length
+
+Step 2: Establish relationship between...*
+   *(Note: Closest available year from ALOC database: 2024)*
+
+**3.** Under which conditions is work done
+   A) A man supports a heavy load on his head with hands.
+   B) A woman holds a pot of water
+   C) A boy climbs onto a table
+   D) A man pushes against a stationary petrol tanker
+   **Answer: C**
+   *Explanation: Work is only done when there is both force and displacement in the direction of the force. Only in option C does the boy move (upward displacement) while applying force against gravity, thus doing work. In all other options, despite forces being applied, there is no displacement, so no work is done.*
+   *(Note: Closest available year from ALOC database: 2024)*
+
+**4.** A magnet relay is a device used for?
+   A) reading the magnitude of magnetic flux
+   B) controlling another circuit carrying larger current
+   C) turning in sports
+   D) storing magnetic field
+   **Answer: B**
+   *Explanation: Relays are electrically operated switches that open and close the circuits by receiving electrical signals from outside sources.*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**5.** Under what conditions are cathode rays produced in a discharge tube?
+   A) High pressure and low voltage
+   B) High pressure and high voltage
+   C) Low pressure and low voltage
+   D) Low pressure and high volatge
+   **Answer: D**
+   *Explanation: Cathode rays are produced in a discharge tube under Low pressure and high voltage*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**6.** Shadows and eclipses result from the
+   A) refraction of light
+   B) reflection of light
+   C) defraction of light
+   D) rectilinear propagation of light
+   **Answer: D**
+   *Explanation: Shadows and eclipses result from the rectilinear propagation of light (light traveling in straight lines).*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**7.** Light of wavelength 589 nm in vacuum passes through a piece of fused quartz of index of refraction n = 1.458. What is the frequency of the light in fused quartz? [Speed of light c = 3.00×10⁸ms⁻¹]
+   A) 5.09×10¹⁵Hz
+   B) 5.09×10¹⁴ Hz
+   C) 1.77×10¹⁵ Hz
+   D) 1.77×10¹⁴ Hz
+   **Answer: B**
+   *Explanation: Given information:
+
+Wavelength in vacuum, λ₀ = 589 nm = 589 × 10⁻⁹ m
+Refractive index of fused quartz, n = 1.458
+Speed of light in vacuum, c = 3.00 × 10⁸ m/s
+Frequency in fused quartz, f = ?
+
+Solution:
+Step 1: Key principle
+When light passes from one medium to another:
+
+Frequency remains constant
+Wa...*
    *(Note: Closest available year from ALOC database: 2023)*
 
-**6.** The resistance of a 5m uniform wire of cross sectional area of 0.2 x 106m2 is 0.45. What is the resistivity of the material of the wire
-   A) 1.10 x 105 ohms
-   B) 4.25 x106Ωm
-   C) 2.40 x 107Ωm
-   D) 1.70 x 108Ωm
+**8.** Which of the following radiations cannot be deflected by an electric field or
+   A) (i) and (ii) only
+   B) (ii) only
+   C) (iii) and (iv) only
+   D) (i) and (iii) only
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**9.** An object 40 cm high is 30cm from the pin hole camera. If the height of the image formed is 20 cm. What is the distance of the image from the pin height?
+   A) 15 cm
+   B) 70 cm
+   C) 40 cm
+   D) 60 cm
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Given information:
+
+Height of object (h_o) = 40 cm
+Object distance from pinhole (u) = 30 cm
+Height of image (h_i) = 20 cm
+Image distance from pinhole (v) = ?
+
+Principle of pinhole camera:
+Similar triangles are formed, so:
+h_i/h_o = v/u
+Rearranging to find v:
+v = (h_i/h_o) × u
+Substituting values:
+v ...*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**10.** Which of the following is a scalar quantity?
+   A) Tension
+   B) Weight
+   C) Impulse
+   D) Mass
+   **Answer: D**
+   *Explanation: Mass is a scalar quantity because it has magnitude only and no direction.*
+   *(Note: Closest available year from ALOC database: 2017)*
 
 
 ---

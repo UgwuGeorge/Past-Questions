@@ -2,77 +2,87 @@
 
 ## Objectives
 
-**1.** The most densely populated city which is also the capital of a county in Africa is
-   A) Cairo
-   B) Dakar
-   C) Cape town
-   D) Abuja
-   E) Lagos
+**1.** Which of these hazards would likely result directly from deforestation?
+   A) Soil erosion
+   B) Mass wasting
+   C) Drought
+   D) Water pollution
+   E) Flooding
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2017)*
+   *(Note: Closest available year from ALOC database: 2018)*
 
-**2.** Which of the locations in Nigeria has the highest mean annual rainfall total ?
-   A) Benin City
-   B) Port-Harcourt
-   C) C.Calabar
-   D) Ondo
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**3.** In the tropics, the most variable climatic element inter-annually is
-   A) temperature
-   B) solar radiation
-   C) pressure
-   D) prairies
-   **Answer: A**
+**2.** Which of the following formulae is the correct one for converting X0 Fahrenheit temperature reading into Centigrade temperature readings (Y0)?
+   A) Y = (X + 32)5/90C
+   B) Y = (X – 32)5/90C
+   C) Y =  (X – 32)9/50C
+   D) Y = (X+32)9/50C
+   **Answer: C**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**4.** The tropical maritime air mass attains its maximum incursion over West African hinterlands
-   A) When the sun is overhead on the tropic of Capricorn
-   B) When the sun is overhead on the tropic of Cancer
-   C) When the sun is overhead on the Equator
-   D) When the sun is overhead on both the tropic of Cancer and Tropic of Capricom
+**3.** The new name of Calicut, a famous city of Kerala is
+   A) Kozhikode
+   B) Trivendrum
+   C) Kalighat
+   D) Koderma
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**4.** How were the major mountain belts of the world produced?
+   A) By weathering
+   B) By wind erosion
+   C) By folding
+   D) By river deposition
+   E) By glacial erosion
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2013)*
+   *(Note: Closest available year from ALOC database: 2018)*
 
-**5.** The most significant economic use of ocean water is for
-   A) Bathing
-   B) Recreation
-   C) Drinking
-   D) Transportaion
+**5.** Which of the following is a major hindrance to H.E.P.
+   A) Inadequate capital
+   B) Unavailability of good sites
+   C) Absence of domestic market
+   D) Sufficient volume of water
    **Answer: D**
+   *(Note: Closest available year from ALOC database: 2014)*
 
-**6.** The proportion of the earth's surface occupied by ocean is approximately
-   A) 97%
-   B) 77%
-   C) 87%
-   D) 67%
-   E) 99%
+**6.** The equatorial circumference of the earth is
+   A) 30,084 km
+   B) 40,084 km
+   C) 60,084 km
+   D) 20,084km
+   E) 50,084 km
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**7.** Which of the following countries has a large number of people of Africa descent?
+   A) England
+   B) Canada
+   C) Chile
+   D) Brazil
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2016)*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**7.** The cheapest means of transport for a long distance travel is by
-   A) Air
-   B) Rail
-   C) Water
-   D) Road
+**8.** Nigeria lies between
+   A) Latitudes 4° and 13°N and longitudes 2° and 15°E.
+   B) Latitudes 5° and 14°N and longitudes 4° and 15°E.
+   C) Latitudes 4° and 14°N and longitudes 2° and 15°E.
+   D) Latitudes 2° and 15°N and longitudes 4° and 14°E.
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2013)*
+   *(Note: Closest available year from ALOC database: 2014)*
 
-**8.** A poor settlement on the edge of a city is known as a
-   A) Slum
-   B) Newtown
-   C) Ghetto
-   D) Shantytown
+**9.** The growth rate of population is determined by
+   A) Birth and death rate
+   B) Technological know-how
+   C) Improved agriculture
+   D) Number of death per 1000
    **Answer: A**
 
-**9.** The cloud which are white globular masses, forming ripples in the sky is called
-   A) Cirrus
-   B) Cirrocumulus
-   C) altocumulus
-   D) altostratus
+**10.** Crude oil is ------------  rock mineral
+   A) An igneous
+   B) A sedimentary
+   C) A metamorphic
+   D) A plutonic
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *(Note: Closest available year from ALOC database: 2014)*
 
 
 ---

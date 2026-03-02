@@ -2,109 +2,116 @@
 
 ## Objectives
 
-**1.** What is the total power output of a source with intensity 0.050 W/m2 at a distance of 3.0m from the source?
-   A) 112W
-   B) 5.6W
-   C) 15W
-   D) 30W
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**2.** The resistance of a wire depends on
-   A) the length of the wire
-   B) the diameter of the wire
-   C) the temperature of the wire
-   D) All of the above
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**3.** When a 2kg body is at a height 5m above the floor, its velocity  is 4m/s. What is its total energy  at this height? (acceleration due to gravity = 10m/s2)
-   A) 80J
-   B) 00J
-   C) 116J
-   D) 180J
-   **Answer: C**
+**1.** A wheel and axle is used to raise a weight of 600n with an effort of 300n. if the radii of the wheel and axle are 50 cm and 10 cm respectively, what is the efficiency of the system
+   A) 40%
+   B) 50%
+   C) 20%
+   D) 10%
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2011)*
 
-**4.** An airplane increases its speed 36 km/h to 360 km/h in 20.0 s. How far does it travel while accelerating.
-   A) 4.4 km
-   B) 1.1 km
-   C) 2.3 km
-   D) 1.0 km
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**5.** The instrument used to measure the pressure of a gas is
-   A) barometer
-   B) thermometer
-   C) hydrometer
-   D) manometer
-   **Answer: D**
-   *Explanation: Barometer is used to measure atmosphere pressure
-Thermometer is used to measure temperature
-Hydrometer is used to measure relative density of a liquid
-Manometer is used to measure the pressure of a gas*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**6.** In the diagram shown, If the south-poles of two magnets stroke a steel bar, the polarities at T and V will respectively be
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1765611723/ALOC-Questions/Physics/2018/2018_Q_35_asprjk.jpg)*
-   A) north and south
-   B) south and south
-   C) north and north
-   D) south and north
+**2.** If the volume of a gas is recorded as 76cm³ at a temperature of 27°C with a pressure of 800mmHg. What will be the volume of the gas at S.T.P?
+   A) 36.2cm³
+   B) 25.7cm³
+   C) 72.8cm³
+   D) 24.3cm³
    **Answer: C**
-   *Explanation: Understanding magnetic induction by stroking:
-When a steel bar is magnetized by stroking with a magnet:
-
-The pole that is stroked attracts the stroking pole
-Therefore, it becomes the opposite polarity
-
-From the diagram:
-
-Two magnets with south poles (S) stroke the steel bar
-Left magnet strokes from ...*
-
-**7.** Which of the following equations is the correct definition of the reactance of an indicator L?
-   A) Reactance = (Amplitude of voltage) ÷
- (Amplitude of current)
-   B) Reactance = (Amplitude of voltage) × (Amplitude of current)
-   C) Reactance = (Amplitude of current)² ÷ (Amplitude of voltage)
-   D) Reactance = (Amplitude of current)² ÷ (Amplitude of voltage)½
-   **Answer: A**
-   *Explanation: Reactance = (Amplitude of voltage) ÷ (Amplitude of current)
-The reactance of an inductor is defined as the ratio of the amplitude of voltage to the amplitude of current.*
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**8.** A satellite moves in a circular orbit of radius 4R round the earth. The acceleration of the satellite in terms of g is
-   A) g/16
-   B) g/4
-   C) 4/g
-   D) 16/g
-   **Answer: A**
-   *Explanation: The acceleration of the satellite is g/16, where g is the acceleration due to gravity at Earth's surface.
-Explanation: Gravitational acceleration decreases with the square of distance. At 4 times Earth's radius, acceleration is (1/4²) = 1/16 of surface gravity.*
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**9.** A substance has half of 3 min. After 6 min, the count rate was observed to be 400. What was its count rate at zero time?
-   A) 1600
-   B) 1200
-   C) 200
-   D) 2400
-   **Answer: A**
    *Explanation: Given information:
 
-Half-life (T½) = 3 min
-Time elapsed (t) = 6 min
-Count rate at t = 6 min: N(6) = 400
-Initial count rate at t = 0: N₀ = ?
+Initial volume (V₁) = 76 cm³
+Initial temperature (T₁) = 27°C = 27 + 273 = 300 K
+Initial pressure (P₁) = 800 mmHg
+Final conditions: S.T.P (Standard Temperature and Pressure)
 
-Step 1: Determine number of half-lives
-Number of half-lives (n) = t / T½
-n = 6 / 3 = 2
-So 2 half-lives have passed.
-Step 2: Apply radioactive decay formula
-Aft...*
-   *(Note: Closest available year from ALOC database: 2020)*
+Final temperature (T₂) = 0°C = 273 K
+Final pressure (P₂) = 760 mmHg
+
+
+Final volume (V₂) = ?
+
+Using Combine...*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**3.** The branch of physics that deals with the motion of objects and the forces acting on them is called:
+   A) Electromagnetism
+   B) Thermodynamics
+   C) Mechanics
+   D) Quantum mechanics
+   **Answer: C**
+   *Explanation: Mechanics is the branch of physics that deals with the motion of objects and the forces acting on them. It is the foundation of all other branches of physics, and it is used to study everything from the motion of planets to the motion of electrons.*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**4.** Which of the following radiations cannot be deflected by an electric field or
+   A) (i) and (ii) only
+   B) (ii) only
+   C) (iii) and (iv) only
+   D) (i) and (iii) only
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**5.** A man will exert the greatest pressure when he?
+   A) lies flat on his back
+   B) lies on his belly
+   C) stands on both feet
+   D) stands on the toes of one foot
+   **Answer: D**
+   *Explanation: A man exerts the greatest pressure when standing on the toes of one foot because this position has the smallest contact area, and since Pressure = Force/Area, smaller area means greater pressure for the same weight*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**6.** Which of the following is not true of an electrical charge?
+   A) Negative charge means deficit electrons
+   B) Negative charge means excess of electrons
+   C) electric current means movement of electrons
+   D) All of the above
+   **Answer: A**
+   *Explanation: This statement is NOT true. Negative charge means excess of electrons, not deficit. A deficit of electrons would result in a positive charge.*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**7.** A p-n junction can act as
+   A) an amplifier
+   B) a rectifier
+   C) an inductor
+   D) a capacitor
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**8.** A 500kg car was initially at rest travelled with an acceleration of 5ms-2, what is its kinetic energy after 4s
+   A) 2.5 x 103J
+   B) 105J
+   C) 5 x 103J
+   D) 5 x 105J
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**9.** The linear expansivity of brass is 2 × 10⁻⁵ °C⁻¹. If the volume of a piece of brass is 15.00cm³ at 0°C, what is the volume at 100°C?
+   A) 16.03cm³
+   B) 15.09cm³
+   C) 16.00cm³
+   D) 15.03cm³
+   **Answer: B**
+   *Explanation: Given information:
+
+Linear expansivity (α) = 2 × 10⁻⁵ °C⁻¹
+Initial volume (V₀) = 15.00 cm³
+Initial temperature (T₀) = 0°C
+Final temperature (T) = 100°C
+Temperature change (ΔT) = 100°C
+Final volume (V) = ?
+
+Relationship between linear and volume expansivity:
+Volume expansivity (γ) ≈ 3α (for small exp...*
+
+**10.** From the diagram above, the measuring accuracy of the micrometer screw gauge is
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1765610469/ALOC-Questions/Physics/2016/2016_PHYSICS_Q_45_dtlnzx.jpg)*
+   A) 4.78mm
+   B) 4.16mm
+   C) 4.66mm
+   D) 4.70mm
+   **Answer: B**
+   *Explanation: Micrometer screw gauge reading = main scale reading + vernier scale reading
+
+                                          = 4.0mm + 16mm = 4.16mm*
+   *(Note: Closest available year from ALOC database: 2016)*
 
 
 ---

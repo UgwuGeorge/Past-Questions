@@ -2,93 +2,87 @@
 
 ## Objectives
 
-**1.** They hated the police and, by <i>implication,</i> me
-   A) extension
-   B) inference
-   C) examination
-   D) application
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**2.** All the ________ were stolen by the thieves
-   A) arm and ammunition
-   B) arms and ammunition
-   C) arm and ammunitions
-   D) arms and ammunitions
-   **Answer: B**
-   *Explanation: Option B is the appropriate spelling.*
-   *(Note: Closest available year from ALOC database: 2020)*
-
-**3.** From the options, choose the word(s) that best filll the gap.
-
-Mrs Godwin ---------------- in this school since 2001
-   A) taught
-   B) was teaching
-   C) teaches
-   D) has been teaching.
+**1.** The girl's father was  <i>astounded</i>  to see her appear from the shrine
+   A) collected
+   B) overwhelmed
+   C) embarrassed
+   D) astonished
    **Answer: D**
-   *Explanation: The answer is ‘D’ because it is its present perfect continuous tense*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**4.** The village girl wore <u>sumptuous</u> clothes?
-   A) faded looking
-   B) cheap
-   C) expensive
-   D) loose-fitting
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**5.** He can recall the important dates in the nation's history; it is interesting to listen as he rattles…….
-   A) off
-   B) over
-   C) up
-   D) out
-   **Answer: A**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**6.** He is loved for his <i>altruism</i>
-   A) benevolence
-   B) sincerity
-   C) selfishness
-   D) selflessness
-   **Answer: C**
-   *Explanation: Altruism means to have regard for others at the expense of oneself.
-
-Selfishness means to always consider one’s own interest before others.*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**7.** After the wedding, the wife became <u>anorexic</u>
-   A) obese
-   B) melancholic
-   C) excited
-   D) skinny
+**2.** The organization is constantly in a state of flux?
+   A) There are perodic changes in the organization
+   B) The organization is facing a difficult period
+   C) The organization is experiencing good times
+   D) The organization is moribund
    **Answer: A**
-   *Explanation: To be anorexic means to have an eating disorder resulting to an abnormally low body weight. Consequently, the direct opposite herein, is to be obese or fat.*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**3.** The governor was <u>incoherent</u> in his speech
+   A) uncoordinated
+   B) talkative
+   C) confused
+   D) eloquent
+   **Answer: A**
+   *Explanation: Incoherent: (of spoken or written language) expressed in an incomprehensible or confusing way; unclear.*
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**4.** The pilot, from the .....2... activated the emergency sheet
+   A) cabin
+   B) cubicle
+   C) cockpit
+   D) cab
+   **Answer: C**
+   *Explanation: The Cockpit is the area, usually near the front of an aircraft from which a pilot controls the aircraft.*
    *(Note: Closest available year from ALOC database: 2019)*
 
-**8.** The inventors of biocell justified the need for it by saying that it would
-   A) develop ways for changing biocells into fuel for use
-   B) yield a source of energy without much spending
-   C) produce electricity for all types of machines
-   D) produce signals to guid all ships and other vessels
-   **Answer: B**
-   *Explanation: Biocell will use materials that would otherwise be considered a waste. This means less spending*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**9.** 1 missed the match though it was shown on television on  two…….. nights.
-   A) concurrent
-   B) consistent
-   C) concrete
-   D) conservative
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**10.** <i>Gregarious</i> animals can be found in the zoo.
-   A) lonely
-   B) tame
-   C) wild
-   D) various
+**5.** The woman won't have lived through the night.
+   A) It was likely that the woman died before morning
+   B) The woman survived her ordeal but not without some help .
+   C) From all indications, the woman was taken much worse, though she overcame her ordeal
+   D) The woman might not have lived if she hadn’t got the right support
    **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**6.** The university science lecturer gives his reason for issuing handout as
+   A) lack of teaching aids among students
+   B) low purchasing power
+   C) low quality of books
+   D) lack of sufficient time
+   **Answer: B**
+   *Explanation: According to the science teacher, the  library had to all intent and purpose, stopped buying new books when the local currency was devalued.*
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**7.** You must practise in order to................perfection.
+   A) obtain
+   B) have
+   C) get
+   D) achieve
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**8.** The essay topic is <u>nebulous</u>?
+   A) vague
+   B) incorrect
+   C) distinct
+   D) clear
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**9.** One thing I will not be complaining about in my new job is a lack of excitement
+   A) The job is bad
+   B) The job is exiting
+   C) The job is not too exciting
+   D) The job has been previously done
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**10.** If you saw the photograph of the man……………………you be able to identify him?
+   A) could
+   B) would
+   C) can
+   D) will
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2003)*
 
 

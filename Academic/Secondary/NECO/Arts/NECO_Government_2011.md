@@ -2,88 +2,75 @@
 
 ## Objectives
 
-**1.** Which of the following is not a function of the Secretary-General of the United Nations Organization?
-   A) Supervising the Secretariat
-   B) Interpreting the treaties
-   C) Alerting the Security Council on any matter that may threaten international peace
-   D) Making annual report
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 1989)*
-
-**2.** The legislative functions of the government of Benin Kingdom were performed by the
-   A) Esama
-   B) Ndichie
-   C) Uzama
-   D) Enigie
+**1.** A major contentious issue confronting Nigerian federalism is
+   A) health care delivery
+   B) education
+   C) revenue allocation
+   D) poverty
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 1999)*
-
-**3.** Pressure groups are different from political parties because they
-   A) analyse elections
-   B) articulate interests
-   C) articulate interests
-   D) contest elections
-   **Answer: B**
-   *Explanation: Pressure groups are different from political parties in the sense that while political parties analyse and contest elections and aggregate interests (i.e. bring together people who have differing interests together), pressure groups articulate the interest of people how share a common goal.*
-   *(Note: Closest available year from ALOC database: 2024)*
-
-**4.** A state that is ruled by an elected citizen is
-   A) a republic
-   B) a plutocracy
-   C) an empire
-   D) a monarchy.
-   **Answer: A**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**5.** The primary function of a legislature is the
-   A) appointment of the president
-   B) making of laws
-   C) voting of bills
-   D) monitoring of the judiciary
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 1989)*
-
-**6.** Which document serves as the constitution of the United Nations?
-   A) Universal Declaration of Human Rights
-   B) Geneva conventions
-   C) Treaty of the Non-proliferation of Nuclear Weapons
-   D) Charter of the United Nations
+**2.** An elected legislator in a presidential system can loose his seat by
+   A) a vote of no confidence
+   B) impeachment
+   C) cross-carpeting
+   D) recall
    **Answer: D**
-   *Explanation: The document that serves as the constitution of the United Nations is the Charter of the United Nations. This document outlines the rights and obligations of member states and establishes the United Nations' organs and procedures.*
+   *Explanation: An elected legislator in a presidential system can loose his seat by recall.
+
+The word ''Recall'' was defined by G.A.I. Ofoegbu (1999) as a device by which elected officials in the legislature or government could be called back even before their tenure expires.*
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**3.** Nigeria commitment to the liberation of Africa could best be seen in her policy towards
+   A) Namibia and Mozambique
+   B) the Congo and Zimbabwe
+   C) Sierra Leone and Chad
+   D) South Africa and Angola
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**4.** These are common forms of governments except
+   A) federal
+   B) Unitary
+   C) Plural
+   D) confederal
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**5.** A system of government in which power derives from total control of the instruments of force is called ___________
+   A) monarchy
+   B) oligarchy
+   C) capitalism
+   D) fascism
+   **Answer: D**
+   *Explanation: Facism is a form of government headed by a dictator, in which government has a total control over all activities in the state.*
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**6.** Which of the following was a significant trade commodity in the pre-colonial Kingdom of Benin?
+   A) Ivory
+   B) Gold
+   C) Rubber
+   D) Salt
+   **Answer: A**
+   *Explanation: Ivory was a significant trade commodity in the pre-colonial Kingdom of Benin. The Kingdom of Benin, located in modern-day Nigeria, was known for its ivory carvings, which were traded with European merchants.*
    *(Note: Closest available year from ALOC database: 2023)*
 
-**7.** A state with a hegemonic party is one in which
-   A) there is one dominant party
-   B) there is no opposition party
-   C) there is only one party
-   D) other parties are officially recognized.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**8.** The fundamental assumption on which the idea of the rule of law is based is:
-   A) supremacy of the constitution
-   B) rationality of human beings
-   C) equality of human beings
-   D) love for social justice.
-   **Answer: A**
-
-**9.** The Nigerian constitution guarantees freedom of speech under which fundamental right?
-   A) Right to freedom of thought
-   B) Right to privacy
-   C) Right to freedom of expression
-   D) Right to life
+**7.** Which of the following is not a public corporation? The
+   A) Nigerian Ports Authority
+   B) National Sports Commission
+   C) National Youth Service Corps
+   D) Nigerian Railway Corporation
    **Answer: C**
-   *Explanation: The Nigerian constitution guarantees freedom of speech under the Right to freedom of expression. This right allows individuals to express their thoughts, ideas, and opinions without fear of government restraint.*
-   *(Note: Closest available year from ALOC database: 2023)*
+   *(Note: Closest available year from ALOC database: 1989)*
 
-**10.** Laws made by state governments are known as
-   A) bye laws
-   B) decrees
-   C) edicts
-   D) acts
-   **Answer: C**
-   *Explanation: Laws made by state governments are known as edicts. It should be noted that edicts are the laws made by the state military governments.*
-   *(Note: Closest available year from ALOC database: 2004)*
+**8.** The Nigerian Youth Movement pursued its objectives through the use of
+   A) protest
+   B) newspapers
+   C) radio
+   D) strike actions
+   **Answer: B**
+   *Explanation: The Nigerian Youth Movement, like most early political parties, pursued its objectives through the use of newspapers. They established their ideologies and aired their opinions concerning political issues through newspapers.*
+   *(Note: Closest available year from ALOC database: 2024)*
 
 
 ---

@@ -2,15 +2,55 @@
 
 ## Objectives
 
-**1.** The business environment that takes into cognizance the age distribution, ethnic mix and educational level of the consumer is
-   A) demographic environment
-   B) economic environment
-   C) cultural environment
-   D) natural environment.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
+**1.** The final link in the chain of distribution is
+   A) Middlemen
+   B) wholesaling
+   C) consumer
+   D) retailing
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2013)*
 
-**2.** The   media    used   for   inter-departmental communication include.
+**2.** Production involves
+   A) making goods available where and when needed
+   B) changing the form of goods, moving and making them available as needed
+   C) the manufacturing of goods and provision of services
+   D) the assembling of all necessary parts to produce a finished product.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**3.** The oldest and commonest form of business in Nigeria is
+   A) partnership
+   B) the co-operative society
+   C) sole proprietorship
+   D) joint stock venture
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 1990)*
+
+**4.** Warehousing is a productive function because it increases the
+   A) quantity of goods
+   B) utility of goods
+   C) quality of goods
+   D) price of goods.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**5.** The setting of objectives for an organization and determining how to accomplish them is
+   A) social responsibility
+   B) planning
+   C) organizing
+   D) decision-making.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**6.** The indemnification of Ama by his insurance company after a fire disaster means that he
+   A) has been guaranteed by the insurance company
+   B) will be cleared of any fault by the insurance company
+   C) has been covered by the insurance company
+   D) will be covered to the limit of the amount in the policy.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**7.** The   media    used   for   inter-departmental communication include.
    A) circulars, advertisement and notice boards
    B) memoranda, circulars and the telephone
    C) memoranda, advertising and face-to-face
@@ -18,75 +58,29 @@
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2005)*
 
-**3.** The major difference between insurance and assurance is that while insurance
-   A) takes care of uncertainty, assurance takes care of risks
-   B) takes care of risks, assurance takes care  uncertainty
-   C) hinges on probabilities, assurance is based on possibilities
-   D) is about indemnity assurance is about life in the future.
+**8.** I.   Personal Savings, II.   Retained Earnings, III. Accrued Taxes. Which of the items above constitute internal sources of financing for companies?
+   A) I and II
+   B) I and III
+   C) II and III
+   D) I, II and III.
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2001)*
 
-**4.** The total value of fixed and current assets is?
-   A) working capital
-   B) capital employed
-   C) Fixed capital
-   D) capital owned
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**5.** Which of the following is a form of sales promotion?
-   A) Promotion through radio
-   B) Advertising by television
-   C) Distributing printed sales literature
-   D) Offering free samples to customers
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 1990)*
-
-**6.** One of the major functions of a chamber of commerce is to
-   A) promote and protect trade, industry and agriculture
-   B) advise members on regulations of other countries
-   C) settle disputes that arise out of trade
-   D) publish books and periodicals desired by members.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**7.** The major divisions of Commerce are
-   A) import, export and transport
-   B) trade, communication and warehousing
-   C) trade and auxiliaries to trade
-   D) exchange, consumption and production
+**9.** The central bank differs from commercial banks  because it
+   A) renders service to customers
+   B) carriers but foreign exchange transactions
+   C) issues currencies
+   D) discounts bills
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 1990)*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**8.** Given:  N
- Opening stock  1,800
- Purchases   2, 800
- Sales    8,000
- Closing stock    350
- Carriage on sales    500
- Calculate the value of the unused stock.
-   A) N 800
-   B) N500
-   C) N350
-   D) N320
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**9.** A country’s terms of trade are said to improve when the ratio of her export
-   A) decreases
-   B) remains constant
-   C) increases
-   D) equals import
+**10.** The type of computer application software used mainly for management information is
+   A) Corel draw
+   B) AutoCAD
+   C) data base
+   D) word perfect
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2013)*
-
-**10.** An internal demand for goods to be purchased or drawn from stock is
-   A) a quotation
-   B) a requisition
-   C) a tender
-   D) an order
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
 
 
 ---

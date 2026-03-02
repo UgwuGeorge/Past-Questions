@@ -2,169 +2,135 @@
 
 ## Objectives
 
-**1.** If p : q = 2/3 : 5/6 and q : r = 3/4 : 1/2, find p : q : r
-   A) 12 : 15 : 10
-   B) 12 : 15 : 16
-   C) 10 : 15 : 24
-   D) 9 : 10 : 15
+**1.** If 6log<sub>x</sub>2 - 3log<sub>x</sub>3 = 3log<sub>5</sub>0.2, find x.
+   A) 8/3
+   B) 4/3
+   C) 3/4
+   D) 3/8
+   **Answer: C**
+   *Explanation: 6logx2 - 3logx3 = 3log50.2
+= logx26 - 3logx33 = log5(0.2)3
+= logx(64/27) = log5(1/5)3
+logx(64/27) = log5(1/125)
+let logx(64/27) = y
+∴xy = 64/27
+and log5(1/125) = y
+∴ 5y = 1/125
+5y = 125-1
+5y = 5-3
+∴ y = -3
+substitute y = -3 in xy = 64/27
+implies x-3 = 64/27
+1/x3 = 64/27
+64x3 = 27
+x3 = 27/64
+x3 = 3√2...*
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**2.** A square tile measures 20cm by 20cm. How many of such tiles will cover a floor measuring 5m by 4m?
+   A) 500
+   B) 400
+   C) 320
+   D) 250
    **Answer: A**
-   *Explanation: If p : q = 2/3 : 5/6, then the sum S1 of ratio = 2/3 + 5/6 = 9/6
-
-If q : r = 3/4 : 1/2, then the sum S2 of ratio = 3/4 + 1/2 = 5/4
-
-Let p + q = T1, then
-
-q = (5/6÷9/6)T1 = (5/6×6/9)T1 = 5/9T1
-
-Again, let q + r = T2, then
-
-q = (3/4÷5/4)T2 = (3/4×4/5)T2 = 3/5T2
-
-Using q = q
-
-5/9T1 = 3/5T2
-
-5 x 5T1 = 9...*
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**2.** From the diagram above, find x
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716128227/ALOC-Questions/Mathematics/2010/MATH_2010_Q10_d2xag1.jpg)*
-   A) 65°
-   B) 50°
-   C) 75°
-   D) 55°
-   **Answer: A**
-   *Explanation: ∠RTS = 90° (∠ in semi circle)
-∠UTS = 25° (∠ in alternate segment)
-X + 90 + 25 = 180(sum of ∠s on a str line)
-X + 115 = 180
-X = 180 - 115
-X = 65°*
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**3.** Make L the subjects of the formula if d=√(42w/5l)
-   A) √(42w/5d)
-   B) 42W/(5d<sup>2</sup> )
-   C) 42/5dW
-   D) 1/d √(42w/5)
-   **Answer: B**
-   *Explanation: d = √(42w/5l).   square both side of the equation    d<sup>2</sup>=〖(√(42W/5l))〗<sup>2</sup> d<sup>2</sup>=42W/5l 5ld<sup>2</sup>=42W.    l=42W/(5d<sup>2</sup> )*
    *(Note: Closest available year from ALOC database: 2007)*
 
-**4.** THe cost of renovating a 6 m square room is N540. What is the cost of renovating a 9 m square room?
-   A) N1215
-   B) N720
-   C) N1620
-   D) N810
-   **Answer: D**
-   *Explanation: Cost of removing a 6m2 room = N540
-Cost of renovating a 1m2 room = 540 / 6
-Cost of removing a 9m2 room
-= (540 / 6) * 9
-= N810*
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**5.** Factorize 16(3x+2y)2-25 (a+2b)2
-   A) (12x +8y+5a+10b)(12x+8y-5a-10b)
-   B) (12x+8y-5a-10b) (12x+8y-5a-10b),
-   C) 20 (3x +2y-a-2b)(3x+2y+a+2b)
-   D) 20(3x+2y+a+2b) (3x+2y+a+2b).
+**3.** A binary operation ⊗ defined on the set of integers is such that m⊗n = m + n + mn for all integers m and n. Find the inverse of -5 under this operation, if the identity element is 0?
+   A) -5/4
+   B) -5/6
+   C) 0
+   D) 5
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: m⊗n=m+n+mn
+Let the inverse of -5 be n.
 
-**6.** Evaluate ∣∣∣∣42−1231−1−13∣∣∣∣
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716129601/ALOC-Questions/Mathematics/2011/MATH_JAMB_2011_Q22_v62583.jpg)*
-   A) 25
-   B) 45
-   C) 15
-   D) 55
-   **Answer: A**
-   *Explanation: 4[(3 x 3) - (-1 x 1)] -2 [(2x 3) - (-1 x -1)] -1 [(2 x 1) - (-1 x 3)]
+∴−5 ⊗ n = 0
+−5 + n + (−5n) = 0
+n − 5n = 5 ⟹ −4n = 5
+n= − 5/4*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-= 4[9 + 1] -2 [6 - 1] -1 [2 + 3]
-
-= 4(10) - 2(5) - 1(5)
-
-= 40 - 10 - 5
-
-= 25*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**7.** If ∣∣∣−x−1124∣∣∣=−12
-, find x.
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724001964/ALOC-Questions/Mathematics/2014/MATH_JAMB_2014_Q21_csqcpp.jpg)*
-   A) -6
-   B) -2
-   C) 3
-   D) 6
+**4.** Simplify 3<sup>(-5n)</sup>/9<sup>(1-n)</sup> ×〖27<sup>(n+1)</sup>
+   A) 3<sup>2</sup>
+   B) 3<sup>3</sup>
+   C) 3<sup>5</sup>
+   D) 3
    **Answer: D**
-   *Explanation: -4x - (-1)12 = -12
+   *Explanation: 3<sup>(-5n)</sup>/9<sup>(1-n)</sup> ×〖27<sup>(n+1)</sup>
 
--4x + 12 = -12
 
--4x = -12 - 12
+3<sup>(-5n)/3<sup>2(1-n)</sup>  × 3<sup>3(n+1)</sup>
 
--4x = - 24
 
-x = 6*
+3<sup>−5n</sup> ÷ 3<sup>2(1−n)<?sup> × 3<sup>3(n+1)</sup>
+
+
+
+3<sup>−5n−2(1−n)+3(n+1)</sup>
+
+
+
+3<sup> −5n −2 + 2n +3n + 3</sup>
+
+
+3<sup> −5n + 5n + 3 −2</sup>
+
+
+3<sup>1</sup>
+
+
+= 3*
+   *(Note: Closest available year from ALOC database: 2013)*
+
+**5.** Find the value of ((0.5436)<sup>3</sup>)/(0.017×0.219) to 3 significant figures.
+   A) 46.2
+   B) 43.1
+   C) 534
+   D) 431
+   **Answer: B**
+   *Explanation: = 0.16063/0.017 × 0.219
+= 43.1 (to 3 s.f)*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**6.** 
+   **Answer: **
    *(Note: Closest available year from ALOC database: 2014)*
 
-**8.** Determine the maximum value of y = 3x<sup>2</sup> - x<sup>3</sup>
-   A) zero
-   B) 2
-   C) 4
-   D) 6
-   **Answer: C**
-   *Explanation: y = 3x<sup>2</sup> - x<sup>3</sup>
-dy/dx = 6x - 3x<sup>2</sup>
-as dy/dx = 0
-6x - 3x<sup>2</sup> = 0
-3x (2 - x) = 0
-this implies that 2 -x = 0 and 3x = 0
-x = 2 (or) 0
-But = dy/dx = 6x - 3x<sup>2</sup>
-d<sup>2</sup>y/dx<sup>2</sup> = 6 - 6x at x = 2
-= 6 - 6(2)
-= -6
-y = 3x<sup>2</sup> - x<sup>3</sup>
-=...*
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**9.** In a group of 500 people, 350 people can speak English, and 400 people can speak French. Find how many people can speak both languages.
-   A) 750
-   B) 850
-   C) 250
-   D) 150
-   **Answer: C**
-   *Explanation: Let F be the set of people who can speak French and E be the set of people who can speak English. Then,
-
-n(F) = 400
-
-n(E) = 350
-
-n(F ∪ E) = 500
-
-We have to find n(F ∩ E).
-
-Now, n(F ∪ E) = n(F) + n(E) – n(F ∩ E)
-
-⇒ 500 = 400 + 350 – n(F ∩ E)
-
-⇒ n(F ∩ E) = 750 – 500 = 250.
-
-∴ 250 people can speak both...*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**10.** What is the rate of change of the volume V of a hemisphere with respect to its radius r when r = 2?
-   A) 8π
-   B) 16π
-   C) 2π
-   D) 4π
+**7.** The interior angles of a pentagon are: 180o, 118o, 78o, 84o and  x. The value of x is:
+   A) 80o
+   B) 108o
+   C) 120o
+   D) 134o
    **Answer: A**
-   *Explanation: V=2/3 πr<sup>3</sup>
-dV/dr = 2πr<sup>2</sup>
-dV/dr(r = 2) = 2π(2)<sup>2</sup>
-= 8π*
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**8.** A man stands on a tree 150 cm high and sees a boat at an angle of depression of 74°. Find the distance of the boat from the base of the tree.
+   A) 52 cm
+   B) 43 cm
+   C) 40 cm
+   D) 15 cm
+   **Answer: B**
+   *Explanation: AB∧D = BD∧C = 74°                  DC=150/tan74°                     =150/3.4874         DC≈43cm*
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**9.** If x = y/2, evaluate (x<sup>2</sup> / y<sup>2</sup> + 1/2) / (1/2 - x<sup>2</sup> / y<sup>2</sup>)
+   A) 5/8
+   B) 5/2
+   C) 5/4
+   D) 5/16
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**10.** If a car travels 120km on 45 litres of petrol, how much petrol is needed for a journey of 600km?
+   A) 720 litres
+   B) 160 litres
+   C) 225 litres
+   D) 960 litres
+   **Answer: C**
+   *Explanation: 120km → 45litres
+1km → 45/120litres
+600km → 45/120 x 600 =225litres*
+   *(Note: Closest available year from ALOC database: 2016)*
 
 
 ---
