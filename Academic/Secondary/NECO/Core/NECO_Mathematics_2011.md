@@ -2,194 +2,147 @@
 
 ## Objectives
 
-**1.** In the diagram above, PST is a straight line, PQ = QS = RS. If ∠RST = 72°, find x
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710697968/ALOC-Questions/Mathematics/2002/math_2000_q43_ugfbxx.jpg)*
-   A) 36°
-   B) 18°
-   C) 72°
-   D) 24°
-   **Answer: D**
-   *Explanation: In Δ PQS, ∠PSQ = X(base ∠s of isoc Δ PQS)
-In Δ QRS, ∠RQS = ∠PSQ + X(Extr ∠ = sum of two intr. opp ∠s)
-∴ ∠RQS = X + X
-= 2X
-Also ∠QRS = 2X(base ∠s of isoc Δ QRS in Δ PRS,
-72 = ∠RPS + ∠PRS(Extr, ∠ = sum of two intr. opp ∠s)
-∴ 72 = x + 2x
-72 = 3x
-x = 72/3
-x = 24°*
-   *(Note: Closest available year from ALOC database: 2002)*
+**1.** What is the product of 27/5,(3)<sup>(−3)</sup> and (1/5)<sup>(−1)</sup>?
+   A) 5
+   B) 3
+   C) 1
+   D) 1/25
+   **Answer: C**
+   *Explanation: 27/5 × 3<sup>(−3)</sup> × (1)<sup>(−1)</sup>/5 = 27/5 × 1/3<sup>3</sup> × 1/(1/5)
+27/5 x 1/27 x 5/1 = 1*
+   *(Note: Closest available year from ALOC database: utme)*
 
-**2.** Find the locus of a particle which moves in the first quadrant so that it is equidistant from the lines x = 0 and y = 0 (where k is a constant)?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547196/ALOC-Questions/Mathematics/2009/MATH_2009_Q28_SOLUTION_bqdqr5.jpg)*
-   A) x + y = 0
-   B) x - y = 0
-   C) x + y + k = 0
-   D) x - y - k = 0
+**2.** In the diagram above ∠ OPQ is
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715545897/ALOC-Questions/Mathematics/2008/MATH_2008_Q24_fuxeah.jpg)*
+   A) 90°
+   B) 53°
+   C) 36°
+   D) 26°
    **Answer: B**
-   *Explanation: Locus of a particle which moves in the first quadrant so that it is equidistant from the lines
-X = 0 and Y = 0 are the x and y axes as the lines bisecting the angle between x and y axes.*
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: a = a(base ∠ s of Iss Δ)
+− a+a+74 = 180
+2a + 74 = 180
+2a = 180-74
+2a = 106
+a = 53
+−∠ OPQ = 53°*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**3.** A group of market women sell at least one of yam, plantain and maize. 12 of them sell maize, 10 sell yam and 14 sell plantain. 5 sell plantain and maize, 4 sell yam and maize, 2 sell yam and plantain only while 3 sell all the three items. How many women are in the group?
-   A) 25
-   B) 19
-   C) 18
-   D) 17
+**3.** The diagram above is a circle with centre C. P, Q and S are points on the circumference. PS and SR are tangents to the circle. ∠PSR = 36<sup>o</sup>
+. Find ∠PQR
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724007804/ALOC-Questions/Mathematics/2023/Screenshot_2024-08-18_at_8.03.15_PM_e3llyp.png)*
+   A) 72<sup>o</sup>
+   B) 36<sup>o</sup>
+   C) 144<sup>o</sup>
+   D) 54<sup>o</sup>
    **Answer: A**
-   *Explanation: Let the three items be M, Y and P.
-n{M ∩ Y} only = 4-3 = 1
-n{M ∩ P) only = 5-3 = 2
-n{ Y ∩ P} only = 2
-n{M} only = 12-(1+3+2) = 6
-n{Y} only = 10-(1+2+3) = 4
-n{P} only = 14-(2+3+2) = 7
-n{M∩P∩Y} = 3
-Number of women in the group = 6+4+7+(1+2+2+3) as above =25 women.*
-   *(Note: Closest available year from ALOC database: 2021)*
+   *Explanation: From ∆PSR
 
-**4.** The model height and range of heights 1.35, 1.25, 1.35, 1.40, 1.35, 1.50, 1.35, 1.50, and 1.20 are m and r respectively. Find m+2r.
-   A) 1.35
-   B) 1.65
-   C) 1.95
-   D) 3.00
-   **Answer: C**
-   *Explanation: 1.35, 1.25, 1.35, 1.40, 1.35, 1.50, 1.35, 1.50, and 1.20
-Modal height = 1.35
-Range (r) = 1.50 - 1.20
-= 0.30
-∴m + 2r = 1.35 + 2(0.30)
-= 1.35 + 0.60
-= 1.95*
-   *(Note: Closest available year from ALOC database: 2005)*
+|PS| = |SR| (If two tangents are drawn from an external point of the circle, then they are of equal lengths)
 
-**5.** Evaluate ∫
-(cos4x + sin3x)dx
-   A) sin4x - cos3x + k
-   B) sin4x + cos3x + k
-   C) 1/4 sin4x - 1/3cos3x + k
-   D) 1/4sin4x + 1/3 cos3x + k
-   **Answer: C**
-   *Explanation: ∫(cos4x+sin3x)dx
-= 1/4sin4x − 1/3cos3x+k*
-   *(Note: Closest available year from ALOC database: 2016)*
+∴ ∆PSR is isosceles
 
-**6.** A man 40 m from the foot of a tower observes the angle of elevation of the tower to be 30°. Determine the height of the tower.
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715545089/ALOC-Questions/Mathematics/2007/JAMB_2007_Q40_solution_kjvuqf.jpg)*
-   A) (40√3)/3 m
-   B) 20 m
-   C) 40√3 m
-   D) 40 m
-   **Answer: A**
-   *Explanation: Tan30=h/40  1/√3=h/40 h√3=40h=40/√3 h=40/√3×√3/√3 h=(40√3)/3*
-   *(Note: Closest available year from ALOC database: 2007)*
+∠PSR + ∠SRP + ∠SPR = 180
+ <sup>o</sup> (sum of angles in a triangle)
 
-**7.** What is the solution of x−5/x+3 <−1?
-   A) =-3 < x < 1
-   B) x < -3 or x > 1
-   C) -3 < x < 5
-   D) x < -3 or x > 5
-   **Answer: A**
-   *Explanation: Consider the range -3 < x < -1
+Since |PS| = |SR|; ∠SRP = ∠SPR
 
-= { -2, -1, 0}, for instance
-
-When x = -2,
-
-(−2−5)/(−2 + 3) < −1
+⇒ ∠PSR + ∠SRP + ∠SRP = 180<sup>o</sup>
 
 
-−7/1 < −1
-
-
-When x = -1,
-
-(−1−5)/(−1+3) <−1
-
-
-−6/2 < −1
-
-
-= -3 < -1
-
-When x = 0,
-
-(0−5)/(0 + 3) < −1
-
-
-−5/3 < −1
-
-
-Hence -3 < x < 1*
-   *(Note: Closest available year from ALOC database: 2014)*
-
-**8.** The area A of a circle is increasing at a constant rate of 1.5 cm <sup>2</sup>s<sup>−1</sup>
-. Find, to 3 significant figures, the rate at which the radius r of the circle is increasing when the area of the circle is 2 cm<sup>2</sup>
-.
-   A) 0.200 cms<sup>−1</sup>
-   B) 0.798 cms<sup>−1</sup>
-   C) 0.300 cms<sup>−1</sup>
-   D) 0.299 cms<sup>−1</sup>
-   **Answer: D**
-   *Explanation: Area of a circle (A) = πr<sup>2</sup>
-
-
-Given
-
-dA/dt=1.5 cm<sup>2</sup>s<sup>-1</sup>
-
-
-dr/dt = ?
-
-A = 2cm<sup>2</sup>
-
-
-Now
-
-2 = πr <sup>2</sup> 
-
-
-= r<sup>2</sup> = 2/π
-
-
-r = √(2/π) cm = 0.798cm
-
-dr/dt = dA/dt × dr/dt
-
-
-dA/dr= 2πr (differentiating A = πr<sup>2</sup>)
-
-
-dr/dA=1/2πr
-
-
-dr/dt=1.5 × 1/...*
+∠PSR + 2∠SRP = ...*
    *(Note: Closest available year from ALOC database: 2023)*
 
-**9.** In how many ways can 9 people be seated if 3 chairs are available?
-   A) 720
-   B) 504
-   C) 336
-   D) 210
-   **Answer: B**
-   *Explanation: 9P3 =9!ways/(9-3)!
- 
-=9!/6!
- 
-=9 x 8 x 7 x 6!/6!
-
-= 504 ways*
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**10.** from the table above, if the pass mark is 5, how many students failed the test?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716128453/ALOC-Questions/Mathematics/2010/MATH_2010_Q18_xbacd9.jpg)*
-   A) 6
-   B) 2
-   C) 7
-   D) 9
+**4.** Simolify (7/9-2/3)/(1/3+(2/5)/(4/5))
+   A) 11/12
+   B) 5/6
+   C) 1/5
+   D) 2/15
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *Explanation: (7/9-2/3)/(1/3+(2/5)/(4/5))=((7-6)/9)/(1/3+(2/5)/(4/5))=(1/9)/(1/3+(2/5×5/4))=(1/9)/(1/3+1/2)=(1/9)/((2+3)/6)=(1/9)/(5/6)=1/9×6/5=2/15*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**5.** The table above shows the number of pupils in a class with respect to their ages. If a pie chart is constructed to represent the age, the angle corresponding to 8 years old is
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724006675/ALOC-Questions/Mathematics/2019/MATH_JAMB_2019_Q4_fbmbcu.jpg)*
+   A) 48.6°
+   B) 56.3°
+   C) 46.8°
+   D) 13°
+   **Answer: C**
+   *Explanation: Total number of pupils : 4 + 13 + 30 + 44 + 9 = 100
+
+The number of 8 - year olds = 13
+
+The angle represented by the 8-year olds on the pie chart = 13/100 × 360°
+= 46.8°*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**6.** In the diagram above, l<sub>1</sub> is parallel to l<sub>2</sub>, Find the value of < PMT
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724002943/ALOC-Questions/Mathematics/2016/MATH_JAMB_2016_Q8_r1aiyw.jpg)*
+   A) 82°
+   B) 36°
+   C) 72°
+   D) 118°
+   **Answer: A**
+   *Explanation: < MPT = 180° - 118° = 62°
+
+< PML = 62° ( Alternative angle)
+
+y + 2y + 10° + 62° = 180° (Angles on a straight line)
+
+3y = 180 - 72
+3y/3 = 108/3
+
+y = 36°
+
+< PMT = 2y + 10 = 2(36) + 10 = 82°*
+   *(Note: Closest available year from ALOC database: 2016)*
+
+**7.** Calculate the length of an arc of a circle diameter 14 cm, which substends an angle of 90o at the center of the circle
+   A) 7π/2 cm
+   B) 7π cm
+   C) 14π cm
+   D) 7π/4 cm
+   **Answer: A**
+   *Explanation: Length of an arc = θ/360 x 2πr
+90/360 x 2 x π x 7
+= 7π/2*
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**8.** The slope of the tangent to the curve y = 3x<sup>2</sup>
+ - 2x + 5 at the point (1, 6) is
+   A) 4
+   B) 1
+   C) 6
+   D) 5
+   **Answer: A**
+   *Explanation: y = 3x<sup>2</sup> - 2x + 5
+
+Slope = dy/dx = 6x − 2
+At x = 1,
+
+Slope : 6(1) - 2 = 4.*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**9.** Find the sum of the range and the mode of the set of numbers 10, 9, 10, 9, 8, 7, 7, 10, 8, 10, 8, 4, 6, 9, 10, 9, 7, 10, 6, 5
+   A) 16
+   B) 14
+   C) 12
+   D) 10
+   **Answer: A**
+   *Explanation: Range = Highest Number - Lowest Number
+
+Mode is the number with highest occurrence
+10, 9, 10, 9, 8, 7, 7, 10, 8, 4, 6,, 9, 10, 9, 7, 10, 6, 5
+
+Range = 10 − 4 = 6
+
+Mode = 10
+
+Sum of range and mode = range + mode = 6 + 10
+
+= 16*
+   *(Note: Closest available year from ALOC database: 2017)*
 
 
 ---

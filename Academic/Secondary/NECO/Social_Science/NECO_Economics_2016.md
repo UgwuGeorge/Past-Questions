@@ -2,77 +2,85 @@
 
 ## Objectives
 
-**1.** If the equation relating consumption (C) to income (Y) is C= N7,500 + 0.2Y, then
-   A) consumption is inversely related to income
-   B) consumption is the independent inversely related to income is the dependent variable
-   C) if income is N15,000, the  consumption is 10,500
-   D) if consumption is N300,000, then income is N10,000
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**2.** The following are examples of economic goods except
-   A) bottled water
-   B) air
-   C) household utensils
-   D) shelter
-   **Answer: B**
+**1.** At the highest level of total utility, marginal utility is
+   A) Negative
+   B) positive and falling
+   C) positive and rising
+   D) zero
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**3.** The resources used in production are called
-   A) variable inputs
-   B) factors of production
-   C) capital for production
-   D) fixed inputs
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
+**2.** The desire for goods without the ability to pay is called
+   A) choice
+   B) effective demand
+   C) joint demand
+   D) wants
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**4.** Disposable income means:
-   A) Income that is lost after tax has been removed
-   B) Income that could be spent when tax has been removed
-   C) Income that tax authority mandated to be given to charity when tax has been removed
-   D) Income to be disposed secretly for future spending after tax has been removed
+**3.** Production takes place when
+   A) output is transformed into input
+   B) machines replace human effort
+   C) input is transformed into output
+   D) there is specialization and division of labour
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**4.** What implication does resources scarcity have for the satisfaction of wants?
+   A) not all wants can be satisfied
+   B) we will never be faced with the need to make choice
+   C) we must develop ways to decreases our individual wants
+   D) the discovery of new resource.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**5.** Which of the following is TRUE of marginal cost?
+   A) it is a cost incurred by the firm on variable inputs
+   B) it is the cost of producing one extra unit of a commodity at any output level
+   C) it is the sum of the fixed cost and variable cost
+   D) it is referred to as overhead cost
    **Answer: B**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**6.** If a market for good X is in disequilibrium, which of the following statements is true about the quantity of X that is actually exchanged?
+   A) It is determined by the forces of demand
+   B) it is determined by the forces of supply
+   C) it is determined by both demand and supply forces
+   D) it is determined by the forces of demand or supply whichever is shorter
+   **Answer: C**
    *(Note: Closest available year from ALOC database: 2013)*
 
-**5.** In a sole proprietorship, the decisions are made by the
-   A) Government
-   B) Board of directors
-   C) Shareholder’s Conference
-   D) Owner
-   **Answer: D**
+**7.** A foreign exchange market deals in
+   A) treasury bills
+   B) currencies
+   C) government bonds
+   D) commodities
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**6.** The lender of last resort in the banking system is the
-   A) industrial bank
-   B) mortgage bank
-   C) commercial bank
-   D) central bank
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
+**8.** The problem of scarcity is reduced by
+   A) controlling consumption of goods and services
+   B) producing everything needed by consumers
+   C) ensuring efficient allocation of resources
+   D) restricting consumer choices and tastes
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**7.** At the equilibrium price, quantity demanded is
-   A) greater than quantity supplied
-   B) equal to quantity supplied
-   C) less than quantity supplied
-   D) equal to excess supply
+**9.** The additional satisfaction derived from the consumption of one more unit of a good is called
+   A) marginal product
+   B) marginal utility
+   C) marginal revenue
+   D) marginal cost
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**8.** The direct exchange of one good for another without the use of money is known as
-   A) foreign exchange
-   B) exchange rate
-   C) expenditure
-   D) barter
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**9.** A classroom teacher is promoted to the rank of a principal. This is an example of
-   A) vertical mobility
-   B) lateral mobility
-   C) social mobility
-   D) horizontal mobility
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
+**10.** The economic Community of West African States (ECOWAS) has been slow in achieving its objectives because of
+   A) political instability in member state
+   B) the activities of multi-national
+   C) inadequate personnel at the secretariat
+   D) inadequate international support
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2004)*
 
 
 ---

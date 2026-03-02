@@ -2,161 +2,165 @@
 
 ## Objectives
 
-**1.** X is due east point of y on a coast. Z is another point on the coast but 6.0km due south of Y. If the distance ZX is 12km, calculate the bearing of Z from X
-   A) 240°
-   B) 150°
-   C) 60°
-   D) 270°
+**1.** If U = {x : x is an integer and 1 ≤ x ≤ 20 }
+E1 = {x: x is a multiple of 3}
+E2 = {x: x is a multiple of 4} and an integer is picked at random from U, find the probability that it is not in E2
+   A) 3/4
+   B) 3/10
+   C) 1/4
+   D) 1/20
    **Answer: A**
-   *Explanation: Sinθ = 6/12
+   *Explanation: U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
 
-Sinθ = 1/2
+E1 = {3, 6, 9, 12, 15, 18}
 
-θ =  Sin 0.5
+E2 = {4, 8, 12, 16, 20}
 
-θ = 30°
+Probability of E2 = 5/20 i.e Total number inE<sup>2</sup>/Entire number in set
 
-Bearing of Z from X, (270 - 30)° = 240°*
-   *(Note: Closest available year from ALOC database: 2021)*
 
-**2.** At what rate will the interest on N400 increases to N24 in 3 years reckoning in simple interest?
+Probability of set E2 = 1 − 5/20
+
+
+= 15/20
+
+
+= 3/4*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**2.** What is the mean of the data t, 2t-1, t-2, 2t-1, 4t and 2t+2?
+   A) 2t
+   B) 2t-1
+   C) 2/3t+1
+   D) 2t-1/3
+   **Answer: D**
+   *Explanation: Mean=(t+2t-1+t-2+2t-14t+2t+2)/6 Mean=(12t-2)/6=(2(6t-1))/6=(6t-1)/3=6t/3-1/3=2t-1/3*
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**3.** Find at which rate per annum simple interest N525 will amount to N588 in 3 years.
    A) 3%
    B) 2%
    C) 5%
    D) 4%
-   **Answer: B**
-   *Explanation: Using simple interest = P × T × R/100,
+   **Answer: D**
+   *Explanation: I = A − P
 
-where: P denoted principal = N400
-T denotes time = 3 years
-R denotes interest rate = ?
+= N588 − N525
 
-24 = 400×3×R/100
+∴I = N63
 
-24 x 100 = 400 x 3 x R
+I = PRT ÷ 100
 
-R = (24 × 100)/(400 × 3)
+R = [100I ÷PT]
 
-= 2%*
-   *(Note: Closest available year from ALOC database: 2010)*
+R = [(100 × 63 ) ÷ (525 × 3)]
 
-**3.** Find the derivative of the function y = 2x<sup>2</sup>(2x - 1) at the point x = -1?
-   A) 18
-   B) 16
-   C) -4
-   D) -6
-   **Answer: B**
-   *Explanation: y = 2x<sup>2</sup>(2x - 1)
-y = 4x<sup>3</sup> - 2x<sup>2</sup>
+= (6300 ÷ 1575) = 4
 
-dy/dx = 12x<sup>2</sup>
- - 4x
-at x = -1
-dy/dx = 12(-1)<sup>2</sup>
- - 4(-1)
-= 12 + 4
-= 16*
-   *(Note: Closest available year from ALOC database: 2021)*
+∴ The rate = 4 %*
+   *(Note: Closest available year from ALOC database: 2015)*
 
-**4.** Find the remainder when 3x<sup>3</sup> + 5x<sup>2</sup> - 11x + 4 is divided by x + 3
-   A) -4
-   B) 4
-   C) 1
-   D) -1
+**4.** A man's initial salary is N540.00 a month and increases after each period of six months by N36.00. Find his salary in the eight month of the third year.
+   A) N828.00
+   B) N756.00
+   C) N720.00
+   D) N684.00
    **Answer: C**
-   *Explanation: x = -3
-substitute x = -3 in 3x<sup>3</sup> + 5x<sup>2</sup> - 11x + 4
-3(-3)<sup>3</sup> + 5(-3)<sup>2</sup> - 11(-3) + 4
--81 + 45 + 33 + 4
--81 + 82
-= 1*
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Since the salary increases by #36 after every 6 months
 
-**5.** Factorize 4x<sup>2</sup>  - 9y<sup>2</sup>  + 20x + 25
-   A) (2x -3y + 5)(2x - 3y - 5)
-   B) (2x - 3y)(2x + 3y)
-   C) (2x - 3y +5)(2x + 3y + 5)
-   D) (2x + 5)(2x - 9y +5)
-   **Answer: C**
-   *Explanation: Given: 4x<sup>2</sup> - 9y<sup>2</sup> + 20x + 25
-Collect like terms: 4x<sup>2</sup> + 20x + 25 - 9y<sup>2</sup> (2x + 5)(2x + 5) - 9y<sup>2</sup> 
-(2x + 5)<sup>2</sup> - (3y)<sup>2</sup>                            (2x - 3y +5)(2x + 3y + 5)*
+: 2 years and 8 months imply an increase of five times only:
+
+36 * 5 →  #180
+
+ His salary then = initial salary + increment
+
+  = 540 + 180
+
+  = #720*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**5.** Simplify (3√(64a<sup>3</sup>))<−1
+   A) 4a
+   B) 1/8a
+   C) 8a
+   D) 1/4a
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2001)*
 
-**6.** The smallest section of a rod which can be cut 36cm in length is
-   A) 90cm
-   B) 180cm
-   C) 360cm
-   D) 540cm.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
+**6.** If U = {x : x is an integer and 1≤ x ≤ 20
+E1 = {x : x is a multiple of 3}
+E2 = {x : x is a multiple of 4}
+and an integer is picked at random from U, find the probability that it is not in E2
+   A) 3/4
+   B) 3/10
+   C) 1/4
+   D) 1/20
+   **Answer: A**
+   *Explanation: U = {1, 2, 3, 4, 5,..., 20}
+E1 = {3, 6, 9, 12, 15, 18}
+E2 = {4, 8, 12, 16, 20}
+P(E1) = 5/20
+P(not E1) = 1 - (5/20) = 15/20 = 3/4*
+   *(Note: Closest available year from ALOC database: 2000)*
 
-**7.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
-   A) 1
-   B) 0
-   C) -1/2
-   D) -1
+**7.** The acres for rice, pineapple, cassava, cocoa, and palm oil in a certain district are given respectively as 2, 5, 3, 11, and 9. What is the angle sector for cassava in a pie chart?
+   A) 108°
+   B) 180°
+   C) 36°
+   D) 60°
+   **Answer: C**
+   *Explanation: Total: 2 + 5 + 3 + 11 + 9 = 30
+
+Cassava: 330×360°=36°*
+   *(Note: Closest available year from ALOC database: 2002)*
+
+**8.** Some white balls put in a basket containing twelve red balls and sixteen black balls. If the probability of picking a white balls from the baskets is 3/7, how many white balls were introduced?
+   A) 12
+   B) 21
+   C) 28
+   D) 32
    **Answer: B**
-   *Explanation: mΔn = m+n+mn
-Let e be the identity element
-∴mΔe = eΔm = m
-m+e+me = m
-e+me = m-m
-e+me = 0
-e(1+m) = 0
-e = 0 / (1+m)
-e = 0*
+   *Explanation: Number of white balls = x
+Number of red balls = 12
+Number of black balls = 16
+Total number of balls        = 28 + x
+P(white balls) = 3/7
+But P(white balls)               = x/(28+x)=3/7=x/(28+x) 3(28+x)=7x84+3x=7x7x-3x=844x=84x=21*
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**9.** simplify 〖16〗<sup>((-1)/2)</sup> × 4<sup>((-1)/2)</sup>×〖27〗<sup>(1/3)</sup>
+   A) 3/8
+   B) 2/3
+   C) 3/4
+   D) 3/2
+   **Answer: A**
+   *Explanation: 16<sup>(-1/2)</sup> × 4<sup>(-1/2)</sup> ×27<sup>(1/3)</sup>=1/16<sup>(1/2)</sup> × 1/4<sup>(1/2)</sup>) × 27 <sup>(1/3)</sup>=1/√16×1/√4 × sqrt[3]27 = 1/4 × 1/2 × 3/1 = 3/8*
    *(Note: Closest available year from ALOC database: 2008)*
 
-**8.** Find the simple interest on N325 in 5years at 3% per annum.
-   A) N48.75K
-   B) N50.10K
-   C) N75.50K
-   D) N15.75K
-   **Answer: A**
-   *Explanation: I =[ PRT ÷ 100]
-
-[(325 × 5 × 3) ÷ (100)]
-
-N(195 ÷ 4)
-
-N48.75K*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**9.** A man bought a car for N800 and sold it for N520. Find his loss per cent
-   A) 15%
-   B) 25%
-   C) 35%
-   D) 10%
+**10.** If a car runs at a constant speed and takes 4.5 hrs to run a distance of 225 km, what time will it take to run 150 km?
+   A) 2 hrs
+   B) 4 hrs
+   C) 3 hrs
+   D) 1 hr
    **Answer: C**
-   *Explanation: Percentage Loss = (actual loss ) ÷ (Cost price) × 100
+   *Explanation: Let T be the time taken and D is the distance
 
-Actual loss = Cost Price − Selling Price (sold price)
+For the case given in the problem, the distance covered is directly proportional to the time taken i.e D α T
 
-= N800 − N520 = N280
+⇒ D = ST where S is the constant speed
 
-Percentage loss = (280 ÷ 800) × 100 = 35%
+D = 225 km and T = 4.5 hrs
 
-∴ His loss percent = 35%*
-   *(Note: Closest available year from ALOC database: 2015)*
+∴ 225 = S x 4.5
 
-**10.** Evaluate <sup>n</sup><sup>2 </sup> + <sup>1</sup>C<sub>(n+5)</sub> 
- if n = 3
-   A) 55
-   B) 45
-   C) 35
-   D) 25
-   **Answer: B**
-   *Explanation: <sup>3</sup><sup>2 </sup> + <sup>1</sup>C<sub>(3+5)</sub>
+S = 225/4.5 = 50 km/hr
 
-<sup>9+1</sup>C<sub>3+5</sub>
- 
+When D = 150 km
 
+D = ST
 
-<sup>10</sup>C<sub>8</sub> = 10!/(8!2!)
-(10∗9∗8!)/(8!2!)= (10∗9)/2
-= 45*
-   *(Note: Closest available year from ALOC database: 2022)*
+150 = 50 ...*
+   *(Note: Closest available year from ALOC database: 2023)*
 
 
 ---

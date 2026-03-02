@@ -2,78 +2,77 @@
 
 ## Objectives
 
-**1.** Which of the following is  an  advantage of localization of 
-	industry?
-   A) Development of subsidiary firms
-   B) Creation of parallel markets
-   C) Development of slums
-   D) Attraction of foreign capital
+**1.** If the  active  population  is 50  million and unemployed is 5 million, what is the unemployment rate?
+   A) 10%
+   B) 45%
+   C) 55%
+   D) 90%
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**2.** Money becomes a very poor store of value in a period of
+   A) deflation
+   B) depression
+   C) recession
+   D) inflation
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**3.** The demand for money is
+   A) derived demand
+   B) composite demand
+   C) joint demand
+   D) complimentary demand
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**2.** The privatization exercise in Nigeria is a move towards a
-   A) mixed economy
-   B) subsistence economy
-   C) market economy
-   D) command economy
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**3.** Which of the following is a characteristic of monopoly?
-   A) Many sellers
-   B) Homogeneous commodity.
-   C) A single seller
-   D) Perfect knowledge
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** A firm will shut down in the long run if its earning is
-   A) less than normal profit
-   B) greater than normal profit
-   C) equal to super normal profit
-   D) less than super normal profit
+**4.** What implication does resources scarcity have for the satisfaction of wants?
+   A) not all wants can be satisfied
+   B) we will never be faced with the need to make choice
+   C) we must develop ways to decreases our individual wants
+   D) the discovery of new resource.
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**5.** According to the theory of comparative advantage, specialization will result in
-   A) labour–intensive method of production
-   B) capital–intensive method of production
-   C) efficient allocation of resources
-   D) efficient distribution of output
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
+**5.** Suppose wages paid by a firm increase what would reasonably be expected to happen to the equilibrium price and equilibrium quantity for the firm’s output?
+   A) price increase,  quantity decreases
+   B) price decrease, quantity decrease
+   C) price decreases, quantity increase
+   D) price increases, quantity increase.
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**6.** The transfer of ownership of a public enterprise to  individuals and firms is called
-   A) commercialization
-   B) nationalization
-   C) privatization
-   D) restructuring
-   **Answer: C**
+**6.** The economic Community of West African States (ECOWAS) has been slow in achieving its objectives because of
+   A) political instability in member state
+   B) the activities of multi-national
+   C) inadequate personnel at the secretariat
+   D) inadequate international support
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**7.** Mixed economy refers to a system in which the means of production are controlled by
+   A) private enterprise and the government
+   B) private individuals
+   C) the government only
+   D) the workers and businessmen
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**8.** The production factor, whose entire world supply is fixed is
+   A) land
+   B) skilled labour
+   C) capital goods
+   D) entrepreneurship
+   **Answer: A**
    *(Note: Closest available year from ALOC database: 2005)*
 
-**7.** A supply curve which is vertical has an elasticity co-efficient of
-   A) 0
-   B) 0.5
-   C) 1.5
-   D) 2
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** The monopolist power can be controlled by the government through
-   A) Labour union
-   B) Price legislation
-   C) import restrictions
-   D) export promotion
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**9.** If the quantity demanded of a particular commodity is represented by the function Qd = 30 - 2p. What is the quantity demanded at a price of twelve Naira?
-   A) 6 units
-   B) 8 units
-   C) 10 units
-   D) 12 units
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
+**9.** Which of the following is not a basic assumption underlying the theory of consumer behavior
+   A) Consumers prefer more to less
+   B) consumers are rational
+   C) consumers make consistent
+   D) choices.
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2008)*
 
 
 ---

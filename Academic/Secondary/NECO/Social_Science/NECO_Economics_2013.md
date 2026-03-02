@@ -2,85 +2,84 @@
 
 ## Objectives
 
-**1.** The amount of labour hired depends on the
-   A) number of skilled labour available
-   B) marginal productivity of labour
-   C) skill of labour
-   D) price of other inputs
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**2.** The economic system in which resources are privately owned is known as
-   A) capitalism
-   B) socialism
-   C) Communism
-   D) unitarism
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**3.** Inflation as a result of increase in the payment for factors of production is called
-   A) Cost-pull inflation
-   B) Demand-push inflation
-   C) Cost-push inflation
-   D) Demand pull inflation
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**4.** In a capitalist society, production and consumption are regulated by the:
-   A) demand for the commodity
-   B) the government
-   C) price system
-   D) private individuals
+**1.** Basic economic problems of society include the following except:
+   A) what to produce
+   B) how to produce
+   C) where to produce
+   D) for whom to produce
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2011)*
 
-**5.** Open Market Operation (OMO) means the
-   A) provision of credit facilities by commercial banks
-   B) provision of credit facilities by the mortgage banks
-   C) buying and selling of government securities by the central bank
-   D) procedure for the establishment of commercial banks
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+**2.** The following may not inflate the National Income figure
+   A) Student’s bursary
+   B) Owners occupied houses
+   C) Office Inducement
+   D) Intermediate goods
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2012)*
 
-**6.** The gap between demand and  supply  curves  below the equilibrium price indicates
-   A) excess demand
-   B) excess supply
-   C) equilibrium quantity
-   D) equilibrium price
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
+**3.** Which if this is likely to be inflationary
+   A) Tax increase
+   B) Budget surplus
+   C) increase in unemployment
+   D) wage increase
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**7.** Which of the following is a legal tender?
-   A) Bank notes
-   B) Bank overdrafts
-   C) Bills of exchange
-   D) Money order
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**8.** Price control refers to
-   A) the ways of making more goods available in the market
-   B) a policy of ensuring stable price in the market
-   C) a general reduction in the price level
-   D) effective working of the forces of demand and supply
+**4.** When all factor inputs are reduced by half, the production possibility curve will shift
+   A) outwards
+   B) inwards
+   C) downwards
+   D) upwards
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2005)*
 
-**9.** If government expenditure exceeds revenue, this results in
-   A) balanced budget
-   B) national debt
-   C) budget deficit
-   D) budget surplus
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
+**5.** One-man businesses are popular in West Africa because of all the following except the
+   A) ease of entry
+   B) small capital required
+   C) limited entrepreneurial skill needed
+   D) tendency to become joint-stock companies.
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**10.** The creation of utility can be referred to as
-   A) value added
-   B) profit marginalization
-   C) production
-   D) entrepreneurship.
-   **Answer: C**
+**6.** A debenture holder is entitled to payments in the form of
+   A) allowance
+   B) interest
+   C) salary
+   D) donation
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2006)*
+
+**7.** Which of the following correctly defines inflation?
+   A) A one-time increase in commodity prices
+   B) A period when prices increase rapidly
+   C) A sustained increase in the overall price level
+   D) An increase in the overall level of business activity
+   **Answer: C**
+
+**8.** In a socialist economy, the means of production is owned and controlled by the
+   A) state
+   B) rich
+   C) Entrepreneur
+   D) traders
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**9.** By buying treasury bills, the Central Bank of  Nigeria intends 	to
+   A) increase money supply in the economy
+   B) reduce money supply in the economy
+   C) reduce the cash reserve ratio for banks
+   D) increase the capital base of commercial banks
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**10.** Which of the following is not true of small companies?
+   A) The cannot benefit from economics of scale
+   B) are a good source of new jobs
+   C) can satisfy demand in specialist markets
+   D) have a good record of technical innovations
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2012)*
 
 
 ---

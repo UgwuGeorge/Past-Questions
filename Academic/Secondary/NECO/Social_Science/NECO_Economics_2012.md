@@ -2,23 +2,47 @@
 
 ## Objectives
 
-**1.** If the cross elasticity of demand between X and Y is zero, then
-   A) X and Y are substitutes
-   B) X and Y are complements
-   C) X and Y are dependent on each other
-   D) X and Y are independent of each other
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2013)*
+**1.** Economics is the study of human behaviour as it relates to the
+   A) efficient allocation of resources
+   B) operation of companies
+   C) production of goods
+   D) generation of income
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**2.** The ‘term’ of trade’ means
-   A) The trade agreement between two countries
-   B) The difference in the volumes of exports of two countries
-   C) The value of a unit of export in relation to the value of a unit of import
-   D) None of the above.
+**2.** Optimum population is desirable because it enable an economy to attain maximum
+   A) per capital income
+   B) per capital output
+   C) per capital real income
+   D) per capital revenue
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**3.** Inflation can be curbed by
+   A) Increasing aggregate demand
+   B) paying higher wages
+   C) reducing aggregate demand
+   D) A deficit budget
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**3.** For both the monopolist and the perfectly competitive firm, profit maximizing output occurs at the point where the
+**4.** The central bank controls credit in the economy through the use of
+   A) legal tender
+   B) travelers cheque
+   C) foreign exchange instruments
+   D) open market operations
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**5.** Quasi-rent refers to
+   A) Payment made on acquisition of firm’s premises
+   B) Payment  made  for  the  procurement  of  tools  and equipment
+   C) Returns on investment
+   D) Payment made on  any  factor  of  production  that  is temporarily fixed in supply
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**6.** For both the monopolist and the perfectly competitive firm, profit maximizing output occurs at the point where the
    A) marginal cost curve cuts the marginal revenue curve from below
    B) marginal revenue curve cuts the marginal output from above
    C) marginal cost curve intersects the X-axis
@@ -26,61 +50,37 @@
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2004)*
 
-**4.** Which of the following is not a concept in National income accounting?
-   A) Domestic National Product (DNP)
-   B) Gross National Product (GNP)
-   C) Gross Domestic Product (GDP)
-   D) Net Domestic Product (NDP)
+**7.** Precautionary motive relates to
+   A) demand for money
+   B) demand for goods
+   C) supply of money
+   D) supply of goods
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**5.** Which of the following statement is correct?
-   A) if demand increase and supply decrease equilibrium price will fall
-   B) if supply increase and demand decrease, equilibrium price will fall
-   C) It demand decrease and supply increase increases, equilibrium price will rise
-   D) If supply declines and demand remain constant, equilibrium price will fall.
+**8.** A tent-making factory offers
+   A) personal services
+   B) indirect services
+   C) social services
+   D) reflex services
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**6.** A decrease in supply with demand remaining unchanged will cause the equilibrium price for a good to
-   A) be unchanged
-   B) remain elastic
-   C) remain inelastic
-   D) rise
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
+**9.** Which of the following is not reason for establishing public 	enterprises?
+   A) Discouraging investors
+   B) Opening up neglected parts of the country
+   C) Effective control of a natural monopoly
+   D) Rapid economic development
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**7.** If the price of good X rises and the quantity demanded of good Y increases then the two goods X and Y must be
-   A) inferior good
-   B) substitutes
-   C) complements
-   D) free goods
+**10.** Disposable income means:
+   A) Income that is lost after tax has been removed
+   B) Income that could be spent when tax has been removed
+   C) Income that tax authority mandated to be given to charity when tax has been removed
+   D) Income to be disposed secretly for future spending after tax has been removed
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**8.** Which of the following statement is correct? The Central bank
-   A) prints the country’s currency
-   B) handles the collection of debts of owed to the government
-   C) leads money to businessmen
-   D) issue the country’s currency.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**9.** Identify one among the following which is NOT part of the objectives or functions of the African Development Bank (ADB).
-   A) Provision of technical assistance for development projects
-   B) Provision of funds for the supply and demand of infrastructural facilities
-   C) Adoption of a common tariff policy for trade and development
-   D) Provision of fund for agricultural development
-   **Answer: C**
    *(Note: Closest available year from ALOC database: 2013)*
-
-**10.** Government can boost agricultural output in Nigeria primarily by
-   A) embarking on buffer stock programs
-   B) granting subsidies on farm Inputs
-   C) placing embargo on food importation
-   D) placing farmers on monthly income
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
 
 
 ---

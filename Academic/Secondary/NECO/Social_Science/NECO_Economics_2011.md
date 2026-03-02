@@ -2,77 +2,85 @@
 
 ## Objectives
 
-**1.** Monetary control measures are coordinated by
-   A) development banks
-   B) merchant banks
-   C) commercial banks
-   D) the Central banks
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**2.** A disadvantage of Nigeria’s dependence on imported petroleum products is the
-   A) instability in the demand to the  products
-   B) instability in the supply for the products
-   C) dominance of multinational firms
-   D) poor maintenance of the refineries
+**1.** Taxes levied on commodities are
+   A) direct taxes
+   B) indirect taxes
+   C) poll taxes
+   D) investment taxes
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *(Note: Closest available year from ALOC database: 2004)*
 
-**3.** Productive efficiency refers to:
-   A) the use of the least-cost method of production
-   B) the production of the product-mix most wanted by society
-   C) the full employment of all available resources
-   D) production at some point inside of the production possibilities curve.
+**2.** The monetary system that requires double coincidence of wants is known as
+   A) The gold standard
+   B) The gold standard
+   C) The commodity system
+   D) The gold standard
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**3.** The demand for money is
+   A) derived demand
+   B) composite demand
+   C) joint demand
+   D) complimentary demand
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**4.** The profit of the producer can be calculated as
+   A) total cost less total revenue
+   B) average revenue less average cost
+   C) total revenue less total cost
+   D) marginal revenue less marginal cost
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**5.** Price control refers to
+   A) the ways of making more goods available in the market
+   B) a policy of ensuring stable price in the market
+   C) a general reduction in the price level
+   D) effective working of the forces of demand and supply
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**6.** Which of the following is excluded when estimating national income?
+   A) Dividends
+   B) Wages and salaries
+   C) Transfer payment
+   D) Profits
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**7.** In Nigeria, the location of a steel industry at Ajaokuta is due to
+   A) the availability of transport network
+   B) the proximity to source of power
+   C) the proximity to large deposits of iron ore
+   D) political consideration.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**8.** Production takes place when
+   A) output is transformed into input
+   B) machines replace human effort
+   C) input is transformed into output
+   D) there is specialization and division of labour
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**9.** A person should consume more of something when its marginal:
+   A) benefit exceeds its marginal cost
+   B) cost benefit
+   C) cost equal its marginal benefit
+   D) benefit is still positive.
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**4.** An ad valorem tax refers to a tax
-   A) imposed on exports
-   B) on goods manufactured in the country
-   C) based on the value of the commodity
-   D) levied on income
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**5.** The tax whose rate increases as the level of income increases is known as
-   A) regressive tax
-   B) proportional tax
-   C) progressive tax
-   D) company tax
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**6.** The demand for money to take advantage of changes in bond 	prices is the
-   A) unforeseen motive
-   B) transaction motive
-   C) speculative motive
-   D) precautionary motive
+**10.** The desire for goods without the ability to pay is called
+   A) choice
+   B) effective demand
+   C) joint demand
+   D) wants
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**7.** West  African   countries  have  low  levels  of  economic 	development due to
-   A) underpopulation
-   B) inadequate labour
-   C) failure to plan
-   D) ineffective plan implementation
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**8.** Disposable income means:
-   A) Income that is lost after tax has been removed
-   B) Income that could be spent when tax has been removed
-   C) Income that tax authority mandated to be given to charity when tax has been removed
-   D) Income to be disposed secretly for future spending after tax has been removed
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**9.** Which of the following is a luxury item?
-   A) Petrol
-   B) Textbook
-   C) Pencil
-   D) Gold
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2005)*
 
 
 ---

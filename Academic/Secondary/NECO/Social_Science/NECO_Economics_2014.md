@@ -2,85 +2,86 @@
 
 ## Objectives
 
-**1.** Price fixed above the equilibrium is to
-   A) protect agricultural producers
-   B) discourage agricultural producers
-   C) lower the prices of agricultural produce
-   D) favour consumers
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**2.** lf elasticity of demand for a commodity is less than one, demand is
-   A) unitary elastic
-   B) inelastic
-   C) infinitely elastic
-   D) zero elastic
+**1.** If an increase in income induces a reduction in the demand for beans, beans can be referred to as:
+   A) A normal good
+   B) An inferior good
+   C) A substitute
+   D) A dash
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *(Note: Closest available year from ALOC database: 2009)*
 
-**3.** It is necessary to estimate the national income of a country because it
-   A) indicates the overall performance of the economy
-   B) ensures equitable distribution of wealth
-   C) assists investors in identifying profitable ventures
-   D) enables governments to conserve national resources
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**4.** Identify one among the following which is NOT part of the objectives or functions of the African Development Bank (ADB).
-   A) Provision of technical assistance for development projects
-   B) Provision of funds for the supply and demand of infrastructural facilities
-   C) Adoption of a common tariff policy for trade and development
-   D) Provision of fund for agricultural development
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**5.** A continuous fall in the general price level is called
-   A) recession
-   B) depression
-   C) deflation
-   D) stagflation
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**6.** A classroom teacher is promoted to the rank of a principal. This is an example of
-   A) vertical mobility
-   B) lateral mobility
-   C) social mobility
-   D) horizontal mobility
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**7.** In a country with ageing population, the total population
-   A) comprises young school leavers only
-   B) comprises mainly women
-   C) is increasing at a low rate
-   D) has reached the optimum level
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**8.** The difference between the Gross National Product (GNP) and the Gross Domestic Product(GDP) is
-   A) total interest payment
-   B) net income generated internally
-   C) total national savings
-   D) net income from abroad.
+**2.** Which of the following is not a member of OPEC?
+   A) Indonesia
+   B) Iran
+   C) Venezuela
+   D) Egypt
    **Answer: D**
    *(Note: Closest available year from ALOC database: 2006)*
 
-**9.** In which of the following situations do we have a free good?
-   A) At zero price, more is demanded than supplied
-   B) At zero price, quantity supplied exceeds quantity demanded
-   C) At equilibrium price, quantity supply is equal to quantity demanded.
-   D) Any quantity can be obtained when the price is low
+**3.** A major limiting factor of mass production is
+   A) efficient management
+   B) adequate labour supply
+   C) small size of the market
+   D) adequate  supply of raw materials
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**4.** The best way of combating demand-pull inflation is to
+   A) increase income taxes
+   B) reduce income taxes
+   C) increase import duties
+   D) increase salaries and wages
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**5.** Which of the following does not explain why a school principal earns more salary than a school messenger?
+   A) Length of training
+   B) Demand and Supply
+   C) Cost of training
+   D) The messenger is a non-teaching staff
    **Answer: B**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**6.** If the price of commodity X increases because of the increase in the price vis-à-vis the increase in demand  for other commodities are likely to be
+   A) Complimentary
+   B) Substitute
+   C) Compose
+   D) Intermediate
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**7.** The main difference between a private and a public 
+	enterprise is the
+   A) amount of profit realized
+   B) mode of operation
+   C) objective of the business
+   D) ownership structure
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**8.** A 50% increase in the quantity demanded of a commodity, following a 100% decrease in its price, shows that the commodity has
+   A) Fairly elastic demand
+   B) Unitary elastic demand
+   C) Inelastic demand
+   D) Perfectly elastic demand
+   **Answer: C**
    *(Note: Closest available year from ALOC database: 2013)*
 
-**10.** Commercial banks settle their daily interbank indebtedness through the
-   A) Money Market
-   B) Finance House
-   C) Acceptance House
-   D) Clearing House
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2001)*
+**9.** Which of the following is not true about land?
+   A) The supply is fixed
+   B) Land is mobile
+   C) It is subject to diminishing returns
+   D) Land is heterogeneous
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**10.** When workers have a union, the supply of labour is said to be
+   A) Monopolistic
+   B) oligopolistic
+   C) Monoposonistic
+   D) competitive
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
 
 
 ---

@@ -2,77 +2,69 @@
 
 ## Objectives
 
-**1.** Government revenue from the groundnut industry is from
-   A) licenses
-   B) rents
-   C) royalties
-   D) taxes
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**2.** In the long run, one of the characteristics of monopolistic competitive firms is that the
-   A) make  abnormal profits
-   B) suffer losses
-   C) make normal profits
-   D) collude with each other
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**3.** Optimum population is desirable because it enable an economy to attain maximum
-   A) per capital income
-   B) per capital output
-   C) per capital real income
-   D) per capital revenue
+**1.** The ability of commercial banks to create money depends on the
+   A) Ratio
+   B) liquidity ratio
+   C) interest rate
+   D) capital base
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2009)*
 
-**4.** Precautionary motive relates to
-   A) demand for money
-   B) demand for goods
-   C) supply of money
-   D) supply of goods
-   **Answer: A**
+**2.** The three major agents of an economic system are the
+   A) consumers, workers and producers
+   B) markets, telecommunication and banks
+   C) schools, hospitals and universities
+   D) individuals, firms and government
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**5.** If actual reserves in the banking system are #40,000, excess reserves are #10,000, and checkable deposits are #240,000, then the legal reserve requirement is:
-   A) 10%
-   B) 12.50%
-   C) 20%
-   D) 5%
+**3.** International trade depends on the concept of
+   A) marginal cost advantage
+   B) comparative cost disadvantage
+   C) Comparative cost advantage
+   D) absolute cost
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**4.** An agreement among firms on price and segmentation is termed
+   A) Cartel
+   B) haggling
+   C) collusion
+   D) specialization
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**6.** Which of the following is not a measure for controlling inflation by the central bank?
-   A) Open market operation
-   B) Reserve requirements
-   C) Sale of treasury bills
-   D) change of central Bank Governor
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**7.** A country whose economy is buoyant is likely to have
-   A) a weak currency
-   B) devaluation from time to time
-   C) a strong currency
-   D) balance of payment problem
+**5.** Inflation can be curbed by
+   A) Increasing aggregate demand
+   B) paying higher wages
+   C) reducing aggregate demand
+   D) A deficit budget
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**8.** Which of the following statement is correct? The Central bank
-   A) prints the country’s currency
-   B) handles the collection of debts of owed to the government
-   C) leads money to businessmen
-   D) issue the country’s currency.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
+**6.** A consumer purchasing a commodity X will maximize his satisfaction if
+   A) Px = Mux
+   B) Px  >_  MUx
+   C) Px > Mux
+   D) Px < Mux
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2012)*
 
-**9.** What must be added to variable cost to give total cost?
-   A) Average total cost
-   B) Average variable cost
-   C) Fixed cost
-   D) Marginal cost
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2007)*
+**7.** A major assumption in cardinal utility theory is that
+   A) utility is measurable
+   B) utility is not measurable
+   C) total utility equals marginal utility
+   D) total utility is constant
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**8.** The primary problem of economics is:
+   A) to obtain more equitable distribution of money income
+   B) production of a given output with the lowest cost combination of factors of production
+   C) Adoption of capital- intensive technology
+   D) Increasing the quantity of the fixed factor of production.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2010)*
 
 
 ---

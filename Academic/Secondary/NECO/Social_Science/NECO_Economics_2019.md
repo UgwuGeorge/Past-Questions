@@ -2,77 +2,85 @@
 
 ## Objectives
 
-**1.** Which of the following contributes the highest amount of foreign exchange to the economy of West African nations?
-   A) Construction, manufacturing and banking
-   B) Shipping, trading and fishing
-   C) Power, telecommunications and sports
-   D) Extraction, farming and tourism
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**2.** One-man businesses are popular in West Africa because of all the following except the
-   A) ease of entry
-   B) small capital required
-   C) limited entrepreneurial skill needed
-   D) tendency to become joint-stock companies.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**3.** One of the functions of money is
-   A) double coincidence of wants
-   B) unit of account
-   C) indivisibility
-   D) making payments through banks only
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**4.** The value of money varies
-   A) inversely with the price of level
-   B) directly with the volume of employment
-   C) directly with the price level
-   D) directly with the interest rate.
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** At the highest level of total utility, marginal utility is
-   A) Negative
-   B) positive and falling
-   C) positive and rising
-   D) zero
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**6.** Which of the following is part of the capital account of the balance of payments?
-   A) Net investment from abroad
-   B) Import of machinery
-   C) Insurance
-   D) Transportation costs
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**7.** Which of the following is an invisible item?
-   A) Banking services
-   B) Petroleum products
-   C) Processed rice
-   D) Processed milk
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**8.** Distribution of good and services is hindered by
-   A) good road network
-   B) efficient storage facilities
-   C) too many middlemen.
-   D) Adequate market information.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**9.** Roles of central bank include the following except
-   A) Lender of last resort to commercial bank
-   B) Banker to commercial bank
-   C) Regulator to both the money and capital markets
-   D) Receipt  of government deposits
+**1.** If the current price of an apple is twice that of last year, it implies that the value of money is
+   A) Stable
+   B) falling
+   C) rising
+   D) getting stronger
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2012)*
+
+**2.** The marketing of agricultural products in Nigeria can be improved by
+   A) a massive production of farm produce
+   B) re–establishing the marketing boards
+   C) establishing more agricultural banks
+   D) processing of farm produce
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**3.** One of the functions of commercial banks is
+   A) maintaining stable price in the economy
+   B) granting loans to customers
+   C) regulating monetary policies
+   D) issuing bank notes and coins
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**4.** The type of production that involves the tapping and 	harnessing of natural resources is
+   A) primary production
+   B) secondary production
+   C) tertiary production
+   D) industrial production
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**5.** The value of money is generally measured in relation to the
+   A) interest rate charged on bank loan
+   B) general price level
+   C) size of a country’s gold stock
+   D) volume of imports
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**6.** The grouping of population according to the economic activities people engage in is
+   A) age distribution
+   B) sex distribution
+   C) geographical distribution
+   D) occupational distribution
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**7.** A greater burden of taxes on essential goods in borne by the
+   A) middle income group
+   B) Higher income group
+   C) Lower earning people
+   D) People falling between the middle and higher income group
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**8.** Assume a household would consume N100 worth of goods and services per week if its weekly income were zero and would spend an additional N80 per week for each 100 of additional income, if C represents consumption and Y income the equation that summarizes this relationship is
+   A) C =8+100Y
+   B) C=100+8Y
+   C) C = 100+80Y
+   D) C=80+1Y
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**9.** Price legislation can be defined as
+   A) how price fluctuates in the market
+   B) how prices are controlled in the market
+   C) how to avoid inflation
+   D) how the government fixes the prices of essential commodities.
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**10.** If depreciation exceeds gross investment:
+   A) the economy’s stock of capital may be either growing or shrinking
+   B) the economy’s stock of capital is growing
+   C) net investment is zero
+   D) the economy’s stock of capital is shrinking.
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2010)*
 
 
 ---
