@@ -2,95 +2,88 @@
 
 ## Objectives
 
-**1.** As the triumphant rebels were returning to their base they met with a <u>serious reverse</u>?
-   A) a defeat
-   B) an enemy
-   C) an army
-   D) a victory
+**1.** l<u>u</u>ck
+   A) lock
+   B) lack
+   C) brother
+   D) turn
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**2.** 
-   A) toil
-   B) rejoice
-   C) enjoy
-   D) log
+**2.** The school authority dismissed him for ...... but I won't tell you about it yet?
+   A) certain reason
+   B) a reason
+   C) more reason
+   D) a certain reason
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *Explanation: The school authority dismissed him for a certain reason but I won't tell you about it yet?*
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**3.** r<u>oa</u>red
-   A) towered
-   B) coast
-   C) brought
-   D) rod
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**4.** The principal said that he was pleased......... my effort.
-   A) on
-   B) of
-   C) with
-   D) about
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** These ........ must have ........ the World Bank officials?
-   A) analyses / attract
-   B) analyses / attracted
-   C) analysis / attract
-   D) analysis / attracted
+**3.** The word inclinations, as in the passage
+means
+   A) creeds
+   B) tendencies
+   C) inhibitions
+   D) power.
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2002)*
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**6.** Select the option that best explain the information conveyed in the sentence
+**4.** Some people consider the leather uphoistery and thick rugs a bit <i>sumptuous</i>
+   A) expensive
+   B) desirable
+   C) lavish
+   D) simple
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2005)*
 
-The letter was being written by the principal
-   A) The letter had been written by the principal
-   B) The principal was writing the letter
-   C) The principal wanted to write the letter
-   D) The principal wrote the letter
+**5.** 
+   A) release
+   B) exit
+   C) exchange
+   D) explode
    **Answer: B**
-   *Explanation: When the word 'being' is used in past continuous tense, as it is in the above question, it means the action is happening or was happening before, in a continuous manner, just like in the answer, the principal was writing the letter*
-   *(Note: Closest available year from ALOC database: 2017)*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**7.** The principal was advised to be <u>flexible</u> on critical issues.
-   A) livid
-   B) cautious
-   C) evasive
-   D) rigid
-   **Answer: D**
-   *Explanation: flexible; able to be easily modified to respond to altered circumstances.
-
-Rigid; unable to bend or be forced out of shape; not flexible.*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** As we watched, he just popped along to the shop for some bread
-   A) He has walked slowly to the shop.
-   B) He stole some bread from the shop but we could not stop him
-   C) He broke into the bread shop before our very eyes
-   D) He went quickly to the shop for some bread.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**9.** The writer advocates for multiple sources of university funding in order to ______
-   A) enhance university autonomy
-   B) reduce dependence on the government
-   C) ensure that the numerous needs of the universities are met
-   D) maintain acceptable levels of infrastructural development
+**6.** Didn't .......  draw your attention to the entry requirements?
+   A) anyone
+   B) everyone
+   C) everybody
+   D) no body
    **Answer: A**
-   *Explanation: In the passage, Paragraph 1 tells us the writer considers it desirable that effort be made to reduce the government contributions in the interest of University autonomy even if the government was in a position to meet all of the university's financial requirements.
+   *(Note: Closest available year from ALOC database: 2007)*
 
-Option A is the correct answer.*
-   *(Note: Closest available year from ALOC database: 2020)*
+**7.** If I went to the village I would visit the King.
+   A) If i go to the village, i will visit the king
+   B) I did not go to the village and I did not visit the king
+   C) All the times I went to the village I also visited the king
+   D) I will visit the king when I go to the village
+   **Answer: B**
+   *Explanation: He hasn't visited the village yet, but when he does, he will visit the king.*
+   *(Note: Closest available year from ALOC database: 2011)*
 
-**10.** Choose the most appropriate answer in the numbered 16
-   A) temperature
-   B) class
-   C) profile
-   D) way
+**8.** When they examined his body, they found that he ...
+   A) had been dead
+   B) had been dying
+   C) died
+   D) was dead
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**9.** Though he is our elected representative he often takes a rather jaundiced view of our problems?
+   A) He takes a rather hazy view of our problems
+   B) He takes an unfavourable position concerning our problems
+   C) He takes a rather forceful view of our problems
+   D) He takes a sickly view of our problems
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**10.** 
+   A) Secondment
+   B) Orthopaedic
+   C) oriental
+   D) photographic
    **Answer: A**
-   *Explanation: Temperature; the degree or intensity of heat present in a substance or object, especially as expressed according to a comparative scale and shown by a thermometer or perceived by touch.*
-   *(Note: Closest available year from ALOC database: 2013)*
+   *(Note: Closest available year from ALOC database: 2004)*
 
 
 ---

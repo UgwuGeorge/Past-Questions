@@ -2,90 +2,97 @@
 
 ## Objectives
 
-**1.** All the following are roles of the media but?
-   A) Entertainment
-   B) Sensitization
-   C) Information
-   D) Moralization
+**1.** The brave officer ---------- the time bomb
+   A) diffused
+   B) druse
+   C) defused
+   D) difused
+   **Answer: C**
+   *Explanation: The correct answer is ‘C’ defused which means to remove the fuse from (bomb etc).*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**2.** His wife hates his <u>garrulous</u> attitude?
+   A) outspoken
+   B) unfriendly
+   C) reticent
+   D) thoughtful
+   **Answer: C**
+   *Explanation: Garrulous; excessively talkative, especially on trivial matters.
+
+Reticent; not revealing one's thoughts or feelings readily. Reserved*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**3.** Shakespearian ------------------- are generally the victims of circumstance.
+   A) heros
+   B) heroses
+   C) hero
+   D) heroes
    **Answer: D**
-   *Explanation: moralization - means indulgence in moral pronouncements; or the exposition of a particular moral code.
+   *Explanation: The correct answer is ‘D’ heroes because it is the plural form of ‘hero’. The others are wrongly spelt.*
+   *(Note: Closest available year from ALOC database: 2015)*
 
-This is not a role of mass media according to the passage*
-   *(Note: Closest available year from ALOC database: 2019)*
+**4.** A political  <i>impasse</i>  does not offer the best opportunity for merrymaking
+   A) manifesto
+   B) party
+   C) gridlock
+   D) rally
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**2.** The company Director showed the contractor a ....... of the proposed office complex?
-   A) prototype
-   B) photograph
-   C) microfilm
-   D) photocopy
+**5.** He is <i>prolific</i>  writer
+   A) a very productive
+   B) a well-known
+   C) a clever
+   D) an influential
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**3.** Otokpa took after his late father who was a <i>tee totaller.</i>
-   A) a drunk
-   B) careless
-   C) a disciplinarian
-   D) sober
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** Despite all preparations, the wedding did not ....... ?
-   A) come along
-   B) come off
-   C) come on
-   D) come up
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**5.** Phone
-   A) frown
-   B) grown
-   C) gown
-   D) brown
-   **Answer: B**
-   *Explanation: Both words have the same sound at the end of their pronunciation.*
-
-**6.** The writer uses the expression unless mechanically minded to refers to
-   A) coachman and grooms adaptable to the new technology
-   B) coachmen and grooms who chose to become mechanics
-   C) town authorities laying down tramlines
-   D) those amenable to change and development
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
-
-**7.** We have to iron out our differences at once.
-   A) We must clear up without delay our misunderstanding
-   B) We must sure that our problems are eliminated  at all costs
-   C) We have to settle our disagreement once and for all.
-   D) We have to solve some of our problems for now.
+**6.** The rain fell for days...
+   A) on ending
+   B) at ending
+   C) on end
+   D) at end
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**8.** At the _________ of the century, many ways of doing things were introduced.
-   A) Sight.
-   B) Turn.
-   C) Event.
-   D) Birth.
-   **Answer: B**
-   *Explanation: At the turn of the century, many ways of doing things were introduced.*
+**7.** Akpan was able to <i>douse</i> the flames with the new piece of equipment
+   A) reduce
+   B) extinguish
+   C) ignite
+   D) reinforce
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**8.** He was both a writer and a politician, but he was better ........ a singer
+   A) As if
+   B) Like
+   C) As
+   D) to be
+   **Answer: C**
+   *Explanation: The adverb "as" is the most suitable answer here to govern the noun phrase "a singer".*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**9.** Vi<u>s</u>ion.
+   A) Enclosure.
+   B) Instruction.
+   C) Mansion.
+   D) Nation.
+   **Answer: A**
+   *Explanation: vision; /ˈvɪʒ(ə)n/
+
+enclosure; /ɪnˈkləʊʒə,ɛnˈkləʊʒə/*
    *(Note: Closest available year from ALOC database: 2014)*
 
-**9.** The student's union leader delivered his speech [extempore]
-   A) out-of-hand
-   B) accurately
-   C) off the cuff
-   D) courageously
-   **Answer: C**
-   *Explanation: An extempore speech is made at the spur of the moment i.e without previous preparation.*
-   *(Note: Closest available year from ALOC database: 2019)*
+**10.** nsecurity has <u>escalated</u> since the present government came into power.
+   A) abated
+   B) increased
+   C) proliferated
+   D) metamorphosed
+   **Answer: A**
+   *Explanation: Escalate: increase rapidly.
 
-**10.** The <i>potency</i> of the drug has been acknowledged.
-   A) action
-   B) loss
-   C) inefficacy
-   D) power
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+Abate: (of something unpleasant or severe) become less intense or widespread*
+   *(Note: Closest available year from ALOC database: 2021)*
 
 
 ---

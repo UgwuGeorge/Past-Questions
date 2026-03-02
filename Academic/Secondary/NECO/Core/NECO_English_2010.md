@@ -2,89 +2,83 @@
 
 ## Objectives
 
-**1.** How old is Bint ?
-   A) 6 years old
-   B) 4 years old
-   C) 5 years old
-   D) 7 years old
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**2.** The commander said that the battle would be sustained, total and <i>relentless</i>
-   A) continuous
-   B) brutal
-   C) fierce
-   D) innocuous
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**3.** The President SPOKE to the press
-   A) Did the Present write to the press?
-   B) Did the president speak to the press?
-   C) Who spoke to the press?
-   D) Are these the pressmen that the President spoke to?
+**1.** The armed robbers went into the house and robbed the three
+   A) woman occupants
+   B) women's occupants
+   C) woman's occupants
+   D) women occupants.
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2003)*
 
-**4.** The noise across the road  <i>drowned</i> the sound of the keyboard in my room
-   A) neutralized
-   B) overshadowed
-   C) balanced
-   D) equalized.
+**2.** HONOUR?
+   A) hotel
+   B) hyena
+   C) human
+   D) humane
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: Honour is stressed as HO-nour.
 
-**5.** Choose the most appropriate option for the gap labelled [....20.....] above
-   A) career
-   B) calling
-   C) vacation
-   D) routine
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2016)*
+same as HO-tel*
+   *(Note: Closest available year from ALOC database: 2000)*
 
-**6.** He suddenly found himself in the thick of the situation
-   A) He did not agree with the situation
-   B) He used his experience to settle the sitution
-   C) He saved himself out of the situation
-   D) He found himself deeply involved in the situation
+**3.** Governing a country is not always as  <i>straightforward as</i>  people sometimes imagine.
+   A) complicated
+   B) troublesome
+   C) untoward
+   D) Irksome
    **Answer: D**
-   *Explanation: be in the thick of something means = to be very involved at the busiest or most active stage of a situation or activity*
-   *(Note: Closest available year from ALOC database: 2016)*
 
-**7.** The candidate's charisma should be a..………factor in winning the election.
-   A) determinant
-   B) determinate
-   C) determining
-   D) determinable
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**8.** The circular <u>supersedes</u> all previous correspondence on the matter?
-   A) supports
-   B) displaces
-   C) eliminates
-   D) circumvents
-   **Answer: B**
-   *Explanation: For something to ''supersede'' it means to take the place of (a person or thing previously in authority or use); supplant.
-
-synonymes; replace · supplant · take the place of · take over from · substitute for · displace · oust · overthrow · remove · unseat · override · succeed · come after · step int...*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**9.** Classmate……………………….  I haven't seen for years, wrote to me last week.
-   A) whose
-   B) which
-   C) that
-   D) whom
+**4.** b<u>ee</u>r
+   A) bear
+   B) pear
+   C) fair
+   D) pier
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *(Note: Closest available year from ALOC database: 2005)*
 
-**10.** Salasi's <i>tremendous</i> effort has yielded results.
-   A) absolute
-   B) insignificant
-   C) unimaginable
-   D) prohibitive
+**5.** In the latter part of his life, the famous soldier showed signs of <u>youthfulness</u>?
+   A) energy
+   B) senility
+   C) bravery
+   D) vitality
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**6.** From the words lettered A to D, choose the word that has the same consonant sounds as the one represented by the letters underlined.
+
+Di<u>ce</u>
+   A) shame
+   B) cue
+   C) chair
+   D) loss
+   **Answer: D**
+   *Explanation: The correct answer is ‘D’ because only ‘loss’ /lcs/ has the same consonant sound as ‘dice’ /dais/. Others are ‘shame’ /seim/, ‘cue’ /kju/, ‘chair’ /ʧea/ or /ʧer/*
+   *(Note: Closest available year from ALOC database: 2015)*
+
+**7.** The man reasoned that there ought to be a limit to sycophancy?
+   A) there can be no favour beyond a reasonable point
+   B) sycophants need not talk all the time
+   C) people should know when not use flattery
+   D) sycophants should know when to grant people's requests
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2001)*
+
+**8.** All the candidates looked <u>aghast</u> at the reading of the questions.
+   A) Relaxed.
+   B) Fulfilled.
+   C) Dismayed.
+   D) Satisfied.
+   **Answer: C**
+   *Explanation: ghast; filled with horror or shock.*
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**9.** According to the passage, scientific evidence has made it possible
+   A) for the dead to return and tell their experince
+   B) to make conjectures about what happens after death
+   C) to know a littlt about what happens in the world of the dead
+   D) for one to experience the sensation of dying and living again
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2001)*
 
 
 ---

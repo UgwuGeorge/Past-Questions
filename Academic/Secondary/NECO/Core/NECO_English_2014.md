@@ -2,58 +2,51 @@
 
 ## Objectives
 
-**1.** The Dark Continent was an ...... for Africa?
-   A) abuse
-   B) enigma
-   C) eclectic
-   D) epithet
+**1.** bl<u>ues</u>
+   A) book
+   B) root
+   C) foot
+   D) look
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**2.** <u>Kn</u>ot?
-   A) cot
-   B) keep
-   C) nom
-   D) king
-   **Answer: C**
-   *Explanation: knot; /nɒt/
-
-nom; /nɒm/*
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**3.** w<u>ai</u> st
-   A) fete
-   B) says
-   C) plait
-   D) breakfast
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**4.** He travelled ONLY 20 kilometres before his car stopped?
-   A) Did he travel only 20 kilometres after his car stopped?
-   B) Did he travel exactly 20 kilometres before his car stopped?
-   C) Did you walk only 20 kilometres before the vehicle stopped?
-   D) Did he travel more than 20 kilometres before his car stopped?
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**5.** Things may change soon, but at the moment our economic situation is <i>precarious.</i>
-   A) redeemable
-   B) buoyant
-   C) uncertain
-   D) unattractive.
-   **Answer: C**
    *(Note: Closest available year from ALOC database: 2007)*
 
-**6.** The class has fallen in with the teacher's plans
-   A) The class has ignored the plans
-   B) The class has rejected the plans
-   C) The class has accepted the plans
-   D) The class has modified the plans
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
+**2.** 
+   A) Circulation
+   B) eleven
+   C) impossible
+   D) criticism
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2004)*
 
-**7.** Some aspects of their culture are <i>out of date</i>
+**3.** Both questions are alternatives; you answer ........ one ........ the other
+   A) either/or
+   B) neither/nor
+   C) either/nor
+   D) neither/or
+   **Answer: A**
+   *Explanation: Option A is the best answer. Note that 'either' goes with 'or' and the usage of both creates an impression as to alternatives.*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**4.** Now, I am used ____________ bread without butter
+   A) to eat
+   B) in eating
+   C) of eating
+   D) to eating
+   **Answer: D**
+   *Explanation: eating is present participle. 
+used is an adjective that qualiffied the verb eating. therefore it is is right to say ''to eating'' rightly fits into that statement
+I am used to eating bread without butter.*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**5.** His comment was not <i>printable</i>
+   A) punishable
+   B) suitable
+   C) offensive
+   D) unfair.
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**6.** Some aspects of their culture are <i>out of date</i>
    A) genuine
    B) pragmatic
    C) fashionable
@@ -61,32 +54,37 @@ nom; /nɒm/*
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2008)*
 
-**8.** Choose the most appropriate stress pattern from the options. The stressed are written in capital letters
-
-Judiciary
-   A) judiCIAry
-   B) judiciaRY
-   C) JUdiciary
-   D) juDIciary
+**7.** The new manager was responsible for the …….of the organization.
+   A) uplifting
+   B) lifting
+   C) uplift
+   D) upliftment
    **Answer: D**
-   *Explanation: |ju|DI|cia|ry|*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**9.** 
-   A) convenient
-   B) madam
-   C) embarrass
-   D) contribute
-   **Answer: B**
    *(Note: Closest available year from ALOC database: 2002)*
 
-**10.** Students refused to sympathize with Efua when drinks spilled on her because
-   A) she would not accept their sympathy
-   B) she was Jimi's only girlfriend
-   C) they planned it to disgrace her
-   D) they felt she was arrogant
+**8.** Musa is STAYING in Enugu.
+   A) Was Musa staying in Enugu?
+   B) Is Musa going through Enugu?
+   C) Is Musa staying on the outskirt of Enugu?
+   D) Is Audu staying in Enugu?
+   **Answer: B**
+
+**9.** The traditional chief NARRATED the story to the children
+   A) the children heard the story from the traditional chief
+   B) who narrated the story to the children
+   C) the children could not listen to the story by the traditional chief
+   D) did the chief hide the story from the children
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2016)*
+   *Explanation: By way of juxtaposition, and recurring emphatic importance, Did the chief hide the story from the children is the most preferred answer.*
+   *(Note: Closest available year from ALOC database: 2019)*
+
+**10.** There must be something <i>sinister</i> about her late arrival
+   A) reasonable
+   B) joyful
+   C) hopeful
+   D) ominous.
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2009)*
 
 
 ---

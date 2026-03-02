@@ -2,135 +2,178 @@
 
 ## Objectives
 
-**1.** In the figure above, KL//NM, LN bisects < KNM. If angles KLN is 54o and angle MKN is 35°, calculate the size of angle KMN.
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1725206803/ALOC-Questions/Mathematics/2014/MATH_JAMB_2014_Q44_tzglsu.jpg)*
-   A) 91°
-   B) 89°
-   C) 37°
-   D) 19°
-   **Answer: C**
-   *Explanation: In the diagram above, α
- = 54o(alternate angles; KL||MN) < KNM = 2α
- (LN is bisector of < KNM) = 108°
-
-35° + < KMN + 108° = 180°(sum of angles of △
-)
-
-< KMN + 143° = 180°
-
-< KMN = 180° - 143°
-
-= 37°*
-   *(Note: Closest available year from ALOC database: 2014)*
-
-**2.** From the venn diagram above, the shaded parts represent
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1725206734/ALOC-Questions/Mathematics/2014/MATH_JAMB_2014_Q43_z19fk2.jpg)*
-   A) (P∩Q)∪(P∩R)
-   B) (P∪Q)∩(P∩R)
-   C) (P∪Q)∪(P∪R)
-   D) (P∩Q)∪(P∪R)
+**1.** The mean of 2-t, 4+t, 3-2t, 2+t and t-1 is
+   A) 2
+   B) t
+   C) -t
+   D) -2
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2014)*
+   *Explanation: Mean = (2−t+4+t+3−2t+2+t+t−1)/5
 
-**3.** The histogram above represents the number of candidates that sat for Mathematics examination in a school. How many candidate scored more than 50 marks?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547431/ALOC-Questions/Mathematics/2009/JAMB_MATH_2009_Q47_kmqtw2.jpg)*
-   A) 80
-   B) 95
-   C) 100
-   D) 115
+
+= 10/5
+ = 2*
+
+**2.** The average age of x pupils in a class is 14 years 2 months. A pupils of 15years 2 months joins the class and  the average age is increased  by one month. Find x.
+   A) 12,
+   B) 6,
+   C) 11,
+   D) 14,
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2008)*
+
+**3.** If the mean of 2, 5, (x+1), (x+2), 7 and 9 is 6. Find the median
+   A) 5.5
+   B) 5
+   C) 6.5
+   D) 6
+   **Answer: C**
+   *Explanation: Firstly; solving for x
+
+6 = (2+5+x+1+x+2+7+9)/6
+cross multiply to have:
+
+6 * 6 = 2 + 5 + x+1 + x+2 + 7 + 9
+
+36 = 2x + 26
+
+36 - 26 = 2x
+
+10 = 2x
+
+x = 5
+
+Median = 7+6/2
+→ 6.5*
+   *(Note: Closest available year from ALOC database: 2022)*
+
+**4.** If x varies directly as square root of y and x = 81 when y = 9, Find x when y = 1(7/9)
+   A) 20(1/4)
+   B) 27
+   C) 2(1/4)
+   D) 36
+   **Answer: D**
+   *Explanation: x α√y
+
+
+x = k√y
+
+
+81 = k√9
+
+
+k = 81/3
+
+
+= 27
+
+therefore, x = 27√y
+
+
+y = 1(7/9) = 16/9
+
+
+x = 27 x √(16/9)
+
+
+= 27 x 4/3
+
+
+dividing 27 by 3
+
+= 9 x 4
+
+= 36*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**5.** A matrix P is such that P<sup>T</sup>= p, where P<sup>T</sup> is the transpose of P, if b = 1, then P is
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710692182/ALOC-Questions/Mathematics/2000/question-48_dp4ky2.jpg)*
+   A) (0, 1)
+(1, 0)
+   B) (0, 1)
+(-1, 0)
+   C) (0, 1) 
+(1, 1)
+   D) (1, 1)
+(-1,0)
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2000)*
+
+**6.** A binary operation on the real set of numbers excluding -1 is such that for all m, n ∈ R, mΔn = m+n+mn. Find the identity element of the operation.
+   A) 1
+   B) 0
+   C) -1/2
+   D) -1
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: mΔn = m+n+mn
+Let e be the identity element
+∴mΔe = eΔm = m
+m+e+me = m
+e+me = m-m
+e+me = 0
+e(1+m) = 0
+e = 0 / (1+m)
+e = 0*
+   *(Note: Closest available year from ALOC database: 2008)*
 
-**4.** The result of tossing a fair die 120 times is 
-summarized above. Find the value of x
-   A) 21
-   B) 19
-   C) 22
-   D) 20
-   **Answer: **
+**7.** On a pie chart, there are four sectors of which three angles are 45°, 90° and 135°. If the smallest sector represents N28.00, how much is the largest sector?
+   A) N96.00
+   B) N84.00
+   C) N48.00
+   D) N42.00
+   **Answer: B**
+   *Explanation: Let the 4th angle be = x
+∴ x + 45 + 90 + 135 = 360
+x + 270 = 360
+x = 360 - 270
+x = 90
+∴ smallest angle = 45°
+45° = N28.00
+1° = 28.00/45
+135° = (28.00/45) * (135/1)
+= N84.00*
    *(Note: Closest available year from ALOC database: 2003)*
 
-**5.** If dy/dx = x + cos x, find y
-   A) x<sup>2</sup> - sin x + c
-   B) x<sup>2</sup> + sin x + c
-   C) x<sup>2</sup>/2 - sin x + c
-   D) x<sup>2</sup>/2 + sin x + c
+**8.** If (K2)
+<sub>6</sub> * 3<sub>6</sub> = 3<sub>5</sub>(K4)<sub>5</sub>, what is the value of k?
+   A) 1
+   B) 4
+   C) 3
+   D) 2
    **Answer: D**
-   *Explanation: dy/dx = x + cos x
-y = ∫(x + cos x)dx
-y = 1/2x<sup>2</sup> + sin x + C*
+   *Explanation: (K2)
+<sub>6</sub> * 3<sub>6</sub> = 3<sub>5</sub>(K4)<sub>5</sub>
+k*6<sup>1</sup>  + 2*6<sup>0</sup>  + 3*5<sup>0</sup>  = 3*5<sup>0</sup>  + K*5<sup>1</sup>  + 4*5<sup>0</sup> 
+6K + 2 = 5K + 4
+6K - 5k = 4 - 2
+K = 2*
    *(Note: Closest available year from ALOC database: 2006)*
 
-**6.** The 3rd term of an arithmetic progression is -9 and the 7th term is -29. Find the 10th term of the progression
-   A) -44
-   B) -165
-   C) 165
-   D) 44
+**9.** Solve the quadratic inequalities x<sup>2</sup> - 5x + 6 ≥ 0
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715545860/ALOC-Questions/Mathematics/2008/MATH_2008_Q18_SOLUTION_qtwz0u.jpg)*
+   A) x ≤ 2, x ≥ 3
+   B) x ≤ 3, x ≥ 2
+   C) x ≤ -2, x ≥ -3
+   D) x ≤-3, x ≥ 2
    **Answer: A**
-   *Explanation: 3rd term : a + 2d = -9 .......(1)
-7th term : a + 6d = -29 ......(2)
-(2) - (1): 4d = -20
-:. d = -20/4 = -5
-From (1) : a + 2(-5) = -9
-a - 10 = -9
-:. a = -9 + 10 = 1
-:. 10th term of A.P is a + 9d = 1 + 9 (-5)
-= 1 - 45 = -44*
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**7.** If sinθ = 3/5. Find Tanθ
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715546229/ALOC-Questions/Mathematics/2008/MATH_2008_Q30_SOLUTION_nstl3z.jpg)*
-   A) 3/4
-   B) 3/5
-   C) 2/5
-   D) 1/4
-   **Answer: A**
-   *Explanation: sinθ = 3/5
-x2 = 52 - 32*
+   *Explanation: x<sup>2</sup> - 5x + 6 = 0
+(X-2)(X-3) = 0
+X-2 = 0 implies X = 2
+X-3 = 0 implies X = 3
+− x ≤ 2, x ≥ 3*
    *(Note: Closest available year from ALOC database: 2008)*
 
-**8.** 5, 8, 6 and k occur with frequency 3, 2, 4, and 1 respectively and have a mean of 5.7. Find the value of k?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547324/ALOC-Questions/Mathematics/2009/MATH_2009_Q41_SOLUTION_kripfc.jpg)*
-   A) 4
-   B) 3
-   C) 2
-   D) 1
-   **Answer: C**
-   *Explanation: Mean =	∑fx/∑fx
- 
-
-
-5.7 =55+k/10
-
-57 = 55 + k
-k = 57 - 55
-k = 2*
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**9.** Differentiate sin x - x cos x
-   A) x cos x
-   B) x sin x
-   C) -x cos x
-   D) -x sin x
+**10.** Calculate the perimeter of a sector of a circle of raduis 12cm and angle 60°.
+   A) (12 + 4π)cm
+   B) (24 + 4π)cm
+   C) (12 + 6π)cm
+   D) (24 + 6π)cm
    **Answer: B**
-   *Explanation: sin x - x cos x
-dy/dx = cos x - [1.cos x + x -sin x]
-= co x - [cos x - x sin x]
-= cos x - cos x + x sin x
-= x sin x*
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**10.** If X = {n<sup>2</sup>
- + 1:n = 0,2,3} and Y = {n+1:n=2,3,5}, find X∩Y.
-   A) {1,3}
-   B) {5,10}
-   C) 0
-   D) {4,6}
-   **Answer: C**
-   *Explanation: X = {1,5,10}
-Y = {3,4,6}
-X∩Y = ∅*
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: Perimeter = 2r + θ/360
+ x 2πr
+= 2(12) + 60/360
+ x 2 x π x 12
+= (24 + 4π)cm*
 
 
 ---

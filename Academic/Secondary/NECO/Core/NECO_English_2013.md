@@ -2,93 +2,94 @@
 
 ## Objectives
 
-**1.** Select the wrongly spelt words
-   A) disappointed
-   B) embarassed
-   C) equipped
-   D) restaurant
+**1.** They hated the police and, by <i>implication,</i> me
+   A) extension
+   B) inference
+   C) examination
+   D) application
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**2.** All the ________ were stolen by the thieves
+   A) arm and ammunition
+   B) arms and ammunition
+   C) arm and ammunitions
+   D) arms and ammunitions
    **Answer: B**
-   *Explanation: correctly spelt  embarrassed*
+   *Explanation: Option B is the appropriate spelling.*
+   *(Note: Closest available year from ALOC database: 2020)*
+
+**3.** From the options, choose the word(s) that best filll the gap.
+
+Mrs Godwin ---------------- in this school since 2001
+   A) taught
+   B) was teaching
+   C) teaches
+   D) has been teaching.
+   **Answer: D**
+   *Explanation: The answer is ‘D’ because it is its present perfect continuous tense*
    *(Note: Closest available year from ALOC database: 2015)*
 
-**2.** If one perseveres ....... will surely succeed?
-   A) she
-   B) one
-   C) he
-   D) they
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2002)*
+**4.** The village girl wore <u>sumptuous</u> clothes?
+   A) faded looking
+   B) cheap
+   C) expensive
+   D) loose-fitting
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2001)*
 
-**3.** One advantage of the English language in Nigeria is that it puts everyone ........ a common ........ ?
-   A) at /equality
-   B) on / footing
-   C) in / standing
-   D) in / advantage
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2002)*
+**5.** He can recall the important dates in the nation's history; it is interesting to listen as he rattles…….
+   A) off
+   B) over
+   C) up
+   D) out
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**4.** The driver was short of petrol, so he ........ down the road with the engine switched off
-   A) glided
-   B) coasted
-   C) wheeled
-   D) taxied
-   **Answer: B**
-   *Explanation: Coasted means to move forward in a vehicle without using the engine.*
+**6.** He is loved for his <i>altruism</i>
+   A) benevolence
+   B) sincerity
+   C) selfishness
+   D) selflessness
+   **Answer: C**
+   *Explanation: Altruism means to have regard for others at the expense of oneself.
+
+Selfishness means to always consider one’s own interest before others.*
+   *(Note: Closest available year from ALOC database: 2018)*
+
+**7.** After the wedding, the wife became <u>anorexic</u>
+   A) obese
+   B) melancholic
+   C) excited
+   D) skinny
+   **Answer: A**
+   *Explanation: To be anorexic means to have an eating disorder resulting to an abnormally low body weight. Consequently, the direct opposite herein, is to be obese or fat.*
    *(Note: Closest available year from ALOC database: 2019)*
 
-**5.** It is often……. that inflation ……….  from too much money chasing very few goods.
-   A) said/results
-   B) say/result
-   C) said/result
-   D) say/ resulted
+**8.** The inventors of biocell justified the need for it by saying that it would
+   A) develop ways for changing biocells into fuel for use
+   B) yield a source of energy without much spending
+   C) produce electricity for all types of machines
+   D) produce signals to guid all ships and other vessels
+   **Answer: B**
+   *Explanation: Biocell will use materials that would otherwise be considered a waste. This means less spending*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**9.** 1 missed the match though it was shown on television on  two…….. nights.
+   A) concurrent
+   B) consistent
+   C) concrete
+   D) conservative
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**10.** <i>Gregarious</i> animals can be found in the zoo.
+   A) lonely
+   B) tame
+   C) wild
+   D) various
    **Answer: A**
    *(Note: Closest available year from ALOC database: 2003)*
-
-**6.** The stadium was <i>seething</i> with people when we entered
-   A) filled
-   B) crowded
-   C) empty
-   D) noisy.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**7.** We must not <u>foreclose</u> reconciliation as the purpose of his trip
-   A) exclude
-   B) consider
-   C) underestimate
-   D) forgo
-   **Answer: A**
-   *Explanation: Foreclose; rule out or prevent (a course of action).
-
-Exclude; remove from consideration.*
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** mis<u>chi</u>ef
-   A) Christmas
-   B) ritual
-   C) Brochure
-   D) Champagne
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**9.** In the book "Independence" Tayo's uncle, Kayode, wanted to study Engineering in _______?
-   A) Britain
-   B) U.S.A
-   C) France
-   D) Germany
-   **Answer: C**
-   *Explanation: In chapter sixteen, Tayo's uncle, Kayode, revealed to him that he was considering studying engineering at the Insitute du Petrole in France*
-   *(Note: Closest available year from ALOC database: 2017)*
-
-**10.** If you are confused.......anything, phone my office
-   A) of
-   B) with
-   C) about
-   D) for
-   **Answer: C**
-   *Explanation: About is correct.
-"Confused with", is generally used when you fail to distinguish or mistake one for an other. For example, 'I always confuse Tanya with her sister'.
-On the other hand, "Confused about" is used when 'confuse' is given it's literal meaning. For example, "I am confused about what to do...*
 
 
 ---

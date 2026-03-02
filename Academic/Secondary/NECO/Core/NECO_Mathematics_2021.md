@@ -2,158 +2,169 @@
 
 ## Objectives
 
-**1.** Solve the inequality x<sup>2</sup> + 2x > 15.
-   A) x < -3 or x > 5
-   B) -5 < x < 3
-   C) x < 3 or x > 5
-   D) x > 3 or x < -5
+**1.** If p : q = 2/3 : 5/6 and q : r = 3/4 : 1/2, find p : q : r
+   A) 12 : 15 : 10
+   B) 12 : 15 : 16
+   C) 10 : 15 : 24
+   D) 9 : 10 : 15
+   **Answer: A**
+   *Explanation: If p : q = 2/3 : 5/6, then the sum S1 of ratio = 2/3 + 5/6 = 9/6
+
+If q : r = 3/4 : 1/2, then the sum S2 of ratio = 3/4 + 1/2 = 5/4
+
+Let p + q = T1, then
+
+q = (5/6÷9/6)T1 = (5/6×6/9)T1 = 5/9T1
+
+Again, let q + r = T2, then
+
+q = (3/4÷5/4)T2 = (3/4×4/5)T2 = 3/5T2
+
+Using q = q
+
+5/9T1 = 3/5T2
+
+5 x 5T1 = 9...*
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**2.** From the diagram above, find x
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716128227/ALOC-Questions/Mathematics/2010/MATH_2010_Q10_d2xag1.jpg)*
+   A) 65°
+   B) 50°
+   C) 75°
+   D) 55°
+   **Answer: A**
+   *Explanation: ∠RTS = 90° (∠ in semi circle)
+∠UTS = 25° (∠ in alternate segment)
+X + 90 + 25 = 180(sum of ∠s on a str line)
+X + 115 = 180
+X = 180 - 115
+X = 65°*
+   *(Note: Closest available year from ALOC database: 2010)*
+
+**3.** Make L the subjects of the formula if d=√(42w/5l)
+   A) √(42w/5d)
+   B) 42W/(5d<sup>2</sup> )
+   C) 42/5dW
+   D) 1/d √(42w/5)
    **Answer: B**
-   *Explanation: x2 + 2x > 15
+   *Explanation: d = √(42w/5l).   square both side of the equation    d<sup>2</sup>=〖(√(42W/5l))〗<sup>2</sup> d<sup>2</sup>=42W/5l 5ld<sup>2</sup>=42W.    l=42W/(5d<sup>2</sup> )*
+   *(Note: Closest available year from ALOC database: 2007)*
 
-x2 + 2x - 15 > 0
+**4.** THe cost of renovating a 6 m square room is N540. What is the cost of renovating a 9 m square room?
+   A) N1215
+   B) N720
+   C) N1620
+   D) N810
+   **Answer: D**
+   *Explanation: Cost of removing a 6m2 room = N540
+Cost of renovating a 1m2 room = 540 / 6
+Cost of removing a 9m2 room
+= (540 / 6) * 9
+= N810*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-(x2 + 5x) - (3x - 15) > 0
+**5.** Factorize 16(3x+2y)2-25 (a+2b)2
+   A) (12x +8y+5a+10b)(12x+8y-5a-10b)
+   B) (12x+8y-5a-10b) (12x+8y-5a-10b),
+   C) 20 (3x +2y-a-2b)(3x+2y+a+2b)
+   D) 20(3x+2y+a+2b) (3x+2y+a+2b).
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2006)*
 
-x(x + 5) - 3(x + 5) >0
+**6.** Evaluate ∣∣∣∣42−1231−1−13∣∣∣∣
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1716129601/ALOC-Questions/Mathematics/2011/MATH_JAMB_2011_Q22_v62583.jpg)*
+   A) 25
+   B) 45
+   C) 15
+   D) 55
+   **Answer: A**
+   *Explanation: 4[(3 x 3) - (-1 x 1)] -2 [(2x 3) - (-1 x -1)] -1 [(2 x 1) - (-1 x 3)]
 
-(x - 3)(x + 5) > 0
+= 4[9 + 1] -2 [6 - 1] -1 [2 + 3]
 
-therefore, x = 3 or -5
+= 4(10) - 2(5) - 1(5)
 
-i.e. x< 3 or x > -5*
+= 40 - 10 - 5
+
+= 25*
    *(Note: Closest available year from ALOC database: 2011)*
 
-**2.** The bar chart above shows the number of times the word a, and , in, it, the , to appear in a paragraph in a book. What is the ratio of the least frequent word?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715546269/ALOC-Questions/Mathematics/2008/MATH_2008_Q37_rkcwin.jpg)*
-   A) 1/4
-   B) 1/3
-   C) 2/3
-   D) 3/4
-   **Answer: A**
-   *Explanation: Ratio of least to most = 3:12
-= 3/12
-= 1/4*
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**3.** Determine the locus of a point inside a square PQRS which is eqidistant from PQ and QR
-   A) The diagonal QS
-   B) the perpendicular bisector of PQ
-   C) The diagonal PR
-   D) side SR
-   **Answer: A**
-   *Explanation: The diagonal QS bisects the angle formed by PQ and QR
-∴ [A]*
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**4.** The locus of a point P which moves on one side only of a straight line XY so that ∠XPY = 90° is
-   A) a circle
-   B) a semicircle
-   C) an arc of a circle through X, Y
-   D) the perpendicular bisector of XY
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**5.** Find the value of y if 402<sub>y</sub> =102<sub>ten</sub>
-   A) 4
-   B) 2
-   C) 5
-   D) 3
-   **Answer: C**
-   *Explanation: 402<sub>y</sub> =102<sub>ten</sub> 
- 
-⇒ 4 x y<sup>2</sup> + 0 x y<sup>1</sup> + 2 x y<sup>0</sup>
- = 102
-
-⇒ 4y<sup>2</sup> + 0 + 2 x 1 = 102
-
-⇒ 4y<sup>2</sup> + 2 = 102
-
-⇒ 4y<sup>2</sup> = 102 - 2
-
-⇒ 4y<sup>2</sup> = 100
-
-⇒ y<sup>2</sup>=100/4
-⇒ y<sup>2</sup> = 25
-
-∴ y = √25 = 5*
-   *(Note: Closest available year from ALOC database: 2023)*
-
-**6.** (0.00256×0.0064)/(0.025 × 0.08)
-   A) 8.8 x 10<sup>-1</sup>
-   B) 8.8 x 10<sup>-2</sup>
-   C) 8.2 x 10<sup>-3</sup>
-   D) 8.8 x 10<sup>3</sup>
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**7.** Find the value of ∣∣∣∣010375284∣∣∣∣
-.
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1725206533/ALOC-Questions/Mathematics/2014/MATH_JAMB_2014_Q23_zwoj2v.jpg)*
-   A) 12
-   B) 10
-   C) -1
-   D) -2
+**7.** If ∣∣∣−x−1124∣∣∣=−12
+, find x.
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724001964/ALOC-Questions/Mathematics/2014/MATH_JAMB_2014_Q21_csqcpp.jpg)*
+   A) -6
+   B) -2
+   C) 3
+   D) 6
    **Answer: D**
-   *Explanation: = 0(28 - 40) - 3(4 - 0) + 2(5 - 0)
+   *Explanation: -4x - (-1)12 = -12
 
-= 0(-12) - 3(4) + 2(5)
+-4x + 12 = -12
 
-= 0 - 12 + 10
+-4x = -12 - 12
 
-= -2*
+-4x = - 24
+
+x = 6*
    *(Note: Closest available year from ALOC database: 2014)*
 
-**8.** The remainder when 6p3 - p<sup>2</sup> - 47p + 30 is divided by p - 3 is
-   A) 21
-   B) 42
-   C) 63
-   D) 18
-   **Answer: B**
-   *Explanation: Let f(p) = 6p<sup>3</sup> - p<sup>2</sup> - 47p + 30
-
-Then by the remainder theorem,
-
-(p - 3): f(3) = remainder R,
-
-i.e. f(3) = 6(3)<sup>3</sup> - (3)2 - 47(3) + 30 = R
-
-162 - 9 - 141 + 30 = R
-
-192 - 150 = R
-
-R = 42*
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**9.** A man bought a car for N800 and sold it for N520. Find his loss per cent
-   A) 15%
-   B) 25%
-   C) 35%
-   D) 10%
+**8.** Determine the maximum value of y = 3x<sup>2</sup> - x<sup>3</sup>
+   A) zero
+   B) 2
+   C) 4
+   D) 6
    **Answer: C**
-   *Explanation: Percentage Loss = (actual loss ) ÷ (Cost price) × 100
+   *Explanation: y = 3x<sup>2</sup> - x<sup>3</sup>
+dy/dx = 6x - 3x<sup>2</sup>
+as dy/dx = 0
+6x - 3x<sup>2</sup> = 0
+3x (2 - x) = 0
+this implies that 2 -x = 0 and 3x = 0
+x = 2 (or) 0
+But = dy/dx = 6x - 3x<sup>2</sup>
+d<sup>2</sup>y/dx<sup>2</sup> = 6 - 6x at x = 2
+= 6 - 6(2)
+= -6
+y = 3x<sup>2</sup> - x<sup>3</sup>
+=...*
+   *(Note: Closest available year from ALOC database: 2003)*
 
-Actual loss = Cost Price − Selling Price (sold price)
+**9.** In a group of 500 people, 350 people can speak English, and 400 people can speak French. Find how many people can speak both languages.
+   A) 750
+   B) 850
+   C) 250
+   D) 150
+   **Answer: C**
+   *Explanation: Let F be the set of people who can speak French and E be the set of people who can speak English. Then,
 
-= N800 − N520 = N280
+n(F) = 400
 
-Percentage loss = (280 ÷ 800) × 100 = 35%
+n(E) = 350
 
-∴ His loss percent = 35%*
-   *(Note: Closest available year from ALOC database: 2015)*
+n(F ∪ E) = 500
 
-**10.** Evaluate (2√3 - 4) (2√3 + 4)
-   A) -4
-   B) -2
-   C) 2
-   D) 4
+We have to find n(F ∩ E).
+
+Now, n(F ∪ E) = n(F) + n(E) – n(F ∩ E)
+
+⇒ 500 = 400 + 350 – n(F ∩ E)
+
+⇒ n(F ∩ E) = 750 – 500 = 250.
+
+∴ 250 people can speak both...*
+   *(Note: Closest available year from ALOC database: 2023)*
+
+**10.** What is the rate of change of the volume V of a hemisphere with respect to its radius r when r = 2?
+   A) 8π
+   B) 16π
+   C) 2π
+   D) 4π
    **Answer: A**
-   *Explanation: 2√3 - 4) ( 2√3 + 4)
-
-= 12 + 8√3 - 8√3 – 16
-
-= 12 – 16
-= -4*
-   *(Note: Closest available year from ALOC database: 2018)*
+   *Explanation: V=2/3 πr<sup>3</sup>
+dV/dr = 2πr<sup>2</sup>
+dV/dr(r = 2) = 2π(2)<sup>2</sup>
+= 8π*
 
 
 ---

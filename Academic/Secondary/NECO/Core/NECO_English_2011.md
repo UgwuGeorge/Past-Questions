@@ -2,90 +2,89 @@
 
 ## Objectives
 
-**1.** Things may change soon, but at the moment our economic situation is <i>precarious.</i>
-   A) redeemable
-   B) buoyant
-   C) uncertain
-   D) unattractive.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**2.** He is a <u>stringer</u> for a newspaper?
-   A) a financier of
-   B) an editor of
-   C) a freelancer for
-   D) a reporter for
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**3.** From the passage, it can be deduced that curiosity thrives
-   A) through conducts that are inimical to our activities
-   B) if we are able to probe into what others are thinking
-   C) only if we become suspicious of people's motives
-   D) if the subject of discussion is of interest to us
+**1.** In our college, the regulations concerning resists are a grey area
+   A) The regulations have just been revised
+   B) The regulations have often been ignored
+   C) The regulations are perfectly clear
+   D) The regulations are not very clear.
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2016)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**4.** Which of the following statements is true according to the passage?
-   A) Suspicion often stimulates inquisitiveness
-   B) Every human conduct often gives rise to curiosity
-   C) Our environment always inhibits curiosity
-   D) Curiosity is effective where there is no room for it
-   **Answer: A**
-   *Explanation: According to the passage, curiosity comes alive as a result of our inquisitiveness and suspicion of events happening with people around  us.*
-   *(Note: Closest available year from ALOC database: 2016)*
-
-**5.** You must practise in order to................perfection.
-   A) obtain
-   B) have
-   C) get
-   D) achieve
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**6.** The <u>exhibition</u> was an eye-opener to all
-   A) style
-   B) examination
-   C) dispatch
-   D) display
-   **Answer: D**
-   *Explanation: Exhibition means a public display of woks of art or items of interest*
-   *(Note: Closest available year from ALOC database: 2018)*
-
-**7.** She traced her family history _____ matrilineal.
-   A) At.
-   B) In.
-   C) By.
-   D) With.
-   **Answer: C**
-   *Explanation: She traced her family history by matrilineal.*
-   *(Note: Closest available year from ALOC database: 2014)*
-
-**8.** Choose the most appropriate answer in the numbered 18
-   A) shocktherapy
-   B) shockwaves
-   C) shocktroops
-   D) shockjocks
+**2.** One of the women who .... in the premises.... been  ordered to quit
+   A) sells/have
+   B) sell/has
+   C) sell/have
+   D) sells/has
    **Answer: B**
-   *Explanation: shockwaves; a sharp change of pressure in a narrow region travelling through a medium, especially air, caused by explosion or by a body moving faster than sound.*
-   *(Note: Closest available year from ALOC database: 2013)*
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**9.** Aliya was advised to be mindless of popular perception about her…
-   A) when it comes to her self esteem
-   B) when it comes to applying
-   C) whenever she is in love with anyone
-   D) eventhough she craves for freedom like the hawking girls
+**3.** The train ………. before I arrived
+   A) was leaving
+   B) has left
+   C) had left
+   D) would leave
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2005)*
+
+**4.** In question number 8 above, choose the best option from the letters A-D that best completes the gap.
+   A) experiment
+   B) data
+   C) conclusion
+   D) questionaires
    **Answer: A**
-   *Explanation: Bunmi continously made jest of Aliya as fat, her father however, encouraged her (Aliya) to be proud of her body structure as beauty lies in the eyes of the beholder and not in what people ordinarily think.*
-   *(Note: Closest available year from ALOC database: 2019)*
-
-**10.** Some equatorial areas have a <u>sultry</u> climate?
-   A) a hot
-   B) an inclement
-   C) a temperate
-   D) a stable
-   **Answer: B**
    *(Note: Closest available year from ALOC database: 2001)*
+
+**5.** I do not trust him', he said, in a rare moment of <u>candour</u>?
+   A) reproach
+   B) dishonesty
+   C) frankness
+   D) fairness
+   **Answer: B**
+   *Explanation: Candour; the quality of being open and honest; frankness*
+
+**6.** There has been a <i>downturn</i> in the affairs of the company.
+   A) a massive increase
+   B) little progress
+   C) a turn-around
+   D) a decline
+   **Answer: D**
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**7.** In question number 21 above, choose the best option from letters A - D that best completes the gap.
+   A) popularity
+   B) energy
+   C) ingenuity
+   D) incapability
+   **Answer: C**
+   *Explanation: Ingenuity; the quality of being clever, original, and inventive.*
+
+**8.** choose the option opposite in meaning to the word or phrase in italics
+
+They come here on bootless <i>errand</i>
+   A) worthwhile
+   B) vain
+   C) delusive
+   D) intended
+   **Answer: A**
+   *Explanation: The word bootless means ineffectual, useless of a task or undertaking, while the answer worthwhile means worth the time, effort spent
+Bootless explains that the errand was useless while worthwhile explains it was the effort, which is also synonymous to the word useful*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**9.** Democracy
+   A) DEmocracy
+   B) deMOcracy
+   C) demoCRAcy
+   D) democraCY
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2021)*
+
+**10.** The writer says 'the firearms figure are rising' because
+   A) more teenagers are now getting killed by firearms than by motor vehicle accidents
+   B) firearms now have figures that are terribly high
+   C) more teenagers now carry firearm than used to be the case
+   D) more teenagers are now getting killed by firearm than used to be the case
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2000)*
 
 
 ---

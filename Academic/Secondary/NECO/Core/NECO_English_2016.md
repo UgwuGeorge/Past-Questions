@@ -2,90 +2,97 @@
 
 ## Objectives
 
-**1.** ……………his illness, Muhammad could not come to school.
-   A) with reference to
-   B) referring to
-   C) owing to
-   D) due to .
+**1.** There are still [virtuous] women in our society today
+   A) devilish
+   B) clever
+   C) intelligent
+   D) upright
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Upright is correct answer. Virtuous means having and demonstrating high level of moral standards or ethics, which is the same as being upright,*
+   *(Note: Closest available year from ALOC database: 2019)*
 
-**2.** Nwankwo was on the <u>verge</u> of signing a two year contract with the club
-   A) brink
-   B) summit
-   C) height
-   D) shore
-   **Answer: A**
-   *Explanation: Verge; To be at the extreme end or edge of something.
-
-Brink; the extreme edge of something happening*
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**3.** I tried to discourage him, but he persisted……… revealing the secret to his son
-   A) for
-   B) in
-   C) on
-   D) to
+**2.** Many workers were............ as a result of the textile closure
+   A) laid down
+   B) laid off
+   C) laid out
+   D) laid up
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: If workers are laid off, they are told by their employers to leave their job, usually because there is no more work for them to do.
 
-**4.** Audu was taken bad in the middle of the night?
-   A) He was caught
-   B) He was robbed
-   C) He was ill
-   D) He was drunk
-   **Answer: C**
+Many workers were laid off as a result of the textile closure*
+   *(Note: Closest available year from ALOC database: 2012)*
+
+**3.** He travelled ONLY 20 kilometres before his car stopped?
+   A) Did he travel only 20 kilometres after his car stopped?
+   B) Did he travel exactly 20 kilometres before his car stopped?
+   C) Did you walk only 20 kilometres before the vehicle stopped?
+   D) Did he travel more than 20 kilometres before his car stopped?
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2002)*
 
-**5.** Lantana <u>dwelt</u> in a ruined cottage on the hillside?
-   A) sat
-   B) worked
-   C) slept
-   D) lived
+**4.** Your performance will improve if you…….  Hard
+   A) are practicing
+   B) practical
+   C) would practice
+   D) practise
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**5.** A suitable title for this passage is
+   A) Species of snakes in Nigeria and Other lands
+   B) Feeding Habits of Snakes
+   C) Some Characteristics of Snakes
+   D) Snakes as legless, Cold-blooded reptiles
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**6.** Conspiracy.
+   A) CONspiracy.
+   B) conspiRAcy.
+   C) conspiraCY
+   D) conSPIracy.
    **Answer: D**
-   *Explanation: Dwelt; to live in or at a specified place.*
+   *Explanation: conspiracy; /kənˈspɪrəsi/*
+   *(Note: Closest available year from ALOC database: 2014)*
+
+**7.** Okonkwo's <u>lethal</u> right foot the magic in the football match?
+   A) weak
+   B) wicked
+   C) fat
+   D) harmless
+   **Answer: D**
+   *Explanation: Lethal; (in a sporting context) means very accurate or skillful. lethal is defined as 'very dangerous and able to kill you' The opposite in meaning is option D ''harmless''*
    *(Note: Closest available year from ALOC database: 2011)*
 
-**6.** Ndeni gave a  <i>flawless</i>  speech at the party
-   A) a wonderful
-   B) a careless
-   C) an interesting
-   D) an imperfect
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**7.** The President gave another <u>extemporaneous</u> speech last Friday?
-   A) unprepared
-   B) fascinating
-   C) planned
-   D) unfavourable
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**8.** ………of the students  turned up, so the lecture was cancelled.
-   A) few
-   B) Little
-   C) A few
-   D) A little
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**9.** Usman needs to get his act together if he wants to pass the examination
-   A) He needs to organized himself
-   B) He needs to be fast when writing the examination
-   C) He needs to put on his stage costume
-   D) Heneeds to pull all points down in the examination
-   **Answer: A**
-   *Explanation: Usman needs to sit up, get better or get serious.*
-   *(Note: Closest available year from ALOC database: 2013)*
-
-**10.** The striking workers have vowed not to return to work until the decision is <i>reversed.</i>
-   A) rescinded
-   B) dismissed
-   C) implemented
-   D) reverted.
-   **Answer: A**
+**8.** Government should invest more in …...   training.
+   A) teacher's
+   B) teacher
+   C) teachers
+   D) teachers
+   **Answer: B**
    *(Note: Closest available year from ALOC database: 2007)*
+
+**9.** Choose the best option that best completes the gap(s)
+
+Garba acquiesced______their decision
+   A) for
+   B) on
+   C) in
+   D) by
+   **Answer: C**
+   *Explanation: The preposition 'in' is used with the verb 'Acquiesce'*
+   *(Note: Closest available year from ALOC database: 2017)*
+
+**10.** The pastor asked the women to _________ their hearts to God in prayers.
+   A) Bare
+   B) Bear
+   C) Bar
+   D) Barrr
+   **Answer: A**
+   *Explanation: To bare one’s mind means to reveal or uncover all that is in it.
+
+  Note the spelling.*
+   *(Note: Closest available year from ALOC database: 2018)*
 
 
 ---

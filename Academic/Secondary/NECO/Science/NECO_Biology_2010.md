@@ -2,39 +2,62 @@
 
 ## Objectives
 
-**1.** The two key cations involved in the action potential of nervous transmissions are
-   A) Na+ and Fe2+
-   B) Mg2+ and K+
-   C) Na+ and K+
-   D) Fe2+ and Mg 2+
+**1.** Alternation of a sexual and sexual modes of reproduction is found in
+   A) blue-green algae
+   B) Euglena
+   C) fern
+   D) maize
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**2.** The reproductive  system of a male mammal is made up of
-   A) claspers, prostrate, gland, sperm duct and vas deferns
-   B) testis, prostrate gland, sperm duct and vas deferns
-   C) oviduct , urethra, testis and sperm  duct
-   D) testis, uterus, prostrate gland and sperm duct.
-   **Answer: B**
    *(Note: Closest available year from ALOC database: 2009)*
 
-**3.** In terms of the number of individuals, which of the following  taxa is most inclusive?
-   A) order
-   B) family
-   C) class
-   D) species
+**2.** Radial symmetry is a feature common to the
+   A) platyhelminthes
+   B) nematodes
+   C) coelentrates
+   D) arthropods
    **Answer: C**
    *(Note: Closest available year from ALOC database: 2008)*
 
-**4.** The most abundant group of organism in the animal kingdom is
-   A) Mammalian
-   B) Aves
-   C) Annelida
-   D) Insecta
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
+**3.** A density dependent factor that regulates the population size of organism is
+   A) disease
+   B) sudden flood
+   C) drought
+   D) fire outbreak
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**5.** A blue-green alga is not a protophytes because
+**4.** One adaptation  shown by hydrophytes in fresh water habitats is the
+   A) poor  development of roots and xylem tissues
+   B) well developed roots and supporting system
+   C) leaves reduced to spines
+   D) waxy  cuticle on shoot surface
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
+
+**5.** The first terrestrial vertebratese volved from
+   A) pisces
+   B) Reptilia
+   C) Amphibia
+   D) Mammalia
+   **Answer: C**
+   *(Note: Closest available year from ALOC database: 2009)*
+
+**6.** The correct sequence of biomes from northern to southern Nigeria is
+   A) gulnea savanna _ sudan savanna_ tropical rain forest_ sahel savanna_eetuarine
+   B) estuarine_tripical rainforest_guinea savanna _ sahel_ savanna
+   C) sahel savanna_ tropical_rain forest_ estuarine _guinea savanna
+   D) sahel savanna_sudan savanna_guinea savanna _tropical rain forest_estuarine
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
+
+**7.** The primary structure responsible for pumping blood for circulation through the mammalian circulatory systems is the
+   A) veins
+   B) right auricle
+   C) arteries
+   D) left ventricle
+   **Answer: D**
+
+**8.** A blue-green alga is not a protophytes because
    A) it is aquatic
    B) its cells are prokaryotic
    C) it cannot move
@@ -42,37 +65,21 @@
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2009)*
 
-**6.** A caterpillar and an aphid living in different parts of the same plant can be said to
-   A) occupy the same ecological riches
-   B) Be in different habitats
-   C) occupy different ecological riches
-   D) be in  similar micro habitats
+**9.** A plant  parenchyma cell also acts as a supporting tissue when it
+   A) becomes faccid
+   B) contains cystals
+   C) becomes turgid
+   D) is pigmented
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**7.** The eggs of birds contain relatively larger quantities of yolk than those of amphibians and reptiles because
-   A) birds are generally bigger in size
-   B) embroyonic development is longer in birds
-   C) those of birds are fertilized internally
-   D) birds lay shelled eggs
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**8.** Which of the following animals is most adapted for water conservation?
-   A) Earthworms
-   B) mammals
-   C) Flatworms
-   D) Insects
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**9.** The natural process that produces adaptive evolutionary  changes is
-   A) mutation
-   B) gene flow
-   C) genetic drift
-   D) natural selection
-   **Answer: D**
    *(Note: Closest available year from ALOC database: 2008)*
+
+**10.** Stunted growth and poor root development are a result of as deficiency in
+   A) calcium
+   B) sulphur
+   C) iron
+   D) phosphorous
+   **Answer: A**
+   *(Note: Closest available year from ALOC database: 2007)*
 
 
 ---

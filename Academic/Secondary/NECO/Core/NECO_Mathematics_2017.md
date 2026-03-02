@@ -2,151 +2,127 @@
 
 ## Objectives
 
-**1.** Find the locus of a particle which moves in the first quadrant so that it is equidistant from the lines x = 0 and y = 0 (where k is a constant)?
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715547196/ALOC-Questions/Mathematics/2009/MATH_2009_Q28_SOLUTION_bqdqr5.jpg)*
-   A) x + y = 0
-   B) x - y = 0
-   C) x + y + k = 0
-   D) x - y - k = 0
-   **Answer: B**
-   *Explanation: Locus of a particle which moves in the first quadrant so that it is equidistant from the lines
-X = 0 and Y = 0 are the x and y axes as the lines bisecting the angle between x and y axes.*
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**2.** Factorize x<sup>2</sup> −2x−15
-   A) (x + 3)<sup>2</sup>
-   B) (x + 5)(x − 3)
-   C) (x − 5)<sup>2</sup>
-   D) (x − 5)(x + 3)
+**1.** Simolify (7/9-2/3)/(1/3+(2/5)/(4/5))
+   A) 11/12
+   B) 5/6
+   C) 1/5
+   D) 2/15
    **Answer: D**
-   *Explanation: x2<sup>2</sup>  − 2x − 15
+   *Explanation: (7/9-2/3)/(1/3+(2/5)/(4/5))=((7-6)/9)/(1/3+(2/5)/(4/5))=(1/9)/(1/3+(2/5×5/4))=(1/9)/(1/3+1/2)=(1/9)/((2+3)/6)=(1/9)/(5/6)=1/9×6/5=2/15*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-(x<sup>2</sup>  − 5x) + (3x − 15)
-
-x(x − 5)+ 3(x − 5)
-
-(x − 5)(x + 3)*
-   *(Note: Closest available year from ALOC database: 2015)*
-
-**3.** Simplify 1 - (7/3 x 5/4) + 3/5
-   A) -16/15
-   B) -79/60
-   C) -37/15
-   D) -151/60
-   **Answer: B**
-   *Explanation: 1−(7/3 × 5/4) + 3/5
- 
-= 1 − 35/12 + 3/5
-= (60−175+36)/60
-= −79/60*
+**2.** In the diagram above, PQ is parallel to RS. What is the value of α + β + γ?
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710699608/ALOC-Questions/Mathematics/2003/math_2003_q40_olppxr.jpg)*
+   A) 360°
+   B) 200°
+   C) 180°
+   D) 90°
+   **Answer: A**
+   *Explanation: γ + S = 180(Allied angles)
+S = 180 - γ
+α + P = 180(Allied angles)
+p = 180 - α
+β = P + S
+β = 180 - α + 180 - γ
+β = 360 - α - γ
+β + α + γ = 360*
    *(Note: Closest available year from ALOC database: 2003)*
 
-**4.** The table above shows the frequency of children age x years in a hospital
-x	1	2	3	4	5	6	7	8
-y	3	4	5	6	7	6	5	4
-How many children are in the hospital
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1724006493/ALOC-Questions/Mathematics/2018/JAMB_MATH_2018_Q41_shvtnl.jpg)*
-   A) 36
-   B) 40
-   C) 44
-   D) 50
+**3.** The shadow of a pole 5√3m high is 5m. Find the angle of elevation of the sun.
+   A) 45°
+   B) 75°
+   C) 30°
+   D) 60°
+   **Answer: D**
+   *Explanation: Tan θ = 5√3/5
+Tan θ = √3
+θ = 60°*
+   *(Note: Closest available year from ALOC database: 2004)*
+
+**4.** The mean age group of some students is 15years. When the age of a teacher, 45 years old, is added to the ages of the students, the mean of their ages become 18 years. Find the number of students in the group.
+   A) 7
+   B) 9
+   C) 15
+   D) 42
    **Answer: B**
-   *Explanation: The total number of students is ∑ f = 3 + 4 + 5 + 6 + 7 + 6 + 5 + 4
+   *Explanation: x( ∑x)/N
+15 = (∑x)/N
+∑x = 15N........(i)
 
-= 40*
-   *(Note: Closest available year from ALOC database: 2018)*
+y = ∑y/Ny = (∑x+45)/(N + 1)
+18/1 = (15N + 45)/(N + 1)
+ 
 
-**5.** Find the equation of the perpendicular bisector of the line joining P(2, -3) to Q(-5, 1)
-   A) 8y + 14x + 13 = 0
-   B) 8y - 14x + 13 = 0
-   C) 8y - 14x - 13 = 0
-   D) 8y + 14x - 13 = 0
-   **Answer: C**
-   *Explanation: Given P(2, -3) and Q(-5, 1)
+18(N + 1) = 15N + 45
 
-Midpoint = (2+(−5)/2,−3+1/2)
-= (−3/2,−1)
-Slope of the line PQ = 1−(−3)/−5−2
-= −4/7
-The slope of the perpendicular line to PQ = −1/(−4/7)
-= 7/4
-The equation of the perpendicular line: y =7/4x + b
-Using a point on the line (in this case, the midpoint) to find the value of ...*
-   *(Note: Closest available year from ALOC database: 2013)*
+18N + 18 = 15N + 45
 
-**6.** Evaluate 5<sup>-3log5</sup><sup>2</sup> x 2<sup>2log2</sup><sup>3</sup>
-   A) 8
-   B) 1(1/8)
-   C) 2/5
-   D) 1/8
-   **Answer: B**
-   *Explanation: 5<sup>-3log5</sup><sup>2</sup> x 2<sup>2log2</sup><sup>3</sup>
-i Let -3log5<sup>2</sup> = p => log5<sup>2</sup><sup>-3</sup> = p
-∴2<sup>-3</sup> = 5<sup>-p</sup>
-∴5<sup>-3log5</sup><sup>2</sup> = 5log5<sup>2</sup><sup>-3</sup> = 5<sup>-p</sup>
-ii 2<sup>2</sup> 2<sup>2log2</sup><sup>3</sup> = q => lo...*
-   *(Note: Closest available year from ALOC database: 2000)*
+18N - 15N = 45 - 18 
 
-**7.** From the diagram given, find the bearing of R from S
-   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1710702538/ALOC-Questions/Mathematics/2005/math_2005_q46_dluvgl.jpg)*
-   A) 226°
-   B) 224°
-   C) 136°
-   D) 134°
-   **Answer: B**
-   *Explanation: The bearing of R from S = 180 + 44 = 224°*
+3N = 27 
+
+N = 27/3
+ 
+
+= 9*
+   *(Note: Closest available year from ALOC database: utme)*
+
+**5.** In the diagram above, PQ = 10 cm, PS = 8 cm and ∠PSR is 60o while ∠SRQ is a right angle. Find SR
+   *(See diagram: https://res.cloudinary.com/aloc-ng/image/upload/v1715542791/ALOC-Questions/Mathematics/2006/MATH_JAMB_2006_Q35_tsamyg.jpg)*
+   A) 14 cm
+   B) 14√3 cm
+   C) 10 cm
+   D) 10√3 cm
+   **Answer: A**
+   *Explanation: In ΔPST; cos 60 = ST/8
+ST = 8cos 60
+ST = 8 x 1/2 = 4
+TR = 10 cm (opp. sides of a rectangle PQRT)
+SR = ST + TR
+SR = 4 + 10
+SR = 14 cm*
+   *(Note: Closest available year from ALOC database: 2006)*
+
+**6.** Find the value of t if the standard deviation of 2t, 3t, 4t, 5t, and 6t is √2
+   A) 1
+   B) 2
+   C) 3
+   D) 4
+   **Answer: A**
+   *Explanation: mean(x)=20t/5=4t. Standard deviation=√((10t<sup>2</sup> )/5) √2=√((10t<sup>2</sup> )/5) √2=√(2t<sup>2</sup>  ) 2=2t<sup>2</sup>  t<sup>2</sup> =1. t=1*
    *(Note: Closest available year from ALOC database: 2005)*
 
-**8.** Find the length of a chord 3cm from the centre of a circle of radius 5cm
-   A) 8cm
-   B) 5.6cm
-   C) 7cm
-   D) 6.5cm
-   **Answer: A**
-   *Explanation: Using pythagoras formula:
-
-Hyp<sup>2</sup>
- = adj<sup>2</sup>
- + opp<sup>2</sup>
-5<sup>2</sup>
- = opp<sup>2</sup>
- + 3<sup>2</sup>
- 
-
-5<sup>2</sup>
- - 3<sup>2</sup>
- = adj<sup>2</sup>
-4 = adj
-
-length of the chord = 2 * 4 = 8cm*
-   *(Note: Closest available year from ALOC database: 2022)*
-
-**9.** Simplify 213<sub>4</sub>
- x 23<sub>4</sub>
-   A) 10311<sub>4</sub>
-   B) 10321<sub>4</sub>
-   C) 12231<sub>4</sub>
-   D) 13211<sub>4</sub>
+**7.** If the mean of five consecutive integers is 30, find the largest of the numbers
+   A) 28
+   B) 30
+   C) 32
+   D) 34
    **Answer: C**
-   *Explanation: You can either multiply directly in base 4 or you can decide to convert to base 10 and do the multiplication and re-convert.*
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: ((a+a+1+a+2+a+3+a+4))/5 30=(5a+10)/5 30×5=5a+105a=150-105a=140a=28∴a+4=28+4=32*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**10.** Find the mean of t + 2, 2t - 4, 3t + 2 and 2t.
-   A) t + 1
-   B) 2t
-   C) 2t + 1
-   D) t
-   **Answer: B**
-   *Explanation: ∑x
-  = (t + 2) + (2t + 4) + (3t + 2) + 2t = 8t
+**8.** For what of n is <sup>n+1</sup> C<sub>3</sub> = 4(<sup> n</sup>C<sub>3</sub>)?
+   A) 6
+   B) 5
+   C) 4
+   D) 3
+   **Answer: D**
+   *Explanation: <sup>n+1</sup>C<sub>3</sub = 4 (<sup> n</sup> C<sub>3</sub>)frac(n+1)!(n+1-3)!3!=4(n!/((n-3)!3!))frac(n+1)n!(n-2)(n-3)!=4(n!/(n-3!))"\="  (n+1)/(n-2)=4/1 "\n"+1=4(n-2)"\n"+1=4n-8"\-" 3n=-9frac-9-3"\n"=3*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-N = 4
+**9.** If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, find δy/δx
+   A) 8x<sup>2</sup> - 2x + 1
+   B) 8x<sup>2</sup> - 4x + 1
+   C) 12x<sup>2</sup> - 2x + 1
+   D) 12x<sup>2</sup> - 4x + 1
+   **Answer: D**
+   *Explanation: If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, then;
 
-∴ Mean, x = ∑xN=8t4=2t
+δy/δx
+ = 3(4x<sup>2</sup>) - 2(2x) + 1
 
-
-= 2t*
-   *(Note: Closest available year from ALOC database: 2013)*
+= 12x<sup>2</sup> - 4x + 1*
+   *(Note: Closest available year from ALOC database: 2014)*
 
 
 ---

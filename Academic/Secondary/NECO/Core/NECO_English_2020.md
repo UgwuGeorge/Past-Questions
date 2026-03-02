@@ -2,94 +2,90 @@
 
 ## Objectives
 
-**1.** The athlete is proud to be in the <u>vanguard</u> of sports development
-   A) leading position
-   B) destructive position
-   C) emerging position
-   D) unforgettable position
+**1.** Okon's company took a hit last year?
+   A) His company improved last year
+   B) His company made a huge success last year
+   C) His company was badly damaged last year
+   D) His company was established last year
+   **Answer: C**
+   *Explanation: To suffer heavy losses or be badly affected (by something).*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**2.** suggestible?
+   A) suggeSTIble
+   B) Suggestible
+   C) suGGEstible
+   D) suggestiBLE
+   **Answer: C**
+   *Explanation: su-gge-STi-ble*
+   *(Note: Closest available year from ALOC database: 2011)*
+
+**3.** The girl says she is averse.....what others admire
+   A) to
+   B) with
+   C) for
+   D) from
    **Answer: A**
-   *Explanation: If someone is in the vanguard of something, they are involved in the most advanced part of it. It simply means, "front guard''*
+   *Explanation: 'To'' as an adverb is used here to connect the relationship the speaker and the subject*
    *(Note: Closest available year from ALOC database: 2013)*
 
-**2.** crowd
-   A) crow
-   B) bard
-   C) aloud
-   D) crawl
-   **Answer: C**
-   *Explanation: crowd: /kraʊd/
-aloud: /əˈlaʊd/*
+**4.** Choose the most appropriate option for the gap labelled [....12.....] above
+   A) stage
+   B) circle
+   C) track
+   D) ring
+   **Answer: D**
    *(Note: Closest available year from ALOC database: 2016)*
 
-**3.** This question is from the novel 'The Last Days at Forcados High school'.
+**5.** The exotic bird looked <u>resplendent</u>; its bright plumage contrasted with the rather _________ undergrowth
+   A) immobile
+   B) foreign
+   C) bright
+   D) drab
+   **Answer: D**
+   *Explanation: Resplendent simply means shiny and colourful as opposed to Drab which means 'dull'*
 
-“Nene, this is my niece Efua Coker”. Who made this statement?
-   A) Moni
-   B) Efua
-   C) Mrs. Ekpo
-   D) none
-   **Answer: A**
-   *Explanation: This statement was made by Aunt Moni while she was introducing Efua to Mrs Ekpo (Nene’s mum) and Nene to Efua*
-   *(Note: Closest available year from ALOC database: 2015)*
+**6.** It was a free-for-all and the students were blamed for taking the law
+   A) in their own hands
+   B) into their own hands
+   C) into their hands
+   D) in their hands.
+   **Answer: B**
+   *(Note: Closest available year from ALOC database: 2003)*
 
-**4.** The law is often  <i>tardy</i>  in reacting to changing attitude
-   A) quick
-   B) low
-   C) exclusive
-   D) generous
+**7.** The weather was still very  <i>heavy and sultry </i>
+   A) wintry and shadowy
+   B) cold and friendly
+   C) cloudy and thundery
+   D) hot and uncomfortable
    **Answer: B**
    *(Note: Closest available year from ALOC database: 2010)*
 
-**5.** The president said that he found himself between a rock and a hard place when the press said that he has resigned.
-   A) Hard places are dangerous for the president.
-   B) He dreamt that he was abandoned.
-   C) He thought that hard places were unsafe.
-   D) He had a hard decision to make.
-   **Answer: D**
-   *Explanation: If you are caught between a rock and a hard place, you are in a difficult situation where you have to choose between two equally unpleasant courses of action.*
-   *(Note: Closest available year from ALOC database: 2014)*
-
-**6.** Coming late to work, according to Leonard, is <u>inimical</u> to the progress of the company
-   A) harmful
-   B) predominat
-   C) unavoidable
-   D) inevitable
+**8.** As debutants in that tournament, the Super Eagles were up against their first opponents by three goals to nil
+   A) The Super Eagles were playing in the tournament for the first time, but they won their match by three goals to nothing
+   B) Though the Super Eagles were rated as the weakest side in the tournament they won their first match by three goals to nil
+   C) Even though the Super Eagles were playing without some of their regulars, they won their match by three goals to nil.
+   D) As the best attackers in the match. the Super Eagles easily defeated their opponents by three goals to nothing.
    **Answer: A**
-   *Explanation: Inimical implies harmful*
+   *(Note: Closest available year from ALOC database: 2010)*
 
-**7.** The conference Centre caters for <u>transients</u> only?
-   A) temporary guest
-   B) professional
-   C) permanent guests
-   D) novices
+**9.** In our last play, Segun acted the <i>hero</i>
+   A) villain
+   B) devil
+   C) criminal
+   D) assassin
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *(Note: Closest available year from ALOC database: 2006)*
 
-**8.** The man declared his intention from the -----
-   A) outset
-   B) inset
-   C) onset
-   D) offset
-   **Answer: C**
-   *Explanation: onset simply means the beginning of something. in the statement above, it means the man made his intentions known from the beginning. option C best fits into the statement.*
-   *(Note: Closest available year from ALOC database: 2000)*
+**10.** The writer advocates for multiple sources of university funding in order to ______
+   A) enhance university autonomy
+   B) reduce dependence on the government
+   C) ensure that the numerous needs of the universities are met
+   D) maintain acceptable levels of infrastructural development
+   **Answer: A**
+   *Explanation: In the passage, Paragraph 1 tells us the writer considers it desirable that effort be made to reduce the government contributions in the interest of University autonomy even if the government was in a position to meet all of the university's financial requirements.
 
-**9.** To check desertification in the arid zones ...... tress should be planted?
-   A) drought-proof
-   B) drought-resisting
-   C) drought-effective
-   D) drought-resistant
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2000)*
-
-**10.** The first round of the tournament was a  <u>doddle</u> .
-   A) Exasperating.
-   B) Easy.
-   C) Balanced.
-   D) Dodgy.
-   **Answer: B**
-   *Explanation: Doddle; a very easy task.*
-   *(Note: Closest available year from ALOC database: 2014)*
+Option A is the correct answer.*
 
 
 ---
