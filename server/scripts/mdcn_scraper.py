@@ -64,6 +64,21 @@ class MDCNScraper(BaseScraper):
                         "answer": "d"
                     }
                 ]
+            },
+            {
+                "title": "MDCN Dental Qualifying Examination - Oral Surgery & Pathology",
+                "questions": [
+                    {
+                        "question": "Which of the following is most commonly associated with a 'soap-bubble' appearance on a dental radiograph?",
+                        "options": {"a": "Ameloblastoma", "b": "Dentigerous Cyst", "c": "Radicular Cyst", "d": "Odontoma"},
+                        "answer": "a"
+                    },
+                    {
+                        "question": "What is the primary local anesthetic used in minor oral surgery for patients with controlled hypertension?",
+                        "options": {"a": "Lidocaine with 1:100,000 Epinephrine", "b": "Mepivacaine plain", "c": "Articaine", "d": "Prilocaine"},
+                        "answer": "a"
+                    }
+                ]
             }
         ]
         

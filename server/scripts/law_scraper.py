@@ -74,6 +74,36 @@ class LawScraper(BaseScraper):
                         "answer": "a"
                     }
                 ]
+            },
+            {
+                "title": "Bar Finals - Corporate Law Practice",
+                "questions": [
+                    {
+                        "question": "Under CAMA 2020, how many persons are required to form a small company?",
+                        "options": {"a": "At least 2", "b": "At least 1", "c": "Exactly 7", "d": "At least 5"},
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which of the following documents is required for the registration of a business name?",
+                        "options": {"a": "Memorandum of Association", "b": "Articles of Association", "c": "Form CAC BN1", "d": "Form CAC 1.1"},
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "title": "Bar Finals - Property Law Practice",
+                "questions": [
+                    {
+                        "question": "A deed of assignment of land in Lagos State requires the consent of:",
+                        "options": {"a": "The Oba of Lagos", "b": "The Local Government Chairman", "c": "The Governor of the State", "d": "The Attorney General"},
+                        "answer": "c"
+                    },
+                    {
+                        "question": "The document used to transfer an unexpired term of a lease is known as:",
+                        "options": {"a": "Assent", "b": "Deed of Gift", "c": "Deed of Assignment", "d": "Vesting Order"},
+                        "answer": "c"
+                    }
+                ]
             }
         ]
         

@@ -17,8 +17,8 @@ HEADERS = {
     'AccessToken': ACCESS_TOKEN
 }
 
-NDA_FOLDER = os.path.join(BASE_PATH, 'Professional', 'Military-and-Paramilitary', 'NDA')
-POLAC_FOLDER = os.path.join(BASE_PATH, 'Professional', 'Military-and-Paramilitary', 'Police')
+NDA_FOLDER = os.path.join(BASE_PATH, 'Academic', 'Military-and-Paramilitary', 'NDA')
+POLAC_FOLDER = os.path.join(BASE_PATH, 'Academic', 'Military-and-Paramilitary', 'Police')
 
 def fetch_aloc_questions(subject, year, limit=10):
     url = f"{API_BASE}?subject={subject}&year={year}"

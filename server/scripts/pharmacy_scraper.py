@@ -59,6 +59,21 @@ class PharmacyScraper(BaseScraper):
                         "answer": "b"
                     }
                 ]
+            },
+            {
+                "title": "PCN PEP - Forensic Pharmacy & Ethics",
+                "questions": [
+                    {
+                        "question": "Which of the following bodies is responsible for the registration of premises for the sale of medicines in Nigeria?",
+                        "options": {"a": "NAFDAC", "b": "PCN", "c": "NDLEA", "d": "NMA"},
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The Poison and Pharmacy Act (PPA) classifies drugs based on their danger to the public. Which schedule contains Controlled Drugs?",
+                        "options": {"a": "Schedule 1", "b": "Schedule 2", "c": "Schedule 3", "d": "First Schedule"},
+                        "answer": "d"
+                    }
+                ]
             }
         ]
         
