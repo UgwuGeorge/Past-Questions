@@ -1,0 +1,61 @@
+name: 🗄️ Auto-Sync Data to Database
+
+on:
+  push:
+    paths:
+      - 'data/**'     # Only triggers when something inside data/ is changed
+  workflow_dispatch:  # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  sync-data:
+    name: Import New Questions into DB
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # Need at least 2 commits to detect diff
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install sqlalchemy python-dotenv
+
+      - name: Create .env file
+        run: |
+          echo "DATABASE_URL=sqlite:///./past_questions_v2.db" > .env
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env
+
+      - name: Detect changed data files
+        id: changed
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- 'data/' | grep -E '\.(json|md)$' | wc -l)
+          echo "count=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Changed data files: $CHANGED"
+
+      - name: Run Data Import (changed files only)
+        if: steps.changed.outputs.count > 0
+        run: |
+          python agent_core/scripts/import_data.py --changed
+        env:
+          DATABASE_URL: sqlite:///./past_questions_v2.db
+
+      - name: Upload updated DB as artifact
+        if: steps.changed.outputs.count > 0
+        uses: actions/upload-artifact@v4
+        with:
+          name: reharz-database-${{ github.sha }}
+          path: past_questions_v2.db
+          retention-days: 30
+
+      - name: Summary
+        run: |
+          echo "### ✅ Reharz Data Sync Complete" >> $GITHUB_STEP_SUMMARY
+          echo "Triggered by push to \`data/\` on commit \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "Changed files imported into \`past_questions_v2.db\`" >> $GITHUB_STEP_SUMMARY
