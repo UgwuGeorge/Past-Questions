@@ -1,6 +1,7 @@
 {
   "include": [
-    "."
+    "server/scripts",
+    "data"
   ],
   "exclude": [
     "**/node_modules",
@@ -11,10 +12,13 @@
   "venv": ".venv",
   "executionEnvironments": [
     {
-      "root": ".",
+      "root": "server/scripts",
       "extraPaths": [
-        "./server/scripts"
+        "."
       ]
+    },
+    {
+      "root": "."
     }
   ],
   "typeCheckingMode": "basic"
