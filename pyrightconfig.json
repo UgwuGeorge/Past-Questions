@@ -1,12 +1,21 @@
 {
-  "venvPath": ".",
+  "include": [
+    "server/scripts"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    ".venv"
+  ],
+  "venvPath": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\Past-Questions",
   "venv": ".venv",
   "executionEnvironments": [
     {
-      "root": ".",
+      "root": "server/scripts",
       "extraPaths": [
-        "server/scripts"
+        "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\Past-Questions\\server\\scripts"
       ]
     }
-  ]
+  ],
+  "typeCheckingMode": "basic"
 }

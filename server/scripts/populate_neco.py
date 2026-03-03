@@ -1,8 +1,14 @@
 import requests  # type: ignore
 import json
 import os
+import sys
 import time
 from typing import Dict, Any, Optional, cast
+
+# Add project root to sys.path
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 BASE_PATH = r'C:\Users\USER\.gemini\antigravity\scratch\Past-Questions\data'
 API_BASE = 'https://questions.aloc.com.ng/api/v2/q'

@@ -1,4 +1,11 @@
 import os
+import sys
+
+# Add scripts directory to sys.path
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+if scripts_dir not in sys.path:
+    sys.path.insert(0, scripts_dir)
+
 from base_scraper import BaseScraper
 
 class CORENScraper(BaseScraper):
@@ -81,8 +88,9 @@ class CORENScraper(BaseScraper):
         ]
         
         for diet in sample_data:
-            content = self.format_as_md(diet['title'], diet['questions'])
-            filename = diet['title'].replace(" - ", "_").replace(" & ", "_and_").replace(" ", "_") + ".md"
+            title_str = str(diet['title'])
+            content = self.format_as_md(title_str, diet['questions'])
+            filename = title_str.replace(" - ", "_").replace(" & ", "_and_").replace(" ", "_") + ".md"
             self.save_markdown(os.path.join(self.md_dir, filename), content)
             
         print("COREN population complete.")

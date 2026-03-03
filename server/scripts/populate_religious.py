@@ -1,6 +1,12 @@
 import requests
 import os
+import sys
 import time
+
+# Add project root to sys.path
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 BASE_PATH = r'C:\Users\USER\.gemini\antigravity\scratch\Past-Questions\data'
 API_BASE = 'https://questions.aloc.com.ng/api/v2/q'
@@ -35,10 +41,11 @@ def format_md(title, questions):
     lines = [f"# {title}\n", "## Objectives\n"]
     for i, q in enumerate(questions, 1):
         lines.append(f"**{i}.** {q.get('question','')}")
-        opts = q.get('option', {}) or {}
-        for k in ['a','b','c','d','e']:
-            val = (opts.get(k) or '').strip()
-            if val: lines.append(f"   {k.upper()}) {val}")
+        opts = q.get('option')
+        if isinstance(opts, dict):
+            for k in ['a','b','c','d','e']:
+                val = str(opts.get(k) or '').strip()
+                if val: lines.append(f"   {k.upper()}) {val}")
         lines.append(f"   **Answer: {str(q.get('answer','')).upper()}**\n")
     lines.append("\n---\n*(Source: ALOC open API — questions.aloc.com.ng)*")
     return "\n".join(lines)
