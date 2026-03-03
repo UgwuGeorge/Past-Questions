@@ -1,6 +1,6 @@
 import os
 import json
-import google.generativeai as genai
+from google import genai
 from typing import List, Dict, Optional, Any
 from sqlalchemy.orm import Session
 from sqlalchemy import func, Float
@@ -9,10 +9,10 @@ from agent_core.models import main_models
 from agent_core.models.main_models import Exam, Subject, Question, Choice, UserProgress, DifficultyLevel, ExamSession
 from agent_core.core.ai import AIEngine
 
-# Configure Gemini
+# Configure Gemini via new SDK
 api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
-genai.configure(api_key=api_key)
-model_name = "models/gemini-flash-latest"
+client = genai.Client(api_key=api_key)
+MODEL_ID = "gemini-2.0-flash"
 
 class ExamAgent:
     """
@@ -178,8 +178,6 @@ class ExamAgent:
         total = len(recent_progress)
         percentage = round((correct / total) * 100, 1)
         
-        # Save to ExamSession if we can find the exam association
-        # For simplicity, we just return the report for now
         report = {
             "score": f"{correct}/{total}",
             "percentage": f"{percentage}%",
@@ -209,15 +207,13 @@ class ExamAgent:
             return f"Error: Exam '{exam_name}' not found. Please create it first."
 
         # 2. Find or Create Subject for this Exam
-        # We'll use the topic as a hint or a generic subject name
-        subject_name = topic.split()[0] # e.g. "Physics Motion" -> "Physics"
+        subject_name = topic.split()[0]
         subject = self.db.query(Subject).filter(
             Subject.name.ilike(subject_name), 
             Subject.exam_id == exam.id
         ).first()
         
         if not subject:
-            # Fallback to first subject or create new
             subject = exam.subjects[0] if exam.subjects else Subject(name=subject_name, exam_id=exam.id)
             if not subject.id:
                 self.db.add(subject)
@@ -267,23 +263,24 @@ class ExamAgent:
             self.get_session_summary
         ]
         
-        agent_model = genai.GenerativeModel("models/gemini-2.0-flash", tools=tools)
-        
-        chat_session = agent_model.start_chat(
-            history=[
-                {"role": "user", "parts": [
-                    f"You are the 'Antigravity Exam Architect', an expert AI Agent managing local exam systems. "
+        # Create a new chat session using the unified SDK
+        chat_session = client.chats.create(
+            model=MODEL_ID,
+            config={
+                'tools': tools,
+                'system_instruction': (
+                    f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems. "
                     f"You are currently assisting User ID: {user_id}. "
                     f"Protocol: "
                     f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "
                     f"2. Ask questions ONE BY ONE to the user. Do not show them all at once. "
                     f"3. After each response, use 'log_answer' to record if they were correct based on 'internal_correct_answer'. "
                     f"4. Once the requested count is reached, use 'get_session_summary' with the correct count to show their final score."
-                ]},
-                {"role": "model", "parts": ["Architect protocol active. I will use the established database and feedback tools to guide the user's learning path."]},
-                * [{"role": h["role"], "parts": [h["text"]]} for h in history]
-            ],
-            enable_automatic_function_calling=True
+                )
+            },
+            history=[
+                {'role': h['role'], 'parts': [{'text': h['text']}]} for h in history
+            ]
         )
         
         response = await chat_session.send_message_async(message)

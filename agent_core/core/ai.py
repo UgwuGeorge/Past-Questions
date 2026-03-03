@@ -1,12 +1,12 @@
-import google.generativeai as genai
+from google import genai
 import json
 import os
 from typing import List, Dict
 
-# Configure Gemini
+# Configure Gemini via the new unified SDK
 api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
-genai.configure(api_key=api_key)
-model = genai.GenerativeModel("models/gemini-2.0-flash")
+client = genai.Client(api_key=api_key)
+MODEL_ID = "gemini-2.0-flash"
 
 class AIEngine:
     @staticmethod
@@ -20,9 +20,10 @@ class AIEngine:
 
         prompt = f"Act as an expert examiner for {criteria}. {rubric_instructions}\nSubmission:\n{content}\nReturn ONLY JSON."
         
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.GenerationConfig(response_mime_type="application/json")
+        response = client.models.generate_content(
+            model=MODEL_ID,
+            contents=prompt,
+            config={'response_mime_type': 'application/json'}
         )
         return json.loads(response.text)
 
@@ -67,11 +68,10 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await model.generate_content_async(
-            prompt,
-            generation_config=genai.GenerationConfig(
-                response_mime_type="application/json"
-            )
+        response = await client.aio.models.generate_content(
+            model=MODEL_ID,
+            contents=prompt,
+            config={'response_mime_type': 'application/json'}
         )
         return json.loads(response.text)
 
@@ -99,9 +99,10 @@ class AIEngine:
         }}
         Return ONLY valid JSON.
         """
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.GenerationConfig(response_mime_type="application/json")
+        response = client.models.generate_content(
+            model=MODEL_ID,
+            contents=prompt,
+            config={'response_mime_type': 'application/json'}
         )
         data = json.loads(response.text)
         return data.get("questions", [])
@@ -132,11 +133,10 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await model.generate_content_async(
-            prompt,
-            generation_config=genai.GenerationConfig(
-                response_mime_type="application/json"
-            )
+        response = await client.aio.models.generate_content(
+            model=MODEL_ID,
+            contents=prompt,
+            config={'response_mime_type': 'application/json'}
         )
         data = json.loads(response.text)
         return data.get("questions", [])
@@ -145,9 +145,10 @@ class AIEngine:
     def simulate_interview_sync(question: str, user_answer: str) -> Dict:
         """Sync version of interview evaluation."""
         prompt = f"Act as an interviewer. Question: {question}\nAnswer: {user_answer}\nEvaluate and return ONLY JSON."
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.GenerationConfig(response_mime_type="application/json")
+        response = client.models.generate_content(
+            model=MODEL_ID,
+            contents=prompt,
+            config={'response_mime_type': 'application/json'}
         )
         return json.loads(response.text)
 
@@ -178,10 +179,9 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await model.generate_content_async(
-            prompt,
-            generation_config=genai.GenerationConfig(
-                response_mime_type="application/json"
-            )
+        response = await client.aio.models.generate_content(
+            model=MODEL_ID,
+            contents=prompt,
+            config={'response_mime_type': 'application/json'}
         )
         return json.loads(response.text)
