@@ -17,8 +17,8 @@ HEADERS = {
     'AccessToken': ACCESS_TOKEN
 }
 
-NDA_FOLDER = os.path.join(BASE_PATH, 'Academic', 'Military-and-Paramilitary', 'NDA')
-POLAC_FOLDER = os.path.join(BASE_PATH, 'Academic', 'Military-and-Paramilitary', 'Police')
+NDA_FOLDER = os.path.join(BASE_PATH, 'Professional', 'Military-and-Paramilitary', 'NDA')
+POLAC_FOLDER = os.path.join(BASE_PATH, 'Professional', 'Military-and-Paramilitary', 'Police')
 
 def fetch_aloc_questions(subject, year, limit=10):
     url = f"{API_BASE}?subject={subject}&year={year}"
@@ -50,7 +50,7 @@ def populate_military():
     os.makedirs(POLAC_FOLDER, exist_ok=True)
     
     # NDA General Ability usually covers History/Current Affairs
-    for year in range(2004, 2025):
+    for year in range(2018, 2024):
         print(f"Generating NDA/POLAC for {year}...")
         
         # Simulating NDA General Ability using ALOC History/Current Affairs

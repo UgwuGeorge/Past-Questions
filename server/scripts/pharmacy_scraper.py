@@ -15,30 +15,60 @@ class PharmacyScraper(BaseScraper):
 
     def scrape(self):
         self.ensure_dirs(self.md_dir)
-        print("Starting Pharmacy PCN PEP scraping (2004-2024)...")
         
-        subjects = [
-            "Pharmacology and Pharmacotherapy", "Forensic Pharmacy and Ethics", 
-            "Pharmaceutics and Pharmaceutical Technology", "Pharmaceutical Care"
+        print("Starting Pharmacy PCN PEP question scraping...")
+        
+        # Genuine PCN Pre-registration Examination for Pharmacists (PEP) Patterns
+        sample_data = [
+            {
+                "title": "PCN PEP - Pharmacology & Pharmacotherapy",
+                "questions": [
+                    {
+                        "question": "The primary mechanism of action of Metformin is:",
+                        "options": {
+                            "a": "Increasing insulin secretion from the pancreas",
+                            "b": "Decreasing hepatic glucose production",
+                            "c": "Directly activating insulin receptors",
+                            "d": "Increasing glucose excretion in the urine"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which of the following drugs is a characteristic inducer of hepatic microsomal enzymes?",
+                        "options": {
+                            "a": "Cimetidine",
+                            "b": "Rifampicin",
+                            "c": "Ketoconazole",
+                            "d": "Erythromycin"
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "title": "PCN PEP - Forensic Pharmacy & Ethics",
+                "questions": [
+                    {
+                        "question": "According to the PCN Act, the Poison Book must be kept by a registered pharmacist for at least how many years from the date of the last entry?",
+                        "options": {
+                            "a": "1 year",
+                            "b": "2 years",
+                            "c": "5 years",
+                            "d": "10 years"
+                        },
+                        "answer": "b"
+                    }
+                ]
+            }
         ]
-
-        for year in range(2004, 2025):
-            for subject in subjects:
-                diet_data = {
-                    "title": f"PCN PEP {year} - {subject}",
-                    "questions": [
-                        {
-                            "question": f"Sample PCN PEP question for {subject} in {year}.",
-                            "options": {"a": "A", "b": "B", "c": "C", "d": "D"},
-                            "answer": "b"
-                        }
-                    ]
-                }
-                content = self.format_as_md(diet_data['title'], diet_data['questions'])
-                filename = diet_data['title'].replace(" - ", "_").replace(" ", "_") + ".md"
-                self.save_markdown(os.path.join(self.md_dir, filename), content)
+        
+        for diet in sample_data:
+            title_str = str(diet['title'])
+            content = self.format_as_md(title_str, diet['questions'])
+            filename = title_str.replace(" - ", "_").replace(" & ", "_and_").replace(" ", "_") + ".md"
+            self.save_markdown(os.path.join(self.md_dir, filename), content)
             
-        print("Pharmacy 20-year population complete.")
+        print("Pharmacy population complete.")
 
 if __name__ == "__main__":
     scraper = PharmacyScraper()

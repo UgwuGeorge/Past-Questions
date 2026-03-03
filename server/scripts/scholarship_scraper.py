@@ -39,26 +39,6 @@ class ScholarshipScraper(BaseScraper):
             }
         ]
         
-        # Genuine Shell Samples
-        shell_data = [
-            {
-                "title": "Shell Undergraduate Scholarship - Aptitude Test Pattern",
-                "questions": [
-                    {"question": "Which of the following is a primary objective of the Shell SPDC Scholarship scheme?", "options": {"a": "To promote healthcare", "b": "To support academic excellence in Nigeria", "c": "To build roads", "d": "To provide electricity"}, "answer": "b"}
-                ]
-            }
-        ]
-
-        # Genuine TotalEnergies Samples
-        total_data = [
-            {
-                "title": "TotalEnergies Scholarship - Numerical Reasoning Pattern",
-                "questions": [
-                    {"question": "If the price of a barrel of crude oil increases by 10% from $80, what is the new price?", "options": {"a": "$88", "b": "$82", "c": "$90", "d": "$84"}, "answer": "a"}
-                ]
-            }
-        ]
-        
         for diet in ptdf_data:
             content = self.format_as_md(diet['title'], diet['questions'])
             self.save_markdown(os.path.join(self.ptdf_dir, f"PTDF_2022.md"), content)
@@ -66,18 +46,6 @@ class ScholarshipScraper(BaseScraper):
         for diet in nnpc_data:
             content = self.format_as_md(diet['title'], diet['questions'])
             self.save_markdown(os.path.join(self.nnpc_dir, f"NNPC_2021.md"), content)
-
-        shell_dir = os.path.join(self.base_path, 'Scholarships', 'Shell')
-        total_dir = os.path.join(self.base_path, 'Scholarships', 'TotalEnergies')
-        self.ensure_dirs(shell_dir, total_dir)
-
-        for diet in shell_data:
-            content = self.format_as_md(diet['title'], diet['questions'])
-            self.save_markdown(os.path.join(shell_dir, f"Shell_Pattern.md"), content)
-
-        for diet in total_data:
-            content = self.format_as_md(diet['title'], diet['questions'])
-            self.save_markdown(os.path.join(total_dir, f"Total_Pattern.md"), content)
 
 if __name__ == "__main__":
     scraper = ScholarshipScraper()
