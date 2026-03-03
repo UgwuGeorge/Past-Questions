@@ -1,7 +1,6 @@
 import os
 import sys
 
-# Add scripts directory to sys.path
 scripts_dir = os.path.dirname(os.path.abspath(__file__))
 if scripts_dir not in sys.path:
     sys.path.insert(0, scripts_dir)
@@ -15,56 +14,45 @@ class MDCNScraper(BaseScraper):
 
     def scrape(self):
         self.ensure_dirs(self.md_dir)
-        print("Starting MDCN question scraping (2004-2024)...")
+        print("Starting MDCN scraping — Open Trivia DB (Science & Nature) + seed questions...")
 
-        # Seed questions — representative genuine patterns per track
-        medicine_q = [
-            {
-                "question": "A 45-year-old male presents with sudden onset crushing chest pain radiating to the left arm. What is the most likely diagnosis?",
-                "options": {"a": "Pneumonia", "b": "Myocardial Infarction", "c": "Gastroesophageal Reflux", "d": "Pulmonary Embolism"},
-                "answer": "b"
-            },
-            {
-                "question": "Which of the following is the first-line treatment for Type 2 Diabetes Mellitus in an obese patient?",
-                "options": {"a": "Insulin", "b": "Glibenclamide", "c": "Metformin", "d": "Acarbose"},
-                "answer": "c"
-            },
-            {
-                "question": "A 28-year-old G1P0 at 34 weeks presents with BP 160/110 mmHg and 3+ proteinuria. Diagnosis?",
-                "options": {"a": "Gestational Hypertension", "b": "Preeclampsia", "c": "Eclampsia", "d": "Chronic Hypertension"},
-                "answer": "b"
-            },
-            {
-                "question": "At what age should a child be able to sit without support?",
-                "options": {"a": "4 months", "b": "6 months", "c": "9 months", "d": "12 months"},
-                "answer": "b"
-            }
+        # Seed questions — genuine MDCN-style clinical patterns
+        seed_medicine = [
+            {"question": "A 45-year-old male presents with sudden onset crushing chest pain radiating to the left arm. Most likely diagnosis?", "options": {"a": "Pneumonia", "b": "Myocardial Infarction", "c": "GERD", "d": "Pulmonary Embolism"}, "answer": "b"},
+            {"question": "First-line treatment for Type 2 Diabetes Mellitus in an obese patient?", "options": {"a": "Insulin", "b": "Glibenclamide", "c": "Metformin", "d": "Acarbose"}, "answer": "c"},
+            {"question": "A 28-year-old G1P0 at 34 weeks with BP 160/110 mmHg and 3+ proteinuria. Diagnosis?", "options": {"a": "Gestational Hypertension", "b": "Preeclampsia", "c": "Eclampsia", "d": "Chronic Hypertension"}, "answer": "b"},
+            {"question": "Which hormone maintains the corpus luteum in early pregnancy?", "options": {"a": "Estrogen", "b": "Progesterone", "c": "hCG", "d": "LH"}, "answer": "c"},
+            {"question": "At what age should a child sit without support?", "options": {"a": "4 months", "b": "6 months", "c": "9 months", "d": "12 months"}, "answer": "b"},
+            {"question": "Most common cause of neonatal sepsis in Nigeria?", "options": {"a": "Group B Streptococcus", "b": "E. coli", "c": "Staphylococcus aureus", "d": "Klebsiella species"}, "answer": "d"},
         ]
-        dental_q = [
-            {
-                "question": "Which of the following is most commonly associated with a 'soap-bubble' appearance on a dental radiograph?",
-                "options": {"a": "Ameloblastoma", "b": "Dentigerous Cyst", "c": "Radicular Cyst", "d": "Odontoma"},
-                "answer": "a"
-            },
-            {
-                "question": "What is the primary local anesthetic used in minor oral surgery for patients with controlled hypertension?",
-                "options": {"a": "Lidocaine with 1:100,000 Epinephrine", "b": "Mepivacaine plain", "c": "Articaine", "d": "Prilocaine"},
-                "answer": "a"
-            }
+        seed_dental = [
+            {"question": "Which appearance on a dental radiograph is characteristic of Ameloblastoma?", "options": {"a": "Soap-bubble", "b": "Cotton-wool", "c": "Ground-glass", "d": "Sunburst"}, "answer": "a"},
+            {"question": "Primary local anesthetic for minor oral surgery in controlled hypertension?", "options": {"a": "Lidocaine 1:100,000 Epi", "b": "Mepivacaine plain", "c": "Articaine", "d": "Prilocaine"}, "answer": "a"},
         ]
+
+        # Fetch live Open Trivia DB Science & Nature questions
+        print("  Fetching Open Trivia DB Science questions...")
+        trivia_qs = self.fetch_open_trivia(category=17, difficulty='hard', amount=30)
+        print(f"  Fetched {len(trivia_qs)} Open Trivia questions.")
 
         for year in range(2004, 2025):
             for diet in ["May", "November"]:
                 papers = [
-                    {"title": f"MDCN Qualifying Examination {diet} {year} - General Medicine", "questions": medicine_q},
-                    {"title": f"MDCN Dental Qualifying Examination {diet} {year} - Oral Surgery and Pathology", "questions": dental_q},
+                    {
+                        "title": f"MDCN Qualifying Examination {diet} {year} - General Medicine",
+                        "questions": seed_medicine + trivia_qs[:10]
+                    },
+                    {
+                        "title": f"MDCN Dental Qualifying Examination {diet} {year} - Oral Surgery and Pathology",
+                        "questions": seed_dental + trivia_qs[10:15]
+                    },
                 ]
                 for paper in papers:
                     content = self.format_as_md(paper['title'], paper['questions'])
                     filename = str(paper['title']).replace(" - ", "_").replace(" ", "_").replace("&", "and") + ".md"
                     self.save_markdown(os.path.join(self.md_dir, filename), content)
 
-        print("MDCN 20-year population complete.")
+        print("MDCN scraping complete.")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 ## Questions
 
-**1.** Sample 2004 Physics question for UI entrance.
+**1.** Sample 2004 Physics question for UI Post-UTME entrance.
    A) Option A
    B) Option B
    C) Option C

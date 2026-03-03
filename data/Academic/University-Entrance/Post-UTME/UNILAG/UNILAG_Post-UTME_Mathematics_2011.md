@@ -2,7 +2,7 @@
 
 ## Questions
 
-**1.** Sample 2011 Mathematics question for UNILAG entrance.
+**1.** Sample 2011 Mathematics question for UNILAG Post-UTME entrance.
    A) Option A
    B) Option B
    C) Option C

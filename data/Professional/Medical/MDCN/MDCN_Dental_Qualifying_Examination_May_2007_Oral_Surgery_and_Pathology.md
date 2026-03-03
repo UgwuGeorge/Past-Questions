@@ -2,15 +2,15 @@
 
 ## Questions
 
-**1.** Which of the following is most commonly associated with a 'soap-bubble' appearance on a dental radiograph?
-   A) Ameloblastoma
-   B) Dentigerous Cyst
-   C) Radicular Cyst
-   D) Odontoma
+**1.** Which appearance on a dental radiograph is characteristic of Ameloblastoma?
+   A) Soap-bubble
+   B) Cotton-wool
+   C) Ground-glass
+   D) Sunburst
    **Answer: A**
 
-**2.** What is the primary local anesthetic used in minor oral surgery for patients with controlled hypertension?
-   A) Lidocaine with 1:100,000 Epinephrine
+**2.** Primary local anesthetic for minor oral surgery in controlled hypertension?
+   A) Lidocaine 1:100,000 Epi
    B) Mepivacaine plain
    C) Articaine
    D) Prilocaine

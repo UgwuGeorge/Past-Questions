@@ -2,7 +2,7 @@
 
 ## Questions
 
-**1.** Sample 2014 Physics question for UNN entrance.
+**1.** Sample 2014 Physics question for UNN Post-UTME entrance.
    A) Option A
    B) Option B
    C) Option C

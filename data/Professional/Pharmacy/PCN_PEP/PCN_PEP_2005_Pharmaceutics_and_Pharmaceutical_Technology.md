@@ -2,9 +2,9 @@
 
 ## Questions
 
-**1.** Which of the following is NOT a property of an ideal tablet binder?
-   A) Adhesive properties
+**1.** Which property is NOT desired in an ideal tablet binder?
+   A) Adhesive
    B) Good flow
    C) Promotes disintegration
-   D) Insoluble in water
+   D) Water-insoluble
    **Answer: D**

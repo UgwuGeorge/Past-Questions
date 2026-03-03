@@ -2,11 +2,11 @@
 
 ## Questions
 
-**1.** The primary mechanism of action of Metformin is:
-   A) Increasing insulin secretion from the pancreas
-   B) Decreasing hepatic glucose production
-   C) Directly activating insulin receptors
-   D) Increasing glucose excretion in the urine
+**1.** Primary mechanism of action of Metformin?
+   A) Increases insulin secretion
+   B) Decreases hepatic glucose production
+   C) Activates insulin receptors directly
+   D) Increases urinary glucose excretion
    **Answer: B**
 
 **2.** Which drug is a characteristic inducer of hepatic microsomal enzymes?
