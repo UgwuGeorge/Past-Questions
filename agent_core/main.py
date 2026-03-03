@@ -12,11 +12,13 @@ from agent_core.models import main_models
 from agent_core.schemas import main_schemas
 from agent_core.core.agent import ExamAgent
 from typing import List
+from pydantic import BaseModel
+from datetime import datetime
 
 # Create tables
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Antigravity AI Exam Backend")
+app = FastAPI(title="Reharz AI Exam Backend")
 
 # CORS for frontend access
 app.add_middleware(
@@ -31,18 +33,119 @@ agent = ExamAgent()
 
 @app.get("/")
 def read_root():
-    return {"message": "Antigravity AI Exam Backend is running"}
+    return {"message": "Reharz AI Exam Backend is running"}
 
 @app.get("/api/exams", response_model=List[main_schemas.Exam])
 def get_exams(db: Session = Depends(get_db)):
     exams = db.query(main_models.Exam).all()
     return exams
 
+@app.get("/api/exams/{exam_id}/subjects")
+def get_subjects(exam_id: int, db: Session = Depends(get_db)):
+    subjects = db.query(main_models.Subject).filter(
+        main_models.Subject.exam_id == exam_id
+    ).all()
+    if not subjects:
+        raise HTTPException(status_code=404, detail="No subjects found for this exam")
+    return [{"id": s.id, "name": s.name, "exam_id": s.exam_id} for s in subjects]
+
+@app.get("/api/subjects/{subject_id}/questions")
+def get_questions(subject_id: int, limit: int = 20, db: Session = Depends(get_db)):
+    questions = db.query(main_models.Question).filter(
+        main_models.Question.subject_id == subject_id
+    ).limit(limit).all()
+    if not questions:
+        raise HTTPException(status_code=404, detail="No questions found for this subject")
+    
+    result = []
+    for q in questions:
+        choices = db.query(main_models.Choice).filter(
+            main_models.Choice.question_id == q.id
+        ).all()
+        result.append({
+            "id": q.id,
+            "text": q.text,
+            "topic": q.topic,
+            "year": q.year,
+            "explanation": q.explanation,
+            "choices": [
+                {"id": c.id, "label": c.label, "text": c.text, "is_correct": c.is_correct}
+                for c in choices
+            ]
+        })
+    return result
+
+class SubmitPayload(BaseModel):
+    user_id: int
+    question_id: int
+    selected_label: str
+    is_correct: bool
+    topic: str
+    difficulty: str = "medium"
+
+@app.post("/api/submit")
+def submit_answer(payload: SubmitPayload, db: Session = Depends(get_db)):
+    diff_map = {
+        "easy": main_models.DifficultyLevel.EASY,
+        "medium": main_models.DifficultyLevel.MEDIUM,
+        "hard": main_models.DifficultyLevel.HARD,
+    }
+    progress = main_models.UserProgress(
+        user_id=payload.user_id,
+        question_id=payload.question_id,
+        topic=payload.topic or "General",
+        difficulty=diff_map.get(payload.difficulty, main_models.DifficultyLevel.MEDIUM),
+        is_correct=payload.is_correct,
+        attempt_date=datetime.utcnow()
+    )
+    db.add(progress)
+    db.commit()
+    return {"status": "ok", "is_correct": payload.is_correct}
+
+class EssayPayload(BaseModel):
+    content: str
+    criteria: str = "IELTS"
+
+@app.post("/api/grade-essay")
+async def grade_essay(payload: EssayPayload):
+    if not payload.content.strip():
+        raise HTTPException(status_code=400, detail="Essay content cannot be empty")
+    try:
+        from agent_core.core.ai import AIEngine
+        result = await AIEngine.grade_essay_or_sop(payload.content, payload.criteria)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+class InterviewPayload(BaseModel):
+    question: str
+    answer: str
+
+@app.post("/api/interview-evaluate")
+async def interview_evaluate(payload: InterviewPayload):
+    if not payload.answer.strip():
+        raise HTTPException(status_code=400, detail="Answer cannot be empty")
+    try:
+        from agent_core.core.ai import AIEngine
+        result = await AIEngine.simulate_interview(payload.question, payload.answer)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+class ChatPayload(BaseModel):
+    message: str
+    history: list = []
+
+@app.post("/api/interview-chat/{user_id}")
+async def interview_chat(user_id: int, payload: ChatPayload):
+    if not payload.message.strip():
+        raise HTTPException(status_code=400, detail="Message is required")
+    response = await agent.chat(user_id=user_id, message=payload.message, history=payload.history)
+    return {"response": response}
+
 @app.get("/api/user/stats/{user_id}")
 def get_user_stats(user_id: int):
     stats_text = agent.get_weak_topics(user_id)
-    # Simple parse for demo purposes if it's jumbled text, 
-    # but the agent returns a string.
     return {"stats_raw": stats_text}
 
 @app.post("/api/chat/{user_id}")

@@ -72,11 +72,9 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
         <div className="flex h-screen overflow-hidden bg-background text-white font-sans">
             {/* Sidebar */}
             <aside className="w-64 glass border-r border-white/5 p-6 flex flex-col z-20">
-                <div className="flex items-center gap-3 mb-10 px-2 group cursor-pointer">
-                    <div className="w-10 h-10 bg-primary/20 border border-primary/40 rounded-xl flex items-center justify-center shadow-lg shadow-primary/10 group-hover:shadow-primary/30 transition-all">
-                        <Star className="text-primary w-6 h-6 animate-glow" />
-                    </div>
-                    <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">Antigravity</span>
+                <div className="flex items-center gap-4 mb-10 px-2 group cursor-pointer">
+                    <img src="/assets/reharz_logo.png" alt="Reharz" className="w-12 h-12 rounded-2xl object-cover shadow-xl shadow-primary/30 group-hover:scale-110 transition-all border border-white/10" />
+                    <span className="text-3xl font-black tracking-tighter bg-gradient-to-r from-white via-white to-white/70 bg-clip-text text-transparent">Reharz</span>
                 </div>
 
                 <nav className="flex-1 space-y-1">
@@ -144,7 +142,7 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
                             Hello, <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Daniel</span>.
                         </motion.h1>
                         <p className="text-text-dim text-lg max-w-2xl font-medium leading-relaxed">
-                            What challenges will we conquer today? Your AI-powered preparation ecosystem is ready.
+                            What challenges will we conquer today? Your **Reharz** preparation ecosystem is ready.
                         </p>
                     </div>
 
