@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { FileText, Upload, Sparkles, CheckCircle, ChevronLeft, AlertCircle } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
 import { Mic, MicOff, Sparkles, ChevronLeft, Send, User, Bot, Brain } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
