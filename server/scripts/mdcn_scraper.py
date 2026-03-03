@@ -6,7 +6,7 @@ scripts_dir = os.path.dirname(os.path.abspath(__file__))
 if scripts_dir not in sys.path:
     sys.path.insert(0, scripts_dir)
 
-from base_scraper import BaseScraper
+from base_scraper import BaseScraper  # type: ignore
 
 class MDCNScraper(BaseScraper):
     def __init__(self):
@@ -61,7 +61,7 @@ class MDCNScraper(BaseScraper):
                 ]
                 for paper in papers:
                     content = self.format_as_md(paper['title'], paper['questions'])
-                    filename = paper['title'].replace(" - ", "_").replace(" ", "_").replace("&", "and") + ".md"
+                    filename = str(paper['title']).replace(" - ", "_").replace(" ", "_").replace("&", "and") + ".md"
                     self.save_markdown(os.path.join(self.md_dir, filename), content)
 
         print("MDCN 20-year population complete.")

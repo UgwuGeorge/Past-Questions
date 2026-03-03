@@ -6,7 +6,7 @@ scripts_dir = os.path.dirname(os.path.abspath(__file__))
 if scripts_dir not in sys.path:
     sys.path.insert(0, scripts_dir)
 
-from base_scraper import BaseScraper
+from base_scraper import BaseScraper  # type: ignore
 
 class ICANScraper(BaseScraper):
     def __init__(self):
