@@ -12,12 +12,12 @@ try:
     from agent_core.models import main_models
     from agent_core.core.agent import ExamAgent
     from agent_core.core.ai import AIEngine
-    print("✅ All imports successful!")
+    print("[OK] All imports successful!")
 
     print("Verifying database connection and schema...")
     Base.metadata.create_all(bind=engine)
-    print("✅ Database tables verified/created!")
+    print("[OK] Database tables verified/created!")
 
 except Exception as e:
-    print(f"❌ Error: {e}")
+    print(f"[ERROR] {e}")
     sys.exit(1)
