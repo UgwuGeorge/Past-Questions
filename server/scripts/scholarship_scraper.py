@@ -1,4 +1,11 @@
 import os
+import sys
+
+# Ensure the scripts directory is in the path for both local runs and IDE indexing
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+if scripts_dir not in sys.path:
+    sys.path.insert(0, scripts_dir)
+
 from base_scraper import BaseScraper
 
 class ScholarshipScraper(BaseScraper):

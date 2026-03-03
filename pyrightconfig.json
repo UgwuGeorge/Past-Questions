@@ -1,12 +1,16 @@
 {
+  "include": [
+    "server/scripts"
+  ],
   "venvPath": ".",
   "venv": ".venv",
   "executionEnvironments": [
     {
-      "root": ".",
+      "root": "server/scripts",
       "extraPaths": [
-        "server/scripts"
+        "."
       ]
     }
-  ]
+  ],
+  "typeCheckingMode": "basic"
 }
