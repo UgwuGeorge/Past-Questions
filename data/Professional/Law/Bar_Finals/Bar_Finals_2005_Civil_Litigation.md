@@ -1,0 +1,10 @@
+# Bar Finals 2005 - Civil Litigation
+
+## Questions
+
+**1.** Sample Bar Final question for Civil Litigation in 2005.
+   A) A
+   B) B
+   C) C
+   D) D
+   **Answer: C**

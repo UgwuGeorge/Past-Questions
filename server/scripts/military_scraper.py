@@ -50,7 +50,7 @@ def populate_military():
     os.makedirs(POLAC_FOLDER, exist_ok=True)
     
     # NDA General Ability usually covers History/Current Affairs
-    for year in range(2018, 2024):
+    for year in range(2004, 2025):
         print(f"Generating NDA/POLAC for {year}...")
         
         # Simulating NDA General Ability using ALOC History/Current Affairs
