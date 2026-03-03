@@ -2,7 +2,7 @@ import requests
 import os
 import time
 
-BASE_PATH = r'C:\Users\USER\.gemini\antigravity\scratch\Past-Questions'
+BASE_PATH = r'C:\Users\USER\.gemini\antigravity\scratch\Past-Questions\data'
 API_BASE = 'https://questions.aloc.com.ng/api/v2/q'
 ACCESS_TOKEN = 'ALOC-ad6bb1e7fbf4f457885e'
 
