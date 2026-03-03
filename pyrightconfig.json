@@ -9,6 +9,9 @@
   ],
   "venvPath": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\Past-Questions",
   "venv": ".venv",
+  "extraPaths": [
+    "server/scripts"
+  ],
   "executionEnvironments": [
     {
       "root": "server/scripts",
