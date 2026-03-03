@@ -1,13 +1,12 @@
 import os
 import sys
 
-# Add project root to sys.path
-# This ensures imports like 'from server.scripts.base_scraper' work consistently
-project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-if project_root not in sys.path:
-    sys.path.insert(0, project_root)
+# Ensure the scripts directory is in the path for both local runs and IDE indexing
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+if scripts_dir not in sys.path:
+    sys.path.insert(0, scripts_dir)
 
-from server.scripts.base_scraper import BaseScraper
+from base_scraper import BaseScraper
 
 class MDCNScraper(BaseScraper):
     def __init__(self):

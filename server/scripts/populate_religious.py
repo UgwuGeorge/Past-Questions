@@ -41,10 +41,11 @@ def format_md(title, questions):
     lines = [f"# {title}\n", "## Objectives\n"]
     for i, q in enumerate(questions, 1):
         lines.append(f"**{i}.** {q.get('question','')}")
-        opts = q.get('option', {}) or {}
-        for k in ['a','b','c','d','e']:
-            val = (opts.get(k) or '').strip()
-            if val: lines.append(f"   {k.upper()}) {val}")
+        opts = q.get('option')
+        if isinstance(opts, dict):
+            for k in ['a','b','c','d','e']:
+                val = str(opts.get(k) or '').strip()
+                if val: lines.append(f"   {k.upper()}) {val}")
         lines.append(f"   **Answer: {str(q.get('answer','')).upper()}**\n")
     lines.append("\n---\n*(Source: ALOC open API — questions.aloc.com.ng)*")
     return "\n".join(lines)
