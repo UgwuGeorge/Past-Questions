@@ -1,12 +1,12 @@
 import os
 import sys
 
-# Ensure the scripts directory is in the path for both local runs and IDE indexing
-scripts_dir = os.path.dirname(os.path.abspath(__file__))
-if scripts_dir not in sys.path:
-    sys.path.insert(0, scripts_dir)
+# Add project root to sys.path
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
-from base_scraper import BaseScraper
+from server.scripts.base_scraper import BaseScraper
 
 class LawScraper(BaseScraper):
     def __init__(self):
