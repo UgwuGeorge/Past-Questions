@@ -2,7 +2,7 @@ import requests
 import os
 import time
 
-BASE_PATH = os.path.join(os.environ['USERPROFILE'], '.gemini', 'antigravity', 'scratch', 'Past-Questions')
+BASE_PATH = os.path.join(os.environ['USERPROFILE'], '.gemini', 'antigravity', 'scratch', 'Past-Questions', 'data')
 API_BASE = 'https://questions.aloc.com.ng/api/v2/q'
 ACCESS_TOKEN = 'ALOC-ad6bb1e7fbf4f457885e'
 
