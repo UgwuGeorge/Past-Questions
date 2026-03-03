@@ -78,8 +78,9 @@ class LawScraper(BaseScraper):
         ]
         
         for diet in sample_data:
-            content = self.format_as_md(diet['title'], diet['questions'])
-            filename = diet['title'].replace(" - ", "_").replace(" ", "_") + ".md"
+            title_str = str(diet['title'])
+            content = self.format_as_md(title_str, diet['questions'])
+            filename = title_str.replace(" - ", "_").replace(" ", "_") + ".md"
             self.save_markdown(os.path.join(self.md_dir, filename), content)
             
         print("Law population complete.")

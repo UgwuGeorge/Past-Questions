@@ -1,14 +1,19 @@
 {
   "include": [
-    "server/scripts"
+    "."
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    ".venv"
   ],
   "venvPath": ".",
   "venv": ".venv",
   "executionEnvironments": [
     {
-      "root": "server/scripts",
+      "root": ".",
       "extraPaths": [
-        "."
+        "./server/scripts"
       ]
     }
   ],
