@@ -1,86 +1,83 @@
-# WAEC Biology Past Questions (2008)
+# NECO Biology Past Questions (2008)
 
 ## Objectives
 
-**1.** The movement response of a cockroach away  from a light source can be described as
-   A) negative phototaxism
-   B) negative photropism
-   C) positive  photropism
-   D) positive phototaxism
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**2.** A peculiar characteristic of mammals is that they
-   A) have teeth
-   B) are warm blooded
-   C) haelungs
-   D) have sebaceous glands
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**3.** In which of the following Nigerian states can montane vegetation be found?
-   A) Plateau
-   B) Taraba
-   C) Enugu
-   D) Bauchi
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** The Scarcity of food causes a sudden decrease in population size by
-   A) decrease the reproductive rate
-   B) bringing about immigration
-   C) raising the mortality rate
-   D) minimizing the rate of competition
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**5.** The path followed by air as it passes through the lungs in mammals is
-   A) bronchi_ trachea_ alveoli_ bronchioles
-   B) Trachea _ Bronchiole _ bronchi_ alveoli
-   C) bornchioles _ alveoli _ bronchi_ trachea
-   D) trachea_ bronchi _ bronchioles_ alveoli
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**6.** The presence of stilt roots, pneumatophores, sunken stomata and salt glands are adaptive features of plants found in the
-   A) tropical rainforest
-   B) mangrove swamps
-   C) grassland
-   D) montane forest
+**1.** Which of the following organisms is a consumer?
+   A) Grass
+   B) Goat
+   C) Mushroom
+   D) Algae
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *Explanation: Goats are herbivores (primary consumers) that eat producers.*
 
-**7.** The main ecological  problem facing interidal organisms is
-   A) dessciation
-   B) floatation
-   C) salinity
-   D) humidity
+**2.** The process by which organisms maintain a stable internal environment is called
+   A) Homeostasis
+   B) Metabolism
+   C) Growth
+   D) Reproduction
    **Answer: A**
+   *Explanation: Homeostasis is the regulation of internal conditions.*
 
-**8.** Which of the following vertebrates has the most simple structured heart?
-   A) fish
-   B) Mammal
-   C) Amphibian
-   D) Reptile
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**9.** Which of the following factors can bring about competition in a population?
-   A) Drought
-   B) Mortality
-   C) Dispersion
-   D) Emigration
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**10.** The opening of the stoma is controlled by the
-   A) presence of a pore
-   B) increase in solute concentration  in the guard cells
-   C) presence of guard cells
-   D) decrease in solute concentration in the guard cells
+**3.** Which of the following is a water-borne disease?
+   A) Malaria
+   B) Cholera
+   C) Tuberculosis
+   D) Measles
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Cholera is transmitted through contaminated water.*
 
+**4.** In plants, the cuticle is found on the
+   A) Root
+   B) Stem
+   C) Leaf
+   D) Flower
+   **Answer: C**
+   *Explanation: The cuticle is a waxy layer on leaf surfaces that prevents water loss.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**5.** The human sex chromosomes in a female are
+   A) XY
+   B) XX
+   C) XO
+   D) YY
+   **Answer: B**
+   *Explanation: Females have two X chromosomes.*
+
+**6.** Which organelle is involved in the synthesis of fatty acids?
+   A) Ribosome
+   B) Smooth ER
+   C) Golgi body
+   D) Lysosome
+   **Answer: B**
+   *Explanation: Smooth ER synthesizes lipids.*
+
+**7.** The reflex that protects the eye is the
+   A) Knee jerk
+   B) Blink reflex
+   C) Salivary reflex
+   D) Sneezing
+   **Answer: B**
+   *Explanation: The blink reflex protects the eye from foreign objects.*
+
+**8.** Which of the following is a characteristic of acquired immunity?
+   A) Present at birth
+   B) Non-specific
+   C) Developed after exposure
+   D) Inherited
+   **Answer: C**
+   *Explanation: Acquired immunity develops after exposure to pathogens.*
+
+**9.** The type of fruit that develops from the ovary is called
+   A) False fruit
+   B) True fruit
+   C) Aggregate fruit
+   D) Multiple fruit
+   **Answer: B**
+   *Explanation: True fruits develop from the ovary.*
+
+**10.** In the carbon cycle, carbon dioxide is returned to the atmosphere through
+   A) Photosynthesis
+   B) Respiration
+   C) Decomposition
+   D) Both B and C
+   **Answer: D**
+   *Explanation: Respiration and decomposition release CO2.*

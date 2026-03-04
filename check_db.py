@@ -1,15 +1,29 @@
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from agent_core.models.main_models import Exam, Subject
+import sqlite3
+import os
 
-engine = create_engine("sqlite:///./past_questions_v2.db")
-SessionLocal = sessionmaker(bind=engine)
-db = SessionLocal()
+db_path = 'agent_local_data.db'
 
-exams = db.query(Exam).all()
-print(f"Found {len(exams)} exams.")
-for e in exams:
-    print(f"- {e.name} ({e.category.value})")
-    for s in e.subjects:
-        print(f"  * {s.name}")
-db.close()
+def check_db():
+    if not os.path.exists(db_path):
+        print(f"Database {db_path} not found.")
+        return
+
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    # List all tables
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+    tables = [row[0] for row in cursor.fetchall()]
+    print(f"Tables: {tables}")
+
+    for table in tables:
+        print(f"\nTable: {table}")
+        cursor.execute(f"PRAGMA table_info({table})")
+        columns = cursor.fetchall()
+        for col in columns:
+            print(f"  {col}")
+
+    conn.close()
+
+if __name__ == "__main__":
+    check_db()

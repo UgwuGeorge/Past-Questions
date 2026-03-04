@@ -1,88 +1,83 @@
-# WAEC Biology Past Questions (2003)
+# NECO Biology Past Questions (2003)
 
 ## Objectives
 
-**1.** An increase  in air pressure in the lings is due to the
-   A) increase in the volume of the thoracic cavity
-   B) relaxation of the diaphragm
-   C) upward movement of the ribs
-   D) contraction intercostal muscles
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**2.** Which of the following describes the sequence of blood flow fro the heart to a tissue?
-   A) Heart_artery_arteriole _ tissue
-   B) Heart_vein_venule _tissue
-   C) Heart _ venule _vein_tissue
-   D) Heart _arteriole _artery_tissue
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**3.** The easiest way to establish  the level of pollution in a local stream is to measure the level of
-   A) oxygen
-   B) carbon(IV) oxide
-   C) ammonia
-   D) alkalinity
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**4.** The progressive loss of energy at each level in a food chain  leads to
-   A) an increase in biomass at each successive level
-   B) a decrease in biomass at each successive level
-   C) an increase in the number of organisms at each successive level
-   D) an increase in the total weight of living matter at each successive level.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**5.** I. Adoption of appropriate nocturnal habits   II. Burrowing   III. adjusting their  internal body temperature   IV. Possession of many sweat pores.
-Which of the above are ways in which desert animals adapt to extreme heat of environment?
-   A) I and IV only
-   B) II and III only
-   C) I and II only
-   D) I, II and III only
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**6.** In a cell, the genes are carried by
-   A) nuclear membranes
-   B) chromatin threads
-   C) lysosomes
-   D) mitochondria
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**7.** The first terrestrial vertebratese volved from
-   A) pisces
-   B) Reptilia
-   C) Amphibia
-   D) Mammalia
+**1.** The largest organ in the human body is the
+   A) Heart
+   B) Liver
+   C) Skin
+   D) Brain
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: The skin is the largest organ by surface area.*
 
-**8.** Which of the following characterizes a mature plant cell?
-   A) The cytoplasm fills up the entire cell space
-   B) The nucleus is pushed to the centre of the cell
-   C) the cell wall is made up of cellulose
-   D) The nucleus is small and irregular in shape
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
+**2.** Which of the following is a characteristic of all living things?
+   A) Movement
+   B) Growth
+   C) Reproduction
+   D) Response to stimuli
+   **Answer: C**
+   *Explanation: All living things reproduce to pass on genetic material.*
 
-**9.** The natural process that produces adaptive evolutionary  changes is
-   A) mutation
-   B) gene flow
-   C) genetic drift
-   D) natural selection
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**10.** The order of passage of food in the digestive system is
-   A) ileum caecum large intestine rectum
-   B) ileum colon caecum rectum
-   C) large intestine ileum caecum rectum
-   D) colon caeum ileum rectum
+**3.** The type of cell division that results in two identical daughter cells is
+   A) Meiosis
+   B) Mitosis
+   C) Binary fission
+   D) Cytokinesis
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: Mitosis produces two identical diploid cells.*
 
+**4.** In plants, the tissue that transports food is the
+   A) Xylem
+   B) Phloem
+   C) Cambium
+   D) Epidermis
+   **Answer: B**
+   *Explanation: Phloem transports dissolved sugars.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**5.** Which of the following is a vector-borne disease?
+   A) Tuberculosis
+   B) Cholera
+   C) Sleeping sickness
+   D) Measles
+   **Answer: C**
+   *Explanation: Sleeping sickness is transmitted by tsetse flies.*
+
+**6.** The part of the ear that contains the sensory cells for hearing is the
+   A) Semicircular canal
+   B) Cochlea
+   C) Eustachian tube
+   D) Pinna
+   **Answer: B**
+   *Explanation: The cochlea contains hair cells that detect sound.*
+
+**7.** Which of the following is a function of the liver?
+   A) Pumping blood
+   B) Producing bile
+   C) Gas exchange
+   D) Filtering air
+   **Answer: B**
+   *Explanation: The liver produces bile for digestion.*
+
+**8.** The movement of molecules from low to high concentration requires
+   A) Diffusion
+   B) Osmosis
+   C) Active transport
+   D) Facilitated diffusion
+   **Answer: C**
+   *Explanation: Active transport requires energy to move against the concentration gradient.*
+
+**9.** In genetics, a recessive gene will only show in the phenotype when
+   A) It is dominant
+   B) It is heterozygous
+   C) It is homozygous
+   D) It is co-dominant
+   **Answer: C**
+   *Explanation: Recessive traits require two copies to be expressed.*
+
+**10.** The process by which plants lose water through leaves is called
+   A) Evaporation
+   B) Transpiration
+   C) Condensation
+   D) Precipitation
+   **Answer: B**
+   *Explanation: Transpiration is the loss of water vapor from plants.*

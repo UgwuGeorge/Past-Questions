@@ -1,79 +1,83 @@
-# WAEC Biology Past Questions (2022)
+# NECO Biology Past Questions (2022)
 
 ## Objectives
 
-**1.** Which of the following is a polysaccharide?
-   A) Glucose
-   B) sucrose
-   C) Maltose
-   D) Cellulose
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**2.** The most effective method of dealing with non-gradable pollutants by  \
-   A) dumping
-   B) recycling
-   C) incineration
-   D) Burying
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**3.** The adult form of III is a vector of
-   A) river blindness
-   B) cholera
-   C) elephantiasis
-   D) sleeping sickness
+**1.** The nucleus of a cell controls all cellular activities except
+   A) Growth
+   B) Reproduction
+   C) Respiration
+   D) Cell division
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Respiration occurs in the mitochondria and does not require nuclear control.*
 
-**4.** The highest level of ecological organization is the
-   A) niche
-   B) biosphere
-   C) population
-   D) Ecosystem
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**5.** An insect with a mandibulate  mouth part will obtain its food by
-   A) biting and chewing
-   B) chewing and sucking
-   C) chewing
-   D) Sucking
+**2.** Which of the following is not a function of the skeleton?
+   A) Support
+   B) Protection
+   C) Reproduction
+   D) Blood cell formation
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: The skeleton provides support, protection, and produces blood cells in marrow, but does not function in reproduction.*
 
-**6.** Insectivorous plants traps and kill their prey to derive
-   A) phosphorous
-   B) calcium
-   C) nitrogen
-   D) Zinc
+**3.** The green pigment in plants that absorbs light for photosynthesis is
+   A) Chlorophyll
+   B) Carotene
+   C) Xanthophyll
+   D) Anthocyanin
+   **Answer: A**
+   *Explanation: Chlorophyll absorbs light energy, primarily red and blue wavelengths, for photosynthesis.*
+
+**4.** In which part of the human ear is sound waves transduced into nerve impulses?
+   A) Pinna
+   B) Auditory canal
+   C) Cochlea
+   D) Eustachian tube
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: The cochlea contains hair cells that convert sound vibrations into electrical nerve impulses.*
 
-**7.** Angiosperms and gymnosperms belong to the class
-   A) schizophyta
-   B) spermatophyte
-   C) pteridophyta
-   D) bryophta
+**5.** Which type of reproduction involves the fusion of gametes?
+   A) Binary fission
+   B) Budding
+   C) Sexual reproduction
+   D) Fragmentation
+   **Answer: C**
+   *Explanation: Sexual reproduction involves the fusion of male and female gametes.*
+
+**6.** The process by which water moves across a selectively permeable membrane is
+   A) Diffusion
+   B) Osmosis
+   C) Active transport
+   D) Pinocytosis
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: Osmosis is the movement of water molecules from an area of lower solute concentration to higher concentration.*
 
-**8.** The crossing of individuals of the same species with different genetic characters is
-   A) polygenic inheritance
-   B) non disjunction
-   C) inbreeding
-   D) cross breeding
+**7.** Which organ is responsible for filtering blood in the excretory system?
+   A) Kidney
+   B) Liver
+   C) Lungs
+   D) Skin
+   **Answer: A**
+   *Explanation: The kidneys filter blood to remove waste products and regulate water and electrolyte balance.*
+
+**8.** The gap between two neurons is called the
+   A) Axon
+   B) Dendrite
+   C) Synapse
+   D) Myelin sheath
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: The synapse is the small gap between neurons where neurotransmitters are released.*
 
-**9.** The product of excretion common to the mammalian kidney lung and skin is
-   A) Urea
-   B) carbon (IV)oxides
-   C) mineral salt
-   D) water
+**9.** Which vitamin is produced when the skin is exposed to sunlight?
+   A) Vitamin A
+   B) Vitamin B
+   C) Vitamin C
+   D) Vitamin D
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: Vitamin D is synthesized in the skin when exposed to UV radiation from sunlight.*
 
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**10.** In a food chain, the organisms that convert solar energy to chemical energy are
+   A) Herbivores
+   B) Carnivores
+   C) Producers
+   D) Decomposers
+   **Answer: C**
+   *Explanation: Producers (plants) convert solar energy to chemical energy through photosynthesis.*

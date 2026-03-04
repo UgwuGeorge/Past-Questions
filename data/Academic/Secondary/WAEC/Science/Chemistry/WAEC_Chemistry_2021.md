@@ -1,80 +1,83 @@
-# WAEC Chemistry Past Questions (2021)
+# NECO Chemistry Past Questions (2021)
 
 ## Objectives
 
-**1.** A compound contains 31.91% potassium, 28.93% chlorine and the rest oxygen. What is the chemical formular of the compound
-   A) KCLO3
-   B) KCLO4
-   C) KCLO
-   D) KCLO2
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**2.** To a solution of an unknown compound, a little dilute Tetraoxosulphate (IV) acid was added with some freshly prepared (II) Tetraoxosulphate (VI) Solution. The brown ring observed after the addition of a stream of concentrated  Tetraoxosulphate (VI) acid confirmed the presence of
-   A) CI
-   B) SO
-   C) NO
-   D) CO
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**3.** CH3-CH2-C = CH  The hybridization in the compound above is
-   A) Sp3 and sp
-   B) Sp3 and sp2
-   C) Sp
-   D) Sp2
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**4.** The weakest attractive force that can be observed between two molecules is
-   A) Ionic
-   B) Covalent
-   C) Coordinate covalent
-   D) Van der Waals
+**1.** Which of the following is an allotrope of carbon?
+   A) Diamond
+   B) Graphite
+   C) Fullerene
+   D) All of the above
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Diamond, graphite, and fullerene are allotropes of carbon.*
 
-**5.** Cancerous growths are cured by exposure to
-   A) ɣ-rays
-   B) β – rays
-   C) ἀ – rays
-   D) X -rays
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2001)*
+**2.** The number of electrons in the outer shell of oxygen is
+   A) 4
+   B) 6
+   C) 2
+   D) 8
+   **Answer: B**
+   *Explanation: Oxygen has atomic number 8, so it has 6 valence electrons.*
 
-**6.** A given volume of methane diffuses in 20s. how long will it take the same volume of sulphur(IV) oxide to diffuse under the same conditions    [C = 12, H = 1, S = 32, O = 16]
-   A) 5s
-   B) 20s
-   C) 40s
-   D) 60s
+**3.** Which of the following is a chemical property of metals?
+   A) Malleability
+   B) Ductility
+   C) Reactivity with acids
+   D) Conductivity
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Reactivity with acids is a chemical property.*
 
-**7.** N2O4(g)    ⇌  2NO2(g)
-   A) A constant volume
-   B) An increase in pressure
-   C) A decrease in pressure
-   D) A decrease in volume
+**4.** The main constituent of natural gas is
+   A) Ethane
+   B) Propane
+   C) Methane
+   D) Butane
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Methane (CH4) is the primary component of natural gas.*
 
-**8.** the principal constituent of natural gas is methane
-   A) ethane
-   B) propane
-   C) butane
-   D) butane
+**5.** Which of the following indicators is used for titration?
+   A) Litmus
+   B) Phenolphthalein
+   C) Methyl orange
+   D) All of the above
+   **Answer: D**
+   *Explanation: All these indicators can be used in titrations.*
+
+**6.** The oxidation state of iron in Fe2O3 is
+   A) +2
+   B) +3
+   C) +4
+   D) +6
+   **Answer: B**
+   *Explanation: Fe2O3: 2x + 3(-2) = 0, so x = +3.*
+
+**7.** Which of the following is a catalyst in the Haber process?
+   A) Vanadium pentoxide
+   B) Iron
+   C) Platinum
+   D) Nickel
+   **Answer: B**
+   *Explanation: Iron is the catalyst used in the Haber process.*
+
+**8.** The type of bond in N2 molecule is
+   A) Single bond
+   B) Double bond
+   C) Triple bond
+   D) Ionic bond
+   **Answer: C**
+   *Explanation: N2 has a triple bond (N≡N).*
+
+**9.** Which of the following is a soapless soap?
+   A) Sodium stearate
+   B) Sodium lauryl sulfate
+   C) Sodium palmitate
+   D) All of the above
+   **Answer: B**
+   *Explanation: Sodium lauryl sulfate is a synthetic detergent.*
+
+**10.** The empirical formula of C6H12O6 is
+   A) CH2O
+   B) C2H4O2
+   C) C6H12O6
+   D) CHO
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**9.** 2CO(g)  +  O2(g) →  2CO2(g)
-Given that   Δ H [CO] is 110.4kJ mol-1 and Δ H [CO2] is -393.0kJ mol-1, the energy change for the reaction above is
-   A) -503.7kJ
-   B) -282.6kJ
-   C) +282.6kJ
-   D) +503.7kJ
-   **Answer: N**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+   *Explanation: Dividing by 6 gives CH2O.*

@@ -1,79 +1,83 @@
-# WAEC Biology Past Questions (2017)
+# NECO Biology Past Questions (2017)
 
 ## Objectives
 
-**1.** The only vein that caries pure oxygenated blood is the
-   A) renal vein
-   B) Pulmonary vein
-   C) hepatic vein
-   D) sciatic vein
+**1.** Which of the following is not a component of the human circulatory system?
+   A) Heart
+   B) Lungs
+   C) Blood vessels
+   D) Blood
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: The lungs are part of the respiratory system, not the circulatory system.*
 
-**2.** The cell of an onion bulb can be differentiated from a cheek cell by the presence of
-   A) plasmalemma
-   B) chloroplast
-   C) cell wall
-   D) nucleus
+**2.** The cell theory states that all living things are composed of
+   A) Tissues
+   B) Organs
+   C) Cells
+   D) Organ systems
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: Cell theory states that all organisms are made of cells.*
 
-**3.** One distinctive feature in the life history  of liverworts is that they exhibit
-   A) alternation of generation
-   B) vegetative reproduction
-   C) sexual reproduction
-   D) sexual reproduction
+**3.** Which gas is absorbed by plants from the atmosphere?
+   A) Oxygen
+   B) Nitrogen
+   C) Carbon dioxide
+   D) Hydrogen
+   **Answer: C**
+   *Explanation: Plants absorb CO2 for use in photosynthesis.*
+
+**4.** The male hormone responsible for secondary sexual characteristics is
+   A) Estrogen
+   B) Progesterone
+   C) Testosterone
+   D) Insulin
+   **Answer: C**
+   *Explanation: Testosterone is the male sex hormone that promotes male secondary characteristics.*
+
+**5.** Which organelle is found in both plant and animal cells?
+   A) Cell wall
+   B) Chloroplast
+   C) Mitochondria
+   D) Large vacuole
+   **Answer: C**
+   *Explanation: Mitochondria are present in both plant and animal cells.*
+
+**6.** The process by which plants respond to light is called
+   A) Hydrotropism
+   B) Geotropism
+   C) Phototropism
+   D) Chemotropism
+   **Answer: C**
+   *Explanation: Phototropism is the growth response of plants toward light.*
+
+**7.** In the human heart, the right ventricle pumps blood to the
+   A) Lungs
+   B) Body
+   C) Liver
+   D) Kidneys
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: The right ventricle pumps deoxygenated blood to the lungs.*
 
-**4.** During blood transfusion, agglutination may occur as a result of the reaction between
-   A) two different antigens
-   B) two different antibodies
-   C) similar antigens and antibodies
-   D) contrasting antigens and antibodies
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2011)*
+**8.** Which of the following is a viral disease?
+   A) Cholera
+   B) Tuberculosis
+   C) Polio
+   D) Typhoid
+   **Answer: C**
+   *Explanation: Polio is caused by poliovirus.*
 
-**5.** A state in Nigeria that is most susceptible to desert encroachment is
-   A) Kwara
-   B) Taraba
-   C) Kaduna
-   D) Katsina
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**6.** The average number of individuals of a species  per unit area of the habitat is the
-   A) population density
-   B) population frequency
-   C) population size
-   D) population distribution
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**7.** The autonomic nervous system consists of neurons that control the
-   A) voluntary  muscle
-   B) heart beat
-   C) tongue
-   D) hands
+**9.** The part of the ear responsible for balance is the
+   A) Cochlea
+   B) Semicircular canals
+   C) Eustachian tube
+   D) Auditory nerve
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *Explanation: The semicircular canals detect head movement and help maintain balance.*
 
-**8.** In terms of the number of individuals, which of the following  taxa is most inclusive?
-   A) order
-   B) family
-   C) class
-   D) species
+**10.** Which of the following is a non-communicable disease?
+   A) Malaria
+   B) Tuberculosis
+   C) Diabetes
+   D) Measles
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**9.** Population that doubles in size to constant intervals is an indication of
-   A) sigmoid
-   B) population explosion
-   C) rapid growth
-   D) exponential growth
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+   *Explanation: Diabetes is not transmitted from person to person.*

@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2013)
+# NECO Biology Past Questions (2013)
 
 ## Objectives
 
-**1.** Which of the following plant structures lacks a waterproof of cuticle?
-   A) leaf
-   B) stem
-   C) root
-   D) shoot
+**1.** Which of the following is a type of permanent tissue in plants?
+   A) Meristem
+   B) Parenchyma
+   C) Sclerenchyma
+   D) Cambium
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *Explanation: Sclerenchyma is a supporting permanent tissue with thickened walls.*
 
-**2.** An example of a sex-linked  trait is the
-   A) ability to roll the tongue
-   B) possession of facial hair in adult humans
-   C) ability to grow long hair in females
-   D) colour of the skin in human
+**2.** The organ that removes carbon dioxide from the blood is the
+   A) Kidney
+   B) Liver
+   C) Lungs
+   D) Skin
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: Lungs remove CO2 through exhalation.*
 
-**3.** Habitats are generally classified into
-   A) aquatic and terrestrial
-   B) arboreal  and marine biomes
-   C) microhabitats and macro habitats
-   D) biotic and abiotic
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**4.** The best method of propagating sugarcane by
-   A) seed sowing
-   B) layering
-   C) grafting
-   D) stem cuttings
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**5.** In nature, plants and animals are perpetually engaged in mutulism because
-   A) all animals rely on food produced  by plants
-   B) they  utilize respiratory wastes of each other
-   C) they are neighbours
-   D) they are rivals
+**3.** In genetics, the alternative forms of a gene are called
+   A) Chromosomes
+   B) Alleles
+   C) Loci
+   D) Genotypes
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Alleles are different versions of a gene.*
 
-**6.** In Nigeria, the Guinea Savanna belt borders the
-   A) mangrove swamps and the Sahel  savanna
-   B) rainforests and the Sudan savanna
-   C) deserts and the Sudan savanna
-   D) rainforests and the desert.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**7.** The product of excretion common to the mammalian kidney lung and skin is
-   A) Urea
-   B) carbon (IV)oxides
-   C) mineral salt
-   D) water
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**8.** Which of the following organs regulates the levels of water, salts, hydrogen ions and urea in the mammalian blood?
-   A) kidney
-   B) bladder
-   C) colon
-   D) liver
+**4.** Which structure prevents food from entering the trachea during swallowing?
+   A) Epiglottis
+   B) Larynx
+   C) Pharynx
+   D) Uvula
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: The epiglottis covers the trachea during swallowing.*
 
-**9.** The variation illustrated is
-   A) physiological
-   B) discontinuous
-   C) morphological
-   D) biochemical
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**10.** The hyphal wall of fungi is rigid  owing to the presence of
-   A) cell wall
-   B) lignin
-   C) cellulose
-   D) chitia
+**5.** The type of tooth used for grinding food is the
+   A) Incisor
+   B) Canine
+   C) Premolar
+   D) Molar
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: Molars have broad surfaces for grinding.*
 
+**6.** Which of the following is a greenhouse gas?
+   A) Oxygen
+   B) Nitrogen
+   C) Carbon dioxide
+   D) Hydrogen
+   **Answer: C**
+   *Explanation: CO2 traps heat in the atmosphere.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**7.** The functional unit of the kidney is the
+   A) Nephron
+   B) Alveolus
+   C) Neuron
+   D) villi
+   **Answer: A**
+   *Explanation: Nephrons filter blood to produce urine.*
+
+**8.** In plants, wilting occurs when
+   A) Turgor pressure is high
+   B) Water loss exceeds uptake
+   C) Stomata are open
+   D) Photosynthesis is high
+   **Answer: B**
+   *Explanation: Wilting results from loss of turgor pressure due to water deficit.*
+
+**9.** Which blood cell is involved in immune response?
+   A) Red blood cell
+   B) White blood cell
+   C) Platelet
+   D) Plasma
+   **Answer: B**
+   *Explanation: White blood cells fight infection.*
+
+**10.** The part of the flower that develops into the fruit is the
+   A) Ovary
+   B) Ovule
+   C) Stigma
+   D) Anther
+   **Answer: A**
+   *Explanation: The ovary develops into the fruit.*

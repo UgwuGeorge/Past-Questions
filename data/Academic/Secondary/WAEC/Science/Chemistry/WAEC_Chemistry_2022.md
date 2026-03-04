@@ -1,86 +1,83 @@
-# WAEC Chemistry Past Questions (2022)
+# NECO Chemistry Past Questions (2022)
 
 ## Objectives
 
-**1.** 3Cu  +  pHNO3  → 3Cu(NO3)2  +  4H2O  + xNO   In the equation above, the values of p and x respectively are
-   A) 1 and 3
-   B) 2 and 3
-   C) 6 and 2
-   D) 8 and 2
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**2.** In a flame test for calcium, the flame appears
-   A) Blue when viewed through a blue glass
-   B) Green when viewed through a blue glass
-   C) Orange-red when viewed through a blue glass
-   D) Brick-red when viewed through a blue glass
+**1.** Which of the following is a physical change?
+   A) Burning of magnesium
+   B) Rusting of iron
+   C) Dissolving sugar in water
+   D) Cooking of food
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: Dissolving sugar in water is a physical change as no new substance is formed.*
 
-**3.** The mass of silver deposited when a current of 10A is passed through a solution of silver salt for 4830s is    [Ag = 108, F = 96500 Cmol-1]
-   A) 108.0g
-   B) 54.0g
-   C) 27.0g
-   D) 13.5g
+**2.** The maximum number of electrons in the second shell is
+   A) 2
+   B) 8
+   C) 18
+   D) 32
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: The second shell can hold up to 8 electrons (2n² where n=2).*
 
-**4.** Trioxonitrate(V) acid is not used for preparing hydrogen gas from metals because it
-   A) Renders the metal passive
-   B) Is strongly oxidizing
-   C) Is volatile
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**5.** The gas that is the most dangerous pollutant to humans is
-   A) Carbon(IV) oxide
-   B) Nitrogen (II)oxide
-   C) Hydrogen sulphide
-   D) Sulphur(IV) oxide
+**3.** Which of the following compounds is ionic?
+   A) HCl
+   B) CO2
+   C) NaCl
+   D) CH4
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: NaCl is an ionic compound formed from Na+ and Cl- ions.*
 
-**6.** Three drops of a 1.0 mol dm-3 solution of Na OH are added to 20cm3 of a solution of pH8.4. the pH of the resulting solution will be
-   A) Greater than 8.4
-   B) Unaltered
-   C) Close to that of pure water
-   D) Less than 8.4
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2002)*
-
-**7.** An electron can be added to a halogen atom to form a halide ion with
-   A) 2 valence electrons
-   B) 3 valence electrons
-   C) 7 valence electrons
-   D) Valence electrons
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**8.** The air around smelting industries is likely to contain
-   A) CO2, SO3 and H2
-   B) SO2N2 and CO2
-   C) H2, SO2 and CO2
-   D) H2S, CO and N2
+**4.** The general formula for alkenes is
+   A) CnH2n+2
+   B) CnH2n
+   C) CnH2n-2
+   D) CnHn
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: Alkenes have one double bond, giving the formula CnH2n.*
 
-**9.** C(s) + 2S (g)  → CS2 (g)      Δ H = +89kJ mol-1. The chemical equation above implies that
-   A) Each of carbon and sulphur has 89kJ of energy
-   B) Both carbon and sulphur contribute 89kJ of energy
-   C) 89kJ of energy is released
-   D) 89kJ is absorbed
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2001)*
+**5.** Which of the following is used to test for starch?
+   A) Iodine solution
+   B) Lime water
+   C) Fehling's solution
+   D) Benedict's solution
+   **Answer: A**
+   *Explanation: Iodine turns blue-black in the presence of starch.*
 
-**10.** The gas obtained as a product of anaerobic action ob organic matter buried in the earth is
-   A) Nitrogen(IV) oxide
-   B) Carbon(IV) oxide
-   C) Methane
-   D) Ethene
+**6.** The gas evolved when an acid reacts with a metal is
+   A) Oxygen
+   B) Nitrogen
+   C) Hydrogen
+   D) Carbon dioxide
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: Acids react with metals to produce hydrogen gas.*
 
+**7.** Which of the following is a property of metals?
+   A) Brittle
+   B) Poor conductors of heat
+   C) Ductile
+   D) Dull appearance
+   **Answer: C**
+   *Explanation: Metals are malleable and ductile.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**8.** The process of electrolysis is used to extract
+   A) Iron from Haematite
+   B) Sodium from NaCl
+   C) Both A and B
+   D) None
+   **Answer: C**
+   *Explanation: Electrolysis is used to extract both iron and sodium.*
+
+**9.** Which of the following is a carbonate ore?
+   A) Haematite
+   B) Bauxite
+   C) Calamine
+   D) Galena
+   **Answer: C**
+   *Explanation: Calamine (ZnCO3) is a carbonate ore.*
+
+**10.** The bond in HCl molecule is
+   A) Ionic
+   B) Covalent
+   C) Metallic
+   D) Hydrogen
+   **Answer: B**
+   *Explanation: HCl has a covalent bond as electrons are shared.*

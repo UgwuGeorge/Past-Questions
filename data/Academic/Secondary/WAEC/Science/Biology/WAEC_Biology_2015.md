@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2015)
+# NECO Biology Past Questions (2015)
 
 ## Objectives
 
-**1.** Yeast respires anaerobically  to covert simple sugar to carbon (IV) oxide and
-   A) alcohol
-   B) acid
-   C) oxygen
-   D) water
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**2.** The major consequences of bush burning in an ecosystem is
-   A) the loss of water absorbing ability of the soil
-   B) the loss of biological diversity
-   C) a decrease in animal population
-   D) an increase in soil fertility
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**3.** In mammals , the  organ directly on top of the kidney is the
-   A) prostate gland
-   B) pancrease
-   C) thyroid gland
-   D) adrenal gland
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** A caterpillar and an aphid living in different parts of the same plant can be said to
-   A) occupy the same ecological riches
-   B) Be in different habitats
-   C) occupy different ecological riches
-   D) be in  similar micro habitats
+**1.** Which of the following is not a function of the cell membrane?
+   A) Selective permeability
+   B) Protection
+   C) Synthesis of proteins
+   D) Reception of hormones
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Protein synthesis occurs on ribosomes, not the cell membrane.*
 
-**5.** The fungi are a distinct group of eukaryotes mainly  because they have
-   A) spores
-   B) no chlorophyll
-   C) many fruiting bodies
-   D) sexual and asexual reproduction
+**2.** The process of conversion of glucose to ethanol and carbon dioxide is called
+   A) Aerobic respiration
+   B) Anaerobic respiration
+   C) Photosynthesis
+   D) Fermentation
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *Explanation: Fermentation in yeast produces ethanol and CO2.*
 
-**6.** The waste product of plants used in the conversion of hide to leather is
-   A) resin
-   B) tannin
-   C) gum
-   D) Alkaloid
+**3.** Which organ produces bile?
+   A) Gallbladder
+   B) Pancreas
+   C) Liver
+   D) Stomach
+   **Answer: C**
+   *Explanation: The liver produces bile, which is stored in the gallbladder.*
+
+**4.** In plants, the male gametes are produced in the
+   A) Ovary
+   B) Anther
+   C) Stigma
+   D) Petal
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: The anther produces pollen containing male gametes.*
 
-**7.** One adaptation  shown by hydrophytes in fresh water habitats is the
-   A) poor  development of roots and xylem tissues
-   B) well developed roots and supporting system
-   C) leaves reduced to spines
-   D) waxy  cuticle on shoot surface
+**5.** Which vitamin is stored in the liver?
+   A) Vitamin A
+   B) Vitamin C
+   C) Vitamin B
+   D) Vitamin K
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: Vitamin A is stored in the liver.*
 
-**8.** The loss of soil through erosion can be reduced by
-   A) watering
-   B) crop rotation
-   C) maturing
-   D) irrigation
+**6.** The smallest bone in the human body is the
+   A) Femur
+   B) Stapes
+   C) Humerus
+   D) Tibia
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *Explanation: The stapes in the middle ear is the smallest bone.*
 
-**9.** Homologous pairs of chromosomes separate during
-   A) cytolysis
-   B) cleavage
-   C) mitosis
-   D) Meiosis
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**10.** An argument against Lamarck’s theory of evolution is that
-   A) disuse of  body part cannot weaken the part
-   B) disused part is dropped off in the offspring
-   C) acquired traits cannot be passed onto the offspring
-   D) traits cannot be acquired through constant use of body parts
+**7.** Which organelle is responsible for photosynthesis?
+   A) Mitochondria
+   B) Chloroplast
+   C) Ribosome
+   D) Golgi apparatus
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Chloroplasts contain chlorophyll for photosynthesis.*
 
+**8.** The type of reproduction that produces genetically identical offspring is
+   A) Sexual reproduction
+   B) Asexual reproduction
+   C) Meiosis
+   D) Gamete formation
+   **Answer: B**
+   *Explanation: Asexual reproduction produces clones.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**9.** In humans, the period of pregnancy is approximately
+   A) 36 weeks
+   B) 40 weeks
+   C) 30 weeks
+   D) 42 weeks
+   **Answer: B**
+   *Explanation: Normal human gestation is about 40 weeks.*
+
+**10.** Which of the following is a macronutrient required by plants?
+   A) Iron
+   B) Zinc
+   C) Nitrogen
+   D) Copper
+   **Answer: C**
+   *Explanation: Nitrogen is needed in large quantities for plant growth.*

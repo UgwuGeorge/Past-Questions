@@ -1,88 +1,83 @@
-# WAEC Biology Past Questions (2000)
+# NECO Biology Past Questions (2000)
 
 ## Objectives
 
-**1.** The pancreas secretes enzymes for the digestion of
-   A) fats, vitamins and cellulose
-   B) fats, carbohydrates and vitamins
-   C) proteins, celluclose and minerals
-   D) fats, proteins and carbohydrates
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**2.** A characteristic that best exemplifies the evolutionary advancement of mammals over other  vertebrates in the
-   A) terrestrial mode of life
-   B) possession  of paired limbs
-   C) a false foot
-   D) radial symmetry
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**3.** The major cause of global warming is the
-   A) Burning of fossil fuel
-   B) construction of dams
-   C) use of electricity
-   D) exploration of space
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**4.** The fungi are a distinct group of eukaryotes mainly  because they have
-   A) spores
-   B) no chlorophyll
-   C) many fruiting bodies
-   D) sexual and asexual reproduction
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**5.** In lizards, the lowering  of the gular fold is used to
-   A) attract mates
-   B) frighten enemies
-   C) catch insects
-   D) defend their territory
+**1.** The type of nutrition in which organisms make their own food is
+   A) Heterotrophic
+   B) Autotrophic
+   C) Saprophytic
+   D) Parasitic
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: Autotrophs produce their own food, usually through photosynthesis.*
 
-**6.** Which of the following biomass could be characterized by very low rainfall, cold nights, hardays and fast blooming plants?
-   A) Northern Guinea savanna
-   B) southern Guinea savanna
-   C) Tropical desert
-   D) montane forest
+**2.** Which organ is affected by the disease called goiter?
+   A) Heart
+   B) Lungs
+   C) Thyroid gland
+   D) Liver
+   **Answer: C**
+   *Explanation: Goiter is an enlargement of the thyroid gland.*
+
+**3.** The part of the cell that controls what enters and leaves is the
+   A) Cell wall
+   B) Cell membrane
+   C) Nucleus
+   D) Cytoplasm
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: The cell membrane is selectively permeable.*
 
-**7.** Which of the following gis the best explanation for a child who is phenol-typically short and born of two tall parents?
-   A) The father possesses a gene for shortness
-   B) The mother possesses a gene for shortness
-   C) Nature makes the child short
-   D) Both parents posses genes for shortness.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
+**4.** In the human heart, the right atrium receives blood from the
+   A) Lungs
+   B) Body
+   C) Left atrium
+   D) Ventricles
+   **Answer: B**
+   *Explanation: The right atrium receives deoxygenated blood from the body.*
 
-**8.** The feature that makes locomotion in water easy for fish is the
-   A) scaly body
-   B) slimy body
-   C) steam lined body
-   D) lateral line
+**5.** Which of the following is a communicable disease?
+   A) Diabetes
+   B) Cancer
+   C) Tuberculosis
+   D) Heart disease
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Tuberculosis is caused by bacteria and can spread.*
 
-**9.** I. Test tube containing cane sugar and water  II. Test tube containing cane sugar and dilute acid  III Test tube containing cane sugar and its degrading enzyme 
-The enzyme involved in the hydrolysis is
-   A) erepsin
-   B) perilymph
-   C) maltase
-   D) rennin
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
+**6.** The process by which plants make food occurs in the
+   A) Mitochondria
+   B) Chloroplast
+   C) Ribosome
+   D) Nucleus
+   **Answer: B**
+   *Explanation: Photosynthesis takes place in chloroplasts.*
 
-**10.** Mycorrhiza is an association  between fungi and
-   A) protozoans
-   B) roots of higher plants
-   C) bacteria
-   D) filamentous algae
+**7.** Which of the following is an example of a mineral deficiency in plants?
+   A) Chlorosis
+   B) Wilting
+   C) Stunted growth
+   D) All of the above
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Mineral deficiencies cause various symptoms including chlorosis and stunted growth.*
 
+**8.** The blood cells that fight infection are the
+   A) Red blood cells
+   B) White blood cells
+   C) Platelets
+   D) Plasma
+   **Answer: B**
+   *Explanation: White blood cells are part of the immune system.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**9.** The organ that produces urine is the
+   A) Liver
+   B) Kidney
+   C) Bladder
+   D) Ureter
+   **Answer: B**
+   *Explanation: Kidneys produce urine.*
+
+**10.** In genetics, the physical appearance of an organism is called
+   A) Genotype
+   B) Phenotype
+   C) Chromosome
+   D) Gene
+   **Answer: B**
+   *Explanation: Phenotype is the observable trait.*

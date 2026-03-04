@@ -3,6 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import os
 import sys
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Ensure agent_core is in path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -35,10 +38,18 @@ agent = ExamAgent()
 def read_root():
     return {"message": "Reharz AI Exam Backend is running"}
 
+@app.get("/api/categories")
+def get_categories():
+    return [c.value for c in main_models.ExamCategory]
+
 @app.get("/api/exams", response_model=List[main_schemas.Exam])
-def get_exams(db: Session = Depends(get_db)):
-    exams = db.query(main_models.Exam).all()
-    return exams
+def get_exams(category: str = None, sub_category: str = None, db: Session = Depends(get_db)):
+    query = db.query(main_models.Exam)
+    if category:
+        query = query.filter(main_models.Exam.category == category)
+    if sub_category:
+        query = query.filter(main_models.Exam.sub_category == sub_category)
+    return query.all()
 
 @app.get("/api/exams/{exam_id}/subjects")
 def get_subjects(exam_id: int, db: Session = Depends(get_db)):
@@ -74,6 +85,26 @@ def get_questions(subject_id: int, limit: int = 20, db: Session = Depends(get_db
             ]
         })
     return result
+
+@app.get("/api/questions/{question_id}")
+def get_question(question_id: int, db: Session = Depends(get_db)):
+    question = db.query(main_models.Question).filter(main_models.Question.id == question_id).first()
+    if not question:
+        raise HTTPException(status_code=404, detail="Question not found")
+    
+    choices = db.query(main_models.Choice).filter(main_models.Choice.question_id == question.id).all()
+    return {
+        "id": question.id,
+        "text": question.text,
+        "topic": question.topic,
+        "year": question.year,
+        "explanation": question.explanation,
+        "subject_id": question.subject_id,
+        "choices": [
+            {"id": c.id, "label": c.label, "text": c.text, "is_correct": c.is_correct}
+            for c in choices
+        ]
+    }
 
 class SubmitPayload(BaseModel):
     user_id: int

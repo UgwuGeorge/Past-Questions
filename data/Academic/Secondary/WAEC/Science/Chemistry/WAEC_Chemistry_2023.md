@@ -1,87 +1,83 @@
-# WAEC Chemistry Past Questions (2023)
+# NECO Chemistry Past Questions (2023)
 
 ## Objectives
 
-**1.** Which of the following ions requires the largest quantity of electricity for discharge at an electrode
-   A) 2.5 moles of Cu2+
-   B) 4.0 moles of CI-
-   C) 2.0 moles of Al3+
-   D) 3.0 moles of Na+
+**1.** Which of the following is a chemical change?
+   A) Melting of ice
+   B) Boiling of water
+   C) Rusting of iron
+   D) Sublimation of iodine
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: Rusting of iron involves the formation of a new substance (Fe2O3), which is a chemical change.*
 
-**2.** Calculate the percentage by mass of nitrogen in calcium trioxonitrate (V)   {Ca = 40, N = 14, O = 16}
-   A) 13.10%
-   B) 17.10%
-   C) 27.60%
-   D) 8.5
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**3.** The metal that liberates hydrogen from cold water in bubbles only is
-   A) Na
-   B) K
-   C) Ca
-   D) Al
+**2.** The atomic number of an element is the number of
+   A) Neutrons
+   B) Electrons
+   C) Protons
+   D) Nucleons
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Atomic number equals the number of protons in the nucleus.*
 
-**4.** Carbon (II) oxide is considered dangerous if inhaled mainly because it
-   A) Competes with oxygen in the blood
-   B) Competes with carbon (IV) oxide in the blood
-   C) Can cause lung cancer
-   D) Can cause injury to the nervous system
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** The solubility in mol dm-3 of 20g of CuSO4 dissolved in 100g of water at 1800C is  [Cu = 64, S = 32, O = 16]
-   A) 0.13
-   B) 0.25
-   C) 1.25
-   D) 2
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**6.** Kerosene is commonly used to remove the red colour stain of palm oil from clothes because it
-   A) Helps to spread the oil over a larger surface area
-   B) Makes the oil evaporate easily by dissolving it
-   C) Helps to dilute the oil and reduce its colour
-   D) Reacts with the oil to form an odourless compound
+**3.** Which of the following gases is responsible for acid rain?
+   A) CO2
+   B) SO2
+   C) N2
+   D) O2
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: SO2 dissolves in rain water to form acid rain.*
 
-**7.** Catalytic hydrogenation of benzene produces
-   A) Oil
-   B) Cyclohexane
-   C) Cycloexane
-   D) Margarine
+**4.** The process of removing hardness of water is called
+   A) Filtration
+   B) Distillation
+   C) Water softening
+   D) Decantation
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *Explanation: Water softening removes Ca2+ and Mg2+ ions that cause hardness.*
 
-**8.** The enzyme responsible for converting sucrose into two simple isomeric sugars is
-   A) Invertase
-   B) Amylase
-   C) Lactose
-   D) Maltase
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
+**5.** Which of the following is a weak acid?
+   A) HCl
+   B) H2SO4
+   C) HNO3
+   D) CH3COOH
+   **Answer: D**
+   *Explanation: Acetic acid (CH3COOH) partially dissociates in water, making it a weak acid.*
 
-**9.** The gas that can best be collected by downward displacement of air is
-   A) Chlorine
-   B) Sulphur(IV)oxide
-   C) Ammonia
-   D) Carbon(IV)oxide
+**6.** The IUPAC name of CH3CH2CH2OH is
+   A) Propanol
+   B) Propan-1-ol
+   C) Ethanol
+   D) Propanal
+   **Answer: B**
+   *Explanation: The correct IUPAC name is propan-1-ol.*
+
+**7.** Which of the following elements is a noble gas?
+   A) Nitrogen
+   B) Oxygen
+   C) Helium
+   D) Hydrogen
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2001)*
+   *Explanation: Helium is a noble gas with a complete outer electron shell.*
 
-**10.** Which of the following salts is slightly soluble in water
-   A) CaSO4
-   B) Na2CO3
-   C) PbCl2
-   D) AgCl
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
+**8.** The rate of diffusion of gases is inversely proportional to
+   A) Temperature
+   B) Pressure
+   C) Square root of molar mass
+   D) Volume
+   **Answer: C**
+   *Explanation: Graham's law states rate ∝ 1/√M.*
 
+**9.** Which of the following is a reducing agent?
+   A) KMnO4
+   B) H2SO4
+   C) H2S
+   D) O2
+   **Answer: C**
+   *Explanation: H2S donates electrons (reduces other substances).*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**10.** The pH of a neutral solution is
+   A) 0
+   B) 7
+   C) 14
+   D) 1
+   **Answer: B**
+   *Explanation: pH 7 indicates a neutral solution at 25°C.*

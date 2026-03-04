@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2004)
+# NECO Biology Past Questions (2004)
 
 ## Objectives
 
-**1.** Stunted growth and poor root development are a result of as deficiency in
-   A) calcium
-   B) sulphur
-   C) iron
-   D) phosphorous
+**1.** The type of reproduction that involves the fusion of male and female gametes is
+   A) Asexual reproduction
+   B) Sexual reproduction
+   C) Binary fission
+   D) Budding
+   **Answer: B**
+   *Explanation: Sexual reproduction involves the fusion of gametes.*
+
+**2.** Which of the following organisms is a decomposer?
+   A) Moss
+   B) Mushroom
+   C) Fern
+   D) Algae
+   **Answer: B**
+   *Explanation: Mushrooms decompose dead organic matter.*
+
+**3.** The blood vessels that carry blood away from the heart are called
+   A) Veins
+   B) Arteries
+   C) Capillaries
+   D) Venules
+   **Answer: B**
+   *Explanation: Arteries carry blood away from the heart.*
+
+**4.** In plants, the opening and closing of stomata is controlled by
+   A) Guard cells
+   B) Epidermal cells
+   C) Mesophyll cells
+   D) Vascular cells
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
+   *Explanation: Guard cells regulate stomatal aperture.*
 
-**2.** In which of the following species is the biomass of an individual the smallest?
-   A) Agama sp
-   B) Bufo sp
-   C) spirogyra sp
-   D) Tilapia sp
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**3.** One advantage of variation in a species population  is that individuals
-   A) easily reach their reproduction age
-   B) with favoured trait become dominant
-   C) are better adapted  to changes
-   D) are easily  recognized by mates
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**4.** One example of fossil fuel is
-   A) limestone
-   B) coral
-   C) coal
-   D) firewood
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**5.** The  type of asexual reproduction that is common to both paramecium and protists is
-   A) speculation
-   B) fragmentation
-   C) fission
-   D) budding
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**6.** The sequence of the one way gaseous exchange mechanism in a fish is
-   A) gills _ operculum _ mouth
-   B) mouth_operculum_ gills
-   C) mouth _gills _operculum
-   D) operculum _ gills_ mouth
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**7.** The  soil type that contains nutrients which are not readily available for plants is
-   A) sandy
-   B) Alluvial
-   C) loamy
-   D) clayey
+**5.** Which vitamin is produced when the skin is exposed to sunlight?
+   A) Vitamin A
+   B) Vitamin B
+   C) Vitamin C
+   D) Vitamin D
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: Vitamin D synthesis occurs in the skin upon UV exposure.*
 
-**8.** The fallacy in Lamarck’s evolutionary theory was the  assumption that
-   A) acquired traits  are heritable
-   B) acquired traits are seldom formed
-   C) traits  are acquired  through the use of body parts
-   D) traits are acquired through disuse  of body parts.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**9.** What will happen when two equal  sized pieces of unripe pawpaw labeled X and Y are dropped into equal volumes of concentrated salt solution and distilled water respectively?
-   A) Pawpaw X will become  turgid
-   B) Both  will increase in size
-   C) pawpaw Y will become turgid
-   D) Both will decrease in size
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**10.** In a cell, the genes are carried by
-   A) nuclear membranes
-   B) chromatin threads
-   C) lysosomes
-   D) mitochondria
+**6.** The organ responsible for filtering blood in the excretory system is the
+   A) Liver
+   B) Kidney
+   C) Lungs
+   D) Skin
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: The kidneys filter blood to form urine.*
 
+**7.** Which of the following is an example of a binomial nomenclature?
+   A) Homo sapiens
+   B) Man
+   C) Human being
+   D) People
+   **Answer: A**
+   *Explanation: Homo sapiens is the scientific name for humans.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**8.** The process by which plants synthesize food is called
+   A) Respiration
+   B) Photosynthesis
+   C) Transpiration
+   D) Guttation
+   **Answer: B**
+   *Explanation: Photosynthesis converts CO2 and H2O to glucose using light energy.*
+
+**9.** Which of the following is a deficiency disease of iron?
+   A) Rickets
+   B) Anemia
+   C) Scurvy
+   D) Goiter
+   **Answer: B**
+   *Explanation: Iron deficiency leads to anemia.*
+
+**10.** The site of gas exchange in the lungs is the
+   A) Bronchus
+   B) Bronchiole
+   C) Alveolus
+   D) Trachea
+   **Answer: C**
+   *Explanation: Alveoli provide a large surface area for gas exchange.*

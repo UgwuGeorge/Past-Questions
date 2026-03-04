@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2018)
+# NECO Biology Past Questions (2018)
 
 ## Objectives
 
-**1.** The fallacy in Lamarck’s evolutionary theory was the  assumption that
-   A) acquired traits  are heritable
-   B) acquired traits are seldom formed
-   C) traits  are acquired  through the use of body parts
-   D) traits are acquired through disuse  of body parts.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**2.** The order of passage of food in the digestive system is
-   A) ileum caecum large intestine rectum
-   B) ileum colon caecum rectum
-   C) large intestine ileum caecum rectum
-   D) colon caeum ileum rectum
+**1.** The movement of molecules from a region of high concentration to low concentration is called
+   A) Osmosis
+   B) Diffusion
+   C) Active transport
+   D) Pinocytosis
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: Diffusion is the passive movement of molecules from high to low concentration.*
 
-**3.** The number of alleles controlling  blood groups in humans is
-   A) 4
-   B) 5
-   C) 2
-   D) 3
+**2.** Which organelle is the site of protein packaging?
+   A) Ribosome
+   B) Endoplasmic reticulum
+   C) Golgi apparatus
+   D) Nucleolus
+   **Answer: C**
+   *Explanation: The Golgi apparatus modifies, packages, and sorts proteins for secretion.*
+
+**3.** The type of nutrition in which organisms obtain food from other living organisms is
+   A) Autotrophy
+   B) Heterotrophy
+   C) Chemotrophy
+   D) Phototrophy
+   **Answer: B**
+   *Explanation: Heterotrophs obtain food by consuming other organisms.*
+
+**4.** Which of the following is a function of the skeleton?
+   A) Production of hormones
+   B) Production of blood cells
+   C) Regulation of body temperature
+   D) Production of enzymes
+   **Answer: B**
+   *Explanation: Bone marrow produces red and white blood cells.*
+
+**5.** The eye lens focuses light on the
+   A) Cornea
+   B) Retina
+   C) Iris
+   D) Pupil
+   **Answer: B**
+   *Explanation: The lens focuses light rays onto the retina where photoreceptors detect light.*
+
+**6.** In plants, water is transported through the
+   A) Phloem
+   B) Xylem
+   C) Cambium
+   D) Cortex
+   **Answer: B**
+   *Explanation: Xylem transports water and minerals from roots to leaves.*
+
+**7.** Which vitamin is needed for blood clotting?
+   A) Vitamin A
+   B) Vitamin B
+   C) Vitamin C
+   D) Vitamin K
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Vitamin K is essential for the synthesis of clotting factors.*
 
-**4.** The outer layer of the kidney where the Bowman’s capsules are found is the
-   A) cortex
-   B) pelvis
-   C) medulla
-   D) pyramid
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** The role of the Golgi com plex in a eukaryotic cell is to
-   A) transport genetic material out of the cell
-   B) transport organic materials in and out of the cell
-   C) provide attachment for ribosomal granules
-   D) conduct ions and out of the cell
+**8.** The genetic material in cells is
+   A) RNA
+   B) DNA
+   C) ATP
+   D) Protein
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: DNA carries genetic information that controls cell activities.*
 
-**6.** Genetically modified food products have not become  universally accepted because
-   A) They are not tasty as others produced  by conventional means
-   B) they are usually costlier than others produced by conventional means
-   C) their  efforts on human consumers is not yet fully understood
-   D) the technology can be applied only  in developed  countries
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**7.** One basic similarly between nervous and endocrine system is that both
-   A) produce precise and short –lived  effects
-   B) Involve the use of chemical substances
-   C) transmit very fast impulses
-   D) produce widespread effects.
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**8.** The blood component  that has the greatest affinity for oxygen is the
-   A) lymphocytes
-   B) leucocytes
-   C) erythorocytes
-   D) thromboytes
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**9.** The association between bacteria residing I the caecum and the ruminant is
-   A) parasitism
-   B) predation
-   C) saprophytism
-   D) mutalism
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**10.** Which of the following is true in blood transfusion?
-   A) a person of blood group AB can donate blood only to another person of blood group AB
-   B) Persons of blood groups A and B can donate or receive blood from each other
-   C) A person of blood group AB can receive blood only from persons of blood group A or B
-   D) A person of blood group O can donate only to a person of blood group O.
+**9.** Which part of the brain is responsible for memory?
+   A) Cerebrum
+   B) Cerebellum
+   C) Medulla
+   D) Hypothalamus
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *Explanation: The cerebrum, particularly the hippocampus, is involved in memory formation.*
 
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**10.** The process by which plants lose water vapor is called
+   A) Evaporation
+   B) Transpiration
+   C) Condensation
+   D) Precipitation
+   **Answer: B**
+   *Explanation: Transpiration is the loss of water vapor from plant surfaces, mainly through stomata.*

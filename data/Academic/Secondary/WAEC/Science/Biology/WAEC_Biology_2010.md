@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2010)
+# NECO Biology Past Questions (2010)
 
 ## Objectives
 
-**1.** An example of cryptic colouration is the
-   A) mottled colours on moths that rest o lichens
-   B) bright colour of an insect pollinated flower
-   C) green colour of a plant
-   D) bright marks on a poisonous tropical frog on variegated  leaves
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**2.** In which of the following biomes is the south western part of Nigeria located?
-   A) Tropical rainforest
-   B) Tropical woodland
-   C) desert
-   D) Temperature forest
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**3.** The cell of an onion bulb can be differentiated from a cheek cell by the presence of
-   A) plasmalemma
-   B) chloroplast
-   C) cell wall
-   D) nucleus
+**1.** Which of the following is the most abundant gas in the atmosphere?
+   A) Oxygen
+   B) Carbon dioxide
+   C) Nitrogen
+   D) Hydrogen
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: Nitrogen makes up about 78% of the atmosphere.*
 
-**4.** Chewing the cud is an adaptation peculiar to
-   A) herbivores
-   B) omnivores
-   C) rodents
-   D) ruminants
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+**2.** The site of protein synthesis in the cell is the
+   A) Mitochondria
+   B) Ribosome
+   C) Nucleus
+   D) Golgi apparatus
+   **Answer: B**
+   *Explanation: Ribosomes synthesize proteins.*
 
-**5.** The function of the fluid filled pericardium is to
-   A) reduce the friction caused by the pumping movements of the heart
-   B) supply the heart with oxygen and nutrients
-   C) prevent disease organisms from attacking the heart
-   D) reduce the  intensity of the pumping action of the heart
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**6.** Which of the following requires the use of carbon dating to prove that evolution has occurred?
-   A) comparative anatomy
-   B) biochemical similarities
-   C) molecular records
-   D) fossil records
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**7.** Inn a dictyledonous stem, the zone between the epidermis and the pericycle is the
-   A) cortex
-   B) stele
-   C) xylem
-   D) phloem
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**8.** In mammalian males, the excretory and reproductive  systems share the
-   A) ureter
-   B) vas deferens
-   C) urethra
-   D) Testes.
+**3.** The part of the human ear that amplifies sound is the
+   A) Pinna
+   B) Ear canal
+   C) Bones of the middle ear
+   D) Cochlea
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: The ossicles (malleus, incus, stapes) amplify and transmit sound.*
 
-**9.** The vector of the malaria parasite is a
-   A) female anopheles mosquito
-   B) male culex mosquitoes
-   C) female culex mosquito
-   D) female Aids mosquito
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**10.** An example of a fruit  that develops from a single carpel is
-   A) (a)okro
-   B) tomato
-   C) bean
-   D) orange
+**4.** In plants, the transport of water is mainly by
+   A) Osmosis
+   B) Diffusion
+   C) Transpiration pull
+   D) Active transport
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *Explanation: Transpiration pull drives water movement up xylem.*
 
+**5.** Which of the following is a deficiency disease of protein?
+   A) Kwashiorkor
+   B) Scurvy
+   C) Rickets
+   D) Beriberi
+   **Answer: A**
+   *Explanation: Kwashiorkor is caused by severe protein deficiency.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**6.** The type of blood vessel that has valves is the
+   A) Artery
+   B) Vein
+   C) Capillary
+   D) Arteriole
+   **Answer: B**
+   *Explanation: Veins have valves to prevent backflow of blood.*
+
+**7.** Which organ produces urea?
+   A) Kidney
+   B) Liver
+   C) Lungs
+   D) Skin
+   **Answer: B**
+   *Explanation: The liver converts ammonia to urea.*
+
+**8.** The process by which plants respond to gravity is called
+   A) Phototropism
+   B) Hydrotropism
+   C) Geotropism
+   D) Thigmotropism
+   **Answer: C**
+   *Explanation: Geotropism is growth in response to gravity.*
+
+**9.** In human genetics, a trait that appears in offspring is called
+   A) Recessive
+   B) Dominant
+   C) Codominant
+   D) Polygenic
+   **Answer: B**
+   *Explanation: A dominant trait expresses itself when present.*
+
+**10.** The part of the flower that produces female gametes is the
+   A) Anther
+   B) Ovule
+   C) Petal
+   D) Sepal
+   **Answer: B**
+   *Explanation: The ovule contains the egg cell (female gamete).*

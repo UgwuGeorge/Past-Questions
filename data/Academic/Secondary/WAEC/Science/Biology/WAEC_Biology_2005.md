@@ -1,85 +1,83 @@
-# WAEC Biology Past Questions (2005)
+# NECO Biology Past Questions (2005)
 
 ## Objectives
 
-**1.** During ovulation, an egg is released from the
-   A) corpus luteum
-   B) ovarian funnel
-   C) Graafian follicle
-   D) fallopian tube
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**2.** In Mendelian inheritance, discontinuous characters are controlled by the
-   A) centromeres
-   B) alleles
-   C) chromosomes
-   D) chromatids
+**1.** The study of cells is called
+   A) Histology
+   B) Cytology
+   C) Morphology
+   D) Anatomy
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Cytology is the study of cell structure and function.*
 
-**3.** Nervous control differs from hormonal control in that the former
-   A) involves only chemical  transmission
-   B) is a slower process
-   C) produces short term changes
-   D) has no specific pathway
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
+**2.** Which of the following is not a part of the human digestive system?
+   A) Esophagus
+   B) Trachea
+   C) Stomach
+   D) Small intestine
+   **Answer: B**
+   *Explanation: The trachea is part of the respiratory system.*
 
-**4.** The main distinguishing features between the soldier termite and other members of the caste are the
-   A) presence of wings, possession of a small head and large thorax
-   B) presence of wings, possession of a large thorax  and a small head
-   C) absence of wings, possession off strong mandibles and a large head
-   D) absence of wings, possession of big head and the absence of mandible.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
+**3.** The blood cells that carry oxygen are
+   A) White blood cells
+   B) Red blood cells
+   C) Platelets
+   D) Plasma
+   **Answer: B**
+   *Explanation: Red blood cells contain hemoglobin which binds oxygen.*
 
-**5.** An evidence of a common ancestry for fishes, amphibians, reptiles, birds and mammals is the
-   A) possession of wings by bird and bats
-   B) cold-bloodedness of fishes, amphibians and reptiles
-   C) presence of gill clefts in vertebrate embryos
-   **Answer: C**
-
-**6.** Which of the following stimuli is likely to elicit a nastic response in an organism?
-   A) Touch
-   B) Light intensity
-   C) Chemical substances
-   D) gravity
+**4.** In plants, the male gamete is contained in the
+   A) Pollen grain
+   B) Ovule
+   C) Stigma
+   D) Petal
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *Explanation: The pollen grain contains male gametes.*
 
-**7.** A blue-green alga is not a protophytes because
-   A) it is aquatic
-   B) its cells are prokaryotic
-   C) it cannot move
-   D) it is not a green plant
+**5.** The process of losing leaves in plants is called
+   A) Deciduous
+   B) Abscission
+   C) Senescence
+   D) Wilting
+   **Answer: A**
+   *Explanation: Deciduous plants shed their leaves seasonally.*
+
+**6.** Which organ is affected by the disease pneumonia?
+   A) Heart
+   B) Liver
+   C) Lungs
+   D) Kidneys
+   **Answer: C**
+   *Explanation: Pneumonia is an infection that inflames the lungs.*
+
+**7.** The type of cell division that produces gametes is
+   A) Mitosis
+   B) Meiosis
+   C) Binary fission
+   D) Budding
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Meiosis produces haploid gametes.*
 
-**8.** The mangrove swamp in Nigeria is restricted to the
-   A) Guinea savanna
-   B) Tropical rainforest
-   C) Sudan savanna
-   D) Sahel savanna
+**8.** Which of the following is a renewable resource?
+   A) Coal
+   B) Petroleum
+   C) Solar energy
+   D) Natural gas
+   **Answer: C**
+   *Explanation: Solar energy is renewable.*
+
+**9.** The part of the brain that controls breathing is the
+   A) Cerebrum
+   B) Cerebellum
+   C) Medulla oblongata
+   D) Hypothalamus
+   **Answer: C**
+   *Explanation: The medulla controls automatic functions like breathing.*
+
+**10.** In genetics, the letters representing genes are usually written in
+   A) Lowercase
+   B) Uppercase
+   C) Italics
+   D) Bold
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**9.** The association between bacteria residing I the caecum and the ruminant is
-   A) parasitism
-   B) predation
-   C) saprophytism
-   D) mutalism
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**10.** In a cell, the genes are carried by
-   A) nuclear membranes
-   B) chromatin threads
-   C) lysosomes
-   D) mitochondria
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+   *Explanation: Dominant alleles are represented by uppercase letters.*

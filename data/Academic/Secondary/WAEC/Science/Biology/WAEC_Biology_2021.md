@@ -1,88 +1,83 @@
-# WAEC Biology Past Questions (2021)
+# NECO Biology Past Questions (2021)
 
 ## Objectives
 
-**1.** The crossing of individuals of the same species with different genetic characters is
-   A) polygenic inheritance
-   B) non disjunction
-   C) inbreeding
-   D) cross breeding
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**2.** The first terrestrial vertebratese volved from
-   A) pisces
-   B) Reptilia
-   C) Amphibia
-   D) Mammalia
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**3.** The function of the red head in male Agama lizards is to
-   A) scare other males from the territory
-   B) attract female lizards for mating purposes
-   C) warn predators of the distastefulness of the animal
-   D) Conceal and camouflage the animal from predators
+**1.** Which of the following structures is found in plant cells but not in animal cells?
+   A) Nucleus
+   B) Cell wall
+   C) Mitochondria
+   D) Cell membrane
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Plant cells have a cell wall made of cellulose, which is absent in animal cells.*
 
-**4.** The point marked I is referred to as
-   A) myelin sheath
-   B) dendrites
-   C) axon
-   D) node of Ranvier
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**5.** In a cell, the genes are carried by
-   A) nuclear membranes
-   B) chromatin threads
-   C) lysosomes
-   D) mitochondria
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**6.** The basking of Agama lizards in the sun is to
-   A) chance the colour of their body
-   B) raise their body temperature to become active
-   C) fight to defend their territories
-   D) attract the female for courtship
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**7.** A function of the hydrochloric acid produced in the human stomach during digestion is to
-   A) neutralize the effect of bile
-   B) coagulate milk protein and emulsify fats
-   C) stop the action of ptyalin
-   D) break up food into smaller particles
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** I. Test tube containing cane sugar and water  II. Test tube containing cane sugar and dilute acid  III Test tube containing cane sugar and its degrading enzyme 
-In which of the test tubes will glucose be detected after complete hydrolysis?
-   A) II and III only
-   B) I only
-   C) I, II and III
-   D) I and II only
+**2.** The hormone that regulates blood sugar level in humans is
+   A) Insulin
+   B) Adrenaline
+   C) Thyroxine
+   D) Progesterone
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Insulin is produced by the pancreas and helps cells absorb glucose from the blood.*
 
-**9.** Which of the following is common to the mosquito, housefly and blackfly?
-   A) Their  immature stages are aquatic
-   B) They undergo complete metamorphosis
-   C) Their adults have two pairs of wings
-   D) They are parasites of man
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
+**3.** Which of the following is a communicable disease?
+   A) Cancer
+   B) Diabetes
+   C) Chickenpox
+   D) Arthritis
+   **Answer: C**
+   *Explanation: Chickenpox is caused by a virus and can be transmitted from one person to another.*
 
-**10.** Habitats are generally classified into
-   A) aquatic and terrestrial
-   B) arboreal  and marine biomes
-   C) microhabitats and macro habitats
-   D) biotic and abiotic
+**4.** The minute openings on the underside of leaves are called
+   A) Stomata
+   B) Lenticels
+   C) Cuticles
+   D) Epidermis
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Stomata allow gas exchange (CO2 in, O2 out) and water vapor to exit the leaf.*
 
+**5.** In human reproduction, the site of fertilization is the
+   A) Uterus
+   B) Oviduct
+   C) Ovary
+   D) Vagina
+   **Answer: B**
+   *Explanation: Fertilization normally occurs in the fallopian tube (oviduct).*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**6.** Which blood cells are responsible for fighting infections?
+   A) Red blood cells
+   B) White blood cells
+   C) Platelets
+   D) Plasma
+   **Answer: B**
+   *Explanation: White blood cells (leukocytes) are part of the immune system and fight pathogens.*
+
+**7.** The process of loss of water in plants is called
+   A) Osmosis
+   B) Diffusion
+   C) Transpiration
+   D) Evaporation
+   **Answer: C**
+   *Explanation: Transpiration is the loss of water vapor from the aerial parts of plants, mainly through stomata.*
+
+**8.** Which organelle is responsible for protein synthesis?
+   A) Ribosome
+   B) Golgi apparatus
+   C) Lysosome
+   D) Vacuole
+   **Answer: A**
+   *Explanation: Ribosomes are the sites of protein synthesis where amino acids are assembled into polypeptide chains.*
+
+**9.** The type of joint found in the knee is the
+   A) Ball and socket joint
+   B) Hinge joint
+   C) Pivot joint
+   D) Gliding joint
+   **Answer: B**
+   *Explanation: The knee is a hinge joint that allows movement in one plane (bending and straightening).*
+
+**10.** In genetics, the physical appearance of an organism is its
+   A) Genotype
+   B) Phenotype
+   C) Chromosome
+   D) Gene
+   **Answer: B**
+   *Explanation: Phenotype refers to the observable physical characteristics resulting from genotype and environment.*

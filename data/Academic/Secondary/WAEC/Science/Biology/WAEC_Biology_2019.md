@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2019)
+# NECO Biology Past Questions (2019)
 
 ## Objectives
 
-**1.** According to Darwin, the driving force behind evolutionary change is
-   A) atural selection
-   B) genetic drift
-   C) mutation
-   D) gene flow
+**1.** Which of the following is not a function of the liver?
+   A) Production of bile
+   B) Storage of glycogen
+   C) Production of insulin
+   D) Detoxification
+   **Answer: C**
+   *Explanation: Insulin is produced by the pancreas, not the liver.*
+
+**2.** The fluid-filled space in a plant cell is the
+   A) Nucleus
+   B) Cytoplasm
+   C) Vacuole
+   D) Chloroplast
+   **Answer: C**
+   *Explanation: The central vacuole stores water, nutrients, and waste products in plant cells.*
+
+**3.** Which blood group is the universal donor?
+   A) A
+   B) B
+   C) AB
+   D) O
+   **Answer: D**
+   *Explanation: Type O negative can be given to anyone because it lacks A, B, and Rh antigens.*
+
+**4.** The primary function of the placenta is to
+   A) Produce hormones
+   B) Protect the fetus
+   C) Exchange materials between mother and fetus
+   D) Store nutrients
+   **Answer: C**
+   *Explanation: The placenta allows exchange of oxygen, nutrients, and waste between maternal and fetal blood.*
+
+**5.** In which organ does most digestion occur?
+   A) Stomach
+   B) Mouth
+   C) Small intestine
+   D) Large intestine
+   **Answer: C**
+   *Explanation: The small intestine is where most chemical digestion and nutrient absorption occurs.*
+
+**6.** Which gas is released during photosynthesis?
+   A) Nitrogen
+   B) Carbon dioxide
+   C) Oxygen
+   D) Hydrogen
+   **Answer: C**
+   *Explanation: Oxygen is released as a byproduct of photosynthesis.*
+
+**7.** The process of cell division that results in four daughter cells is
+   A) Mitosis
+   B) Meiosis
+   C) Binary fission
+   D) Budding
+   **Answer: B**
+   *Explanation: Meiosis produces four haploid daughter cells from one diploid cell.*
+
+**8.** Which of the following is a function of white blood cells?
+   A) Transport oxygen
+   B) Fight infection
+   C) Blood clotting
+   D) Maintain blood volume
+   **Answer: B**
+   *Explanation: White blood cells are part of the immune system and protect against pathogens.*
+
+**9.** The dark reaction of photosynthesis takes place in the
+   A) Stroma
+   B) Thylakoid membrane
+   C) Grana
+   D) Stroma lamellae
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: The Calvin cycle (dark reactions) occurs in the stroma of chloroplasts.*
 
-**2.** Night blindness result from a deficiency of
-   A) Vitamin E
-   B) Vitamin K
-   C) Vitamin C
-   D) Vitamin A
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**3.** The movement response of a cockroach away  from a light source can be described as
-   A) negative phototaxism
-   B) negative photropism
-   C) positive  photropism
-   D) positive phototaxism
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**4.** Which of the following  is used mainly for balancing in fish?
-   A) The causal fin
-   B) the pectoral fin
-   C) the anal fin
-   D) The dorsal fin
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**5.** In the internal structure of plants, a wide pith in the centre is common to
-   A) dicot stems and moocot stems
-   B) dicot stems and monocot roots
-   C) dicot roots and monocot roots
-   D) dicotroots and monocot stems
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**6.** The most abundant group of organism in the animal kingdom is
-   A) Mammalian
-   B) Aves
-   C) Annelida
-   D) Insecta
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**7.** Which of the following is a polysaccharide?
-   A) Glucose
-   B) sucrose
-   C) Maltose
-   D) Cellulose
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** Low annual rainfall, sparse vegetation, high dermal temperatures and cold nights are characteristics features of the
-   A) tropical  rainforest
-   B) desert
-   C) mundane forest
-   D) guinea savanna
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**9.** During the dry season in the tropics, the body metabolism of some animals slows to a minimal level in a process referred to as
-   A) hibernation
-   B) aestivation
-   C) dormancy
-   D) sense scense
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**10.** The causative reagent of typhoid fever is
-   A) Entamoeba
-   B) Salmonella
-   C) Shigella
-   D) Escherichia
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**10.** The scientific name for man is
+   A) Pan troglodytes
+   B) Gorilla gorilla
+   C) Homo sapiens
+   D) Papio anubis
+   **Answer: C**
+   *Explanation: Homo sapiens is the scientific name for modern humans.*

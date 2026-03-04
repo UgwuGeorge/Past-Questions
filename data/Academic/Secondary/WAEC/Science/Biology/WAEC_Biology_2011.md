@@ -1,80 +1,83 @@
-# WAEC Biology Past Questions (2011)
+# NECO Biology Past Questions (2011)
 
 ## Objectives
 
-**1.** Plant  growth can be artificially stimulated by the addition of
-   A) gibberellin
-   B) kinin
-   C) abscisic acid
-   D) ethylene
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
+**1.** The gas produced during anaerobic respiration in plants is
+   A) Oxygen
+   B) Nitrogen
+   C) Carbon dioxide
+   D) Hydrogen
+   **Answer: C**
+   *Explanation: Anaerobic respiration produces CO2 as a byproduct.*
 
-**2.** A phenotypic character with intermediate forms that can be graded from one extreme to the other is referred to as
-   A) discontinous variation
-   B) continuous variation
-   C) a mutant
-   D) a genome
+**2.** The type of reproduction that involves only one parent is
+   A) Sexual reproduction
+   B) Asexual reproduction
+   C) Meiosis
+   D) Fertilization
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Asexual reproduction involves one parent and produces genetically identical offspring.*
 
-**3.** An example of a fish that aestivates is
-   A) lung fish
-   B) shark
-   C) cat fish
-   D) croaker
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** A pair of genes that control a trait is referred to as
-   A) anallele
-   B) recessive
-   C) dominant
-   D) ahybrid
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**5.** The fallacy in Lamarck’s evolutionary theory was the  assumption that
-   A) acquired traits  are heritable
-   B) acquired traits are seldom formed
-   C) traits  are acquired  through the use of body parts
-   D) traits are acquired through disuse  of body parts.
+**3.** Which part of the brain controls heart rate?
+   A) Cerebrum
+   B) Cerebellum
+   C) Medulla oblongata
+   D) Hypothalamus
    **Answer: C**
+   *Explanation: The medulla controls vital functions including heart rate.*
 
-**6.** Mass of a crucible = 10g
- Mass of a crucible and soil before heating = -29g.
-Mass of a crucible and sol after heating = 18g. From the information above, determine the percentage of wter in the given soil sample?
-   A) 20%
-   B) 25%
-   C) 40%
-   D) 50%
+**4.** The function of the sebaceous gland is to
+   A) Produce sweat
+   B) Produce sebum
+   C) Produce hair
+   D) Regulate temperature
+   **Answer: B**
+   *Explanation: Sebaceous glands produce sebum to lubricate skin and hair.*
+
+**5.** In plants, the cells that guard stomata are called
+   A) Guard cells
+   B) Epidermal cells
+   C) Mesophyll cells
+   D) Vascular cells
+   **Answer: A**
+   *Explanation: Guard cells regulate stomatal opening.*
+
+**6.** Which of the following is a protozoan disease?
+   A) Malaria
+   B) Tuberculosis
+   C) Chickenpox
+   D) Measles
+   **Answer: A**
+   *Explanation: Malaria is caused by Plasmodium, a protozoan.*
+
+**7.** The part of the neuron that receives impulses is the
+   A) Axon
+   B) Dendrite
+   C) Cell body
+   D) Myelin sheath
+   **Answer: B**
+   *Explanation: Dendrites receive signals from other neurons.*
+
+**8.** Which vitamin is produced by intestinal bacteria?
+   A) Vitamin A
+   B) Vitamin B
+   C) Vitamin C
+   D) Vitamin K
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Vitamin K is synthesized by gut bacteria.*
 
-**7.** In mammals , the  organ directly on top of the kidney is the
-   A) prostate gland
-   B) pancrease
-   C) thyroid gland
-   D) adrenal gland
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**8.** The primary structure responsible for pumping blood for circulation through the mammalian circulatory systems is the
-   A) veins
-   B) right auricle
-   C) arteries
-   D) left ventricle
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-**9.** The main distinguishing features between the soldier termite and other members of the caste are the
-   A) presence of wings, possession of a small head and large thorax
-   B) presence of wings, possession of a large thorax  and a small head
-   C) absence of wings, possession off strong mandibles and a large head
-   D) absence of wings, possession of big head and the absence of mandible.
+**9.** The hormone that causes the uterus to contract during labor is
+   A) Estrogen
+   B) Progesterone
+   C) Oxytocin
+   D) Prolactin
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *Explanation: Oxytocin stimulates uterine contractions during childbirth.*
 
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**10.** In a food web, the organisms that break down dead matter are
+   A) Producers
+   B) Primary consumers
+   C) Decomposers
+   D) Carnivores
+   **Answer: C**
+   *Explanation: Decomposers recycle nutrients from dead organic matter.*

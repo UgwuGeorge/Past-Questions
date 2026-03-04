@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2006)
+# NECO Biology Past Questions (2006)
 
 ## Objectives
 
-**1.** In which of the following biomes is the south western part of Nigeria located?
-   A) Tropical rainforest
-   B) Tropical woodland
-   C) desert
-   D) Temperature forest
+**1.** The type of tissue that lines the body cavities is
+   A) Connective tissue
+   B) Muscle tissue
+   C) Epithelial tissue
+   D) Nervous tissue
+   **Answer: C**
+   *Explanation: Epithelial tissue covers surfaces and lines cavities.*
+
+**2.** Which of the following is an example of a drug abuse?
+   A) Taking prescribed drugs
+   B) Taking antibiotics
+   C) Smoking tobacco
+   D) Taking vaccines
+   **Answer: C**
+   *Explanation: Smoking is a harmful habit and form of drug abuse.*
+
+**3.** The site of aerobic respiration in the cell is the
+   A) Cytoplasm
+   B) Mitochondria
+   C) Ribosome
+   D) Nucleus
+   **Answer: B**
+   *Explanation: The Krebs cycle and electron transport chain occur in mitochondria.*
+
+**4.** In the human ear, the auditory nerve carries impulses to the
+   A) Brain
+   B) Ear bones
+   C) Cochlea
+   D) Tympanum
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: The auditory nerve transmits signals to the brain for interpretation.*
 
-**2.** An example of an endospermous seed is
-   A) cashew  nut
-   B) cottons seed
-   C) bean seed
-   D) maize grain
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2011)*
+**5.** Which of the following is an endocrine gland?
+   A) Salivary gland
+   B) Sweat gland
+   C) Thyroid gland
+   D) Liver
+   **Answer: C**
+   *Explanation: The thyroid is an endocrine gland that releases hormones into the blood.*
 
-**3.** A major  adaptive feature of endo-parasites is the
-   A) loss of the organ of movement
-   B) presence of claws
-   C) loss of the central nervous system
-   D) presence of piercing mouthparts
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**4.** The use and disuse of body parts and the inheritance of acquired traits were used to explain
-   A) Darwin’s theory
-   B) Lamarck’s theory
-   C) genetic drift
-   D) gene flow
+**6.** The process by which plants grow towards water is called
+   A) Phototropism
+   B) Hydrotropism
+   C) Geotropism
+   D) Chemotropism
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
+   *Explanation: Hydrotropism is growth toward water.*
 
-**5.** I. Parasitism _ Sundew    II Autrrophism_Amoeba    III Saprophytism_ Alga  IV. Heterotrophism- Agama. Which of the above modes of nutrition is correctly matched with the organism that  exhibits it?
-   A) III
-   B) IV
-   C) I
-   D) II
+**7.** Which of the following is a result of air pollution?
+   A) Acid rain
+   B) Global warming
+   C) Smog
+   D) All of the above
+   **Answer: D**
+   *Explanation: Air pollution causes acid rain, global warming, and smog.*
+
+**8.** The type of nutrition exhibited by mushrooms is
+   A) Autotrophic
+   B) Heterotrophic
+   C) Photosynthetic
+   D) Chemosynthetic
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Mushrooms are heterotrophic fungi that decompose organic matter.*
 
-**6.** An example of cryptic colouration is the
-   A) mottled colours on moths that rest o lichens
-   B) bright colour of an insect pollinated flower
-   C) green colour of a plant
-   D) bright marks on a poisonous tropical frog on variegated  leaves
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**7.** Which of the following is an example of intraspecific competition?
-   A) a lizard and an ant eater chasing an insect
-   B) a worker termite and a solider in a limited space
-   C) a hawk and an eagle targeting the same chicken
-   D) yam and potato shoots growing out through the same window
+**9.** The functional unit of the lung is the
+   A) Bronchiole
+   B) Alveolus
+   C) Bronchus
+   D) Trachea
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Alveoli are tiny air sacs where gas exchange occurs.*
 
-**8.** Exo-erythrocytic phase  of the life cycle  of malaria parasite occurs in the
-   A) reticuloendothelial cells of humans
-   B) maphigian tubules of mosquito
-   C) brain of humans
-   D) liver  of humans
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**9.** Homologous pairs of chromosomes separate during
-   A) cytolysis
-   B) cleavage
-   C) mitosis
-   D) Meiosis
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**10.** The vascular tissues in higher plants are responsible for
-   A) suction pressure
-   B) transpiration pull
-   C) the transport of gases and water
-   D) the movement of food and water
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**10.** In the nitrogen cycle, the process that converts ammonia to nitrates is
+   A) Nitrogen fixation
+   B) Nitrification
+   C) Denitrification
+   D) Ammonification
+   **Answer: B**
+   *Explanation: Nitrifying bacteria convert ammonia to nitrates.*

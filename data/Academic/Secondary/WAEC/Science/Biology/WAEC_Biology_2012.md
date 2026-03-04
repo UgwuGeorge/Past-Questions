@@ -1,88 +1,83 @@
-# WAEC Biology Past Questions (2012)
+# NECO Biology Past Questions (2012)
 
 ## Objectives
 
-**1.** A water medium is necessary for fertilization in
-   A) angisperms
-   B) ferns
-   C) fungi
-   D) conifers
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**2.** The formation of water in tissue  respiration  results from the
-   A) combination of water  molecules
-   B) breakdown of water molecules
-   C) reduction of carbon (IV) oxide
-   D) reduction of oxygen by hydrogen
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**3.** The opening of the stoma is controlled by the
-   A) presence of a pore
-   B) increase in solute concentration  in the guard cells
-   C) presence of guard cells
-   D) decrease in solute concentration in the guard cells
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**4.** Which of the following is the most advanced evolutionary development in plants?  (a) possession of unicellular structures
-   A) possession of unicellular structures
-   B) Development of flowers
-   C) dispersal of spores
-   D) Development of secondary thickening
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**5.** The most effective method of dealing with non-gradable pollutants by  \
-   A) dumping
-   B) recycling
-   C) incineration
-   D) Burying
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**6.** The function of the fluid filled pericardium is to
-   A) reduce the friction caused by the pumping movements of the heart
-   B) supply the heart with oxygen and nutrients
-   C) prevent disease organisms from attacking the heart
-   D) reduce the  intensity of the pumping action of the heart
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**7.** The photosynthetic pigment is include
-   A) melanin and haemoglobin
-   B) chlorophyll and carotenoids
-   C) carotenoids and haemoglobin
-   D) chloroplasts and cytochromes
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**8.** Which of the following can cause shrinkage  of living cells?
-   A) Isotonic solution
-   B) Delonized water
-   C) Hypertonic solution
-   D) hypotonic solution
+**1.** The movement of water through the soil into the roots is called
+   A) Transpiration
+   B) Osmosis
+   C) Imbibition
+   D) Capillary action
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Imbibition is the uptake of water by dry seeds or soil particles.*
 
-**9.** I. Test tube containing cane sugar and water  II. Test tube containing cane sugar and dilute acid  III Test tube containing cane sugar and its degrading enzyme 
-The enzyme involved in the hydrolysis is
-   A) erepsin
-   B) perilymph
-   C) maltase
-   D) rennin
+**2.** Which of the following organisms is a producer?
+   A) Goat
+   B) Lion
+   C) Grass
+   D) Mushroom
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Grass is a producer (autotroph) that makes its own food.*
 
-**10.** The two halves of the pelvic girdle are jointed together at the
-   A) public  symphysis
-   B) ilium
-   C) pubis
-   D) obturator foramen
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2010)*
+**3.** The part of the brain that controls voluntary actions is the
+   A) Cerebellum
+   B) Medulla
+   C) Cerebrum
+   D) Hypothalamus
+   **Answer: C**
+   *Explanation: The cerebrum controls conscious thought and voluntary movements.*
 
+**4.** Which of the following is a function of the large intestine?
+   A) Protein digestion
+   B) Fat digestion
+   C) Water absorption
+   D) Enzyme secretion
+   **Answer: C**
+   *Explanation: The large intestine absorbs water and electrolytes.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**5.** The type of joint in the skull is called
+   A) Hinge joint
+   B) Ball and socket
+   C) Sutures
+   D) Pivot joint
+   **Answer: C**
+   *Explanation: Skull bones are joined by immovable sutures.*
+
+**6.** In the nitrogen cycle, bacteria that convert nitrates to nitrogen gas are
+   A) Nitrogen-fixing bacteria
+   B) Nitrifying bacteria
+   C) Denitrifying bacteria
+   D) Ammonifying bacteria
+   **Answer: C**
+   *Explanation: Denitrifying bacteria convert nitrates to atmospheric nitrogen.*
+
+**7.** Which of the following is a symptom of diabetes mellitus?
+   A) Low blood sugar
+   B) Excessive urination
+   C) Weight gain
+   D) Low blood pressure
+   **Answer: B**
+   *Explanation: Polyuria (excessive urination) is a symptom of diabetes.*
+
+**8.** The eye defect where distant objects appear blurry is
+   A) Hypermetropia
+   B) Myopia
+   C) Astigmatism
+   D) Presbyopia
+   **Answer: B**
+   *Explanation: Myopia (nearsightedness) causes distant objects to be blurry.*
+
+**9.** Which organelle is responsible for lipid synthesis?
+   A) Ribosome
+   B) Smooth ER
+   C) Golgi apparatus
+   D) Lysosome
+   **Answer: B**
+   *Explanation: Smooth endoplasmic reticulum synthesizes lipids.*
+
+**10.** The process of sperms being produced is called
+   A) Oogenesis
+   B) Spermatogenesis
+   C) Menstruation
+   D) Ovulation
+   **Answer: B**
+   *Explanation: Spermatogenesis is the production of sperm cells.*

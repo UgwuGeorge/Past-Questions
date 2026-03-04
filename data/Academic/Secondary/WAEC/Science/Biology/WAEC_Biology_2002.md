@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2002)
+# NECO Biology Past Questions (2002)
 
 ## Objectives
 
-**1.** When bacteria swim from cold to warm regions, this is known as
-   A) negative chemotaxis
-   B) positive thermotaxis
-   C) positive phototaxis
-   D) negative phototaxis
+**1.** The process of taking in food and breaking it down is called
+   A) Absorption
+   B) Digestion
+   C) Ingestion
+   D) Assimilation
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: Digestion is the mechanical and chemical breakdown of food.*
 
-**2.** A characteristic exhibited by all living organism is
-   A) sexual reproduction
-   B) aerobic respiration
-   C) the ability to move from one place to another
-   D) the ability to remove unwanted substances.
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2009)*
+**2.** Which of the following is an example of an arthropod?
+   A) Snail
+   B) Earthworm
+   C) Cockroach
+   D) Tapeworm
+   **Answer: C**
+   *Explanation: Cockroaches are insects, which are arthropods.*
 
-**3.** Mendel, s second law of inheritance states that
-   A) alleles separate predictably
-   B) alleles segregate  independently
-   C) chromosomes segregate independently
-   D) alleles combine randomly
+**3.** The structure that stores genetic information is the
+   A) Ribosome
+   B) Nucleus
+   C) Mitochondria
+   D) Chloroplast
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: The nucleus contains DNA.*
 
-**4.** Genetically modified food products have not become  universally accepted because
-   A) They are not tasty as others produced  by conventional means
-   B) they are usually costlier than others produced by conventional means
-   C) their  efforts on human consumers is not yet fully understood
-   D) the technology can be applied only  in developed  countries
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**5.** The most likely first colonizers of a bare rock are
-   A) mosses
-   B) ferns
-   C) lichen
-   D) fungi
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**6.** An evidence of the relationship between living organisms and their extinct relatives can best be obtained from
-   A) Embryology
-   B) Comparative anatomy
-   C) comparative physiology
-   D) all of the above
+**4.** In the human heart, the chamber that pumps blood to the body is the
+   A) Right atrium
+   B) Left atrium
+   C) Right ventricle
+   D) Left ventricle
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: The left ventricle pumps oxygenated blood to the body.*
 
-**7.** Which of the following organisms is both parasitic and  autotrophic?
-   A) Sundew
-   B) Loranthus
-   C) Rhizopus
-   D) tapeworm
+**5.** Which of the following is a hereditary disease?
+   A) Tuberculosis
+   B) Malaria
+   C) Sickle cell anemia
+   D) Cholera
+   **Answer: C**
+   *Explanation: Sickle cell anemia is an inherited genetic disorder.*
+
+**6.** The part of the plant that anchors it in the soil is the
+   A) Stem
+   B) Leaf
+   C) Root
+   D) Flower
+   **Answer: C**
+   *Explanation: Roots anchor plants and absorb water and minerals.*
+
+**7.** Which of the following is a function of the skeletal system?
+   A) Production of hormones
+   B) Production of blood cells
+   C) Regulation of metabolism
+   D) Production of enzymes
+   **Answer: B**
+   *Explanation: Bone marrow produces blood cells.*
+
+**8.** The gas produced by plants during respiration is
+   A) Oxygen
+   B) Nitrogen
+   C) Carbon dioxide
+   D) Hydrogen
+   **Answer: C**
+   *Explanation: CO2 is released during respiration.*
+
+**9.** In the human eye, the part that focuses light is the
+   A) Cornea
+   B) Retina
+   C) Lens
+   D) Iris
+   **Answer: C**
+   *Explanation: The lens adjusts shape to focus light on the retina.*
+
+**10.** The type of pollution that causes ozone layer depletion is
+   A) Air pollution
+   B) Water pollution
+   C) Soil pollution
+   D) Noise pollution
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**8.** Which of the following can cause shrinkage  of living cells?
-   A) Isotonic solution
-   B) Delonized water
-   C) Hypertonic solution
-   D) hypotonic solution
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**9.** A state in Nigeria that is most susceptible to desert encroachment is
-   A) Kwara
-   B) Taraba
-   C) Kaduna
-   D) Katsina
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**10.** The main distinguishing features between the soldier termite and other members of the caste are the
-   A) presence of wings, possession of a small head and large thorax
-   B) presence of wings, possession of a large thorax  and a small head
-   C) absence of wings, possession off strong mandibles and a large head
-   D) absence of wings, possession of big head and the absence of mandible.
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+   *Explanation: CFCs and other pollutants deplete the ozone layer.*

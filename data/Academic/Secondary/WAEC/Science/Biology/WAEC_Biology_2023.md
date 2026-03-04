@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2023)
+# NECO Biology Past Questions (2023)
 
 ## Objectives
 
-**1.** Which of the following can cause shrinkage  of living cells?
-   A) Isotonic solution
-   B) Delonized water
-   C) Hypertonic solution
-   D) hypotonic solution
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**2.** In plants, the structures that play roles similar to the arteries and veins of animals are the
-   A) xylem and phloem
-   B) root hairs and xylem
-   C) lenticels and phloem
-   D) roots and stems
+**1.** Which of the following is a characteristic of all living organisms?
+   A) Reproduction
+   B) Movement
+   C) Photosynthesis
+   D) Heterotrophy
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: All living organisms must be able to reproduce to pass on genetic material to offspring.*
 
-**3.** In which of the following biomes is the south western part of Nigeria located?
-   A) Tropical rainforest
-   B) Tropical woodland
-   C) desert
-   D) Temperature forest
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**4.** A density dependent factor that regulates the population size of organism is
-   A) disease
-   B) sudden flood
-   C) drought
-   D) fire outbreak
+**2.** The basic unit of life is the
+   A) Tissue
+   B) Organ
+   C) Cell
+   D) Organelle
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: The cell is the smallest unit that can carry out all life processes and is the basic structural unit of all living things.*
 
-**5.** Metabolic production of urea is carried out in the
-   A) Urinary bladder and kidney
-   B) liver
-   C) pancreas
-   D) kidney and malphigian tubule
+**3.** Which organelle is responsible for cellular respiration?
+   A) Ribosome
+   B) Mitochondrion
+   C) Chloroplast
+   D) Nucleus
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Mitochondria are the powerhouse of the cell where ATP is produced through cellular respiration.*
 
-**6.** Which of the following is true of leucocytes?
-   A) They are most numerous and ramify all cells
-   B) They are large and nucleated
-   C) They are involved in blood clotting
-   D) They are respiratory pigments
+**4.** In plants, gaseous exchange occurs through the
+   A) Stomata
+   B) Lenticels
+   C) Root hairs
+   D) Cuticle
+   **Answer: A**
+   *Explanation: Stomata are pores mainly found on the underside of leaves where gas exchange takes place.*
+
+**5.** The blood vessel that carries deoxygenated blood from the heart to the lungs is the
+   A) Pulmonary artery
+   B) Pulmonary vein
+   C) Aorta
+   D) Vena cava
+   **Answer: A**
+   *Explanation: The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs for oxygenation.*
+
+**6.** Which of the following is a vector-borne disease?
+   A) Tuberculosis
+   B) Malaria
+   C) Diabetes
+   D) Asthma
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Malaria is transmitted by the female Anopheles mosquito vector.*
 
-**7.** The most common characteristic of the fungal hyphae is the possession of
-   A) cell like compartments with one nucleus each
-   B) cell walls that are true are both rigid and chitinous
-   C) a multicellular mycelium in strate
-   D) cell like partitions formed  by cross walls
+**7.** The process by which plants make food is called
+   A) Respiration
+   B) Photosynthesis
+   C) Transpiration
+   D) Osmosis
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
+   *Explanation: Photosynthesis is the process by which plants convert light energy into chemical energy (glucose).*
 
-**8.** An argument against Lamarck’s theory of evolution is that
-   A) disuse of  body part cannot weaken the part
-   B) disused part is dropped off in the offspring
-   C) acquired traits cannot be passed onto the offspring
-   D) traits cannot be acquired through constant use of body parts
+**8.** In the human digestive system, bile is produced by the
+   A) Stomach
+   B) Pancreas
+   C) Liver
+   D) Small intestine
+   **Answer: C**
+   *Explanation: Bile is produced by the liver and stored in the gallbladder before being released into the duodenum.*
+
+**9.** Which of the following is a hereditary disease?
+   A) AIDS
+   B) Sickle cell anemia
+   C) Tuberculosis
+   D) Pneumonia
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Sickle cell anemia is a genetic disorder caused by a mutation in the hemoglobin gene.*
 
-**9.** Which of the following is most advanced in the evolutionary trend of animals?
-   A) Liver fluke
-   B) Earthworm
-   C) Snail
-   D) cockroach
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**10.** Counter shading is an adaptive  feature that enables animals to
-   A) flight enemies
-   B) remain undetected
-   C) warn enemies
-   D) attract mates
+**10.** The part of the brain that controls balance and coordination is the
+   A) Cerebrum
+   B) Cerebellum
+   C) Medulla oblongata
+   D) Hypothalamus
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+   *Explanation: The cerebellum is responsible for coordinating voluntary movements and maintaining balance.*

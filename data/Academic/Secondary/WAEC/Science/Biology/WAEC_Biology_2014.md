@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2014)
+# NECO Biology Past Questions (2014)
 
 ## Objectives
 
-**1.** The transition from amphibians to mammals involves the limbs becoming arranged to support the weight  more effectively requiring modifications in the
-   A) collar bones and coccyx
-   B) pectoral and pelvic girdles
-   C) scapulae and clavicles
-   D) vertebrae and sternum
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**2.** The waste product of plants used in the conversion of hide to leather is
-   A) resin
-   B) tannin
-   C) gum
-   D) Alkaloid
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**3.** In mammals , the  organ directly on top of the kidney is the
-   A) prostate gland
-   B) pancrease
-   C) thyroid gland
-   D) adrenal gland
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**4.** The Rhesus factor of blood was first identified in a category of
-   A) monkeys
-   B) human females
-   C) human males
-   D) chimpanzees
+**1.** The structure that connects the mother to the fetus is the
+   A) Umbilical cord
+   B) Fallopian tube
+   C) Cervix
+   D) Vagina
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2008)*
+   *Explanation: The umbilical cord connects the fetus to the placenta.*
 
-**5.** Which of the following is most advanced in the evolutionary trend of animals?
-   A) Liver fluke
-   B) Earthworm
-   C) Snail
-   D) cockroach
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2012)*
-
-**6.** In a mendelian cross of red and white varieties of the four o’clock pant, the F1 generation expresses incomplete dominance by having flowers which are
-   A) white
-   B) red
-   C) pink
-   D) multi-coloured
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**7.** Which of the following has the most primitive respiratory system?
-   A) Fish
-   B) Snail
-   C) Mouse
-   D) insect
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2007)*
-
-**8.** The most important ecological factor in a terrestrial environment is
-   A) rainfall
-   B) humidity
-   C) wind
-   D) soil
+**2.** Which of the following is a function of the skin?
+   A) Vitamin D synthesis
+   B) Blood cell production
+   C) Hormone production
+   D) Urea synthesis
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2009)*
+   *Explanation: Skin produces vitamin D when exposed to sunlight.*
 
-**9.** The point marked I is referred to as
-   A) myelin sheath
-   B) dendrites
-   C) axon
-   D) node of Ranvier
+**3.** In plants, the transport of food materials is through the
+   A) Xylem
+   B) Phloem
+   C) Cambium
+   D) Cork cambium
+   **Answer: B**
+   *Explanation: Phloem transports dissolved sugars from leaves to other parts.*
+
+**4.** The part of the brain that controls body temperature is the
+   A) Cerebrum
+   B) Cerebellum
+   C) Medulla
+   D) Hypothalamus
    **Answer: D**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: The hypothalamus regulates body temperature.*
 
-**10.** The part of a domestic fowl responsible  for preventing heat loss is the
-   A) filoplume
-   B) contour feather
-   C) down feather
-   D) quill
+**5.** Which organelle is involved in cellular waste disposal?
+   A) Ribosome
+   B) Lysosome
+   C) Vacuole
+   D) Mitochondria
+   **Answer: B**
+   *Explanation: Lysosomes contain enzymes that break down waste materials.*
+
+**6.** The deficiency of iodine causes
+   A) Rickets
+   B) Goiter
+   C) Scurvy
+   D) Beriberi
+   **Answer: B**
+   *Explanation: Iodine deficiency leads to goiter (thyroid enlargement).*
+
+**7.** Which blood vessel carries blood away from the heart?
+   A) Vein
+   B) Artery
+   C) Capillary
+   D) Venule
+   **Answer: B**
+   *Explanation: Arteries carry blood away from the heart.*
+
+**8.** In the human eye, the blind spot is where the
+   A) Cornea meets the iris
+   B) Optic nerve exits the retina
+   C) Lens focuses light
+   D) Pupil is located
+   **Answer: B**
+   *Explanation: The optic nerve exits at the optic disc, which lacks photoreceptors.*
+
+**9.** The process by which plants lose their leaves is called
+   A) Abscission
+   B) Deciduous
+   C) Senescence
+   D) Wilting
+   **Answer: A**
+   *Explanation: Abscission is the shedding of leaves.*
+
+**10.** Which of the following is a sexually transmitted infection?
+   A) Malaria
+   B) Tuberculosis
+   C) Syphilis
+   D) Cholera
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+   *Explanation: Syphilis is transmitted through sexual contact.*

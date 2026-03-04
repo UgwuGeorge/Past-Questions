@@ -1,87 +1,83 @@
-# WAEC Biology Past Questions (2016)
+# NECO Biology Past Questions (2016)
 
 ## Objectives
 
-**1.** The type of reproduction that is common to both Hydra and yeast is
-   A) conjugation
-   B) binary fission
-   C) grafting
-   D) Budding
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**2.** The population density of Tridax in an abandoned square farmland of side 200m was found to be 5 plants per m2. The population size of the plant on the farm is
-   A) 40
-   B) 4000
-   C) 40000
-   D) 200000
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2005)*
-
-**3.** The formation of water in tissue  respiration  results from the
-   A) combination of water  molecules
-   B) breakdown of water molecules
-   C) reduction of carbon (IV) oxide
-   D) reduction of oxygen by hydrogen
-   **Answer: D**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**4.** In insects, the structure that performs  the same function as the kidney in man is the
-   A) nephridium
-   B) flame cell
-   C) malphigiann tubule
-   D) trachea
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**5.** The most common characteristic of the fungal hyphae is the possession of
-   A) cell like compartments with one nucleus each
-   B) cell walls that are true are both rigid and chitinous
-   C) a multicellular mycelium in strate
-   D) cell like partitions formed  by cross walls
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2004)*
-
-**6.** A density dependent factor that regulates the population size of organism is
-   A) disease
-   B) sudden flood
-   C) drought
-   D) fire outbreak
+**1.** The process of intake of solid particles by cells is called
+   A) Phagocytosis
+   B) Pinocytosis
+   C) Osmosis
+   D) Diffusion
    **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
+   *Explanation: Phagocytosis is the engulfing of large particles by cells.*
 
-**7.** Drancunculiasis can be contacted  through
-   A) drinking contaminated water
-   B) bathing in contaminated water
-   C) bites of blackfly
-   D) eating contaminated food
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**8.** A blue-green alga is not a protophytes because
-   A) it is aquatic
-   B) its cells are prokaryotic
-   C) it cannot move
-   D) it is not a green plant
-   **Answer: B**
-   *(Note: Closest available year from ALOC database: 2009)*
-
-**9.** The main purpose of establishing shelter belts in the sahel region to
-   A) break the harmattan wind
-   B) beautify the region
-   C) check desert encroachment
-   D) provide wood fuel
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-**10.** The blackly is a vector of
-   A) material
-   B) trypanosomiasis
-   C) onchocerciasis
-   D) yellow fever
+**2.** Which of the following is a characteristic of Kingdom Plantae?
+   A) Heterotrophic nutrition
+   B) Cell wall made of chitin
+   C) Autotrophic nutrition
+   D) Motile
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: Plants are autotrophic, producing their own food through photosynthesis.*
 
+**3.** The hormone that prepares the body for emergency situations is
+   A) Insulin
+   B) Adrenaline
+   C) Thyroxine
+   D) Cortisol
+   **Answer: B**
+   *Explanation: Adrenaline (epinephrine) triggers the fight-or-flight response.*
 
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**4.** In the human digestive system, protein digestion begins in the
+   A) Mouth
+   B) Stomach
+   C) Small intestine
+   D) Large intestine
+   **Answer: B**
+   *Explanation: Pepsin in the stomach begins breaking down proteins.*
+
+**5.** Which structure in the cell contains genetic material?
+   A) Cytoplasm
+   B) Nucleus
+   C) Ribosome
+   D) Mitochondria
+   **Answer: B**
+   *Explanation: The nucleus contains DNA, the genetic material.*
+
+**6.** The part of the flower that produces pollen grains is the
+   A) Ovary
+   B) Stigma
+   C) Anther
+   D) Style
+   **Answer: C**
+   *Explanation: The anther produces microspores that develop into pollen grains.*
+
+**7.** Which blood cells are involved in blood clotting?
+   A) Red blood cells
+   B) White blood cells
+   C) Platelets
+   D) Plasma
+   **Answer: C**
+   *Explanation: Platelets are essential for blood clot formation.*
+
+**8.** The movement of water across a semi-permeable membrane is called
+   A) Diffusion
+   B) Osmosis
+   C) Active transport
+   D) Facilitated diffusion
+   **Answer: B**
+   *Explanation: Osmosis is the movement of water from low to high solute concentration.*
+
+**9.** Which organ is the main organ of the excretory system?
+   A) Liver
+   B) Kidney
+   C) Lungs
+   D) Skin
+   **Answer: B**
+   *Explanation: The kidneys filter blood and produce urine.*
+
+**10.** The ability of the body to resist infection is called
+   A) Immunity
+   B) Vaccination
+   C) Antibiosis
+   D) Sensitivity
+   **Answer: A**
+   *Explanation: Immunity is the body's ability to fight pathogens.*

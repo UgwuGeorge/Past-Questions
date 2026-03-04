@@ -1,85 +1,83 @@
-# WAEC Biology Past Questions (2009)
+# NECO Biology Past Questions (2009)
 
 ## Objectives
 
-**1.** The type of reproduction that leads to variation in animal and plant population is
-   A) budding
-   B) sexual
-   C) vegatative
-   D) asexual
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**2.** Millet, sorghum, maize and onions are common crops grown in Nigerian in the  (a) Sudan savanna
-   A) montane forests
-   B) Sahel savanna
-   C) Tropical rainforests
-   **Answer: A**
-   *(Note: Closest available year from ALOC database: 2011)*
-
-**3.** An insect with a mandibulate  mouth part will obtain its food by
-   A) biting and chewing
-   B) chewing and sucking
-   C) chewing
-   D) Sucking
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2003)*
-
-**4.** An ecological factor that will have the most  limiting effect on the abundance of phytoplankton in a turbid pond is
-   A) pH
-   B) oxygen
-   C) light
-   D) temperature
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2008)*
-
-**5.** The function of the red head in male Agama lizards is to
-   A) scare other males from the territory
-   B) attract female lizards for mating purposes
-   C) warn predators of the distastefulness of the animal
-   D) Conceal and camouflage the animal from predators
+**1.** Which of the following is a characteristic of monera?
+   A) Membrane-bound nucleus
+   B) Prokaryotic cells
+   C) Multicellular
+   D) Sexual reproduction
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2011)*
+   *Explanation: Monera are prokaryotes lacking a membrane-bound nucleus.*
 
-**6.** The part of the mammalian skin involved in temperature regulation is the
-   A) sebaceous gland
-   B) sweat gland
-   C) hair follicle
-   D) hair pailla
+**2.** The organ that pumps blood throughout the body is the
+   A) Brain
+   B) Lungs
+   C) Heart
+   D) Liver
+   **Answer: C**
+   *Explanation: The heart is the pump of the circulatory system.*
+
+**3.** Which of the following is a function of the cytoskeleton?
+   A) Energy production
+   B) Cell support and movement
+   C) Protein synthesis
+   D) DNA replication
    **Answer: B**
-   *(Note: Closest available year from ALOC database: 2006)*
+   *Explanation: The cytoskeleton provides structural support and enables movement.*
 
-**7.** The dominant phase in the life cycle of a fern is the
-   A) gametophyte
-   B) prothallus
-   C) sporophyte
-   D) antheridium
+**4.** In the human heart, the left ventricle has a thicker wall because it
+   A) Receives blood from the lungs
+   B) Pumps blood to the body
+   C) Receives blood from the body
+   D) Pumps blood to the lungs
+   **Answer: B**
+   *Explanation: The left ventricle pumps blood to the entire body, requiring more force.*
+
+**5.** Which of the following is a non-specific defense mechanism?
+   A) Antibody production
+   B) White blood cell engulfment
+   C) Killer T cells
+   D) Memory cells
+   **Answer: B**
+   *Explanation: Phagocytosis is a non-specific defense.*
+
+**6.** The site of the Calvin cycle in photosynthesis is the
+   A) Grana
+   B) Stroma
+   C) Thylakoid membrane
+   D) Intermembrane space
+   **Answer: B**
+   *Explanation: The Calvin cycle occurs in the stroma.*
+
+**7.** The number of chromosomes in human somatic cells is
+   A) 23
+   B) 46
+   C) 44
+   D) 48
+   **Answer: B**
+   *Explanation: Humans have 46 chromosomes (23 pairs) in diploid cells.*
+
+**8.** Which of the following is a connective tissue?
+   A) Muscle
+   B) Nerve
+   C) Blood
+   D) Epithelium
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2010)*
+   *Explanation: Blood is a connective tissue.*
 
-**8.** The most important ecological factor in a terrestrial environment is
-   A) rainfall
-   B) humidity
-   C) wind
-   D) soil
-   **Answer: A**
-
-**9.** The urinary tubules of the kidney function through
-   A) osmosis and diffusion
-   B) active transport and osmosis
-   C) ultra filtration and selective re-absorption
-   D) active transport and cytoplasmic streaming
+**9.** The organ that stores urine before excretion is the
+   A) Kidney
+   B) Ureter
+   C) Bladder
+   D) Urethra
    **Answer: C**
-   *(Note: Closest available year from ALOC database: 2005)*
+   *Explanation: The bladder stores urine.*
 
-**10.** One advantage of variation in a species population  is that individuals
-   A) easily reach their reproduction age
-   B) with favoured trait become dominant
-   C) are better adapted  to changes
-   D) are easily  recognized by mates
-   **Answer: C**
-   *(Note: Closest available year from ALOC database: 2006)*
-
-
----
-*(Source: ALOC open API — questions.aloc.com.ng)*
+**10.** The process by which green plants make food is
+   A) Respiration
+   B) Photosynthesis
+   C) Transpiration
+   D) Guttation
+   **Answer: B**
+   *Explanation: Photosynthesis converts light energy to chemical energy.*
