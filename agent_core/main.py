@@ -102,46 +102,6 @@ def submit_answer(payload: SubmitPayload, db: Session = Depends(get_db)):
     db.commit()
     return {"status": "ok", "is_correct": payload.is_correct}
 
-class EssayPayload(BaseModel):
-    content: str
-    criteria: str = "IELTS"
-
-@app.post("/api/grade-essay")
-async def grade_essay(payload: EssayPayload):
-    if not payload.content.strip():
-        raise HTTPException(status_code=400, detail="Essay content cannot be empty")
-    try:
-        from agent_core.core.ai import AIEngine
-        result = await AIEngine.grade_essay_or_sop(payload.content, payload.criteria)
-        return result
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-class InterviewPayload(BaseModel):
-    question: str
-    answer: str
-
-@app.post("/api/interview-evaluate")
-async def interview_evaluate(payload: InterviewPayload):
-    if not payload.answer.strip():
-        raise HTTPException(status_code=400, detail="Answer cannot be empty")
-    try:
-        from agent_core.core.ai import AIEngine
-        result = await AIEngine.simulate_interview(payload.question, payload.answer)
-        return result
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-class ChatPayload(BaseModel):
-    message: str
-    history: list = []
-
-@app.post("/api/interview-chat/{user_id}")
-async def interview_chat(user_id: int, payload: ChatPayload):
-    if not payload.message.strip():
-        raise HTTPException(status_code=400, detail="Message is required")
-    response = await agent.chat(user_id=user_id, message=payload.message, history=payload.history)
-    return {"response": response}
 
 @app.get("/api/user/stats/{user_id}")
 def get_user_stats(user_id: int):

@@ -186,16 +186,6 @@ class ExamAgent:
         
         return json.dumps(report)
 
-    def grade_essay(self, content: str, criteria: str) -> str:
-        """Grades an IELTS essay, Scholarship SOP, or academic writing."""
-        result = AIEngine.grade_essay_or_sop_sync(content, criteria)
-        return json.dumps(result, indent=2)
-
-    def run_interview_coach(self, scenario: str, user_text: str) -> str:
-        """Provides expert feedback on an interview response."""
-        result = AIEngine.simulate_interview_sync(scenario, user_text)
-        return json.dumps(result, indent=2)
-
     def generate_new_content(self, exam_name: str, topic: str, difficulty: str, count: int = 5) -> str:
         """
         Generates new practice questions and stores them in the local database.
@@ -256,8 +246,6 @@ class ExamAgent:
             self.get_weak_topics, 
             self.get_adaptive_v2,
             self.log_answer,
-            self.grade_essay,
-            self.run_interview_coach,
             self.generate_new_content,
             self.get_practice_batch,
             self.get_session_summary
