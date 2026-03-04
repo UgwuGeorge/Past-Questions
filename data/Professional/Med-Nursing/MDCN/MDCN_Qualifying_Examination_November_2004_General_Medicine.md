@@ -43,3 +43,73 @@
    C) Staphylococcus aureus
    D) Klebsiella species
    **Answer: D**
+
+**7.** Which of these is used to show that Earth spins on an axis? 
+   A) Foucault Pendulum 
+   B) Polaris
+   C) Tectonic Plates 
+   D) Sundial
+   **Answer: A**
+
+**8.** How much radiation does a banana emit?
+   A) 0.7 Microsievert
+   B) 0.5 Microsievert
+   C) 0.1 Microsievert
+   D) 0.3 Microsievert
+   **Answer: C**
+
+**9.** What element on the periodic table has 92 electrons?
+   A) Uranium
+   B) Sulfur
+   C) Hydrogen
+   D) Iron
+   **Answer: A**
+
+**10.** If you planted the seeds of Quercus robur what would grow?
+   A) Trees
+   B) Flowers
+   C) Vegtables
+   D) Grains
+   **Answer: A**
+
+**11.** Which of the following is NOT a real element?
+   A) Vitrainium
+   B) Lutetium
+   C) Hassium
+   D) Praseodymium
+   **Answer: A**
+
+**12.** What causes the sound of a heartbeat?
+   A) Contraction of the heart chambers
+   B) Relaxation of the heart chambers
+   C) Closure of the heart valves
+   D) Blood exiting the heart
+   **Answer: C**
+
+**13.** Which of these chemical compounds is NOT found in gastric acid?
+   A) Hydrochloric acid
+   B) Potassium chloride
+   C) Sodium chloride
+   D) Sulfuric acid
+   **Answer: D**
+
+**14.** Which of the following is a major muscle of the back?
+   A) Triquetrum
+   B) Trapezium
+   C) Trapezoid
+   D) Trapezius
+   **Answer: D**
+
+**15.** The Western Lowland Gorilla is scientifically know as?
+   A) Gorilla Gorilla Diehli
+   B) Gorilla Beringei Graueri
+   C) Gorilla Gorilla Gorilla
+   D) Gorilla Beringei Beringei
+   **Answer: C**
+
+**16.** Which country first successfully farm-hatched and raised bluefin tuna in 1979?
+   A) Japan
+   B) USA
+   C) Philippines
+   D) France
+   **Answer: A**
