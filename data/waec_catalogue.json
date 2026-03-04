@@ -1,0 +1,3606 @@
+{
+  "subjects": [
+    {
+      "subject": "Biology",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "total_questions": 240
+    },
+    {
+      "subject": "Chemistry",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "total_questions": 40
+    }
+  ],
+  "data": {
+    "Biology": {
+      "2000": {
+        "year": 2000,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The type of nutrition in which organisms make their own food is",
+            "choices": {
+              "A": "Heterotrophic",
+              "B": "Autotrophic",
+              "C": "Saprophytic",
+              "D": "Parasitic"
+            },
+            "answer": "B",
+            "explanation": "Autotrophs produce their own food, usually through photosynthesis."
+          },
+          {
+            "number": 2,
+            "text": "Which organ is affected by the disease called goiter?",
+            "choices": {
+              "A": "Heart",
+              "B": "Lungs",
+              "C": "Thyroid gland",
+              "D": "Liver"
+            },
+            "answer": "C",
+            "explanation": "Goiter is an enlargement of the thyroid gland."
+          },
+          {
+            "number": 3,
+            "text": "The part of the cell that controls what enters and leaves is the",
+            "choices": {
+              "A": "Cell wall",
+              "B": "Cell membrane",
+              "C": "Nucleus",
+              "D": "Cytoplasm"
+            },
+            "answer": "B",
+            "explanation": "The cell membrane is selectively permeable."
+          },
+          {
+            "number": 4,
+            "text": "In the human heart, the right atrium receives blood from the",
+            "choices": {
+              "A": "Lungs",
+              "B": "Body",
+              "C": "Left atrium",
+              "D": "Ventricles"
+            },
+            "answer": "B",
+            "explanation": "The right atrium receives deoxygenated blood from the body."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a communicable disease?",
+            "choices": {
+              "A": "Diabetes",
+              "B": "Cancer",
+              "C": "Tuberculosis",
+              "D": "Heart disease"
+            },
+            "answer": "C",
+            "explanation": "Tuberculosis is caused by bacteria and can spread."
+          },
+          {
+            "number": 6,
+            "text": "The process by which plants make food occurs in the",
+            "choices": {
+              "A": "Mitochondria",
+              "B": "Chloroplast",
+              "C": "Ribosome",
+              "D": "Nucleus"
+            },
+            "answer": "B",
+            "explanation": "Photosynthesis takes place in chloroplasts."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is an example of a mineral deficiency in plants?",
+            "choices": {
+              "A": "Chlorosis",
+              "B": "Wilting",
+              "C": "Stunted growth",
+              "D": "All of the above"
+            },
+            "answer": "D",
+            "explanation": "Mineral deficiencies cause various symptoms including chlorosis and stunted growth."
+          },
+          {
+            "number": 8,
+            "text": "The blood cells that fight infection are the",
+            "choices": {
+              "A": "Red blood cells",
+              "B": "White blood cells",
+              "C": "Platelets",
+              "D": "Plasma"
+            },
+            "answer": "B",
+            "explanation": "White blood cells are part of the immune system."
+          },
+          {
+            "number": 9,
+            "text": "The organ that produces urine is the",
+            "choices": {
+              "A": "Liver",
+              "B": "Kidney",
+              "C": "Bladder",
+              "D": "Ureter"
+            },
+            "answer": "B",
+            "explanation": "Kidneys produce urine."
+          },
+          {
+            "number": 10,
+            "text": "In genetics, the physical appearance of an organism is called",
+            "choices": {
+              "A": "Genotype",
+              "B": "Phenotype",
+              "C": "Chromosome",
+              "D": "Gene"
+            },
+            "answer": "B",
+            "explanation": "Phenotype is the observable trait."
+          }
+        ]
+      },
+      "2001": {
+        "year": 2001,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is not a characteristic of living things?",
+            "choices": {
+              "A": "Growth",
+              "B": "Reproduction",
+              "C": "Movement",
+              "D": "Respiration"
+            },
+            "answer": "C",
+            "explanation": "Not all living things can move from place to place (e.g., plants)."
+          },
+          {
+            "number": 2,
+            "text": "The basic structural unit of all living organisms is the",
+            "choices": {
+              "A": "Tissue",
+              "B": "Organ",
+              "C": "Cell",
+              "D": "System"
+            },
+            "answer": "C",
+            "explanation": "The cell is the smallest unit of life."
+          },
+          {
+            "number": 3,
+            "text": "In humans, the respiratory organ is the",
+            "choices": {
+              "A": "Heart",
+              "B": "Lungs",
+              "C": "Liver",
+              "D": "Kidneys"
+            },
+            "answer": "B",
+            "explanation": "Lungs are the organs of respiration."
+          },
+          {
+            "number": 4,
+            "text": "The pigment that makes plants green is",
+            "choices": {
+              "A": "Carotene",
+              "B": "Chlorophyll",
+              "C": "Xanthophyll",
+              "D": "Anthocyanin"
+            },
+            "answer": "B",
+            "explanation": "Chlorophyll absorbs light for photosynthesis."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a function of the kidney?",
+            "choices": {
+              "A": "Production of bile",
+              "B": "Filtering blood",
+              "C": "Production of insulin",
+              "D": "Production of hormones"
+            },
+            "answer": "B",
+            "explanation": "Kidneys filter blood to remove waste."
+          },
+          {
+            "number": 6,
+            "text": "The type of blood vessel that returns blood to the heart is the",
+            "choices": {
+              "A": "Artery",
+              "B": "Vein",
+              "C": "Capillary",
+              "D": "Arteriole"
+            },
+            "answer": "B",
+            "explanation": "Veins return deoxygenated blood to the heart."
+          },
+          {
+            "number": 7,
+            "text": "In plants, the male reproductive part is the",
+            "choices": {
+              "A": "Stigma",
+              "B": "Style",
+              "C": "Anther",
+              "D": "Ovary"
+            },
+            "answer": "C",
+            "explanation": "The anther produces pollen."
+          },
+          {
+            "number": 8,
+            "text": "Which vitamin is needed for healthy bones and teeth?",
+            "choices": {
+              "A": "Vitamin A",
+              "B": "Vitamin B",
+              "C": "Vitamin C",
+              "D": "Vitamin D"
+            },
+            "answer": "D",
+            "explanation": "Vitamin D aids calcium absorption for bones."
+          },
+          {
+            "number": 9,
+            "text": "The process of cell eating is called",
+            "choices": {
+              "A": "Pinocytosis",
+              "B": "Phagocytosis",
+              "C": "Osmosis",
+              "D": "Diffusion"
+            },
+            "answer": "B",
+            "explanation": "Phagocytosis is the engulfing of large particles."
+          },
+          {
+            "number": 10,
+            "text": "The hormone that regulates sugar level in blood is",
+            "choices": {
+              "A": "Adrenaline",
+              "B": "Insulin",
+              "C": "Thyroxine",
+              "D": "Cortisol"
+            },
+            "answer": "B",
+            "explanation": "Insulin lowers blood glucose levels."
+          }
+        ]
+      },
+      "2002": {
+        "year": 2002,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The process of taking in food and breaking it down is called",
+            "choices": {
+              "A": "Absorption",
+              "B": "Digestion",
+              "C": "Ingestion",
+              "D": "Assimilation"
+            },
+            "answer": "B",
+            "explanation": "Digestion is the mechanical and chemical breakdown of food."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is an example of an arthropod?",
+            "choices": {
+              "A": "Snail",
+              "B": "Earthworm",
+              "C": "Cockroach",
+              "D": "Tapeworm"
+            },
+            "answer": "C",
+            "explanation": "Cockroaches are insects, which are arthropods."
+          },
+          {
+            "number": 3,
+            "text": "The structure that stores genetic information is the",
+            "choices": {
+              "A": "Ribosome",
+              "B": "Nucleus",
+              "C": "Mitochondria",
+              "D": "Chloroplast"
+            },
+            "answer": "B",
+            "explanation": "The nucleus contains DNA."
+          },
+          {
+            "number": 4,
+            "text": "In the human heart, the chamber that pumps blood to the body is the",
+            "choices": {
+              "A": "Right atrium",
+              "B": "Left atrium",
+              "C": "Right ventricle",
+              "D": "Left ventricle"
+            },
+            "answer": "D",
+            "explanation": "The left ventricle pumps oxygenated blood to the body."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a hereditary disease?",
+            "choices": {
+              "A": "Tuberculosis",
+              "B": "Malaria",
+              "C": "Sickle cell anemia",
+              "D": "Cholera"
+            },
+            "answer": "C",
+            "explanation": "Sickle cell anemia is an inherited genetic disorder."
+          },
+          {
+            "number": 6,
+            "text": "The part of the plant that anchors it in the soil is the",
+            "choices": {
+              "A": "Stem",
+              "B": "Leaf",
+              "C": "Root",
+              "D": "Flower"
+            },
+            "answer": "C",
+            "explanation": "Roots anchor plants and absorb water and minerals."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is a function of the skeletal system?",
+            "choices": {
+              "A": "Production of hormones",
+              "B": "Production of blood cells",
+              "C": "Regulation of metabolism",
+              "D": "Production of enzymes"
+            },
+            "answer": "B",
+            "explanation": "Bone marrow produces blood cells."
+          },
+          {
+            "number": 8,
+            "text": "The gas produced by plants during respiration is",
+            "choices": {
+              "A": "Oxygen",
+              "B": "Nitrogen",
+              "C": "Carbon dioxide",
+              "D": "Hydrogen"
+            },
+            "answer": "C",
+            "explanation": "CO2 is released during respiration."
+          },
+          {
+            "number": 9,
+            "text": "In the human eye, the part that focuses light is the",
+            "choices": {
+              "A": "Cornea",
+              "B": "Retina",
+              "C": "Lens",
+              "D": "Iris"
+            },
+            "answer": "C",
+            "explanation": "The lens adjusts shape to focus light on the retina."
+          },
+          {
+            "number": 10,
+            "text": "The type of pollution that causes ozone layer depletion is",
+            "choices": {
+              "A": "Air pollution",
+              "B": "Water pollution",
+              "C": "Soil pollution",
+              "D": "Noise pollution"
+            },
+            "answer": "A",
+            "explanation": "CFCs and other pollutants deplete the ozone layer."
+          }
+        ]
+      },
+      "2003": {
+        "year": 2003,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The largest organ in the human body is the",
+            "choices": {
+              "A": "Heart",
+              "B": "Liver",
+              "C": "Skin",
+              "D": "Brain"
+            },
+            "answer": "C",
+            "explanation": "The skin is the largest organ by surface area."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is a characteristic of all living things?",
+            "choices": {
+              "A": "Movement",
+              "B": "Growth",
+              "C": "Reproduction",
+              "D": "Response to stimuli"
+            },
+            "answer": "C",
+            "explanation": "All living things reproduce to pass on genetic material."
+          },
+          {
+            "number": 3,
+            "text": "The type of cell division that results in two identical daughter cells is",
+            "choices": {
+              "A": "Meiosis",
+              "B": "Mitosis",
+              "C": "Binary fission",
+              "D": "Cytokinesis"
+            },
+            "answer": "B",
+            "explanation": "Mitosis produces two identical diploid cells."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the tissue that transports food is the",
+            "choices": {
+              "A": "Xylem",
+              "B": "Phloem",
+              "C": "Cambium",
+              "D": "Epidermis"
+            },
+            "answer": "B",
+            "explanation": "Phloem transports dissolved sugars."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a vector-borne disease?",
+            "choices": {
+              "A": "Tuberculosis",
+              "B": "Cholera",
+              "C": "Sleeping sickness",
+              "D": "Measles"
+            },
+            "answer": "C",
+            "explanation": "Sleeping sickness is transmitted by tsetse flies."
+          },
+          {
+            "number": 6,
+            "text": "The part of the ear that contains the sensory cells for hearing is the",
+            "choices": {
+              "A": "Semicircular canal",
+              "B": "Cochlea",
+              "C": "Eustachian tube",
+              "D": "Pinna"
+            },
+            "answer": "B",
+            "explanation": "The cochlea contains hair cells that detect sound."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is a function of the liver?",
+            "choices": {
+              "A": "Pumping blood",
+              "B": "Producing bile",
+              "C": "Gas exchange",
+              "D": "Filtering air"
+            },
+            "answer": "B",
+            "explanation": "The liver produces bile for digestion."
+          },
+          {
+            "number": 8,
+            "text": "The movement of molecules from low to high concentration requires",
+            "choices": {
+              "A": "Diffusion",
+              "B": "Osmosis",
+              "C": "Active transport",
+              "D": "Facilitated diffusion"
+            },
+            "answer": "C",
+            "explanation": "Active transport requires energy to move against the concentration gradient."
+          },
+          {
+            "number": 9,
+            "text": "In genetics, a recessive gene will only show in the phenotype when",
+            "choices": {
+              "A": "It is dominant",
+              "B": "It is heterozygous",
+              "C": "It is homozygous",
+              "D": "It is co-dominant"
+            },
+            "answer": "C",
+            "explanation": "Recessive traits require two copies to be expressed."
+          },
+          {
+            "number": 10,
+            "text": "The process by which plants lose water through leaves is called",
+            "choices": {
+              "A": "Evaporation",
+              "B": "Transpiration",
+              "C": "Condensation",
+              "D": "Precipitation"
+            },
+            "answer": "B",
+            "explanation": "Transpiration is the loss of water vapor from plants."
+          }
+        ]
+      },
+      "2004": {
+        "year": 2004,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The type of reproduction that involves the fusion of male and female gametes is",
+            "choices": {
+              "A": "Asexual reproduction",
+              "B": "Sexual reproduction",
+              "C": "Binary fission",
+              "D": "Budding"
+            },
+            "answer": "B",
+            "explanation": "Sexual reproduction involves the fusion of gametes."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following organisms is a decomposer?",
+            "choices": {
+              "A": "Moss",
+              "B": "Mushroom",
+              "C": "Fern",
+              "D": "Algae"
+            },
+            "answer": "B",
+            "explanation": "Mushrooms decompose dead organic matter."
+          },
+          {
+            "number": 3,
+            "text": "The blood vessels that carry blood away from the heart are called",
+            "choices": {
+              "A": "Veins",
+              "B": "Arteries",
+              "C": "Capillaries",
+              "D": "Venules"
+            },
+            "answer": "B",
+            "explanation": "Arteries carry blood away from the heart."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the opening and closing of stomata is controlled by",
+            "choices": {
+              "A": "Guard cells",
+              "B": "Epidermal cells",
+              "C": "Mesophyll cells",
+              "D": "Vascular cells"
+            },
+            "answer": "A",
+            "explanation": "Guard cells regulate stomatal aperture."
+          },
+          {
+            "number": 5,
+            "text": "Which vitamin is produced when the skin is exposed to sunlight?",
+            "choices": {
+              "A": "Vitamin A",
+              "B": "Vitamin B",
+              "C": "Vitamin C",
+              "D": "Vitamin D"
+            },
+            "answer": "D",
+            "explanation": "Vitamin D synthesis occurs in the skin upon UV exposure."
+          },
+          {
+            "number": 6,
+            "text": "The organ responsible for filtering blood in the excretory system is the",
+            "choices": {
+              "A": "Liver",
+              "B": "Kidney",
+              "C": "Lungs",
+              "D": "Skin"
+            },
+            "answer": "B",
+            "explanation": "The kidneys filter blood to form urine."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is an example of a binomial nomenclature?",
+            "choices": {
+              "A": "Homo sapiens",
+              "B": "Man",
+              "C": "Human being",
+              "D": "People"
+            },
+            "answer": "A",
+            "explanation": "Homo sapiens is the scientific name for humans."
+          },
+          {
+            "number": 8,
+            "text": "The process by which plants synthesize food is called",
+            "choices": {
+              "A": "Respiration",
+              "B": "Photosynthesis",
+              "C": "Transpiration",
+              "D": "Guttation"
+            },
+            "answer": "B",
+            "explanation": "Photosynthesis converts CO2 and H2O to glucose using light energy."
+          },
+          {
+            "number": 9,
+            "text": "Which of the following is a deficiency disease of iron?",
+            "choices": {
+              "A": "Rickets",
+              "B": "Anemia",
+              "C": "Scurvy",
+              "D": "Goiter"
+            },
+            "answer": "B",
+            "explanation": "Iron deficiency leads to anemia."
+          },
+          {
+            "number": 10,
+            "text": "The site of gas exchange in the lungs is the",
+            "choices": {
+              "A": "Bronchus",
+              "B": "Bronchiole",
+              "C": "Alveolus",
+              "D": "Trachea"
+            },
+            "answer": "C",
+            "explanation": "Alveoli provide a large surface area for gas exchange."
+          }
+        ]
+      },
+      "2005": {
+        "year": 2005,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The study of cells is called",
+            "choices": {
+              "A": "Histology",
+              "B": "Cytology",
+              "C": "Morphology",
+              "D": "Anatomy"
+            },
+            "answer": "B",
+            "explanation": "Cytology is the study of cell structure and function."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is not a part of the human digestive system?",
+            "choices": {
+              "A": "Esophagus",
+              "B": "Trachea",
+              "C": "Stomach",
+              "D": "Small intestine"
+            },
+            "answer": "B",
+            "explanation": "The trachea is part of the respiratory system."
+          },
+          {
+            "number": 3,
+            "text": "The blood cells that carry oxygen are",
+            "choices": {
+              "A": "White blood cells",
+              "B": "Red blood cells",
+              "C": "Platelets",
+              "D": "Plasma"
+            },
+            "answer": "B",
+            "explanation": "Red blood cells contain hemoglobin which binds oxygen."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the male gamete is contained in the",
+            "choices": {
+              "A": "Pollen grain",
+              "B": "Ovule",
+              "C": "Stigma",
+              "D": "Petal"
+            },
+            "answer": "A",
+            "explanation": "The pollen grain contains male gametes."
+          },
+          {
+            "number": 5,
+            "text": "The process of losing leaves in plants is called",
+            "choices": {
+              "A": "Deciduous",
+              "B": "Abscission",
+              "C": "Senescence",
+              "D": "Wilting"
+            },
+            "answer": "A",
+            "explanation": "Deciduous plants shed their leaves seasonally."
+          },
+          {
+            "number": 6,
+            "text": "Which organ is affected by the disease pneumonia?",
+            "choices": {
+              "A": "Heart",
+              "B": "Liver",
+              "C": "Lungs",
+              "D": "Kidneys"
+            },
+            "answer": "C",
+            "explanation": "Pneumonia is an infection that inflames the lungs."
+          },
+          {
+            "number": 7,
+            "text": "The type of cell division that produces gametes is",
+            "choices": {
+              "A": "Mitosis",
+              "B": "Meiosis",
+              "C": "Binary fission",
+              "D": "Budding"
+            },
+            "answer": "B",
+            "explanation": "Meiosis produces haploid gametes."
+          },
+          {
+            "number": 8,
+            "text": "Which of the following is a renewable resource?",
+            "choices": {
+              "A": "Coal",
+              "B": "Petroleum",
+              "C": "Solar energy",
+              "D": "Natural gas"
+            },
+            "answer": "C",
+            "explanation": "Solar energy is renewable."
+          },
+          {
+            "number": 9,
+            "text": "The part of the brain that controls breathing is the",
+            "choices": {
+              "A": "Cerebrum",
+              "B": "Cerebellum",
+              "C": "Medulla oblongata",
+              "D": "Hypothalamus"
+            },
+            "answer": "C",
+            "explanation": "The medulla controls automatic functions like breathing."
+          },
+          {
+            "number": 10,
+            "text": "In genetics, the letters representing genes are usually written in",
+            "choices": {
+              "A": "Lowercase",
+              "B": "Uppercase",
+              "C": "Italics",
+              "D": "Bold"
+            },
+            "answer": "B",
+            "explanation": "Dominant alleles are represented by uppercase letters."
+          }
+        ]
+      },
+      "2006": {
+        "year": 2006,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The type of tissue that lines the body cavities is",
+            "choices": {
+              "A": "Connective tissue",
+              "B": "Muscle tissue",
+              "C": "Epithelial tissue",
+              "D": "Nervous tissue"
+            },
+            "answer": "C",
+            "explanation": "Epithelial tissue covers surfaces and lines cavities."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is an example of a drug abuse?",
+            "choices": {
+              "A": "Taking prescribed drugs",
+              "B": "Taking antibiotics",
+              "C": "Smoking tobacco",
+              "D": "Taking vaccines"
+            },
+            "answer": "C",
+            "explanation": "Smoking is a harmful habit and form of drug abuse."
+          },
+          {
+            "number": 3,
+            "text": "The site of aerobic respiration in the cell is the",
+            "choices": {
+              "A": "Cytoplasm",
+              "B": "Mitochondria",
+              "C": "Ribosome",
+              "D": "Nucleus"
+            },
+            "answer": "B",
+            "explanation": "The Krebs cycle and electron transport chain occur in mitochondria."
+          },
+          {
+            "number": 4,
+            "text": "In the human ear, the auditory nerve carries impulses to the",
+            "choices": {
+              "A": "Brain",
+              "B": "Ear bones",
+              "C": "Cochlea",
+              "D": "Tympanum"
+            },
+            "answer": "A",
+            "explanation": "The auditory nerve transmits signals to the brain for interpretation."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is an endocrine gland?",
+            "choices": {
+              "A": "Salivary gland",
+              "B": "Sweat gland",
+              "C": "Thyroid gland",
+              "D": "Liver"
+            },
+            "answer": "C",
+            "explanation": "The thyroid is an endocrine gland that releases hormones into the blood."
+          },
+          {
+            "number": 6,
+            "text": "The process by which plants grow towards water is called",
+            "choices": {
+              "A": "Phototropism",
+              "B": "Hydrotropism",
+              "C": "Geotropism",
+              "D": "Chemotropism"
+            },
+            "answer": "B",
+            "explanation": "Hydrotropism is growth toward water."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is a result of air pollution?",
+            "choices": {
+              "A": "Acid rain",
+              "B": "Global warming",
+              "C": "Smog",
+              "D": "All of the above"
+            },
+            "answer": "D",
+            "explanation": "Air pollution causes acid rain, global warming, and smog."
+          },
+          {
+            "number": 8,
+            "text": "The type of nutrition exhibited by mushrooms is",
+            "choices": {
+              "A": "Autotrophic",
+              "B": "Heterotrophic",
+              "C": "Photosynthetic",
+              "D": "Chemosynthetic"
+            },
+            "answer": "B",
+            "explanation": "Mushrooms are heterotrophic fungi that decompose organic matter."
+          },
+          {
+            "number": 9,
+            "text": "The functional unit of the lung is the",
+            "choices": {
+              "A": "Bronchiole",
+              "B": "Alveolus",
+              "C": "Bronchus",
+              "D": "Trachea"
+            },
+            "answer": "B",
+            "explanation": "Alveoli are tiny air sacs where gas exchange occurs."
+          },
+          {
+            "number": 10,
+            "text": "In the nitrogen cycle, the process that converts ammonia to nitrates is",
+            "choices": {
+              "A": "Nitrogen fixation",
+              "B": "Nitrification",
+              "C": "Denitrification",
+              "D": "Ammonification"
+            },
+            "answer": "B",
+            "explanation": "Nitrifying bacteria convert ammonia to nitrates."
+          }
+        ]
+      },
+      "2007": {
+        "year": 2007,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The smallest unit of classification is the",
+            "choices": {
+              "A": "Kingdom",
+              "B": "Phylum",
+              "C": "Species",
+              "D": "Genus"
+            },
+            "answer": "C",
+            "explanation": "Species is the basic unit of classification."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is a sex-linked disease?",
+            "choices": {
+              "A": "Diabetes",
+              "B": "Color blindness",
+              "C": "Hypertension",
+              "D": "Arthritis"
+            },
+            "answer": "B",
+            "explanation": "Color blindness is an X-linked recessive disorder."
+          },
+          {
+            "number": 3,
+            "text": "The part of the brain responsible for balance is the",
+            "choices": {
+              "A": "Cerebrum",
+              "B": "Cerebellum",
+              "C": "Medulla",
+              "D": "Hypothalamus"
+            },
+            "answer": "B",
+            "explanation": "The cerebellum coordinates movement and balance."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the vascular tissue that transports water is the",
+            "choices": {
+              "A": "Phloem",
+              "B": "Xylem",
+              "C": "Cambium",
+              "D": "Pith"
+            },
+            "answer": "B",
+            "explanation": "Xylem conducts water and minerals."
+          },
+          {
+            "number": 5,
+            "text": "The type of immunity where antibodies are transferred is called",
+            "choices": {
+              "A": "Active immunity",
+              "B": "Passive immunity",
+              "C": "Natural immunity",
+              "D": "Acquired immunity"
+            },
+            "answer": "B",
+            "explanation": "Passive immunity involves receiving antibodies from another source."
+          },
+          {
+            "number": 6,
+            "text": "Which blood group is the universal recipient?",
+            "choices": {
+              "A": "A",
+              "B": "B",
+              "C": "AB",
+              "D": "O"
+            },
+            "answer": "C",
+            "explanation": "AB can receive blood from any type."
+          },
+          {
+            "number": 7,
+            "text": "The process of change from larva to adult is called",
+            "choices": {
+              "A": "Metamorphosis",
+              "B": "Metamorphosis",
+              "C": "Growth",
+              "D": "Differentiation"
+            },
+            "answer": "A",
+            "explanation": "Metamorphosis is the transformation from larval to adult form."
+          },
+          {
+            "number": 8,
+            "text": "In human genetics, if a child has blood group O, the parents must have",
+            "choices": {
+              "A": "A and B alleles only",
+              "B": "O allele only",
+              "C": "At least one O allele",
+              "D": "No A or B alleles"
+            },
+            "answer": "C",
+            "explanation": "To have type O, both parents must contribute an O allele."
+          },
+          {
+            "number": 9,
+            "text": "Which organ is affected by the disease hepatitis?",
+            "choices": {
+              "A": "Heart",
+              "B": "Lungs",
+              "C": "Liver",
+              "D": "Kidneys"
+            },
+            "answer": "C",
+            "explanation": "Hepatitis is inflammation of the liver."
+          },
+          {
+            "number": 10,
+            "text": "The part of the plant that absorbs water is the",
+            "choices": {
+              "A": "Stem",
+              "B": "Leaf",
+              "C": "Root hair",
+              "D": "Flower"
+            },
+            "answer": "C",
+            "explanation": "Root hairs increase surface area for water absorption."
+          }
+        ]
+      },
+      "2008": {
+        "year": 2008,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following organisms is a consumer?",
+            "choices": {
+              "A": "Grass",
+              "B": "Goat",
+              "C": "Mushroom",
+              "D": "Algae"
+            },
+            "answer": "B",
+            "explanation": "Goats are herbivores (primary consumers) that eat producers."
+          },
+          {
+            "number": 2,
+            "text": "The process by which organisms maintain a stable internal environment is called",
+            "choices": {
+              "A": "Homeostasis",
+              "B": "Metabolism",
+              "C": "Growth",
+              "D": "Reproduction"
+            },
+            "answer": "A",
+            "explanation": "Homeostasis is the regulation of internal conditions."
+          },
+          {
+            "number": 3,
+            "text": "Which of the following is a water-borne disease?",
+            "choices": {
+              "A": "Malaria",
+              "B": "Cholera",
+              "C": "Tuberculosis",
+              "D": "Measles"
+            },
+            "answer": "B",
+            "explanation": "Cholera is transmitted through contaminated water."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the cuticle is found on the",
+            "choices": {
+              "A": "Root",
+              "B": "Stem",
+              "C": "Leaf",
+              "D": "Flower"
+            },
+            "answer": "C",
+            "explanation": "The cuticle is a waxy layer on leaf surfaces that prevents water loss."
+          },
+          {
+            "number": 5,
+            "text": "The human sex chromosomes in a female are",
+            "choices": {
+              "A": "XY",
+              "B": "XX",
+              "C": "XO",
+              "D": "YY"
+            },
+            "answer": "B",
+            "explanation": "Females have two X chromosomes."
+          },
+          {
+            "number": 6,
+            "text": "Which organelle is involved in the synthesis of fatty acids?",
+            "choices": {
+              "A": "Ribosome",
+              "B": "Smooth ER",
+              "C": "Golgi body",
+              "D": "Lysosome"
+            },
+            "answer": "B",
+            "explanation": "Smooth ER synthesizes lipids."
+          },
+          {
+            "number": 7,
+            "text": "The reflex that protects the eye is the",
+            "choices": {
+              "A": "Knee jerk",
+              "B": "Blink reflex",
+              "C": "Salivary reflex",
+              "D": "Sneezing"
+            },
+            "answer": "B",
+            "explanation": "The blink reflex protects the eye from foreign objects."
+          },
+          {
+            "number": 8,
+            "text": "Which of the following is a characteristic of acquired immunity?",
+            "choices": {
+              "A": "Present at birth",
+              "B": "Non-specific",
+              "C": "Developed after exposure",
+              "D": "Inherited"
+            },
+            "answer": "C",
+            "explanation": "Acquired immunity develops after exposure to pathogens."
+          },
+          {
+            "number": 9,
+            "text": "The type of fruit that develops from the ovary is called",
+            "choices": {
+              "A": "False fruit",
+              "B": "True fruit",
+              "C": "Aggregate fruit",
+              "D": "Multiple fruit"
+            },
+            "answer": "B",
+            "explanation": "True fruits develop from the ovary."
+          },
+          {
+            "number": 10,
+            "text": "In the carbon cycle, carbon dioxide is returned to the atmosphere through",
+            "choices": {
+              "A": "Photosynthesis",
+              "B": "Respiration",
+              "C": "Decomposition",
+              "D": "Both B and C"
+            },
+            "answer": "D",
+            "explanation": "Respiration and decomposition release CO2."
+          }
+        ]
+      },
+      "2009": {
+        "year": 2009,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is a characteristic of monera?",
+            "choices": {
+              "A": "Membrane-bound nucleus",
+              "B": "Prokaryotic cells",
+              "C": "Multicellular",
+              "D": "Sexual reproduction"
+            },
+            "answer": "B",
+            "explanation": "Monera are prokaryotes lacking a membrane-bound nucleus."
+          },
+          {
+            "number": 2,
+            "text": "The organ that pumps blood throughout the body is the",
+            "choices": {
+              "A": "Brain",
+              "B": "Lungs",
+              "C": "Heart",
+              "D": "Liver"
+            },
+            "answer": "C",
+            "explanation": "The heart is the pump of the circulatory system."
+          },
+          {
+            "number": 3,
+            "text": "Which of the following is a function of the cytoskeleton?",
+            "choices": {
+              "A": "Energy production",
+              "B": "Cell support and movement",
+              "C": "Protein synthesis",
+              "D": "DNA replication"
+            },
+            "answer": "B",
+            "explanation": "The cytoskeleton provides structural support and enables movement."
+          },
+          {
+            "number": 4,
+            "text": "In the human heart, the left ventricle has a thicker wall because it",
+            "choices": {
+              "A": "Receives blood from the lungs",
+              "B": "Pumps blood to the body",
+              "C": "Receives blood from the body",
+              "D": "Pumps blood to the lungs"
+            },
+            "answer": "B",
+            "explanation": "The left ventricle pumps blood to the entire body, requiring more force."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a non-specific defense mechanism?",
+            "choices": {
+              "A": "Antibody production",
+              "B": "White blood cell engulfment",
+              "C": "Killer T cells",
+              "D": "Memory cells"
+            },
+            "answer": "B",
+            "explanation": "Phagocytosis is a non-specific defense."
+          },
+          {
+            "number": 6,
+            "text": "The site of the Calvin cycle in photosynthesis is the",
+            "choices": {
+              "A": "Grana",
+              "B": "Stroma",
+              "C": "Thylakoid membrane",
+              "D": "Intermembrane space"
+            },
+            "answer": "B",
+            "explanation": "The Calvin cycle occurs in the stroma."
+          },
+          {
+            "number": 7,
+            "text": "The number of chromosomes in human somatic cells is",
+            "choices": {
+              "A": "23",
+              "B": "46",
+              "C": "44",
+              "D": "48"
+            },
+            "answer": "B",
+            "explanation": "Humans have 46 chromosomes (23 pairs) in diploid cells."
+          },
+          {
+            "number": 8,
+            "text": "Which of the following is a connective tissue?",
+            "choices": {
+              "A": "Muscle",
+              "B": "Nerve",
+              "C": "Blood",
+              "D": "Epithelium"
+            },
+            "answer": "C",
+            "explanation": "Blood is a connective tissue."
+          },
+          {
+            "number": 9,
+            "text": "The organ that stores urine before excretion is the",
+            "choices": {
+              "A": "Kidney",
+              "B": "Ureter",
+              "C": "Bladder",
+              "D": "Urethra"
+            },
+            "answer": "C",
+            "explanation": "The bladder stores urine."
+          },
+          {
+            "number": 10,
+            "text": "The process by which green plants make food is",
+            "choices": {
+              "A": "Respiration",
+              "B": "Photosynthesis",
+              "C": "Transpiration",
+              "D": "Guttation"
+            },
+            "answer": "B",
+            "explanation": "Photosynthesis converts light energy to chemical energy."
+          }
+        ]
+      },
+      "2010": {
+        "year": 2010,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is the most abundant gas in the atmosphere?",
+            "choices": {
+              "A": "Oxygen",
+              "B": "Carbon dioxide",
+              "C": "Nitrogen",
+              "D": "Hydrogen"
+            },
+            "answer": "C",
+            "explanation": "Nitrogen makes up about 78% of the atmosphere."
+          },
+          {
+            "number": 2,
+            "text": "The site of protein synthesis in the cell is the",
+            "choices": {
+              "A": "Mitochondria",
+              "B": "Ribosome",
+              "C": "Nucleus",
+              "D": "Golgi apparatus"
+            },
+            "answer": "B",
+            "explanation": "Ribosomes synthesize proteins."
+          },
+          {
+            "number": 3,
+            "text": "The part of the human ear that amplifies sound is the",
+            "choices": {
+              "A": "Pinna",
+              "B": "Ear canal",
+              "C": "Bones of the middle ear",
+              "D": "Cochlea"
+            },
+            "answer": "C",
+            "explanation": "The ossicles (malleus, incus, stapes) amplify and transmit sound."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the transport of water is mainly by",
+            "choices": {
+              "A": "Osmosis",
+              "B": "Diffusion",
+              "C": "Transpiration pull",
+              "D": "Active transport"
+            },
+            "answer": "C",
+            "explanation": "Transpiration pull drives water movement up xylem."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a deficiency disease of protein?",
+            "choices": {
+              "A": "Kwashiorkor",
+              "B": "Scurvy",
+              "C": "Rickets",
+              "D": "Beriberi"
+            },
+            "answer": "A",
+            "explanation": "Kwashiorkor is caused by severe protein deficiency."
+          },
+          {
+            "number": 6,
+            "text": "The type of blood vessel that has valves is the",
+            "choices": {
+              "A": "Artery",
+              "B": "Vein",
+              "C": "Capillary",
+              "D": "Arteriole"
+            },
+            "answer": "B",
+            "explanation": "Veins have valves to prevent backflow of blood."
+          },
+          {
+            "number": 7,
+            "text": "Which organ produces urea?",
+            "choices": {
+              "A": "Kidney",
+              "B": "Liver",
+              "C": "Lungs",
+              "D": "Skin"
+            },
+            "answer": "B",
+            "explanation": "The liver converts ammonia to urea."
+          },
+          {
+            "number": 8,
+            "text": "The process by which plants respond to gravity is called",
+            "choices": {
+              "A": "Phototropism",
+              "B": "Hydrotropism",
+              "C": "Geotropism",
+              "D": "Thigmotropism"
+            },
+            "answer": "C",
+            "explanation": "Geotropism is growth in response to gravity."
+          },
+          {
+            "number": 9,
+            "text": "In human genetics, a trait that appears in offspring is called",
+            "choices": {
+              "A": "Recessive",
+              "B": "Dominant",
+              "C": "Codominant",
+              "D": "Polygenic"
+            },
+            "answer": "B",
+            "explanation": "A dominant trait expresses itself when present."
+          },
+          {
+            "number": 10,
+            "text": "The part of the flower that produces female gametes is the",
+            "choices": {
+              "A": "Anther",
+              "B": "Ovule",
+              "C": "Petal",
+              "D": "Sepal"
+            },
+            "answer": "B",
+            "explanation": "The ovule contains the egg cell (female gamete)."
+          }
+        ]
+      },
+      "2011": {
+        "year": 2011,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The gas produced during anaerobic respiration in plants is",
+            "choices": {
+              "A": "Oxygen",
+              "B": "Nitrogen",
+              "C": "Carbon dioxide",
+              "D": "Hydrogen"
+            },
+            "answer": "C",
+            "explanation": "Anaerobic respiration produces CO2 as a byproduct."
+          },
+          {
+            "number": 2,
+            "text": "The type of reproduction that involves only one parent is",
+            "choices": {
+              "A": "Sexual reproduction",
+              "B": "Asexual reproduction",
+              "C": "Meiosis",
+              "D": "Fertilization"
+            },
+            "answer": "B",
+            "explanation": "Asexual reproduction involves one parent and produces genetically identical offspring."
+          },
+          {
+            "number": 3,
+            "text": "Which part of the brain controls heart rate?",
+            "choices": {
+              "A": "Cerebrum",
+              "B": "Cerebellum",
+              "C": "Medulla oblongata",
+              "D": "Hypothalamus"
+            },
+            "answer": "C",
+            "explanation": "The medulla controls vital functions including heart rate."
+          },
+          {
+            "number": 4,
+            "text": "The function of the sebaceous gland is to",
+            "choices": {
+              "A": "Produce sweat",
+              "B": "Produce sebum",
+              "C": "Produce hair",
+              "D": "Regulate temperature"
+            },
+            "answer": "B",
+            "explanation": "Sebaceous glands produce sebum to lubricate skin and hair."
+          },
+          {
+            "number": 5,
+            "text": "In plants, the cells that guard stomata are called",
+            "choices": {
+              "A": "Guard cells",
+              "B": "Epidermal cells",
+              "C": "Mesophyll cells",
+              "D": "Vascular cells"
+            },
+            "answer": "A",
+            "explanation": "Guard cells regulate stomatal opening."
+          },
+          {
+            "number": 6,
+            "text": "Which of the following is a protozoan disease?",
+            "choices": {
+              "A": "Malaria",
+              "B": "Tuberculosis",
+              "C": "Chickenpox",
+              "D": "Measles"
+            },
+            "answer": "A",
+            "explanation": "Malaria is caused by Plasmodium, a protozoan."
+          },
+          {
+            "number": 7,
+            "text": "The part of the neuron that receives impulses is the",
+            "choices": {
+              "A": "Axon",
+              "B": "Dendrite",
+              "C": "Cell body",
+              "D": "Myelin sheath"
+            },
+            "answer": "B",
+            "explanation": "Dendrites receive signals from other neurons."
+          },
+          {
+            "number": 8,
+            "text": "Which vitamin is produced by intestinal bacteria?",
+            "choices": {
+              "A": "Vitamin A",
+              "B": "Vitamin B",
+              "C": "Vitamin C",
+              "D": "Vitamin K"
+            },
+            "answer": "D",
+            "explanation": "Vitamin K is synthesized by gut bacteria."
+          },
+          {
+            "number": 9,
+            "text": "The hormone that causes the uterus to contract during labor is",
+            "choices": {
+              "A": "Estrogen",
+              "B": "Progesterone",
+              "C": "Oxytocin",
+              "D": "Prolactin"
+            },
+            "answer": "C",
+            "explanation": "Oxytocin stimulates uterine contractions during childbirth."
+          },
+          {
+            "number": 10,
+            "text": "In a food web, the organisms that break down dead matter are",
+            "choices": {
+              "A": "Producers",
+              "B": "Primary consumers",
+              "C": "Decomposers",
+              "D": "Carnivores"
+            },
+            "answer": "C",
+            "explanation": "Decomposers recycle nutrients from dead organic matter."
+          }
+        ]
+      },
+      "2012": {
+        "year": 2012,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The movement of water through the soil into the roots is called",
+            "choices": {
+              "A": "Transpiration",
+              "B": "Osmosis",
+              "C": "Imbibition",
+              "D": "Capillary action"
+            },
+            "answer": "C",
+            "explanation": "Imbibition is the uptake of water by dry seeds or soil particles."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following organisms is a producer?",
+            "choices": {
+              "A": "Goat",
+              "B": "Lion",
+              "C": "Grass",
+              "D": "Mushroom"
+            },
+            "answer": "C",
+            "explanation": "Grass is a producer (autotroph) that makes its own food."
+          },
+          {
+            "number": 3,
+            "text": "The part of the brain that controls voluntary actions is the",
+            "choices": {
+              "A": "Cerebellum",
+              "B": "Medulla",
+              "C": "Cerebrum",
+              "D": "Hypothalamus"
+            },
+            "answer": "C",
+            "explanation": "The cerebrum controls conscious thought and voluntary movements."
+          },
+          {
+            "number": 4,
+            "text": "Which of the following is a function of the large intestine?",
+            "choices": {
+              "A": "Protein digestion",
+              "B": "Fat digestion",
+              "C": "Water absorption",
+              "D": "Enzyme secretion"
+            },
+            "answer": "C",
+            "explanation": "The large intestine absorbs water and electrolytes."
+          },
+          {
+            "number": 5,
+            "text": "The type of joint in the skull is called",
+            "choices": {
+              "A": "Hinge joint",
+              "B": "Ball and socket",
+              "C": "Sutures",
+              "D": "Pivot joint"
+            },
+            "answer": "C",
+            "explanation": "Skull bones are joined by immovable sutures."
+          },
+          {
+            "number": 6,
+            "text": "In the nitrogen cycle, bacteria that convert nitrates to nitrogen gas are",
+            "choices": {
+              "A": "Nitrogen-fixing bacteria",
+              "B": "Nitrifying bacteria",
+              "C": "Denitrifying bacteria",
+              "D": "Ammonifying bacteria"
+            },
+            "answer": "C",
+            "explanation": "Denitrifying bacteria convert nitrates to atmospheric nitrogen."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is a symptom of diabetes mellitus?",
+            "choices": {
+              "A": "Low blood sugar",
+              "B": "Excessive urination",
+              "C": "Weight gain",
+              "D": "Low blood pressure"
+            },
+            "answer": "B",
+            "explanation": "Polyuria (excessive urination) is a symptom of diabetes."
+          },
+          {
+            "number": 8,
+            "text": "The eye defect where distant objects appear blurry is",
+            "choices": {
+              "A": "Hypermetropia",
+              "B": "Myopia",
+              "C": "Astigmatism",
+              "D": "Presbyopia"
+            },
+            "answer": "B",
+            "explanation": "Myopia (nearsightedness) causes distant objects to be blurry."
+          },
+          {
+            "number": 9,
+            "text": "Which organelle is responsible for lipid synthesis?",
+            "choices": {
+              "A": "Ribosome",
+              "B": "Smooth ER",
+              "C": "Golgi apparatus",
+              "D": "Lysosome"
+            },
+            "answer": "B",
+            "explanation": "Smooth endoplasmic reticulum synthesizes lipids."
+          },
+          {
+            "number": 10,
+            "text": "The process of sperms being produced is called",
+            "choices": {
+              "A": "Oogenesis",
+              "B": "Spermatogenesis",
+              "C": "Menstruation",
+              "D": "Ovulation"
+            },
+            "answer": "B",
+            "explanation": "Spermatogenesis is the production of sperm cells."
+          }
+        ]
+      },
+      "2013": {
+        "year": 2013,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is a type of permanent tissue in plants?",
+            "choices": {
+              "A": "Meristem",
+              "B": "Parenchyma",
+              "C": "Sclerenchyma",
+              "D": "Cambium"
+            },
+            "answer": "C",
+            "explanation": "Sclerenchyma is a supporting permanent tissue with thickened walls."
+          },
+          {
+            "number": 2,
+            "text": "The organ that removes carbon dioxide from the blood is the",
+            "choices": {
+              "A": "Kidney",
+              "B": "Liver",
+              "C": "Lungs",
+              "D": "Skin"
+            },
+            "answer": "C",
+            "explanation": "Lungs remove CO2 through exhalation."
+          },
+          {
+            "number": 3,
+            "text": "In genetics, the alternative forms of a gene are called",
+            "choices": {
+              "A": "Chromosomes",
+              "B": "Alleles",
+              "C": "Loci",
+              "D": "Genotypes"
+            },
+            "answer": "B",
+            "explanation": "Alleles are different versions of a gene."
+          },
+          {
+            "number": 4,
+            "text": "Which structure prevents food from entering the trachea during swallowing?",
+            "choices": {
+              "A": "Epiglottis",
+              "B": "Larynx",
+              "C": "Pharynx",
+              "D": "Uvula"
+            },
+            "answer": "A",
+            "explanation": "The epiglottis covers the trachea during swallowing."
+          },
+          {
+            "number": 5,
+            "text": "The type of tooth used for grinding food is the",
+            "choices": {
+              "A": "Incisor",
+              "B": "Canine",
+              "C": "Premolar",
+              "D": "Molar"
+            },
+            "answer": "D",
+            "explanation": "Molars have broad surfaces for grinding."
+          },
+          {
+            "number": 6,
+            "text": "Which of the following is a greenhouse gas?",
+            "choices": {
+              "A": "Oxygen",
+              "B": "Nitrogen",
+              "C": "Carbon dioxide",
+              "D": "Hydrogen"
+            },
+            "answer": "C",
+            "explanation": "CO2 traps heat in the atmosphere."
+          },
+          {
+            "number": 7,
+            "text": "The functional unit of the kidney is the",
+            "choices": {
+              "A": "Nephron",
+              "B": "Alveolus",
+              "C": "Neuron",
+              "D": "villi"
+            },
+            "answer": "A",
+            "explanation": "Nephrons filter blood to produce urine."
+          },
+          {
+            "number": 8,
+            "text": "In plants, wilting occurs when",
+            "choices": {
+              "A": "Turgor pressure is high",
+              "B": "Water loss exceeds uptake",
+              "C": "Stomata are open",
+              "D": "Photosynthesis is high"
+            },
+            "answer": "B",
+            "explanation": "Wilting results from loss of turgor pressure due to water deficit."
+          },
+          {
+            "number": 9,
+            "text": "Which blood cell is involved in immune response?",
+            "choices": {
+              "A": "Red blood cell",
+              "B": "White blood cell",
+              "C": "Platelet",
+              "D": "Plasma"
+            },
+            "answer": "B",
+            "explanation": "White blood cells fight infection."
+          },
+          {
+            "number": 10,
+            "text": "The part of the flower that develops into the fruit is the",
+            "choices": {
+              "A": "Ovary",
+              "B": "Ovule",
+              "C": "Stigma",
+              "D": "Anther"
+            },
+            "answer": "A",
+            "explanation": "The ovary develops into the fruit."
+          }
+        ]
+      },
+      "2014": {
+        "year": 2014,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The structure that connects the mother to the fetus is the",
+            "choices": {
+              "A": "Umbilical cord",
+              "B": "Fallopian tube",
+              "C": "Cervix",
+              "D": "Vagina"
+            },
+            "answer": "A",
+            "explanation": "The umbilical cord connects the fetus to the placenta."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is a function of the skin?",
+            "choices": {
+              "A": "Vitamin D synthesis",
+              "B": "Blood cell production",
+              "C": "Hormone production",
+              "D": "Urea synthesis"
+            },
+            "answer": "A",
+            "explanation": "Skin produces vitamin D when exposed to sunlight."
+          },
+          {
+            "number": 3,
+            "text": "In plants, the transport of food materials is through the",
+            "choices": {
+              "A": "Xylem",
+              "B": "Phloem",
+              "C": "Cambium",
+              "D": "Cork cambium"
+            },
+            "answer": "B",
+            "explanation": "Phloem transports dissolved sugars from leaves to other parts."
+          },
+          {
+            "number": 4,
+            "text": "The part of the brain that controls body temperature is the",
+            "choices": {
+              "A": "Cerebrum",
+              "B": "Cerebellum",
+              "C": "Medulla",
+              "D": "Hypothalamus"
+            },
+            "answer": "D",
+            "explanation": "The hypothalamus regulates body temperature."
+          },
+          {
+            "number": 5,
+            "text": "Which organelle is involved in cellular waste disposal?",
+            "choices": {
+              "A": "Ribosome",
+              "B": "Lysosome",
+              "C": "Vacuole",
+              "D": "Mitochondria"
+            },
+            "answer": "B",
+            "explanation": "Lysosomes contain enzymes that break down waste materials."
+          },
+          {
+            "number": 6,
+            "text": "The deficiency of iodine causes",
+            "choices": {
+              "A": "Rickets",
+              "B": "Goiter",
+              "C": "Scurvy",
+              "D": "Beriberi"
+            },
+            "answer": "B",
+            "explanation": "Iodine deficiency leads to goiter (thyroid enlargement)."
+          },
+          {
+            "number": 7,
+            "text": "Which blood vessel carries blood away from the heart?",
+            "choices": {
+              "A": "Vein",
+              "B": "Artery",
+              "C": "Capillary",
+              "D": "Venule"
+            },
+            "answer": "B",
+            "explanation": "Arteries carry blood away from the heart."
+          },
+          {
+            "number": 8,
+            "text": "In the human eye, the blind spot is where the",
+            "choices": {
+              "A": "Cornea meets the iris",
+              "B": "Optic nerve exits the retina",
+              "C": "Lens focuses light",
+              "D": "Pupil is located"
+            },
+            "answer": "B",
+            "explanation": "The optic nerve exits at the optic disc, which lacks photoreceptors."
+          },
+          {
+            "number": 9,
+            "text": "The process by which plants lose their leaves is called",
+            "choices": {
+              "A": "Abscission",
+              "B": "Deciduous",
+              "C": "Senescence",
+              "D": "Wilting"
+            },
+            "answer": "A",
+            "explanation": "Abscission is the shedding of leaves."
+          },
+          {
+            "number": 10,
+            "text": "Which of the following is a sexually transmitted infection?",
+            "choices": {
+              "A": "Malaria",
+              "B": "Tuberculosis",
+              "C": "Syphilis",
+              "D": "Cholera"
+            },
+            "answer": "C",
+            "explanation": "Syphilis is transmitted through sexual contact."
+          }
+        ]
+      },
+      "2015": {
+        "year": 2015,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is not a function of the cell membrane?",
+            "choices": {
+              "A": "Selective permeability",
+              "B": "Protection",
+              "C": "Synthesis of proteins",
+              "D": "Reception of hormones"
+            },
+            "answer": "C",
+            "explanation": "Protein synthesis occurs on ribosomes, not the cell membrane."
+          },
+          {
+            "number": 2,
+            "text": "The process of conversion of glucose to ethanol and carbon dioxide is called",
+            "choices": {
+              "A": "Aerobic respiration",
+              "B": "Anaerobic respiration",
+              "C": "Photosynthesis",
+              "D": "Fermentation"
+            },
+            "answer": "D",
+            "explanation": "Fermentation in yeast produces ethanol and CO2."
+          },
+          {
+            "number": 3,
+            "text": "Which organ produces bile?",
+            "choices": {
+              "A": "Gallbladder",
+              "B": "Pancreas",
+              "C": "Liver",
+              "D": "Stomach"
+            },
+            "answer": "C",
+            "explanation": "The liver produces bile, which is stored in the gallbladder."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the male gametes are produced in the",
+            "choices": {
+              "A": "Ovary",
+              "B": "Anther",
+              "C": "Stigma",
+              "D": "Petal"
+            },
+            "answer": "B",
+            "explanation": "The anther produces pollen containing male gametes."
+          },
+          {
+            "number": 5,
+            "text": "Which vitamin is stored in the liver?",
+            "choices": {
+              "A": "Vitamin A",
+              "B": "Vitamin C",
+              "C": "Vitamin B",
+              "D": "Vitamin K"
+            },
+            "answer": "A",
+            "explanation": "Vitamin A is stored in the liver."
+          },
+          {
+            "number": 6,
+            "text": "The smallest bone in the human body is the",
+            "choices": {
+              "A": "Femur",
+              "B": "Stapes",
+              "C": "Humerus",
+              "D": "Tibia"
+            },
+            "answer": "B",
+            "explanation": "The stapes in the middle ear is the smallest bone."
+          },
+          {
+            "number": 7,
+            "text": "Which organelle is responsible for photosynthesis?",
+            "choices": {
+              "A": "Mitochondria",
+              "B": "Chloroplast",
+              "C": "Ribosome",
+              "D": "Golgi apparatus"
+            },
+            "answer": "B",
+            "explanation": "Chloroplasts contain chlorophyll for photosynthesis."
+          },
+          {
+            "number": 8,
+            "text": "The type of reproduction that produces genetically identical offspring is",
+            "choices": {
+              "A": "Sexual reproduction",
+              "B": "Asexual reproduction",
+              "C": "Meiosis",
+              "D": "Gamete formation"
+            },
+            "answer": "B",
+            "explanation": "Asexual reproduction produces clones."
+          },
+          {
+            "number": 9,
+            "text": "In humans, the period of pregnancy is approximately",
+            "choices": {
+              "A": "36 weeks",
+              "B": "40 weeks",
+              "C": "30 weeks",
+              "D": "42 weeks"
+            },
+            "answer": "B",
+            "explanation": "Normal human gestation is about 40 weeks."
+          },
+          {
+            "number": 10,
+            "text": "Which of the following is a macronutrient required by plants?",
+            "choices": {
+              "A": "Iron",
+              "B": "Zinc",
+              "C": "Nitrogen",
+              "D": "Copper"
+            },
+            "answer": "C",
+            "explanation": "Nitrogen is needed in large quantities for plant growth."
+          }
+        ]
+      },
+      "2016": {
+        "year": 2016,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The process of intake of solid particles by cells is called",
+            "choices": {
+              "A": "Phagocytosis",
+              "B": "Pinocytosis",
+              "C": "Osmosis",
+              "D": "Diffusion"
+            },
+            "answer": "A",
+            "explanation": "Phagocytosis is the engulfing of large particles by cells."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is a characteristic of Kingdom Plantae?",
+            "choices": {
+              "A": "Heterotrophic nutrition",
+              "B": "Cell wall made of chitin",
+              "C": "Autotrophic nutrition",
+              "D": "Motile"
+            },
+            "answer": "C",
+            "explanation": "Plants are autotrophic, producing their own food through photosynthesis."
+          },
+          {
+            "number": 3,
+            "text": "The hormone that prepares the body for emergency situations is",
+            "choices": {
+              "A": "Insulin",
+              "B": "Adrenaline",
+              "C": "Thyroxine",
+              "D": "Cortisol"
+            },
+            "answer": "B",
+            "explanation": "Adrenaline (epinephrine) triggers the fight-or-flight response."
+          },
+          {
+            "number": 4,
+            "text": "In the human digestive system, protein digestion begins in the",
+            "choices": {
+              "A": "Mouth",
+              "B": "Stomach",
+              "C": "Small intestine",
+              "D": "Large intestine"
+            },
+            "answer": "B",
+            "explanation": "Pepsin in the stomach begins breaking down proteins."
+          },
+          {
+            "number": 5,
+            "text": "Which structure in the cell contains genetic material?",
+            "choices": {
+              "A": "Cytoplasm",
+              "B": "Nucleus",
+              "C": "Ribosome",
+              "D": "Mitochondria"
+            },
+            "answer": "B",
+            "explanation": "The nucleus contains DNA, the genetic material."
+          },
+          {
+            "number": 6,
+            "text": "The part of the flower that produces pollen grains is the",
+            "choices": {
+              "A": "Ovary",
+              "B": "Stigma",
+              "C": "Anther",
+              "D": "Style"
+            },
+            "answer": "C",
+            "explanation": "The anther produces microspores that develop into pollen grains."
+          },
+          {
+            "number": 7,
+            "text": "Which blood cells are involved in blood clotting?",
+            "choices": {
+              "A": "Red blood cells",
+              "B": "White blood cells",
+              "C": "Platelets",
+              "D": "Plasma"
+            },
+            "answer": "C",
+            "explanation": "Platelets are essential for blood clot formation."
+          },
+          {
+            "number": 8,
+            "text": "The movement of water across a semi-permeable membrane is called",
+            "choices": {
+              "A": "Diffusion",
+              "B": "Osmosis",
+              "C": "Active transport",
+              "D": "Facilitated diffusion"
+            },
+            "answer": "B",
+            "explanation": "Osmosis is the movement of water from low to high solute concentration."
+          },
+          {
+            "number": 9,
+            "text": "Which organ is the main organ of the excretory system?",
+            "choices": {
+              "A": "Liver",
+              "B": "Kidney",
+              "C": "Lungs",
+              "D": "Skin"
+            },
+            "answer": "B",
+            "explanation": "The kidneys filter blood and produce urine."
+          },
+          {
+            "number": 10,
+            "text": "The ability of the body to resist infection is called",
+            "choices": {
+              "A": "Immunity",
+              "B": "Vaccination",
+              "C": "Antibiosis",
+              "D": "Sensitivity"
+            },
+            "answer": "A",
+            "explanation": "Immunity is the body's ability to fight pathogens."
+          }
+        ]
+      },
+      "2017": {
+        "year": 2017,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is not a component of the human circulatory system?",
+            "choices": {
+              "A": "Heart",
+              "B": "Lungs",
+              "C": "Blood vessels",
+              "D": "Blood"
+            },
+            "answer": "B",
+            "explanation": "The lungs are part of the respiratory system, not the circulatory system."
+          },
+          {
+            "number": 2,
+            "text": "The cell theory states that all living things are composed of",
+            "choices": {
+              "A": "Tissues",
+              "B": "Organs",
+              "C": "Cells",
+              "D": "Organ systems"
+            },
+            "answer": "C",
+            "explanation": "Cell theory states that all organisms are made of cells."
+          },
+          {
+            "number": 3,
+            "text": "Which gas is absorbed by plants from the atmosphere?",
+            "choices": {
+              "A": "Oxygen",
+              "B": "Nitrogen",
+              "C": "Carbon dioxide",
+              "D": "Hydrogen"
+            },
+            "answer": "C",
+            "explanation": "Plants absorb CO2 for use in photosynthesis."
+          },
+          {
+            "number": 4,
+            "text": "The male hormone responsible for secondary sexual characteristics is",
+            "choices": {
+              "A": "Estrogen",
+              "B": "Progesterone",
+              "C": "Testosterone",
+              "D": "Insulin"
+            },
+            "answer": "C",
+            "explanation": "Testosterone is the male sex hormone that promotes male secondary characteristics."
+          },
+          {
+            "number": 5,
+            "text": "Which organelle is found in both plant and animal cells?",
+            "choices": {
+              "A": "Cell wall",
+              "B": "Chloroplast",
+              "C": "Mitochondria",
+              "D": "Large vacuole"
+            },
+            "answer": "C",
+            "explanation": "Mitochondria are present in both plant and animal cells."
+          },
+          {
+            "number": 6,
+            "text": "The process by which plants respond to light is called",
+            "choices": {
+              "A": "Hydrotropism",
+              "B": "Geotropism",
+              "C": "Phototropism",
+              "D": "Chemotropism"
+            },
+            "answer": "C",
+            "explanation": "Phototropism is the growth response of plants toward light."
+          },
+          {
+            "number": 7,
+            "text": "In the human heart, the right ventricle pumps blood to the",
+            "choices": {
+              "A": "Lungs",
+              "B": "Body",
+              "C": "Liver",
+              "D": "Kidneys"
+            },
+            "answer": "A",
+            "explanation": "The right ventricle pumps deoxygenated blood to the lungs."
+          },
+          {
+            "number": 8,
+            "text": "Which of the following is a viral disease?",
+            "choices": {
+              "A": "Cholera",
+              "B": "Tuberculosis",
+              "C": "Polio",
+              "D": "Typhoid"
+            },
+            "answer": "C",
+            "explanation": "Polio is caused by poliovirus."
+          },
+          {
+            "number": 9,
+            "text": "The part of the ear responsible for balance is the",
+            "choices": {
+              "A": "Cochlea",
+              "B": "Semicircular canals",
+              "C": "Eustachian tube",
+              "D": "Auditory nerve"
+            },
+            "answer": "B",
+            "explanation": "The semicircular canals detect head movement and help maintain balance."
+          },
+          {
+            "number": 10,
+            "text": "Which of the following is a non-communicable disease?",
+            "choices": {
+              "A": "Malaria",
+              "B": "Tuberculosis",
+              "C": "Diabetes",
+              "D": "Measles"
+            },
+            "answer": "C",
+            "explanation": "Diabetes is not transmitted from person to person."
+          }
+        ]
+      },
+      "2018": {
+        "year": 2018,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The movement of molecules from a region of high concentration to low concentration is called",
+            "choices": {
+              "A": "Osmosis",
+              "B": "Diffusion",
+              "C": "Active transport",
+              "D": "Pinocytosis"
+            },
+            "answer": "B",
+            "explanation": "Diffusion is the passive movement of molecules from high to low concentration."
+          },
+          {
+            "number": 2,
+            "text": "Which organelle is the site of protein packaging?",
+            "choices": {
+              "A": "Ribosome",
+              "B": "Endoplasmic reticulum",
+              "C": "Golgi apparatus",
+              "D": "Nucleolus"
+            },
+            "answer": "C",
+            "explanation": "The Golgi apparatus modifies, packages, and sorts proteins for secretion."
+          },
+          {
+            "number": 3,
+            "text": "The type of nutrition in which organisms obtain food from other living organisms is",
+            "choices": {
+              "A": "Autotrophy",
+              "B": "Heterotrophy",
+              "C": "Chemotrophy",
+              "D": "Phototrophy"
+            },
+            "answer": "B",
+            "explanation": "Heterotrophs obtain food by consuming other organisms."
+          },
+          {
+            "number": 4,
+            "text": "Which of the following is a function of the skeleton?",
+            "choices": {
+              "A": "Production of hormones",
+              "B": "Production of blood cells",
+              "C": "Regulation of body temperature",
+              "D": "Production of enzymes"
+            },
+            "answer": "B",
+            "explanation": "Bone marrow produces red and white blood cells."
+          },
+          {
+            "number": 5,
+            "text": "The eye lens focuses light on the",
+            "choices": {
+              "A": "Cornea",
+              "B": "Retina",
+              "C": "Iris",
+              "D": "Pupil"
+            },
+            "answer": "B",
+            "explanation": "The lens focuses light rays onto the retina where photoreceptors detect light."
+          },
+          {
+            "number": 6,
+            "text": "In plants, water is transported through the",
+            "choices": {
+              "A": "Phloem",
+              "B": "Xylem",
+              "C": "Cambium",
+              "D": "Cortex"
+            },
+            "answer": "B",
+            "explanation": "Xylem transports water and minerals from roots to leaves."
+          },
+          {
+            "number": 7,
+            "text": "Which vitamin is needed for blood clotting?",
+            "choices": {
+              "A": "Vitamin A",
+              "B": "Vitamin B",
+              "C": "Vitamin C",
+              "D": "Vitamin K"
+            },
+            "answer": "D",
+            "explanation": "Vitamin K is essential for the synthesis of clotting factors."
+          },
+          {
+            "number": 8,
+            "text": "The genetic material in cells is",
+            "choices": {
+              "A": "RNA",
+              "B": "DNA",
+              "C": "ATP",
+              "D": "Protein"
+            },
+            "answer": "B",
+            "explanation": "DNA carries genetic information that controls cell activities."
+          },
+          {
+            "number": 9,
+            "text": "Which part of the brain is responsible for memory?",
+            "choices": {
+              "A": "Cerebrum",
+              "B": "Cerebellum",
+              "C": "Medulla",
+              "D": "Hypothalamus"
+            },
+            "answer": "A",
+            "explanation": "The cerebrum, particularly the hippocampus, is involved in memory formation."
+          },
+          {
+            "number": 10,
+            "text": "The process by which plants lose water vapor is called",
+            "choices": {
+              "A": "Evaporation",
+              "B": "Transpiration",
+              "C": "Condensation",
+              "D": "Precipitation"
+            },
+            "answer": "B",
+            "explanation": "Transpiration is the loss of water vapor from plant surfaces, mainly through stomata."
+          }
+        ]
+      },
+      "2019": {
+        "year": 2019,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is not a function of the liver?",
+            "choices": {
+              "A": "Production of bile",
+              "B": "Storage of glycogen",
+              "C": "Production of insulin",
+              "D": "Detoxification"
+            },
+            "answer": "C",
+            "explanation": "Insulin is produced by the pancreas, not the liver."
+          },
+          {
+            "number": 2,
+            "text": "The fluid-filled space in a plant cell is the",
+            "choices": {
+              "A": "Nucleus",
+              "B": "Cytoplasm",
+              "C": "Vacuole",
+              "D": "Chloroplast"
+            },
+            "answer": "C",
+            "explanation": "The central vacuole stores water, nutrients, and waste products in plant cells."
+          },
+          {
+            "number": 3,
+            "text": "Which blood group is the universal donor?",
+            "choices": {
+              "A": "A",
+              "B": "B",
+              "C": "AB",
+              "D": "O"
+            },
+            "answer": "D",
+            "explanation": "Type O negative can be given to anyone because it lacks A, B, and Rh antigens."
+          },
+          {
+            "number": 4,
+            "text": "The primary function of the placenta is to",
+            "choices": {
+              "A": "Produce hormones",
+              "B": "Protect the fetus",
+              "C": "Exchange materials between mother and fetus",
+              "D": "Store nutrients"
+            },
+            "answer": "C",
+            "explanation": "The placenta allows exchange of oxygen, nutrients, and waste between maternal and fetal blood."
+          },
+          {
+            "number": 5,
+            "text": "In which organ does most digestion occur?",
+            "choices": {
+              "A": "Stomach",
+              "B": "Mouth",
+              "C": "Small intestine",
+              "D": "Large intestine"
+            },
+            "answer": "C",
+            "explanation": "The small intestine is where most chemical digestion and nutrient absorption occurs."
+          },
+          {
+            "number": 6,
+            "text": "Which gas is released during photosynthesis?",
+            "choices": {
+              "A": "Nitrogen",
+              "B": "Carbon dioxide",
+              "C": "Oxygen",
+              "D": "Hydrogen"
+            },
+            "answer": "C",
+            "explanation": "Oxygen is released as a byproduct of photosynthesis."
+          },
+          {
+            "number": 7,
+            "text": "The process of cell division that results in four daughter cells is",
+            "choices": {
+              "A": "Mitosis",
+              "B": "Meiosis",
+              "C": "Binary fission",
+              "D": "Budding"
+            },
+            "answer": "B",
+            "explanation": "Meiosis produces four haploid daughter cells from one diploid cell."
+          },
+          {
+            "number": 8,
+            "text": "Which of the following is a function of white blood cells?",
+            "choices": {
+              "A": "Transport oxygen",
+              "B": "Fight infection",
+              "C": "Blood clotting",
+              "D": "Maintain blood volume"
+            },
+            "answer": "B",
+            "explanation": "White blood cells are part of the immune system and protect against pathogens."
+          },
+          {
+            "number": 9,
+            "text": "The dark reaction of photosynthesis takes place in the",
+            "choices": {
+              "A": "Stroma",
+              "B": "Thylakoid membrane",
+              "C": "Grana",
+              "D": "Stroma lamellae"
+            },
+            "answer": "A",
+            "explanation": "The Calvin cycle (dark reactions) occurs in the stroma of chloroplasts."
+          },
+          {
+            "number": 10,
+            "text": "The scientific name for man is",
+            "choices": {
+              "A": "Pan troglodytes",
+              "B": "Gorilla gorilla",
+              "C": "Homo sapiens",
+              "D": "Papio anubis"
+            },
+            "answer": "C",
+            "explanation": "Homo sapiens is the scientific name for modern humans."
+          }
+        ]
+      },
+      "2020": {
+        "year": 2020,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The energy currency of the cell is",
+            "choices": {
+              "A": "DNA",
+              "B": "ATP",
+              "C": "RNA",
+              "D": "Glucose"
+            },
+            "answer": "B",
+            "explanation": "ATP (Adenosine Triphosphate) is the primary energy currency used by cells."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is a decomposer?",
+            "choices": {
+              "A": "Mushroom",
+              "B": "Moss",
+              "C": "Fern",
+              "D": "Algae"
+            },
+            "answer": "A",
+            "explanation": "Mushrooms are fungi that decompose dead organic matter and recycle nutrients."
+          },
+          {
+            "number": 3,
+            "text": "The part of the eye that controls the amount of light entering is the",
+            "choices": {
+              "A": "Retina",
+              "B": "Cornea",
+              "C": "Iris",
+              "D": "Lens"
+            },
+            "answer": "C",
+            "explanation": "The iris contains muscles that adjust pupil size to control light entry."
+          },
+          {
+            "number": 4,
+            "text": "In plants, the male reproductive part is the",
+            "choices": {
+              "A": "Ovary",
+              "B": "Stigma",
+              "C": "Anther",
+              "D": "Petal"
+            },
+            "answer": "C",
+            "explanation": "The anther produces pollen grains containing male gametes."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a deficiency disease caused by lack of vitamin C?",
+            "choices": {
+              "A": "Rickets",
+              "B": "Scurvy",
+              "C": "Beriberi",
+              "D": "Pellagra"
+            },
+            "answer": "B",
+            "explanation": "Scurvy is caused by deficiency of vitamin C and leads to bleeding gums and poor wound healing."
+          },
+          {
+            "number": 6,
+            "text": "The smallest blood vessels in the body are the",
+            "choices": {
+              "A": "Arteries",
+              "B": "Veins",
+              "C": "Capillaries",
+              "D": "Arterioles"
+            },
+            "answer": "C",
+            "explanation": "Capillaries have thin walls allowing exchange of substances between blood and tissues."
+          },
+          {
+            "number": 7,
+            "text": "Which organelle contains digestive enzymes?",
+            "choices": {
+              "A": "Mitochondria",
+              "B": "Ribosome",
+              "C": "Lysosome",
+              "D": "Chloroplast"
+            },
+            "answer": "C",
+            "explanation": "Lysosomes contain hydrolytic enzymes for breaking down waste materials and cellular debris."
+          },
+          {
+            "number": 8,
+            "text": "The process of conversion of glucose to pyruvate is called",
+            "choices": {
+              "A": "Glycolysis",
+              "B": "Krebs cycle",
+              "C": "Electron transport",
+              "D": "Photosynthesis"
+            },
+            "answer": "A",
+            "explanation": "Glycolysis is the breakdown of glucose to pyruvate, occurring in the cytoplasm."
+          },
+          {
+            "number": 9,
+            "text": "In humans, the sex chromosomes are",
+            "choices": {
+              "A": "XX and XY",
+              "B": "X and Y",
+              "C": "X and X",
+              "D": "Y and Y"
+            },
+            "answer": "A",
+            "explanation": "Females are XX and males are XY in humans."
+          },
+          {
+            "number": 10,
+            "text": "Which part of the brain controls breathing and heart rate?",
+            "choices": {
+              "A": "Cerebrum",
+              "B": "Cerebellum",
+              "C": "Medulla oblongata",
+              "D": "Hypothalamus"
+            },
+            "answer": "C",
+            "explanation": "The medulla oblongata controls vital autonomic functions including breathing and heart rate."
+          }
+        ]
+      },
+      "2021": {
+        "year": 2021,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following structures is found in plant cells but not in animal cells?",
+            "choices": {
+              "A": "Nucleus",
+              "B": "Cell wall",
+              "C": "Mitochondria",
+              "D": "Cell membrane"
+            },
+            "answer": "B",
+            "explanation": "Plant cells have a cell wall made of cellulose, which is absent in animal cells."
+          },
+          {
+            "number": 2,
+            "text": "The hormone that regulates blood sugar level in humans is",
+            "choices": {
+              "A": "Insulin",
+              "B": "Adrenaline",
+              "C": "Thyroxine",
+              "D": "Progesterone"
+            },
+            "answer": "A",
+            "explanation": "Insulin is produced by the pancreas and helps cells absorb glucose from the blood."
+          },
+          {
+            "number": 3,
+            "text": "Which of the following is a communicable disease?",
+            "choices": {
+              "A": "Cancer",
+              "B": "Diabetes",
+              "C": "Chickenpox",
+              "D": "Arthritis"
+            },
+            "answer": "C",
+            "explanation": "Chickenpox is caused by a virus and can be transmitted from one person to another."
+          },
+          {
+            "number": 4,
+            "text": "The minute openings on the underside of leaves are called",
+            "choices": {
+              "A": "Stomata",
+              "B": "Lenticels",
+              "C": "Cuticles",
+              "D": "Epidermis"
+            },
+            "answer": "A",
+            "explanation": "Stomata allow gas exchange (CO2 in, O2 out) and water vapor to exit the leaf."
+          },
+          {
+            "number": 5,
+            "text": "In human reproduction, the site of fertilization is the",
+            "choices": {
+              "A": "Uterus",
+              "B": "Oviduct",
+              "C": "Ovary",
+              "D": "Vagina"
+            },
+            "answer": "B",
+            "explanation": "Fertilization normally occurs in the fallopian tube (oviduct)."
+          },
+          {
+            "number": 6,
+            "text": "Which blood cells are responsible for fighting infections?",
+            "choices": {
+              "A": "Red blood cells",
+              "B": "White blood cells",
+              "C": "Platelets",
+              "D": "Plasma"
+            },
+            "answer": "B",
+            "explanation": "White blood cells (leukocytes) are part of the immune system and fight pathogens."
+          },
+          {
+            "number": 7,
+            "text": "The process of loss of water in plants is called",
+            "choices": {
+              "A": "Osmosis",
+              "B": "Diffusion",
+              "C": "Transpiration",
+              "D": "Evaporation"
+            },
+            "answer": "C",
+            "explanation": "Transpiration is the loss of water vapor from the aerial parts of plants, mainly through stomata."
+          },
+          {
+            "number": 8,
+            "text": "Which organelle is responsible for protein synthesis?",
+            "choices": {
+              "A": "Ribosome",
+              "B": "Golgi apparatus",
+              "C": "Lysosome",
+              "D": "Vacuole"
+            },
+            "answer": "A",
+            "explanation": "Ribosomes are the sites of protein synthesis where amino acids are assembled into polypeptide chains."
+          },
+          {
+            "number": 9,
+            "text": "The type of joint found in the knee is the",
+            "choices": {
+              "A": "Ball and socket joint",
+              "B": "Hinge joint",
+              "C": "Pivot joint",
+              "D": "Gliding joint"
+            },
+            "answer": "B",
+            "explanation": "The knee is a hinge joint that allows movement in one plane (bending and straightening)."
+          },
+          {
+            "number": 10,
+            "text": "In genetics, the physical appearance of an organism is its",
+            "choices": {
+              "A": "Genotype",
+              "B": "Phenotype",
+              "C": "Chromosome",
+              "D": "Gene"
+            },
+            "answer": "B",
+            "explanation": "Phenotype refers to the observable physical characteristics resulting from genotype and environment."
+          }
+        ]
+      },
+      "2022": {
+        "year": 2022,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "The nucleus of a cell controls all cellular activities except",
+            "choices": {
+              "A": "Growth",
+              "B": "Reproduction",
+              "C": "Respiration",
+              "D": "Cell division"
+            },
+            "answer": "C",
+            "explanation": "Respiration occurs in the mitochondria and does not require nuclear control."
+          },
+          {
+            "number": 2,
+            "text": "Which of the following is not a function of the skeleton?",
+            "choices": {
+              "A": "Support",
+              "B": "Protection",
+              "C": "Reproduction",
+              "D": "Blood cell formation"
+            },
+            "answer": "C",
+            "explanation": "The skeleton provides support, protection, and produces blood cells in marrow, but does not function in reproduction."
+          },
+          {
+            "number": 3,
+            "text": "The green pigment in plants that absorbs light for photosynthesis is",
+            "choices": {
+              "A": "Chlorophyll",
+              "B": "Carotene",
+              "C": "Xanthophyll",
+              "D": "Anthocyanin"
+            },
+            "answer": "A",
+            "explanation": "Chlorophyll absorbs light energy, primarily red and blue wavelengths, for photosynthesis."
+          },
+          {
+            "number": 4,
+            "text": "In which part of the human ear is sound waves transduced into nerve impulses?",
+            "choices": {
+              "A": "Pinna",
+              "B": "Auditory canal",
+              "C": "Cochlea",
+              "D": "Eustachian tube"
+            },
+            "answer": "C",
+            "explanation": "The cochlea contains hair cells that convert sound vibrations into electrical nerve impulses."
+          },
+          {
+            "number": 5,
+            "text": "Which type of reproduction involves the fusion of gametes?",
+            "choices": {
+              "A": "Binary fission",
+              "B": "Budding",
+              "C": "Sexual reproduction",
+              "D": "Fragmentation"
+            },
+            "answer": "C",
+            "explanation": "Sexual reproduction involves the fusion of male and female gametes."
+          },
+          {
+            "number": 6,
+            "text": "The process by which water moves across a selectively permeable membrane is",
+            "choices": {
+              "A": "Diffusion",
+              "B": "Osmosis",
+              "C": "Active transport",
+              "D": "Pinocytosis"
+            },
+            "answer": "B",
+            "explanation": "Osmosis is the movement of water molecules from an area of lower solute concentration to higher concentration."
+          },
+          {
+            "number": 7,
+            "text": "Which organ is responsible for filtering blood in the excretory system?",
+            "choices": {
+              "A": "Kidney",
+              "B": "Liver",
+              "C": "Lungs",
+              "D": "Skin"
+            },
+            "answer": "A",
+            "explanation": "The kidneys filter blood to remove waste products and regulate water and electrolyte balance."
+          },
+          {
+            "number": 8,
+            "text": "The gap between two neurons is called the",
+            "choices": {
+              "A": "Axon",
+              "B": "Dendrite",
+              "C": "Synapse",
+              "D": "Myelin sheath"
+            },
+            "answer": "C",
+            "explanation": "The synapse is the small gap between neurons where neurotransmitters are released."
+          },
+          {
+            "number": 9,
+            "text": "Which vitamin is produced when the skin is exposed to sunlight?",
+            "choices": {
+              "A": "Vitamin A",
+              "B": "Vitamin B",
+              "C": "Vitamin C",
+              "D": "Vitamin D"
+            },
+            "answer": "D",
+            "explanation": "Vitamin D is synthesized in the skin when exposed to UV radiation from sunlight."
+          },
+          {
+            "number": 10,
+            "text": "In a food chain, the organisms that convert solar energy to chemical energy are",
+            "choices": {
+              "A": "Herbivores",
+              "B": "Carnivores",
+              "C": "Producers",
+              "D": "Decomposers"
+            },
+            "answer": "C",
+            "explanation": "Producers (plants) convert solar energy to chemical energy through photosynthesis."
+          }
+        ]
+      },
+      "2023": {
+        "year": 2023,
+        "subject": "Biology",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is a characteristic of all living organisms?",
+            "choices": {
+              "A": "Reproduction",
+              "B": "Movement",
+              "C": "Photosynthesis",
+              "D": "Heterotrophy"
+            },
+            "answer": "A",
+            "explanation": "All living organisms must be able to reproduce to pass on genetic material to offspring."
+          },
+          {
+            "number": 2,
+            "text": "The basic unit of life is the",
+            "choices": {
+              "A": "Tissue",
+              "B": "Organ",
+              "C": "Cell",
+              "D": "Organelle"
+            },
+            "answer": "C",
+            "explanation": "The cell is the smallest unit that can carry out all life processes and is the basic structural unit of all living things."
+          },
+          {
+            "number": 3,
+            "text": "Which organelle is responsible for cellular respiration?",
+            "choices": {
+              "A": "Ribosome",
+              "B": "Mitochondrion",
+              "C": "Chloroplast",
+              "D": "Nucleus"
+            },
+            "answer": "B",
+            "explanation": "Mitochondria are the powerhouse of the cell where ATP is produced through cellular respiration."
+          },
+          {
+            "number": 4,
+            "text": "In plants, gaseous exchange occurs through the",
+            "choices": {
+              "A": "Stomata",
+              "B": "Lenticels",
+              "C": "Root hairs",
+              "D": "Cuticle"
+            },
+            "answer": "A",
+            "explanation": "Stomata are pores mainly found on the underside of leaves where gas exchange takes place."
+          },
+          {
+            "number": 5,
+            "text": "The blood vessel that carries deoxygenated blood from the heart to the lungs is the",
+            "choices": {
+              "A": "Pulmonary artery",
+              "B": "Pulmonary vein",
+              "C": "Aorta",
+              "D": "Vena cava"
+            },
+            "answer": "A",
+            "explanation": "The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs for oxygenation."
+          },
+          {
+            "number": 6,
+            "text": "Which of the following is a vector-borne disease?",
+            "choices": {
+              "A": "Tuberculosis",
+              "B": "Malaria",
+              "C": "Diabetes",
+              "D": "Asthma"
+            },
+            "answer": "B",
+            "explanation": "Malaria is transmitted by the female Anopheles mosquito vector."
+          },
+          {
+            "number": 7,
+            "text": "The process by which plants make food is called",
+            "choices": {
+              "A": "Respiration",
+              "B": "Photosynthesis",
+              "C": "Transpiration",
+              "D": "Osmosis"
+            },
+            "answer": "B",
+            "explanation": "Photosynthesis is the process by which plants convert light energy into chemical energy (glucose)."
+          },
+          {
+            "number": 8,
+            "text": "In the human digestive system, bile is produced by the",
+            "choices": {
+              "A": "Stomach",
+              "B": "Pancreas",
+              "C": "Liver",
+              "D": "Small intestine"
+            },
+            "answer": "C",
+            "explanation": "Bile is produced by the liver and stored in the gallbladder before being released into the duodenum."
+          },
+          {
+            "number": 9,
+            "text": "Which of the following is a hereditary disease?",
+            "choices": {
+              "A": "AIDS",
+              "B": "Sickle cell anemia",
+              "C": "Tuberculosis",
+              "D": "Pneumonia"
+            },
+            "answer": "B",
+            "explanation": "Sickle cell anemia is a genetic disorder caused by a mutation in the hemoglobin gene."
+          },
+          {
+            "number": 10,
+            "text": "The part of the brain that controls balance and coordination is the",
+            "choices": {
+              "A": "Cerebrum",
+              "B": "Cerebellum",
+              "C": "Medulla oblongata",
+              "D": "Hypothalamus"
+            },
+            "answer": "B",
+            "explanation": "The cerebellum is responsible for coordinating voluntary movements and maintaining balance."
+          }
+        ]
+      }
+    },
+    "Chemistry": {
+      "2020": {
+        "year": 2020,
+        "subject": "Chemistry",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is not a compound?",
+            "choices": {
+              "A": "Water",
+              "B": "Carbon dioxide",
+              "C": "Oxygen",
+              "D": "Sodium chloride"
+            },
+            "answer": "C",
+            "explanation": "Oxygen (O2) is an element, not a compound."
+          },
+          {
+            "number": 2,
+            "text": "The mass number of an atom is the sum of",
+            "choices": {
+              "A": "Protons and electrons",
+              "B": "Neutrons and electrons",
+              "C": "Protons and neutrons",
+              "D": "Protons, neutrons, and electrons"
+            },
+            "answer": "C",
+            "explanation": "Mass number = protons + neutrons."
+          },
+          {
+            "number": 3,
+            "text": "Which of the following gases is lighter than air?",
+            "choices": {
+              "A": "CO2",
+              "B": "O2",
+              "C": "H2",
+              "D": "Cl2"
+            },
+            "answer": "C",
+            "explanation": "H2 (molar mass 2) is lighter than air (≈29)."
+          },
+          {
+            "number": 4,
+            "text": "The process of converting fats to soap is called",
+            "choices": {
+              "A": "Hydrolysis",
+              "B": "Saponification",
+              "C": "Esterification",
+              "D": "Polymerization"
+            },
+            "answer": "B",
+            "explanation": "Saponification is the hydrolysis of fats with alkali."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a Lewis acid?",
+            "choices": {
+              "A": "NH3",
+              "B": "HCl",
+              "C": "BF3",
+              "D": "H2O"
+            },
+            "answer": "C",
+            "explanation": "BF3 accepts an electron pair (Lewis acid)."
+          },
+          {
+            "number": 6,
+            "text": "The colour of methyl orange in acidic medium is",
+            "choices": {
+              "A": "Yellow",
+              "B": "Red",
+              "C": "Orange",
+              "D": "Colorless"
+            },
+            "answer": "B",
+            "explanation": "Methyl orange turns red in acid."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is a property of noble gases?",
+            "choices": {
+              "A": "Highly reactive",
+              "B": "Colourless",
+              "C": "Form compounds easily",
+              "D": "Radioactive"
+            },
+            "answer": "B",
+            "explanation": "Noble gases are generally colorless and inert."
+          },
+          {
+            "number": 8,
+            "text": "The reaction between an acid and a base is called",
+            "choices": {
+              "A": "Oxidation",
+              "B": "Reduction",
+              "C": "Neutralization",
+              "D": "Decomposition"
+            },
+            "answer": "C",
+            "explanation": "Acid + Base → Salt + Water (Neutralization)."
+          },
+          {
+            "number": 9,
+            "text": "Which of the following is a greenhouse gas?",
+            "choices": {
+              "A": "N2",
+              "B": "O2",
+              "C": "CH4",
+              "D": "H2"
+            },
+            "answer": "C",
+            "explanation": "Methane (CH4) is a potent greenhouse gas."
+          },
+          {
+            "number": 10,
+            "text": "The systematic name of KClO3 is",
+            "choices": {
+              "A": "Potassium chlorate",
+              "B": "Potassium chloride",
+              "C": "Potassium chlorite",
+              "D": "Potassium perchlorate"
+            },
+            "answer": "A",
+            "explanation": "KClO3 is potassium chlorate."
+          }
+        ]
+      },
+      "2021": {
+        "year": 2021,
+        "subject": "Chemistry",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is an allotrope of carbon?",
+            "choices": {
+              "A": "Diamond",
+              "B": "Graphite",
+              "C": "Fullerene",
+              "D": "All of the above"
+            },
+            "answer": "D",
+            "explanation": "Diamond, graphite, and fullerene are allotropes of carbon."
+          },
+          {
+            "number": 2,
+            "text": "The number of electrons in the outer shell of oxygen is",
+            "choices": {
+              "A": "4",
+              "B": "6",
+              "C": "2",
+              "D": "8"
+            },
+            "answer": "B",
+            "explanation": "Oxygen has atomic number 8, so it has 6 valence electrons."
+          },
+          {
+            "number": 3,
+            "text": "Which of the following is a chemical property of metals?",
+            "choices": {
+              "A": "Malleability",
+              "B": "Ductility",
+              "C": "Reactivity with acids",
+              "D": "Conductivity"
+            },
+            "answer": "C",
+            "explanation": "Reactivity with acids is a chemical property."
+          },
+          {
+            "number": 4,
+            "text": "The main constituent of natural gas is",
+            "choices": {
+              "A": "Ethane",
+              "B": "Propane",
+              "C": "Methane",
+              "D": "Butane"
+            },
+            "answer": "C",
+            "explanation": "Methane (CH4) is the primary component of natural gas."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following indicators is used for titration?",
+            "choices": {
+              "A": "Litmus",
+              "B": "Phenolphthalein",
+              "C": "Methyl orange",
+              "D": "All of the above"
+            },
+            "answer": "D",
+            "explanation": "All these indicators can be used in titrations."
+          },
+          {
+            "number": 6,
+            "text": "The oxidation state of iron in Fe2O3 is",
+            "choices": {
+              "A": "+2",
+              "B": "+3",
+              "C": "+4",
+              "D": "+6"
+            },
+            "answer": "B",
+            "explanation": "Fe2O3: 2x + 3(-2) = 0, so x = +3."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is a catalyst in the Haber process?",
+            "choices": {
+              "A": "Vanadium pentoxide",
+              "B": "Iron",
+              "C": "Platinum",
+              "D": "Nickel"
+            },
+            "answer": "B",
+            "explanation": "Iron is the catalyst used in the Haber process."
+          },
+          {
+            "number": 8,
+            "text": "The type of bond in N2 molecule is",
+            "choices": {
+              "A": "Single bond",
+              "B": "Double bond",
+              "C": "Triple bond",
+              "D": "Ionic bond"
+            },
+            "answer": "C",
+            "explanation": "N2 has a triple bond (N≡N)."
+          },
+          {
+            "number": 9,
+            "text": "Which of the following is a soapless soap?",
+            "choices": {
+              "A": "Sodium stearate",
+              "B": "Sodium lauryl sulfate",
+              "C": "Sodium palmitate",
+              "D": "All of the above"
+            },
+            "answer": "B",
+            "explanation": "Sodium lauryl sulfate is a synthetic detergent."
+          },
+          {
+            "number": 10,
+            "text": "The empirical formula of C6H12O6 is",
+            "choices": {
+              "A": "CH2O",
+              "B": "C2H4O2",
+              "C": "C6H12O6",
+              "D": "CHO"
+            },
+            "answer": "A",
+            "explanation": "Dividing by 6 gives CH2O."
+          }
+        ]
+      },
+      "2022": {
+        "year": 2022,
+        "subject": "Chemistry",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is a physical change?",
+            "choices": {
+              "A": "Burning of magnesium",
+              "B": "Rusting of iron",
+              "C": "Dissolving sugar in water",
+              "D": "Cooking of food"
+            },
+            "answer": "C",
+            "explanation": "Dissolving sugar in water is a physical change as no new substance is formed."
+          },
+          {
+            "number": 2,
+            "text": "The maximum number of electrons in the second shell is",
+            "choices": {
+              "A": "2",
+              "B": "8",
+              "C": "18",
+              "D": "32"
+            },
+            "answer": "B",
+            "explanation": "The second shell can hold up to 8 electrons (2n² where n=2)."
+          },
+          {
+            "number": 3,
+            "text": "Which of the following compounds is ionic?",
+            "choices": {
+              "A": "HCl",
+              "B": "CO2",
+              "C": "NaCl",
+              "D": "CH4"
+            },
+            "answer": "C",
+            "explanation": "NaCl is an ionic compound formed from Na+ and Cl- ions."
+          },
+          {
+            "number": 4,
+            "text": "The general formula for alkenes is",
+            "choices": {
+              "A": "CnH2n+2",
+              "B": "CnH2n",
+              "C": "CnH2n-2",
+              "D": "CnHn"
+            },
+            "answer": "B",
+            "explanation": "Alkenes have one double bond, giving the formula CnH2n."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is used to test for starch?",
+            "choices": {
+              "A": "Iodine solution",
+              "B": "Lime water",
+              "C": "Fehling's solution",
+              "D": "Benedict's solution"
+            },
+            "answer": "A",
+            "explanation": "Iodine turns blue-black in the presence of starch."
+          },
+          {
+            "number": 6,
+            "text": "The gas evolved when an acid reacts with a metal is",
+            "choices": {
+              "A": "Oxygen",
+              "B": "Nitrogen",
+              "C": "Hydrogen",
+              "D": "Carbon dioxide"
+            },
+            "answer": "C",
+            "explanation": "Acids react with metals to produce hydrogen gas."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following is a property of metals?",
+            "choices": {
+              "A": "Brittle",
+              "B": "Poor conductors of heat",
+              "C": "Ductile",
+              "D": "Dull appearance"
+            },
+            "answer": "C",
+            "explanation": "Metals are malleable and ductile."
+          },
+          {
+            "number": 8,
+            "text": "The process of electrolysis is used to extract",
+            "choices": {
+              "A": "Iron from Haematite",
+              "B": "Sodium from NaCl",
+              "C": "Both A and B",
+              "D": "None"
+            },
+            "answer": "C",
+            "explanation": "Electrolysis is used to extract both iron and sodium."
+          },
+          {
+            "number": 9,
+            "text": "Which of the following is a carbonate ore?",
+            "choices": {
+              "A": "Haematite",
+              "B": "Bauxite",
+              "C": "Calamine",
+              "D": "Galena"
+            },
+            "answer": "C",
+            "explanation": "Calamine (ZnCO3) is a carbonate ore."
+          },
+          {
+            "number": 10,
+            "text": "The bond in HCl molecule is",
+            "choices": {
+              "A": "Ionic",
+              "B": "Covalent",
+              "C": "Metallic",
+              "D": "Hydrogen"
+            },
+            "answer": "B",
+            "explanation": "HCl has a covalent bond as electrons are shared."
+          }
+        ]
+      },
+      "2023": {
+        "year": 2023,
+        "subject": "Chemistry",
+        "question_count": 10,
+        "questions": [
+          {
+            "number": 1,
+            "text": "Which of the following is a chemical change?",
+            "choices": {
+              "A": "Melting of ice",
+              "B": "Boiling of water",
+              "C": "Rusting of iron",
+              "D": "Sublimation of iodine"
+            },
+            "answer": "C",
+            "explanation": "Rusting of iron involves the formation of a new substance (Fe2O3), which is a chemical change."
+          },
+          {
+            "number": 2,
+            "text": "The atomic number of an element is the number of",
+            "choices": {
+              "A": "Neutrons",
+              "B": "Electrons",
+              "C": "Protons",
+              "D": "Nucleons"
+            },
+            "answer": "C",
+            "explanation": "Atomic number equals the number of protons in the nucleus."
+          },
+          {
+            "number": 3,
+            "text": "Which of the following gases is responsible for acid rain?",
+            "choices": {
+              "A": "CO2",
+              "B": "SO2",
+              "C": "N2",
+              "D": "O2"
+            },
+            "answer": "B",
+            "explanation": "SO2 dissolves in rain water to form acid rain."
+          },
+          {
+            "number": 4,
+            "text": "The process of removing hardness of water is called",
+            "choices": {
+              "A": "Filtration",
+              "B": "Distillation",
+              "C": "Water softening",
+              "D": "Decantation"
+            },
+            "answer": "C",
+            "explanation": "Water softening removes Ca2+ and Mg2+ ions that cause hardness."
+          },
+          {
+            "number": 5,
+            "text": "Which of the following is a weak acid?",
+            "choices": {
+              "A": "HCl",
+              "B": "H2SO4",
+              "C": "HNO3",
+              "D": "CH3COOH"
+            },
+            "answer": "D",
+            "explanation": "Acetic acid (CH3COOH) partially dissociates in water, making it a weak acid."
+          },
+          {
+            "number": 6,
+            "text": "The IUPAC name of CH3CH2CH2OH is",
+            "choices": {
+              "A": "Propanol",
+              "B": "Propan-1-ol",
+              "C": "Ethanol",
+              "D": "Propanal"
+            },
+            "answer": "B",
+            "explanation": "The correct IUPAC name is propan-1-ol."
+          },
+          {
+            "number": 7,
+            "text": "Which of the following elements is a noble gas?",
+            "choices": {
+              "A": "Nitrogen",
+              "B": "Oxygen",
+              "C": "Helium",
+              "D": "Hydrogen"
+            },
+            "answer": "C",
+            "explanation": "Helium is a noble gas with a complete outer electron shell."
+          },
+          {
+            "number": 8,
+            "text": "The rate of diffusion of gases is inversely proportional to",
+            "choices": {
+              "A": "Temperature",
+              "B": "Pressure",
+              "C": "Square root of molar mass",
+              "D": "Volume"
+            },
+            "answer": "C",
+            "explanation": "Graham's law states rate ∝ 1/√M."
+          },
+          {
+            "number": 9,
+            "text": "Which of the following is a reducing agent?",
+            "choices": {
+              "A": "KMnO4",
+              "B": "H2SO4",
+              "C": "H2S",
+              "D": "O2"
+            },
+            "answer": "C",
+            "explanation": "H2S donates electrons (reduces other substances)."
+          },
+          {
+            "number": 10,
+            "text": "The pH of a neutral solution is",
+            "choices": {
+              "A": "0",
+              "B": "7",
+              "C": "14",
+              "D": "1"
+            },
+            "answer": "B",
+            "explanation": "pH 7 indicates a neutral solution at 25°C."
+          }
+        ]
+      }
+    }
+  }
+}

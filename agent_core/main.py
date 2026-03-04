@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import os
 import sys
+import json
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -196,6 +197,14 @@ def get_history(user_id: int, db: Session = Depends(get_db)):
             "date": h.attempt_date.strftime("%Y-%m-%d %H:%M:%S")
         } for h in history
     ]
+
+@app.get("/api/waec")
+def get_waec_catalogue():
+    catalogue_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "waec_catalogue.json")
+    if not os.path.exists(catalogue_path):
+        raise HTTPException(status_code=404, detail="WAEC catalogue not generated")
+    with open(catalogue_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 if __name__ == "__main__":
     import uvicorn

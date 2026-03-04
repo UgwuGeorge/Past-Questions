@@ -25,7 +25,7 @@ const CATEGORY_MAP = {
     'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
-export default function Dashboard({ onStartExam, onStartGrading, onStartInterview }) {
+export default function Dashboard({ onStartExam, onStartGrading, onStartInterview, onStartWAEC }) {
     const [exams, setExams] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -175,7 +175,7 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
                                                         <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center font-black text-xl text-primary border border-white/5">
                                                             {item[0]}
                                                         </div>
-                                                        {examRecord ? (
+                                                        {item === 'WAEC' || examRecord ? (
                                                             <div className="px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full">
                                                                 <span className="text-[10px] font-black text-emerald-400 tracking-tighter uppercase">Available</span>
                                                             </div>
@@ -191,16 +191,16 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
 
                                                     <div className="mt-auto pt-6 border-t border-white/5">
                                                         <button
-                                                            disabled={!examRecord}
-                                                            onClick={() => onStartExam?.(examRecord.id)}
+                                                            disabled={!(item === 'WAEC' || examRecord)}
+                                                            onClick={() => item === 'WAEC' ? onStartWAEC?.() : onStartExam?.(examRecord.id)}
                                                             className={clsx(
                                                                 "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
-                                                                examRecord
+                                                                (item === 'WAEC' || examRecord)
                                                                     ? "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
                                                                     : "bg-white/5 text-white/20 cursor-not-allowed"
                                                             )}
                                                         >
-                                                            {examRecord ? <><Play size={14} fill="currentColor" /> Practice</> : "Coming Soon"}
+                                                            {(item === 'WAEC' || examRecord) ? <><Play size={14} fill="currentColor" /> Practice</> : "Coming Soon"}
                                                         </button>
                                                     </div>
                                                 </div>

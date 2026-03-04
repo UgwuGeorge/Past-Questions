@@ -2,8 +2,8 @@ import { useState } from 'react';
 import Dashboard from './pages/Dashboard';
 import CBTProcessor from './pages/CBTProcessor';
 import AIGrading from './pages/AIGrading';
-import AIInterview from './pages/AIInterview';
 import AIChat from './components/AIChat';
+import WAECBrowser from './pages/WAECBrowser';
 import './index.css';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
 
   const startGrading = () => setView('grading');
   const startInterview = () => setView('interview');
+  const startWAEC = () => setView('waec');
   const goBack = () => setView('dashboard');
 
   return (
@@ -26,6 +27,7 @@ function App() {
           onStartExam={startExam}
           onStartGrading={startGrading}
           onStartInterview={startInterview}
+          onStartWAEC={startWAEC}
         />
       )}
 
@@ -63,6 +65,10 @@ function App() {
           </button>
           <AIInterview onBack={goBack} />
         </div>
+      )}
+
+      {view === 'waec' && (
+        <WAECBrowser onExit={goBack} />
       )}
 
       <AIChat />
