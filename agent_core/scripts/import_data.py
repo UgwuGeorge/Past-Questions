@@ -44,12 +44,14 @@ EXAM_MAP = {
     "ICAN": ExamCategory.PROFESSIONAL, "BAR": ExamCategory.PROFESSIONAL,
     "NURSING": ExamCategory.PROFESSIONAL, "MEDICINE": ExamCategory.PROFESSIONAL,
     "TRCN": ExamCategory.PROFESSIONAL, "COREN": ExamCategory.PROFESSIONAL,
-    "PCN": ExamCategory.PROFESSIONAL,
+    "PCN": ExamCategory.PROFESSIONAL, "CIBN": ExamCategory.PROFESSIONAL,
+    "BAR-FINALS": ExamCategory.PROFESSIONAL, "MED-NURSING": ExamCategory.PROFESSIONAL,
     "IELTS": ExamCategory.SCHOLARSHIPS, "PTDF": ExamCategory.SCHOLARSHIPS,
     "BEA": ExamCategory.SCHOLARSHIPS, "NNPC": ExamCategory.SCHOLARSHIPS,
     "TOTAL": ExamCategory.SCHOLARSHIPS, "CHEVENING": ExamCategory.SCHOLARSHIPS,
     "COMMONWEALTH": ExamCategory.SCHOLARSHIPS, "DAAD": ExamCategory.SCHOLARSHIPS,
     "ERASMUS": ExamCategory.SCHOLARSHIPS, "SHELL": ExamCategory.SCHOLARSHIPS,
+    "NNPC-TOTAL": ExamCategory.SCHOLARSHIPS,
 }
 
 DIFFICULTY_MAP = {
