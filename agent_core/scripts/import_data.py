@@ -61,20 +61,23 @@ DIFFICULTY_MAP = {
 def get_category_from_path(file_path: str) -> ExamCategory:
     if "Professional" in file_path:
         return ExamCategory.PROFESSIONAL
-    elif "Academic" in file_path:
+    elif "Academics" in file_path or "Academic" in file_path:
         return ExamCategory.ACADEMICS
-    elif "Scholarship" in file_path or "scholarship" in file_path:
+    elif "Scholarship" in file_path or "scholarship" in file_path or "International" in file_path:
         return ExamCategory.SCHOLARSHIPS
     return ExamCategory.ACADEMICS
 
 def get_or_create_exam(db: Session, exam_name: str, file_path: str, sub_category: str = None) -> Exam:
     exam = db.query(Exam).filter(Exam.name.ilike(exam_name)).first()
+    
+    # Calculate target category
+    key = exam_name.split()[0].upper()
+    target_category = EXAM_MAP.get(key, get_category_from_path(file_path))
+
     if not exam:
-        key = exam_name.split()[0].upper()
-        category = EXAM_MAP.get(key, get_category_from_path(file_path))
         exam = Exam(
             name=exam_name.upper(),
-            category=category,
+            category=target_category,
             sub_category=sub_category,
             description=f"{exam_name} Examination"
         )
@@ -82,6 +85,16 @@ def get_or_create_exam(db: Session, exam_name: str, file_path: str, sub_category
         db.commit()
         db.refresh(exam)
         print(f"  [+] Created Exam: {exam.name} ({exam.category.value})")
+    else:
+        # Update category if it's different and we have a target
+        if exam.category != target_category:
+            print(f"  [~] Updating Exam category for {exam.name}: {exam.category.value} -> {target_category.value}")
+            exam.category = target_category
+            if sub_category:
+                exam.sub_category = sub_category
+            db.commit()
+            db.refresh(exam)
+            
     return exam
 
 def get_or_create_subject(db: Session, subject_name: str, exam_id: int) -> Subject:

@@ -25,9 +25,6 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
     const [exams, setExams] = useState([]);
     const [history, setHistory] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [selectedCategory, setSelectedCategory] = useState('All');
-
-    const categories = ['All', 'Academics', 'Professional', 'Scholarships'];
 
     useEffect(() => {
         const fetchData = async () => {
@@ -175,58 +172,56 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
                     </div>
 
                     <div className="grid grid-cols-1 xl:grid-cols-12 gap-10">
-                        {/* Exams Grid (Arranged Grid) */}
-                        <div className="xl:col-span-8">
-                            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
-                                <h2 className="text-xl font-bold flex items-center gap-2">
-                                    <Star size={20} className="text-secondary" />
-                                    Active Preparation Tracks
-                                </h2>
-                                <div className="flex items-center p-1 bg-white/5 rounded-xl border border-white/10">
-                                    {categories.map(cat => (
-                                        <button
-                                            key={cat}
-                                            onClick={() => setSelectedCategory(cat)}
-                                            className={clsx(
-                                                "px-4 py-1.5 text-xs font-bold rounded-lg transition-all",
-                                                selectedCategory === cat
-                                                    ? "bg-primary text-white shadow-lg shadow-primary/20"
-                                                    : "text-text-dim hover:text-white"
-                                            )}
-                                        >
-                                            {cat}
-                                        </button>
-                                    ))}
-                                </div>
-                            </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                                {loading ? (
-                                    <div className="col-span-2 text-center py-20 text-text-dim font-bold animate-pulse">Syncing with AI Architect...</div>
-                                ) : exams.filter(e => selectedCategory === 'All' || e.category === selectedCategory).map((exam, i) => (
-                                    <GlowCard key={exam.id} delay={i * 0.1} className="py-5 px-6 items-start">
-                                        <div className="flex items-center gap-4 mb-5">
-                                            <div className="w-14 h-14 bg-white/[0.03] border border-white/5 rounded-2xl flex items-center justify-center">
-                                                <img src={exam.logo} alt={exam.name} className="w-10 h-10 object-contain" />
-                                            </div>
-                                            <div>
-                                                <h3 className="text-lg font-bold">{exam.name}</h3>
-                                                <p className="text-xs text-text-dim font-medium">{exam.category}</p>
+                        {/* Categorized Exams Grid */}
+                        <div className="xl:col-span-8 space-y-10">
+                            {loading ? (
+                                <div className="text-center py-20 text-text-dim font-bold animate-pulse">Syncing with AI Architect...</div>
+                            ) : (
+                                ['Academics', 'Professional', 'Scholarships'].map((categoryName) => {
+                                    // Filter exams matching this category (case insensitive)
+                                    const categoryExams = exams.filter(e => e.category.toLowerCase() === categoryName.toLowerCase());
+
+                                    if (categoryExams.length === 0) return null;
+
+                                    return (
+                                        <div key={categoryName} className="space-y-4">
+                                            <h2 className="text-xl font-bold flex items-center justify-between border-b border-white/5 pb-2">
+                                                <span className="flex items-center gap-2">
+                                                    {categoryName === 'Academics' && <GraduationCap size={20} className="text-emerald-400" />}
+                                                    {categoryName === 'Professional' && <Briefcase size={20} className="text-blue-400" />}
+                                                    {categoryName === 'Scholarships' && <Globe size={20} className="text-rose-400" />}
+                                                    {categoryName}
+                                                </span>
+                                            </h2>
+                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                                {categoryExams.map((exam, i) => (
+                                                    <GlowCard key={exam.id} delay={i * 0.1} className="py-5 px-6 items-start">
+                                                        <div className="flex items-center gap-4 mb-5">
+                                                            <div className="w-14 h-14 bg-white/[0.03] border border-white/5 rounded-2xl flex items-center justify-center">
+                                                                <img src={exam.logo} alt={exam.name} className="w-10 h-10 object-contain" />
+                                                            </div>
+                                                            <div>
+                                                                <h3 className="text-lg font-bold truncate max-w-[120px]" title={exam.name}>{exam.name}</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="flex items-center gap-3">
+                                                            <button
+                                                                onClick={() => onStartExam?.(exam.id)}
+                                                                className="flex-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl py-2.5 text-xs font-bold transition-all flex items-center justify-center gap-2"
+                                                            >
+                                                                <Play size={14} /> Practice
+                                                            </button>
+                                                            <button className="w-10 h-10 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl flex items-center justify-center transition-all">
+                                                                <ChevronRight size={18} />
+                                                            </button>
+                                                        </div>
+                                                    </GlowCard>
+                                                ))}
                                             </div>
                                         </div>
-                                        <div className="flex items-center gap-3">
-                                            <button
-                                                onClick={() => onStartExam?.(exam.id)}
-                                                className="flex-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl py-2.5 text-xs font-bold transition-all flex items-center justify-center gap-2"
-                                            >
-                                                <Play size={14} /> Practice
-                                            </button>
-                                            <button className="w-10 h-10 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl flex items-center justify-center transition-all">
-                                                <ChevronRight size={18} />
-                                            </button>
-                                        </div>
-                                    </GlowCard>
-                                ))}
-                            </div>
+                                    );
+                                })
+                            )}
                         </div>
 
                         {/* Recent History (The 'Arranged' Data Section) */}

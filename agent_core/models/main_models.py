@@ -18,7 +18,7 @@ class DifficultyLevel(enum.Enum):
 class ExamCategory(enum.Enum):
     ACADEMICS = "Academics"
     PROFESSIONAL = "Professional"
-    SCHOLARSHIPS = "scholarships"
+    SCHOLARSHIPS = "Scholarships"
 
 class User(Base):
     __tablename__ = "users"
