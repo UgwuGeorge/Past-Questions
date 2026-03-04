@@ -36,12 +36,14 @@ class PharmacyScraper(BaseScraper):
 
         # Fetch live Open Trivia DB Science questions for enrichment
         print("  Fetching Open Trivia DB Science questions...")
-        trivia_qs: List[Dict[str, Any]] = self.fetch_open_trivia(category=17, difficulty='hard', amount=20)
+        fetch_result = self.fetch_open_trivia(category=17, difficulty='hard', amount=20)
+        from typing import cast
+        trivia_qs = cast(List[Dict[str, Any]], fetch_result)
         print(f"  Fetched {len(trivia_qs)} Open Trivia questions.")
 
         for year in range(2004, 2025):
             for subject, seed_qs in seed_questions.items():
-                all_questions = seed_qs + trivia_qs[:5]  # enrich with 5 science Qs
+                all_questions = seed_qs + trivia_qs[:5]  # type: ignore
                 title = f"PCN PEP {year} - {subject}"
                 content = self.format_as_md(title, all_questions)
                 filename = str(title).replace(" - ", "_").replace(" ", "_") + ".md"

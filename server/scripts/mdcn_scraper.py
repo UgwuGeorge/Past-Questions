@@ -33,7 +33,9 @@ class MDCNScraper(BaseScraper):
 
         # Fetch live Open Trivia DB Science & Nature questions
         print("  Fetching Open Trivia DB Science questions...")
-        trivia_qs: List[Dict[str, Any]] = self.fetch_open_trivia(category=17, difficulty='hard', amount=30)
+        fetch_result = self.fetch_open_trivia(category=17, difficulty='hard', amount=30)
+        from typing import cast
+        trivia_qs = cast(List[Dict[str, Any]], fetch_result)
         print(f"  Fetched {len(trivia_qs)} Open Trivia questions.")
 
         for year in range(2004, 2025):
@@ -41,11 +43,11 @@ class MDCNScraper(BaseScraper):
                 papers = [
                     {
                         "title": f"MDCN Qualifying Examination {diet} {year} - General Medicine",
-                        "questions": seed_medicine + trivia_qs[:10]
+                        "questions": seed_medicine + trivia_qs[:10]  # type: ignore
                     },
                     {
                         "title": f"MDCN Dental Qualifying Examination {diet} {year} - Oral Surgery and Pathology",
-                        "questions": seed_dental + trivia_qs[10:15]
+                        "questions": seed_dental + trivia_qs[10:15]  # type: ignore
                     },
                 ]
                 for paper in papers:
