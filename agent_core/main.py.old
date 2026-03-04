@@ -3,10 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import os
 import sys
-from dotenv import load_dotenv
-
-# Load environment variables from .env
-load_dotenv()
 
 # Ensure agent_core is in path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -139,6 +135,13 @@ async def interview_evaluate(payload: InterviewPayload):
 class ChatPayload(BaseModel):
     message: str
     history: list = []
+
+@app.post("/api/interview-chat/{user_id}")
+async def interview_chat(user_id: int, payload: ChatPayload):
+    if not payload.message.strip():
+        raise HTTPException(status_code=400, detail="Message is required")
+    response = await agent.chat(user_id=user_id, message=payload.message, history=payload.history)
+    return {"response": response}
 
 @app.get("/api/user/stats/{user_id}")
 def get_user_stats(user_id: int):

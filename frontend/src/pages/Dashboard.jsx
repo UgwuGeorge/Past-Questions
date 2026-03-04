@@ -8,7 +8,13 @@ import {
     FileText,
     Search,
     ChevronRight,
-    Play
+    Play,
+    LayoutDashboard,
+    PenTool,
+    Mic,
+    Settings,
+    LogOut,
+    Bell
 } from 'lucide-react';
 
 const API_BASE = "http://localhost:8000/api";
@@ -19,7 +25,7 @@ const CATEGORY_MAP = {
     'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
-export default function Dashboard({ onStartExam }) {
+export default function Dashboard({ onStartExam, onStartGrading, onStartInterview }) {
     const [exams, setExams] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -52,132 +58,179 @@ export default function Dashboard({ onStartExam }) {
     };
 
     return (
-        <div className="min-h-screen bg-background text-white font-sans selection:bg-primary/30 antialiased">
-            {/* Background Glows */}
-            <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-                <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[40%] bg-primary/10 blur-[120px] rounded-full" />
-                <div className="absolute bottom-[-10%] left-[-5%] w-[40%] h-[40%] bg-secondary/10 blur-[120px] rounded-full" />
-            </div>
-
-            {/* Header */}
-            <header className="h-20 border-b border-white/5 flex items-center justify-between px-10 glass sticky top-0 z-50">
-                <div className="flex items-center gap-4 group cursor-pointer">
-                    <img src="/assets/reharz_logo.png" alt="Reharz" className="w-10 h-10 rounded-xl object-cover shadow-lg border border-white/10" />
+        <div className="flex h-screen bg-[#0b0f1a] text-white font-sans overflow-hidden">
+            {/* Sidebar */}
+            <aside className="w-64 glass border-r border-white/5 p-6 flex flex-col z-20">
+                <div className="flex items-center gap-4 mb-10 px-2 group cursor-pointer" onClick={() => window.location.reload()}>
+                    <img src="/assets/reharz_logo.png" alt="Reharz" className="w-10 h-10 rounded-xl object-cover shadow-lg border border-white/10 group-hover:scale-110 transition-all" />
                     <span className="text-2xl font-black tracking-tighter">Reharz</span>
                 </div>
 
-                <div className="relative w-96 hidden md:block group">
-                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-text-dim group-focus-within:text-primary transition-colors" size={18} />
-                    <input
-                        type="text"
-                        placeholder="Search tracks..."
-                        className="w-full bg-white/5 border border-white/10 rounded-xl py-2 pl-12 pr-4 outline-none focus:border-primary/50 focus:bg-white/10 transition-all text-sm"
+                <nav className="flex-1 space-y-2">
+                    <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" active />
+                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">AI Lab</div>
+                    <NavItem
+                        icon={<PenTool size={20} />}
+                        label="AI Grading"
+                        onClick={onStartGrading}
                     />
-                </div>
+                    <NavItem
+                        icon={<Mic size={20} />}
+                        label="Interview Prep"
+                        onClick={onStartInterview}
+                    />
 
-                <div className="flex items-center gap-4">
-                    <div className="text-right hidden sm:block">
-                        <div className="text-sm font-bold">Admin Panel</div>
-                        <div className="text-[10px] text-text-dim font-medium uppercase tracking-wider italic">Curated View</div>
+                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">Practice</div>
+                    <NavItem icon={<FileText size={20} />} label="My Results" />
+
+                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">User</div>
+                    <NavItem icon={<Settings size={20} />} label="Settings" />
+                </nav>
+
+                <div className="mt-auto pt-6 border-t border-white/5">
+                    <button className="flex items-center gap-3 px-4 py-3 w-full text-white/50 hover:text-white hover:bg-white/5 rounded-xl transition-all group">
+                        <LogOut size={20} className="group-hover:text-rose-500 transition-colors" />
+                        <span className="font-bold text-sm">Sign Out</span>
+                    </button>
+                </div>
+            </aside>
+
+            {/* Main Content Area */}
+            <div className="flex-1 flex flex-col relative overflow-hidden">
+                {/* Background Glows */}
+                <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[40%] bg-primary/10 blur-[120px] rounded-full -z-10" />
+                <div className="absolute bottom-[-10%] left-[-5%] w-[40%] h-[40%] bg-secondary/10 blur-[120px] rounded-full -z-10" />
+
+                {/* Header */}
+                <header className="h-20 border-b border-white/5 flex items-center justify-between px-10 glass shrink-0">
+                    <div className="relative w-96 group">
+                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-white/30 group-focus-within:text-primary transition-colors" size={18} />
+                        <input
+                            type="text"
+                            placeholder="Search examination tracks..."
+                            className="w-full bg-white/5 border border-white/10 rounded-xl py-2.5 pl-12 pr-4 outline-none focus:border-primary/50 focus:bg-white/10 transition-all text-sm"
+                        />
                     </div>
-                </div>
-            </header>
 
-            <main className="max-w-7xl mx-auto p-10">
-                {/* Hero Section */}
-                <div className="mb-16 text-center">
-                    <motion.h1
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="text-6xl font-black mb-4 tracking-tighter"
-                    >
-                        Prepare for <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Greatness</span>.
-                    </motion.h1>
-                    <p className="text-text-dim text-xl max-w-2xl mx-auto font-medium">
-                        Systematic access to the world's most critical examinations and scholarships.
-                    </p>
-                </div>
-
-                {/* Sections */}
-                <div className="space-y-24">
-                    {Object.entries(CATEGORY_MAP).map(([catName, list], catIdx) => (
-                        <section key={catName} className="relative">
-                            <div className="flex items-center gap-4 mb-10">
-                                <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10">
-                                    {catName === 'Academics' && <Globe size={24} className="text-primary" />}
-                                    {catName === 'Professional' && <Briefcase size={24} className="text-secondary" />}
-                                    {catName === 'Scholarships' && <GraduationCap size={24} className="text-accent" />}
-                                </div>
-                                <div>
-                                    <h2 className="text-4xl font-black tracking-tight uppercase">{catName}</h2>
-                                    <p className="text-text-dim font-medium">Official preparation syllabus and past questions.</p>
-                                </div>
+                    <div className="flex items-center gap-6">
+                        <button className="relative w-10 h-10 flex items-center justify-center text-white/50 hover:text-white transition-colors">
+                            <Bell size={20} />
+                            <div className="absolute top-2.5 right-2.5 w-2 h-2 bg-secondary rounded-full border-2 border-[#0b0f1a]" />
+                        </button>
+                        <div className="h-8 w-px bg-white/10" />
+                        <div className="flex items-center gap-3 group cursor-pointer">
+                            <div className="text-right">
+                                <div className="text-sm font-bold">Daniel</div>
+                                <div className="text-[10px] text-emerald-400 font-bold uppercase tracking-widest">Premium</div>
                             </div>
+                            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary/40 to-secondary/40 border border-white/10" />
+                        </div>
+                    </div>
+                </header>
 
-                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                {list.map((item, i) => {
-                                    const examRecord = findExamInDb(item);
-                                    return (
-                                        <motion.div
-                                            key={item}
-                                            initial={{ opacity: 0, scale: 0.95 }}
-                                            animate={{ opacity: 1, scale: 1 }}
-                                            transition={{ delay: i * 0.05 + catIdx * 0.1 }}
-                                            className="group relative"
-                                        >
-                                            <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-3xl blur opacity-0 group-hover:opacity-100 transition duration-500" />
-                                            <div className="relative glass rounded-3xl border border-white/5 p-6 hover:border-white/20 transition-all flex flex-col h-full">
-                                                <div className="flex items-start justify-between mb-6">
-                                                    <div className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center font-black text-xl text-primary">
-                                                        {item[0]}
-                                                    </div>
-                                                    {examRecord ? (
-                                                        <span className="text-[10px] bg-emerald-500/10 text-emerald-400 font-bold px-2 py-1 rounded-full border border-emerald-500/20">READY</span>
-                                                    ) : (
-                                                        <span className="text-[10px] bg-white/5 text-text-dim font-bold px-2 py-1 rounded-full border border-white/10">PENDING</span>
-                                                    )}
-                                                </div>
+                <main className="flex-1 overflow-y-auto p-10 custom-scrollbar">
+                    {/* Hero */}
+                    <div className="mb-12">
+                        <motion.h1
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            className="text-5xl font-black mb-3 tracking-tighter"
+                        >
+                            The <span className="text-primary italic">Architect's</span> Dashboard.
+                        </motion.h1>
+                        <p className="text-white/50 text-lg max-w-2xl font-medium">
+                            Systematic access to the world's most critical examinations.
+                        </p>
+                    </div>
 
-                                                <h3 className="text-xl font-bold mb-1 tracking-tight group-hover:text-primary transition-colors">{item}</h3>
-                                                <p className="text-xs text-text-dim font-bold uppercase tracking-widest mb-6">{catName}</p>
+                    {/* Content */}
+                    <div className="space-y-20">
+                        {Object.entries(CATEGORY_MAP).map(([catName, list], catIdx) => (
+                            <section key={catName}>
+                                <div className="flex items-center gap-4 mb-8">
+                                    <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10">
+                                        {catName === 'Academics' && <Globe size={24} className="text-primary" />}
+                                        {catName === 'Professional' && <Briefcase size={24} className="text-secondary" />}
+                                        {catName === 'Scholarships' && <GraduationCap size={24} className="text-accent" />}
+                                    </div>
+                                    <div>
+                                        <h2 className="text-3xl font-black tracking-tight uppercase">{catName}</h2>
+                                        <p className="text-white/50 text-xs font-bold tracking-widest uppercase">Verified Curriculum Track</p>
+                                    </div>
+                                </div>
 
-                                                <div className="mt-auto pt-6 border-t border-white/5 flex items-center justify-between">
-                                                    <button
-                                                        onClick={() => examRecord && onStartExam?.(examRecord.id)}
-                                                        className={clsx(
-                                                            "flex items-center gap-2 font-bold text-sm transition-all",
-                                                            examRecord ? "text-white hover:text-primary" : "text-text-dim cursor-not-allowed"
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                    {list.map((item, i) => {
+                                        const examRecord = findExamInDb(item);
+                                        return (
+                                            <motion.div
+                                                key={item}
+                                                initial={{ opacity: 0, y: 10 }}
+                                                animate={{ opacity: 1, y: 0 }}
+                                                transition={{ delay: i * 0.05 + catIdx * 0.1 }}
+                                                className="group"
+                                            >
+                                                <div className="relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/30 transition-all flex flex-col h-full bg-white/[0.01]">
+                                                    <div className="flex items-center justify-between mb-6">
+                                                        <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center font-black text-xl text-primary border border-white/5">
+                                                            {item[0]}
+                                                        </div>
+                                                        {examRecord ? (
+                                                            <div className="px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full">
+                                                                <span className="text-[10px] font-black text-emerald-400 tracking-tighter uppercase">Available</span>
+                                                            </div>
+                                                        ) : (
+                                                            <div className="px-3 py-1 bg-white/5 border border-white/10 rounded-full">
+                                                                <span className="text-[10px] font-black text-white/30 tracking-tighter uppercase">Syllabus</span>
+                                                            </div>
                                                         )}
-                                                    >
-                                                        {examRecord ? <><Play size={16} fill="currentColor" /> Start Practice</> : "Coming Soon"}
-                                                    </button>
-                                                    <ChevronRight size={18} className="text-text-dim group-hover:translate-x-1 transition-transform" />
-                                                </div>
-                                            </div>
-                                        </motion.div>
-                                    );
-                                })}
-                            </div>
-                        </section>
-                    ))}
-                </div>
-            </main>
+                                                    </div>
 
-            <footer className="mt-20 py-10 border-t border-white/5 text-center text-text-dim text-sm font-medium">
-                © 2026 Reharz AI Architecture. All repository endpoints pruned to requested categories.
-            </footer>
+                                                    <h3 className="text-xl font-bold mb-1 tracking-tight group-hover:text-primary transition-colors">{item}</h3>
+                                                    <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] mb-8">{catName}</p>
+
+                                                    <div className="mt-auto pt-6 border-t border-white/5">
+                                                        <button
+                                                            disabled={!examRecord}
+                                                            onClick={() => onStartExam?.(examRecord.id)}
+                                                            className={clsx(
+                                                                "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
+                                                                examRecord
+                                                                    ? "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
+                                                                    : "bg-white/5 text-white/20 cursor-not-allowed"
+                                                            )}
+                                                        >
+                                                            {examRecord ? <><Play size={14} fill="currentColor" /> Practice</> : "Coming Soon"}
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </motion.div>
+                                        );
+                                    })}
+                                </div>
+                            </section>
+                        ))}
+                    </div>
+                </main>
+            </div>
         </div>
     );
 }
 
-function NavItem({ icon, label, active = false }) {
+function NavItem({ icon, label, active = false, onClick }) {
     return (
-        <button className={clsx(
-            "flex items-center gap-3 px-4 py-3 rounded-xl transition-all group",
-            active ? "bg-primary/10 text-primary border border-primary/20" : "text-text-dim hover:bg-white/5 hover:text-white"
-        )}>
-            <span className={clsx(active ? "text-primary" : "text-text-dim group-hover:text-white")}>{icon}</span>
-            <span className="font-bold text-sm">{label}</span>
+        <button
+            onClick={onClick}
+            className={clsx(
+                "w-full flex items-center gap-3 px-4 py-3 rounded-2xl transition-all group",
+                active
+                    ? "bg-primary/10 text-primary border border-primary/20"
+                    : "text-white/50 hover:bg-white/5 hover:text-white"
+            )}
+        >
+            <span className={clsx(active ? "text-primary" : "text-white/50 group-hover:text-primary transition-colors")}>{icon}</span>
+            <span className="font-black text-xs uppercase tracking-widest">{label}</span>
+            {active && <div className="ml-auto w-1.5 h-1.5 bg-primary rounded-full" />}
         </button>
     );
 }

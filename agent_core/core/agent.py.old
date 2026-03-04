@@ -4,18 +4,13 @@ from google import genai
 from typing import List, Dict, Optional, Any
 from sqlalchemy.orm import Session
 from sqlalchemy import func, Float
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
-
 from agent_core.database import SessionLocal
 from agent_core.models import main_models
 from agent_core.models.main_models import Exam, Subject, Question, Choice, UserProgress, DifficultyLevel, ExamSession
 from agent_core.core.ai import AIEngine
 
 # Configure Gemini via new SDK
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
 client = genai.Client(api_key=api_key)
 MODEL_ID = "gemini-2.0-flash"
 
