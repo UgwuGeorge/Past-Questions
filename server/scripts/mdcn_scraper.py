@@ -1,5 +1,6 @@
 import os
 import sys
+from typing import List, Dict, Any
 
 scripts_dir = os.path.dirname(os.path.abspath(__file__))
 if scripts_dir not in sys.path:
@@ -32,7 +33,7 @@ class MDCNScraper(BaseScraper):
 
         # Fetch live Open Trivia DB Science & Nature questions
         print("  Fetching Open Trivia DB Science questions...")
-        trivia_qs = self.fetch_open_trivia(category=17, difficulty='hard', amount=30)
+        trivia_qs: List[Dict[str, Any]] = self.fetch_open_trivia(category=17, difficulty='hard', amount=30)
         print(f"  Fetched {len(trivia_qs)} Open Trivia questions.")
 
         for year in range(2004, 2025):
@@ -40,11 +41,11 @@ class MDCNScraper(BaseScraper):
                 papers = [
                     {
                         "title": f"MDCN Qualifying Examination {diet} {year} - General Medicine",
-                        "questions": seed_medicine + list(trivia_qs)[:10]
+                        "questions": seed_medicine + trivia_qs[:10]
                     },
                     {
                         "title": f"MDCN Dental Qualifying Examination {diet} {year} - Oral Surgery and Pathology",
-                        "questions": seed_dental + list(trivia_qs)[10:15]
+                        "questions": seed_dental + trivia_qs[10:15]
                     },
                 ]
                 for paper in papers:
