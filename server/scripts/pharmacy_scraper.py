@@ -40,7 +40,7 @@ class PharmacyScraper(BaseScraper):
 
         for year in range(2004, 2025):
             for subject, seed_qs in seed_questions.items():
-                all_questions = seed_qs + trivia_qs[:5]  # enrich with 5 science Qs
+                all_questions = seed_qs + list(trivia_qs)[:5]  # enrich with 5 science Qs
                 title = f"PCN PEP {year} - {subject}"
                 content = self.format_as_md(title, all_questions)
                 filename = str(title).replace(" - ", "_").replace(" ", "_") + ".md"

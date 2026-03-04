@@ -40,11 +40,11 @@ class MDCNScraper(BaseScraper):
                 papers = [
                     {
                         "title": f"MDCN Qualifying Examination {diet} {year} - General Medicine",
-                        "questions": seed_medicine + trivia_qs[:10]
+                        "questions": seed_medicine + list(trivia_qs)[:10]
                     },
                     {
                         "title": f"MDCN Dental Qualifying Examination {diet} {year} - Oral Surgery and Pathology",
-                        "questions": seed_dental + trivia_qs[10:15]
+                        "questions": seed_dental + list(trivia_qs)[10:15]
                     },
                 ]
                 for paper in papers:

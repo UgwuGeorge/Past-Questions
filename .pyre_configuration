@@ -1,0 +1,13 @@
+{
+  "source_directories": [
+    "server/scripts"
+  ],
+  "search_path": [
+    "server/scripts"
+  ],
+  "exclude": [
+    "**/node_modules/**",
+    "**/__pycache__/**",
+    ".venv/**"
+  ]
+}

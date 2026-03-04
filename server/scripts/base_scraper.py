@@ -3,6 +3,7 @@ import requests
 import time
 import html
 import random
+from typing import List, Dict, Any, Optional
 
 ALOC_API_BASE = 'https://questions.aloc.com.ng/api/v2'
 ALOC_TOKEN = 'ALOC-ad6bb1e7fbf4f457885e'
@@ -12,7 +13,7 @@ OPEN_TRIVIA_URL = 'https://opentdb.com/api.php'
 
 
 class BaseScraper:
-    def __init__(self, base_path=None):
+    def __init__(self, base_path: Optional[str] = None):
         self.base_path = base_path or os.path.join(
             os.environ['USERPROFILE'], '.gemini', 'antigravity', 'scratch', 'Past-Questions', 'data'
         )
@@ -20,11 +21,11 @@ class BaseScraper:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         }
 
-    def ensure_dirs(self, *dirs):
+    def ensure_dirs(self, *dirs: str):
         for d in dirs:
             os.makedirs(d, exist_ok=True)
 
-    def download_file(self, url, folder):
+    def download_file(self, url: str, folder: str) -> Optional[str]:
         local_filename = os.path.join(folder, url.split('/')[-1])
         if os.path.exists(local_filename):
             print(f"  [Skipped] {local_filename} already exists.")
@@ -41,14 +42,14 @@ class BaseScraper:
             print(f"  [Error] Failed to download {url}: {e}")
             return None
 
-    def fetch_aloc_bulk(self, subject, exam_type=None, year=None, limit=40):
+    def fetch_aloc_bulk(self, subject: str, exam_type: Optional[str] = None, year: Optional[int] = None, limit: int = 40) -> List[Dict[str, Any]]:
         """Fetch up to `limit` questions from the ALOC bulk endpoint (/m)."""
         url = f"{ALOC_API_BASE}/m?subject={subject}"
         if exam_type:
             url += f"&type={exam_type}"
         if year:
             url += f"&year={year}"
-        questions = []
+        questions: List[Dict[str, Any]] = []
         try:
             resp = requests.get(url, headers=ALOC_HEADERS, timeout=15)
             if resp.status_code == 200:
@@ -62,7 +63,7 @@ class BaseScraper:
             print(f"  [ALOC Error] {subject} {year}: {e}")
         return questions
 
-    def aloc_to_question(self, raw):
+    def aloc_to_question(self, raw: Dict[str, Any]) -> Dict[str, Any]:
         """Convert a raw ALOC API dict into our standard question format."""
         opts = raw.get('option', {}) or {}
         return {
@@ -76,13 +77,12 @@ class BaseScraper:
             'answer': str(raw.get('answer', 'a')).lower()
         }
 
-    def fetch_open_trivia(self, category=17, difficulty='hard', amount=20):
+    def fetch_open_trivia(self, category: int = 17, difficulty: str = 'hard', amount: int = 20) -> List[Dict[str, Any]]:
         """
         Fetch questions from Open Trivia DB.
         Category 17 = Science & Nature (used for Medical/Pharmacy).
-        Category 20 = Mythology. Category 23 = History. etc.
         """
-        questions = []
+        questions: List[Dict[str, Any]] = []
         try:
             params = {
                 'amount': amount,
@@ -92,11 +92,11 @@ class BaseScraper:
             }
             resp = requests.get(OPEN_TRIVIA_URL, params=params, timeout=15)
             if resp.status_code == 200:
-                raw_list = resp.json().get('results', [])
+                raw_list: List[Dict[str, Any]] = resp.json().get('results', [])
                 for item in raw_list:
                     q_text = html.unescape(item.get('question', ''))
                     correct = html.unescape(item.get('correct_answer', ''))
-                    incorrect = [html.unescape(x) for x in item.get('incorrect_answers', [])]
+                    incorrect: List[str] = [html.unescape(x) for x in item.get('incorrect_answers', [])]
                     options_list = [correct] + incorrect
                     random.shuffle(options_list)
                     correct_key = next(
@@ -107,12 +107,12 @@ class BaseScraper:
                         'options': dict(zip('abcd', options_list)),
                         'answer': correct_key
                     })
-            time.sleep(0.5)  # OTD rate limit: 1 request per 5s recommended
+            time.sleep(0.5)
         except Exception as e:
             print(f"  [OpenTrivia Error]: {e}")
         return questions
 
-    def format_as_md(self, title, questions):
+    def format_as_md(self, title: str, questions: List[Dict[str, Any]]) -> str:
         lines = [f"# {title}\n", "## Questions\n"]
         for i, q in enumerate(questions, 1):
             lines.append(f"**{i}.** {q['question']}")
@@ -123,7 +123,7 @@ class BaseScraper:
                 lines.append(f"   **Answer: {q['answer'].upper()}**\n")
         return "\n".join(lines)
 
-    def save_markdown(self, filepath, content):
+    def save_markdown(self, filepath: str, content: str):
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
