@@ -1,4 +1,4 @@
-from google import genai
+from openai import OpenAI, AsyncOpenAI
 import json
 import os
 from typing import List, Dict
@@ -7,10 +7,11 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Configure Gemini via the new unified SDK
-api_key = os.getenv("GEMINI_API_KEY")
-client = genai.Client(api_key=api_key)
-MODEL_ID = "gemini-2.0-flash"
+# Configure OpenAI
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
+async_client = AsyncOpenAI(api_key=api_key)
+MODEL_ID = "gpt-4o"
 
 class AIEngine:
     @staticmethod
@@ -22,19 +23,19 @@ class AIEngine:
         elif "SOP" in criteria.upper() or "SCHOLARSHIP" in criteria.upper():
             rubric_instructions = "Evaluate based on scholarship standards: Clarity of Goals, Argument and Evidence, Personal Voice and Tone, Structural Flow"
 
-        prompt = f"Act as an expert examiner for {criteria}. {rubric_instructions}\nSubmission:\n{content}\nReturn ONLY JSON."
+        prompt = f"Act as an expert examiner for {criteria}. {rubric_instructions}\nSubmission:\n{content}"
         
-        response = client.models.generate_content(
+        response = client.chat.completions.create(
             model=MODEL_ID,
-            contents=prompt,
-            config={'response_mime_type': 'application/json'}
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
         )
-        return json.loads(response.text)
+        return json.loads(response.choices[0].message.content)
 
     @staticmethod
     async def grade_essay_or_sop(content: str, criteria: str) -> Dict:
         """
-        Grades an essay or SOP using Gemini with specific rubrics.
+        Grades an essay or SOP using OpenAI with specific rubrics.
         """
         rubric_instructions = ""
         if "IELTS" in criteria.upper():
@@ -72,12 +73,12 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await client.aio.models.generate_content(
+        response = await async_client.chat.completions.create(
             model=MODEL_ID,
-            contents=prompt,
-            config={'response_mime_type': 'application/json'}
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
         )
-        return json.loads(response.text)
+        return json.loads(response.choices[0].message.content)
 
     @staticmethod
     def generate_questions_sync(exam_type: str, topic: str, difficulty: str, count: int = 5) -> List[Dict]:
@@ -103,12 +104,12 @@ class AIEngine:
         }}
         Return ONLY valid JSON.
         """
-        response = client.models.generate_content(
+        response = client.chat.completions.create(
             model=MODEL_ID,
-            contents=prompt,
-            config={'response_mime_type': 'application/json'}
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
         )
-        data = json.loads(response.text)
+        data = json.loads(response.choices[0].message.content)
         return data.get("questions", [])
 
     @staticmethod
@@ -137,29 +138,29 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await client.aio.models.generate_content(
+        response = await async_client.chat.completions.create(
             model=MODEL_ID,
-            contents=prompt,
-            config={'response_mime_type': 'application/json'}
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
         )
-        data = json.loads(response.text)
+        data = json.loads(response.choices[0].message.content)
         return data.get("questions", [])
 
     @staticmethod
     def simulate_interview_sync(question: str, user_answer: str) -> Dict:
         """Sync version of interview evaluation."""
         prompt = f"Act as an interviewer. Question: {question}\nAnswer: {user_answer}\nEvaluate and return ONLY JSON."
-        response = client.models.generate_content(
+        response = client.chat.completions.create(
             model=MODEL_ID,
-            contents=prompt,
-            config={'response_mime_type': 'application/json'}
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
         )
-        return json.loads(response.text)
+        return json.loads(response.choices[0].message.content)
 
     @staticmethod
     async def simulate_interview(question: str, user_answer: str) -> Dict:
         """
-        Simulates an interview response evaluation using Gemini.
+        Simulates an interview response evaluation using OpenAI.
         """
         prompt = f"""
         Act as a professional interviewer for a high-stakes scholarship or professional role.
@@ -183,9 +184,9 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         
-        response = await client.aio.models.generate_content(
+        response = await async_client.chat.completions.create(
             model=MODEL_ID,
-            contents=prompt,
-            config={'response_mime_type': 'application/json'}
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
         )
-        return json.loads(response.text)
+        return json.loads(response.choices[0].message.content)

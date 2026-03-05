@@ -6,6 +6,6 @@ passlib[bcrypt]
 python-multipart
 uvicorn
 psycopg2-binary
-google-generativeai
+openai
 python-dotenv
 python-telegram-bot

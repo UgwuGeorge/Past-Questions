@@ -1,6 +1,6 @@
 import os
 import json
-from google import genai
+from openai import OpenAI, AsyncOpenAI
 from typing import List, Dict, Optional, Any
 from sqlalchemy.orm import Session
 from sqlalchemy import func, Float
@@ -10,14 +10,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from agent_core.database import SessionLocal
-from agent_core.models import main_models
 from agent_core.models.main_models import Exam, Subject, Question, Choice, UserProgress, DifficultyLevel, ExamSession
 from agent_core.core.ai import AIEngine
 
-# Configure Gemini via new SDK
-api_key = os.getenv("GEMINI_API_KEY")
-client = genai.Client(api_key=api_key)
-MODEL_ID = "gemini-2.0-flash"
+# Configure OpenAI
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
+async_client = AsyncOpenAI(api_key=api_key)
+MODEL_ID = "gpt-4o"
 
 class ExamAgent:
     """
@@ -255,38 +255,191 @@ class ExamAgent:
         return f"Successfully generated and stored {added_count} new questions for {exam_name} - {topic}."
 
     async def chat(self, user_id: int, message: str, history: List[Dict] = []) -> str:
-        # Architect-level tool registry
+        # Define tools for OpenAI
         tools = [
-            self.list_available_exams, 
-            self.get_weak_topics, 
-            self.get_adaptive_v2,
-            self.log_answer,
-            self.grade_essay,
-            self.run_interview_coach,
-            self.generate_new_content,
-            self.get_practice_batch,
-            self.get_session_summary
+            {
+                "type": "function",
+                "function": {
+                    "name": "list_available_exams",
+                    "description": "Lists all supported exams and certifications in the local database.",
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "get_weak_topics",
+                    "description": "Analyzes user performance and returns a string breakdown of accuracy per topic.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "user_id": {"type": "integer"}
+                        },
+                        "required": ["user_id"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "get_adaptive_v2",
+                    "description": "Fetches a question specifically tailored to the user's current weakness level.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "user_id": {"type": "integer"},
+                            "exam_name": {"type": "string"}
+                        },
+                        "required": ["user_id", "exam_name"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "log_answer",
+                    "description": "Records a user attempt in the database to track learning progress.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "user_id": {"type": "integer"},
+                            "question_id": {"type": "integer"},
+                            "is_correct": {"type": "boolean"}
+                        },
+                        "required": ["user_id", "question_id", "is_correct"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "grade_essay",
+                    "description": "Grades an IELTS essay, Scholarship SOP, or academic writing.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "content": {"type": "string"},
+                            "criteria": {"type": "string"}
+                        },
+                        "required": ["content", "criteria"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "run_interview_coach",
+                    "description": "Provides expert feedback on an interview response.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "scenario": {"type": "string"},
+                            "user_text": {"type": "string"}
+                        },
+                        "required": ["scenario", "user_text"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "generate_new_content",
+                    "description": "Generates new practice questions and stores them in the local database.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "exam_name": {"type": "string"},
+                            "topic": {"type": "string"},
+                            "difficulty": {"type": "string"},
+                            "count": {"type": "integer", "default": 5}
+                        },
+                        "required": ["exam_name", "topic", "difficulty"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "get_practice_batch",
+                    "description": "Fetches a batch of tailored questions for a practice session.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "user_id": {"type": "integer"},
+                            "exam_name": {"type": "string"},
+                            "count": {"type": "integer", "default": 5}
+                        },
+                        "required": ["user_id", "exam_name"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "get_session_summary",
+                    "description": "Analyzes the last N logged answers and provides a score.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "user_id": {"type": "integer"},
+                            "last_n": {"type": "integer"}
+                        },
+                        "required": ["user_id", "last_n"],
+                    },
+                },
+            }
+        ]
+
+        messages = [
+            {"role": "system", "content": (
+                f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems. "
+                f"You are currently assisting User ID: {user_id}. "
+                f"Protocol: "
+                f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "
+                f"2. Ask questions ONE BY ONE to the user. Do not show them all at once. "
+                f"3. After each response, use 'log_answer' to record if they were correct based on 'internal_correct_answer'. "
+                f"4. Once the requested count is reached, use 'get_session_summary' with the correct count to show their final score."
+            )}
         ]
         
-        # Create a new chat session using the unified SDK
-        chat_session = client.chats.create(
-            model=MODEL_ID,
-            config={
-                'tools': tools,
-                'system_instruction': (
-                    f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems. "
-                    f"You are currently assisting User ID: {user_id}. "
-                    f"Protocol: "
-                    f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "
-                    f"2. Ask questions ONE BY ONE to the user. Do not show them all at once. "
-                    f"3. After each response, use 'log_answer' to record if they were correct based on 'internal_correct_answer'. "
-                    f"4. Once the requested count is reached, use 'get_session_summary' with the correct count to show their final score."
-                )
-            },
-            history=[
-                {'role': h['role'], 'parts': [{'text': h['text']}]} for h in history
-            ]
-        )
+        for h in history:
+            role = "assistant" if h["role"] == "model" else h["role"]
+            messages.append({"role": role, "content": h["text"]})
         
-        response = await chat_session.send_message_async(message)
-        return response.text
+        messages.append({"role": "user", "content": message})
+
+        response = await async_client.chat.completions.create(
+            model=MODEL_ID,
+            messages=messages,
+            tools=tools,
+            tool_choice="auto"
+        )
+
+        response_message = response.choices[0].message
+        
+        if response_message.tool_calls:
+            messages.append(response_message)
+            
+            for tool_call in response_message.tool_calls:
+                function_name = tool_call.function.name
+                function_args = json.loads(tool_call.function.arguments)
+                
+                # Execute the corresponding method
+                method = getattr(self, function_name)
+                # Ensure the result is a string
+                result = method(**function_args)
+                function_response = json.dumps(result) if not isinstance(result, str) else result
+                
+                messages.append({
+                    "tool_call_id": tool_call.id,
+                    "role": "tool",
+                    "name": function_name,
+                    "content": function_response,
+                })
+            
+            second_response = await async_client.chat.completions.create(
+                model=MODEL_ID,
+                messages=messages,
+            )
+            return second_response.choices[0].message.content
+        
+        return response_message.content
