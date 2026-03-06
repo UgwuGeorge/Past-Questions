@@ -49,6 +49,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
             const name = e.name.toUpperCase();
             const display = displayName.toUpperCase();
             if (name === display) return true;
+            if (display === 'JAMB' && (name === 'UTME' || name.includes('JAMB'))) return true;
             if (display === 'THE BAR EXAM' && name.includes('BAR')) return true;
             if (display === 'MED/NURSING LICENSE' && (name.includes('MED') || name.includes('NURSING'))) return true;
             if (display === 'NNPC/TOTAL ENERGIES' && (name.includes('NNPC') || name.includes('TOTAL'))) return true;

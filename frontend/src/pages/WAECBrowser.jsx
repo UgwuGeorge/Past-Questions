@@ -6,7 +6,7 @@ import GlowCard from '../components/GlowCard';
 
 const API_BASE = "http://localhost:8000/api";
 
-export default function WAECBrowser({ onExit }) {
+export default function WAECBrowser({ onExit, examId: propExamId }) {
     const [view, setView] = useState('subjects'); // subjects | years | exam | results
     const [subjects, setSubjects] = useState([]);
     const [selectedSubject, setSelectedSubject] = useState(null);
@@ -22,7 +22,7 @@ export default function WAECBrowser({ onExit }) {
     const [timeLeft, setTimeLeft] = useState(3600);
     const [isSubmitted, setIsSubmitted] = useState(false);
 
-    const examId = 2; // WAEC is ID 2
+    const examId = propExamId || 10; // Use prop or default to 10 (which is WAEC now)
 
     useEffect(() => {
         const fetchSubjects = async () => {

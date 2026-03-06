@@ -64,7 +64,7 @@ function App() {
       )}
 
       {view === 'waec_practice' && (
-        <WAECBrowser onExit={goBack} />
+        <WAECBrowser onExit={goBack} examId={selectedExamId} />
       )}
 
       {view === 'pdf_repo' && (
