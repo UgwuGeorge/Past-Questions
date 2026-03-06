@@ -1,0 +1,189 @@
+[
+  {
+    "id": 43,
+    "question": "The trigonometric expression cos2A + sin 2A can be written as:  ",
+    "option": {
+      "a": "cosA(cosA + sinA)  ",
+      "b": "B.cos2A + sin2A – 2sinAcosA,  ",
+      "c": "2sinAcosA + cos2A + sin2A,  ",
+      "d": "D.cos2A +sinA  – 2sinAcosA",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 486,
+    "question": "If x - 3 is directly proportional to the square of y and x = 5 when y =2, find x when y = 6.",
+    "option": {
+      "a": "30",
+      "b": "21",
+      "c": "16",
+      "d": "12",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "(x – 3) ∝ y<sup>2</sup>\nX-3 = Ky<sup>2</sup>\nK = X-3 / y<sup>2</sup>\n= 5-2/2<sup>2</sup>\n= 2/4\n= 1/2\n∴X-3 = 1/2y<sup>2</sup>\nX-3 = 1/2 (6)<sup>2</sup>\nX-3 = 1/2 x 36/1\nX-3 = 18\nX = 21",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 512,
+    "question": "Find the mean deviation of 2, 4, 5, and 9",
+    "option": {
+      "a": "1",
+      "b": "2",
+      "c": "5",
+      "d": "7",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1715546297/ALOC-Questions/Mathematics/2008/MATH_2008_Q41_SOLUTION_hoqtce.jpg",
+    "answer": "b",
+    "solution": "X = 20/4\n= 5\nmean deviation = 8/4 = 2",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 37,
+    "question": "Dividing 2x3 – x2 – 5x + 1 by x  + 3 gives the remainder ",
+    "option": {
+      "a": ".-3",
+      "b": "47",
+      "c": "61",
+      "d": "-47",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 496,
+    "question": "Find the area of the figure above\n[π = 22/7]",
+    "option": {
+      "a": "12.5 cm2",
+      "b": "75.0 cm2",
+      "c": "78.5 cm2",
+      "d": "84.8 cm2",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1715546154/ALOC-Questions/Mathematics/2008/MATH_2008_Q25_stpony.jpg",
+    "answer": "d",
+    "solution": "Area of the figure = Area of rect + area of semi circle                                   =L×h+1/2 πr<sup>2</sup> 5×15+1/2×22/7×〖(5/2)〗<sup>2</sup>=75+((22×25))/(2×7)=75+9 23/28=84.8cm",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 476,
+    "question": "calculate the simple interest on N7,500 for 8 years at 5% per annum.",
+    "option": {
+      "a": "N3,000",
+      "b": "N600",
+      "c": "N300",
+      "d": "N150",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "I=(P×T×R)/100 = (7500 × 8 × 5)/100 = N3000",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 495,
+    "question": "In the diagram above ∠ OPQ is",
+    "option": {
+      "a": "90°",
+      "b": "53°",
+      "c": "36°",
+      "d": "26°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1715545897/ALOC-Questions/Mathematics/2008/MATH_2008_Q24_fuxeah.jpg",
+    "answer": "b",
+    "solution": "a = a(base ∠ s of Iss Δ)\n− a+a+74 = 180\n2a + 74 = 180\n2a = 180-74\n2a = 106\na = 53\n−∠ OPQ = 53°",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 509,
+    "question": "What is the mean of the data t, 2t-1, t-2, 2t-1, 4t and 2t+2?",
+    "option": {
+      "a": "2t",
+      "b": "2t-1",
+      "c": "2/3t+1",
+      "d": "2t-1/3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Mean=(t+2t-1+t-2+2t-14t+2t+2)/6 Mean=(12t-2)/6=(2(6t-1))/6=(6t-1)/3=6t/3-1/3=2t-1/3",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 475,
+    "question": "Express 123456 to 3 significant figures",
+    "option": {
+      "a": " 123000",
+      "b": "124000",
+      "c": "125000",
+      "d": "126000",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "NB: This is a correction to the solution in the video lesson.\n123456 ≊\n 123000.",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 38,
+    "question": "The difference of two numbers is 10, while their product is 39. Find these numbers",
+    "option": {
+      "a": "– 3 and 10 or 13 and 10,",
+      "b": "3 and – 10 or 3 and 13,  ",
+      "c": "3 and – 3 or 3 and 13,     ",
+      "d": " – 3 and – 13 or   13 and  3 ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 503,
+    "question": "Differentiate sin x - x cos x",
+    "option": {
+      "a": "x cos x",
+      "b": " x sin x",
+      "c": "-x cos x",
+      "d": " -x sin x",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "sin x - x cos x\ndy/dx = cos x - [1.cos x + x -sin x]\n= co x - [cos x - x sin x]\n= cos x - cos x + x sin x\n= x sin x",
+    "examtype": "utme",
+    "examyear": "2008"
+  }
+]

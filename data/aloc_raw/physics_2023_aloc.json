@@ -1,0 +1,104 @@
+[
+  {
+    "id": 540,
+    "question": "The diagram above illustrates the penetrating power of some types of radiation. X, Y and Z are likely\n",
+    "option": {
+      "a": "X = α-particle; Y = γ-ray; Z = β-particle",
+      "b": "X = α-particle; Y = β-particle; Z = γ-ray",
+      "c": " X = γ-ray; Y = α-particle; Z = β-particle",
+      "d": "X = β-particle; Y = γ-ray; Z = α-particle",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614989/ALOC-Questions/Physics/2023/physics_2023-Q41_rawrld.png",
+    "answer": "c",
+    "solution": "The penetrating power of alpha rays, beta rays, and gamma rays varies greatly. Alpha particles can be blocked by a few pieces of paper. Beta particles pass through paper but are stopped by aluminum foil. Gamma rays are the most difficult to stop and require concrete, lead, or other heavy shielding to block them.\n\nTherefore, X = γ-ray; Y = α-particle; Z = β-particle",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 539,
+    "question": "The sensitivity of a thermometer is",
+    "option": {
+      "a": "All of the above",
+      "b": "how quickly a temperature change can be detected",
+      "c": " the difference between the maximum and the minimum temperature",
+      "d": "the smallest temperature change that can be detected or measured",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The sensitivity of a thermometer is defined as the smallest temperature change that can be detected or measured, NOT how quickly that temperature change can be detected.\n\nIn contrast, the difference between the maximum and the minimum temperature is the range of a thermometer",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 516,
+    "question": "A man swung an object of mass 2 kg in a circular path with a rope 1.2 m long. If the object was swung at 120 rev/min, find the tension in the rope.",
+    "option": {
+      "a": "400",
+      "b": "288",
+      "c": "240",
+      "d": "379",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nMass, m = 2 kg\nRadius (rope length), r = 1.2 m\nFrequency, f = 120 rev/min\nTension, T = ?\n\nSolution:\nStep 1: Convert frequency to rev/s\nf = 120 rev/min = 120/60 rev/s\nf = 2 rev/s = 2 Hz\nStep 2: Calculate angular velocity\nω = 2πf\nω = 2 × π × 2\nω = 4π rad/s\nω = 12.566 rad/s\nStep 3: Calculate centripetal force (tension)\nFor horizontal circular motion, tension provides the centripetal force:\nT = mω²r\nT = 2 × (12.566)² × 1.2\nT = 2 × 157.914 × 1.2\nT = 2 × 189.497\nT = 378.99 N\nT ≈ 379 N",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 505,
+    "question": "Calculate the absolute pressure at the bottom of a lake at a depth of 32.8 m. Assume the density of the water is 1 × 10³ kgm⁻³ and the air above is at a pressure of 101.3 kPa. [Take g = 9.8 ms⁻²]",
+    "option": {
+      "a": " 422.7 kPa",
+      "b": " 220.14 kPa",
+      "c": "464.53 kPa",
+      "d": "321.74 kPa",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nDepth, h = 32.8 m\nDensity of water, ρ = 1 × 10³ kg/m³ = 1000 kg/m³\nAtmospheric pressure, P₀ = 101.3 kPa = 101,300 Pa\nAcceleration due to gravity, g = 9.8 m/s²\nAbsolute pressure, P = ?\n\nSolution:\nUsing the absolute pressure formula:\nP = P₀ + ρgh\nWhere:\n\nP₀ = atmospheric pressure\nρgh = pressure due to water column\n\nStep 1: Calculate pressure due to water column\nP_water = ρgh\nP_water = 1000 × 9.8 × 32.8\nP_water = 321,440 Pa\nP_water = 321.44 kPa\nStep 2: Calculate absolute pressure\nP = P₀ + P_water\nP = 101.3 + 321.44\nP = 422.74 kPa\nP ≈ 422.7 kPa",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 547,
+    "question": "When light of a certain frequency is incident on a metal surface, no photoelectrons are emitted. If the frequency of the light is increased, what happens to the stopping potential?",
+    "option": {
+      "a": "The stopping potential does not change.",
+      "b": "The stopping potential decreases.",
+      "c": "The stopping potential can either increase or decrease, depending on the intensity of the light.",
+      "d": "The stopping potential increases.",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The stopping potential is the voltage that is required to stop the emitted photoelectrons from reaching the anode. When the frequency of the light is increased, the kinetic energy of the emitted photoelectrons also increases. This means that a higher stopping potential will be required to stop the photoelectrons from reaching the anode.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 517,
+    "question": "A 200 kg load is raised using a 110 m long lever as shown in the diagram above. The load is 10m from the pivot P. If the efficiency of the lever is 80%, find the effort E required to lift the load. [Take g = 10ms⁻²]",
+    "option": {
+      "a": " 250 N",
+      "b": "300 N",
+      "c": "450 N",
+      "d": "200 N",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614819/ALOC-Questions/Physics/2023/physics_2023-Q18_fexzla.jpg",
+    "answer": "a",
+    "solution": "Given information:\n\nMass of load, m = 200 kg\nTotal lever length = 110 m\nLoad distance from pivot, d_load = 10 m\nEffort distance from pivot, d_effort = 110 - 10 = 100 m\nEfficiency, η = 80% = 0.8\nAcceleration due to gravity, g = 10 m/s²\nEffort required, E = ?\n\nSolution:\nStep 1: Calculate the load force (weight)\nLoad = mg\nLoad = 200 × 10\nLoad = 2000 N\nStep 2: Apply the principle of moments for ideal lever\nFor an ideal lever (100% efficiency):\nLoad × d_load = Effort × d_effort\n2000 × 10 = E_ideal × 100\n20,000 = E_ideal × 100\nE_ideal = 200 N\nStep 3: Account for efficiency\nSince efficiency = 80%, more effort is needed:\nEfficiency = (Ideal Effort/Actual Effort) × 100%\n0.8 = 200/E_actual\nE_actual = 200/0.8\nE_actual = 250 N",
+    "examtype": "utme",
+    "examyear": "2023"
+  }
+]

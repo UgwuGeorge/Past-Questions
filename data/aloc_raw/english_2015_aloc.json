@@ -1,20 +1,282 @@
-{
-  "id": 1727,
-  "question": "Each of the contestants --------------- a chance now",
-  "option": {
-    "a": "has",
-    "b": "have",
-    "c": "get",
-    "d": "gets",
-    "e": ""
+[
+  {
+    "id": 1735,
+    "question": "From the words lettered A to D, choose the word that has the same <b>vowel</b> sound as the one represented by the underlined letters or letters underlined.\n\nBr<u>ou</u>ght",
+    "option": {
+      "a": "roar",
+      "b": "plough",
+      "c": "drought",
+      "d": "worse",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The word ‘bought’ is transcribed /bc:t/ and it is the long vowel sound of /Ɔ/. The answer is A ‘roar’ /rc:r/ or /rc:r/ and it is the long vowel sound as ‘bought’ /bc:t/. the others have different vowel sounds like ‘plough’ /plau/, which has the diphthong /au/, ‘drought’ /draut/, also with the diphthong /au/ and ‘worse’ /wƷ:s/ which has a different sound.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 48,
+    "hasPassage": 0,
+    "category": "others"
   },
-  "section": "From the options, choose the word(s) that best filll the gap.     ",
-  "image": "",
-  "answer": "a",
-  "solution": "The answer is \u2018A\u2019 has because it signifies form. According to the law of concord \u2018each\u2019 signifies \u2018are\u2019 and it has to go with a singular verb and not plural",
-  "examtype": "utme",
-  "examyear": "2015",
-  "questionNub": 40,
-  "hasPassage": 0,
-  "category": "others"
-}
+  {
+    "id": 1706,
+    "question": "In three words, describe the principal ( Mr. Mallum) as described in the novel.",
+    "option": {
+      "a": "small, wiry and spoke through his nose",
+      "b": "fat, smooth-cheeked and loved his job",
+      "c": "tall, good- looking and funny",
+      "d": " wicked, ugly and tall.",
+      "e": ""
+    },
+    "section": "This question is from the novel 'The Last Days at Forcados High school'.\n",
+    "image": "",
+    "answer": "a",
+    "solution": "In chapter two, we were meant to understand that Mr.Mallum was a small, wiry man with an odd accent, as if he spoke through his nose.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 19,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1729,
+    "question": "It was a funny episode, I ----------------",
+    "option": {
+      "a": "Can’t help to laugh",
+      "b": " Couldn’t help laugh",
+      "c": " couldn’t help laughing",
+      "d": " couldn’t help to laugh",
+      "e": ""
+    },
+    "section": "From the options, choose the word(s) that best filll the gap.     ",
+    "image": "",
+    "answer": "c",
+    "solution": "The correct answer is (C) because a sentence is arrange in a formation which is (subject, verb and object) the subject is the doer of the action , the verb is the action (auxiliary + lexical/ main verb) and the object which is the receiver of the action.\nI couldn’t help laughing = past continuous tense\nSubject (I) auxiliary verb (couldn’t) hexical verb (help)\nThe other options are disarranged and not appropriate",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 42,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1709,
+    "question": "From the words lettered A to D, choose the word that rhymes with the given word.\n\nBreeze",
+    "option": {
+      "a": "stress",
+      "b": "chess",
+      "c": "free",
+      "d": "trees",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The answer is ‘D’ because only ‘trees’ /tri:z/ whose plural form ‘-s’ becomes ‘-z’ rhymes with ‘breeze’ /bri:z/. The other options ‘stress’ and ‘chess’ have similar rhymes, leaving free /fri:/ alone",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 22,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1739,
+    "question": "<u>Z</u>oo",
+    "option": {
+      "a": "assault",
+      "b": "assist",
+      "c": "release",
+      "d": "please",
+      "e": ""
+    },
+    "section": "From the words lettered A to D, choose the word that has the same consonant sounds as the one represented by the letters underlined.",
+    "image": "",
+    "answer": "d",
+    "solution": "zoo; /zuː/\n\nplease; /pliːz/",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 52,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1755,
+    "question": "Choose the option that best fills the gap.\n\nMost of his personal ---------------stolen",
+    "option": {
+      "a": " effects were",
+      "b": "affects was",
+      "c": "effects was",
+      "d": "defects",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The correct answer is ‘A’ ‘effects were’ because the word ‘effects in this context  means belongings / luggages or properties. The word ‘defect’ means ‘a fault or malfunction. The other options are totally incorrect.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 68,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1753,
+    "question": "From the words lettered A to D, choose the word that has the same vowel sound as the one represented by the underlined letters or letters underlined.\n\ngran<u>i</u>te",
+    "option": {
+      "a": "lean",
+      "b": "sit",
+      "c": "contrite",
+      "d": "light",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The answer is B because the word ‘sit’ has the same vowel sound as the one underlined in ‘granite. The letter ‘I’in granite represent the short vowel. Sound /i/ and not the diphthong /ai/. Granite /graenit/ not /grænait/ /sit/ for sit.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 66,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1718,
+    "question": "From the words lettered A to D, choose the word that has the same vowel sound as the one represented by the underlined letters or letters underlined.\n\nP<u>ur</u>se",
+    "option": {
+      "a": "journey",
+      "b": "pays",
+      "c": "heart",
+      "d": "course",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The answer as regards the word purse /pƷ:s/ is journey /dzƷ:ni/ because it has the same vowel sound 'uh'.\n\n‘journey’ is the answer as opposed to the other options; pays \\ˈpā\\. heart /ha:t/ which has the long vowel /a:/ and course /kc:s/",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 31,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1727,
+    "question": "Each of the contestants --------------- a chance now",
+    "option": {
+      "a": "has",
+      "b": "have",
+      "c": "get",
+      "d": "gets",
+      "e": ""
+    },
+    "section": "From the options, choose the word(s) that best filll the gap.     ",
+    "image": "",
+    "answer": "a",
+    "solution": "The answer is ‘A’ has because it signifies form. According to the law of concord ‘each’ signifies ‘are’ and it has to go with a singular verb and not plural",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 40,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1693,
+    "question": "This question is from the novel 'The Last Days at Forcados High school'.\n\nWho was the teacher to whom the students called “cane”?",
+    "option": {
+      "a": "Mr Bade",
+      "b": "Mr Okoro",
+      "c": "Mama Silifat",
+      "d": "Mr Solade",
+      "e": ""
+    },
+    "section": " ",
+    "image": "",
+    "answer": "a",
+    "solution": "The novel described Teacher Bade as “cane” because he was always waiting for the next helpless kid who will fail into his trap",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 6,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1720,
+    "question": "From the words lettered A to D, choose the word that has the same vowel sound as the one represented by the underlined letters or letters underlined.\n\nSh<u>oe</u>",
+    "option": {
+      "a": "full",
+      "b": "food",
+      "c": "put",
+      "d": "blood",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The answer is B because ‘food’ /fu:d/ has exactly the same vowel sound as ‘shoe’ /su:l/ and it is the long vowel sound of full. The other words in the options. ‘blood’ /blnd/, ‘full’ /ful/ (short form of /u:/ and course /’put’ /put/.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 33,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1710,
+    "question": "Select the wrongly spelt words",
+    "option": {
+      "a": "quite",
+      "b": "believe",
+      "c": "proceed",
+      "d": "advise/advice",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The correct answer is ‘B’ ‘beleive’ which is properly spelt as ‘believe’. The others on the list are properly spelt",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 23,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1752,
+    "question": "‘Jims, we have a prefect meeting with Mr Mallum now’ who made this statement?",
+    "option": {
+      "a": "Seyi Lawal",
+      "b": "Mr Mallum",
+      "c": "Mrs. Solade",
+      "d": "Femi",
+      "e": ""
+    },
+    "section": "This question is from the novel 'The Last Days at Forcados High school'.",
+    "image": "",
+    "answer": "a",
+    "solution": "This statement was made by the headboy, Seyi Lawal when he was asked to call Jimi for a meeting by the principal, Mr Mallum.\n\nSee page 9",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 65,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1740,
+    "question": "<u>Ch</u>alet",
+    "option": {
+      "a": "champion",
+      "b": "chair",
+      "c": "champagne",
+      "d": "cheapen",
+      "e": ""
+    },
+    "section": "From the words lettered A to D, choose the word that has the same consonant sounds as the one represented by the letters underlined.",
+    "image": "",
+    "answer": "c",
+    "solution": "The answer is ‘C’ because only’ champagne’ /ʃæmpeIn/ has the same constant sound as ‘chalet’ ʃæl.eI/.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 53,
+    "hasPassage": 0,
+    "category": "others"
+  }
+]

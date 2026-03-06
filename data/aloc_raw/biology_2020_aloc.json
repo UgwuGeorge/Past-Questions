@@ -1,0 +1,36 @@
+[
+  {
+    "id": 192,
+    "question": "The most abundant group of organism in the animal kingdom is",
+    "option": {
+      "a": "Mammalian",
+      "b": "Aves  ",
+      "c": "Annelida  ",
+      "d": "Insecta",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 143,
+    "question": "The mammalian vain which starts with and ends in a capillary network is the",
+    "option": {
+      "a": "hepatic portal vein",
+      "b": "pulmonary vein  ",
+      "c": "renal vein",
+      "d": "measenteric vein",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  }
+]

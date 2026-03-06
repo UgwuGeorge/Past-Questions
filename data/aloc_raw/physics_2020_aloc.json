@@ -1,0 +1,138 @@
+[
+  {
+    "id": 392,
+    "question": "What is the cost of running five 50W lamps and four 100W lamps for 10 hours if electrical energy costs 2 Kobo per KWh?",
+    "option": {
+      "a": "N0.65",
+      "b": " N0.39",
+      "c": "N3.90",
+      "d": "N0.13",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nFive 50W lamps\nFour 100W lamps\nTime = 10 hours\nCost per kWh = 2 Kobo = N0.02\nTotal cost = ?\n\nStep 1: Calculate total power\nPower from 50W lamps = 5 × 50 = 250W\nPower from 100W lamps = 4 × 100 = 400W\nTotal power = 250 + 400 = 650W = 0.65kW\nStep 2: Calculate energy consumed\nEnergy = Power × Time\nEnergy = 0.65kW × 10 hours\nEnergy = 6.5 kWh\nStep 3: Calculate total cost\nCost = Energy × Rate\nCost = 6.5 × N0.02\nCost = N0.13",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 406,
+    "question": "Which of the following conditions are necessary and sufficient for total internal reflection to take place at the boundary between two optical media?\n\nI. Light is passing from optical denser medium to optically less dense medium\n\nII. Light is passing from optically less dense medium to optically denser medium\n\nIII. Angle of incidence is greater than a certain critical value\n\nIV. Angle of incidence is lesser  than a certain critical value",
+    "option": {
+      "a": " I and II only",
+      "b": " II only III only",
+      "c": " III and IV only",
+      "d": "I and III only",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The conditions for total internal reflection include light traveling from an optically denser medium (higher refractive index) to an optically less dense medium (lower refractive index) and that the angle of incidence is greater than the critical angle.",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 385,
+    "question": "Which of the following statements about radioactivity is true?\n\n(i) Alpha particle is positively charged\n\n(ii) Beta particle is negatively charged\n\n(iii) Gamma ray is neutral\n\n(iv) Beta particle has the  same mass as helium atom\n\n(v) Gamma ray is charged. ",
+    "option": {
+      "a": "i, ii, iii, iv only",
+      "b": "i, ii, iii only",
+      "c": "iv and v only",
+      "d": "i, ii and v only",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The true statements are: (i) alpha particles are positively charged, (ii) beta particles are negatively charged, and (iii) gamma rays are neutral.",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 384,
+    "question": "In what range of temperature is the expansion of water anomalous?",
+    "option": {
+      "a": "+208°C to +212°C",
+      "b": " -80°C to -76°C",
+      "c": "0°C to +4°C",
+      "d": "-4°C to +0°C",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Understanding anomalous expansion of water:\nNormal behavior: Most liquids expand when heated and contract when cooled.\nAnomalous behavior of water:\nBetween 0°C and 4°C, water behaves differently:\n\nWater contracts when heated from 0°C to 4°C (instead of expanding)\nWater expands when cooled from 4°C to 0°C (instead of contracting)\nWater has maximum density at 4°C\nBelow 0°C, water freezes and expands significantly\n\nWhy this matters:\n\nIce floats on water (less dense)\nAquatic life can survive in frozen lakes (ice on top, water below)\nThis anomaly is crucial for life on Earth\n\nAnalysis of options:\nA. +208°C to +212°C:\n\nNear boiling point; normal behavior ✗\n\nB. -80°C to -76°C:\n\nWater is solid (ice) at these temperatures ✗\n\nC. 0°C to +4°C:\n\nThis is the exact range of anomalous expansion ✓\n\nD. -4°C to +0°C:\n\nWater is solid (ice) below 0°C ✗\n\nAnswer: C. 0°C to +4°C",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 395,
+    "question": "A solid weighs 4.8g in air, 2.8g in water and 3.2g in Kerosine. The ratio of density of the solid to that of the kerosine is ",
+    "option": {
+      "a": "2",
+      "b": "3/2",
+      "c": "2/3",
+      "d": "3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nWeight in air (W_air) = 4.8g\nWeight in water (W_water) = 2.8g\nWeight in kerosene (W_kerosene) = 3.2g\nRatio of densities = ?\n\nStep 1: Calculate upthrust in water\nUpthrust in water = W_air - W_water\nUpthrust in water = 4.8 - 2.8 = 2.0g\nStep 2: Calculate upthrust in kerosene\nUpthrust in kerosene = W_air - W_kerosene\nUpthrust in kerosene = 4.8 - 3.2 = 1.6g\nStep 3: Use relationship between upthrust and density\nUpthrust = Volume × Density of liquid × g\nSince volume is constant:\nUpthrust in water / Upthrust in kerosene = Density of water / Density of kerosene\n2.0 / 1.6 = ρ_water / ρ_kerosene\nρ_water / ρ_kerosene = 5/4\nStep 4: Find density of solid using water\nUsing Archimedes' principle:\nDensity of solid / Density of water = W_air / Upthrust in water\nρ_solid / ρ_water = 4.8 / 2.0 = 2.4 = 12/5\nStep 5: Find ratio of solid to kerosene\nρ_solid / ρ_kerosene = (ρ_solid / ρ_water) × (ρ_water / ρ_kerosene)\nρ_solid / ρ_kerosene = (12/5) × (5/4) = 12/4 = 3",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 404,
+    "question": "A ship travelling towards a cliff receives the echo of its whistle after 3.5 seconds. A short while later, it receives the echo after 2.5 seconds. If the speed of sound in air under the prevalling condition is 250ms -1, how much closer is the ship to the cliff?",
+    "option": {
+      "a": "10m",
+      "b": "350m",
+      "c": "175m",
+      "d": "125m",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Difference in time = 1 sec\n\necho time = 1 ÷ 2 = 0.5 sec\n\nDifference of cliff from ship = 0.5 x 250\n\n= 125m",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 381,
+    "question": "The force required to make an object of mass m, travelling with velocity v, turn in a circle of radius r is",
+    "option": {
+      "a": "mv²/r",
+      "b": "mr²/v",
+      "c": "mrv",
+      "d": "mv/r²",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Understanding circular motion:\nFor an object moving in a circle at constant speed, a centripetal force is required to keep it moving in that circular path.\nCentripetal force formula:\nF = mv²/r\nwhere:\n\nm = mass of the object\nv = velocity (speed) of the object\nr = radius of the circular path\n\nDerivation concept:\n\nCentripetal acceleration = v²/r\nForce = mass × acceleration\nTherefore: F = m × (v²/r) = mv²/r",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 411,
+    "question": "A 2kg block is pulled along a horizontal frictionless surface by a constant horizontal force of 10N. If the block starts from rest, what is its velocity after 5 seconds?\n",
+    "option": {
+      "a": "5 m/s",
+      "b": " 10 m/s",
+      "c": "15 m/s",
+      "d": "25 m/s",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nMass (m) = 2 kg\nApplied force (F) = 10 N\nInitial velocity (u) = 0 m/s (starts from rest)\nTime (t) = 5 seconds\nFinal velocity (v) = ?\n\nStep 1: Calculate acceleration using Newton's Second Law\nF = ma\na = F/m\nSubstituting values:\na = 10/2\na = 5 m/s²\nStep 2: Calculate final velocity using equation of motion\nv = u + at\nSubstituting values:\nv = 0 + (5 × 5)\nv = 0 + 25\nv = 25 m/s",
+    "examtype": "utme",
+    "examyear": "2020"
+  }
+]

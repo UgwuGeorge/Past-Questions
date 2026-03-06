@@ -1,20 +1,242 @@
-{
-  "id": 1001,
-  "question": "The reason for lack of indigenous books in most renowned bookshop, according to the passage, is",
-  "option": {
-    "a": "Nigerians prefer reading foreign books",
-    "b": "foreign books attract more buyers",
-    "c": "indigenous books are sometimes not available",
-    "d": "the low quality of indigenous books",
-    "e": ""
+[
+  {
+    "id": 1059,
+    "question": "Her findings <u>exploded</u> widely held beliefs about learning.",
+    "option": {
+      "a": "challenged",
+      "b": "debunked",
+      "c": "projected",
+      "d": "confirmed",
+      "e": ""
+    },
+    "section": "In each of the questions 51 to 65 choose the option <b>nearest in meaning</b> to the underlined word or phrase.",
+    "image": "",
+    "answer": "b",
+    "solution": "In this context ''exploded '' means to show (a belief or theory) to be false or unfounded.\n\nDebunked; expose the falseness or hollowness of (an idea or belief).",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 65,
+    "hasPassage": 0,
+    "category": "others"
   },
-  "section": "Recent literary researches reveal that Nigerians hardly have time to read . In essence, the reading culture in Nigeria is now at a low ebb. It is disturbing, however, that few Nigerians that read concentrate more on foreign books than indigenous productions. Most Nigerian authors of novels, storybooks, fictions and non-fiction series have decried, on different occasions, their woes. They were bitter at the way most owners of bookshops and publishers treat them. It was gathered to stock foreign books. When contacted by DAILY INDEPENDENT, the general manager of a popular bookstore on Lagos island declared that most of the bookshops preferred to stock foreign books because of higher demands for them. The question that bothers most Nigerian authors is, while their overseas counterparts are being rewarded with great international honours, why are Nigerians not awarding them such recognition in their own country?<br><br>Recently, \"Nigerian novelist, Chimamanda Ngozi Adichie, won the 2007 Orange Prize Award, the literary world's top award for fiction in English written by women. The award carries a prize tag of $30,000 it was reported in Publishers Weekly, Half of a Yellow Sun, the book that earned her the award, was profoundly gripping. According to the reviewer, the book is a transcendent novel of many descriptive triumphs, most notably its diction of the impact of war brutalities on peasants and intellectuals alike. It is searing history in fictional form, intensely evocative and immensely absorbing. Chinua Achebe, 'Father of Modern African Literature, also won the second ever Man Booker International Prize of \u00a360,000 with his first novel Things Fall Apart, published in 1958. When Professor Wole Soyinka won the Nobel Prize for Literature in 1986, the fame confirmed the relevance of Nigerians in the world of classical excellence. Ben Okri won the 1991 Booker Prize with his work, The\nFamished Road, and the world celebrated Nigeria as the giant of Africa.<br><br>It was also, gathered that most of the publishers hurriedly produce books and in the process marred their good contents. Most of the books are not properly edited and eventually become substandard when compared with foreign products. The extent to which book publishing standard has fallen in Nigeria is alarming. Often Nigerian publishers have been blamed for this. It is instructive that none of the books mentioned had been published in Nigeria. It was discovered that most students in tertiary institution depend on dictations from their lectures and /or handouts. A science lecturer in one of the Nigeria universities, who had been a victim of handout sales scandal, told DAILY INDEPENDENT the reality of campus challenges in relation to books; I was forced to dictate notes slowly to students who hung on my every word in the absence of textbooks in a library that had, to all intent and purpose, stopped buying new books when the local currency was devalued. But what other alternative does one have?<br><br>Adapted from DAILY INDEPENDENT, Monday, 20 August, 2008",
-  "image": "",
-  "answer": "b",
-  "solution": "That most of the bookshops preferred to stock foreign books because of higher demands for them",
-  "examtype": "utme",
-  "examyear": "2012",
-  "questionNub": 7,
-  "hasPassage": 1,
-  "category": "passage-b"
-}
+  {
+    "id": 1029,
+    "question": "As far as Abu is concerned , Mero should be given fifty naira at the most",
+    "option": {
+      "a": " All Abu is concerned with is that Mero should be given nothing more than fifty naira",
+      "b": "All Abu is saying is that Mero probably desrves more than fifty naira and not less",
+      "c": "In Abu's estimation, Mero merits not more than fifty naira",
+      "d": "In Abu's opinion, Mero deserves fifty naira or probably more",
+      "e": ""
+    },
+    "section": "<b>LEXIS, STRUCTURE AND ORAL FORMS</b>\nIn each of question 26 to 35, select the option \nthat best explains the information conveyed in \nthe sentence",
+    "image": "",
+    "answer": "a",
+    "solution": "at the most means, not more than. ",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 35,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1014,
+    "question": "Choose the most appropriate answer in the gap numbered 20",
+    "option": {
+      "a": "prevented",
+      "b": "managed",
+      "c": "discovered",
+      "d": "stopped",
+      "e": ""
+    },
+    "section": "The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. <br><br>The medical definition of miscarriage is the spontaneous loss of a pregnancy before twenty-four weeks. Miscarriage is very common, occurring in ten to twenty percent, of confirmed pregnancies. Most of those feature ....16... twelve weeks of pregnancy. The most common ....17... is vaginal bleeding, which can range from light spotting to heavier than a period. You may see blood clots, brown discharge or other tissues that are not....18.... identifiable. Sometimes a sac-like structure is seen. Often, there is cramping with pelvic or back pain.<br><br>You may find that the usual symptoms of pregnancy, such as breast tenderness, feeling sick, and having to pass urine more....19... than usual stop unexpectedly. Sometimes there are no signs or symptoms of miscarriage and pregnancy symptoms continue, and the miscarriage only ......20..... in a routine scan. About half of all early miscarriages happen because of a problem in the way the genetic material from the egg and sperm have combined during......21.... it can be difficult to find out why this has ....22...., but it is more likely to be due to random chance than to any underlying problem with either parent. Imbalances in pregnancy hormones, problems in the immune...23....,and some serious infections are also thought to make miscarriages more likely. The risk of miscarriage......24..... with age because the quality of eggs deteriorates. If a woman drinks too much alcohol or smokes heavily, the risk of miscarriage is higher. It is also increased with ....25... pregnancies such as twins.<br><br>Adapted from Saturday punch, 13 October 2011",
+    "image": "",
+    "answer": "c",
+    "solution": "Discovered; find unexpectedly or during a search.",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 20,
+    "hasPassage": 1,
+    "category": "register"
+  },
+  {
+    "id": 1033,
+    "question": "Bola always looks <u>sober</u>",
+    "option": {
+      "a": "excited",
+      "b": "serious",
+      "c": "worried",
+      "d": "hapless",
+      "e": ""
+    },
+    "section": "In each of the questions 36 to 50 choose the option <b>opposite</b> in meaning to the underlined word or phrase.\n",
+    "image": "",
+    "answer": "a",
+    "solution": "sober;serious, sensible, and solemn",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 39,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1041,
+    "question": "The presidential system is an <u>antidote</u> to some political ailments.",
+    "option": {
+      "a": " an answer",
+      "b": " an inquiry",
+      "c": " a reply",
+      "d": " an obstacle",
+      "e": ""
+    },
+    "section": "In each of the questions 36 to 50 choose the option <b>opposite</b> in meaning to the underlined word or phrase.\n",
+    "image": "",
+    "answer": "d",
+    "solution": "Antidote; something that counteracts an unpleasant feeling or situation. \n\nObstacle; a thing that blocks one's way or prevents or hinders progress.",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 47,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1008,
+    "question": "According to the passage, we must be disciplined to",
+    "option": {
+      "a": "make experience our best teacher in reality",
+      "b": "learn from our experiences in future",
+      "c": "choose the learning opportunity that comes our way",
+      "d": "decide against making experience our teacher",
+      "e": ""
+    },
+    "section": "It is said that experience is the best teacher, but to learn consciously through wisdom may even be a better and more convenient way. T learn by experience is to learn from mistakes. It means you have burnt our fingers and now your eyes are open'. This is a tough, costly and inconvenient way to learn. Rather than leaving our learning to experience, why do we not learn consciously going out way to acquire knowledge and wisdom rather than leave our learning to chance.\nSurely, we can learn from mistakes but why wait till when we make mistakes before we lean? We should give more premium to learning by wisdom than by experience.<br><br>This will involve one making up ones mind to be decisive in learning. We must decide to learn consciously and not necessarily from negative experiences. The first step is to realize that life is simply the outcome and outplay of decisions. Our life now is the sum total of our decisions and our future will be determined by our decisions. Our life now is the sum total of our decisions and our future will be determined by our decisions of today. If we decide to learn today we are not likely to make mistakes and when we do not make mistakes, experience need not be our best teacher.<br><br>To avoid making experience our best teacher will take more than a decision. We must couple our decision with a complete and - wholehearted devotion. We must be resolved, resolute and resilient in our bid to learn by wisdom and not necessarily by experience. This is crucial because situations and circumstances will want us to make a detour and leave our learning and life to chance. We must therefore be disciplined to remain with our resolve to make a clean break with experience as our best teacher. Disciplined in this regard means learning something new everyday by wisdom rather than rather than experience. It\nmeans consciously getting better by the day in your chosen field.\nDiscipline will demand taking advantage of every learning opportunity that comes our way. It will mean we must pay the price for learning by wisdom -invest in books, magazines, seminars and other means by which we may become wiser.<br><br>It is much easier and cheaper to learn consciously by wisdom than to learn by experience. When we learn by experience, the deed is done and we are just picking up the pieces-learning in regret how to avoid such predicament next time. Consider the child who grapes a burning coal, he has learned the hard way through the painful experience, but his fingers will remain burnt. Thus the saying, that experience is the best teacher, may not be justifiable after all.<br><br>Adapted from Sunday Tribune, July 2010",
+    "image": "",
+    "answer": "d",
+    "solution": "According to the passage, We should give more premium to learning by wisdom than by experience. we shouldn't  leave our learning to chance",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 14,
+    "hasPassage": 1,
+    "category": "passage-c"
+  },
+  {
+    "id": 1018,
+    "question": "Choose the most appropriate answer in the gap numbered 24",
+    "option": {
+      "a": "increase",
+      "b": "starts",
+      "c": "reduces",
+      "d": "appears",
+      "e": ""
+    },
+    "section": "The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. <br><br>The medical definition of miscarriage is the spontaneous loss of a pregnancy before twenty-four weeks. Miscarriage is very common, occurring in ten to twenty percent, of confirmed pregnancies. Most of those feature ....16... twelve weeks of pregnancy. The most common ....17... is vaginal bleeding, which can range from light spotting to heavier than a period. You may see blood clots, brown discharge or other tissues that are not....18.... identifiable. Sometimes a sac-like structure is seen. Often, there is cramping with pelvic or back pain.<br><br>You may find that the usual symptoms of pregnancy, such as breast tenderness, feeling sick, and having to pass urine more....19... than usual stop unexpectedly. Sometimes there are no signs or symptoms of miscarriage and pregnancy symptoms continue, and the miscarriage only ......20..... in a routine scan. About half of all early miscarriages happen because of a problem in the way the genetic material from the egg and sperm have combined during......21.... it can be difficult to find out why this has ....22...., but it is more likely to be due to random chance than to any underlying problem with either parent. Imbalances in pregnancy hormones, problems in the immune...23....,and some serious infections are also thought to make miscarriages more likely. The risk of miscarriage......24..... with age because the quality of eggs deteriorates. If a woman drinks too much alcohol or smokes heavily, the risk of miscarriage is higher. It is also increased with ....25... pregnancies such as twins.<br><br>Adapted from Saturday punch, 13 October 2015",
+    "image": "",
+    "answer": "a",
+    "solution": "Increase; a rise in the size, amount, or degree of something.",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 24,
+    "hasPassage": 1,
+    "category": "register"
+  },
+  {
+    "id": 1089,
+    "question": "",
+    "option": {
+      "a": "madam",
+      "b": "eighteen",
+      "c": "invent",
+      "d": "command",
+      "e": ""
+    },
+    "section": "<b>In each of the questions, 95 to 97 choose the option that has the stress on the first syllable</b>",
+    "image": "",
+    "answer": "a",
+    "solution": "One common pronunciation convention many guides provide is that nouns and adjectives with two or more syllables will have stress placed on the first syllable, while verbs and prepositions tend to have their stress on the second syllable",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 95,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1050,
+    "question": "Akin is an <u>inveterate</u> gambler",
+    "option": {
+      "a": "a selfish and self-centred",
+      "b": "an extremely unlucky but popular",
+      "c": " an incurable but fearful",
+      "d": "a long time incorrigible",
+      "e": ""
+    },
+    "section": "In each of the questions 51 to 65 choose the option <b>nearest in meaning</b> to the underlined word or phrase.",
+    "image": "",
+    "answer": "d",
+    "solution": "Inveterate; of one having a particular habit, activity, or interest that is long-established and unlikely to change.\n\nIncorrigible; (of a person or their behaviour) not able to be changed or reformed.",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 56,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1020,
+    "question": "Hardworking students must not have a finger in every pie at school.",
+    "option": {
+      "a": "Hardworking students must not have a role to play in most activities in the school",
+      "b": "Only hardworking students must participate in all activities in the school",
+      "c": "Hardworking students do not participate in all activities in the school",
+      "d": "Hardworking students must ask others to participate in school activities",
+      "e": ""
+    },
+    "section": "<b>LEXIS, STRUCTURE AND ORAL FORMS</b>\nIn each of question 26 to 35, select the option \nthat best explains the information conveyed in \nthe sentence",
+    "image": "",
+    "answer": "a",
+    "solution": "Someone who has a finger in every pie is involved in a lot of different activities or knows about a lot of different things.",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 26,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1019,
+    "question": "Choose the most appropriate answer in the gap numbered 25",
+    "option": {
+      "a": "complicated",
+      "b": "advance",
+      "c": "multiple",
+      "d": "confirmed",
+      "e": ""
+    },
+    "section": "The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. <br><br>The medical definition of miscarriage is the spontaneous loss of a pregnancy before twenty-four weeks. Miscarriage is very common, occurring in ten to twenty percent, of confirmed pregnancies. Most of those feature ....16... twelve weeks of pregnancy. The most common ....17... is vaginal bleeding, which can range from light spotting to heavier than a period. You may see blood clots, brown discharge or other tissues that are not....18.... identifiable. Sometimes a sac-like structure is seen. Often, there is cramping with pelvic or back pain.<br><br>You may find that the usual symptoms of pregnancy, such as breast tenderness, feeling sick, and having to pass urine more....19... than usual stop unexpectedly. Sometimes there are no signs or symptoms of miscarriage and pregnancy symptoms continue, and the miscarriage only ......20..... in a routine scan. About half of all early miscarriages happen because of a problem in the way the genetic material from the egg and sperm have combined during......21.... it can be difficult to find out why this has ....22...., but it is more likely to be due to random chance than to any underlying problem with either parent. Imbalances in pregnancy hormones, problems in the immune...23....,and some serious infections are also thought to make miscarriages more likely. The risk of miscarriage......24..... with age because the quality of eggs deteriorates. If a woman drinks too much alcohol or smokes heavily, the risk of miscarriage is higher. It is also increased with ....25... pregnancies such as twins.<br><br>Adapted from Saturday punch, 13 October 2016",
+    "image": "",
+    "answer": "c",
+    "solution": "multiple; having or involving several parts, elements, or members.",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 25,
+    "hasPassage": 1,
+    "category": "register"
+  },
+  {
+    "id": 1074,
+    "question": "Her mother brought her some.......",
+    "option": {
+      "a": "clothes",
+      "b": "yards",
+      "c": "cloth",
+      "d": "clothing",
+      "e": ""
+    },
+    "section": "<b>In each of the question 66 to 85 choose the option that best completes the gap(s)</b>",
+    "image": "",
+    "answer": "a",
+    "solution": "Her mother brought her some clothes",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 80,
+    "hasPassage": 0,
+    "category": "others"
+  }
+]

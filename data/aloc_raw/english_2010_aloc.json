@@ -1,20 +1,262 @@
-{
-  "id": 579,
-  "question": "The man was happy that his son confessed his guilt and so the others were .... ",
-  "option": {
-    "a": "implicated",
-    "b": "accused ",
-    "c": "punished ",
-    "d": "Exonerated",
-    "e": ""
+[
+  {
+    "id": 527,
+    "question": "The headmaster managed to talk his way out of having  to give a speech ",
+    "option": {
+      "a": "He delivered a speech despite the difficulty ",
+      "b": "He managed to give a speech out of a difficult situation ",
+      "c": "He managed to get himself out of a difficult situation",
+      "d": "He managed to talk on his way.",
+      "e": ""
+    },
+    "section": " select the option that best explains the Information conveyed In the sentence. ",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
   },
-  "section": "choose the option that best completes the gap(s)",
-  "image": "",
-  "answer": "d",
-  "solution": "",
-  "examtype": "utme",
-  "examyear": "2010",
-  "questionNub": null,
-  "hasPassage": 0,
-  "category": "others"
-}
+  {
+    "id": 532,
+    "question": "I am optimistic about the Interview though It was a <i>mind- bending</i>  exercise, ",
+    "option": {
+      "a": "an enervating ",
+      "b": "a debilitating",
+      "c": "a difficult ",
+      "d": "an easy",
+      "e": ""
+    },
+    "section": "choose the option opposite In meaning to the word or phrase In Italics",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 543,
+    "question": "Aisha seems to feel  <i>ambivalent</i>  about her future",
+    "option": {
+      "a": "decisive ",
+      "b": "anxious ",
+      "c": "ambitious ",
+      "d": "inconsiderate",
+      "e": ""
+    },
+    "section": "choose the option opposite In meaning to the word or phrase In Italics",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 539,
+    "question": "The captain says sports is being  <i>debased</i>  by commercial sponsorship ",
+    "option": {
+      "a": "localized ",
+      "b": "perverted",
+      "c": "elevated ",
+      "d": "overvalued",
+      "e": ""
+    },
+    "section": "choose the option opposite In meaning to the word or phrase In Italics",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 559,
+    "question": "Her reputation is without a  <i>blemish </i> ",
+    "option": {
+      "a": "struggle",
+      "b": "problem ",
+      "c": "fault ",
+      "d": "blessing",
+      "e": ""
+    },
+    "section": "choose the option nearest  in meaning to the word or phrase in Italics.",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 554,
+    "question": "Thousands of workers have been victims of  <i>retrenchment</i>  since the military came back to power.",
+    "option": {
+      "a": "unemployment ",
+      "b": "trench mentality ",
+      "c": "suffering ",
+      "d": "increase in penury",
+      "e": ""
+    },
+    "section": "choose the option nearest  in meaning to the word or phrase in Italics.",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 524,
+    "question": "It is always good to steer a middle course in whatever one does. ",
+    "option": {
+      "a": "It is always good to get midway in anything one does. ",
+      "b": "It is always good to act with moderation. ",
+      "c": "It is always good to move away from the forefront",
+      "d": "It is always good to work very hard.",
+      "e": ""
+    },
+    "section": " select the option that best explains the Information conveyed In the sentence. ",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 569,
+    "question": "The new trade agreement should facilitate…..... ",
+    "option": {
+      "a": "more economic rapid growth  ",
+      "b": "economic more rapid  growth ",
+      "c": "rapid economic more growth   ",
+      "d": "more rapid economic growth.",
+      "e": ""
+    },
+    "section": "choose the option that best completes the gap(s)",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 546,
+    "question": "Ada gave her husband a look that made words  <i>superfluous</i> ",
+    "option": {
+      "a": "redundant ",
+      "b": "spurious ",
+      "c": "unnecessary",
+      "d": " scanty.",
+      "e": ""
+    },
+    "section": "choose the option opposite In meaning to the word or phrase In Italics",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 590,
+    "question": "seer ",
+    "option": {
+      "a": "snare   ",
+      "b": "spare",
+      "c": "spear ",
+      "d": "square",
+      "e": ""
+    },
+    "section": "choose the option that rhymes with the given word.",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 558,
+    "question": "The director's remark was extremely  <i>apposite</i>  to the issue being discussed ",
+    "option": {
+      "a": "appropriate",
+      "b": "inconsequential ",
+      "c": "emphatic ",
+      "d": "adequate",
+      "e": ""
+    },
+    "section": "choose the option nearest  in meaning to the word or phrase in Italics.",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 587,
+    "question": "o<u>f </u>course  ",
+    "option": {
+      "a": "plough ",
+      "b": "dough ",
+      "c": "over ",
+      "d": "orphan",
+      "e": ""
+    },
+    "section": "choose the option that has the same consonant sound as the one represented by the letter(s) underlined",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 534,
+    "question": "The teacher said that All's essay was full of many  <i>redundant</i>  details ",
+    "option": {
+      "a": "unexplained ",
+      "b": "strange",
+      "c": "necessary ",
+      "d": "useful",
+      "e": ""
+    },
+    "section": "choose the option opposite In meaning to the word or phrase In Italics",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  }
+]

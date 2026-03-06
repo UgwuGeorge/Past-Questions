@@ -1,0 +1,240 @@
+[
+  {
+    "id": 899,
+    "question": "In how many ways can the word MACICITA be arranged?",
+    "option": {
+      "a": "8!/2!",
+      "b": "8!/3!2!",
+      "c": "8!/2!2!2!",
+      "d": " 8!",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "MACICITA is an eight letter word = 8!\n\nSince we have repeating letters, we have to divide to remove duplicates accordingly. There are 2A, 2C, 2I\n\n∴ 8!/2!2!2!",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 895,
+    "question": "If a rod 10cm in length was measured as 10.5cm, calculate the percentage error",
+    "option": {
+      "a": "5%",
+      "b": "10%",
+      "c": "8%",
+      "d": "7%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Actual measurement = 10cm\n\napproximated value of measurement = 10.5cm\n\n% error = (Actual measurement − Approximated/Actual measure) × 100\n\n= (10−10.5)/10 × 100\n\n= −0.5/10 × 100\n\nignore -sign i.e take absolute value\n\n= 0.5/10 × 100\n\n= 5 %",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 888,
+    "question": "Simplify 4√27 + 5√12 − 3√75",
+    "option": {
+      "a": "7",
+      "b": "-7",
+      "c": "-7√3",
+      "d": "7√3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "4√27 + 5√12 − 3√75\n\n= 4√3 × 9 + 5√3 × 4 − 3√3 × 25\n\n= 4 × 3√3 + 5 × 2√3 − 3 × 5√3\n= 12√3 + 10√3 − 15√3\n\n\n= (12 + 10 − 15)√3\n\n= 7√3",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 890,
+    "question": "In the figure, find x",
+    "option": {
+      "a": "40°",
+      "b": "55°",
+      "c": "50°",
+      "d": "60°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724005818/ALOC-Questions/Mathematics/2017/MATH_JAMB_2017_Q22_hjbo4i.jpg",
+    "answer": "a",
+    "solution": "Sum of angle at a point = 360°\n\n2x + 3x + 4x = 360\n\n9x = 360\n\nx = 360/9\n\n\nx = 40°",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 877,
+    "question": "Evaluate 1 - (1/5 x 2/3) + ( 5 + 2/3)",
+    "option": {
+      "a": "4",
+      "b": "3",
+      "c": "2(2/3)",
+      "d": "98/15",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 902,
+    "question": "Find ∫(x<sup>2</sup>  + 3x − 5)dx",
+    "option": {
+      "a": "x3/3  - 3x2/2 - 5x + k",
+      "b": "x3/3 - 3x2/2\n + 5x + k",
+      "c": "x3/3  + 3x2/2 - 5x + k",
+      "d": "x3/3  + 3x2/2\n + 5x + k",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "∫x<sup>n</sup>dx = x<sub>n+1</sub>/n+1\n\n\n∫dx = x + k\n\nwhere k is constant\n\n∫(x<sup>2</sup>  + 3x − 5)dx\n\n∫x<sup>2</sup>  dx + ∫3xdx − ∫5dx\n\n(2<sub>2</sub> + 1)/(2 + 1)\n + 3x<sup>1+1</sup>/(1+1)\n − 5x + k\n\nx<sub>3</sub>/3 + 3x<sub>2</sub>/2 − 5x + k",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 900,
+    "question": "y is inversely proportional to x and y is 6 when x = 7. Find the constant of the variation",
+    "option": {
+      "a": "47",
+      "b": "42",
+      "c": "54",
+      "d": "46",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Y ∝ 1/2\n\n\nY = 6, X = 7\n\nY = k/x\n where k is constant\n\n6 = k/7\n\n\nk = 42",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 907,
+    "question": "Find the gradient of the line joining the points (3, 2) and (1, 4)",
+    "option": {
+      "a": "3/2",
+      "b": "2/1",
+      "c": "-1",
+      "d": "3/2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Gradient of line joining points (3, 2), (1, 4)\n\nGradient = Change in Y/Change in X\n\n\n= y<sub>2</sub> −Y<sub>1</sub>/ x<sub>2</sub> −x<sub>1</sub> \n\n\n(X<sub>1</sub> , Y<sub>1</sub> ) = (3, 2)\n\n(X<sub>2</sub> , Y<sub>2</sub> ) = (1, 4)\n\nGradient = (4−2)/(1+3)\n\n\n= 2/−2\n\n\n= −1",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 892,
+    "question": "A car dealer bought a second-hand car for 250,000 and spent N 70,000 refurbishing it. He then sold the car for N400,000. What is the percentage gain?",
+    "option": {
+      "a": " 60%",
+      "b": "32%",
+      "c": "25%",
+      "d": "20%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Total Cost Price = N(250,000 + 70,000)\n\n= N 320,000\n\nSelling Price = N 400,000(Given)\n\nGain = Selling Price - Cost Price\n\n= 400,000 - 320,000\n\n= 80,000\n\n% gain = Gain/Cost Price\n × 100\n\n= (80,000/320,000) × 100\n\nGain % = 25%",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 882,
+    "question": "Find the sum of the range and the mode of the set of numbers 10, 9, 10, 9, 8, 7, 7, 10, 8, 10, 8, 4, 6, 9, 10, 9, 7, 10, 6, 5",
+    "option": {
+      "a": "16",
+      "b": "14",
+      "c": "12",
+      "d": "10",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Range = Highest Number - Lowest Number\n\nMode is the number with highest occurrence\n10, 9, 10, 9, 8, 7, 7, 10, 8, 4, 6,, 9, 10, 9, 7, 10, 6, 5\n\nRange = 10 − 4 = 6\n\nMode = 10\n\nSum of range and mode = range + mode = 6 + 10\n\n= 16",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 897,
+    "question": "The pie chart shows the allocation of money to each sector in a farm. The total amount allocated to the farm is ₦ 80 000. Find the amount allocated to fertilizer",
+    "option": {
+      "a": "₦ 35, 000",
+      "b": "₦ 40,000",
+      "c": "₦ 25,000",
+      "d": "₦ 20,000",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724005849/ALOC-Questions/Mathematics/2017/MATH_JAMB_2017_Q29_a1bx8w.jpg",
+    "answer": "d",
+    "solution": "Total angle at a point = 3600\n\n∴ To get the angle occupied by fertilizer we have,\n\n40 + 50 + 80 + 70 + 30 + fertilizer(x) = 360\n\n270 + x = 360\n\nx = 360 - 270\n\nx = 90\n\nTotal amount allocated to the farm\n= ₦ 80,000\n\n∴Amount allocated to the fertilizer\n\n= (fertilizer (angle) × Total amount)/total angle\n\n\n= 90/360 × 80,000\n\n= ₦20,000",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 915,
+    "question": "The time taken to a piece of work is inversely proportional to the number of men employed. If it takes 45 men to do a piece of work in 5 days, how long will it take 25 men?",
+    "option": {
+      "a": "15 days",
+      "b": "12 days",
+      "c": " \n5days",
+      "d": "9days",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Let t be the time taken Let m the number of men  t ∝1/m t = k/m (k = proportionality constant) when m =45, t=5.    5=k/45.   k =225 When we have 25 men, the number of days will be  t = k/m =225/25  t = 9days",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 911,
+    "question": "Find the range of the following set of numbers 0.4, −0.4, 0.3, 0.47, −0.53, 0.2 and −0.2",
+    "option": {
+      "a": "1.03",
+      "b": "0.07",
+      "c": "0.03",
+      "d": "1.0",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "0.4, −0.4, 0.3, 0.47, −0.53, 0.2, −0.2\n\nRange is the difference between the highest and lowest value\n\ni.e Highest − Lowest\n\n− 0.53, −0.4, −0.2, 0.2, 0.3, 0.4, 0.47\n\n0.47 is the highest\n\n− 0.53 is the lowest\n\n∴ = 0.47 − (− 0.53)\n\n∴0.47 + 0.53\n\n= 1.0",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 875,
+    "question": "If y = x Sin x, find dy/dx when x = π/2",
+    "option": {
+      "a": "−π/2",
+      "b": "-1",
+      "c": "1",
+      "d": "π/2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "y = xsinx\n\ndy/dx = 1 sin x + x cos x\n\n\n= sin x + x cos x\n\n\nAt  x = π/2\n\n\n= sin π/2 + π/2 cos π/2\n\n\n= 1 + π/2 × 0\n\n= 1",
+    "examtype": "utme",
+    "examyear": "2017"
+  }
+]

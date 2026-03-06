@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1155,
+    "question": "If D = [241−11−3321]\nFind |D|",
+    "option": {
+      "a": "16",
+      "b": "14",
+      "c": " -23",
+      "d": "-37",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mrow>\n    <mo>[</mo>\n    <mtable rowspacing=\"4pt\" columnspacing=\"1em\">\n      <mtr>\n        <mtd>\n          <mn>2</mn>\n        </mtd>\n        <mtd>\n          <mo>&#x2212;<!-- − --></mo>\n          <mn>1</mn>\n        </mtd>\n        <mtd>\n          <mn>3</mn>\n        </mtd>\n      </mtr>\n      <mtr>\n        <mtd>\n          <mn>4</mn>\n        </mtd>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n        <mtd>\n          <mn>2</mn>\n        </mtd>\n      </mtr>\n      <mtr>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n        <mtd>\n          <mo>&#x2212;<!-- − --></mo>\n          <mn>3</mn>\n        </mtd>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n      </mtr>\n    </mtable>\n    <mo>]</mo>\n  </mrow>\n</math>",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007932/ALOC-Questions/Mathematics/2023/Screenshot_2024-08-18_at_8.05.23_PM_octd6l.png",
+    "answer": "c",
+    "solution": " 2[(1 x 1) - (2 x -3)] - (-1)[(4 x 1) - (2 x 1)] + 3[(4 x -3) - (1 x 1)]\n\n= 2(1 - (-6)) + 1(4 - 2) + 3(-12 - 1)\n\n= 2(1 + 6) + 1(2) + 3(-13)\n\n= 2(7) + 1(2) + 3(-13)\n\n= 14 + 2 - 39\n\n∴ |D| = -23",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1163,
+    "question": "Find the value of y, if log (y + 8) + log (y - 8) = 2log 3 + 2log 5",
+    "option": {
+      "a": " y = ±5",
+      "b": " y = ±10",
+      "c": " y = ±17",
+      "d": " y = ±13",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "log (y + 8) + log (y - 8) = 2log 3 + 2log 5\n\n⇒ log (y + 8)(y - 8) = 2log 3 + 2log 5 (log ab = log a + log b)\n\n⇒ log (y<sup>2</sup> -8y + 8y - 64) = log 3<sup>2</sup> + log 5<sup>2</sup>\n\n\n⇒ log (y<sup>2</sup> - 64) = log 3<sup>2</sup> + log 5<sup>2</sup>\n\n\n⇒ log (y<sup>2</sup> - 64) = log 9 + log 25\n\n⇒ log (y<sup>2</sup> - 64) = log (9 × 25)\n\n⇒ log(y<sup>2</sup> - 64) = log 225\n\n⇒ y<sup>2</sup> - 64 = 225\n\n⇒ y<sup>2</sup> = 225 + 64\n\n⇒ y<sup>2</sup> = 289\n\n⇒ y = ±√289\n\n∴ y = ±17",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1142,
+    "question": "The interior angle of a regular polygon is five times the size of its exterior angle. Identify the polygon.",
+    "option": {
+      "a": " dodecagon",
+      "b": "enneadecagon",
+      "c": " icosagon",
+      "d": "hendecagon",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "An interior angle of a regular polygon = ((2n−4)×90)/n\n\n\nAn exterior angle of a regular polygon = 360/n\n\n\n((2n−4)×90)/n = 5 ×  360/n (Given)\n= (2n-4) x 90 = 5 x 360\n= 180n - 360 = 1800\n= 180n = 1800 + 360\n= 180n = 2160\n= n = 2160/180 = 12\nThe polygon has 12 sides which is dodecagon",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1183,
+    "question": "Find the area, to the nearest cm<sup>2</sup>, of the triangle whose sides are in the ratio 2 : 3 : 4 and whose perimeter is 180 cm.",
+    "option": {
+      "a": "1162 cm<sup>2</sup>",
+      "b": " 1163 cm<sup>2</sup>",
+      "c": "1160 cm<sup>2</sup>",
+      "d": "1161 cm<sup>2</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Let the length of the sides of triangle be 2x, 3x and 4x.\n\nPerimeter of triangle = 180cm\n\n⇒ 2x + 3x + 4x = 180\n⇒ 9x = 180\n⇒ x=180/9\n = 20 cm\n\nThen the sides of the triangle are:\n\n2x = 2 × 20 = 40 cm; 3x = 3 × 20 = 60cm and 4x = 4 × 20 = 80cm\n\nUsing Heron's formula\n\nArea of triangle = s√(s−a)(s−b)(s−c)\nWhere s = (a + b + c)/2\nLet a = 40cm, b = 60cm, c = 80cm and s = (40 + 60 + 80)/2 =180/2 = 90cm\n\n⇒ A = √90(90−40)(90−60)(90−80)=√90×50×30×10=√(1350000)\n∴ A =1162cm<sup>2</sup> (to the nearest cm<sup>2</sup>)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1143,
+    "question": "The area A of a circle is increasing at a constant rate of 1.5 cm <sup>2</sup>s<sup>−1</sup>\n. Find, to 3 significant figures, the rate at which the radius r of the circle is increasing when the area of the circle is 2 cm<sup>2</sup>\n.",
+    "option": {
+      "a": " 0.200 cms<sup>−1</sup>",
+      "b": "0.798 cms<sup>−1</sup>",
+      "c": " 0.300 cms<sup>−1</sup>",
+      "d": " 0.299 cms<sup>−1</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Area of a circle (A) = πr<sup>2</sup>\n\n\nGiven\n\ndA/dt=1.5 cm<sup>2</sup>s<sup>-1</sup>\n\n\ndr/dt = ?\n\nA = 2cm<sup>2</sup>\n\n\nNow\n\n2 = πr <sup>2</sup> \n\n\n= r<sup>2</sup> = 2/π\n\n\nr = √(2/π) cm = 0.798cm\n\ndr/dt = dA/dt × dr/dt\n\n\ndA/dr= 2πr (differentiating A = πr<sup>2</sup>)\n\n\ndr/dA=1/2πr\n\n\ndr/dt=1.5 × 1/(2 × π × 0.798) = 1.5 × 0.199\n\n\ndr/dt = 0.299cms<sup>−1</sup> (to 3 s.f)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1174,
+    "question": "What is the general term of the sequence 3, 8, 13, 18, ...?",
+    "option": {
+      "a": " 5n - 2",
+      "b": "5n + 2",
+      "c": " 5",
+      "d": " 5n",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given the sequence 3, 8, 13, 18, ... which is an arithmetic sequence\n\na = 3\n\nd = T<sub>2</sub>  - T<sub>1</sub>  = 8 - 3 = 5\n\nThe general term of an A.P is:\n\nT<sub>n</sub>  = a + (n - 1)d\n\n⇒ T<sub>n</sub> = 3 + (n - 1)5\n\n= T<sub>n</sub> = 3 + 5n - 5\n\n∴ T<sub>n</sub> = 5n - 2",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1141,
+    "question": "The population of a village decreased from 1,230 to 1,040 due to breakout of an epidemic. What is the percentage decrease in the population?",
+    "option": {
+      "a": " 15.44%",
+      "b": "15.43%",
+      "c": " 15.42%",
+      "d": "15.45%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Original population = 1,230\nNew population = 1,040\nDecrease in population = 1,230 – 1,040 = 190\nPercentage decrease in population =(decrease in population/original population) x 100%         \n\n= 190/1,230\n x 100 = 15.45%",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1138,
+    "question": "Evaluate: 16<sup>(0.16)</sup>\n × 16<sup>(0.04)</sup>(0.04) × 2<sup>(0.2)</sup>",
+    "option": {
+      "a": " 2",
+      "b": " 0",
+      "c": "2<sup>0</sup>",
+      "d": " 1/2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "16<sup>0.16</sup> × 16<sup>0.04</sup> × 2<sup>0.2/sup>\n\n= 2<sup>4(0.16)</sup> × 2<sup>4(0.04)</sup> ×2<sup>0.2</sup>\n\n= 2<sup>0.64</sup> × 2<sup>0.16</sup> × 2<sup>0.2</sup>\n\n=2<sup>(0.64 × 0.16 × 0.2)</sup>\n\n=2<sup>1</sup>\n\n  = 2",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1184,
+    "question": "Find the compound interest (CI) on ₦15,700 for 2 years at 8% per annum compounded annually.",
+    "option": {
+      "a": " ₦6,212.48",
+      "b": "₦2,834.48",
+      "c": " ₦18,312.48",
+      "d": " ₦2,612.48",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Principal (P) = ₦15,700\n\nRate (R) = 8\n\nNumber of years (t) = 2\n\nA = P (1 + R/100)<sup>t</sup>\n⇒ A = 15700 (1 + 8/100)<sup>2</sup>\n⇒ A = 15700 (1 + 0.08)<sup>2</sup>\n⇒ A = 15700 (1.08)<sup>2</sup>\n⇒ A = 15700  x 1.1664\n\n⇒ A = ₦18,312.48\n\nTotal amount, A = ₦18,312.48\n\nA = P + CI\n\n⇒ CI = A - P\n\n⇒ CI = 18,312.48 - 15,700\n\n∴ CI = ₦2,612.48",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1170,
+    "question": "How many students scored at least 25%",
+    "option": {
+      "a": "16",
+      "b": "19",
+      "c": " 3",
+      "d": " 8",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724008016/ALOC-Questions/Mathematics/2023/MATH_2023_Q34_sissn4.jpg",
+    "answer": "a",
+    "solution": "Number of students who scored atleast 25% = 5 + 3 + 8 = 16",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1162,
+    "question": "Find the value of y if 402<sub>y</sub> =102<sub>ten</sub>",
+    "option": {
+      "a": " 4",
+      "b": "2",
+      "c": "5",
+      "d": "3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "402<sub>y</sub> =102<sub>ten</sub> \n \n⇒ 4 x y<sup>2</sup> + 0 x y<sup>1</sup> + 2 x y<sup>0</sup>\n = 102\n\n⇒ 4y<sup>2</sup> + 0 + 2 x 1 = 102\n\n⇒ 4y<sup>2</sup> + 2 = 102\n\n⇒ 4y<sup>2</sup> = 102 - 2\n\n⇒ 4y<sup>2</sup> = 100\n\n⇒ y<sup>2</sup>=100/4\n⇒ y<sup>2</sup> = 25\n\n∴ y = √25 = 5",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1145,
+    "question": "Solve for x: 3(x – 1) ≤ 2 (x – 3)",
+    "option": {
+      "a": " x ≤ -3",
+      "b": " x ≥ -3",
+      "c": " x ≤ 3",
+      "d": "x ≥ 3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "3(x – 1) ≤ 2 (x – 3)\n\n= 3x – 3 ≤ 2x – 6\n\nAdd 3 to both sides\n\n= 3x – 3+ 3 ≤ 2x – 6+ 3\n\n= 3x ≤ 2x – 3\n\nSubtract 2x from both the sides\n\n= 3x – 2x ≤ 2x – 3 – 2x\n\n∴ x ≤ -3",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1168,
+    "question": "The ages of students in a small primary school were recorded in the table below.                                                                               Estimate the median.",
+    "option": {
+      "a": "7.725",
+      "b": "6.225",
+      "c": " 7.5",
+      "d": "6.5",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007869/ALOC-Questions/Mathematics/2023/MATH_2023_Q32_qhpmgj.jpg",
+    "answer": "a",
+    "solution": "(N + 1)/2  = (107 + 1)/2 th = 54th value i.e the median age is in the interval \"7 - 8\" (29 + 25 = 54)?\n\nMedian = 1<sub>m</sub> + (((∑f)/2 − f<sub>b</sub>) /f<sub>m</sub> )c\n\nl<sub>m</sub>= lower class boundary of the median age = 6.5\n\n∑f = 107\n\nf<sub>b</sub> = sum of all frequencies before the median age = 29\n\nf<sub>m</sub> = frequency of the median age = 40\n\nc = class width = 8.5 - 6.5 = 2\n\nMedian = 6.5 + (((107/2) − 29)/40) x 2\n\n= 6.5 + ((53.5 − 29)/40) x 2\n\n= 6.5 + (24.5/40) x 2\n\n= 6.5 + 1.225\n\n∴\n median age = 7.725\n",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1169,
+    "question": "Find the matrix A",
+    "option": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mrow>\n    <mo>[</mo>\n    <mtable rowspacing=\"4pt\" columnspacing=\"1em\">\n      <mtr>\n        <mtd>\n          <mn>0</mn>\n        </mtd>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n      </mtr>\n      <mtr>\n        <mtd>\n          <mn>2</mn>\n        </mtd>\n        <mtd>\n          <mo>&#x2212;<!-- − --></mo>\n          <mn>1</mn>\n        </mtd>\n      </mtr>\n    </mtable>\n    <mo>]</mo>\n  </mrow>\n</math>",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007996/ALOC-Questions/Mathematics/2023/Screenshot_2024-08-18_at_8.06.28_PM_nw7cet.png",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1147,
+    "question": "If a car runs at a constant speed and takes 4.5 hrs to run a distance of 225 km, what time will it take to run 150 km?",
+    "option": {
+      "a": " 2 hrs",
+      "b": " 4 hrs",
+      "c": "3 hrs",
+      "d": "1 hr",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Let T be the time taken and D is the distance\n\nFor the case given in the problem, the distance covered is directly proportional to the time taken i.e D α T\n\n⇒ D = ST where S is the constant speed\n\nD = 225 km and T = 4.5 hrs\n\n∴ 225 = S x 4.5\n\nS = 225/4.5 = 50 km/hr\n\nWhen D = 150 km\n\nD = ST\n\n150 = 50 × T\n\nT = 150/50 = 3 hrs\n\nSo it will take 3 hrs",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1159,
+    "question": "Differentiate the function y = <sup>3</sup>√x<sup>2</sup>(2x − x<sup>2</sup>)",
+    "option": {
+      "a": "dy/dx=10x<sup>5/3</sup>/3−8x<sup>2/3</sup>/3",
+      "b": "dy/dx=10x<sup>2/3</sup>/3−8x<sup>5/3</sup>/3",
+      "c": "dy/dx=10x<sup>5/3</sup>/3−8x<sup>5/3</sup>/3",
+      "d": "dy/dx=10x<sup>2/3</sup>/3−8x<sup>5/3</sup>/3",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mroot>\n    <msup>\n      <mi>x</mi>\n      <mn>2</mn>\n    </msup>\n    <mn>3</mn>\n  </mroot>\n  <mo stretchy=\"false\">(</mo>\n  <mn>2</mn>\n  <mi>x</mi>\n  <mo>&#x2212;<!-- − --></mo>\n  <msup>\n    <mi>x</mi>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "y = <sup>3</sup>√x<sup>2</sup>(2x−x<sup>2</sup>) = x<sup>(2/3)</sup>(2x − x<sup>2</sup>)\n= 2x<sup>(5/3)</sup> − x<sup>(8/3)</sup> Now, we can differentiate the function\n\n∴dy/dx = (10x<sup>(2/3)</sup>)/3 − (8x<sup>(5/3)</sup>/3",
+    "examtype": "utme",
+    "examyear": "2023"
+  }
+]

@@ -1,20 +1,302 @@
-{
-  "id": 1780,
-  "question": "The chairman admires <u>incessant</u> meetings.",
-  "option": {
-    "a": "Irregular.",
-    "b": "Unusual.",
-    "c": "Planned.",
-    "d": "Constant.",
-    "e": ""
+[
+  {
+    "id": 1778,
+    "question": "The testimony of the witness was <u>vague</u>.",
+    "option": {
+      "a": "Clear.",
+      "b": "Disturbing.",
+      "c": "True.",
+      "d": "Ambiguous.",
+      "e": ""
+    },
+    "section": "Choose the option <b>opposite</b> in meaning to the underlined word or phrase.",
+    "image": "",
+    "answer": "a",
+    "solution": "vague; of uncertain, indefinite, or unclear character or meaning.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 19,
+    "hasPassage": 0,
+    "category": "others"
   },
-  "section": "Choose the option <b>nearest</b> in meaning to the underlined word or phrase.",
-  "image": "",
-  "answer": "d",
-  "solution": "Incessant; (of something regarded as unpleasant) continuing without pause or interruption.",
-  "examtype": "utme",
-  "examyear": "2014",
-  "questionNub": 21,
-  "hasPassage": 0,
-  "category": "others"
-}
+  {
+    "id": 1834,
+    "question": "Choose the most appropriate option for the gap labelled 11.",
+    "option": {
+      "a": "sub-editor",
+      "b": "processor",
+      "c": "lithographer",
+      "d": "proprietor",
+      "e": ""
+    },
+    "section": "Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments. <br><br>\nThe Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__. ",
+    "image": "",
+    "answer": "d",
+    "solution": "proprietor; the owner of a business, or a holder of property.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 75,
+    "hasPassage": 1,
+    "category": "register"
+  },
+  {
+    "id": 1806,
+    "question": "What is the jury's _____ the matter.",
+    "option": {
+      "a": "Verdict with.",
+      "b": "Verdict on.",
+      "c": "Verdict at.",
+      "d": "Verdict from.",
+      "e": ""
+    },
+    "section": "Choose the option that best complete the gap.",
+    "image": "",
+    "answer": "b",
+    "solution": "Verdict; a decision on an issue of fact in a civil or criminal case or an inquest.\n\nOn; is used in indicating continuation of a movement or action.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 47,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1816,
+    "question": "Ever.",
+    "option": {
+      "a": "Heavier.",
+      "b": "Favour.",
+      "c": "Fever.",
+      "d": "Never.",
+      "e": ""
+    },
+    "section": "Choose the option that rhymes with the given word.",
+    "image": "",
+    "answer": "d",
+    "solution": "ever; /ˈɛvə/\nnever; /ˈnɛvə/",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 57,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1794,
+    "question": "He went to the restaurant to enjoy the special _____.",
+    "option": {
+      "a": "Chef.",
+      "b": "Suite.",
+      "c": "Cuisine.",
+      "d": "A la carte.",
+      "e": ""
+    },
+    "section": "Choose the option that best complete the gap.",
+    "image": "",
+    "answer": "c",
+    "solution": "He went to the restaurant to enjoy the special Cuisine.\n\nCuisine; food cooked in a certain way.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 35,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1820,
+    "question": "Congratulation.",
+    "option": {
+      "a": "conGRAtulation.",
+      "b": "congraTUlation.",
+      "c": "congratuLAtion.",
+      "d": "CONgratulation.",
+      "e": ""
+    },
+    "section": "choose the most appropriate stress pattern from the options.\n",
+    "image": "",
+    "answer": "c",
+    "solution": "congratulation; /kənɡratjʊˈleɪʃ(ə)n/\n\nwords with the /ʃ/ or /tʃ/ sounds made by “-tion” are usually stressed on the syllable before the ''tion'' ",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 61,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1790,
+    "question": "The house and the senate will at noon next Wednesday, _________ to hear a special address by the president.",
+    "option": {
+      "a": "Collude.",
+      "b": "Convene.",
+      "c": "Adjourn.",
+      "d": "Rise.",
+      "e": ""
+    },
+    "section": "Choose the option that best complete the gap.",
+    "image": "",
+    "answer": "b",
+    "solution": "The house and the senate will at noon next Wednesday, Convene to hear a special address by the president.\n\nConvene; come or bring together for a meeting or activity; assemble.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 31,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1817,
+    "question": "Keep.",
+    "option": {
+      "a": "Dead.",
+      "b": "Reap.",
+      "c": "Seethe.",
+      "d": "Threat.",
+      "e": ""
+    },
+    "section": "Choose the option that rhymes with the given word.",
+    "image": "",
+    "answer": "b",
+    "solution": "keep; /kiːp/\nreap; /riːp/",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 58,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1814,
+    "question": "<u>Gn</u>ash.",
+    "option": {
+      "a": "Ring.",
+      "b": "Forge.",
+      "c": "New.",
+      "d": "King.",
+      "e": ""
+    },
+    "section": "Choose the option that has the same consonant sound as the one represented by the letter underlined. ",
+    "image": "",
+    "answer": "c",
+    "solution": "The word ''gnash'' is pronouced as [naʃ], meaning the ''g'' is silent which gives it the ''N'' sound. NEW therefore has the same consonant sound as GNASH from the above options. ",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 55,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1832,
+    "question": "It can be deduced from the passage that snakes have",
+    "option": {
+      "a": "Large appetite for antelopes",
+      "b": "No external auditory organ",
+      "c": "Visible internal locomotive organs",
+      "d": "No visual sense of measurement",
+      "e": ""
+    },
+    "section": "Like all reptiles, snakes are cold blooded, or more correctly, ectothermic - they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat, snakes can survive on an extremely meager diet. some wait for months between successive meals, and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small piece. Many snakes have specialized jaws that enable them to swallow animals that are far larger than their own heads. Although uncommon, some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow. <br><br>\nWith over two thousand five hundred species belonging to more than ten families, snakes are a large and successful groups. They owe much of this success to their versatility - snakes occupy habitat ranging from underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica, and although they are most abundant in tropical areas, many survive in regions marked by extreme cold. The only places without snakes are parts of the polar regions and isolated islands, such as the Republic of Ireland and New-Zealand as opposed to places in Nigeria like Plateau and Gombe States in the Northern part where there is a large population of snakes. ",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 73,
+    "hasPassage": 1,
+    "category": "passage-b"
+  },
+  {
+    "id": 1766,
+    "question": "Adeola doesn't have to go to the farm today.",
+    "option": {
+      "a": "Adeola may go to the farm today if he so wishes.",
+      "b": "Adeola ought not to have gone to the farm today.",
+      "c": "Adeola must not go to the farm today.",
+      "d": "Adeola should not go to the farm today.",
+      "e": ""
+    },
+    "section": "Select the option that best explains the information conveyed in the sentence.",
+    "image": "",
+    "answer": "a",
+    "solution": "If Adeola wishes to go to the farm, he is free to",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 7,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1808,
+    "question": "The laughter _____ his face for a moment.",
+    "option": {
+      "a": "Remade.",
+      "b": "Improved.",
+      "c": "Controlled.",
+      "d": "Animated.",
+      "e": ""
+    },
+    "section": "Choose the option that best complete the gap.",
+    "image": "",
+    "answer": "d",
+    "solution": "Animated; full of life or excitement; lively.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 49,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1798,
+    "question": "A bike must have found the very interesting movies quite _____.",
+    "option": {
+      "a": "Perverting.",
+      "b": "Absolving.",
+      "c": "Absorbing.",
+      "d": "Nauseating.",
+      "e": ""
+    },
+    "section": "Choose the option that best complete the gap.",
+    "image": "",
+    "answer": "d",
+    "solution": "A bike must have found the very interesting movies quite Nauseating\n\nNauseating; causing or liable to cause a feeling of nausea or disgust; disgusting.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 39,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1801,
+    "question": "Cooking has never been Jumoke's _____.",
+    "option": {
+      "a": "Forte.",
+      "b": "Recital.",
+      "c": "Conduct",
+      "d": "Style.",
+      "e": ""
+    },
+    "section": "Choose the option that best complete the gap.",
+    "image": "",
+    "answer": "a",
+    "solution": "Cooking has never been Jumoke's Forte .\n\nForte; a thing at which someone excels.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 42,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1780,
+    "question": "The chairman admires <u>incessant</u> meetings.",
+    "option": {
+      "a": "Irregular.",
+      "b": "Unusual.",
+      "c": "Planned.",
+      "d": "Constant.",
+      "e": ""
+    },
+    "section": "Choose the option <b>nearest</b> in meaning to the underlined word or phrase.",
+    "image": "",
+    "answer": "d",
+    "solution": "Incessant; (of something regarded as unpleasant) continuing without pause or interruption.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 21,
+    "hasPassage": 0,
+    "category": "others"
+  }
+]

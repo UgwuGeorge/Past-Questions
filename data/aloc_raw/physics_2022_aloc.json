@@ -1,0 +1,155 @@
+[
+  {
+    "id": 462,
+    "question": "Consider the wave equation y = 5mm sin[1cm⁻¹x - 60s⁻¹t]. The wave number is?",
+    "option": {
+      "a": " 0.1 cm⁻¹",
+      "b": "10 cm⁻¹",
+      "c": " 1.0 cm⁻¹",
+      "d": "2 cm⁻¹",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Given wave equation:\ny = 5 mm sin[1 cm⁻¹x - 60 s⁻¹t]\nStandard form of wave equation:\ny = A sin(kx - ωt)\nwhere:\n\nA = amplitude\nk = wave number\nω = angular frequency\nx = position\nt = time\n\nComparing given equation with standard form:\ny = 5 mm sin[1 cm⁻¹x - 60 s⁻¹t]\ny = A sin(kx - ωt)\nIdentifying parameters:\n\nAmplitude (A) = 5 mm\nWave number (k) = 1 cm⁻¹\nAngular frequency (ω) = 60 s⁻¹\n\nThe coefficient of x in the wave equation is the wave number.",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 464,
+    "question": "A bar magnet is placed near and lying along the axis of a solenoid connected to a galvanometer. The pointer of the galvanometer shows no deflection when?",
+    "option": {
+      "a": " the magnet is moved towards the stationary solenoid",
+      "b": "there is no relative motion ",
+      "c": "the magnet is moved away from the stationary solenoid",
+      "d": "the solenoid is moved away from the stationary magnet",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "If both the coil and the magnet are stationary, then there is no change in the magnetic flux and hence no current is induced in the coil.",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 499,
+    "question": "If an object just begins to slide on a surface inclined at 30º to the horizontal, the coefficient of friction is?",
+    "option": {
+      "a": "√3",
+      "b": "√3/2",
+      "c": "1/√2",
+      "d": "1/√3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nAngle of inclination, θ = 30º\nObject just begins to slide (limiting friction)\nCoefficient of friction, μ = ?\n\nSolution:\nStep 1: Analyze forces on the inclined plane\nWhen the object just begins to slide:\n\nComponent of weight down the plane = mg sinθ\nNormal reaction force = mg cosθ\nLimiting friction force = μN = μ mg cosθ\n\nStep 2: Apply equilibrium condition\nAt the point of sliding:\nFriction force = Component of weight down the plane\nμ mg cosθ = mg sinθ\nStep 3: Simplify and solve for μ\nμ cosθ = sinθ\nμ = sinθ/cosθ\nμ = tanθ\nStep 4: Calculate for θ = 30º\nμ = tan 30º\nμ = 1/√3",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 473,
+    "question": "A person standing waist-deep in a swimming pool appears to have short legs because of light?",
+    "option": {
+      "a": "diffraction",
+      "b": "refraction",
+      "c": "reflection",
+      "d": "interference",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Light rays from the submerged legs bend (refract) as they pass from water to air due to the change in medium. This makes the legs appear shorter and closer to the surface than they actually are.",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 486,
+    "question": "Which component of fiber-optic connector has a provision of entry for the fibre along with the fixation to connector housing?",
+    "option": {
+      "a": "coupling device",
+      "b": "cable",
+      "c": "ferrule",
+      "d": "connector housing",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The ferrule is the critical component that holds the optical fiber in place and provides the entry point for it. It fits securely into the connector housing while keeping the fiber aligned for proper light transmission between connected fibers.",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 496,
+    "question": "A semiconductor is formed by?",
+    "option": {
+      "a": "co-ordinate bonds",
+      "b": "electrovalent bonds",
+      "c": "a substance free of bonds",
+      "d": "covalent bonds",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Semiconductors like silicon and germanium are formed by covalent bonds where atoms share electrons with neighboring atoms in a crystal lattice. This bonding arrangement allows for the controlled movement of electrons that gives semiconductors their unique electrical properties.",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 476,
+    "question": "A magnet relay is a device used for?",
+    "option": {
+      "a": "reading the magnitude of magnetic flux",
+      "b": "controlling another circuit carrying larger current",
+      "c": " turning in sports",
+      "d": "storing magnetic field",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Relays are electrically operated switches that open and close the circuits by receiving electrical signals from outside sources.",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 471,
+    "question": "An isotope has an initial activity of 120 Bq. 6 days later its activity is 15 Bq. The half-life is? ",
+    "option": {
+      "a": "3 days",
+      "b": "2 days",
+      "c": "1 day",
+      "d": "4 days",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Given information:\n\nInitial activity, A₀ = 120 Bq\nFinal activity, A = 15 Bq\nTime elapsed, t = 6 days\nHalf-life, t½ = ?\n\nSolution:\nUsing the radioactive decay formula:\nA = A₀(½)^(t/t½)\nStep 1: Substitute the known values\n15 = 120(½)^(6/t½)\nStep 2: Simplify\n15/120 = (½)^(6/t½)\n1/8 = (½)^(6/t½)\nStep 3: Express 1/8 as a power of ½\n1/8 = (½)³\nStep 4: Equate the exponents\n(½)³ = (½)^(6/t½)\nTherefore:\n3 = 6/t½\nStep 5: Solve for half-life\nt½ = 6/3\nt½ = 2 days",
+    "examtype": "utme",
+    "examyear": "2022"
+  },
+  {
+    "id": 494,
+    "question": "A train of mass 1600 kg attains a speed of 25 ms⁻¹ in 20 seconds. The power developed in the engine is?",
+    "option": {
+      "a": "2.5 KW",
+      "b": "80 KW",
+      "c": "25 KW",
+      "d": "50 KW",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nMass, m = 1600 kg\nFinal velocity, v = 25 m/s\nInitial velocity, u = 0 m/s\nTime, t = 20 s\nPower, P = ?\n\nSolution:\nStep 1: Calculate acceleration\na = (v - u)/t\na = (25 - 0)/20\na = 1.25 m/s²\nStep 2: Calculate force\nF = ma\nF = 1600 × 1.25\nF = 2000 N\nStep 3: Calculate power\nPower = Force × velocity\nP = F × v\nP = 2000 × 25\nP = 50,000 W\nP = 50 kW",
+    "examtype": "utme",
+    "examyear": "2022"
+  }
+]

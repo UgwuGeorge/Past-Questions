@@ -1,0 +1,121 @@
+[
+  {
+    "id": 97,
+    "question": "Which of the following will change when a catalyst is added to a chemical reaction",
+    "option": {
+      "a": "The activation energy",
+      "b": "The potential energy of the reactants",
+      "c": "The heat of reaction",
+      "d": "The potential energy of the products",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 63,
+    "question": "Which of the following statements is true of a proton.",
+    "option": {
+      "a": "The total mass of the protons in a particular nucleus always half the nuclear mass",
+      "b": "The mass of a proton is 1840 times the mass of an electron",
+      "c": "The mass proton is 1.0008g",
+      "d": "The mass of a proton is one-twelfth the molar mass of carbon",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 203,
+    "question": "The solubility curve shows the variation of solute concentration with",
+    "option": {
+      "a": "Volume",
+      "b": "Vapour density",
+      "c": "Pressure",
+      "d": "Temperature",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 301,
+    "question": "One of the major uses of Alkanes is",
+    "option": {
+      "a": "In the hydrogenation of oils",
+      "b": "In the textile industries",
+      "c": "In the production of plastics",
+      "d": "As domestic and industrial fuels",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 78,
+    "question": "The filter in a cigarette reduces the nicotine content by",
+    "option": {
+      "a": "Burning",
+      "b": "Adsorption",
+      "c": "Evaporation",
+      "d": "Absorption",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 79,
+    "question": "3Cu  +  pHNO3  → 3Cu(NO3)2  +  4H2O  + xNO   In the equation above, the values of p and x respectively are",
+    "option": {
+      "a": "1 and 3",
+      "b": "2 and 3",
+      "c": "6 and 2",
+      "d": "8 and 2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 66,
+    "question": "The postulate of Dalton’s atomic theory which still holds is that",
+    "option": {
+      "a": "Particles of different elements combine in a simple whole number ratio",
+      "b": "Atoms can neither be created nor destroyed",
+      "c": "The particles of the same element are exactly alike",
+      "d": "All elements are made of small indivisible particles",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002"
+  }
+]

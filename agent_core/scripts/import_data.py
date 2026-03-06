@@ -365,7 +365,10 @@ def import_aloc_file(file_path: str, db: Session):
 
     # Meta from the first item
     sample = questions_list[0]
-    exam_type = sample.get('examtype', 'UTME').upper()
+    exam_type = sample.get('examtype', 'JAMB').upper()
+    if exam_type == 'UTME':
+        exam_type = 'JAMB'
+
     year = int(sample.get('examyear')) if sample.get('examyear') else None
     
     # Infer subject from filename
@@ -391,14 +394,9 @@ def import_aloc_file(file_path: str, db: Session):
         text = q_data.get('question', '').strip()
         if not text: continue
 
-        existing = db.query(Question).filter(
-            Question.text == text,
-            Question.subject_id == subject.id
-        ).first()
-        if existing:
-            skipped += 1
-            continue
-
+        # For ALOC, we just add the question instead of checking exact text 
+        # (ALOC has different sections and images, exact match is tricky)
+        
         new_q = Question(
             subject_id=subject.id,
             paper_id=paper.id,

@@ -1,0 +1,172 @@
+[
+  {
+    "id": 167,
+    "question": "In the figure PQR a straight line segment, PQ = QT. Triangle PQT is an isosceles triangle, < SRQ is 75° and < QPT IS 25°. Calculate the value of < RST",
+    "option": {
+      "a": " 50°",
+      "b": "25°",
+      "c": "55°",
+      "d": "45°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710696819/ALOC-Questions/Mathematics/2001/JAMB_2001_Q_46_nhtrlx.jpg",
+    "answer": "c",
+    "solution": "< T = x/1\n = 25° (PQ = QT)\n\n< SQR = 2(25°) = 50° (sum of interior angle)\n\n< Q + < R + < S = 180°\n\n50° + 75° + < S = 180° = 125o + < S = 180°\n\n< S = 180° - 125° = 55°",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 149,
+    "question": "Differentiate (2x+5)<sup>2</sup>(x-4) with respect to x.",
+    "option": {
+      "a": "4(2x+5)(x-4)",
+      "b": "4(2x+5)(4x-3)",
+      "c": "(2x+5)(2x-13)",
+      "d": "(2x+5)(6x-11)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 142,
+    "question": "P(-6, 1) and Q(6, 6) are the two ends of the diameter of a given circle. Calculate the radius.",
+    "option": {
+      "a": "6.5 units",
+      "b": "13.0 units",
+      "c": "3.5 units",
+      "d": "7.0 units",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "PQ<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>\n\n= 12<sup>2</sup> + 5<sup>2</sup>\n= 144 + 25\n= 169\n\nPQ = √169 = 13\n\nBut PQ = diameter = 2r, r = PQ/2 = 6.5 units",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 153,
+    "question": "Find the dimensions of a rectangle of greatest area which has a fixed perimeter p.",
+    "option": {
+      "a": " square of sides p",
+      "b": "square of sides 2p",
+      "c": "square of sides (p/2)",
+      "d": " square of sides (p/4)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Let the rectangle be a square of sides p/4.\n\nSo that perimeter of square = 4p\n4 x (p/4) = p.",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 125,
+    "question": "A car dealer bought a second-hand car for N250,000 and spent N70,000 refurbishing it. He then sold the car for N400,000. What is the percentage gain?",
+    "option": {
+      "a": "60%",
+      "b": " 32%",
+      "c": "25%",
+      "d": "20%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Total cost = N(250,000 + 70,000) = N320,000\nSelling price = N400,000 (given)\nGain = SP - CP = N(400,000 - 320,000) = N80,000\nGain % = gain/CP x 100 = (80,000/320,000) x 100\n\nGain % = 25%",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 143,
+    "question": "The bearings of P and Q from a common point N are 020° and 300° respectively. If P and Q are also equidistant from N, find the bearing of P from Q.",
+    "option": {
+      "a": " 040°",
+      "b": " 070°",
+      "c": "280°",
+      "d": " 320°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Hint: Simply make a sketch of the question and find the bearing to be 070°",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 170,
+    "question": "The graph shows the cumulative frequency of the distribution of masses of fertilizer for 48 workers in one institution. Which of the following gives the inter-quartile range?",
+    "option": {
+      "a": "1/2(Q<sub>3</sub> - Q<sub>1</sub>",
+      "b": "(Q<sub>3</sub> - Q<sub>2</sub>",
+      "c": "(Q<sub>3</sub> - Q<sub>2</sub>",
+      "d": "(Q<sub>3</sub> - Q<sub>1</sub>",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710696947/ALOC-Questions/Mathematics/2001/JAMB_2001_Q_49_eg0oqp.jpg",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 164,
+    "question": "The histogram above shows the distribution of passengers in taxis of a certain motor park. How many taxis have more than 4 passengers",
+    "option": {
+      "a": "16",
+      "b": "17",
+      "c": "14",
+      "d": "15",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710696703/ALOC-Questions/Mathematics/2001/JAMB_2001_Q_43_ohk92h.jpg",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 123,
+    "question": "Simplify (3√(64a<sup>3</sup>))<−1\n",
+    "option": {
+      "a": "4a",
+      "b": " 1/8a",
+      "c": "8a",
+      "d": "1/4a",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">(</mo>\n  <mroot>\n    <mrow>\n      <mn>64</mn>\n      <msup>\n        <mi>a</mi>\n        <mrow data-mjx-texclass=\"ORD\">\n          <mn>3</mn>\n        </mrow>\n      </msup>\n    </mrow>\n    <mn>3</mn>\n  </mroot>\n  <msup>\n    <mo stretchy=\"false\">)</mo>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mo>&#x2212;</mo>\n      <mn>1</mn>\n    </mrow>\n  </msup>\n</math>",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 139,
+    "question": "Given an isosceles triangle with length of 2 equal sides t units and opposite side √3t units with angle θ. Find the value of the angle θ opposite to the √3t units.",
+    "option": {
+      "a": "100°",
+      "b": "120°",
+      "c": "30°",
+      "d": "60°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Cos θ° = t<sup>2</sup> + t<sup>2</sup> -(√3t)<sup>2</sup> 2 x t x t\n\n= 2t<sup>2</sup> - 3t<sup>2</sup> 2t<sup>2</sup>\n= -t<sup>2</sup>/2t<sup>2</sup>\n= -1/2\n\nThus θ = cos<sup>-1</sup> (-0.5) = 120°",
+    "examtype": "utme",
+    "examyear": "2001"
+  }
+]

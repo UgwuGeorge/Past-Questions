@@ -1,0 +1,223 @@
+[
+  {
+    "id": 666,
+    "question": "The pie chart shows the distribution of courses offered by students. What percentage of the students offer English?",
+    "option": {
+      "a": "30%",
+      "b": "25%",
+      "c": "35%",
+      "d": "20%",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716129889/ALOC-Questions/Mathematics/2011/JAMB_MATH_2011_Q45_mvphhp.png",
+    "answer": "b",
+    "solution": "90/360 × 100 = 100/4\n \n\n= 25",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 633,
+    "question": "Factorize completely 9y<sup>2</sup> - 16X<sup>2</sup>",
+    "option": {
+      "a": "(3y - 2x)(3y + 4x)",
+      "b": "(3y + 4x)(3y + 4x)",
+      "c": "(3y + 2x)(3y - 4x)",
+      "d": "(3y - 4x)(3y + 4x)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "9y<sup>2</sup> - 16x<sup>2</sup>\n\n= 32y<sup>2</sup> - 42x<sup>2</sup>\n\n= (3y - 4x)(3y +4x)",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 655,
+    "question": "Find the value of x at the minimum point of the curve y = x<sup>3</sup> + x<sup>2</sup> - x + 1",
+    "option": {
+      "a": "1/3",
+      "b": "1/3",
+      "c": "1",
+      "d": "-1",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "y = x<sup>3</sup> + x<sup>2</sup> - x + 1\n\ndy/dx = d(x<sup>3</sup>)/dx + d(x<sup>2</sup>)/dx - d(x)/dx + d(1)/dx\n\n\ndy/dx = 3x<sup>2</sup> + 2x - 1 = 0\n\ndy/dx = 3x<sup>2</sup> + 2x - 1\n\nAt the maximum point dy/dx\n = 0\n\n3x<sup>2</sup> + 2x - 1 = 0\n\n(3x<sup>2</sup> + 3x) - (x - 1) = 0\n\n3x(x + 1) -1(x + 1) = 0\n\n(3x - 1)(x + 1) = 0\n\ntherefore x = 1/3 or -1\n\nFor the maximum point\n\nd<sup>2</sup>y/dx<sup>2</sup> < 0\n\nd<sup>2</sup>y/dx<sup>2</sup> 6x + 2\n\nwhen x = 1/3\n\n\ndx<sup>2</sup>/dx<sup>2</sup>\n = 6(1/3) + 2\n\n= 2 + 2 = 4\n\nd<sup>2</sup>y/dx<sup>2</sup>, > o which is the minimum point\n\nwhen x = -1\n\nd<sup>2</sup>y/dx<sup>2</sup> = 6(-1) + 2\n\n= -6 + 2 = -4\n\n-4 < 0\n\ntherefore, d<sup>2</sup>y/dx<sup>2</sup> < 0\n\nthe minimum point is 1/3",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 627,
+    "question": "If log<sub>3</sub>18 + log<sub>3</sub>3 - log<sub>3</sub>x = 3, Find x.",
+    "option": {
+      "a": "1",
+      "b": "2",
+      "c": "0",
+      "d": "3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "log<sub>3</sub>18\n + log<sub>3</sub>3\n - log<sub>3</sub>x\n = 3\n\nlog<sub>3</sub>18\n + log<sub>3</sub>3\n - log<sub>3</sub>x\n = 3log<sub>3</sub>3\n\nlog<sub>3</sub>18\n + log<sub>3</sub>3\n - log<sub>3</sub>x\n = log<sub>3</sub>3<sup>3</sup>\n\nlog<sub>3</sub>(18×3/X\n) = log<sub>3</sub>3<sup>3</sup>\n\n18×3/X\n = 3<sup>3</sup>\n\n18 x 3 = 27 x X\n\nx = 18×3/27\n\n\n= 2",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 626,
+    "question": "Simplify (16/81 )<sup>(1/4)</sup>÷(9/16 )<sup>(-1/2)</sup>",
+    "option": {
+      "a": "2/3",
+      "b": "1/2",
+      "c": "8/9",
+      "d": "1/3",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">(</mo>\n  <mfrac>\n    <mn>16</mn>\n    <mn>81</mn>\n  </mfrac>\n  <msup>\n    <mo stretchy=\"false\">)</mo>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mfrac>\n        <mn>1</mn>\n        <mn>4</mn>\n      </mfrac>\n    </mrow>\n  </msup>\n  <mo>&#x00F7;<!-- ÷ --></mo>\n  <mo stretchy=\"false\">(</mo>\n  <mfrac>\n    <mn>9</mn>\n    <mn>16</mn>\n  </mfrac>\n  <msup>\n    <mo stretchy=\"false\">)</mo>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x2212;<!-- − --></mo>\n      <mfrac>\n        <mn>1</mn>\n        <mn>2</mn>\n      </mfrac>\n    </mrow>\n  </msup>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "(16/81 )<sup>(1/4)</sup>÷(9/16 )<sup>(-1/2)</sup>                       (16/81))<sup>(1/4)</sup> ÷ (16/9)1/2\n\n\n(2<sup>4</sup>/3<sup>4</sup>))<sup>(1/4)</sup> ÷ (4<sup>2</sup>/3<sup>2</sup>)<sup>1/2</sup>\n\n\n2)<sup>4 x (1/4)</sup>/3<sup>4 x (1/4)</sup> ÷ 4<sup>2 x 1/2</sup> 3<sup>2 x 1/2</sup> \n\n2/3 ÷ 4/3\n\n\n2/3 × 3/4\n\n\n2/4\n\n\n1/2",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 660,
+    "question": "Find the standard deviation of the above distribution.",
+    "option": {
+      "a": "√5",
+      "b": "√6",
+      "c": "√7",
+      "d": "√2",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mtable columnalign=\"center center\" rowspacing=\"4pt\" columnspacing=\"1em\" rowlines=\"solid\" columnlines=\"solid\">\n    <mtr>\n      <mtd>\n        <mi>C</mi>\n        <mi>l</mi>\n        <mi>a</mi>\n        <mi>s</mi>\n        <mi>s</mi>\n        <mi>I</mi>\n        <mi>n</mi>\n        <mi>t</mi>\n        <mi>e</mi>\n        <mi>r</mi>\n        <mi>v</mi>\n        <mi>a</mi>\n        <mi>l</mi>\n      </mtd>\n      <mtd>\n        <mn>3</mn>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>5</mn>\n      </mtd>\n      <mtd>\n        <mn>6</mn>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>8</mn>\n      </mtd>\n      <mtd>\n        <mn>9</mn>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>11</mn>\n      </mtd>\n    </mtr>\n    <mtr>\n      <mtd>\n        <mi>F</mi>\n        <mi>r</mi>\n        <mi>e</mi>\n        <mi>q</mi>\n        <mi>u</mi>\n        <mi>e</mi>\n        <mi>n</mi>\n        <mi>c</mi>\n        <mi>y</mi>\n      </mtd>\n      <mtd>\n        <mn>2</mn>\n      </mtd>\n      <mtd>\n        <mn>2</mn>\n      </mtd>\n      <mtd>\n        <mn>2</mn>\n      </mtd>\n    </mtr>\n  </mtable>\n</math>",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716129793/ALOC-Questions/Mathematics/2011/MATH_JAMB_2011_Q39_ry1czp.jpg",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 667,
+    "question": "The bar chart above shows the distribution of SS2 students in a school.\n\nFind the total number of students",
+    "option": {
+      "a": "180",
+      "b": "135\n",
+      "c": "210",
+      "d": "105",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716129911/ALOC-Questions/Mathematics/2011/JAMB_MATH_2011_Q46_knl115.png",
+    "answer": "a",
+    "solution": "45 + 60 + 30 + 45 = 180 students.",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 656,
+    "question": "Evaluate ∫<sup>1</sup><sub>0</sub>(3 - 2x)dx",
+    "option": {
+      "a": "33m",
+      "b": "5",
+      "c": "2",
+      "d": "6",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "∫<sup>1</sup><sub>0</sub>(3 - 2x)dx   [3x - x2]<sup>1</sup<sub>0</sub>\n\n\n[3(1) - (1)<sup>2</sup>] - [3(0) - (0)<sup>2</sup>]\n\n(3 - 1) - (0 - 0) = 2 - 0\n\n= 2",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 659,
+    "question": " From the table above, find the median and range of the data respectively.",
+    "option": {
+      "a": "(8,5)",
+      "b": "(3, 5)",
+      "c": "(5 , 8)",
+      "d": " (5 , 3)",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mtable columnalign=\"center center\" rowspacing=\"4pt\" columnspacing=\"1em\" rowlines=\"solid\" columnlines=\"solid\">\n    <mtr>\n      <mtd>\n        <mi>N</mi>\n        <mi>o</mi>\n      </mtd>\n      <mtd>\n        <mn>0</mn>\n      </mtd>\n      <mtd>\n        <mn>1</mn>\n      </mtd>\n      <mtd>\n        <mn>2</mn>\n      </mtd>\n      <mtd>\n        <mn>3</mn>\n      </mtd>\n      <mtd>\n        <mn>4</mn>\n      </mtd>\n      <mtd>\n        <mn>5</mn>\n      </mtd>\n    </mtr>\n    <mtr>\n      <mtd>\n        <mi>F</mi>\n        <mi>r</mi>\n        <mi>e</mi>\n        <mi>q</mi>\n        <mi>u</mi>\n        <mi>e</mi>\n        <mi>n</mi>\n        <mi>c</mi>\n        <mi>y</mi>\n      </mtd>\n      <mtd>\n        <mn>1</mn>\n      </mtd>\n      <mtd>\n        <mn>4</mn>\n      </mtd>\n      <mtd>\n        <mn>3</mn>\n      </mtd>\n      <mtd>\n        <mn>8</mn>\n      </mtd>\n      <mtd>\n        <mn>2</mn>\n      </mtd>\n      <mtd>\n        <mn>5</mn>\n      </mtd>\n    </mtr>\n  </mtable>\n</math>",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716129770/ALOC-Questions/Mathematics/2011/MATH_JAMB_2011_Q38_a2z1n7.jpg",
+    "answer": "b",
+    "solution": "Median = ∑fx/∑f \n \n\n∑fx = 0 + 4 + 6 + 24 + 8 + 25 = 67\n\n∑f = 23\n\nMedian = ∑fx/∑f = 67/23 =2.913\n\n= ≈ 3\n\nRange = 5 - 0 = 5\n\n(3, 5)",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 638,
+    "question": "Solve the inequality x<sup>2</sup> + 2x > 15.",
+    "option": {
+      "a": "x < -3 or x > 5",
+      "b": "-5 < x < 3",
+      "c": " x < 3 or x > 5",
+      "d": "x > 3 or x < -5",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "x2 + 2x > 15\n\nx2 + 2x - 15 > 0\n\n(x2 + 5x) - (3x - 15) > 0\n\nx(x + 5) - 3(x + 5) >0\n\n(x - 3)(x + 5) > 0\n\ntherefore, x = 3 or -5\n\ni.e. x< 3 or x > -5",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 629,
+    "question": "Simplify √2+1/√3)(√2-1/√3",
+    "option": {
+      "a": "7/3",
+      "b": "5/3",
+      "c": "5/2",
+      "d": "3/2",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msqrt>\n    <mn>2</mn>\n  </msqrt>\n  <mo>+</mo>\n  <mfrac>\n    <mn>1</mn>\n    <msqrt>\n      <mn>3</mn>\n    </msqrt>\n  </mfrac>\n  <mo stretchy=\"false\">)</mo>\n  <mo stretchy=\"false\">(</mo>\n  <msqrt>\n    <mn>2</mn>\n  </msqrt>\n  <mo>&#x2212;<!-- − --></mo>\n  <mfrac>\n    <mn>1</mn>\n    <msqrt>\n      <mn>3</mn>\n    </msqrt>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "√2+1/√3)(√2-1/√3.    √4-√2/√3+√2/√3-1/√9 = 2 - 1/3\n\n\n= (16−1)/3\n\n\n= 5/3",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 654,
+    "question": "ClassIntervalsFrequency0−233−526−859−113\n \nFind the mode of the above distribution.",
+    "option": {
+      "a": "9",
+      "b": "8",
+      "c": "10",
+      "d": "7",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mtable columnalign=\"center center\" rowspacing=\"4pt\" columnspacing=\"1em\" rowlines=\"solid\" columnlines=\"solid\">\n    <mtr>\n      <mtd>\n        <mi>C</mi>\n        <mi>l</mi>\n        <mi>a</mi>\n        <mi>s</mi>\n        <mi>s</mi>\n        <mi>I</mi>\n        <mi>n</mi>\n        <mi>t</mi>\n        <mi>e</mi>\n        <mi>r</mi>\n        <mi>v</mi>\n        <mi>a</mi>\n        <mi>l</mi>\n        <mi>s</mi>\n      </mtd>\n      <mtd>\n        <mn>0</mn>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>2</mn>\n      </mtd>\n      <mtd>\n        <mn>3</mn>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>5</mn>\n      </mtd>\n      <mtd>\n        <mn>6</mn>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>8</mn>\n      </mtd>\n      <mtd>\n        <mn>9</mn>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>11</mn>\n      </mtd>\n      <mtd />\n    </mtr>\n    <mtr>\n      <mtd>\n        <mi>F</mi>\n        <mi>r</mi>\n        <mi>e</mi>\n        <mi>q</mi>\n        <mi>u</mi>\n        <mi>e</mi>\n        <mi>n</mi>\n        <mi>c</mi>\n        <mi>y</mi>\n      </mtd>\n      <mtd>\n        <mn>3</mn>\n      </mtd>\n      <mtd>\n        <mn>2</mn>\n      </mtd>\n      <mtd>\n        <mn>5</mn>\n      </mtd>\n      <mtd>\n        <mn>3</mn>\n      </mtd>\n      <mtd />\n    </mtr>\n  </mtable>\n</math>",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716129744/ALOC-Questions/Mathematics/2011/MATH_JAMB_2011_Q33_qgwykn.jpg",
+    "answer": "d",
+    "solution": "Mode = L<sub>1</sub> + (D<sub>1</sub/D<sub>1</sub>+D<sub>2</sub>)C\n\nD<sub>1</sub> = frequency of modal class - frequency of the class before it\n\nD<sub>1</sub> = 5 - 2 = 3\n\nD<sub>2</sub> = frequency of modal class - frequency of the class that offers it\n\nD<sub>2</sub> = 5 - 3 = 2\n\nL<sub>1</sub> = lower class boundary of the modal class\n\nL<sub>1</sub> = 5 - 5\n\nC is the class width = 8 - 5.5 = 3\n\nMode = L<sub>1</sub> + (D<sub>1</sub>/D<sub>1</sub>+D<sub>2</sub>)C\n\n= 5.5 + 3/(2+3)C\n\n= 5.5 + 3/5 x 3\n\n= 5.5 + 9/5\n\n= 5.5 + 1.8\n\n= 7.3 ≈ = 7",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 624,
+    "question": "A man invested N5,000 for 9 months at 4%. What is the simple interest?",
+    "option": {
+      "a": "N150",
+      "b": "N220",
+      "c": "N130",
+      "d": "N250",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "S.I. = P×R×T/100\n\n\nIf T = 9 months, it is equivalent to 9/12\n years\n\nS.I. = 5000×4×9/(100×12)\n\n\nS.I. = N150",
+    "examtype": "utme",
+    "examyear": "2011"
+  }
+]
