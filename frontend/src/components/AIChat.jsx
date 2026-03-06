@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useDragControls } from 'framer-motion';
 import {
     MessageSquare,
     Send,
@@ -9,7 +9,9 @@ import {
     Sparkles,
     Zap,
     ShieldCheck,
-    HelpCircle
+    HelpCircle,
+    Minimize2,
+    Move
 } from 'lucide-react';
 import { clsx } from 'clsx';
 
@@ -23,12 +25,38 @@ export default function AIChat() {
     const [input, setInput] = useState('');
     const [isTyping, setIsTyping] = useState(false);
     const scrollRef = useRef(null);
+    const chatRef = useRef(null);
+    const dragControls = useDragControls();
+    // Holds pending exam request details until difficulty is provided
+    const [pendingExam, setPendingExam] = useState(null);
 
     useEffect(() => {
         if (scrollRef.current) {
             scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
         }
     }, [messages, isTyping]);
+
+    // Click outside to dock
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (chatRef.current && !chatRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
+        }
+        if (isOpen) {
+            document.addEventListener('mousedown', handleClickOutside);
+        }
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isOpen]);
+
+    // Helper to detect exam related requests
+    const isExamRequest = (msg) => {
+        const lowered = msg.toLowerCase();
+        const keywords = ['post utme', 'jamb', 'mock exam', 'mock exams', 'exam', 'take a', 'i want to take'];
+        return keywords.some(k => lowered.includes(k));
+    };
 
     const handleSend = async () => {
         if (!input.trim() || isTyping) return;
@@ -37,6 +65,45 @@ export default function AIChat() {
         const userMsg = { role: 'user', text: currentInput };
         setMessages(prev => [...prev, userMsg]);
         setInput('');
+        // If the message is an exam request, short‑circuit the backend and ask for difficulty
+        if (isExamRequest(currentInput)) {
+            // Store pending exam request (default to WAEC category for now)
+            setPendingExam({ category: 'WAEC' });
+            setMessages(prev => [...prev, { role: 'assistant', text: 'What difficulty level would you like? (easy, medium, hard)' }]);
+            setIsTyping(false);
+            return;
+        }
+        // If we are waiting for difficulty after an exam request
+        if (pendingExam && ['easy', 'medium', 'hard'].includes(currentInput.toLowerCase())) {
+            // Fetch an exam list for the stored category
+            (async () => {
+                try {
+                    const examRes = await fetch(`${API_BASE}/exams?category=${pendingExam.category}`);
+                    const exams = await examRes.json();
+                    const examId = exams?.[0]?.id;
+                    if (!examId) throw new Error('No exam found');
+                    // Get subjects for the exam
+                    const subjectsRes = await fetch(`${API_BASE}/exams/${examId}/subjects`);
+                    const subjects = await subjectsRes.json();
+                    const subjectId = subjects?.[0]?.id;
+                    if (!subjectId) throw new Error('No subject found');
+                    // Get first few questions for the subject
+                    const questionsRes = await fetch(`${API_BASE}/subjects/${subjectId}/questions?limit=1`);
+                    const questions = await questionsRes.json();
+                    const question = questions?.[0];
+                    if (!question) throw new Error('No question found');
+                    // Send the question back to the user
+                    setMessages(prev => [...prev, { role: 'assistant', text: `Here is a ${pendingExam.category} question (difficulty: ${currentInput}):\n\n${question.text}` }]);
+                } catch (e) {
+                    console.error(e);
+                    setMessages(prev => [...prev, { role: 'assistant', text: 'Sorry, I could not fetch a question right now.' }]);
+                } finally {
+                    setPendingExam(null);
+                    setIsTyping(false);
+                }
+            })();
+            return;
+        }
         setIsTyping(true);
 
         try {
@@ -73,25 +140,38 @@ export default function AIChat() {
             <AnimatePresence>
                 {isOpen ? (
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.9, y: 40, filter: 'blur(10px)' }}
-                        animate={{ opacity: 1, scale: 1, y: 0, filter: 'blur(0px)' }}
-                        exit={{ opacity: 0, scale: 0.9, y: 40, filter: 'blur(10px)' }}
-                        className="w-[420px] h-[640px] glass rounded-[2.5rem] border border-white/10 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.5)] flex flex-col overflow-hidden mb-6 relative"
+                        ref={chatRef}
+                        drag
+                        dragListener={false}
+                        dragControls={dragControls}
+                        dragConstraints={{ left: -1000, right: 0, top: -800, bottom: 0 }}
+                        dragElastic={0.1}
+                        dragMomentum={false}
+                        initial={{ opacity: 0, scale: 0.5, x: 0, y: 50, filter: 'blur(10px)' }}
+                        animate={{ opacity: 1, scale: 1, x: 0, y: 0, filter: 'blur(0px)' }}
+                        exit={{ opacity: 0, scale: 0.5, x: 0, y: 50, filter: 'blur(10px)' }}
+                        className="w-[460px] max-h-[90vh] min-h-[500px] h-auto glass rounded-[2.5rem] border border-white/10 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.5)] flex flex-col overflow-hidden mb-6 relative"
                     >
                         {/* Interactive Background Glow */}
                         <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-primary/20 to-transparent -z-10" />
 
                         {/* Header */}
-                        <div className="p-6 border-b border-white/5 bg-white/5 backdrop-blur-xl flex items-center justify-between">
+                        <div
+                            onPointerDown={(e) => dragControls.start(e)}
+                            className="p-6 border-b border-white/5 bg-white/5 backdrop-blur-xl flex items-center justify-between cursor-move touch-none"
+                            title="Drag to undock"
+                        >
                             <div className="flex items-center gap-4">
                                 <div className="relative">
-                                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20">
+                                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20 pointer-events-none">
                                         <Bot className="text-white" size={24} />
                                     </div>
-                                    <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-emerald-500 rounded-full border-2 border-[#0b0f1a] shadow-sm" />
+                                    <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-emerald-500 rounded-full border-2 border-[#0b0f1a] shadow-sm pointer-events-none" />
                                 </div>
-                                <div>
-                                    <h3 className="font-black text-base tracking-tight text-white">Exam Architect</h3>
+                                <div className="pointer-events-none">
+                                    <h3 className="font-black text-base tracking-tight text-white flex items-center gap-2">
+                                        Exam Architect <Move size={14} className="text-white/30" />
+                                    </h3>
                                     <div className="flex items-center gap-1.5">
                                         <Sparkles size={10} className="text-primary animate-pulse" />
                                         <span className="text-[10px] text-primary font-black uppercase tracking-widest">Neural AI Active</span>
@@ -99,8 +179,11 @@ export default function AIChat() {
                                 </div>
                             </div>
                             <div className="flex gap-2">
-                                <button onClick={() => setIsOpen(false)} className="w-10 h-10 rounded-xl hover:bg-white/5 flex items-center justify-center transition-all text-white/30 hover:text-white">
-                                    <X size={20} />
+                                <button onClick={() => setIsOpen(false)} title="Dock Chat" className="w-9 h-9 rounded-xl hover:bg-white/10 flex items-center justify-center transition-all text-white/50 hover:text-white">
+                                    <Minimize2 size={18} />
+                                </button>
+                                <button onClick={() => { setIsOpen(false); setMessages([{ role: 'assistant', text: "Welcome to Reharz AI! I'm your Exam Architect. How can I help you master your curriculum today?" }]); }} title="Clear & Close" className="w-9 h-9 rounded-xl hover:bg-red-500/20 flex items-center justify-center transition-all text-white/50 hover:text-red-400">
+                                    <X size={18} />
                                 </button>
                             </div>
                         </div>
