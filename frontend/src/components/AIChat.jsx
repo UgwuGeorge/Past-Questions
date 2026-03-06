@@ -20,7 +20,7 @@ const API_BASE = "http://localhost:8000/api";
 export default function AIChat() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
-        { role: 'assistant', text: "Welcome to Reharz AI! I'm your Exam Architect. How can I help you master your curriculum today?" }
+        { role: 'assistant', text: "Welcome to Reharz I'm your Exam Architect. How can I help you master your curriculum today?" }
     ]);
     const [input, setInput] = useState('');
     const [isTyping, setIsTyping] = useState(false);

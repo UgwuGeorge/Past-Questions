@@ -7,14 +7,13 @@ import GlowCard from '../components/GlowCard';
 const API_BASE = "http://localhost:8000/api";
 
 export default function WAECBrowser({ onExit }) {
-    const [catalogue, setCatalogue] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-
+    const [view, setView] = useState('subjects'); // subjects | years | exam | results
+    const [subjects, setSubjects] = useState([]);
     const [selectedSubject, setSelectedSubject] = useState(null);
     const [selectedYear, setSelectedYear] = useState(null);
     const [questions, setQuestions] = useState([]);
-    const [view, setView] = useState('subjects'); // subjects | years | exam | results
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     // Exam state
     const [currentIdx, setCurrentIdx] = useState(0);
@@ -23,20 +22,23 @@ export default function WAECBrowser({ onExit }) {
     const [timeLeft, setTimeLeft] = useState(3600);
     const [isSubmitted, setIsSubmitted] = useState(false);
 
+    const examId = 2; // WAEC is ID 2
+
     useEffect(() => {
-        fetch(`${API_BASE}/waec`)
-            .then(res => {
-                if (!res.ok) throw new Error("Could not load WAEC catalogue");
-                return res.json();
-            })
-            .then(data => {
-                setCatalogue(data);
+        const fetchSubjects = async () => {
+            setLoading(true);
+            try {
+                const res = await fetch(`${API_BASE}/exams/${examId}/subjects`);
+                if (!res.ok) throw new Error("Could not load WAEC subjects");
+                const data = await res.json();
+                setSubjects(Array.isArray(data) ? data : []);
                 setLoading(false);
-            })
-            .catch(err => {
+            } catch (err) {
                 setError(err.message);
                 setLoading(false);
-            });
+            }
+        };
+        fetchSubjects();
     }, []);
 
     // Timer countdown
@@ -52,20 +54,41 @@ export default function WAECBrowser({ onExit }) {
         return `${m}:${s.toString().padStart(2, '0')}`;
     };
 
-    const handleSelectSubject = (subjectStr) => {
-        setSelectedSubject(subjectStr);
+    const handleSelectSubject = (subjectItem) => {
+        setSelectedSubject(subjectItem);
         setView('years');
     };
 
-    const handleSelectYear = (yearStr) => {
+    const handleSelectYear = async (yearStr) => {
         setSelectedYear(yearStr);
-        setQuestions(catalogue.data[selectedSubject][yearStr].questions);
-        setCurrentIdx(0);
-        setAnswers({});
-        setFlags({});
-        setIsSubmitted(false);
-        setTimeLeft(3600);
-        setView('exam');
+        setLoading(true);
+        try {
+            const res = await fetch(`${API_BASE}/subjects/${selectedSubject.id}/questions?limit=50`);
+            const data = await res.json();
+
+            const filtered = Array.isArray(data) ? data.filter(q => !yearStr || q.year == parseInt(yearStr) || !q.year) : [];
+
+            // Normalize choices
+            const normalized = filtered.map(q => ({
+                ...q,
+                choices: Array.isArray(q.choices)
+                    ? q.choices.reduce((acc, c) => ({ ...acc, [c.label]: c.text }), {})
+                    : q.choices,
+                answer: (q.choices.find(c => c.is_correct) || {}).label || 'A'
+            }));
+
+            setQuestions(normalized);
+            setCurrentIdx(0);
+            setAnswers({});
+            setFlags({});
+            setIsSubmitted(false);
+            setTimeLeft(3600);
+            setView('exam');
+            setLoading(false);
+        } catch (err) {
+            setError("Failed to load questions");
+            setLoading(false);
+        }
     };
 
     const handleSelectAnswer = (label) => {
@@ -129,20 +152,20 @@ export default function WAECBrowser({ onExit }) {
                     </div>
                 </header>
                 <div className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto w-full">
-                    {catalogue.subjects.map((sub, i) => (
+                    {subjects.map((sub, i) => (
                         <motion.button
-                            key={sub.subject}
+                            key={sub.id}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: i * 0.05 }}
-                            onClick={() => handleSelectSubject(sub.subject)}
+                            onClick={() => handleSelectSubject(sub)}
                             className="glass rounded-3xl p-7 text-left border border-white/5 hover:border-primary/40 hover:bg-white/[0.04] transition-all group"
                         >
                             <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
                                 <BookOpen className="text-primary" size={22} />
                             </div>
-                            <h3 className="text-xl font-bold mb-2">{sub.subject}</h3>
-                            <p className="text-xs text-text-dim">{sub.years.length} Years Available • {sub.total_questions} Questions</p>
+                            <h3 className="text-xl font-bold mb-2">{sub.name}</h3>
+                            <p className="text-xs text-text-dim">Multi-Year Practice Dataset</p>
                         </motion.button>
                     ))}
                 </div>
@@ -159,32 +182,32 @@ export default function WAECBrowser({ onExit }) {
                     </button>
                     <div>
                         <h1 className="text-xl font-bold flex items-center gap-2">
-                            WAEC {selectedSubject}
+                            WAEC {selectedSubject.name}
                         </h1>
                         <p className="text-xs text-text-dim">Select a Year</p>
                     </div>
                 </header>
                 <div className="p-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-5xl mx-auto w-full">
-                    {Object.keys(catalogue.data[selectedSubject]).map((year, i) => {
-                        const count = catalogue.data[selectedSubject][year].question_count;
-                        const empty = count === 0;
-                        return (
-                            <motion.button
-                                key={year}
-                                initial={{ opacity: 0, scale: 0.95 }}
-                                animate={{ opacity: 1, scale: 1 }}
-                                transition={{ delay: i * 0.02 }}
-                                disabled={empty}
-                                onClick={() => handleSelectYear(year)}
-                                className={clsx("glass rounded-2xl p-5 text-center transition-all border",
-                                    empty ? "opacity-50 border-transparent cursor-not-allowed" : "border-white/5 hover:border-primary/40 hover:opacity-100 hover:-translate-y-1"
-                                )}
-                            >
-                                <div className="text-2xl font-black text-white/90">{year}</div>
-                                <div className="text-[10px] text-text-dim mt-1 uppercase tracking-wider">{count} Questions</div>
-                            </motion.button>
-                        );
-                    })}
+                    {['2023', '2022', '2021', '2020', '2019', '2018'].map((year, i) => (
+                        <motion.button
+                            key={year}
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ delay: i * 0.02 }}
+                            onClick={() => handleSelectYear(year)}
+                            className="glass rounded-2xl p-5 text-center transition-all border border-white/5 hover:border-primary/40 hover:opacity-100 hover:-translate-y-1"
+                        >
+                            <div className="text-2xl font-black text-white/90">{year}</div>
+                            <div className="text-[10px] text-text-dim mt-1 uppercase tracking-wider">Document Set</div>
+                        </motion.button>
+                    ))}
+                    <motion.button
+                        onClick={() => handleSelectYear(null)}
+                        className="glass rounded-2xl p-5 text-center transition-all border border-white/5 hover:border-primary/40 hover:opacity-100 hover:-translate-y-1 col-span-2"
+                    >
+                        <div className="text-xl font-black text-white/90">Complete Archive</div>
+                        <div className="text-[10px] text-text-dim mt-1 uppercase tracking-wider">All years</div>
+                    </motion.button>
                 </div>
             </div>
         );
@@ -198,7 +221,7 @@ export default function WAECBrowser({ onExit }) {
                 <GlowCard className="max-w-2xl w-full text-center">
                     <CheckCircle2 className="w-20 h-20 text-emerald-500 mx-auto mb-6" />
                     <h1 className="text-4xl font-bold mb-2">WAEC Completed!</h1>
-                    <p className="text-text-dim mb-10">{selectedSubject} - {selectedYear}</p>
+                    <p className="text-text-dim mb-10">{selectedSubject.name} - {selectedYear || 'Archive'}</p>
                     <div className="grid grid-cols-3 gap-5 mb-10">
                         <div className="glass p-6 rounded-2xl">
                             <div className="text-4xl font-bold text-primary">{score}/{questions.length}</div>
@@ -259,7 +282,7 @@ export default function WAECBrowser({ onExit }) {
                             <ChevronLeft />
                         </button>
                         <div>
-                            <span className="font-bold text-base">WAEC {selectedSubject} ({selectedYear})</span>
+                            <span className="font-bold text-base">WAEC {selectedSubject.name} ({selectedYear || 'Archive'})</span>
                             <p className="text-xs text-text-dim">{questions.length} Questions</p>
                         </div>
                     </div>

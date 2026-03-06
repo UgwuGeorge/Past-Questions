@@ -233,7 +233,7 @@ export default function CBTProcessor({ examId, onExit }) {
             {/* Header */}
             <header className="glass px-8 py-4 flex justify-between items-center border-b border-white/5 shrink-0">
                 <div className="flex items-center gap-4">
-                    <button onClick={onExit} className="p-2 hover:bg-white/5 rounded-lg transition-colors">
+                    <button onClick={() => setStep('select-subject')} className="p-2 hover:bg-white/5 rounded-lg transition-colors">
                         <ChevronLeft />
                     </button>
                     <div>

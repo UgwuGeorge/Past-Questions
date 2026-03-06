@@ -25,7 +25,7 @@ const CATEGORY_MAP = {
     'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
-export default function Dashboard({ onStartExam, onStartGrading, onStartInterview, onStartWAEC }) {
+export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview }) {
     const [exams, setExams] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -162,6 +162,7 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                                     {list.map((item, i) => {
                                         const examRecord = findExamInDb(item);
+                                        const isAvailable = (item === 'WAEC' || examRecord);
                                         return (
                                             <motion.div
                                                 key={item}
@@ -170,12 +171,18 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
                                                 transition={{ delay: i * 0.05 + catIdx * 0.1 }}
                                                 className="group"
                                             >
-                                                <div className="relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/30 transition-all flex flex-col h-full bg-white/[0.01]">
+                                                <div
+                                                    onClick={() => isAvailable && onStartPDFRepo?.(item)}
+                                                    className={clsx(
+                                                        "relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/40 transition-all flex flex-col h-full bg-white/[0.01]",
+                                                        isAvailable ? "cursor-pointer" : "opacity-70"
+                                                    )}
+                                                >
                                                     <div className="flex items-center justify-between mb-6">
-                                                        <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center font-black text-xl text-primary border border-white/5">
+                                                        <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center font-black text-xl text-primary border border-white/5 group-hover:bg-primary/10 transition-colors">
                                                             {item[0]}
                                                         </div>
-                                                        {item === 'WAEC' || examRecord ? (
+                                                        {isAvailable ? (
                                                             <div className="px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full">
                                                                 <span className="text-[10px] font-black text-emerald-400 tracking-tighter uppercase">Available</span>
                                                             </div>
@@ -187,20 +194,24 @@ export default function Dashboard({ onStartExam, onStartGrading, onStartIntervie
                                                     </div>
 
                                                     <h3 className="text-xl font-bold mb-1 tracking-tight group-hover:text-primary transition-colors">{item}</h3>
-                                                    <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] mb-8">{catName}</p>
+                                                    <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] mb-4">{catName}</p>
+                                                    <p className="text-[10px] text-text-dim/60 mb-8 italic">Click card to view PDF Repo</p>
 
                                                     <div className="mt-auto pt-6 border-t border-white/5">
                                                         <button
-                                                            disabled={!(item === 'WAEC' || examRecord)}
-                                                            onClick={() => item === 'WAEC' ? onStartWAEC?.() : onStartExam?.(examRecord.id)}
+                                                            disabled={!isAvailable}
+                                                            onClick={(e) => {
+                                                                e.stopPropagation();
+                                                                onStartPractice?.(item, examRecord?.id);
+                                                            }}
                                                             className={clsx(
                                                                 "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
-                                                                (item === 'WAEC' || examRecord)
+                                                                isAvailable
                                                                     ? "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
                                                                     : "bg-white/5 text-white/20 cursor-not-allowed"
                                                             )}
                                                         >
-                                                            {(item === 'WAEC' || examRecord) ? <><Play size={14} fill="currentColor" /> Practice</> : "Coming Soon"}
+                                                            {isAvailable ? <><Play size={14} fill="currentColor" /> Practice</> : "Coming Soon"}
                                                         </button>
                                                     </div>
                                                 </div>
