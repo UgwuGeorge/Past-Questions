@@ -15,9 +15,10 @@ from agent_core.database import get_db, engine, Base
 from agent_core.models import main_models
 from agent_core.schemas import main_schemas
 from agent_core.core.agent import ExamAgent
-from typing import List
+from typing import List, Optional
 from pydantic import BaseModel
-from datetime import datetime
+from datetime import datetime, timedelta
+import random
 
 # Create tables
 Base.metadata.create_all(bind=engine)
@@ -205,6 +206,136 @@ def get_waec_catalogue():
         raise HTTPException(status_code=404, detail="WAEC catalogue not generated")
     with open(catalogue_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+# --- NEW SIMULATION ENDPOINTS ---
+
+class SimulationStartPayload(BaseModel):
+    user_id: int
+    exam_id: int
+    subject_id: Optional[int] = None
+    question_count: int = 50
+    duration_minutes: int = 60
+
+@app.post("/api/simulation/start")
+def start_simulation(payload: SimulationStartPayload, db: Session = Depends(get_db)):
+    # 1. Select questions
+    query = db.query(main_models.Question)
+    if payload.subject_id:
+        query = query.filter(main_models.Question.subject_id == payload.subject_id)
+    else:
+        # All subjects for this exam
+        subjects = db.query(main_models.Subject).filter(main_models.Subject.exam_id == payload.exam_id).all()
+        sub_ids = [s.id for s in subjects]
+        query = query.filter(main_models.Question.subject_id.in_(sub_ids))
+    
+    questions = query.all()
+    if not questions:
+        raise HTTPException(status_code=404, detail="No questions found for this configuration")
+    
+    # Shuffle and pick
+    selected = random.sample(questions, min(len(questions), payload.question_count))
+    
+    # 2. Create Session
+    session = main_models.ExamSession(
+        user_id=payload.user_id,
+        exam_id=payload.exam_id,
+        start_time=datetime.utcnow(),
+    )
+    db.add(session)
+    db.commit()
+    db.refresh(session)
+    
+    # 3. Format response
+    result_questions = []
+    for q in selected:
+        choices = db.query(main_models.Choice).filter(main_models.Choice.question_id == q.id).all()
+        result_questions.append({
+            "id": q.id,
+            "text": q.text,
+            "topic": q.topic,
+            "difficulty": str(q.difficulty.value),
+            "choices": [{"id": c.id, "label": c.label, "text": c.text} for c in choices]
+        })
+    
+    return {
+        "session_id": session.id,
+        "questions": result_questions,
+        "duration_seconds": payload.duration_minutes * 60,
+        "start_time": session.start_time
+    }
+
+class SimulationSubmitPayload(BaseModel):
+    session_id: int
+    answers: dict  # {question_id: selected_label}
+
+@app.post("/api/simulation/submit")
+def submit_simulation(payload: SimulationSubmitPayload, db: Session = Depends(get_db)):
+    session = db.query(main_models.ExamSession).get(payload.session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+    
+    session.end_time = datetime.utcnow()
+    
+    # Calculate score
+    correct_count = 0
+    total_count = len(payload.answers)
+    topics_stats = {} # {topic: {correct, total}}
+    
+    for q_id, label in payload.answers.items():
+        q = db.query(main_models.Question).get(int(q_id))
+        if not q: continue
+        
+        correct_choice = db.query(main_models.Choice).filter(
+            main_models.Choice.question_id == q.id,
+            main_models.Choice.is_correct == True
+        ).first()
+        
+        is_correct = (correct_choice and correct_choice.label == label)
+        if is_correct: correct_count += 1
+        
+        # Topic tracking
+        topic = q.topic or "General"
+        if topic not in topics_stats:
+            topics_stats[topic] = {"correct": 0, "total": 0}
+        topics_stats[topic]["total"] += 1
+        if is_correct: topics_stats[topic]["correct"] += 1
+        
+        # Log to user progress
+        progress = main_models.UserProgress(
+            user_id=session.user_id,
+            question_id=q.id,
+            topic=topic,
+            difficulty=q.difficulty,
+            is_correct=is_correct
+        )
+        db.add(progress)
+
+    session.score = (correct_count / total_count * 100) if total_count > 0 else 0
+    session.results_json = {
+        "correct": correct_count,
+        "total": total_count,
+        "topics": topics_stats,
+        "duration_seconds": (session.end_time - session.start_time).total_seconds()
+    }
+    
+    db.commit()
+    return session.results_json
+
+@app.get("/api/simulation/sessions/{user_id}")
+def get_user_sessions(user_id: int, db: Session = Depends(get_db)):
+    sessions = db.query(main_models.ExamSession).filter(
+        main_models.ExamSession.user_id == user_id
+    ).order_by(main_models.ExamSession.start_time.desc()).all()
+    
+    return [
+        {
+            "id": s.id,
+            "exam_name": s.exam.name if s.exam else "Unknown",
+            "score": s.score,
+            "date": s.start_time.strftime("%Y-%m-%d %H:%M:%S"),
+            "data": s.results_json
+        } for s in sessions
+    ]
 
 if __name__ == "__main__":
     import uvicorn

@@ -191,6 +191,22 @@ class ExamAgent:
         
         return json.dumps(report)
 
+    def get_simulation_history(self, user_id: int) -> str:
+        """Retrieves and analyzes the user's past full exam simulation scores."""
+        sessions = self.db.query(ExamSession).filter(
+            ExamSession.user_id == user_id
+        ).order_by(ExamSession.start_time.desc()).limit(5).all()
+        
+        if not sessions:
+            return "No full exam simulations found in your history. Why not start one?"
+        
+        report = "Your Recent Simulation Results:\n"
+        for s in sessions:
+            date_str = s.start_time.strftime("%Y-%m-%d")
+            score_info = f"{s.score}%" if s.score is not None else "Incomplete"
+            report += f"- {date_str}: {score_info}\n"
+        return report
+
     def grade_essay(self, content: str, criteria: str) -> str:
         """Grades an IELTS essay, Scholarship SOP, or academic writing."""
         result = AIEngine.grade_essay_or_sop_sync(content, criteria)
@@ -386,6 +402,20 @@ class ExamAgent:
                         "required": ["user_id", "last_n"],
                     },
                 },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "get_simulation_history",
+                    "description": "Retrieves and analyzes the user's past full exam simulation scores.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "user_id": {"type": "integer"}
+                        },
+                        "required": ["user_id"],
+                    },
+                },
             }
         ]
 
@@ -395,9 +425,10 @@ class ExamAgent:
                 f"You are currently assisting User ID: {user_id}. "
                 f"Protocol: "
                 f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "
-                f"2. Ask questions ONE BY ONE to the user. Do not show them all at once. "
-                f"3. After each response, use 'log_answer' to record if they were correct based on 'internal_correct_answer'. "
-                f"4. Once the requested count is reached, use 'get_session_summary' with the correct count to show their final score."
+                f"2. When they want a REAL EXAM simulation, tell them to click the 'Practice' button on any exam card in the dashboard. "
+                f"3. Ask questions ONE BY ONE for simple practice. "
+                f"4. After each response, use 'log_answer'. "
+                f"5. Use 'get_simulation_history' to see how they've performed in full proctored exams."
             )}
         ]
         

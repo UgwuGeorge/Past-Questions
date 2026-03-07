@@ -52,13 +52,7 @@ function App() {
       )}
 
       {view === 'practice' && (
-        <div className="p-8 h-screen">
-          <button
-            onClick={goBack}
-            className="mb-6 flex items-center gap-2 px-4 py-2 text-sm bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-all"
-          >
-            <ChevronLeft size={16} /> Back to Dashboard
-          </button>
+        <div className="h-screen overflow-hidden">
           <CBTProcessor examId={selectedExamId} onExit={goBack} />
         </div>
       )}

@@ -14,10 +14,12 @@ import {
     Mic,
     Settings,
     LogOut,
-    Bell
+    Bell,
+    BarChart3
 } from 'lucide-react';
 
 const API_BASE = "http://localhost:8000/api";
+const USER_ID = 1;
 
 const CATEGORY_MAP = {
     'Academics': ['WAEC', 'NECO', 'JAMB', 'NABTEB', 'NDA', 'POLAC'],
@@ -27,6 +29,7 @@ const CATEGORY_MAP = {
 
 export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview }) {
     const [exams, setExams] = useState([]);
+    const [recentSessions, setRecentSessions] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -35,6 +38,11 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                 const examsRes = await fetch(`${API_BASE}/exams`);
                 const examsData = await examsRes.json();
                 setExams(examsData);
+
+                const sessionsRes = await fetch(`${API_BASE}/simulation/sessions/${USER_ID}`);
+                const sessionsData = await sessionsRes.json();
+                setRecentSessions(sessionsData.slice(0, 3));
+
                 setLoading(false);
             } catch (err) {
                 console.error("Failed to fetch backend data:", err);
@@ -131,21 +139,44 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
 
                 <main className="flex-1 overflow-y-auto p-10 custom-scrollbar">
                     {/* Hero */}
-                    <div className="mb-12">
-                        <motion.h1
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            className="text-5xl font-black mb-3 tracking-tighter"
-                        >
-                            The <span className="text-primary italic">Architect's</span> Dashboard.
-                        </motion.h1>
-                        <p className="text-white/50 text-lg max-w-2xl font-medium">
-                            Systematic access to the world's most critical examinations.
-                        </p>
+                    <div className="flex flex-col md:flex-row gap-10 mb-20 items-end">
+                        <div className="flex-1">
+                            <motion.h1
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                className="text-6xl font-black mb-4 tracking-tighter"
+                            >
+                                <span className="text-primary italic">Reharz</span> Simulator.
+                            </motion.h1>
+                            <p className="text-white/50 text-xl max-w-2xl font-medium leading-relaxed">
+                                Systematic access to the world's most critical examinations. Start a proctored simulation to evaluate your readiness.
+                            </p>
+                        </div>
+
+                        {/* Recent Results Mini-Feed */}
+                        <div className="w-full md:w-96 glass p-8 rounded-[32px] border border-white/10 shrink-0">
+                            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-white/40 mb-6 flex items-center justify-between">
+                                <span>Recent Simulations</span>
+                                <BarChart3 size={14} className="text-primary" />
+                            </h4>
+                            <div className="space-y-4">
+                                {recentSessions.length > 0 ? recentSessions.map(s => (
+                                    <div key={s.id} className="flex items-center justify-between p-3 rounded-2xl bg-white/5 border border-white/5 group hover:border-primary/20 transition-all">
+                                        <div>
+                                            <div className="text-xs font-bold">{s.exam_name}</div>
+                                            <div className="text-[10px] text-text-dim">{s.date}</div>
+                                        </div>
+                                        <div className={clsx("text-lg font-black", s.score >= 60 ? "text-emerald-400" : "text-rose-400")}>{Math.round(s.score)}%</div>
+                                    </div>
+                                )) : (
+                                    <div className="text-[10px] italic text-text-dim text-center py-4">No simulations recorded yet.</div>
+                                )}
+                            </div>
+                        </div>
                     </div>
 
                     {/* Content */}
-                    <div className="space-y-20">
+                    <div className="space-y-24">
                         {Object.entries(CATEGORY_MAP).map(([catName, list], catIdx) => (
                             <section key={catName}>
                                 <div className="flex items-center gap-4 mb-8">
