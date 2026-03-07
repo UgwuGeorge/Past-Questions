@@ -54,7 +54,7 @@ export default function SubjectHub({ subject, examName, onBack, onStartSimulatio
                 <div className="flex items-center gap-3">
                     <div className="px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full flex items-center gap-2">
                         <Sparkles size={14} className="text-primary animate-pulse" />
-                        <span className="text-[10px] font-black uppercase tracking-widest text-primary">Neural Simulator Active</span>
+                        <span className="text-[10px] font-black uppercase tracking-widest text-primary">Simulator Active</span>
                     </div>
                 </div>
             </header>
@@ -71,7 +71,7 @@ export default function SubjectHub({ subject, examName, onBack, onStartSimulatio
                             {subject.name}<span className="text-primary">.</span>
                         </motion.h1>
                         <p className="text-xl text-white/50 font-medium max-w-2xl leading-relaxed">
-                            {examName} Professional Track. The AI has analyzed {profile?.scheme_of_work?.length || 0} core modules from the latest curriculum.
+                            {examName} Professional Track. The engine has analyzed {profile?.scheme_of_work?.length || 0} core modules from the latest curriculum.
                         </p>
                     </section>
 
@@ -180,7 +180,7 @@ export default function SubjectHub({ subject, examName, onBack, onStartSimulatio
 
                     <GlowCard className="p-8 border-rose-500/20 bg-rose-500/[0.02]">
                         <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-500 mb-6 flex items-center gap-2">
-                            <ShieldAlert size={14} /> AI Proctor Profile
+                            <ShieldAlert size={14} /> Proctor Profile
                         </h3>
                         <div className="flex items-center gap-5 mb-6">
                             <div className="w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center">

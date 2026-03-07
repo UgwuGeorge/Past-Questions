@@ -92,10 +92,10 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
 
                 <nav className="flex-1 space-y-2">
                     <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" active />
-                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">AI Lab</div>
+                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">Lab</div>
                     <NavItem
                         icon={<PenTool size={20} />}
-                        label="AI Grading"
+                        label="Grading"
                         onClick={onStartGrading}
                     />
                     <NavItem
@@ -161,7 +161,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                                 animate={{ opacity: 1, x: 0 }}
                                 className="text-6xl font-black mb-4 tracking-tighter"
                             >
-                                <span className="text-primary italic">Reharz</span> Simulator.
+                                <span className="text-primary italic">Reharz.</span>
                             </motion.h1>
                             <p className="text-white/50 text-xl max-w-2xl font-medium leading-relaxed">
                                 Systematic access to the world's most critical examinations. Start a proctored simulation to evaluate your readiness.

@@ -400,7 +400,7 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
                             <CheckCircle2 size={48} className="text-primary" />
                         </div>
                         <h1 className="text-5xl font-black italic tracking-tighter uppercase mb-4">Simulation Certified.</h1>
-                        <p className="text-text-dim max-w-md mx-auto">The Reharz AI engine has evaluated your performance with 98% confidence scoring.</p>
+                        <p className="text-text-dim max-w-md mx-auto">The Reharz engine has evaluated your performance with 98% confidence scoring.</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
@@ -418,7 +418,7 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
                         </div>
                         <div className="glass p-8 rounded-[32px] border border-white/5 text-center">
                             <div className="text-4xl font-black mb-2 text-accent">Lvl 4</div>
-                            <div className="text-[10px] font-black text-white/30 uppercase tracking-widest">AI Performance</div>
+                            <div className="text-[10px] font-black text-white/30 uppercase tracking-widest">Performance</div>
                         </div>
                     </div>
 
@@ -473,7 +473,7 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
                                 onClick={() => { }} // Could trigger AI breakdown
                                 className="w-full mt-10 py-4 bg-white/5 border border-white/10 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-white/10 transition-all"
                             >
-                                Request AI Analysis Breakdown
+                                Request Analysis Breakdown
                             </button>
                         </GlowCard>
                     </div>
