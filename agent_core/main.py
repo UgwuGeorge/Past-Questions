@@ -62,6 +62,10 @@ def get_subjects(exam_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="No subjects found for this exam")
     return [{"id": s.id, "name": s.name, "exam_id": s.exam_id} for s in subjects]
 
+@app.get("/api/subjects/{subject_id}/profile")
+def get_subject_profile(subject_id: int):
+    return json.loads(agent.get_subject_profile(subject_id))
+
 @app.get("/api/subjects/{subject_id}/questions")
 def get_questions(subject_id: int, limit: int = 20, db: Session = Depends(get_db)):
     questions = db.query(main_models.Question).filter(
@@ -178,9 +182,10 @@ def get_user_stats(user_id: int):
 async def chat_with_agent(user_id: int, request: dict):
     message = request.get("message")
     history = request.get("history", [])
+    subject_context = request.get("subject_context")
     if not message:
         raise HTTPException(status_code=400, detail="Message is required")
-    response = await agent.chat(user_id=user_id, message=message, history=history)
+    response = await agent.chat(user_id=user_id, message=message, history=history, subject_context=subject_context)
     return {"response": response}
 
 @app.get("/api/history/{user_id}")

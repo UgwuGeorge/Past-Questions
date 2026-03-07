@@ -15,7 +15,11 @@ import {
     Settings,
     LogOut,
     Bell,
-    BarChart3
+    BarChart3,
+    XCircle,
+    ArrowRight,
+    Brain,
+    Layers
 } from 'lucide-react';
 
 const API_BASE = "http://localhost:8000/api";
@@ -27,17 +31,26 @@ const CATEGORY_MAP = {
     'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
-export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview }) {
+export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub }) {
     const [exams, setExams] = useState([]);
     const [recentSessions, setRecentSessions] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [selectedExamForSubjects, setSelectedExamForSubjects] = useState(null); // { id, name, subjects }
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const examsRes = await fetch(`${API_BASE}/exams`);
                 const examsData = await examsRes.json();
-                setExams(examsData);
+
+                // Fetch subjects for each exam to have them ready
+                const fullExams = await Promise.all(examsData.map(async (e) => {
+                    const sRes = await fetch(`${API_BASE}/exams/${e.id}/subjects`);
+                    const subjects = await sRes.json();
+                    return { ...e, subjects: Array.isArray(subjects) ? subjects : [] };
+                }));
+
+                setExams(fullExams);
 
                 const sessionsRes = await fetch(`${API_BASE}/simulation/sessions/${USER_ID}`);
                 const sessionsData = await sessionsRes.json();
@@ -68,10 +81,12 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
 
     return (
         <div className="flex h-screen bg-[#0b0f1a] text-white font-sans overflow-hidden">
-            {/* Sidebar */}
+            {/* Sidebar omitted for brevity, but stays same */}
             <aside className="w-64 glass border-r border-white/5 p-6 flex flex-col z-20">
                 <div className="flex items-center gap-4 mb-10 px-2 group cursor-pointer" onClick={() => window.location.reload()}>
-                    <img src="/assets/reharz_logo.png" alt="Reharz" className="w-10 h-10 rounded-xl object-cover shadow-lg border border-white/10 group-hover:scale-110 transition-all" />
+                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg group-hover:scale-110 transition-all">
+                        <span className="font-black text-white italic">R</span>
+                    </div>
                     <span className="text-2xl font-black tracking-tighter">Reharz</span>
                 </div>
 
@@ -204,7 +219,6 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                                                 className="group"
                                             >
                                                 <div
-                                                    onClick={() => isAvailable && onStartPDFRepo?.(item)}
                                                     className={clsx(
                                                         "relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/40 transition-all flex flex-col h-full bg-white/[0.01]",
                                                         isAvailable ? "cursor-pointer" : "opacity-70"
@@ -227,14 +241,30 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
 
                                                     <h3 className="text-xl font-bold mb-1 tracking-tight group-hover:text-primary transition-colors">{item}</h3>
                                                     <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] mb-4">{catName}</p>
-                                                    <p className="text-[10px] text-text-dim/60 mb-8 italic">Click card to view PDF Repo</p>
+
+                                                    {isAvailable && examRecord?.subjects?.length > 0 && (
+                                                        <div className="mt-4 space-y-1">
+                                                            <p className="text-[8px] font-black uppercase text-white/20 mb-2">Popular Subjects</p>
+                                                            <div className="flex flex-wrap gap-1">
+                                                                {examRecord.subjects.slice(0, 3).map(s => (
+                                                                    <span key={s.id} className="px-2 py-0.5 bg-white/5 rounded text-[8px] font-bold text-white/40">
+                                                                        {s.name}
+                                                                    </span>
+                                                                ))}
+                                                            </div>
+                                                        </div>
+                                                    )}
 
                                                     <div className="mt-auto pt-6 border-t border-white/5">
                                                         <button
                                                             disabled={!isAvailable}
                                                             onClick={(e) => {
                                                                 e.stopPropagation();
-                                                                onStartPractice?.(item, examRecord?.id);
+                                                                if (item === 'WAEC') {
+                                                                    onStartPractice?.(item, examRecord?.id);
+                                                                } else if (examRecord) {
+                                                                    setSelectedExamForSubjects(examRecord);
+                                                                }
                                                             }}
                                                             className={clsx(
                                                                 "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
@@ -243,7 +273,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                                                                     : "bg-white/5 text-white/20 cursor-not-allowed"
                                                             )}
                                                         >
-                                                            {isAvailable ? <><Play size={14} fill="currentColor" /> Practice</> : "Coming Soon"}
+                                                            {isAvailable ? <><Layers size={14} /> Explorer</> : "Coming Soon"}
                                                         </button>
                                                     </div>
                                                 </div>
@@ -256,6 +286,85 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                     </div>
                 </main>
             </div>
+
+            {/* Subject Selector Modal */}
+            <AnimatePresence>
+                {selectedExamForSubjects && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="fixed inset-0 z-[100] bg-[#0b0f1a]/95 backdrop-blur-xl flex items-center justify-center p-6"
+                    >
+                        <motion.div
+                            initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                            animate={{ scale: 1, opacity: 1, y: 0 }}
+                            className="bg-[#121625] border border-white/10 rounded-[40px] w-full max-w-4xl max-h-[80vh] overflow-hidden flex flex-col shadow-2xl"
+                        >
+                            <div className="p-10 border-b border-white/5 flex items-center justify-between">
+                                <div>
+                                    <h2 className="text-4xl font-black italic tracking-tighter mb-2">
+                                        Select <span className="text-primary">Course.</span>
+                                    </h2>
+                                    <p className="text-white/40 text-sm font-medium">{selectedExamForSubjects.name} Examination Track</p>
+                                </div>
+                                <button
+                                    onClick={() => setSelectedExamForSubjects(null)}
+                                    className="w-12 h-12 rounded-2xl bg-white/5 hover:bg-white/10 flex items-center justify-center transition-all"
+                                >
+                                    <XCircle size={24} className="text-white/40" />
+                                </button>
+                            </div>
+
+                            <div className="flex-1 overflow-y-auto p-10 grid grid-cols-1 md:grid-cols-2 gap-6 custom-scrollbar">
+                                {selectedExamForSubjects.subjects.map((sub, i) => (
+                                    <motion.div
+                                        key={sub.id}
+                                        initial={{ opacity: 0, y: 10 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: i * 0.05 }}
+                                        onClick={() => {
+                                            onOpenSubjectHub(sub, selectedExamForSubjects.name);
+                                            setSelectedExamForSubjects(null);
+                                        }}
+                                        className="glass p-6 rounded-3xl border border-white/5 hover:border-primary/40 hover:bg-white/[0.03] transition-all group cursor-pointer flex items-center justify-between"
+                                    >
+                                        <div className="flex items-center gap-5">
+                                            <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+                                                <Brain size={24} />
+                                            </div>
+                                            <div>
+                                                <h4 className="font-bold text-lg group-hover:text-primary transition-colors">{sub.name}</h4>
+                                                <div className="text-[10px] text-white/30 font-black uppercase tracking-widest mt-1">Specialized Simulation</div>
+                                            </div>
+                                        </div>
+                                        <ArrowRight size={20} className="text-white/20 group-hover:text-primary group-hover:translate-x-1 transition-all" />
+                                    </motion.div>
+                                ))}
+                                {/* Add an option for Full Exam */}
+                                <div
+                                    onClick={() => {
+                                        onStartPractice(selectedExamForSubjects.name, selectedExamForSubjects.id);
+                                        setSelectedExamForSubjects(null);
+                                    }}
+                                    className="glass p-6 rounded-3xl border border-dashed border-white/20 hover:border-primary/40 hover:bg-white/[0.03] transition-all group cursor-pointer flex items-center justify-between"
+                                >
+                                    <div className="flex items-center gap-5">
+                                        <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-white/40 group-hover:bg-white/10 group-hover:text-white transition-all">
+                                            <Layers size={24} />
+                                        </div>
+                                        <div>
+                                            <h4 className="font-bold text-lg group-hover:text-primary transition-colors">Full Simulation</h4>
+                                            <div className="text-[10px] text-white/30 font-black uppercase tracking-widest mt-1">Combined Subjects</div>
+                                        </div>
+                                    </div>
+                                    <ArrowRight size={20} className="text-white/20 group-hover:text-primary group-hover:translate-x-1 transition-all" />
+                                </div>
+                            </div>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
     );
 }

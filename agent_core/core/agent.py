@@ -217,6 +217,44 @@ class ExamAgent:
         result = AIEngine.simulate_interview_sync(scenario, user_text)
         return json.dumps(result, indent=2)
 
+    def get_subject_profile(self, subject_id: int) -> str:
+        """
+        Generates a profile for a specific subject by analyzing its questions 
+         and finding related documentation in the data folder.
+        """
+        subject = self.db.query(Subject).get(subject_id)
+        if not subject:
+            return json.dumps({"error": "Subject not found"})
+        
+        # 1. Fetch questions
+        questions = self.db.query(Question).filter(Question.subject_id == subject_id).limit(30).all()
+        q_data = [{"text": q.text, "topic": q.topic} for q in questions]
+        
+        # 2. Search for related files
+        extra_content = ""
+        data_root = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data")
+        # Heuristic search for files containing the subject name
+        for root, dirs, files in os.walk(data_root):
+            for file in files:
+                if subject.name.lower() in file.lower() and file.endswith(".md"):
+                    try:
+                        with open(os.path.join(root, file), "r", encoding="utf-8") as f:
+                            extra_content += f.read() + "\n\n"
+                    except:
+                        pass
+        
+        # 3. Analyze via AI
+        profile = AIEngine.analyze_syllabus_sync(subject.name, q_data, extra_content)
+        
+        # 4. Integrate stats
+        topics = self.db.query(UserProgress.topic, func.avg(UserProgress.is_correct.cast(Float)))\
+            .join(Question).filter(Question.subject_id == subject_id)\
+            .group_by(UserProgress.topic).all()
+        
+        profile["performance"] = {t: round(acc * 100, 1) for t, acc in topics}
+        
+        return json.dumps(profile)
+
     def generate_new_content(self, exam_name: str, topic: str, difficulty: str, count: int = 5) -> str:
         """
         Generates new practice questions and stores them in the local database.
@@ -270,7 +308,7 @@ class ExamAgent:
         self.db.commit()
         return f"Successfully generated and stored {added_count} new questions for {exam_name} - {topic}."
 
-    async def chat(self, user_id: int, message: str, history: List[Dict] = []) -> str:
+    async def chat(self, user_id: int, message: str, history: List[Dict] = [], subject_context: str = None) -> str:
         # Define tools for OpenAI
         tools = [
             {
@@ -419,9 +457,11 @@ class ExamAgent:
             }
         ]
 
+        subject_prompt = f" You are currently the specialized expert for {subject_context}." if subject_context else ""
+
         messages = [
             {"role": "system", "content": (
-                f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems. "
+                f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems.{subject_prompt} "
                 f"You are currently assisting User ID: {user_id}. "
                 f"Protocol: "
                 f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "

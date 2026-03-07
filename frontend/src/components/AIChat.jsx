@@ -116,8 +116,9 @@ export default function AIChat() {
                     history: messages.map(m => ({
                         role: m.role === 'assistant' ? 'model' : 'user',
                         text: m.text
-                    }))
-                })
+                    })),
+                    subject_context: subject?.name
+                }),
             });
 
             if (!res.ok) throw new Error("Server error");

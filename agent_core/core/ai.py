@@ -190,3 +190,65 @@ class AIEngine:
             response_format={"type": "json_object"}
         )
         return json.loads(response.choices[0].message.content)
+    @staticmethod
+    async def analyze_syllabus(subject_name: str, questions: List[Dict], extra_content: str = "") -> Dict:
+        """
+        Analyzes a set of questions and additional material to generate a 'Scheme of Work'.
+        """
+        # Limit questions to avoid token overflow
+        sample_questions = questions[:15]
+        
+        prompt = f"""
+        Act as a Senior Educational Curriculum Designer and Subject Matter Expert for {subject_name}.
+        
+        I will provide you with a sample of past questions and some raw data from the syllabus/scheme of work.
+        Based on this, I want you to "learn" and "describe" the DNAS of this course for a student simulation.
+        
+        Input Data:
+        - Sample Questions: {json.dumps(sample_questions)}
+        - Extra Content: {extra_content[:2000]}
+        
+        Generate a JSON object with:
+        1. "subject_name": "{subject_name}"
+        2. "scheme_of_work": [A list of key topics identified, e.g., ["Algebra", "Geometry"]]
+        3. "structure_analysis": "A detailed explanation of how questions are structured in this subject (e.g., 'Heavy on calculations', 'Conceptual multiple choice')"
+        4. "learning_path": [Recommended sequence of topics to master]
+        5. "ai_proctor_persona": "A brief description of how the AI should act as a proctor for this specific subject (e.g., 'A patient but rigorous Mathematics Mentor')"
+        6. "mastery_tips": ["Tip 1", "Tip 2"]
+        
+        Return ONLY valid JSON.
+        """
+        
+        response = await async_client.chat.completions.create(
+            model=MODEL_ID,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
+        )
+        return json.loads(response.choices[0].message.content)
+
+    @staticmethod
+    def analyze_syllabus_sync(subject_name: str, questions: List[Dict], extra_content: str = "") -> Dict:
+        """Sync version of syllabus analysis."""
+        sample_questions = questions[:15]
+        prompt = f"""
+        Act as a Senior Educational Curriculum Designer and Subject Matter Expert for {subject_name}.
+        Input Data:
+        - Sample Questions: {json.dumps(sample_questions)}
+        - Extra Content: {extra_content[:2000]}
+        
+        Generate a JSON object with:
+        1. "subject_name": "{subject_name}"
+        2. "scheme_of_work": [List of topics]
+        3. "structure_analysis": "Explanation of structure"
+        4. "learning_path": [Recommended sequence]
+        5. "ai_proctor_persona": "Persona"
+        6. "mastery_tips": ["Tips"]
+        
+        Return ONLY valid JSON.
+        """
+        response = client.chat.completions.create(
+            model=MODEL_ID,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
+        )
+        return json.loads(response.choices[0].message.content)

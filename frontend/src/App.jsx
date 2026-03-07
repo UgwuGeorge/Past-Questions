@@ -6,6 +6,7 @@ import AIInterview from './pages/AIInterview';
 import AIChat from './components/AIChat';
 import WAECBrowser from './pages/WAECBrowser';
 import ExamRepo from './pages/ExamRepo';
+import SubjectHub from './pages/SubjectHub';
 import { ChevronLeft } from 'lucide-react';
 import './index.css';
 
@@ -14,6 +15,7 @@ function App() {
   const [selectedExamId, setSelectedExamId] = useState(null);
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedExamType, setSelectedExamType] = useState(null); // 'WAEC', 'NECO', etc.
+  const [activeSubject, setActiveSubject] = useState(null);
 
   const startExam = (examId) => {
     setSelectedExamId(examId);
@@ -33,6 +35,15 @@ function App() {
     }
   };
 
+  const openSubjectHub = (subject, examName) => {
+    setActiveSubject({ ...subject, examName });
+    setView('subject_hub');
+  };
+
+  const startSimulationFromHub = (mode) => {
+    setView('practice');
+  };
+
   const startPDFRepo = (type) => {
     setSelectedExamType(type);
     setView('pdf_repo');
@@ -48,12 +59,30 @@ function App() {
           onStartPDFRepo={startPDFRepo}
           onStartGrading={startGrading}
           onStartInterview={startInterview}
+          onOpenSubjectHub={openSubjectHub}
+        />
+      )}
+
+      {view === 'subject_hub' && (
+        <SubjectHub
+          subject={activeSubject}
+          examName={activeSubject.examName}
+          onBack={goBack}
+          onStartSimulation={(mode) => {
+            setSelectedExamId(activeSubject.exam_id);
+            setSelectedSubject(activeSubject.id);
+            setView('practice');
+          }}
         />
       )}
 
       {view === 'practice' && (
         <div className="h-screen overflow-hidden">
-          <CBTProcessor examId={selectedExamId} onExit={goBack} />
+          <CBTProcessor
+            examId={selectedExamId}
+            subjectId={selectedSubject}
+            onExit={goBack}
+          />
         </div>
       )}
 
@@ -89,7 +118,9 @@ function App() {
         </div>
       )}
 
-      <AIChat />
+      <div className="fixed bottom-8 right-8 z-[100]">
+        <AIChat subject={activeSubject} />
+      </div>
     </div>
   );
 }

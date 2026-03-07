@@ -10,13 +10,13 @@ import GlowCard from '../components/GlowCard';
 const API_BASE = "http://localhost:8000/api";
 const USER_ID = 1;
 
-export default function CBTProcessor({ examId, onExit }) {
+export default function CBTProcessor({ examId, subjectId, onExit }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'
     const [config, setConfig] = useState({
         questionCount: 40,
         duration: 45, // minutes
         mode: 'standard', // 'standard' | 'blitz' | 'hardcore'
-        subjectId: null
+        subjectId: subjectId || null
     });
 
     const [subjects, setSubjects] = useState([]);
