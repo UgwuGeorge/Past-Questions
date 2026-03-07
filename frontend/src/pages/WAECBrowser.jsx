@@ -1,17 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
-import { ChevronLeft, ChevronRight, CheckCircle2, Flag, Timer, BookOpen, Layers, XCircle } from 'lucide-react';
+import {
+    ChevronLeft, ChevronRight, CheckCircle2, Flag, Timer,
+    BookOpen, Layers, XCircle, Zap, Settings2, ShieldCheck,
+    Target, Clock
+} from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
 const API_BASE = "http://localhost:8000/api";
+const USER_ID = 1;
 
-export default function WAECBrowser({ onExit, examId: propExamId }) {
-    const [view, setView] = useState('subjects'); // subjects | years | exam | results
+export default function WAECBrowser({ onExit, examId: propExamId, examName: propExamName }) {
+    const [view, setView] = useState('subjects'); // subjects | config | loading | exam | results
     const [subjects, setSubjects] = useState([]);
     const [selectedSubject, setSelectedSubject] = useState(null);
-    const [selectedYear, setSelectedYear] = useState(null);
+    const [config, setConfig] = useState({
+        topicMode: 'all', // 'all' | 'specific'
+        specificTopics: '',
+        questionCount: 50,
+        duration: 60,
+        section: 'objective' // 'objective' | 'theory' | 'practical'
+    });
+
     const [questions, setQuestions] = useState([]);
+    const [sessionData, setSessionData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -19,12 +32,18 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
     const [currentIdx, setCurrentIdx] = useState(0);
     const [answers, setAnswers] = useState({});
     const [flags, setFlags] = useState({});
-    const [timeLeft, setTimeLeft] = useState(3600);
+    const [timeLeft, setTimeLeft] = useState(0);
     const [isSubmitted, setIsSubmitted] = useState(false);
 
-    const examId = propExamId || 10; // Use prop or default to 10 (which is WAEC now)
+    const examId = propExamId;
+    const examName = propExamName || 'WAEC';
 
     useEffect(() => {
+        if (!examId) {
+            setError('No exam selected. Please go back and select an exam.');
+            setLoading(false);
+            return;
+        }
         const fetchSubjects = async () => {
             setLoading(true);
             try {
@@ -39,14 +58,23 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
             }
         };
         fetchSubjects();
-    }, []);
+    }, [examId]);
 
     // Timer countdown
     useEffect(() => {
-        if (view !== 'exam' || isSubmitted) return;
-        const timer = setInterval(() => setTimeLeft(t => t - 1), 1000);
+        if (view !== 'exam' || isSubmitted || !timeLeft) return;
+        const timer = setInterval(() => {
+            setTimeLeft(t => {
+                if (t <= 1) {
+                    clearInterval(timer);
+                    handleSubmit();
+                    return 0;
+                }
+                return t - 1;
+            });
+        }, 1000);
         return () => clearInterval(timer);
-    }, [view, isSubmitted]);
+    }, [view, isSubmitted, timeLeft]);
 
     const formatTime = (seconds) => {
         const m = Math.floor(seconds / 60);
@@ -56,69 +84,99 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
 
     const handleSelectSubject = (subjectItem) => {
         setSelectedSubject(subjectItem);
-        setView('years');
+        setView('config');
     };
 
-    const handleSelectYear = async (yearStr) => {
-        setSelectedYear(yearStr);
+    const startSimulation = async () => {
+        setView('loading');
         setLoading(true);
         try {
-            const res = await fetch(`${API_BASE}/subjects/${selectedSubject.id}/questions?limit=50`);
+            const topics = config.topicMode === 'specific'
+                ? config.specificTopics.split(',').map(t => t.trim()).filter(t => t)
+                : null;
+
+            const res = await fetch(`${API_BASE}/simulation/start`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    user_id: USER_ID,
+                    exam_id: examId,
+                    subject_id: selectedSubject.id,
+                    question_count: config.questionCount,
+                    duration_minutes: config.duration,
+                    topics: topics,
+                    section: config.section
+                })
+            });
             const data = await res.json();
+            if (data.detail) throw new Error(data.detail);
 
-            const filtered = Array.isArray(data) ? data.filter(q => !yearStr || q.year == parseInt(yearStr) || !q.year) : [];
-
-            // Normalize choices
-            const normalized = filtered.map(q => ({
+            // Normalize choices for display if they aren't already
+            const normalized = data.questions.map(q => ({
                 ...q,
-                choices: Array.isArray(q.choices)
-                    ? q.choices.reduce((acc, c) => ({ ...acc, [c.label]: c.text }), {})
-                    : q.choices,
-                answer: (q.choices.find(c => c.is_correct) || {}).label || 'A'
+                choices: Array.isArray(q.choices) ? q.choices : [],
+                // Find correct answer if provided by backend (optional check)
+                correctLabel: (q.choices.find(c => c.is_correct) || {}).label
             }));
 
             setQuestions(normalized);
+            setSessionData(data);
+            setTimeLeft(data.duration_seconds);
             setCurrentIdx(0);
             setAnswers({});
             setFlags({});
             setIsSubmitted(false);
-            setTimeLeft(3600);
             setView('exam');
             setLoading(false);
         } catch (err) {
-            setError("Failed to load questions");
+            setError(err.message);
             setLoading(false);
+            setView('config');
         }
     };
 
     const handleSelectAnswer = (label) => {
-        setAnswers(prev => ({ ...prev, [currentIdx]: label }));
+        setAnswers(prev => ({ ...prev, [questions[currentIdx].id]: label }));
     };
 
     const toggleFlag = () => {
-        setFlags(prev => ({ ...prev, [currentIdx]: !prev[currentIdx] }));
+        setFlags(prev => ({ ...prev, [questions[currentIdx].id]: !prev[currentIdx] }));
     };
 
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
+        if (isSubmitted) return;
         setIsSubmitted(true);
-        setView('results');
+        setView('loading');
+        try {
+            const res = await fetch(`${API_BASE}/simulation/submit`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: sessionData.session_id,
+                    answers: answers
+                })
+            });
+            const data = await res.json();
+            setSessionData({ ...sessionData, results: data });
+            setView('results');
+        } catch (err) {
+            console.error("Submission failed:", err);
+            setView('results'); // Show what we have or error
+        }
+        setLoading(false);
     };
 
-    const calculateScore = () => {
-        let score = 0;
-        questions.forEach((q, i) => {
-            if (answers[i] === q.answer) score++;
-        });
-        return score;
-    };
-
-    if (loading) {
+    if (loading && view === 'loading') {
         return (
-            <div className="h-screen flex items-center justify-center bg-background">
-                <div className="text-center">
-                    <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-6" />
-                    <p className="text-text-dim font-medium">Loading Complete WAEC Archive...</p>
+            <div className="h-screen flex flex-col items-center justify-center bg-background">
+                <div className="relative">
+                    <div className="w-24 h-24 border-4 border-primary/20 rounded-full animate-ping" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <Zap size={32} className="text-primary animate-pulse" />
+                    </div>
                 </div>
+                <h2 className="text-xl font-black mt-8 tracking-widest uppercase">Initializing Simulation</h2>
+                <p className="text-text-dim italic">Synthesizing {selectedSubject?.name} dataset...</p>
             </div>
         );
     }
@@ -130,7 +188,8 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
                     <XCircle className="w-16 h-16 text-rose-500 mx-auto mb-4" />
                     <h2 className="text-2xl font-bold mb-2">Oops!</h2>
                     <p className="text-text-dim mb-6">{error}</p>
-                    <button onClick={onExit} className="btn-primary w-full justify-center">Back to Dashboard</button>
+                    <button onClick={() => { setError(null); setView('subjects'); }} className="btn-primary w-full justify-center">Try Again</button>
+                    <button onClick={onExit} className="mt-4 text-xs text-text-dim hover:text-white transition-colors">Back to Dashboard</button>
                 </GlowCard>
             </div>
         );
@@ -144,14 +203,14 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
                         <ChevronLeft />
                     </button>
                     <div>
-                        <h1 className="text-xl font-bold flex items-center gap-2">
+                        <h1 className="text-xl font-bold flex items-center gap-2 uppercase tracking-tighter">
                             <Layers size={20} className="text-primary" />
-                            WAEC Subject Archive
+                            {examName} — Subjects
                         </h1>
-                        <p className="text-xs text-text-dim">Select a subject to practice past questions</p>
+                        <p className="text-xs text-text-dim">Select a proctored curriculum track</p>
                     </div>
                 </header>
-                <div className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto w-full">
+                <div className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto w-full">
                     {subjects.map((sub, i) => (
                         <motion.button
                             key={sub.id}
@@ -159,13 +218,14 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: i * 0.05 }}
                             onClick={() => handleSelectSubject(sub)}
-                            className="glass rounded-3xl p-7 text-left border border-white/5 hover:border-primary/40 hover:bg-white/[0.04] transition-all group"
+                            className="glass rounded-[32px] p-8 text-left border border-white/5 hover:border-primary/40 hover:bg-white/[0.04] transition-all group relative overflow-hidden h-64 flex flex-col"
                         >
-                            <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
-                                <BookOpen className="text-primary" size={22} />
+                            <div className="absolute -right-4 -top-4 w-32 h-32 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/10 transition-colors" />
+                            <div className="w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                <BookOpen className="text-primary" size={24} />
                             </div>
-                            <h3 className="text-xl font-bold mb-2">{sub.name}</h3>
-                            <p className="text-xs text-text-dim">Multi-Year Practice Dataset</p>
+                            <h3 className="text-2xl font-black tracking-tight mb-2 group-hover:text-primary transition-colors">{sub.name}</h3>
+                            <p className="text-xs text-text-dim font-bold uppercase tracking-widest mt-auto italic">Verified Track AVAILABLE</p>
                         </motion.button>
                     ))}
                 </div>
@@ -173,7 +233,7 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
         );
     }
 
-    if (view === 'years') {
+    if (view === 'config') {
         return (
             <div className="h-screen flex flex-col bg-background overflow-y-auto">
                 <header className="glass px-8 py-5 flex items-center gap-4 border-b border-white/5 sticky top-0 z-10">
@@ -181,81 +241,178 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
                         <ChevronLeft />
                     </button>
                     <div>
-                        <h1 className="text-xl font-bold flex items-center gap-2">
-                            WAEC {selectedSubject.name}
+                        <h1 className="text-xl font-bold flex items-center gap-2 uppercase tracking-tighter">
+                            <Settings2 size={20} className="text-primary" />
+                            {selectedSubject.name} Configuration
                         </h1>
-                        <p className="text-xs text-text-dim">Select a Year</p>
+                        <p className="text-xs text-text-dim">Calibrate your practice parameters</p>
                     </div>
                 </header>
-                <div className="p-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-5xl mx-auto w-full">
-                    {['2023', '2022', '2021', '2020', '2019', '2018'].map((year, i) => (
-                        <motion.button
-                            key={year}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ delay: i * 0.02 }}
-                            onClick={() => handleSelectYear(year)}
-                            className="glass rounded-2xl p-5 text-center transition-all border border-white/5 hover:border-primary/40 hover:opacity-100 hover:-translate-y-1"
-                        >
-                            <div className="text-2xl font-black text-white/90">{year}</div>
-                            <div className="text-[10px] text-text-dim mt-1 uppercase tracking-wider">Document Set</div>
-                        </motion.button>
-                    ))}
-                    <motion.button
-                        onClick={() => handleSelectYear(null)}
-                        className="glass rounded-2xl p-5 text-center transition-all border border-white/5 hover:border-primary/40 hover:opacity-100 hover:-translate-y-1 col-span-2"
+
+                <main className="flex-1 p-10 max-w-4xl mx-auto w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                        {/* Left: Mode \u0026 Topics */}
+                        <div className="space-y-6">
+                            <GlowCard className="p-8">
+                                <h3 className="text-xs font-black uppercase tracking-[0.2em] text-white/30 mb-6 flex items-center gap-2">
+                                    <ShieldCheck size={14} className="text-primary" /> Examination Mode
+                                </h3>
+                                <div className="grid grid-cols-1 gap-3">
+                                    {['objective', 'theory', 'practical'].map(m => (
+                                        <button
+                                            key={m}
+                                            onClick={() => setConfig({ ...config, section: m })}
+                                            className={clsx(
+                                                "p-4 rounded-xl border text-left transition-all uppercase text-[10px] font-black tracking-widest",
+                                                config.section === m ? "bg-primary text-white border-primary shadow-lg shadow-primary/20" : "glass border-white/10 text-white/40 hover:bg-white/5"
+                                            )}
+                                        >
+                                            {m} Section
+                                        </button>
+                                    ))}
+                                </div>
+                            </GlowCard>
+
+                            <GlowCard className="p-8">
+                                <h3 className="text-xs font-black uppercase tracking-[0.2em] text-white/30 mb-6 flex items-center gap-2">
+                                    <Target size={14} className="text-secondary" /> Topic Focus
+                                </h3>
+                                <div className="space-y-4">
+                                    <div className="flex gap-2">
+                                        <button
+                                            onClick={() => setConfig({ ...config, topicMode: 'all' })}
+                                            className={clsx(
+                                                "flex-1 py-3 rounded-lg text-[10px] font-black uppercase border transition-all",
+                                                config.topicMode === 'all' ? "bg-white/10 border-white/20 text-white" : "border-transparent text-white/30 hover:bg-white/5"
+                                            )}
+                                        >
+                                            Every Topic
+                                        </button>
+                                        <button
+                                            onClick={() => setConfig({ ...config, topicMode: 'specific' })}
+                                            className={clsx(
+                                                "flex-1 py-3 rounded-lg text-[10px] font-black uppercase border transition-all",
+                                                config.topicMode === 'specific' ? "bg-white/10 border-white/20 text-white" : "border-transparent text-white/30 hover:bg-white/5"
+                                            )}
+                                        >
+                                            Specific Topics
+                                        </button>
+                                    </div>
+                                    {config.topicMode === 'specific' && (
+                                        <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}>
+                                            <label className="text-[10px] font-bold text-white/30 block mb-2">Input topics (comma separated)</label>
+                                            <input
+                                                type="text"
+                                                placeholder="e.g. Algebra, Trigonometry, Calculus"
+                                                className="w-full bg-white/5 border border-white/10 rounded-xl p-3 text-sm outline-none focus:border-primary/50 transition-all"
+                                                value={config.specificTopics}
+                                                onChange={e => setConfig({ ...config, specificTopics: e.target.value })}
+                                            />
+                                        </motion.div>
+                                    )}
+                                </div>
+                            </GlowCard>
+                        </div>
+
+                        {/* Right: Quantities */}
+                        <GlowCard className="p-8">
+                            <h3 className="text-xs font-black uppercase tracking-[0.2em] text-white/30 mb-8 flex items-center gap-2">
+                                <Clock size={14} className="text-accent" /> Control Parameters
+                            </h3>
+                            <div className="space-y-8">
+                                <div>
+                                    <div className="flex justify-between mb-4">
+                                        <label className="text-[10px] font-black uppercase tracking-widest text-white/40">Question Count</label>
+                                        <span className="text-primary font-black">{config.questionCount}</span>
+                                    </div>
+                                    <input
+                                        type="range"
+                                        min="5"
+                                        max="60"
+                                        step="5"
+                                        value={config.questionCount}
+                                        onChange={e => setConfig({ ...config, questionCount: parseInt(e.target.value) })}
+                                        className="w-full accent-primary h-1.5 bg-white/5 rounded-full appearance-none cursor-pointer"
+                                    />
+                                    <div className="flex justify-between mt-2 text-[8px] font-bold text-white/20">
+                                        <span>5 Qs</span>
+                                        <span>60 Qs</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between mb-4">
+                                        <label className="text-[10px] font-black uppercase tracking-widest text-white/40">Time Duration</label>
+                                        <span className="text-secondary font-black">{config.duration} MIN</span>
+                                    </div>
+                                    <input
+                                        type="range"
+                                        min="10"
+                                        max="120"
+                                        step="10"
+                                        value={config.duration}
+                                        onChange={e => setConfig({ ...config, duration: parseInt(e.target.value) })}
+                                        className="w-full accent-secondary h-1.5 bg-white/5 rounded-full appearance-none cursor-pointer"
+                                    />
+                                    <div className="flex justify-between mt-2 text-[8px] font-bold text-white/20">
+                                        <span>10 MIN</span>
+                                        <span>120 MIN</span>
+                                    </div>
+                                </div>
+
+                                <GlowCard className="bg-rose-500/[0.02] border-rose-500/10 p-5">
+                                    <div className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-500 mb-2">Simulated Constraint</div>
+                                    <p className="text-[10px] text-white/40 leading-relaxed italic">The session will fetch EXACTLY {config.questionCount} questions matching these parameters.</p>
+                                </GlowCard>
+                            </div>
+                        </GlowCard>
+                    </div>
+
+                    <button
+                        onClick={startSimulation}
+                        className="btn-primary w-full py-5 text-lg font-black uppercase tracking-[0.2em] shadow-2xl shadow-primary/20 hover:scale-[1.01] transition-all"
                     >
-                        <div className="text-xl font-black text-white/90">Complete Archive</div>
-                        <div className="text-[10px] text-text-dim mt-1 uppercase tracking-wider">All years</div>
-                    </motion.button>
-                </div>
+                        Initialize Practice Session
+                    </button>
+                </main>
             </div>
         );
     }
 
     if (view === 'results') {
-        const score = calculateScore();
-        const pct = Math.round((score / questions.length) * 100) || 0;
+        const results = sessionData?.results || { correct: 0, total: questions.length, topics: {} };
+        const score = results.correct;
+        const total = results.total;
+        const pct = Math.round((score / total) * 100) || 0;
+
         return (
             <div className="min-h-screen flex items-center justify-center p-6 bg-background">
-                <GlowCard className="max-w-2xl w-full text-center">
+                <GlowCard className="max-w-3xl w-full text-center p-12">
                     <CheckCircle2 className="w-20 h-20 text-emerald-500 mx-auto mb-6" />
-                    <h1 className="text-4xl font-bold mb-2">WAEC Completed!</h1>
-                    <p className="text-text-dim mb-10">{selectedSubject.name} - {selectedYear || 'Archive'}</p>
-                    <div className="grid grid-cols-3 gap-5 mb-10">
-                        <div className="glass p-6 rounded-2xl">
-                            <div className="text-4xl font-bold text-primary">{score}/{questions.length}</div>
-                            <div className="text-xs text-text-dim mt-2 uppercase tracking-wider">Score</div>
+                    <h1 className="text-5xl font-black italic tracking-tighter mb-2 uppercase">Session Analyzed.</h1>
+                    <p className="text-text-dim mb-10 font-medium">{selectedSubject.name} — {config.section.toUpperCase()} TRACK</p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                        <div className="glass p-8 rounded-3xl border border-white/5">
+                            <div className="text-4xl font-black text-primary mb-1">{score} / {total}</div>
+                            <div className="text-[10px] text-text-dim font-black uppercase tracking-widest">Accuracy</div>
                         </div>
-                        <div className="glass p-6 rounded-2xl">
-                            <div className={clsx("text-4xl font-bold", pct >= 60 ? "text-emerald-400" : "text-rose-400")}>{pct}%</div>
-                            <div className="text-xs text-text-dim mt-2 uppercase tracking-wider">Accuracy</div>
+                        <div className="glass p-8 rounded-3xl border border-white/5">
+                            <div className={clsx("text-4xl font-black mb-1", pct >= 60 ? "text-emerald-400" : "text-rose-400")}>{pct}%</div>
+                            <div className="text-[10px] text-text-dim font-black uppercase tracking-widest">Score</div>
                         </div>
-                        <div className="glass p-6 rounded-2xl">
-                            <div className="text-4xl font-bold text-accent">{Object.keys(flags).length}</div>
-                            <div className="text-xs text-text-dim mt-2 uppercase tracking-wider">Flagged</div>
+                        <div className="glass p-8 rounded-3xl border border-white/5">
+                            <div className="text-4xl font-black text-accent mb-1">{Object.keys(flags).length}</div>
+                            <div className="text-[10px] text-text-dim font-black uppercase tracking-widest">Flagged</div>
                         </div>
                     </div>
-                    {/* Review answers */}
-                    <div className="text-left space-y-4 mb-10 max-h-60 overflow-y-auto pr-2">
-                        {questions.map((q, i) => {
-                            const userAnswer = answers[i];
-                            const isOk = q.answer === userAnswer;
-                            return (
-                                <div key={i} className={clsx("p-4 rounded-xl border text-sm", isOk ? "border-emerald-500/20 bg-emerald-500/5" : "border-rose-500/20 bg-rose-500/5")}>
-                                    <div className="font-medium mb-1 line-clamp-2">{i + 1}. {q.text}</div>
-                                    <div className="text-xs text-text-dim mb-1">
-                                        Your answer: <span className={clsx("font-bold", isOk ? "text-emerald-400" : "text-rose-400")}>{userAnswer || 'Skipped'}</span>
-                                        {!isOk && <> · Correct: <span className="font-bold text-emerald-400">{q.answer}</span></>}
-                                    </div>
-                                    {q.explanation && (
-                                        <div className="text-xs text-white/60 italic border-l-2 border-white/20 pl-2 mt-2">{q.explanation}</div>
-                                    )}
-                                </div>
-                            );
-                        })}
-                    </div>
-                    <button onClick={() => setView('years')} className="btn-primary w-full justify-center text-sm">Return to Years</button>
+
+                    <button
+                        onClick={() => setView('subjects')}
+                        className="btn-primary w-full py-4 text-xs font-black uppercase tracking-widest"
+                    >
+                        Return to Subject Selection
+                    </button>
                 </GlowCard>
             </div>
         );
@@ -266,103 +423,145 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
             return (
                 <div className="h-screen flex items-center justify-center">
                     <div className="text-center">
-                        <p className="text-white mb-4">No questions explicitly documented for this year.</p>
-                        <button onClick={() => setView('years')} className="btn-secondary">Go Back</button>
+                        <XCircle size={48} className="text-rose-500 mx-auto mb-4" />
+                        <h2 className="text-2xl font-bold mb-2">No Matching Questions Found</h2>
+                        <p className="text-white/40 mb-6 max-w-sm">We couldn't find enough questions matching your specific topic/mode criteria.</p>
+                        <button onClick={() => setView('config')} className="btn-primary">Adjust Configuration</button>
                     </div>
                 </div>
             )
         }
 
         const currentQ = questions[currentIdx];
+        const isAnswered = !!answers[currentQ.id];
+
         return (
             <div className="h-screen flex flex-col overflow-hidden bg-background">
-                <header className="glass px-8 py-4 flex justify-between items-center border-b border-white/5 shrink-0">
-                    <div className="flex items-center gap-4">
-                        <button onClick={() => setView('years')} className="p-2 hover:bg-white/5 rounded-lg transition-colors">
-                            <ChevronLeft />
-                        </button>
+                <header className="glass px-10 py-5 flex justify-between items-center border-b border-white/5 shrink-0">
+                    <div className="flex items-center gap-6">
+                        <div className="bg-rose-500/10 border border-rose-500/20 px-3 py-1 rounded-full flex items-center gap-2">
+                            <div className="w-2 h-2 bg-rose-500 rounded-full animate-pulse" />
+                            <span className="text-[10px] font-black text-rose-500 uppercase tracking-widest">Simulation Active</span>
+                        </div>
                         <div>
-                            <span className="font-bold text-base">WAEC {selectedSubject.name} ({selectedYear || 'Archive'})</span>
-                            <p className="text-xs text-text-dim">{questions.length} Questions</p>
+                            <span className="font-black text-sm uppercase tracking-tight">{selectedSubject.name} — {config.section}</span>
+                            <div className="flex gap-4 text-[10px] text-text-dim font-black">
+                                <span>{questions.length} QUESTIONS REQUISITIONED</span>
+                            </div>
                         </div>
                     </div>
+
                     <div className={clsx(
-                        "flex items-center gap-3 px-6 py-2 rounded-full glass border",
-                        timeLeft < 300 ? "border-red-500/50 text-red-500 animate-pulse" : "border-primary/20 text-primary"
+                        "flex items-center gap-4 px-8 py-2 rounded-2xl glass border-2 transition-all duration-500",
+                        timeLeft < 300 ? "border-rose-500/40 text-rose-500 animate-pulse" : "border-white/10"
                     )}>
-                        <Timer size={18} />
-                        <span className="font-mono text-xl font-bold">{formatTime(timeLeft)}</span>
+                        <Timer size={22} className={timeLeft < 300 ? "text-rose-500" : "text-primary"} />
+                        <span className="font-mono text-3xl font-black tracking-tighter">{formatTime(timeLeft)}</span>
                     </div>
+
                     <button
                         onClick={handleSubmit}
-                        className="btn-primary py-2 px-6"
+                        className="btn-primary py-3 px-8 rounded-xl text-[10px] font-black uppercase tracking-widest"
                     >
-                        Submit Exam
+                        Terminal Session
                     </button>
                 </header>
 
                 <div className="flex-1 flex overflow-hidden">
-                    {/* Question Area */}
-                    <div className="flex-1 p-10 overflow-y-auto">
-                        <AnimatePresence mode="wait">
-                            <motion.div
-                                key={currentIdx}
-                                initial={{ opacity: 0, x: 20 }}
-                                animate={{ opacity: 1, x: 0 }}
-                                exit={{ opacity: 0, x: -20 }}
-                                className="max-w-3xl mx-auto"
-                            >
-                                <div className="flex items-center gap-4 mb-6">
-                                    <span className="text-primary font-bold text-2xl">Question {currentIdx + 1}</span>
-                                    {flags[currentIdx] && <Flag className="text-amber-500 fill-amber-500" size={18} />}
-                                </div>
-
-                                <h2 className="text-xl leading-relaxed mb-10 text-white/90">{currentQ.text}</h2>
-
-                                <div className="space-y-4">
-                                    {Object.entries(currentQ.choices).map(([label, text]) => (
+                    <main className="flex-1 p-12 overflow-y-auto custom-scrollbar bg-white/[0.01]">
+                        <div className="max-w-4xl mx-auto">
+                            <AnimatePresence mode="wait">
+                                <motion.div
+                                    key={currentIdx}
+                                    initial={{ opacity: 0, x: 20 }}
+                                    animate={{ opacity: 1, x: 0 }}
+                                    exit={{ opacity: 0, x: -20 }}
+                                >
+                                    <div className="flex items-center justify-between mb-8">
+                                        <div className="flex items-center gap-4">
+                                            <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-black text-2xl">
+                                                {currentIdx + 1}
+                                            </div>
+                                            <div>
+                                                <div className="text-[10px] text-text-dim font-black uppercase tracking-widest mb-1">Current Question Trace</div>
+                                                <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black text-white/40 uppercase">{currentQ.topic || 'General Topic'}</span>
+                                            </div>
+                                        </div>
                                         <button
-                                            key={label}
-                                            onClick={() => handleSelectAnswer(label)}
+                                            onClick={toggleFlag}
                                             className={clsx(
-                                                "w-full p-5 rounded-2xl text-left border transition-all flex items-center gap-4 group",
-                                                answers[currentIdx] === label
-                                                    ? "bg-primary/20 border-primary shadow-lg shadow-primary/10"
-                                                    : "glass border-transparent hover:border-white/20"
+                                                "p-4 rounded-2xl border transition-all",
+                                                flags[currentQ.id] ? "bg-amber-500/20 border-amber-500/40 text-amber-500" : "glass border-transparent hover:bg-white/5 text-white/20"
                                             )}
                                         >
-                                            <div className={clsx(
-                                                "w-9 h-9 rounded-xl flex items-center justify-center font-bold text-sm shrink-0",
-                                                answers[currentIdx] === label
-                                                    ? "bg-primary text-white"
-                                                    : "bg-white/5 text-text-dim group-hover:bg-white/10"
-                                            )}>
-                                                {label}
-                                            </div>
-                                            <span className="leading-relaxed">{text}</span>
+                                            <Flag size={24} fill={flags[currentQ.id] ? "currentColor" : "none"} />
                                         </button>
-                                    ))}
-                                </div>
-                            </motion.div>
-                        </AnimatePresence>
-                    </div>
+                                    </div>
 
-                    {/* Navigator Sidebar */}
-                    <aside className="w-72 glass border-l border-white/5 p-7 flex flex-col shrink-0">
-                        <h3 className="font-bold mb-5 flex items-center gap-2 text-sm uppercase tracking-wider text-text-dim">
-                            Question Navigator
-                        </h3>
-                        <div className="grid grid-cols-5 gap-2 flex-1 overflow-y-auto content-start">
+                                    <div className="glass p-12 rounded-[40px] border border-white/5 mb-8 shadow-2xl">
+                                        <h2 className="text-3xl font-medium leading-relaxed text-white/90">{currentQ.text}</h2>
+                                    </div>
+
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        {currentQ.choices.length > 0 ? (
+                                            currentQ.choices.map((c) => (
+                                                <button
+                                                    key={c.id}
+                                                    onClick={() => handleSelectAnswer(c.label)}
+                                                    className={clsx(
+                                                        "p-7 rounded-[28px] text-left border transition-all flex items-center gap-6 group relative overflow-hidden",
+                                                        answers[currentQ.id] === c.label
+                                                            ? "bg-primary/20 border-primary shadow-lg shadow-primary/20"
+                                                            : "glass border-white/5 hover:border-white/20 hover:bg-white/[0.04]"
+                                                    )}
+                                                >
+                                                    <div className={clsx(
+                                                        "w-12 h-12 rounded-2xl flex items-center justify-center font-black text-sm shrink-0 border transition-all",
+                                                        answers[currentQ.id] === c.label
+                                                            ? "bg-primary border-primary text-white"
+                                                            : "bg-white/5 border-white/10 text-white/40 group-hover:bg-white/10 group-hover:text-white"
+                                                    )}>
+                                                        {c.label}
+                                                    </div>
+                                                    <span className="text-xl font-medium tracking-tight text-white/80">{c.text}</span>
+                                                </button>
+                                            ))
+                                        ) : (
+                                            <div className="col-span-1 md:col-span-2">
+                                                <label className="text-[10px] font-black uppercase text-white/40 mb-3 block">Theory Answer Submission</label>
+                                                <textarea
+                                                    className="w-full h-64 bg-white/5 border border-white/10 rounded-3xl p-8 text-lg outline-none focus:border-primary/50 transition-all font-medium leading-relaxed"
+                                                    placeholder="Input your detailed solution or response here..."
+                                                    value={answers[currentQ.id] || ''}
+                                                    onChange={e => setAnswers({ ...answers, [currentQ.id]: e.target.value })}
+                                                />
+                                            </div>
+                                        )}
+                                    </div>
+                                </motion.div>
+                            </AnimatePresence>
+                        </div>
+                    </main>
+
+                    {/* Question Navigator */}
+                    <aside className="w-[400px] glass border-l border-white/5 p-10 flex flex-col shrink-0 overflow-hidden">
+                        <div className="flex items-center justify-between mb-8">
+                            <h3 className="font-black text-[10px] uppercase tracking-[0.2em] text-white/30">Session Progress</h3>
+                            <div className="text-[10px] font-black text-primary px-3 py-1.5 bg-primary/10 rounded-xl">
+                                {Object.keys(answers).length} / {questions.length} RESOLVED
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-5 gap-3 mb-10 overflow-y-auto custom-scrollbar pr-3">
                             {questions.map((q, i) => (
                                 <button
-                                    key={i}
+                                    key={q.id}
                                     onClick={() => setCurrentIdx(i)}
                                     className={clsx(
-                                        "aspect-square rounded-xl flex items-center justify-center font-bold text-sm transition-all border",
-                                        currentIdx === i ? "border-primary bg-primary/20 text-primary" :
-                                            answers[i] ? "bg-emerald-500/10 border-emerald-500/50 text-emerald-400" :
-                                                flags[i] ? "bg-amber-500/10 border-amber-500/50 text-amber-400" :
-                                                    "glass border-white/5 text-text-dim hover:border-white/20"
+                                        "aspect-square rounded-2xl border flex items-center justify-center font-black text-xs transition-all",
+                                        currentIdx === i ? "bg-primary/20 border-primary text-primary shadow-lg shadow-primary/10 scale-105" :
+                                            flags[q.id] ? "bg-amber-500/20 border-amber-500/40 text-amber-500" :
+                                                answers[q.id] ? "bg-white/10 border-white/20 text-white" : "glass border-white/5 text-white/20 hover:border-white/20"
                                     )}
                                 >
                                     {i + 1}
@@ -370,25 +569,21 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
                             ))}
                         </div>
 
-                        <div className="mt-6 space-y-3">
-                            <button onClick={toggleFlag} className="btn-secondary w-full justify-center text-sm">
-                                <Flag size={16} className={flags[currentIdx] ? "fill-amber-500 text-amber-500" : ""} />
-                                {flags[currentIdx] ? "Unflag" : "Flag for Review"}
-                            </button>
-                            <div className="flex gap-3">
+                        <div className="mt-auto space-y-4 pt-10 border-t border-white/5">
+                            <div className="grid grid-cols-2 gap-4">
                                 <button
                                     disabled={currentIdx === 0}
-                                    onClick={() => setCurrentIdx(i => i - 1)}
-                                    className="btn-secondary flex-1 justify-center disabled:opacity-30"
+                                    onClick={() => setCurrentIdx(p => p - 1)}
+                                    className="h-16 rounded-3xl glass border border-white/5 flex items-center justify-center hover:bg-white/10 transition-all disabled:opacity-20 group"
                                 >
-                                    <ChevronLeft size={18} /> Prev
+                                    <ChevronLeft className="group-hover:-translate-x-1 transition-transform" /> <span className="font-black text-[10px] uppercase ml-2 tracking-widest">Previous</span>
                                 </button>
                                 <button
                                     disabled={currentIdx === questions.length - 1}
-                                    onClick={() => setCurrentIdx(i => i + 1)}
-                                    className="btn-primary flex-1 justify-center disabled:opacity-30"
+                                    onClick={() => setCurrentIdx(p => p + 1)}
+                                    className="h-16 rounded-3xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-all disabled:opacity-20 group"
                                 >
-                                    Next <ChevronRight size={18} />
+                                    <span className="font-black text-[10px] uppercase mr-2 tracking-widest">Advance</span> <ChevronRight className="group-hover:translate-x-1 transition-transform" />
                                 </button>
                             </div>
                         </div>
@@ -397,4 +592,6 @@ export default function WAECBrowser({ onExit, examId: propExamId }) {
             </div>
         );
     }
+
+    return null;
 }

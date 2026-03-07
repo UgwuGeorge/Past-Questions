@@ -115,6 +115,9 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
             <div className="h-full flex flex-col items-center justify-center max-w-4xl mx-auto py-10">
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="w-full">
                     <div className="flex items-center gap-4 mb-10">
+                        <button onClick={onExit} className="p-2 mr-2 hover:bg-white/5 rounded-lg transition-colors border border-white/5 glass">
+                            <ChevronLeft size={20} />
+                        </button>
                         <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center border border-primary/20">
                             <ShieldCheck size={32} className="text-primary" />
                         </div>
@@ -123,6 +126,13 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
                             <p className="text-text-dim text-sm">Configure your proctored practice session</p>
                         </div>
                     </div>
+
+                    {error && (
+                        <div className="mb-6 p-4 rounded-2xl bg-rose-500/10 border border-rose-500/20 flex gap-3 text-rose-500 text-sm font-bold items-start">
+                            <AlertTriangle size={18} className="shrink-0 mt-0.5" />
+                            <p>{error}</p>
+                        </div>
+                    )}
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                         <GlowCard className="p-8">

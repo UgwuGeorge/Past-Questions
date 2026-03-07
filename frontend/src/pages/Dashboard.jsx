@@ -80,46 +80,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
     };
 
     return (
-        <div className="flex h-screen bg-[#0b0f1a] text-white font-sans overflow-hidden">
-            {/* Sidebar omitted for brevity, but stays same */}
-            <aside className="w-64 glass border-r border-white/5 p-6 flex flex-col z-20">
-                <div className="flex items-center gap-4 mb-10 px-2 group cursor-pointer" onClick={() => window.location.reload()}>
-                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg group-hover:scale-110 transition-all">
-                        <span className="font-black text-white italic">R</span>
-                    </div>
-                    <span className="text-2xl font-black tracking-tighter">Reharz</span>
-                </div>
-
-                <nav className="flex-1 space-y-2">
-                    <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" active />
-                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">Lab</div>
-                    <NavItem
-                        icon={<PenTool size={20} />}
-                        label="Grading"
-                        onClick={onStartGrading}
-                    />
-                    <NavItem
-                        icon={<Mic size={20} />}
-                        label="Interview Prep"
-                        onClick={onStartInterview}
-                    />
-
-                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">Practice</div>
-                    <NavItem icon={<FileText size={20} />} label="My Results" />
-
-                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">User</div>
-                    <NavItem icon={<Settings size={20} />} label="Settings" />
-                </nav>
-
-                <div className="mt-auto pt-6 border-t border-white/5">
-                    <button className="flex items-center gap-3 px-4 py-3 w-full text-white/50 hover:text-white hover:bg-white/5 rounded-xl transition-all group">
-                        <LogOut size={20} className="group-hover:text-rose-500 transition-colors" />
-                        <span className="font-bold text-sm">Sign Out</span>
-                    </button>
-                </div>
-            </aside>
-
-            {/* Main Content Area */}
+        <div className="flex-1 flex flex-col relative overflow-hidden h-full">
             <div className="flex-1 flex flex-col relative overflow-hidden">
                 {/* Background Glows */}
                 <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[40%] bg-primary/10 blur-[120px] rounded-full -z-10" />
@@ -260,10 +221,9 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                                                             disabled={!isAvailable}
                                                             onClick={(e) => {
                                                                 e.stopPropagation();
-                                                                if (item === 'WAEC') {
-                                                                    onStartPractice?.(item, examRecord?.id);
-                                                                } else if (examRecord) {
-                                                                    setSelectedExamForSubjects(examRecord);
+                                                                if (examRecord) {
+                                                                    // All exams with DB records go through the unified subject→config→exam flow
+                                                                    onStartPractice?.(item, examRecord.id, examRecord.name);
                                                                 }
                                                             }}
                                                             className={clsx(
@@ -286,103 +246,6 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                     </div>
                 </main>
             </div>
-
-            {/* Subject Selector Modal */}
-            <AnimatePresence>
-                {selectedExamForSubjects && (
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        className="fixed inset-0 z-[100] bg-[#0b0f1a]/95 backdrop-blur-xl flex items-center justify-center p-6"
-                    >
-                        <motion.div
-                            initial={{ scale: 0.9, opacity: 0, y: 20 }}
-                            animate={{ scale: 1, opacity: 1, y: 0 }}
-                            className="bg-[#121625] border border-white/10 rounded-[40px] w-full max-w-4xl max-h-[80vh] overflow-hidden flex flex-col shadow-2xl"
-                        >
-                            <div className="p-10 border-b border-white/5 flex items-center justify-between">
-                                <div>
-                                    <h2 className="text-4xl font-black italic tracking-tighter mb-2">
-                                        Select <span className="text-primary">Course.</span>
-                                    </h2>
-                                    <p className="text-white/40 text-sm font-medium">{selectedExamForSubjects.name} Examination Track</p>
-                                </div>
-                                <button
-                                    onClick={() => setSelectedExamForSubjects(null)}
-                                    className="w-12 h-12 rounded-2xl bg-white/5 hover:bg-white/10 flex items-center justify-center transition-all"
-                                >
-                                    <XCircle size={24} className="text-white/40" />
-                                </button>
-                            </div>
-
-                            <div className="flex-1 overflow-y-auto p-10 grid grid-cols-1 md:grid-cols-2 gap-6 custom-scrollbar">
-                                {selectedExamForSubjects.subjects.map((sub, i) => (
-                                    <motion.div
-                                        key={sub.id}
-                                        initial={{ opacity: 0, y: 10 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: i * 0.05 }}
-                                        onClick={() => {
-                                            onOpenSubjectHub(sub, selectedExamForSubjects.name);
-                                            setSelectedExamForSubjects(null);
-                                        }}
-                                        className="glass p-6 rounded-3xl border border-white/5 hover:border-primary/40 hover:bg-white/[0.03] transition-all group cursor-pointer flex items-center justify-between"
-                                    >
-                                        <div className="flex items-center gap-5">
-                                            <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
-                                                <Brain size={24} />
-                                            </div>
-                                            <div>
-                                                <h4 className="font-bold text-lg group-hover:text-primary transition-colors">{sub.name}</h4>
-                                                <div className="text-[10px] text-white/30 font-black uppercase tracking-widest mt-1">Specialized Simulation</div>
-                                            </div>
-                                        </div>
-                                        <ArrowRight size={20} className="text-white/20 group-hover:text-primary group-hover:translate-x-1 transition-all" />
-                                    </motion.div>
-                                ))}
-                                {/* Add an option for Full Exam */}
-                                <div
-                                    onClick={() => {
-                                        onStartPractice(selectedExamForSubjects.name, selectedExamForSubjects.id);
-                                        setSelectedExamForSubjects(null);
-                                    }}
-                                    className="glass p-6 rounded-3xl border border-dashed border-white/20 hover:border-primary/40 hover:bg-white/[0.03] transition-all group cursor-pointer flex items-center justify-between"
-                                >
-                                    <div className="flex items-center gap-5">
-                                        <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-white/40 group-hover:bg-white/10 group-hover:text-white transition-all">
-                                            <Layers size={24} />
-                                        </div>
-                                        <div>
-                                            <h4 className="font-bold text-lg group-hover:text-primary transition-colors">Full Simulation</h4>
-                                            <div className="text-[10px] text-white/30 font-black uppercase tracking-widest mt-1">Combined Subjects</div>
-                                        </div>
-                                    </div>
-                                    <ArrowRight size={20} className="text-white/20 group-hover:text-primary group-hover:translate-x-1 transition-all" />
-                                </div>
-                            </div>
-                        </motion.div>
-                    </motion.div>
-                )}
-            </AnimatePresence>
         </div>
-    );
-}
-
-function NavItem({ icon, label, active = false, onClick }) {
-    return (
-        <button
-            onClick={onClick}
-            className={clsx(
-                "w-full flex items-center gap-3 px-4 py-3 rounded-2xl transition-all group",
-                active
-                    ? "bg-primary/10 text-primary border border-primary/20"
-                    : "text-white/50 hover:bg-white/5 hover:text-white"
-            )}
-        >
-            <span className={clsx(active ? "text-primary" : "text-white/50 group-hover:text-primary transition-colors")}>{icon}</span>
-            <span className="font-black text-xs uppercase tracking-widest">{label}</span>
-            {active && <div className="ml-auto w-1.5 h-1.5 bg-primary rounded-full" />}
-        </button>
     );
 }

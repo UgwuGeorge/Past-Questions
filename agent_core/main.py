@@ -220,25 +220,71 @@ class SimulationStartPayload(BaseModel):
     subject_id: Optional[int] = None
     question_count: int = 50
     duration_minutes: int = 60
+    topics: Optional[List[str]] = None
+    section: Optional[str] = None
+    year: Optional[int] = None
 
 @app.post("/api/simulation/start")
 def start_simulation(payload: SimulationStartPayload, db: Session = Depends(get_db)):
     # 1. Select questions
     query = db.query(main_models.Question)
     if payload.subject_id:
-        query = query.filter(main_models.Question.subject_id == payload.subject_id)
+        query = db.query(main_models.Question).filter(
+            main_models.Question.subject_id == payload.subject_id
+        )
     else:
         # All subjects for this exam
-        subjects = db.query(main_models.Subject).filter(main_models.Subject.exam_id == payload.exam_id).all()
+        subjects = db.query(main_models.Subject).filter(
+            main_models.Subject.exam_id == payload.exam_id
+        ).all()
         sub_ids = [s.id for s in subjects]
-        query = query.filter(main_models.Question.subject_id.in_(sub_ids))
+        query = db.query(main_models.Question).filter(
+            main_models.Question.subject_id.in_(sub_ids)
+        )
     
-    questions = query.all()
-    if not questions:
+    # Topic filter (exact match on stored topic values)
+    if payload.topics:
+        # Use LIKE for partial matching so "Algebra" matches "Algebra" or any topic containing it
+        from sqlalchemy import or_
+        topic_filters = [main_models.Question.topic.ilike(f"%{t}%") for t in payload.topics]
+        query = query.filter(or_(*topic_filters))
+    
+    # Section filter - try DB section field first, but fall back to choice-based detection
+    # since many questions have section=NULL in the database
+    all_questions = query.all()
+    
+    if payload.section and any(q.section for q in all_questions):
+        # DB has section data - use it
+        filtered = [q for q in all_questions if q.section and payload.section.lower() in q.section.lower()]
+        if filtered:
+            all_questions = filtered
+        # Otherwise keep all_questions (no section match = don't restrict)
+    elif payload.section:
+        # Section not stored in DB - infer from choices:
+        # objective = questions with multiple-choice options
+        # theory/practical = questions without choices (or all if no split)
+        q_ids_with_choices = {
+            row[0] for row in db.query(main_models.Choice.question_id).distinct().all()
+        }
+        if payload.section.lower() == 'objective':
+            theory_filtered = [q for q in all_questions if q.id in q_ids_with_choices]
+            if theory_filtered:
+                all_questions = theory_filtered
+        elif payload.section.lower() in ('theory', 'practical'):
+            theory_filtered = [q for q in all_questions if q.id not in q_ids_with_choices]
+            if theory_filtered:
+                all_questions = theory_filtered
+    
+    if payload.year:
+        year_filtered = [q for q in all_questions if q.year == payload.year]
+        if year_filtered:
+            all_questions = year_filtered
+
+    if not all_questions:
         raise HTTPException(status_code=404, detail="No questions found for this configuration")
     
-    # Shuffle and pick
-    selected = random.sample(questions, min(len(questions), payload.question_count))
+    # Use random.choices (with replacement) to ALWAYS return exactly question_count items
+    selected = random.choices(all_questions, k=payload.question_count)
     
     # 2. Create Session
     session = main_models.ExamSession(
