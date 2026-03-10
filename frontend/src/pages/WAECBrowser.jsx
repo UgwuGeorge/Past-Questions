@@ -20,7 +20,7 @@ export default function WAECBrowser({ onExit, examId: propExamId, examName: prop
         specificTopics: '',
         questionCount: 50,
         duration: 60,
-        section: 'objective' // 'objective' | 'theory' | 'practical'
+        section: 'objective' // 'objective' | 'theory' | 'practical' | 'full exam'
     });
 
     const [questions, setQuestions] = useState([]);
@@ -258,7 +258,7 @@ export default function WAECBrowser({ onExit, examId: propExamId, examName: prop
                                     <ShieldCheck size={14} className="text-primary" /> Examination Mode
                                 </h3>
                                 <div className="grid grid-cols-1 gap-3">
-                                    {['objective', 'theory', 'practical'].map(m => (
+                                    {['objective', 'theory', 'practical', 'full exam'].map(m => (
                                         <button
                                             key={m}
                                             onClick={() => setConfig({ ...config, section: m })}
@@ -267,13 +267,13 @@ export default function WAECBrowser({ onExit, examId: propExamId, examName: prop
                                                 config.section === m ? "bg-primary text-white border-primary shadow-lg shadow-primary/20" : "glass border-white/10 text-white/40 hover:bg-white/5"
                                             )}
                                         >
-                                            {m} Section
+                                            {m === 'full exam' ? 'Full Exam' : `${m} Section`}
                                         </button>
                                     ))}
                                 </div>
                             </GlowCard>
 
-                            <GlowCard className="p-8">
+                            <GlowCard className={clsx("p-8 transition-all", config.section === 'full exam' && "opacity-50 pointer-events-none")}>
                                 <h3 className="text-xs font-black uppercase tracking-[0.2em] text-white/30 mb-6 flex items-center gap-2">
                                     <Target size={14} className="text-secondary" /> Topic Focus
                                 </h3>
@@ -319,52 +319,67 @@ export default function WAECBrowser({ onExit, examId: propExamId, examName: prop
                             <h3 className="text-xs font-black uppercase tracking-[0.2em] text-white/30 mb-8 flex items-center gap-2">
                                 <Clock size={14} className="text-accent" /> Control Parameters
                             </h3>
-                            <div className="space-y-8">
-                                <div>
-                                    <div className="flex justify-between mb-4">
-                                        <label className="text-[10px] font-black uppercase tracking-widest text-white/40">Question Count</label>
-                                        <span className="text-primary font-black">{config.questionCount}</span>
-                                    </div>
-                                    <input
-                                        type="range"
-                                        min="5"
-                                        max="60"
-                                        step="5"
-                                        value={config.questionCount}
-                                        onChange={e => setConfig({ ...config, questionCount: parseInt(e.target.value) })}
-                                        className="w-full accent-primary h-1.5 bg-white/5 rounded-full appearance-none cursor-pointer"
-                                    />
-                                    <div className="flex justify-between mt-2 text-[8px] font-bold text-white/20">
-                                        <span>5 Qs</span>
-                                        <span>60 Qs</span>
-                                    </div>
+                            {config.section === 'full exam' ? (
+                                <div className="space-y-4 h-full flex flex-col justify-center pb-4">
+                                    <GlowCard className="bg-primary/5 border-primary/20 p-6">
+                                        <div className="flex items-center gap-3 mb-4">
+                                            <ShieldCheck size={24} className="text-primary" />
+                                            <div className="text-sm font-black uppercase tracking-[0.2em] text-primary">Full Exam Protocol Active</div>
+                                        </div>
+                                        <p className="text-xs text-white/60 leading-relaxed italic border-l-2 border-primary/40 pl-4 py-1">
+                                            Custom parameters are securely locked. <br /><br />
+                                            This simulated session will strictly enforce the exact official structure, duration constraints, and objective/theory divisions derived from the verified reference dataset.
+                                        </p>
+                                    </GlowCard>
                                 </div>
+                            ) : (
+                                <div className="space-y-8">
+                                    <div>
+                                        <div className="flex justify-between mb-4">
+                                            <label className="text-[10px] font-black uppercase tracking-widest text-white/40">Question Count</label>
+                                            <span className="text-primary font-black">{config.questionCount}</span>
+                                        </div>
+                                        <input
+                                            type="range"
+                                            min="5"
+                                            max="60"
+                                            step="5"
+                                            value={config.questionCount}
+                                            onChange={e => setConfig({ ...config, questionCount: parseInt(e.target.value) })}
+                                            className="w-full accent-primary h-1.5 bg-white/5 rounded-full appearance-none cursor-pointer"
+                                        />
+                                        <div className="flex justify-between mt-2 text-[8px] font-bold text-white/20">
+                                            <span>5 Qs</span>
+                                            <span>60 Qs</span>
+                                        </div>
+                                    </div>
 
-                                <div>
-                                    <div className="flex justify-between mb-4">
-                                        <label className="text-[10px] font-black uppercase tracking-widest text-white/40">Time Duration</label>
-                                        <span className="text-secondary font-black">{config.duration} MIN</span>
+                                    <div>
+                                        <div className="flex justify-between mb-4">
+                                            <label className="text-[10px] font-black uppercase tracking-widest text-white/40">Time Duration</label>
+                                            <span className="text-secondary font-black">{config.duration} MIN</span>
+                                        </div>
+                                        <input
+                                            type="range"
+                                            min="10"
+                                            max="120"
+                                            step="10"
+                                            value={config.duration}
+                                            onChange={e => setConfig({ ...config, duration: parseInt(e.target.value) })}
+                                            className="w-full accent-secondary h-1.5 bg-white/5 rounded-full appearance-none cursor-pointer"
+                                        />
+                                        <div className="flex justify-between mt-2 text-[8px] font-bold text-white/20">
+                                            <span>10 MIN</span>
+                                            <span>120 MIN</span>
+                                        </div>
                                     </div>
-                                    <input
-                                        type="range"
-                                        min="10"
-                                        max="120"
-                                        step="10"
-                                        value={config.duration}
-                                        onChange={e => setConfig({ ...config, duration: parseInt(e.target.value) })}
-                                        className="w-full accent-secondary h-1.5 bg-white/5 rounded-full appearance-none cursor-pointer"
-                                    />
-                                    <div className="flex justify-between mt-2 text-[8px] font-bold text-white/20">
-                                        <span>10 MIN</span>
-                                        <span>120 MIN</span>
-                                    </div>
+
+                                    <GlowCard className="bg-rose-500/[0.02] border-rose-500/10 p-5">
+                                        <div className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-500 mb-2">Simulated Constraint</div>
+                                        <p className="text-[10px] text-white/40 leading-relaxed italic">The session will fetch EXACTLY {config.questionCount} questions matching these parameters.</p>
+                                    </GlowCard>
                                 </div>
-
-                                <GlowCard className="bg-rose-500/[0.02] border-rose-500/10 p-5">
-                                    <div className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-500 mb-2">Simulated Constraint</div>
-                                    <p className="text-[10px] text-white/40 leading-relaxed italic">The session will fetch EXACTLY {config.questionCount} questions matching these parameters.</p>
-                                </GlowCard>
-                            </div>
+                            )}
                         </GlowCard>
                     </div>
 

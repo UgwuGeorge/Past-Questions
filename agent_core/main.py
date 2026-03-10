@@ -253,27 +253,28 @@ def start_simulation(payload: SimulationStartPayload, db: Session = Depends(get_
     # since many questions have section=NULL in the database
     all_questions = query.all()
     
-    if payload.section and any(q.section for q in all_questions):
-        # DB has section data - use it
-        filtered = [q for q in all_questions if q.section and payload.section.lower() in q.section.lower()]
-        if filtered:
-            all_questions = filtered
-        # Otherwise keep all_questions (no section match = don't restrict)
-    elif payload.section:
-        # Section not stored in DB - infer from choices:
-        # objective = questions with multiple-choice options
-        # theory/practical = questions without choices (or all if no split)
-        q_ids_with_choices = {
-            row[0] for row in db.query(main_models.Choice.question_id).distinct().all()
-        }
-        if payload.section.lower() == 'objective':
-            theory_filtered = [q for q in all_questions if q.id in q_ids_with_choices]
-            if theory_filtered:
-                all_questions = theory_filtered
-        elif payload.section.lower() in ('theory', 'practical'):
-            theory_filtered = [q for q in all_questions if q.id not in q_ids_with_choices]
-            if theory_filtered:
-                all_questions = theory_filtered
+    if payload.section and payload.section.lower() != 'full exam':
+        if any(q.section for q in all_questions):
+            # DB has section data - use it
+            filtered = [q for q in all_questions if q.section and payload.section.lower() in q.section.lower()]
+            if filtered:
+                all_questions = filtered
+            # Otherwise keep all_questions (no section match = don't restrict)
+        else:
+            # Section not stored in DB - infer from choices:
+            # objective = questions with multiple-choice options
+            # theory/practical = questions without choices (or all if no split)
+            q_ids_with_choices = {
+                row[0] for row in db.query(main_models.Choice.question_id).distinct().all()
+            }
+            if payload.section.lower() == 'objective':
+                theory_filtered = [q for q in all_questions if q.id in q_ids_with_choices]
+                if theory_filtered:
+                    all_questions = theory_filtered
+            elif payload.section.lower() in ('theory', 'practical'):
+                theory_filtered = [q for q in all_questions if q.id not in q_ids_with_choices]
+                if theory_filtered:
+                    all_questions = theory_filtered
     
     if payload.year:
         year_filtered = [q for q in all_questions if q.year == payload.year]
