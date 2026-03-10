@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1080,
+    "question": "The mean of ten positive numbers is 16. When another number is added, the mean becomes 18. Find the eleventh number",
+    "option": {
+      "a": "3",
+      "b": "16",
+      "c": "38",
+      "d": "30",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Mean of 10 numbers = 16\n\nThe total sum of numbers = 16 x 10 = 160\n\nMean of 11 numbers = 18\n\nTotal sum of numbers = 11 x 18\n\n= 198\n\nThe 11th no. = 198 - 160\n\n= 38",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1070,
+    "question": "Simplify and express in standard form (0.00275 × 0.00640)/(0.025 × 0.08)",
+    "option": {
+      "a": "8.8 x 10<sup>-1</sup>",
+      "b": "8.8 x 10<sup>-2</sup>",
+      "c": "8.8 x 10<sup>-2</sup>",
+      "d": " 8.8 x 10<sup>3</sup>",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <mn>0.00275</mn>\n      <mo>&#x00D7;<!-- × --></mo>\n      <mn>0.00640</mn>\n    </mrow>\n    <mrow>\n      <mn>0.025</mn>\n      <mo>&#x00D7;<!-- × --></mo>\n      <mn>0.08</mn>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "c",
+    "solution": "(0.00275 × 0.0064)/(0.025 × 0.08)\n \n\nRemoving the decimals = (275 × 64)/(2500 × 800)\n\n\n= 88/10<sup>4</sup>\n\n\n88 x 10<sup>-4</sup> = 88 x 10<sup>-1</sup> x 10<sup>-4</sup>\n\n= 8.8 x 10<sup>-3</sup>",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1068,
+    "question": "At what rate would a sum of N100.00 deposited for 5 years raise an interest of N7.50?",
+    "option": {
+      "a": "1/2 %",
+      "b": "2(1/2)%",
+      "c": "1.5%",
+      "d": "25%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Interest I = PRT/100\n\n\n∴ R = (100n×n1)/(100 × 5)\n\n\n= (100 × 7.50)/(500 × 5)\n\n= 750/500\n\n\n= 3/2\n\n\n= 1.5%",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1092,
+    "question": "Factorize completely 81a<sup>4</sup> - 16b<sup>4</sup>",
+    "option": {
+      "a": " (3a + 2b)(2a - 3b)(9a<sup>2</sup> + 4b<sup>2</sup>)",
+      "b": "(3a - 2b)(2a - 3b)(4a<sup>2</sup> - 9b<sup>2</sup>)",
+      "c": "(3a - 2b)(3a + 2b)(9a<sup>2</sup> + 4b<sup>2</sup>)",
+      "d": " (6a - 2b)(8a - 3b)(4a<sup>3</sup> - 9b<sup>2</sup>)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "81a<sup>4</sup> - 16b<sup>4</sup> = (9a<sup>2</sup>)<sup>2</sup> - (4b<sup>2</sup>)<sup>2</sup>\n\n\n= (9a<sup>2</sup> + 4b<sup>2</sup>)(9a<sup>2</sup> - 4b<sup>2</sup>)\n\nN:B 9a<sup>2</sup> - 4b<sup>2</sup> = (3a - 2b)(3a+ 2b)",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1094,
+    "question": "List all integers satisfying the inequality in -2 < 2x-6 < 4 ",
+    "option": {
+      "a": "2,3,4 and 5",
+      "b": "2,3",
+      "c": "2,5",
+      "d": "3,4",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "-2 < 2x - 6   AND  2x - 6 < 4\n\n-2 + 6 <2x  AND  2x < 4 + 6\n\n4 <2x  AND  2x < 10\n\n: 2 <x  AND x <5\n\n2 < x < 5 \n\nAs 3 and 4",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1062,
+    "question": "A trapezium has two parallel sides of lengths 5cm and 9cm. If the area is 91cm2\n, find the distance between the parallel sides",
+    "option": {
+      "a": "13 cm",
+      "b": "4 cm",
+      "c": "6 cm",
+      "d": "7 cm",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007318/ALOC-Questions/Mathematics/2021/MATH_JAMB_2021_Q5_ienw34.png",
+    "answer": "a",
+    "solution": "Area of Trapezium = 1/2(sum of parallel sides) * h\n91 = 1/2 (5 + 9)h\n\ncross multiply\n91 = 7h\nh = 91/7\n\nh = 13 cm",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1073,
+    "question": "P(-6, 1) and Q(6, 6) are the two ends of the diameter of a given circle. Calculate the radius",
+    "option": {
+      "a": "6.5 units",
+      "b": "13.0 units",
+      "c": "3.5 units",
+      "d": "7.0 units",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "PQ<sup>2</sup>  = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup>   + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup> \n \n\n= 12<sup>2</sup>  + 5<sup>2</sup>  \n= 144 + 25\n= 169\n\nPQ = √169 = 13\n\nBut PQ = diameter = 2r, r = PQ/2 = 6.5 units",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1097,
+    "question": "If (x + 2) and (x - 1) are factors of the expression Lx+2kx<sup>2</sup>+24\n, find the values of L and k.",
+    "option": {
+      "a": "l = -12, k = -6",
+      "b": "l = -2 , k = 1",
+      "c": "l = -2 , k = -1",
+      "d": "l = 0, k = 1",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given (x + 2) and (x - 1), i.e. x = -2 or +1\n\nwhen x = -2\n\nL(-2) + 2k(-2)<sup>2</sup>  + 24 = 0\n\nf(-2) = -2L + 8k = -24...(i)\n\n\nAnd x = 1\nL(1) + 2k(1) + 24 = 0\n\n\nf(1):L + 2k = -24...(ii)\n\nSubst, L = -24 - 2k in eqn (i)\n\n-2(-24 - 2k) + 8k = -24\n\n+48 + 4k + 8k = -24\n\n12k = -24 - 48 = -72\n\nk = −72/12\nk = -6\n\nwhere L = -24 - 2k\n\nL = -24 - 2(-6)\n\nL = -24 + 12\n\nL = -12\n\nThat is; K = -6 and L = -12",
+    "examtype": " ",
+    "examyear": "2021"
+  },
+  {
+    "id": 1088,
+    "question": "factorize m<sup>3</sup> - m<sup>2</sup> + 2m - 2",
+    "option": {
+      "a": "(m<sup>2</sup> + 1)(m - 2)",
+      "b": " (m - 1)(m + 1)(m + 2)",
+      "c": "(m - 2)(m + 1)(m - 1)",
+      "d": "(m<sup>2</sup> + 2)(m - 1)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "(m<sup>2</sup> + 2) (m -1)",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1095,
+    "question": "X is due east point of y on a coast. Z is another point on the coast but 6.0km due south of Y. If the distance ZX is 12km, calculate the bearing of Z from X",
+    "option": {
+      "a": "240°",
+      "b": "150°",
+      "c": "60°",
+      "d": "270°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Sinθ = 6/12\n\nSinθ = 1/2\n\nθ =  Sin 0.5\n\nθ = 30°\n\nBearing of Z from X, (270 - 30)° = 240°",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1087,
+    "question": "If g(x) = x2<sup>2</sup> + 3x  find g(x + 1) - g(x)",
+    "option": {
+      "a": "(x + 2)",
+      "b": "2(x + 2)",
+      "c": " (2x + 1)",
+      "d": " (x<sup>2</sup> + 4)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "g(x) = x<sup>2</sup> + 3x\n\nWhen g(x + 1) = (x + 1)<sup>2</sup> + 3(x + 1) \n\n= x<sup>2</sup> + 1 + 2x + 3x + 3 \n\n= x<sup>2</sup> + 5x + 4\n\ng(x + 1) - g(x) = x<sup>2</sup> + 5x + 8 - (x<sup>2</sup> + 3x)\n\n= x<sup>2</sup> + 5x + 4 - x<sup>2</sup> -3x \n\n= 2x + 4 or 2(x + 4)\n\n= 2(x + 2)",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 1082,
+    "question": "Find the probability that a number selected at random from 41 to 56 is a multiple of 9",
+    "option": {
+      "a": "1/8",
+      "b": "2/15",
+      "c": "3/16",
+      "d": "7/8",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given from 41 to 56\n\n41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56\n\nThe nos multiple of 9 are: 45, 54\n\nP(multiple of 9) = 2/16\n\n\n= 1/8",
+    "examtype": "utme",
+    "examyear": "2021"
+  }
+]

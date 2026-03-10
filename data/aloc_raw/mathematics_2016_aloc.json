@@ -1,0 +1,257 @@
+[
+  {
+    "id": 833,
+    "question": "Calculate the range of 20, -6, 25, 30, 21, 28, 32, 33, 34, 5, 3, 2, and 1.",
+    "option": {
+      "a": "32",
+      "b": "36",
+      "c": "33",
+      "d": "40",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Range = 34 - (-6) = 34 + 6 = 40",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 863,
+    "question": "OGIVE is constructed using",
+    "option": {
+      "a": "Third quartile range",
+      "b": "Semi-quartile range",
+      "c": "Cummulative frequency table",
+      "d": "Inter-quartile table",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 832,
+    "question": "The pie chart above shows the distribution of subjects offered by students in SSS III level. If 80 students enrolled in the class. What is the size of the angle of the sector in economics?",
+    "option": {
+      "a": "24°",
+      "b": "39°",
+      "c": "32°",
+      "d": "36°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724003024/ALOC-Questions/Mathematics/2016/MATH_JAMB_2016_Q14_eebusn.jpg",
+    "answer": "c",
+    "solution": "x° + 36° + 54° + 28° + 90° + 120° = 360°\n\nx + 328° = 360°\nx = 360° - 328°\nx = 32°",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 831,
+    "question": "If x<sub>10</sub> = 23<sub>5</sub>. Find x",
+    "option": {
+      "a": "15",
+      "b": "12",
+      "c": "14",
+      "d": "13",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "x<sub>10</sub> = 23<sub>5</sub>\nx<sub>10</sub> = 2 x 5<sup>1</sup> + 3 x 5<sup>0</sup>\n= 10 + 3\n= x<sub>10</sub> = 13",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 838,
+    "question": "Given U = {x: x is a positive integer less than 15} and P = {x: x is even number from 1 to 14}. Find the compliment of P.",
+    "option": {
+      "a": "{1, 3, 5, 7, 9, 11, 13, 15}",
+      "b": "{2, 3, 5, 7, 9, 11, 13}",
+      "c": "{1, 3, 5, 7, 9, 11, 13}",
+      "d": "{2, 3, 5, 7, 11, 15}",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "U = {1, 2, 3, 4, 5......14}\nP = {2, 4, 6, 8, 10, 12, 14}\nP' = {1, 3, 5, 7, 9, 11,13}",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 834,
+    "question": "The bar chart above shows the number of visitors received in a week. How many visitors were received on Friday, Tuesday and Sunday?",
+    "option": {
+      "a": "17",
+      "b": "22",
+      "c": "20",
+      "d": "16",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724003050/ALOC-Questions/Mathematics/2016/MATH_JAMB_2016_Q16_ndljua.jpg",
+    "answer": "d",
+    "solution": "No of visitors = 10 + 5 + 1 = 16",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 836,
+    "question": "Calculate the perimeter of a sector of a circle of raduis 12cm and angle 60°.",
+    "option": {
+      "a": " (12 + 4π)cm",
+      "b": "(24 + 4π)cm",
+      "c": "(12 + 6π)cm",
+      "d": "(24 + 6π)cm",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Perimeter = 2r + θ/360\n x 2πr\n= 2(12) + 60/360\n x 2 x π x 12\n= (24 + 4π)cm",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 844,
+    "question": "Find dy/dx, if y = 2/3 x<sup>3</sup> - 4/x",
+    "option": {
+      "a": "3x<sup>2</sup> - 4/x",
+      "b": "2x<sup>2</sup> +4/x2",
+      "c": "3x<sup>2</sup> + 4/x2",
+      "d": " 2x<sup>2</sup> - 4/x",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "y = 2/3x<sup>3</sup>\n - 4/x\n\ndy/dx = 2x<sup>2</sup> - (-4)x<sup>−2<sup> = 2x<sup>2</sup> + 4/x<sup>2</sup>",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 861,
+    "question": "Find the mean of 10, 8, 5, 11, 12, 9, 6, 3, 15, and 23.",
+    "option": {
+      "a": "11.2",
+      "b": "10",
+      "c": "10.2",
+      "d": "11.3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "(10+8+5+11+12+9+6+3+15+23)/10\n \n= 102/10\n = 10.2",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 823,
+    "question": "If the 2nd term of a G.P is 8/9\n and the 6th term is 4(1/2)\n. Find the common ratio.",
+    "option": {
+      "a": "2",
+      "b": "3/2",
+      "c": "2/3",
+      "d": "3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "T<sub>2</sub = 8/9, T<sub>6</sub> = 4(1/2)\nar = 8/9\n\nar<sup>5</sup> = 9/2\n\n\nar/ar<sup>5</sup> = 8/9\n x 2/9\n\n\n1/r<sup>4</sup>\n = 16/81\n\n\nr = 4√(18/16) = 3/2",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 851,
+    "question": "If y = 2x<sup>3</sup> + 6x<sup>2</sup> + 6x + 1, Find dy/dx",
+    "option": {
+      "a": "6x<sup>2</sup> + 12x + 1",
+      "b": "6x<sup>2</sup> + 6x + 1",
+      "c": "6x<sup>2</sup> + 6x + 6",
+      "d": " 6x<sup>2</sup> + 12x + 6",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "y = 2x<sup>3</sup> + 6x<sup>2</sup> + 6x + 1\n\ndy/dx\n = 6x<sup>2</sup> + 12x + 6",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 866,
+    "question": "Determine the mean score of the student that took the mathematics test?",
+    "option": {
+      "a": "4.5",
+      "b": "4.3",
+      "c": "4.2",
+      "d": " 4.6",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724003306/ALOC-Questions/Mathematics/2016/MATH_JAMB_2016_Q48_cmhnqy.jpg",
+    "answer": "c",
+    "solution": "(3 x 0) + (1 x 2) + (5 x 2) + (5 x 3) + (5 x 4) +\n(10 x 5) + (4 x 6) + (3 x 7) + (1 x 8) + (2 x 9) ÷\n 40\n\n= 168/40 = 4.2",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 862,
+    "question": "In the cyclic quadrilateral above . Find < PRO",
+    "option": {
+      "a": "70°",
+      "b": "20°",
+      "c": "50°",
+      "d": "30°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724003216/ALOC-Questions/Mathematics/2016/MATH_JAMB_2016_Q44_ogwfpl.jpg",
+    "answer": "b",
+    "solution": "< PRO = 180° - (110 + 50)°\n= 180 - 160 = 20°",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 835,
+    "question": "Factorize k<sup>2</sup> - 2kp + p<sup>2</sup>",
+    "option": {
+      "a": "(k +p)<sup>2</sup>",
+      "b": "(k - p)<sup>2</sup>",
+      "c": "k<sup>2</sup> + p<sup>2</sup>",
+      "d": "k<sup>2</sup> - p<sup>2</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "k<sup>2</sup> - 2kp + p<sup>2</sup> = (k - p)<sup>2</sup>",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 854,
+    "question": "If a car travels 120km on 45 litres of petrol, how much petrol is needed for a journey of 600km?",
+    "option": {
+      "a": " 720 litres",
+      "b": "160 litres",
+      "c": "225 litres",
+      "d": "960 litres",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "120km → 45litres\n1km → 45/120litres\n600km → 45/120 x 600 =225litres",
+    "examtype": "utme",
+    "examyear": "2016"
+  }
+]

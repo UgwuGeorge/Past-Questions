@@ -1,0 +1,223 @@
+[
+  {
+    "id": 611,
+    "question": "Find the distance between the points (1/2, 1/2) and (-1/2, -1/2).",
+    "option": {
+      "a": "1",
+      "b": "0",
+      "c": "√3",
+      "d": "√2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Let D denote the distance between (1/2, -1/2) then using                                                         D = √((x<sub>2</sub>-x<sub>1</sub> )<sup>2</sup>+(y<sub>2</sub>-y<sub>1</sub> )<sup>2</sup> ) = √((-1/2-1/2 )<sup>2</sup> + (-1/2-1/2 )<sup>2</sup> ) = √((-1)<sup>2</sup>+(-1)<sup>2</sup> ) = √(1+1) = √2",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 576,
+    "question": " Factorize completely (x<sup>3</sup>+3x<sup>2</sup>-10x)/(2x<sup>2</sup>-8)",
+    "option": {
+      "a": "\nx(x-5)/2(x+2)",
+      "b": "\nx(x-5)/2(x-2)",
+      "c": "\nx(x+5)/2(x+2)",
+      "d": "\nx2+5/2x+4",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <msup>\n        <mi>x</mi>\n        <mrow class=\"MJX-TeXAtom-ORD\">\n          <mn>3</mn>\n        </mrow>\n      </msup>\n      <mo>+</mo>\n      <mn>3</mn>\n      <msup>\n        <mi>x</mi>\n        <mrow class=\"MJX-TeXAtom-ORD\">\n          <mn>2</mn>\n        </mrow>\n      </msup>\n      <mo>&#x2212;<!-- − --></mo>\n      <mn>10</mn>\n      <mi>x</mi>\n    </mrow>\n    <mrow>\n      <mn>2</mn>\n      <msup>\n        <mi>x</mi>\n        <mrow class=\"MJX-TeXAtom-ORD\">\n          <mn>2</mn>\n        </mrow>\n      </msup>\n      <mo>&#x2212;<!-- − --></mo>\n      <mn>8</mn>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "c",
+    "solution": "x<sup>3</sup> + 3x<sup>2</sup> − 10x/2x<sup>2</sup> − 8 = x(x<sup>2</sup> + 3x − 10)/2(x<sup>2</sup> − 4)\n= x(x<sup>2</sup> − 2x +5x − 10)/2(x − 2)(x + 2)\n= x(x − 2)(x + 5)/2(x − 2)(x + 2)\n= x(x + 5)/2(x + 2)",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 613,
+    "question": "If cotθ = 8/15, where θ is acute, find sinθ",
+    "option": {
+      "a": "8/17",
+      "b": "15/17",
+      "c": "16/17",
+      "d": "13/17",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "cotθ = 1/cosθ\n\n= 8/15(given)\n\ntanθ = 15/18\n\nBy Pythagoras theorem,\n\nx<sup>2</sup> = 152 + 82\n\nx2 = 225 + 64 = 289\n\nx = √289\n\n= 17\n\nHence sinθ = 15/x\n\n= 15/17",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 573,
+    "question": "Rationalize (2√3 + √5)/(√5 - √3)",
+    "option": {
+      "a": " (3 √ 15 +11) / 2",
+      "b": "3 √ 15 -11",
+      "c": "(3 √ 15 -11) / 2",
+      "d": "3 √ 15 +11",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <mn>2</mn>\n      <msqrt>\n        <mn>3</mn>\n      </msqrt>\n      <mo>+</mo>\n      <msqrt>\n        <mn>5</mn>\n      </msqrt>\n    </mrow>\n    <mrow>\n      <msqrt>\n        <mn>5</mn>\n      </msqrt>\n      <mo>&#x2212;<!-- − --></mo>\n      <msqrt>\n        <mn>3</mn>\n      </msqrt>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "a",
+    "solution": "(2√3 + √5)/(√5 - √3)  = ((2√3+√5)/(√5-√3))((√5+√3)/(√5+√3)) = (2√15+6+5+√15)/(5-3) = (3√15+11)/2",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 610,
+    "question": "A cylindrical pipe 50m long with radius 7m has one end open. What is the total surface area of the pipe?\n",
+    "option": {
+      "a": "749πm<sup>2</sup>",
+      "b": "700πm<sup>2</sup>",
+      "c": "350πm<sup>2</sup>",
+      "d": "98πm<sup>2</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Total surface area of the cylindrical pipe = area of circular base + curved surface area\n\n= πr<sup>2</sup> + 2πrh\n\n= π x 7<sup>2</sup> + 2π x 7 x 50\n\n= 49π + 700π\n= 749πm<sup>2</sup>",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 584,
+    "question": "An arc subtends an angle of 50o at the center of circle of radius 6cm. Calculate the area of the sector formed",
+    "option": {
+      "a": " 100/7",
+      "b": " 80/7",
+      "c": "110/7",
+      "d": "90/7",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "\nArea of a sector = θ/360 x πr<sup>2</sup>\n\n\n= 50/360 x 22/7 x 36/1\n= 110/7",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 609,
+    "question": "The interior angles of a quadrilateral are (x + 15)°, (2x - 45)°, ( x - 30)° and (x + 10)°. Find the value of the least interior angle.",
+    "option": {
+      "a": "112°",
+      "b": "102°",
+      "c": "82°",
+      "d": "52°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "(x + 15)o + (2x - 45)o + (x + 10)o = (2n - 4)90o\n\nwhen n = 4\n\nx + 15o + 2x - 45o + x - 30o + x + 10o = (2 x 4 - 4) 90o\n\n5x - 50° = (8 - 4)90°\n\n5x - 50° = 4 x 90° = 360°\n\n5x = 360° + 50°\n\n5x = 410°\n\nx = 410°/5\n\n= 82°\n\nHence, the value of the least interior angle is (x - 30°)\n\n= (82 - 30)°\n\n= 52°",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 618,
+    "question": "Find the standard deviation of 2, 3, 5 and 6",
+    "option": {
+      "a": "√6",
+      "b": "√10",
+      "c": "√2/5",
+      "d": "√5/2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 603,
+    "question": "If x is inversely proportional to y and x = 2(1/2) when y = 2, find x if y = 4",
+    "option": {
+      "a": "4",
+      "b": "5",
+      "c": "1(1/4)",
+      "d": "2(1/4)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "x α 1/y .........(1)\n\nx = k x 1/y .........(2)\n\nWhen x = 2(1/2)\n\n= 5/2, y = 2\n\n(2) becomes 5/2 = k x 1/2\n\ngiving k = 5\n\nfrom (2), x = 5/y\n\nso when y =4, x = 5/y = 1(1/4)",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 595,
+    "question": "At what rate will the interest on N400 increases to N24 in 3 years reckoning in simple interest?",
+    "option": {
+      "a": "3%",
+      "b": "2%",
+      "c": "5%",
+      "d": "4%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Using simple interest = P × T × R/100,\n\nwhere: P denoted principal = N400\nT denotes time = 3 years\nR denotes interest rate = ?\n\n24 = 400×3×R/100\n\n24 x 100 = 400 x 3 x R\n\nR = (24 × 100)/(400 × 3)\n\n= 2%",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 616,
+    "question": "In how many ways can a committee of 2 women and 3 men be chosen from 6 men and 5 women?",
+    "option": {
+      "a": "100",
+      "b": "200",
+      "c": "30",
+      "d": "50",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "A committee of 2 women and 3 men can be chosen from 6 men and 5 women, in <sup>5</sup>C<sub>2</sub> x <sup>6</sup>C<sub>3</sub> ways\n\n= 5!/(5−2)!2! × 6!/(6−3)!3!\n\n= 5!/3!2! × 6!/3×3!\n\n= 5×4×3!/3!×2! × 6×5×4×3!/3!×3!\n\n= 5×4/1×2 × 6×5×4/1×2×3\n\n= 10 x (6×20)/6\n\n= 200",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 620,
+    "question": "Determine the value of x for which (x2 - 1)>0",
+    "option": {
+      "a": " x < -1 or x > 1",
+      "b": "-1 < x < 1",
+      "c": "x > 0",
+      "d": "x < -1",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "x(x - 1) > 0\n\nx < -1 or x > 1",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 602,
+    "question": "Solve for x and y if x - y = 2 and x<sup>2</sup>  - y<sup>2</sup>  = 8",
+    "option": {
+      "a": " (-1, 3)",
+      "b": "(3, 1)",
+      "c": " (-3, 1)",
+      "d": "(1, 3)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "x - y = 2 ...........(1)\n\nx2 - y2 = 8 ........... (2)\n\nx - 2 = y ............ (3)\n\nPut y = x -2 in (2)\n\nx2 - (x - 2)2 = 8\n\nx2 - (x2 - 4x + 4) = 8\n\nx2 - x2 + 4x - 4 = 8\n\n4x = 8 + 4 = 12\n\nx = 12/4\n\n= 3\n\nfrom (3), y = 3 - 2 = 1\n\ntherefore, x = 3, y = 1",
+    "examtype": "utme",
+    "examyear": "2010"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1264,
+    "question": "Find the value of x if [1÷64<sup>(x+2)</sup>] = [4<sup>(x−3)</sup> ÷16<sup>x</sup>]",
+    "option": {
+      "a": "3/2",
+      "b": "2/3",
+      "c": "1/3",
+      "d": "-3/2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": " [1÷64<sup>(x+2)</sup>] = [4<sup>(x−3)</sup> ÷16<sup>x</sup>]               64<sup>-(x+2)</sup>=[4<sup>(x−3)</sup>] ÷ [16<sup>x</sup>]\n\n\nbreakdown 4,16,64 into a small index no\n\n2<sup>−6(x+2)</sup> = 2<sup>2</sup>(x−3)÷2<sup>4(x)</sup>\n\n\n2<sup>−6x−12</sup> =2<sup>2x−4x−6</sup>\n\n\n2<sup>−6x−12</sup> = 2<sup>−2x−6</sup>\n\n\n− 6x − 12 = − 2x − 6\n\nCollect the like term\n\n−6x + 2x = −6 + 12\n\n−4x =6\n\nx = 6/4\n\n\nx = −3/2",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1265,
+    "question": "Solve x<sup>2</sup> − 2x − 3 = 0",
+    "option": {
+      "a": "x = 2 or 1",
+      "b": "x = 3 or -1",
+      "c": "x = 1 or 0",
+      "d": "x = 1 or 2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "x<sup>2</sup> − 2x − 3 = 0\n\n−3x + x = − 2x\n\n− 3x × x = − 3x<sup>2</sup>\n\n(x<sup>2</sup> − 3x)(x − 3) = 0\n\n(x − 3)(x + 1) = 0\n\nEither (x − 3) = 0 or (x + 1) = 0\n\nx = 3 or − 1",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1274,
+    "question": "If an investor invest N450,000 in a certain organization in order to yield X as a return of N25,000. Find the return on an investment of N700,000 by Y in the same organization.",
+    "option": {
+      "a": "N14,950.50K",
+      "b": "N25,150.30K",
+      "c": "N15,000.00K",
+      "d": "N38,888.90K",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "[Return ÷ Investment] as a ratio ;\n\ni.e The Ratio is Return : Investmen\n\n[(Return1÷ Investment1 ) = (Return2÷Investment2)]\n\nR1 = N 25000\n\nR2 =?\n\nI1 = N450,000,\n\nI1 = N 700000\n\n(25000 ÷ 450000) = (R2 ÷ 700000)\n\nR2 = [(25000 × 700000 ) ÷ 450000]\n\n= N38,888.90K\n\n∴ The return on a investment of Y = N38888.90K",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1247,
+    "question": "The first and last term of a linear sequence (AP) are 6 and 10 respectively. If the sum of the sequence is 40. Find the number of terms",
+    "option": {
+      "a": " nth = 3",
+      "b": "nth = 4",
+      "c": " nth = 5",
+      "d": "nth = 6",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "nth term of a linear sequence (AP) = a+(n − 1)d\n\nfirst term = 6, last term = 10 sum − 40\n\ni.e. a = 6, l = 10, S = 40\n\nS<sub>n</sub> \n= n/2(2a + (n − 1)d or Sn = ÷2 (a + l)\n\nS<sub>n</sub> \n = n/2(a + l)\n\n40 = n/2(6 + 10)\n\n40 = 8n\n\n8n = 40\n\n8n = 40\n\nn = 40/8\n\n= 5\n\nThe number of terms = 5",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1262,
+    "question": "Find x if 132<sub>x</sub>  = 70 <sub>eight</sub> .",
+    "option": {
+      "a": "5",
+      "b": "3",
+      "c": "6",
+      "d": "1",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "132<sub>x</sub> = 70<sub>8</sub>\n\n1 × x<sup>2</sup> + 3 × x<sup>1</sup> + 2 × x<sup>0</sup> \n\n\n7 × 8<sup>1</sup> + 0 ×8<sup>0</sup> \n\n\nx<sup>2</sup> +3x + 2 −56 = 0\n\n\nx<sup>2</sup> + 3x −54 = 0\n\n\nx(x + 9) −6(x + 9) = 0\n\n(x + 9)(x − 6) = 0\n\nEither (x + 9) = 0 or (x − 6) = 0\n\nx = − 9 or +6\n\nThe positive values for x = 6\n\nThe base number for 132<sub>x</sub>  = 132<sub>6</sub> ",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1261,
+    "question": "Given that A = {3, 4, 1, 10, ⅓ }\n\nB = {4, 3,⅓, ⅓, 7}.\n\nFind A∩B",
+    "option": {
+      "a": "{}",
+      "b": "{⅓, 1, 2}",
+      "c": "{3, 4, ⅓}",
+      "d": "{1, 3, ⅓}",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "A ∩ B = {3, 4, ⅓}",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1236,
+    "question": "In a town of 6250 inhabitants, there were 62 births during 1984. Find the percentage birth rate",
+    "option": {
+      "a": "3%",
+      "b": "1.0%",
+      "c": "2.5%",
+      "d": "5.40%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Percentage birthrate = 62/6250 × 100\n= 6200/6250\n= 0.992% ≈ 1.0%.",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1249,
+    "question": "The amount A to which a principal P amounts at r% compound interest for n years is given by the formula A = P(1 + (r ÷ 100)<sup>n</sup>\n. Find A, if P = 126, r = 4 and n = 2.",
+    "option": {
+      "a": "N132.50K",
+      "b": " N136.30K",
+      "c": "N125.40K",
+      "d": "N257.42K",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "A=P(1+r/100)<sup>n</sup>\n \n\nWhere P = 126, r = 4, n = 2\n\nA=126 (1+4/100)<sup>2</sup> Using LCM\n\n\n=126 ((100+4/)100)<sup>2</sup> = 126(104/100)<sup>2</sup>\n\n\n\n=126 (1.04<sup>2</sup>)\n\n\n= 126 * 1.04 * 1.04\n\n=136.28\n\nA = 136.30 (approx.)\n\nThe Amount A, = N136.30k",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1246,
+    "question": "Solve the equation 3x<sup>2</sup> − 4x − 5 = 0",
+    "option": {
+      "a": "x = 1.75 or − 0.15",
+      "b": "x = 2.12 or − 0.79",
+      "c": "x = 1.5 or − 0.34",
+      "d": "x = 2.35 or −1.23",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>x</mi>\n  <mo>=</mo>\n  <mfrac>\n    <mrow>\n      <mo>&#x2212;<!-- − --></mo>\n      <mi>b</mi>\n      <mo>&#x00B1;<!-- ± --></mo>\n      <msqrt>\n        <msup>\n          <mi>b</mi>\n          <mrow class=\"MJX-TeXAtom-ORD\">\n            <mn>2</mn>\n          </mrow>\n        </msup>\n        <mo>&#x2212;<!-- − --></mo>\n        <mn>4</mn>\n        <mi>a</mi>\n        <mi>c</mi>\n      </msqrt>\n    </mrow>\n    <mrow>\n      <mn>2</mn>\n      <mi>a</mi>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "Using the quadratic formula, we have\n\nx=−b±√(b<sup>2</sup> −4ac)/2a\nFrom the equation 3x<sup>2</sup>−4x−5 = 0, a = 3, b = -4 and c = -5.\n\n∴x=−(−4)±√((−4)2−4(3)(−5))/2(3)\n= 4±√(16+60)/6\n= 4±√(76)/6\n= 4±8.72/6\n= 4+8.72/6 or 4−8.72/6\n= 12.72/6 or −4.72/6\nx = 2.12 or -0.79",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1271,
+    "question": "Find the distance between the points (-2,-3) and (-2,4)",
+    "option": {
+      "a": "3m",
+      "b": "2.4m",
+      "c": "3.2m",
+      "d": " 7.0m",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1272,
+    "question": "Determine the third term of a geometrical progression whose first and second term are 2 and 54 respectively",
+    "option": {
+      "a": "1458",
+      "b": "1485",
+      "c": "1345",
+      "d": "1258",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "1st G.P. = a =2\n\n2nd G.P. = ar<sup>2-1</sup>\n = 54\n\n2(r) = 54\n\nr = 54/2 = 27\n\nr = 27\n\n3rd term = ar<sup>2</sup>\n = (2) (27)<sup>2</sup>\n\n\n2 × 27 × 27\n\n= 1458",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1251,
+    "question": "If log<sub>5</sub>20 = x, find x",
+    "option": {
+      "a": "1.761",
+      "b": "1.354",
+      "c": "1.861",
+      "d": "2.549",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "log<sub>5</sub>20 = x\n\n5x = 20(Take log<sub>10</sub> of both sides)\n\nlog<sub>5x</sub> = log<sub>20</sub>\n\nxlog<sub>5</sub> = log<sub>20</sub>\n\nx= [log<sub>20</sub> ÷ log<sub>20</sub>]\n\n[1.30103 ÷ 0.69897]\n\nx = 1.861",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1255,
+    "question": "Factorize x<sup>2</sup> −2x−15",
+    "option": {
+      "a": "(x + 3)<sup>2</sup> ",
+      "b": " (x + 5)(x − 3)",
+      "c": " (x − 5)<sup>2</sup> ",
+      "d": " (x − 5)(x + 3)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "x2<sup>2</sup>  − 2x − 15\n\n(x<sup>2</sup>  − 5x) + (3x − 15)\n\nx(x − 5)+ 3(x − 5)\n\n(x − 5)(x + 3)",
+    "examtype": "utme",
+    "examyear": "2015"
+  },
+  {
+    "id": 1280,
+    "question": "Simplify 1/(x+1) + 1/(x−1)",
+    "option": {
+      "a": "2x/(x + 1)(x−3)",
+      "b": "2x/(x + 1)(x−1)",
+      "c": "2x/(x + 1)2",
+      "d": "2x(x+1)2",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mn>1</mn>\n    <mrow>\n      <mo stretchy=\"false\">(</mo>\n      <mi>x</mi>\n      <mo>+</mo>\n      <mn>1</mn>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n  </mfrac>\n  <mo>+</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mrow>\n      <mo stretchy=\"false\">(</mo>\n      <mi>x</mi>\n      <mo>&#x2212;</mo>\n      <mn>1</mn>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "[1 ÷ (x+1)] + [1 ÷ (x − 1)]\n\n= ((x − 1) + [(x + 1)) ÷ (x+1)(x − 1)]\n\nUsing the L.C.M.\n\n= (x − 1 + x + 1) ÷ (x + 1)(x − 1)\n\n= (x + 2 − 1 + 1) ÷ (x + 1)(x − 1)\n\n= 2x ÷ (x + 1)(x − 1) =2x ÷ (x + 1)(x − 1)",
+    "examtype": "utme",
+    "examyear": "2015"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1503,
+    "question": "<u>For all he cared: the game was as good as lost</u>",
+    "option": {
+      "a": "He did not care if the game as lost",
+      "b": "He could not care less if the game was lost",
+      "c": "He was almost certain that the game would be lost",
+      "d": "He was afraid the game would be lost",
+      "e": ""
+    },
+    "section": "Choose the option nearest in meaning to the underlined.",
+    "image": "",
+    "answer": "c",
+    "solution": "For all I care' is used to say that a person is not worried/ uninterested about what happened to someone or something. 'As good as' indicates a comparison between 'the game' and 'a lost'\n\nOption C is the best answer",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 20,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1489,
+    "question": "From the way the story ended, it can be concluded that the",
+    "option": {
+      "a": "lamb did not survive the encounter",
+      "b": "wolf and the lamb parted amicably",
+      "c": " wolf had encountered the lamb's parents",
+      "d": "lamb offended the wolf quite seriously",
+      "e": ""
+    },
+    "section": "A wolf, seeing a lamb drinking from a river, wanted to find a pretext for devouring him, He stood higher up the stream and accused the lamb of muddying the water so that he could not drink. The lamb said that he drank only the tip of his tongue and that in any case he was standing lower down the river, and could not possible disturb the water higher When this excuse failed him, the wolf said: 'Well, last year you insulted my father.' \"I wasn't even born then replied the lamb.’You are good at finding answer' said the wolf, 'but what do you mean by taking up so much of the path where I am walking?' The lamb, frightened at the wolf's angry tone and terrible aspect, told him, with all due submission, that he could not conceive how his walking on such a wide path could occasion him any inconvenience. 'What!' exclaimed the wolf, seemingly in great anger and indignation. <br><br>\n'You are as impudent as your father who seized me by the throat last year and caused me to be kept in a cage for three months'. 'If you will believe me,' said the lamb, 'my parents are poor simple creatures who live entirely by green stuff, we are none of us hunters of your species.' Ah! I see it's no use talking to you,' said the wolf, drawing up close to him. 'it runs in the blood of your family to hate us wolves, and therefore, as we have come so conveniently together, I'll just pay off a few of your forefathers scores before we part.' So saying, he leapt at the lamb from behind and garotted him. Adapted from Bennet. C.H(1978) ",
+    "image": "",
+    "answer": "a",
+    "solution": "Garrotted means to kill by strangulation",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 6,
+    "hasPassage": 1,
+    "category": "passage-b"
+  },
+  {
+    "id": 1552,
+    "question": "choose the option that best completes the gap(s).\n\nYou may now ___________ with your presentation.",
+    "option": {
+      "a": "Precede",
+      "b": "Preceed",
+      "c": "Procede",
+      "d": "Proceed",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Note the spelling of each word.",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 69,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1536,
+    "question": "Now, I am used ____________ bread without butter",
+    "option": {
+      "a": " to eat",
+      "b": " in eating",
+      "c": "of eating",
+      "d": "to eating",
+      "e": ""
+    },
+    "section": "Choose the word(s) or phrase(s) which best fill(s) the gap. ",
+    "image": "",
+    "answer": "d",
+    "solution": "eating is present participle. \nused is an adjective that qualiffied the verb eating. therefore it is is right to say ''to eating'' rightly fits into that statement\nI am used to eating bread without butter. \n\n ",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 53,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1498,
+    "question": "Choose the option that best completes the gap. Mrs. Okoro __________ in this school since 1975",
+    "option": {
+      "a": "taught",
+      "b": "has been teaching",
+      "c": "was teaching",
+      "d": "is teaching",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Since' implies from a specified time in the past. A present perfect progressive tense describes an event in a progressive form that started in the past and ended in the present. 'has been teaching' is an example of a verb element associated with a present perfect progressive tense ",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 15,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1538,
+    "question": "Choose the option that has a different stress pattern from the others.",
+    "option": {
+      "a": "competent",
+      "b": "represent",
+      "c": "syllabus",
+      "d": "quality",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "All the words are stressed on the first syllable except 'represent' which is stressed on the last syllable.\n\n ",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 55,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1562,
+    "question": "choose the option opposite in meaning to the word(s) in italics.\n\n  The driver was discharged while the car owner was ___________ for fraud.",
+    "option": {
+      "a": "remanded",
+      "b": "detained",
+      "c": "acquitted",
+      "d": "sued",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "To discharge someone means to legally release them from confinement.\n\nTo remand means to be charged and awaiting trials.",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 79,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1507,
+    "question": "As a Journalist, Bola has always had a <u>nose</u> for stories",
+    "option": {
+      "a": " an instinct",
+      "b": "a command",
+      "c": "soft comment",
+      "d": "cynical statement",
+      "e": ""
+    },
+    "section": "Choose the option nearest in meaning to the underlined.",
+    "image": "",
+    "answer": "a",
+    "solution": "To have a nose for something means to have an instinct or a natural ability to find recognize something",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 24,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1519,
+    "question": "Our principal took exception to the <i>ignoble</i> role the teacher played in the matter",
+    "option": {
+      "a": "embarrassing",
+      "b": "honourable",
+      "c": "extraordinary",
+      "d": "dishonourable",
+      "e": ""
+    },
+    "section": "Choose the option opposite in meaning to the word(s) or phrase in italics. ",
+    "image": "",
+    "answer": "b",
+    "solution": "ignoble implies not honourable in character or purpose",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 36,
+    "hasPassage": 0,
+    "category": "others"
+  }
+]

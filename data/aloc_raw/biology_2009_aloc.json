@@ -1,0 +1,121 @@
+[
+  {
+    "id": 261,
+    "question": "According to Darwin, the driving force behind evolutionary change is",
+    "option": {
+      "a": "atural selection",
+      "b": "genetic drift  ",
+      "c": "mutation",
+      "d": "gene flow",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 251,
+    "question": "A phenotypic character with intermediate forms that can be graded from one extreme to the other is referred to as",
+    "option": {
+      "a": "discontinous variation   ",
+      "b": "continuous variation",
+      "c": "a mutant",
+      "d": "a genome",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 252,
+    "question": "A farmer’s assumption that the seed from a good harvest will produce a good yield is explained by the theory  of",
+    "option": {
+      "a": "evolution",
+      "b": "adaptation",
+      "c": "variation",
+      "d": "heredity",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 245,
+    "question": "Which of the following biomass could be characterized by very low rainfall, cold nights, hardays and fast blooming plants?  ",
+    "option": {
+      "a": "Northern Guinea savanna",
+      "b": "southern Guinea savanna  ",
+      "c": "Tropical desert",
+      "d": " montane forest",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 224,
+    "question": "A characteristic exhibited by all living organism is  ",
+    "option": {
+      "a": "sexual reproduction   ",
+      "b": "aerobic respiration  ",
+      "c": "the ability to move from one place to another  ",
+      "d": "the ability to remove unwanted substances.",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 235,
+    "question": "Which of the following describes the sequence of blood flow fro the heart to a tissue?",
+    "option": {
+      "a": "Heart_artery_arteriole _ tissue",
+      "b": "Heart_vein_venule _tissue",
+      "c": "Heart _ venule _vein_tissue",
+      "d": "Heart _arteriole _artery_tissue",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 242,
+    "question": "The association between bacteria residing I the caecum and the ruminant is  ",
+    "option": {
+      "a": "parasitism  ",
+      "b": "predation  ",
+      "c": "saprophytism  ",
+      "d": "mutalism",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  }
+]

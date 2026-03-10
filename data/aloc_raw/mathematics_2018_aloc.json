@@ -1,0 +1,155 @@
+[
+  {
+    "id": 965,
+    "question": "Convert 0.04945 to two significant figures",
+    "option": {
+      "a": "0.040",
+      "b": "0.049",
+      "c": "0.050",
+      "d": "0.49",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "0.04945 to 2s.f is 0.049",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 943,
+    "question": "(0.00256×0.0064)/(0.025 × 0.08)",
+    "option": {
+      "a": "8.8 x 10<sup>-1</sup>",
+      "b": "8.8 x 10<sup>-2</sup>",
+      "c": "8.2 x 10<sup>-3</sup>",
+      "d": " 8.8 x 10<sup>3</sup>",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <mn>0.00256</mn>\n      <mo>&#x00D7;<!-- × --></mo>\n      <mn>0.0064</mn>\n    </mrow>\n    <mrow>\n      <mn>0.025</mn>\n      <mo>&#x00D7;<!-- × --></mo>\n      <mn>0.08</mn>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 924,
+    "question": "Find the value of x in the diagram",
+    "option": {
+      "a": "10°",
+      "b": "28°",
+      "c": "36°",
+      "d": " 40°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724006328/ALOC-Questions/Mathematics/2018/JAMB_MATH_2018_Q6_ki6g4i.jpg",
+    "answer": "d",
+    "solution": "The diagram shows angles at a point, the total angle at a point is 360\n\n  x - 10 + 4x - 50 + 2x + 3x + 20 = 360\n\n  10x - 40 = 360\n\n  10x = 360 + 40\n\n  10x = 400\n\n  x = 400/10\n  x = 40\n",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 919,
+    "question": "In a class of 40 students, 32 offer Mathematics, 24 offer Physics and 4 offer neither Mathematics nor Physics. How many offer both Mathematics and Physics?",
+    "option": {
+      "a": "4",
+      "b": "8",
+      "c": "16",
+      "d": "20",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Let the number of people that offer both Mathematics and Physics = y\n\nThen, (32−y)+y+(24−y)+4=40\n60−y=40⟹y=20\n∴\n20 students offer both Mathematics and Physics.",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 958,
+    "question": "Tanθ is positive and Sinθ is negative. In which quadrant does θ lies",
+    "option": {
+      "a": "Second only",
+      "b": "Third only",
+      "c": "Fourth only",
+      "d": "First and third only",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "  First quadrant: Sin, Cos and Tan are all positive\n\n  Second quadrant: Sin is positive, Cos is negative and Tan is negative\n\n  Third quadrant: Tan is positive, Sin is negative and Cos is negative\n\n  Fourth quadrant: Cos is positive, Sin is negative and Tan is negative\n\n  The correct option is the third quadrant only where Tanθ is positive and Sinθ is negative",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 940,
+    "question": "A car uses one litre of petrol for every 14km. If one litre of petrol cost N63.00, how far can the car go with N900.00 worth of petrol?",
+    "option": {
+      "a": "420 Km",
+      "b": "405 Km",
+      "c": "210 Km",
+      "d": "200 Km",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "since 1litre cost ₦63\n\n  So ₦900 is the cost of 90/063\n litres\n\n= 14.2857litres of petrol\n\nnbsp; The car uses 1 litre for 14 km\n\nSo 14.2857 litres will be used for (14.2857 x 14)\n\n  = 200 km",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 937,
+    "question": "The table shown gives the marks scored by a group of student in a test. Use the table to answer the question given.\n\nMark\t0\t1\t2\t3\t4\t5\nFrequency\t1\t2\t7\t5\t4\t3\n \n\nWhat is the median mark?",
+    "option": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724006353/ALOC-Questions/Mathematics/2018/JAMB_MATH_2018_Q19_itulpw.jpg",
+    "answer": "c",
+    "solution": "Total frequency = 1 + 2 + 7 + 5 + 4 + 3 = 22\n\n Median is the middle number\n\n = Nth/2\n  term = 22th/2\n = 11th term\n\n  Going in ascending order, 11th term is 3, going in descending order 11th term is 3\n\n  Median = 3 + 3/2 = 6/2 = 3",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 927,
+    "question": "If x/(a+1) + y/b = 1. Make y the subject of the relation.",
+    "option": {
+      "a": "b(a+1−x)/(a+1)",
+      "b": "(a+1)/b(a−x+1)",
+      "c": "a(b−x+1)/(b+1)",
+      "d": "b/(a(b−x+1))",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 951,
+    "question": "In how many ways can the letters LEADER be arranged?",
+    "option": {
+      "a": "72",
+      "b": "144",
+      "c": "360",
+      "d": "720",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The word LEADER has 1L 2E 1A 1D and 1R making total of 6! 6/1!2!1!1!1!\n = 6!/2!\n  = (6×5×4×3×2×1)/(2×1)\n  = 360",
+    "examtype": "utme",
+    "examyear": "2018"
+  }
+]

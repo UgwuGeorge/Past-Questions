@@ -1,0 +1,87 @@
+[
+  {
+    "id": 232,
+    "question": "The element with the electron configuration 1s22s22p3 is",
+    "option": {
+      "a": "Oxygen",
+      "b": "Chlorine",
+      "c": "Nitrogen",
+      "d": "Calcium",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 250,
+    "question": "Dynamic equilibrium describes a situation where",
+    "option": {
+      "a": "A reaction gives back the reactants",
+      "b": "Reactants are converted to products",
+      "c": "The concentration of reactants and products is equal",
+      "d": "Both forward and reverse reaction proceed at the same rate",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 301,
+    "question": "One of the major uses of Alkanes is",
+    "option": {
+      "a": "In the hydrogenation of oils",
+      "b": "In the textile industries",
+      "c": "In the production of plastics",
+      "d": "As domestic and industrial fuels",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 86,
+    "question": "The weakest attractive force that can be observed between two molecules is",
+    "option": {
+      "a": "Ionic",
+      "b": "Covalent",
+      "c": "Coordinate covalent",
+      "d": "Van der Waals",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 95,
+    "question": "If an equilibrium reaction has   H>0, the reaction will proceed favourably in the forward direction at",
+    "option": {
+      "a": "High temperature",
+      "b": "Any temperature",
+      "c": "Low temperature",
+      "d": "Minimum temperature",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 42,
+    "question": "The inactive state exhibited by an animal during hot dry seasons is termed  ",
+    "option": {
+      "a": "aestivation",
+      "b": "dormancy  ",
+      "c": "resting",
+      "d": "Hibernation",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 106,
+    "question": "The mambilla plateau is a unique Nigeria biome located in",
+    "option": {
+      "a": "Plateau State  ",
+      "b": "Borno state  ",
+      "c": "Taraba state  ",
+      "d": "Benue state",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005"
+  }
+]

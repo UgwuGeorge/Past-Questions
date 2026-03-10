@@ -1,0 +1,189 @@
+[
+  {
+    "id": 364,
+    "question": "What is the probability that an integer x,(1 ≤\n x ≤\n 20) chosen at random is divisible by both 2 and 3?",
+    "option": {
+      "a": "1/20",
+      "b": "1/3",
+      "c": "3/20",
+      "d": "7/10",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "U = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}\nA = {x/x is divisible by 2}\nA = {2,4,6,8,10,12,14,16,18,20}\nB = {x/x is divisible by 3}\nA ∩ B = {6, 12, 18}\nP(Number divisible by both 2 and 3)\n= 3/20",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 330,
+    "question": "The venn diagram above shows a class of 40 students with the games they play. How many of the students play two games only?",
+    "option": {
+      "a": "19",
+      "b": "16",
+      "c": "15",
+      "d": "4",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710702000/ALOC-Questions/Mathematics/2005/math_2005_q9_qkzbd6.jpg",
+    "answer": "c",
+    "solution": "Two games played only = 5 + 7 + 3\n= 15",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 342,
+    "question": "The sum of the interior angle of a regular polygon is 1800o. Calculate the size of one exterior angle of the polygon",
+    "option": {
+      "a": "30°",
+      "b": "24°",
+      "c": "18°",
+      "d": "12°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Sum of interior ∠s = 1800°\n∴(n - 2) 180° = 1800°\n180n -360° = 1800°\n180n = 1800° + 360°\n180n = 2160°\nn = 2160°/180°\nn = 12 sides\nEach exterior ∠ = 360°/n\n= 360°/12\n= 30°",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 357,
+    "question": "The grades of 36 students in a test are shown in the pie chart above. How many students had excellent?",
+    "option": {
+      "a": "7",
+      "b": "8",
+      "c": "9",
+      "d": "12",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710702357/ALOC-Questions/Mathematics/2005/math_2005_q36_jdk6q5.jpg",
+    "answer": "a",
+    "solution": "Angle of Excellent\n= 360 - (120+80+90)\n= 360 - 290\n= 70o\nIf 360o represents 36 students\n1o will represent 36/360\n50o will represent 36/360 * 70/1\n= 7",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 328,
+    "question": "If Log<sub>10</sub> 2 = 0.3010 and Log<sub>10</sub>3 = 0.4771, evaluate Log<sub>10</sub>4.5",
+    "option": {
+      "a": "0.9542",
+      "b": " 0.6532",
+      "c": "0.4771",
+      "d": " 0.3010",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Log<sub>10</sub> 2 = 0.3010 and Log<sub>10</sub>3 = 0.4771\nLog<sub>10</sub> 4.5= Log<sub>10</sub> 4(1/2)\n= Log<sub>10</sub>9/2\n= Log<sub>10</sub>9 - Log<sub>10</sub> 2\n= Log<sub>10</sub>3<sup>2</sup> -Log<sub>10</sub> 2\n= 2Log<sub>10</sub>3 - Log<sub>10</sub> 2\n= 2(0.4771) - 0.3010\n= 0.9542 - 0.3010\n= 0.6532",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 327,
+    "question": "Evaluate ((〖81〗<sup>(3/4)</sup> -〖27〗<sup>(1/3)</sup>)))/(3×2^3 )",
+    "option": {
+      "a": "3",
+      "b": "1",
+      "c": " 1/3",
+      "d": " 1/8",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <mo stretchy=\"false\">(</mo>\n      <msup>\n        <mn>81</mn>\n        <mrow class=\"MJX-TeXAtom-ORD\">\n          <mfrac>\n            <mn>3</mn>\n            <mn>4</mn>\n          </mfrac>\n        </mrow>\n      </msup>\n      <mo>&#x2212;<!-- − --></mo>\n      <msup>\n        <mn>27</mn>\n        <mrow class=\"MJX-TeXAtom-ORD\">\n          <mfrac>\n            <mn>1</mn>\n            <mn>3</mn>\n          </mfrac>\n        </mrow>\n      </msup>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n    <mrow>\n      <mn>3</mn>\n      <mo>&#x00D7;<!-- × --></mo>\n      <msup>\n        <mn>2</mn>\n        <mn>3</mn>\n      </msup>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "(81<sup>(3/4)</sup> - 27<sup>(1/3)</sup>)/(3×2<sup>3</sup> )=((3<sup>(3-3/4)</sup>-33<sup>(3-3/4)</sup>))/(3×2<sup>3</sup> )=(3<sup>3</sup> -3)/(3 ×8) = (27 - 3 ) / 24 = 24/24 = 1",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 334,
+    "question": "The weight W kg of a metal bar varies jointly as its length L meters and the square of its diameter d meters. If w = 140 when d = 4(2/3) and L = 54, find d in terms of W and L.",
+    "option": {
+      "a": "√(42W/5L)",
+      "b": "√(6L/42W)",
+      "c": "42W/5L",
+      "d": "5L/42W",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "W∞LD<sup>2</sup> W=KLd<sup>2</sup> K=W/(Ld^2 )=140/54×〖(4 2/3)〗<sup>2</sup>=140/54×〖(14/3)〗<sup>2</sup> = (140×9)/(54×14×14)=5/42∴W=5/(42Ld<sup>2</sup> ) 42W=5Ld<sup>2</sup>  42W/5L=d<sup>2</sup> d=√(42W/5L)",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 363,
+    "question": "A box contains 5 blue balls, 3 red balls and 2 white balls. Two balls are selected from the box with replacement. Find the probability of obtaining two blue or two red balls",
+    "option": {
+      "a": "17/50",
+      "b": "3/25",
+      "c": "1/50",
+      "d": "3/250",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Blue balls = 5\nRed balls = 3\nWhite balls = 2\nTotal = 10\nP(Two blue) = 5/10 * 5/10 = 25/100\nP(Two Red) = 3/10 * 3/10 = 9/100\n∴P(Two blue or two red balls)\n= 25/100 + 9/100\n= 34/100\n= 17/50",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 326,
+    "question": "Three boys shared some oranges. The first received 1/3 of the oranges and the second received 2/3 of the remaining. If the third boy received the remaining 12 oranges, how many oranges did they share",
+    "option": {
+      "a": "60",
+      "b": "54",
+      "c": "48",
+      "d": "42",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Let x = the number of oranges\nThe 1st received 1/3 of x = 1/3x\n∴Remainder = x - 1/3x = 2x/3\nThe 2nd received 2/3 of 2x/3 = 2/3 * 2x/3 = 4x/3\nThe 3rd received 12 oranges\n∴1/3x + 4x/9 + 12 = x\n(3x + 4x + 108)/9 = x\n3x + 4x + 108 = 9x\n7x + 108 = 9x\n9x - 7x = 108\n2x = 108\nx = 54 oranges",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 329,
+    "question": "Simplify ((√12-√3))/((√12+√3))",
+    "option": {
+      "a": "zero",
+      "b": "1/3",
+      "c": "3/5",
+      "d": "1",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <mo stretchy=\"false\">(</mo>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo stretchy=\"false\">&#x221A;</mo>\n      </mrow>\n      <mn>12</mn>\n      <mo>&#x2212;<!-- − --></mo>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo stretchy=\"false\">&#x221A;</mo>\n      </mrow>\n      <mn>3</mn>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n    <mrow>\n      <mo stretchy=\"false\">(</mo>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo stretchy=\"false\">&#x221A;</mo>\n      </mrow>\n      <mn>12</mn>\n      <mo>+</mo>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo stretchy=\"false\">&#x221A;</mo>\n      </mrow>\n      <mn>3</mn>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "((√12-√3))/((√12+√3))=(√(4×3)-√3)/(√(4×3)+√3)=(2√3-√3)/(2√3+√3)=√3/(3√3)=1/3",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 339,
+    "question": "An operation * is defined on the set of real numbers by a * b = ab + 2(a + b + 1). find the identity elements",
+    "option": {
+      "a": "2",
+      "b": "1",
+      "c": "-1",
+      "d": "-2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "a * b = ab + 2(a + b + 1)\nlet e be the identity element\n∴ a * e = e * b = a\n∴ a * e\nae + 2(a + e + 1) = a\nae + 2a + 2e + 2 = a\nae + 2e = a - 2a = 2\n(a + 2)e = -a - 2\ne = -(a-2) / (a+2)\ne = -(a+2) / (a+2)\ne = -1",
+    "examtype": "utme",
+    "examyear": "2005"
+  }
+]

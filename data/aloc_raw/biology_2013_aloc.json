@@ -1,0 +1,70 @@
+[
+  {
+    "id": 6,
+    "question": "An insect whose economic importance is both harmful and beneficial is the",
+    "option": {
+      "a": "tests fly  ",
+      "b": "black",
+      "c": "mosquito   ",
+      "d": "butterfly",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 29,
+    "question": "Soil fertility can best be conserved and renewed by the activities of",
+    "option": {
+      "a": "earthworms  ",
+      "b": "man  ",
+      "c": "rodents  ",
+      "d": "microbes",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 162,
+    "question": "The pancreas secretes enzymes for the digestion of  ",
+    "option": {
+      "a": "fats, vitamins and cellulose",
+      "b": " fats, carbohydrates and vitamins  ",
+      "c": "proteins, celluclose and minerals  ",
+      "d": "fats, proteins and carbohydrates",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2007"
+  },
+  {
+    "id": 198,
+    "question": "The order of passage of food in the digestive system is",
+    "option": {
+      "a": "ileum caecum large intestine rectum",
+      "b": "ileum colon caecum rectum",
+      "c": "large intestine ileum caecum rectum",
+      "d": "colon caeum ileum rectum  ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2008"
+  }
+]

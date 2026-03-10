@@ -1,0 +1,240 @@
+[
+  {
+    "id": 763,
+    "question": "Find the area of the trapezium above.",
+    "option": {
+      "a": "91 cm<sub>2</sub> ",
+      "b": "78 cm<sub>2</sub> ",
+      "c": "60 cm<sub>2</sub> ",
+      "d": "19 cm<sub>2</sub> ",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716130466/ALOC-Questions/Mathematics/2012/2012_MATH_JAMB_Q43_ylpswm.jpg",
+    "answer": "c",
+    "solution": "Area of trapezium =1/2(a + b )× h = 1/2(7 + 13) × 6\n= 60cm<sub>2</sub> ",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 725,
+    "question": "If 27<sup>x+2</sup> ÷ 9<sup>x+1</sup> = 3<sup>2x</sup>, find x.",
+    "option": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "27<sup>x+2</sup> ÷ 9<sup>x+1</sup> = 3<sup>2x</sup>,\n \n3<sup>3(x+2)</sup> ÷ 3<sup>2(x+1)</sup> =3<sup>2x</sup> \n3<sup>3x+6</sup> ÷ 3<sup>2x+2</sup> = 3<sup>2x</sup> \n∴ (3x + 6) − (2x + 2) = 2x\nx + 4 = 2x ⟹ x = 4",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 766,
+    "question": "A circular arc subtends angle 150° at the centre of a circle of radius 12cm. Calculate the area of the sector of the arc.",
+    "option": {
+      "a": "30π cm<sup>2</sup>",
+      "b": "60π cm<sup>2</sup>",
+      "c": "120π cm<sup>2</sup>",
+      "d": "150π cm<sup>2</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Area of sector = θ/360° × πr<sup2</sup>\n= 150/360 × π × 12<sup>2</sup>\n= 60π cm<sup>2</sup>",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 765,
+    "question": "The bar chart above shows the distribution of marks in a class test. If the pass mark is 5, what percentage of students failed the test?",
+    "option": {
+      "a": "10%",
+      "b": "20%",
+      "c": " 50%",
+      "d": " 60%",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716130528/ALOC-Questions/Mathematics/2012/2012_MATH_JAMB_Q45_ef7qqi.jpg",
+    "answer": "c",
+    "solution": "Number that score less than 5: 5 + 6 + 4 + 3 + 2 = 20\n\nTotal number of students: 5 + 6 + 4 + 3 + 2 + 4 + 6 + 5 + 1 + 3 + 1 = 40.\n\n%age of students that failed: 20/40 × 100",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 730,
+    "question": "Make 'n' the subject of the formula if w = v(2+cn)/(1−cn)",
+    "option": {
+      "a": "1/c(w−2/vv+w)",
+      "b": "1/c(w−2/vv−w)",
+      "c": "1/c(w+2/vv−w)",
+      "d": " 1/c(w+2/vv+w)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "w = v(2+cn)/1−cn\n\n\n2v + cnv = w(1 - cn)\n\n2v + cnv = w - cnw\n\n2v - w = -cnv - cnw\n\nMultiply through by negative sign\n\n-2v + w = cnv + cnw\n\n-2v + w = n(cv + cw)\n\nn = −(2v+w)/(cv+cw)\n\n\nn = 1/c(−2v+w/v+w)\n\n\nRe-arrange...\n\nn = 1/c(w−2v/v+w)",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 758,
+    "question": "The probability that a student passes a physics test is 2/3. If he takes three physics tests, what is the probability that he passes two of the tests?",
+    "option": {
+      "a": "2/27",
+      "b": "3/27",
+      "c": "4/27",
+      "d": "5/3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Pass(P) = 2/3\n, Fail(F) = 1/3\n\n\nT = P.P.F ==> 2/3 × 2/3 × 1/3\n = 4/27",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 757,
+    "question": "In how many ways can the letters of the word TOTALITY be arranged?",
+    "option": {
+      "a": "6720",
+      "b": "6270",
+      "c": "6207",
+      "d": " 6027",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "8!/3!\n \n\n8×7×6×5×4×3×2×1/3×2×1\n\n\n==> 8 x 7 x 6 x 5 x 4 = 6720",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 764,
+    "question": "The grades of 36 students in a class test are as shown in the pie chart above. How many students have excellent?",
+    "option": {
+      "a": "12",
+      "b": "9",
+      "c": "8",
+      "d": "7",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716130496/ALOC-Questions/Mathematics/2012/2012_MATH_JAMB_Q44_f6pzeb.jpg",
+    "answer": "d",
+    "solution": "Excellent = 360° - (120° + 90° + 80°)\n\n= 70°\n\nNumber of excellent students = 70/360 × 36\n= 7 students",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 749,
+    "question": "If y = x<sup>2</sup>  - 1/x, find δy/δx",
+    "option": {
+      "a": "2x - 1/x<sup>2</sup> ",
+      "b": "2x + x<sup>2</sup> ",
+      "c": " 2x - x<sup>2</sup> ",
+      "d": "2x + 1x<sup>2</sup> ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "y = x<sup>2</sup>  - 1/x\n\n\ny = x<sup>2</sup>  - x<sup>-1</sup> \n\nδy/δx = 2x + x<sup>-2</sup> \n\n\nδy/δx = 2x + 1/x<sup>2</sup> ",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 742,
+    "question": "Given that I<sub>3</sub>  is a unit matrix of order 3, find |I<sub>3</sub> |",
+    "option": {
+      "a": "-1",
+      "b": "0",
+      "c": "1",
+      "d": "2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 744,
+    "question": "Calculate the volume of a cuboid of length 0.76cm, breadth 2.6cm and height 0.82cm.",
+    "option": {
+      "a": "3.92cm<sup>3</sup>",
+      "b": " 2.13cm<sup>3</sup>",
+      "c": "1.97cm<sup>3</sup>",
+      "d": "1.62cm<sup>3</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Volume of cuboid = L x b x h\n\n= 0.76cm x 2.6cm x 0.82cm\n\n= 1.62cm<sup>3</sup>",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 753,
+    "question": "Find the median of 2,3,7,3,4,5,8,9,9,4,5,3,4,2,4 and 5",
+    "option": {
+      "a": "9",
+      "b": "8",
+      "c": "7",
+      "d": "4",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Arrange all the values in ascending order,\n\n2,2,3,3,3,4,4,4,4,5,5,5,7,8,9,9",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 767,
+    "question": "A man stands on a tree 150 cm high and sees a boat at an angle of depression of 74°. Find the distance of the boat from the base of the tree.",
+    "option": {
+      "a": "52 cm",
+      "b": "43 cm",
+      "c": "40 cm",
+      "d": "15 cm",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "AB∧D = BD∧C = 74°                  DC=150/tan74°                     =150/3.4874         DC≈43cm",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 745,
+    "question": "The gradient of the straight line joining the points P(5, -7) and Q(-2, -3) is",
+    "option": {
+      "a": "1/2",
+      "b": "2/5",
+      "c": "-4/7",
+      "d": "-2/3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "PQ = y<sub>1</sub> − y<sub>0</sub>/(x<sub>1</sub> − x<sub>0</sub>)\n = −3−(−7)/−2−5\n = −3 + 7/−2−5\n = 4/−7",
+    "examtype": "utme",
+    "examyear": "2012"
+  }
+]

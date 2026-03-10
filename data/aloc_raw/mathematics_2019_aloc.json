@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1008,
+    "question": "Simplify (0.0839 × 6.381)/5.44\n to 2 significant figures.",
+    "option": {
+      "a": "0.2809",
+      "b": "2.51",
+      "c": "3.5",
+      "d": "0.098",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <mn>0.0839</mn>\n      <mo>&#x00D7;<!-- × --></mo>\n      <mn>6.381</mn>\n    </mrow>\n    <mn>5.44</mn>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 980,
+    "question": "In how many ways can the word MATHEMATICIAN be arranged?",
+    "option": {
+      "a": " 6794800 ways",
+      "b": "2664910 ways",
+      "c": " 6227020800 ways",
+      "d": " 129729600 ways",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "MATHEMATICIAN = 13 letters with 2M, 3A, 2T, 2I.\n\nHence, the word MATHEMATICIAN can be arranged in 13!/2!3!2!2!\n= 129729600 ways",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 1015,
+    "question": "If the volume of a frustrum is given as V=πh/3(R<sup>2</sup + Rr + r<sup>2</sup), find dV/dR\n.",
+    "option": {
+      "a": "πh/3(2R + r)",
+      "b": "2R + r + πh/3",
+      "c": "πh/3(2R<sup>2</sup + r + 2r)",
+      "d": "2R<sup>2</sup/3πh",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "V=πh/3(R<sup>2</sup + Rr + r<sup>2</sup)\nV = πR<sup>2</suph/3 + πRrh/3 + πr<sup>2</suph/3\ndV/dR = 2πRh/3 + πrh3\n= π/3(2R + r)",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 983,
+    "question": "The locus of a point which moves so that it is equidistant from two intersecting straight lines is the\n",
+    "option": {
+      "a": "bisector of the two lines",
+      "b": "line parallel to the two lines",
+      "c": " angle bisector of the two lines",
+      "d": " perpendicular bisector of the two lines",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The locus of a points equidistant from two intersecting straight lines is a pair of bisectors that bisect the angles formed by the two intersecting lines.",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 1010,
+    "question": "Points X and Y are 20km North and 9km East of point O, respectively. What is the bearing of Y from X? Correct to the nearest degree.",
+    "option": {
+      "a": "24°",
+      "b": "56°",
+      "c": "127°",
+      "d": "156°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "tanθ = 9/20 = 0.45\nθ = tan<sup>(−1)</sup>(0.45)\n= 24.23°\n\n∴ The bearing of Y from X = 180° - 24.23°\n\n= 155.77°\n\n= 156° (to the nearest degree)",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 992,
+    "question": "d/dx [log⁡(4x<sup>3</sup> - 2x) ] is equal to",
+    "option": {
+      "a": "(12x−2)/4x<sup>2</sup>",
+      "b": "(43x<sup>2</sup>−2x)/7x",
+      "c": "(4x<sup>2</sup>−2)/7x+6",
+      "d": "(12x<sup>2</sup>−2)/4x<sup>3</sup>−2x",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mi>d</mi>\n    <mrow>\n      <mi>d</mi>\n      <mi>x</mi>\n    </mrow>\n  </mfrac>\n  <mo stretchy=\"false\">[</mo>\n  <mi>log</mi>\n  <mo>&#x2061;<!-- ⁡ --></mo>\n  <mo stretchy=\"false\">(</mo>\n  <mn>4</mn>\n  <msup>\n    <mi>x</mi>\n    <mn>3</mn>\n  </msup>\n  <mo>&#x2212;<!-- − --></mo>\n  <mn>2</mn>\n  <mi>x</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo stretchy=\"false\">]</mo>\n</math>",
+    "image": "",
+    "answer": "d",
+    "solution": "d/dx [log(4x<sup>3</sup> - 2x) ]   ... (1)\n\nLet u = 4x<sup>3</sup - 2x.\n\nd/dx(log(4x<sup>3</sup> − 2x)) = (d/du)(du/dx)\nd/du(logu) = 1/u\ndu/dx = 12x<sup>2</sup> − 2\n∴d/dx[log(4x<sup>3</sup> − 2x) ]= (12x<sup>2</sup> − 2)/u\n= (12x<sup>2</sup> − 2)/(4x<sup>3</sup> − 2x)",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 981,
+    "question": "Find the mean of the data.",
+    "option": {
+      "a": "3.26",
+      "b": "4.91",
+      "c": "6.57",
+      "d": "3.0",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724006789/ALOC-Questions/Mathematics/2019/MATH_JAMB_2019_Q14_k7xkuu.jpg",
+    "answer": "a",
+    "solution": "Mean = ∑fx/∑f\n= 150/46\n= 3.26",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 1003,
+    "question": "If S = (4t + 3)(t - 2), find ds/dt when t = 5 secs.",
+    "option": {
+      "a": "50 units per sec",
+      "b": "35 units per sec",
+      "c": "22 units per sec",
+      "d": "13 units per sec",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "s=(4t+3)(t−2)\n \nds/dt=(4t+3)(1)+(t−2)(4)\n= 4t+3+4t−8\n= 8t - 5\n\nds/dt(t=5secs)=8(5)−5\n= 40 - 5 \n\n= 35 units per sec",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 1002,
+    "question": "Find the value of ((0.5436)<sup>3</sup>)/(0.017×0.219) to 3 significant figures.",
+    "option": {
+      "a": "46.2",
+      "b": "43.1",
+      "c": "534",
+      "d": "431",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "= 0.16063/0.017 × 0.219\n= 43.1 (to 3 s.f)",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 1001,
+    "question": "Simplify 81<sup>(−3/4)</sup> x 25<sup>(1/2)</sup>\n x 243<sup>2/5</sup>",
+    "option": {
+      "a": "2/5",
+      "b": "3/5",
+      "c": "5/2",
+      "d": "5/3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "81<sup>(−34)</sup>\n x 25<sup>(1/2)<?sub>\n x 243<sup>(2/5)</sup>\n= (4√81)<sup>−3</sup> × √25 × (5√243)<sup>2</sup>\n= 5×3<sup>2</sup>/3<sup>3</sup>= 5/3",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 985,
+    "question": "If 4sin2x−3=0, find the value of x, when 0° ≤ x ≤ 90°",
+    "option": {
+      "a": " 90°",
+      "b": "45°",
+      "c": " 60°",
+      "d": "30°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "4sin<sup>2</sup>x − 3 = 0\n4sin<sup>2</sup>x = 3 ⟹ sin<sup>2</sup>x = 3/4 \nsin x = √3/2\n∴ x = sin<sup>−1</sup>(√3/2)\nx = 60°",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 1014,
+    "question": "A man bought a car newly for ₦1,250,000. He had a crash with the car and later sold it at the rate of ₦1,085,000. What is the percentage gain or loss of the man?",
+    "option": {
+      "a": " 43.7% loss",
+      "b": "13.2% gain",
+      "c": "13.2% loss",
+      "d": "43.7% gain",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Cost price of the car = N 1,250.00\n\nSelling price = N 1,085.00\n\nLoss = N (1250 - 1085)\n\n= N 165.00\n\n% loss = 165/1250×100\n= 13.2% loss",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 975,
+    "question": "Find the length of the chord |AB| in the diagram shown above.",
+    "option": {
+      "a": " 4.2 cm",
+      "b": "4.3 cm",
+      "c": "3.2 cm",
+      "d": " 3.4 cm",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724006701/ALOC-Questions/Mathematics/2019/MATH_JAMB_2019_Q7_v7bpi9.jpg",
+    "answer": "d",
+    "solution": "Length of chord = 2rsin(θ/2)\n= 2(3)sin(68/2)\n= 6sin 34\n= 6 × 0.559\n= 3.354 cm ≊\n  3.4 cm",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 976,
+    "question": "Given sin58° = cos p°, find p.",
+    "option": {
+      "a": "48°",
+      "b": " 58°",
+      "c": "32°",
+      "d": "52°",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "sinθ = cos(90 − θ)\nsinθ = cos(90 − 58)\n=  cos32",
+    "examtype": "utme",
+    "examyear": "2019"
+  }
+]

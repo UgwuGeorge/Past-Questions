@@ -1,0 +1,274 @@
+[
+  {
+    "id": 343,
+    "question": "In the diagram above, O is the center of the circle,\n\n∠UOT = 70° and ∠RST = 100°. Calculate ∠RUO.",
+    "option": {
+      "a": "20°",
+      "b": "25°",
+      "c": "50°",
+      "d": "80°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710702214/ALOC-Questions/Mathematics/2005/math_2005_q22_oa6al3.jpg",
+    "answer": "b",
+    "solution": "∠OUT = ∠OTU = a (Base ∠s of 180 Δ)\n∴ a + a + 70 = 180° (sum of ∠s of a Δ)\n2a = 180° - 70°\n2a = 110°\na = 55°\nBut ∠RUT + ∠RBT = 180° (opposite ∠s of a Cyclic quad)\n∴ x + a = 100 = 180\nx + 55 + 100 = 180\nx = 180 - 155\nx = 25\nso ∠RUO = x = 25°",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 364,
+    "question": "What is the probability that an integer x,(1 ≤\n x ≤\n 20) chosen at random is divisible by both 2 and 3?",
+    "option": {
+      "a": "1/20",
+      "b": "1/3",
+      "c": "3/20",
+      "d": "7/10",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "U = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}\nA = {x/x is divisible by 2}\nA = {2,4,6,8,10,12,14,16,18,20}\nB = {x/x is divisible by 3}\nA ∩ B = {6, 12, 18}\nP(Number divisible by both 2 and 3)\n= 3/20",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 763,
+    "question": "Find the area of the trapezium above.",
+    "option": {
+      "a": "91 cm<sub>2</sub> ",
+      "b": "78 cm<sub>2</sub> ",
+      "c": "60 cm<sub>2</sub> ",
+      "d": "19 cm<sub>2</sub> ",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1716130466/ALOC-Questions/Mathematics/2012/2012_MATH_JAMB_Q43_ylpswm.jpg",
+    "answer": "c",
+    "solution": "Area of trapezium =1/2(a + b )× h = 1/2(7 + 13) × 6\n= 60cm<sub>2</sub> ",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 382,
+    "question": "Find the value of x for which the function 3x<sup>3</sup> - 9x is minimum",
+    "option": {
+      "a": "zero",
+      "b": "2",
+      "c": "3",
+      "d": "5",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "y = 3x<sup>3</sup> - 9x<sup>2</sup>\ndy/dx = 9x2 - 18x\nAs dy/dx = 0\n9x<sup>2</sup> - 18x = 0\n9x(x-2) = 0\n9x = 0 which implies x = 0\nx-2 = 0 implies x = 2\nd<sup>2</sup>y/dx<sup>2</sup> = 18x - 18\nwhen x = 0\nd<sup>2</sup>y/dx<sup>2</sup> < 0 ∴ x is is minimum\nwhen x = 2d<sup>2</sup>y/dx<sup>2</sup> = 18\n∴ > 0 x is minimum",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 1050,
+    "question": "A cylindrical tank has a capacity of 3080m<sup>3</sup>\n. What is the depth of the tank if the diameter of its base is 14m?",
+    "option": {
+      "a": "25 cm",
+      "b": "23 cm",
+      "c": "22 cm",
+      "d": "20 cm",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "V = 2080 cm<sup>3</sup>, h = ? \n\nr = 7 cm\n\nV = V/πr<sup>2</sup>h\nh = Vπr<sup>2</sup> = 3080/(22/7) × 49\n \n\n3080/54\n = 20cm",
+    "examtype": "2020",
+    "examyear": "utme"
+  },
+  {
+    "id": 93,
+    "question": "if P and Q are fixed points and X is a point which moves so that XP = XQ, the locus of X is\n",
+    "option": {
+      "a": "straight line",
+      "b": "a circle",
+      "c": "the bisector of angle PXQ",
+      "d": " the perpendicular bisector of PQ  ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2000"
+  },
+  {
+    "id": 999,
+    "question": "Tade bought 200 mangoes at 4 for ₦2.50. 30 out of the mangoes got spoilt and the remaining were sold at 2 for ₦2.40. Find the percentage profit or loss.",
+    "option": {
+      "a": "43.6% loss",
+      "b": "35% profit",
+      "c": "63.2% profit",
+      "d": " 28% loss",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "200 mangoes at 4 for N2.50\n\n⟹\n Total cost price = 200/4 × N2.50\n= N 125.00\n\nSince 30 mangoes got spoilt ⟹\n Left over = 200 - 30\n\n= 170 mangoes \n\n170 mangoes at 2 for N 2.40\n\n⟹\n Total selling point = 170/2×N2.40\n= N 204.00\n\nProfit : N (204.00 - 125.00) = N 79.00\n\n% profit = 79/125×100\n= 63.2% profit.",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 728,
+    "question": "If P is a set of all prime factors of 30 and Q is a set of all factors of 18 less than 10, find P ∩ Q",
+    "option": {
+      "a": "{3}",
+      "b": "{2,3}",
+      "c": "{2,3,5}",
+      "d": " {1,2}",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "P = {2,3,5}\n\nQ = {2,3,6,9}\n\nP ∩ Q = {2,3}",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 486,
+    "question": "If x - 3 is directly proportional to the square of y and x = 5 when y =2, find x when y = 6.",
+    "option": {
+      "a": "30",
+      "b": "21",
+      "c": "16",
+      "d": "12",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "(x – 3) ∝ y<sup>2</sup>\nX-3 = Ky<sup>2</sup>\nK = X-3 / y<sup>2</sup>\n= 5-2/2<sup>2</sup>\n= 2/4\n= 1/2\n∴X-3 = 1/2y<sup>2</sup>\nX-3 = 1/2 (6)<sup>2</sup>\nX-3 = 1/2 x 36/1\nX-3 = 18\nX = 21",
+    "examtype": "utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 447,
+    "question": "Evaluate ((05652)<sup>2</sup> - (04375)<sup>2</sup>)/0.04 correct to three significant figures",
+    "option": {
+      "a": " 3.11",
+      "b": "3.13",
+      "c": " 0.313",
+      "d": "3.12",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "((0.5652<sup>2</sup>-(0.4375)<sup>2</sup>)/0.04  ((0.5625+0.4375)(0.5625-0.4375))/0.04  (1.000×0.125)/0.04=3.125=3.13",
+    "examtype": "utme",
+    "examyear": "2007"
+  },
+  {
+    "id": 910,
+    "question": "If α and β are the roots of the equation 3x<sup>2</sup + 5x - 2 = 0, find the value of 1/α + 1/β",
+    "option": {
+      "a": "-5/4",
+      "b": "-2/3",
+      "c": "1/2",
+      "d": "5/2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "1/α + 1/β = β+α/αβ\n3x<sup>2</sup + 5x - 2 = 0\nx<sup>2</sup + 5x/3 - 2/3 = 0\nαβ = -2/3\nβ+α = -5/3\nThus; β+α/αβ = -2/3 -2/3 = -5/2",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 273,
+    "question": "Find the value of α<sup>2</sup> + β<sup>2</sup> if α + β = 2 and the distance between points (1, α) and (β, 1)is 3 units",
+    "option": {
+      "a": "14",
+      "b": "3",
+      "c": "5",
+      "d": "11",
+      "e": null
+    },
+    "section": "Solution: <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>P</mi>\n  <mi>Q</mi>\n  <mo>=</mo>\n  <msqrt>\n    <mo stretchy=\"false\">(</mo>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B2;</mo>\n    </mrow>\n    <mo>&#x2212;<!-- − --></mo>\n    <mn>1</mn>\n    <msup>\n      <mo stretchy=\"false\">)</mo>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>+</mo>\n    <mo stretchy=\"false\">(</mo>\n    <mn>1</mn>\n    <mo>&#x2212;<!-- − --></mo>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B1;</mo>\n    </mrow>\n    <msup>\n      <mo stretchy=\"false\">)</mo>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n  </msqrt>\n  <mspace linebreak=\"newline\" />\n  <mn>3</mn>\n  <mo>=</mo>\n  <msqrt>\n    <mo stretchy=\"false\">(</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B2;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>&#x2212;<!-- − --></mo>\n    <mn>2</mn>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B2;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>+</mo>\n    <mn>1</mn>\n    <mo>+</mo>\n    <mn>1</mn>\n    <mo>&#x2212;<!-- − --></mo>\n    <mn>2</mn>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B1;</mo>\n    </mrow>\n    <mo>+</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B1;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo stretchy=\"false\">)</mo>\n  </msqrt>\n  <mspace linebreak=\"newline\" />\n  <mn>3</mn>\n  <mo>=</mo>\n  <msqrt>\n    <mo stretchy=\"false\">(</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B1;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>+</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B2;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>&#x2212;<!-- − --></mo>\n    <mn>2</mn>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B1;</mo>\n    </mrow>\n    <mo>+</mo>\n    <mn>2</mn>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B2;</mo>\n    </mrow>\n    <mo>+</mo>\n    <mn>2</mn>\n    <mo stretchy=\"false\">)</mo>\n  </msqrt>\n  <mspace linebreak=\"newline\" />\n  <mn>3</mn>\n  <mo>=</mo>\n  <msqrt>\n    <mo stretchy=\"false\">(</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B1;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>+</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B2;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>&#x2212;<!-- − --></mo>\n    <mn>2</mn>\n    <mo stretchy=\"false\">(</mo>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B1;</mo>\n    </mrow>\n    <mo>+</mo>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B2;</mo>\n    </mrow>\n    <mo stretchy=\"false\">)</mo>\n    <mo>+</mo>\n    <mn>2</mn>\n    <mo stretchy=\"false\">)</mo>\n  </msqrt>\n  <mspace linebreak=\"newline\" />\n  <mn>3</mn>\n  <mo>=</mo>\n  <msqrt>\n    <mo stretchy=\"false\">(</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B1;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>+</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B2;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>&#x2212;<!-- − --></mo>\n    <mn>2</mn>\n    <mo>&#x2217;<!-- ∗ --></mo>\n    <mn>2</mn>\n    <mo>+</mo>\n    <mn>2</mn>\n    <mo stretchy=\"false\">)</mo>\n  </msqrt>\n  <mspace linebreak=\"newline\" />\n  <mn>3</mn>\n  <mo>=</mo>\n  <msqrt>\n    <mo stretchy=\"false\">(</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B1;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>+</mo>\n    <msup>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mo>&#x3B2;</mo>\n      </mrow>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>2</mn>\n      </mrow>\n    </msup>\n    <mo>&#x2212;<!-- − --></mo>\n    <mn>2</mn>\n    <mo stretchy=\"false\">)</mo>\n  </msqrt>\n  <mspace linebreak=\"newline\" />\n  <mn>9</mn>\n  <mo>=</mo>\n  <mo stretchy=\"false\">(</mo>\n  <msup>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B1;</mo>\n    </mrow>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n  <mo>+</mo>\n  <msup>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B2;</mo>\n    </mrow>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n  <mo>&#x2212;<!-- − --></mo>\n  <mn>2</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mspace linebreak=\"newline\" />\n  <msup>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B1;</mo>\n    </mrow>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n  <mo>+</mo>\n  <msup>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B2;</mo>\n    </mrow>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n  <mo>=</mo>\n  <mn>9</mn>\n  <mo>+</mo>\n  <mn>2</mn>\n  <mspace linebreak=\"newline\" />\n  <msup>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B1;</mo>\n    </mrow>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n  <mo>+</mo>\n  <msup>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mo>&#x3B2;</mo>\n    </mrow>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n  <mo>=</mo>\n  <mn>11</mn>\n</math>",
+    "image": "",
+    "answer": "d",
+    "solution": "PQ = √((β−1)<sup>2</sup>+(1−α)<sup>2</sup>).  3=√((β<sup>2</sup>−2β<sup>2</sup>+1+1−2α+α<sup>2</sup>)).   3=√((α<sup>2</sup>+β<sup>2</sup>−2α+2β+2)).       3=√((α<sup>2</sup>+β<sup>2</sup>−2(α+β)+2)).     3=√((α<sup>2</sup>+β<sup>2</sup>−2∗2+2)). 3=√((α<sup>2</sup>+β<sup>2</sup>−2)).  9=(α<sup>2</sup>+β<sup>2</sup>−2).       α<sup>2</sup>+β<sup>2</sup>=9+2. α<sup>2</sup>+β<sup>2</sup>=11.",
+    "examtype": "utme",
+    "examyear": "2004"
+  },
+  {
+    "id": 938,
+    "question": "The table shown gives the marks scored by a group of student in a test. Use the table to answer the question given.\n\nMark\t0\t1\t2\t3\t4\t5\nFrequency\t1\t2\t7\t5\t4\t3\nWhat is the probability of selecting a student from the group that scored 2 or 3",
+    "option": {
+      "a": "1/11",
+      "b": "5/22",
+      "c": "7/22",
+      "d": "6/11",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724006382/ALOC-Questions/Mathematics/2018/JAMB_MATH_2018_Q20_xt2oox.jpg",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 244,
+    "question": "Find the slope of the curve y = 2x2\n + 5x - 3 at (1, 4).",
+    "option": {
+      "a": " 4",
+      "b": "6",
+      "c": "7",
+      "d": "9",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "y = 2x2\n + 5x - 3\ndy/dx = 4x + 5\n= 4 + 5\n= 9",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 391,
+    "question": "Find the tax on an income of N20,000 if no tax is paid on the first N10,000 and tax is paid at N50 in N1000 on the next N5000 and at N55 in N1000 on the remainder",
+    "option": {
+      "a": " N500",
+      "b": " N552",
+      "c": "N255",
+      "d": "N525",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "N20,000 - N10,000 = N10,000\n1st tax on N5000 at N50 per N1000\n= 5*50 = N250\n2nd tax on the remaining N5000 at N55 per N1000 = 5*55 = N275\nTotal tax paid = N250 + N275\n= N525",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 815,
+    "question": "Integrate 1+x/x<sup>3</sup>dx",
+    "option": {
+      "a": " 2x<sup>2</sup>−(1/x) + k",
+      "b": "−1/2x<sup>2</sup> −1/x + k",
+      "c": " −x<sup>2</sup>/2 − (1/x) + k",
+      "d": " x<sup>2</sup> − (1/x) + k",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mrow>\n      <mn>1</mn>\n      <mo>+</mo>\n      <mi>x</mi>\n    </mrow>\n    <msup>\n      <mi>x</mi>\n      <mrow class=\"MJX-TeXAtom-ORD\">\n        <mn>3</mn>\n      </mrow>\n    </msup>\n  </mfrac>\n  <mrow class=\"MJX-TeXAtom-ORD\">\n    <mi mathvariant=\"normal\">d</mi>\n  </mrow>\n  <mi>x</mi>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "∫1+x/x<sup>3<sup> dx\n= ∫(1/x<sup>3</sup> + x/x<sup>3</sup>)dx\n= ∫(x<sup>-3</sup> + x<sup>-2</sup>)dx\n= −1/2x<sup>2</sup> − 1/x + k",
+    "examtype": "utme",
+    "examyear": "2013"
+  }
+]

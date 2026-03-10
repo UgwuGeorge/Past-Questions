@@ -1,0 +1,138 @@
+[
+  {
+    "id": 440,
+    "question": "A lead bullet of mass 0.05kg is fired with a velocity of 200ms⁻¹ into a block of mass 0.95kg. Given that the lead block can move freely, the final kinetic energy after impact is?",
+    "option": {
+      "a": "50J",
+      "b": "100J",
+      "c": "150J",
+      "d": "200J",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nMass of bullet (m₁) = 0.05 kg\nInitial velocity of bullet (u₁) = 200 m/s\nMass of block (m₂) = 0.95 kg\nInitial velocity of block (u₂) = 0 m/s (at rest)\nFinal kinetic energy = ?\n\nThis is an inelastic collision (bullet embeds in block)\nStep 1: Find final velocity using conservation of momentum\nTotal momentum before = Total momentum after\nm₁u₁ + m₂u₂ = (m₁ + m₂)v\nSubstituting values:\n(0.05 × 200) + (0.95 × 0) = (0.05 + 0.95)v\n10 + 0 = 1.0v\nv = 10 m/s\nStep 2: Calculate final kinetic energy\nKE = ½(m₁ + m₂)v²\nKE = ½ × 1.0 × (10)²\nKE = ½ × 1.0 × 100\nKE = 50 J",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 448,
+    "question": "A piece of substance of specific heat capacity 450 Jkg⁻¹K⁻¹ falls through a vertical distance of 20m from rest. Calculate the rise in temperature of the substance on hitting the ground when all its energies are converted into heat. [g = 10ms⁻²]",
+    "option": {
+      "a": "2/9°C",
+      "b": "4/9°C",
+      "c": "9/2°C",
+      "d": " 9/4°C",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Given information:\n\nSpecific heat capacity (c) = 450 J/(kg·K)\nHeight (h) = 20 m\nInitial velocity = 0 (falls from rest)\ng = 10 m/s²\nRise in temperature (ΔT) = ?\n\nPrinciple: Energy Conservation\nAll gravitational potential energy is converted to heat energy.\nStep 1: Calculate potential energy lost\nPE = mgh\nPE = m × 10 × 20\nPE = 200m J\nStep 2: Calculate heat gained\nHeat gained = mcΔT\nHeat = m × 450 × ΔT\nStep 3: Apply energy conservation\nPE lost = Heat gained\n200m = m × 450 × ΔT\nDividing both sides by m:\n200 = 450 × ΔT\nSolving for ΔT:\nΔT = 200/450\nΔT = 20/45\nΔT = 4/9°C\nDecimal value:\nΔT = 4/9 ≈ 0.44°C",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 457,
+    "question": "The velocities of light in air and glass are 3.0 × 10⁸ ms⁻¹ and 2.0 × 10⁸ ms⁻¹ respectively. If the angle of refraction is 30°, the sine of the angle of incidence is?",
+    "option": {
+      "a": "0.33",
+      "b": "0.5",
+      "c": "0.67",
+      "d": "0.75",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nVelocity of light in air (v₁) = 3.0 × 10⁸ m/s\nVelocity of light in glass (v₂) = 2.0 × 10⁸ m/s\nAngle of refraction in glass (r) = 30°\nAngle of incidence in air (i) = ?\n\nStep 1: Calculate refractive index of glass relative to air\nn = v₁/v₂ = (3.0 × 10⁸)/(2.0 × 10⁸) = 3/2 = 1.5\nStep 2: Apply Snell's Law\nn₁ sin i = n₂ sin r\nTaking air as medium 1 (n₁ = 1) and glass as medium 2 (n₂ = n = 1.5):\n1 × sin i = 1.5 × sin 30°\nStep 3: Calculate sin i\nsin i = 1.5 × sin 30°\nsin i = 1.5 × 0.5\nsin i = 0.75",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 446,
+    "question": "When the temperature of a liquid increases, its surface tension",
+    "option": {
+      "a": "decreases",
+      "b": "increases",
+      "c": "remains constant",
+      "d": "increases then decreases",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "When the temperature of a liquid increases, its surface tension decreases due to weakening of intermolecular cohesive forces as molecular kinetic energy increases.",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 453,
+    "question": "If a sound wave goes from a cold air region to a hot air region, its wavelength will?",
+    "option": {
+      "a": "increase",
+      "b": "decrease",
+      "c": "decrease then increase",
+      "d": "remain constant",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "When a sound wave goes from a cold air region to a hot air region, its wavelength will increase because sound travels faster in hot air while the frequency remains constant.",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 452,
+    "question": "The equation of a wave traveling along the positive x-direction is given by: y = 0.25 × 10⁻³ sin(500t - 0.025x). Determine the angular velocity of the wave motion.",
+    "option": {
+      "a": " 0.25 × 10⁻³ rad s⁻¹",
+      "b": "0.25 × 10⁻¹ rad s⁻¹",
+      "c": "5.00 × 10² rad s⁻¹",
+      "d": "2.50 × 10³ rad s⁻¹",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Given wave equation:\ny = 0.25 × 10⁻³ sin(500t - 0.025x)\nStandard form of wave equation:\ny = A sin(ωt - kx)\nwhere:\n\nA = amplitude\nω = angular velocity (angular frequency)\nk = wave number\nt = time\nx = position\n\nComparing the given equation with standard form:\ny = 0.25 × 10⁻³ sin(500t - 0.025x)\ny = A sin(ωt - kx)\nIdentifying parameters:\n\nAmplitude (A) = 0.25 × 10⁻³ m\nAngular velocity (ω) = 500 rad/s\nWave number (k) = 0.025 rad/m\n\nConverting to scientific notation:\nω = 500 rad/s = 5.00 × 10² rad s⁻¹",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 431,
+    "question": "Which of the following is not a vector quantity?",
+    "option": {
+      "a": "momentum",
+      "b": "force",
+      "c": "temperature",
+      "d": "displacement",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Temperature is NOT a vector quantity. It is a scalar quantity because it has magnitude only and no direction associated with it.",
+    "examtype": "utme",
+    "examyear": "2021"
+  },
+  {
+    "id": 437,
+    "question": "The inner diameter of a test tube can be measured accurately using a?",
+    "option": {
+      "a": "micrometer screw gauge",
+      "b": "pair of dividers",
+      "c": "meter rule",
+      "d": "pair of vernier calipers",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Vernier calipers are also used to measure the internal and external diameters of a tube",
+    "examtype": "utme",
+    "examyear": "2021"
+  }
+]

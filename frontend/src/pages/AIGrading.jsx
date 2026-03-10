@@ -49,7 +49,7 @@ export default function AIGrading({ onBack }) {
                 <div>
                     <h1 className="text-4xl font-bold flex items-center gap-3">
                         <Sparkles className="text-primary animate-glow" />
-                        AI Essay Grader
+                        Essay Grader
                     </h1>
                     <p className="text-text-dim mt-1">Professional evaluation for IELTS, SOPs, and Academic Writing.</p>
                 </div>
@@ -102,7 +102,7 @@ export default function AIGrading({ onBack }) {
                         <div className="flex gap-3">
                             <AlertCircle className="text-amber-500 shrink-0 mt-0.5" size={18} />
                             <p className="text-xs text-amber-500/80 leading-relaxed">
-                                AI grading is based on examiner rubrics. Use this as a study guide and improvement tool, not as an official score.
+                                Grading is based on examiner rubrics. Use this as a study guide and improvement tool, not as an official score.
                             </p>
                         </div>
                     </GlowCard>
@@ -121,7 +121,7 @@ export default function AIGrading({ onBack }) {
                             >
                                 <div className="w-20 h-20 border-4 border-primary border-t-transparent rounded-full animate-spin mb-6" />
                                 <h2 className="text-2xl font-bold mb-3">Analyzing Your Writing...</h2>
-                                <p className="text-text-dim text-sm max-w-xs">Gemini AI is checking for coherence, lexical range, task achievement, and grammatical accuracy.</p>
+                                <p className="text-text-dim text-sm max-w-xs">The engine is checking for coherence, lexical range, task achievement, and grammatical accuracy.</p>
                             </motion.div>
                         )}
 
@@ -173,7 +173,7 @@ export default function AIGrading({ onBack }) {
                                     {result.improvement_plan && (
                                         <div className="border-t border-white/5 pt-6">
                                             <h4 className="font-bold mb-3 flex items-center gap-2 text-sm">
-                                                <Sparkles size={14} className="text-primary" /> AI Improvement Plan
+                                                <Sparkles size={14} className="text-primary" /> Improvement Plan
                                             </h4>
                                             <p className="text-text-dim text-sm leading-relaxed">{result.improvement_plan}</p>
                                         </div>

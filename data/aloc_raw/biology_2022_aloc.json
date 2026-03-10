@@ -1,0 +1,87 @@
+[
+  {
+    "id": 232,
+    "question": "Chewing the cud is an adaptation peculiar to",
+    "option": {
+      "a": "herbivores",
+      "b": "omnivores  ",
+      "c": "rodents   ",
+      "d": "ruminants",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 340,
+    "question": "Which of the following theories was NOT considered by Darwin in his evolutionary theory?",
+    "option": {
+      "a": "survival of the fittest  ",
+      "b": "use and disuse  ",
+      "c": "competition ",
+      "d": " variation",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 119,
+    "question": "The only caste in the termite colony whose members can feed themselves are the  ",
+    "option": {
+      "a": "reproductive",
+      "b": " workers  ",
+      "c": "nymhs  ",
+      "d": "soldiers",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 384,
+    "question": "From his study of Galapagos finches, Darwin derived his theory of evolution from ",
+    "option": {
+      "a": " comparative anatomy",
+      "b": "comparative physiology",
+      "c": " fossil remains  ",
+      "d": "comparative embryology.",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 181,
+    "question": "An example of a sex-linked  trait is the",
+    "option": {
+      "a": "ability to roll the tongue",
+      "b": "possession of facial hair in adult humans  ",
+      "c": "ability to grow long hair in females  ",
+      "d": "colour of the skin in human",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2007"
+  }
+]

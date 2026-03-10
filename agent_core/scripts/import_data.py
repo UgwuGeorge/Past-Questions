@@ -357,9 +357,93 @@ def import_markdown_file(file_path: str, db: Session):
     db.commit()
     return added, skipped
 
+# ─── ALOC Importer ───────────────────────────────────────────────────────────
+def import_aloc_file(file_path: str, db: Session):
+    """
+    Imports raw ALOC JSON data which is a list of question objects.
+    """
+    with open(file_path, 'r', encoding='utf-8') as f:
+        questions_list = json.load(f)
+    
+    if not isinstance(questions_list, list):
+        # Handle if it's a single object (from first draft of scraper)
+        questions_list = [questions_list]
+
+    if not questions_list:
+        return 0, 0
+
+    # Meta from the first item
+    sample = questions_list[0]
+    exam_type = sample.get('examtype', 'JAMB').upper()
+    if exam_type == 'UTME':
+        exam_type = 'JAMB'
+
+    year = int(sample.get('examyear')) if sample.get('examyear') else None
+    
+    # Infer subject from filename
+    filename = os.path.basename(file_path)
+    subject_raw = filename.split('_')[0].capitalize()
+    
+    exam = get_or_create_exam(db, exam_type, file_path)
+    subject = get_or_create_subject(db, subject_raw, exam.id)
+
+    # ALOC questions don't strictly have papers in the same way, but we map to paper "1"
+    paper = db.query(QuestionPaper).filter(
+        QuestionPaper.subject_id == subject.id,
+        QuestionPaper.year == year
+    ).first()
+    if not paper:
+        paper = QuestionPaper(subject_id=subject.id, year=year, term="Standard", paper_number="1")
+        db.add(paper)
+        db.commit()
+        db.refresh(paper)
+
+    added, skipped = 0, 0
+    for q_data in questions_list:
+        text = q_data.get('question', '').strip()
+        if not text: continue
+
+        # For ALOC, we just add the question instead of checking exact text 
+        # (ALOC has different sections and images, exact match is tricky)
+        
+        new_q = Question(
+            subject_id=subject.id,
+            paper_id=paper.id,
+            question_num=q_data.get('questionNub'),
+            section=q_data.get('section'),
+            text=text,
+            topic=q_data.get('category'),
+            difficulty=DifficultyLevel.MEDIUM,
+            explanation=q_data.get('solution'),
+            year=year,
+            is_ai_generated=False
+        )
+        db.add(new_q)
+        db.flush()
+
+        # Handle options
+        options = q_data.get('option', {})
+        correct_label = q_data.get('answer', '').strip().upper()
+
+        for label, val in options.items():
+            if not val or not val.strip(): continue
+            choice = Choice(
+                question_id=new_q.id,
+                label=label.upper(),
+                text=val.strip(),
+                is_correct=(label.upper() == correct_label)
+            )
+            db.add(choice)
+        added += 1
+
+    db.commit()
+    return added, skipped
+
 # ─── Core Runner ─────────────────────────────────────────────────────────────
 def import_file(file_path: str, db: Session):
-    if file_path.endswith('.json'):
+    if file_path.endswith('_aloc.json'):
+        a, s = import_aloc_file(file_path, db)
+    elif file_path.endswith('.json'):
         a, s = import_json_file(file_path, db)
     elif file_path.endswith('.md') and 'README' not in file_path and 'templates' not in file_path:
         a, s = import_markdown_file(file_path, db)

@@ -191,6 +191,22 @@ class ExamAgent:
         
         return json.dumps(report)
 
+    def get_simulation_history(self, user_id: int) -> str:
+        """Retrieves and analyzes the user's past full exam simulation scores."""
+        sessions = self.db.query(ExamSession).filter(
+            ExamSession.user_id == user_id
+        ).order_by(ExamSession.start_time.desc()).limit(5).all()
+        
+        if not sessions:
+            return "No full exam simulations found in your history. Why not start one?"
+        
+        report = "Your Recent Simulation Results:\n"
+        for s in sessions:
+            date_str = s.start_time.strftime("%Y-%m-%d")
+            score_info = f"{s.score}%" if s.score is not None else "Incomplete"
+            report += f"- {date_str}: {score_info}\n"
+        return report
+
     def grade_essay(self, content: str, criteria: str) -> str:
         """Grades an IELTS essay, Scholarship SOP, or academic writing."""
         result = AIEngine.grade_essay_or_sop_sync(content, criteria)
@@ -200,6 +216,44 @@ class ExamAgent:
         """Provides expert feedback on an interview response."""
         result = AIEngine.simulate_interview_sync(scenario, user_text)
         return json.dumps(result, indent=2)
+
+    def get_subject_profile(self, subject_id: int) -> str:
+        """
+        Generates a profile for a specific subject by analyzing its questions 
+         and finding related documentation in the data folder.
+        """
+        subject = self.db.query(Subject).get(subject_id)
+        if not subject:
+            return json.dumps({"error": "Subject not found"})
+        
+        # 1. Fetch questions
+        questions = self.db.query(Question).filter(Question.subject_id == subject_id).limit(30).all()
+        q_data = [{"text": q.text, "topic": q.topic} for q in questions]
+        
+        # 2. Search for related files
+        extra_content = ""
+        data_root = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data")
+        # Heuristic search for files containing the subject name
+        for root, dirs, files in os.walk(data_root):
+            for file in files:
+                if subject.name.lower() in file.lower() and file.endswith(".md"):
+                    try:
+                        with open(os.path.join(root, file), "r", encoding="utf-8") as f:
+                            extra_content += f.read() + "\n\n"
+                    except:
+                        pass
+        
+        # 3. Analyze via AI
+        profile = AIEngine.analyze_syllabus_sync(subject.name, q_data, extra_content)
+        
+        # 4. Integrate stats
+        topics = self.db.query(UserProgress.topic, func.avg(UserProgress.is_correct.cast(Float)))\
+            .join(Question).filter(Question.subject_id == subject_id)\
+            .group_by(UserProgress.topic).all()
+        
+        profile["performance"] = {t: round(acc * 100, 1) for t, acc in topics}
+        
+        return json.dumps(profile)
 
     def generate_new_content(self, exam_name: str, topic: str, difficulty: str, count: int = 5) -> str:
         """
@@ -254,7 +308,7 @@ class ExamAgent:
         self.db.commit()
         return f"Successfully generated and stored {added_count} new questions for {exam_name} - {topic}."
 
-    async def chat(self, user_id: int, message: str, history: List[Dict] = []) -> str:
+    async def chat(self, user_id: int, message: str, history: List[Dict] = [], subject_context: str = None) -> str:
         # Define tools for OpenAI
         tools = [
             {
@@ -386,18 +440,35 @@ class ExamAgent:
                         "required": ["user_id", "last_n"],
                     },
                 },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "get_simulation_history",
+                    "description": "Retrieves and analyzes the user's past full exam simulation scores.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "user_id": {"type": "integer"}
+                        },
+                        "required": ["user_id"],
+                    },
+                },
             }
         ]
 
+        subject_prompt = f" You are currently the specialized expert for {subject_context}." if subject_context else ""
+
         messages = [
             {"role": "system", "content": (
-                f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems. "
+                f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems.{subject_prompt} "
                 f"You are currently assisting User ID: {user_id}. "
                 f"Protocol: "
                 f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "
-                f"2. Ask questions ONE BY ONE to the user. Do not show them all at once. "
-                f"3. After each response, use 'log_answer' to record if they were correct based on 'internal_correct_answer'. "
-                f"4. Once the requested count is reached, use 'get_session_summary' with the correct count to show their final score."
+                f"2. When they want a REAL EXAM simulation, tell them to click the 'Practice' button on any exam card in the dashboard. "
+                f"3. Ask questions ONE BY ONE for simple practice. "
+                f"4. After each response, use 'log_answer'. "
+                f"5. Use 'get_simulation_history' to see how they've performed in full proctored exams."
             )}
         ]
         

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 187,
+    "question": "Find the maximum value of y in the equation y = 1 - 2x - 3x<sup>2</sup> ",
+    "option": {
+      "a": "5/4",
+      "b": "5/3",
+      "c": "3/4",
+      "d": " 4/3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Tn=a+(n−1)d\n  (nth term of an AP).\n\nT9=5T5\na+8d=5(a+4d)⟹a+8d=5a+20d\n5a−a+20d−8d=0⟹4a+12d=0\na+3d=0",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 182,
+    "question": "A circle with radius 5cm has its radius increasing at the rate of 0.2m/s. What will be the corresponding increase in the area?",
+    "option": {
+      "a": "2π",
+      "b": "5π",
+      "c": " π",
+      "d": "4π",
+      "e": null
+    },
+    "section": " ",
+    "image": "",
+    "answer": "a",
+    "solution": "Area of the circle (A) = πr<sup>2</sup>\ndA/dr = 2πr\nr = 5cm\n; dr/dt=0.2\ndA/dt = dA/dr.dr/dt\ndA/dt=2π × 5 × 0.2 = 2π",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 215,
+    "question": "In the diagram above are two concentric circles of radii r and R respectively with center O. If r = 2/3R, express the area of the shaded portion in terms of π and R",
+    "option": {
+      "a": "21/25πR<sup>2</sup>",
+      "b": " 9/25πR<sup>2</sup>",
+      "c": "21/23πR<sup>2</sup>",
+      "d": " 5/9πR<sup>2</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710698085/ALOC-Questions/Mathematics/2002/math_2000_q44_jfpika.jpg",
+    "answer": "d",
+    "solution": "r = 2/3R\n\n∴R = 3/3R\n\nArea of small circle = πr<sup>2</sup>\n\n= π(2R/3)<sup>2</sup>\n\nArea of the big circle πr2 = π(3R/3)<sup>2</sup>\n\n\nArea of shaded portion = π(3R/3)<sup>2</sup>  - π(2R/3)<sup>2</sup>\n\n= π[(3R/3)<sup>2</sup> - (2R/3)<sup>2</sup>]\n\n= π[(3R/3)+(2R/3) − (3R/3) - (2R/3)]\n\n= π[(5R/3) (R/3)]\n\n= π x 5R/3 x R3\n\n\n= 5/9πR<sup>2</sup>",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 173,
+    "question": "In a school, 220 students offer Biology or Mathematics or both. 125 offer Biology and 110 mathematics. How many offer Biology but not Mathematics?",
+    "option": {
+      "a": "95",
+      "b": "80",
+      "c": "125",
+      "d": "110",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Hint: Represent the question in a venn diagram, such that\nn(B ∩ M) = x\nn(B) only = 125-x\nn(M) only = 110-x\n=> 125-x + 110-x + x = 220\n=> x = 15.\n\nn(B) only = 125 - 15 = 110",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 175,
+    "question": "Simplify (√0.7+√70)<sup>2</sup>",
+    "option": {
+      "a": "84.7",
+      "b": "70.7",
+      "c": "217.7",
+      "d": "168.7",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">(</mo>\n  <msqrt>\n    <mn>0.7</mn>\n  </msqrt>\n  <mo>+</mo>\n  <msqrt>\n    <mn>70</mn>\n  </msqrt>\n  <msup>\n    <mo stretchy=\"false\">)</mo>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n</math>",
+    "image": "",
+    "answer": "a",
+    "solution": "(√0.7 + √70)<sup>2</sup>\n \n= (√0.7 + √70)(√0.7 + √70)\n= 0.7+2√(0.7×70) + 70\n= 0.7 + 14 + 70\n= 84.7",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 196,
+    "question": "If tan θ = 4/3, calculate sin<sup>2</sup> θ - cos<sup>2</sup> θ.",
+    "option": {
+      "a": "16/25",
+      "b": "24/25",
+      "c": "7/25",
+      "d": "9/25",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "tan θ = opposite/adjacent = 4/3\n \nHyp<sup>2</sup> = 4<sup>2</sup>\n + 3<sup>2</sup>\nHyp = 5.\n\nsin θ = 4/5; cos θ = 3/5\nsin<sup>2</sup>θ − cos<sup>2</sup>θ = 16/25 −9/25\n= 7/25",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 189,
+    "question": "ake r subject of the formula given that x/r+a = a/r",
+    "option": {
+      "a": "a<sub>2</sub>/(x−a)",
+      "b": "a<sub>2</sub>/(x+a)",
+      "c": "a/(x - a)",
+      "d": "a/(x + a)",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <mi>x</mi>\n    <mrow>\n      <mi>r</mi>\n      <mo>+</mo>\n      <mi>a</mi>\n    </mrow>\n  </mfrac>\n  <mo>=</mo>\n  <mfrac>\n    <mi>a</mi>\n    <mi>r</mi>\n  </mfrac>\n</math>",
+    "image": "",
+    "answer": "a",
+    "solution": "x/r+a = a/r\n \n⟹ rx = ar + a<sub>2</sub>\nrx − ra = a<sub>2</sub> ⟹ r = a<sub>2</sub>/ (x−a)",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 213,
+    "question": "The venn diagram above shows the numbers of students offering music and history in a class of 80 students. If a student is picked at random from the class, what is the probability that he offers Music only?",
+    "option": {
+      "a": " 0.38",
+      "b": "0.13",
+      "c": "0.50",
+      "d": " 0.25",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1710697888/ALOC-Questions/Mathematics/2002/math_2000_q42_ikiy1n.jpg",
+    "answer": "d",
+    "solution": "30 - x + x + 40 - x = 80 - 20\n70 - x = 60\n- x = 60 - 70\n- x = - 10\n∴ x = 10\nMusic only = 30 - x\n= 30 - 10\n20\nP(music only) = 20/80\n= 1/4\n= 0.25",
+    "examtype": "utme",
+    "examyear": "2002"
+  }
+]

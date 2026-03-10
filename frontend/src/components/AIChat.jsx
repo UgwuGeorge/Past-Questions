@@ -116,8 +116,9 @@ export default function AIChat() {
                     history: messages.map(m => ({
                         role: m.role === 'assistant' ? 'model' : 'user',
                         text: m.text
-                    }))
-                })
+                    })),
+                    subject_context: subject?.name
+                }),
             });
 
             if (!res.ok) throw new Error("Server error");
@@ -174,7 +175,7 @@ export default function AIChat() {
                                     </h3>
                                     <div className="flex items-center gap-1.5">
                                         <Sparkles size={10} className="text-primary animate-pulse" />
-                                        <span className="text-[10px] text-primary font-black uppercase tracking-widest">Neural AI Active</span>
+                                        <span className="text-[10px] text-primary font-black uppercase tracking-widest">Engine Active</span>
                                     </div>
                                 </div>
                             </div>
@@ -182,7 +183,7 @@ export default function AIChat() {
                                 <button onClick={() => setIsOpen(false)} title="Dock Chat" className="w-9 h-9 rounded-xl hover:bg-white/10 flex items-center justify-center transition-all text-white/50 hover:text-white">
                                     <Minimize2 size={18} />
                                 </button>
-                                <button onClick={() => { setIsOpen(false); setMessages([{ role: 'assistant', text: "Welcome to Reharz AI! I'm your Exam Architect. How can I help you master your curriculum today?" }]); }} title="Clear & Close" className="w-9 h-9 rounded-xl hover:bg-red-500/20 flex items-center justify-center transition-all text-white/50 hover:text-red-400">
+                                <button onClick={() => { setIsOpen(false); setMessages([{ role: 'assistant', text: "Welcome to Reharz! I'm your Exam Architect. How can I help you master your curriculum today?" }]); }} title="Clear & Close" className="w-9 h-9 rounded-xl hover:bg-red-500/20 flex items-center justify-center transition-all text-white/50 hover:text-red-400">
                                     <X size={18} />
                                 </button>
                             </div>

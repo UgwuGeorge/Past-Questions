@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
 import {
     GraduationCap,
@@ -14,10 +14,16 @@ import {
     Mic,
     Settings,
     LogOut,
-    Bell
+    Bell,
+    BarChart3,
+    XCircle,
+    ArrowRight,
+    Brain,
+    Layers
 } from 'lucide-react';
 
 const API_BASE = "http://localhost:8000/api";
+const USER_ID = 1;
 
 const CATEGORY_MAP = {
     'Academics': ['WAEC', 'NECO', 'JAMB', 'NABTEB', 'NDA', 'POLAC'],
@@ -25,16 +31,31 @@ const CATEGORY_MAP = {
     'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
-export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview }) {
+export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub }) {
     const [exams, setExams] = useState([]);
+    const [recentSessions, setRecentSessions] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [selectedExamForSubjects, setSelectedExamForSubjects] = useState(null); // { id, name, subjects }
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const examsRes = await fetch(`${API_BASE}/exams`);
                 const examsData = await examsRes.json();
-                setExams(examsData);
+
+                // Fetch subjects for each exam to have them ready
+                const fullExams = await Promise.all(examsData.map(async (e) => {
+                    const sRes = await fetch(`${API_BASE}/exams/${e.id}/subjects`);
+                    const subjects = await sRes.json();
+                    return { ...e, subjects: Array.isArray(subjects) ? subjects : [] };
+                }));
+
+                setExams(fullExams);
+
+                const sessionsRes = await fetch(`${API_BASE}/simulation/sessions/${USER_ID}`);
+                const sessionsData = await sessionsRes.json();
+                setRecentSessions(sessionsData.slice(0, 3));
+
                 setLoading(false);
             } catch (err) {
                 console.error("Failed to fetch backend data:", err);
@@ -49,6 +70,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
             const name = e.name.toUpperCase();
             const display = displayName.toUpperCase();
             if (name === display) return true;
+            if (display === 'JAMB' && (name === 'UTME' || name.includes('JAMB'))) return true;
             if (display === 'THE BAR EXAM' && name.includes('BAR')) return true;
             if (display === 'MED/NURSING LICENSE' && (name.includes('MED') || name.includes('NURSING'))) return true;
             if (display === 'NNPC/TOTAL ENERGIES' && (name.includes('NNPC') || name.includes('TOTAL'))) return true;
@@ -58,44 +80,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
     };
 
     return (
-        <div className="flex h-screen bg-[#0b0f1a] text-white font-sans overflow-hidden">
-            {/* Sidebar */}
-            <aside className="w-64 glass border-r border-white/5 p-6 flex flex-col z-20">
-                <div className="flex items-center gap-4 mb-10 px-2 group cursor-pointer" onClick={() => window.location.reload()}>
-                    <img src="/assets/reharz_logo.png" alt="Reharz" className="w-10 h-10 rounded-xl object-cover shadow-lg border border-white/10 group-hover:scale-110 transition-all" />
-                    <span className="text-2xl font-black tracking-tighter">Reharz</span>
-                </div>
-
-                <nav className="flex-1 space-y-2">
-                    <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" active />
-                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">AI Lab</div>
-                    <NavItem
-                        icon={<PenTool size={20} />}
-                        label="AI Grading"
-                        onClick={onStartGrading}
-                    />
-                    <NavItem
-                        icon={<Mic size={20} />}
-                        label="Interview Prep"
-                        onClick={onStartInterview}
-                    />
-
-                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">Practice</div>
-                    <NavItem icon={<FileText size={20} />} label="My Results" />
-
-                    <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">User</div>
-                    <NavItem icon={<Settings size={20} />} label="Settings" />
-                </nav>
-
-                <div className="mt-auto pt-6 border-t border-white/5">
-                    <button className="flex items-center gap-3 px-4 py-3 w-full text-white/50 hover:text-white hover:bg-white/5 rounded-xl transition-all group">
-                        <LogOut size={20} className="group-hover:text-rose-500 transition-colors" />
-                        <span className="font-bold text-sm">Sign Out</span>
-                    </button>
-                </div>
-            </aside>
-
-            {/* Main Content Area */}
+        <div className="flex-1 flex flex-col relative overflow-hidden h-full">
             <div className="flex-1 flex flex-col relative overflow-hidden">
                 {/* Background Glows */}
                 <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[40%] bg-primary/10 blur-[120px] rounded-full -z-10" />
@@ -130,21 +115,44 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
 
                 <main className="flex-1 overflow-y-auto p-10 custom-scrollbar">
                     {/* Hero */}
-                    <div className="mb-12">
-                        <motion.h1
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            className="text-5xl font-black mb-3 tracking-tighter"
-                        >
-                            The <span className="text-primary italic">Architect's</span> Dashboard.
-                        </motion.h1>
-                        <p className="text-white/50 text-lg max-w-2xl font-medium">
-                            Systematic access to the world's most critical examinations.
-                        </p>
+                    <div className="flex flex-col md:flex-row gap-10 mb-20 items-end">
+                        <div className="flex-1">
+                            <motion.h1
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                className="text-6xl font-black mb-4 tracking-tighter"
+                            >
+                                <span className="text-primary italic">Reharz.</span>
+                            </motion.h1>
+                            <p className="text-white/50 text-xl max-w-2xl font-medium leading-relaxed">
+                                Systematic access to the world's most critical examinations. Start a proctored simulation to evaluate your readiness.
+                            </p>
+                        </div>
+
+                        {/* Recent Results Mini-Feed */}
+                        <div className="w-full md:w-96 glass p-8 rounded-[32px] border border-white/10 shrink-0">
+                            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-white/40 mb-6 flex items-center justify-between">
+                                <span>Recent Simulations</span>
+                                <BarChart3 size={14} className="text-primary" />
+                            </h4>
+                            <div className="space-y-4">
+                                {recentSessions.length > 0 ? recentSessions.map(s => (
+                                    <div key={s.id} className="flex items-center justify-between p-3 rounded-2xl bg-white/5 border border-white/5 group hover:border-primary/20 transition-all">
+                                        <div>
+                                            <div className="text-xs font-bold">{s.exam_name}</div>
+                                            <div className="text-[10px] text-text-dim">{s.date}</div>
+                                        </div>
+                                        <div className={clsx("text-lg font-black", s.score >= 60 ? "text-emerald-400" : "text-rose-400")}>{Math.round(s.score)}%</div>
+                                    </div>
+                                )) : (
+                                    <div className="text-[10px] italic text-text-dim text-center py-4">No simulations recorded yet.</div>
+                                )}
+                            </div>
+                        </div>
                     </div>
 
                     {/* Content */}
-                    <div className="space-y-20">
+                    <div className="space-y-24">
                         {Object.entries(CATEGORY_MAP).map(([catName, list], catIdx) => (
                             <section key={catName}>
                                 <div className="flex items-center gap-4 mb-8">
@@ -172,7 +180,6 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                                                 className="group"
                                             >
                                                 <div
-                                                    onClick={() => isAvailable && onStartPDFRepo?.(item)}
                                                     className={clsx(
                                                         "relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/40 transition-all flex flex-col h-full bg-white/[0.01]",
                                                         isAvailable ? "cursor-pointer" : "opacity-70"
@@ -195,14 +202,29 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
 
                                                     <h3 className="text-xl font-bold mb-1 tracking-tight group-hover:text-primary transition-colors">{item}</h3>
                                                     <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] mb-4">{catName}</p>
-                                                    <p className="text-[10px] text-text-dim/60 mb-8 italic">Click card to view PDF Repo</p>
+
+                                                    {isAvailable && examRecord?.subjects?.length > 0 && (
+                                                        <div className="mt-4 space-y-1">
+                                                            <p className="text-[8px] font-black uppercase text-white/20 mb-2">Popular Subjects</p>
+                                                            <div className="flex flex-wrap gap-1">
+                                                                {examRecord.subjects.slice(0, 3).map(s => (
+                                                                    <span key={s.id} className="px-2 py-0.5 bg-white/5 rounded text-[8px] font-bold text-white/40">
+                                                                        {s.name}
+                                                                    </span>
+                                                                ))}
+                                                            </div>
+                                                        </div>
+                                                    )}
 
                                                     <div className="mt-auto pt-6 border-t border-white/5">
                                                         <button
                                                             disabled={!isAvailable}
                                                             onClick={(e) => {
                                                                 e.stopPropagation();
-                                                                onStartPractice?.(item, examRecord?.id);
+                                                                if (examRecord) {
+                                                                    // All exams with DB records go through the unified subject→config→exam flow
+                                                                    onStartPractice?.(item, examRecord.id, examRecord.name);
+                                                                }
                                                             }}
                                                             className={clsx(
                                                                 "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
@@ -211,7 +233,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                                                                     : "bg-white/5 text-white/20 cursor-not-allowed"
                                                             )}
                                                         >
-                                                            {isAvailable ? <><Play size={14} fill="currentColor" /> Practice</> : "Coming Soon"}
+                                                            {isAvailable ? <><Layers size={14} /> Explorer</> : "Coming Soon"}
                                                         </button>
                                                     </div>
                                                 </div>
@@ -225,23 +247,5 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
                 </main>
             </div>
         </div>
-    );
-}
-
-function NavItem({ icon, label, active = false, onClick }) {
-    return (
-        <button
-            onClick={onClick}
-            className={clsx(
-                "w-full flex items-center gap-3 px-4 py-3 rounded-2xl transition-all group",
-                active
-                    ? "bg-primary/10 text-primary border border-primary/20"
-                    : "text-white/50 hover:bg-white/5 hover:text-white"
-            )}
-        >
-            <span className={clsx(active ? "text-primary" : "text-white/50 group-hover:text-primary transition-colors")}>{icon}</span>
-            <span className="font-black text-xs uppercase tracking-widest">{label}</span>
-            {active && <div className="ml-auto w-1.5 h-1.5 bg-primary rounded-full" />}
-        </button>
     );
 }

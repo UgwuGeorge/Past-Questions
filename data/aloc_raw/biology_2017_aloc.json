@@ -1,0 +1,36 @@
+[
+  {
+    "id": 131,
+    "question": "The product of excretion common to the mammalian kidney lung and skin is",
+    "option": {
+      "a": "Urea  ",
+      "b": "carbon (IV)oxides  ",
+      "c": "mineral salt",
+      "d": "water",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 155,
+    "question": "The process of shedding the exoskeleton of an arthropod is known as",
+    "option": {
+      "a": "instar formation",
+      "b": "metamorphosis  ",
+      "c": "tagmosis  ",
+      "d": "Ecdysis",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2007"
+  }
+]

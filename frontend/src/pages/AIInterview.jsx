@@ -16,7 +16,7 @@ const SEGMENT_QUESTIONS = [
 
 export default function AIInterview({ onBack }) {
     const [messages, setMessages] = useState([
-        { role: 'bot', text: "Hello! I'm your AI Interview Coach powered by Gemini. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null }
+        { role: 'bot', text: "Hello! I'm your Interview Coach. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null }
     ]);
     const [input, setInput] = useState('');
     const [isRecording, setIsRecording] = useState(false);
@@ -110,7 +110,7 @@ export default function AIInterview({ onBack }) {
                         </div>
                         <div>
                             <h1 className="text-3xl font-bold">Interview Complete!</h1>
-                            <p className="text-text-dim text-sm">Here's your Gemini AI performance analysis.</p>
+                            <p className="text-text-dim text-sm">Here's your performance analysis.</p>
                         </div>
                     </div>
 
@@ -169,9 +169,9 @@ export default function AIInterview({ onBack }) {
                     </button>
                     <div>
                         <h2 className="text-xl font-bold flex items-center gap-2">
-                            <Brain size={20} className="text-primary" /> AI Mock Interview
+                            <Brain size={20} className="text-primary" /> Mock Interview
                         </h2>
-                        <p className="text-xs text-text-dim">Scholarship Preparation — Powered by Gemini</p>
+                        <p className="text-xs text-text-dim">Scholarship Preparation Track</p>
                     </div>
                 </div>
 

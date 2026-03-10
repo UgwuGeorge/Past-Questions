@@ -1,0 +1,121 @@
+[
+  {
+    "id": 341,
+    "question": "The crossing of individuals of the same species with different genetic characters is",
+    "option": {
+      "a": " polygenic inheritance  ",
+      "b": " non disjunction  ",
+      "c": "inbreeding",
+      "d": "cross breeding",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 312,
+    "question": "In mammals, the exchange of nutrients and metabolic products occurs in the",
+    "option": {
+      "a": "oesophagus",
+      "b": "trachea",
+      "c": "lymph   ",
+      "d": "lungs",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 332,
+    "question": "Habitats are generally classified into  ",
+    "option": {
+      "a": "aquatic and terrestrial",
+      "b": "arboreal  and marine biomes",
+      "c": "microhabitats and macro habitats",
+      "d": "biotic and abiotic",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 345,
+    "question": "The brightly coloured eye spots on the hind wings of a moth are an example of ",
+    "option": {
+      "a": " disruptive colouration",
+      "b": " continuous variation    ",
+      "c": "divergent  Evolution",
+      "d": "convergent  evolution",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 329,
+    "question": "The vector of the malaria parasite is a",
+    "option": {
+      "a": "female anopheles mosquito  ",
+      "b": "male culex mosquitoes",
+      "c": "female culex mosquito  ",
+      "d": "female Aids mosquito",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 302,
+    "question": "The function of the red head in male Agama lizards is to",
+    "option": {
+      "a": "scare other males from the territory  ",
+      "b": "attract female lizards for mating purposes  ",
+      "c": "warn predators of the distastefulness of the animal  ",
+      "d": "Conceal and camouflage the animal from predators",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 313,
+    "question": "An example of an endospermous seed is   ",
+    "option": {
+      "a": "cashew  nut  ",
+      "b": "cottons seed",
+      "c": "bean seed  ",
+      "d": "maize grain",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2011"
+  }
+]
