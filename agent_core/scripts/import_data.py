@@ -19,6 +19,12 @@ import os
 import re
 import sys
 import argparse
+import io
+
+# Ensure UTF-8 output on Windows
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 from sqlalchemy.orm import Session
 from dotenv import load_dotenv
 
@@ -86,11 +92,14 @@ def get_or_create_exam(db: Session, exam_name: str, file_path: str, sub_category
         db.add(exam)
         db.commit()
         db.refresh(exam)
-        print(f"  [+] Created Exam: {exam.name} ({exam.category.value})")
+        cat_val = exam.category.value if exam.category else "None"
+        print(f"  [+] Created Exam: {exam.name} ({cat_val})")
     else:
         # Update category if it's different and we have a target
         if exam.category != target_category:
-            print(f"  [~] Updating Exam category for {exam.name}: {exam.category.value} -> {target_category.value}")
+            old_cat = exam.category.value if exam.category else "None"
+            new_cat = target_category.value if target_category else "None"
+            print(f"  [~] Updating Exam category for {exam.name}: {old_cat} -> {new_cat}")
             exam.category = target_category
             if sub_category:
                 exam.sub_category = sub_category
@@ -234,13 +243,13 @@ def parse_markdown_file(file_path: str) -> dict | None:
     subject_name = re.sub(r'\(?20\d{2}\)?', '', subject_name).strip().strip('()')
 
     # Parse questions
-    # Pattern: **N.** question text ... A) ... **Answer: X**
-    question_blocks = re.split(r'\n(?=\*\*\d+\.\*\*)', content)
+    # Pattern: (**)?N.(**)? question text ... A) ... (**)?Answer: X(**)?
+    question_blocks = re.split(r'\n(?=\**\d+\.\**)', content)
     questions = []
 
     for block in question_blocks:
-        # Get question number and text
-        q_match = re.match(r'\*\*(\d+)\.\*\*\s+(.+?)(?=\n\s*[A-D]\))', block, re.DOTALL)
+        # Get question number and text - supports both **N.** and N.
+        q_match = re.match(r'(?:\*\*|)(\d+)\.(?:\*\*|)\s+(.+?)(?=\n\s*[A-D]\))', block, re.DOTALL)
         if not q_match:
             continue
 
@@ -248,10 +257,10 @@ def parse_markdown_file(file_path: str) -> dict | None:
         q_text = q_match.group(2).strip().replace('\n', ' ')
 
         # Get choices - patterns like "A) text" or "A. text"
-        choices_raw = re.findall(r'([A-D])[)\.]\s+(.+?)(?=\n\s*[A-D][).]|\n\s*\*\*Answer|\Z)', block, re.DOTALL)
+        choices_raw = re.findall(r'([A-D])[)\.]\s+(.+?)(?=\n\s*[A-D][).]|(?:\*\*|)Answer|(?:\*\*|)Explanation|\Z)', block, re.DOTALL)
 
-        # Get correct answer
-        answer_match = re.search(r'\*\*Answer:\s*([A-D])\*\*', block)
+        # Get correct answer - supports both **Answer: X** and Answer: X
+        answer_match = re.search(r'(?:\*\*|)Answer:\s*([A-D])(?:\*\*|)', block)
         correct_label = answer_match.group(1).strip() if answer_match else None
 
         if not choices_raw or not correct_label:
@@ -289,7 +298,7 @@ def parse_markdown_file(file_path: str) -> dict | None:
 def import_markdown_file(file_path: str, db: Session):
     data = parse_markdown_file(file_path)
     if not data:
-        print(f"  ⚠ No parseable questions in {file_path}")
+        print(f"  [x] No parseable questions in {file_path}")
         return 0, 0
 
     exam_name = data['exam_name'].upper()
