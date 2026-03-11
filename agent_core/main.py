@@ -45,9 +45,11 @@ def get_categories():
     return [c.value for c in main_models.ExamCategory]
 
 @app.get("/api/exams", response_model=List[main_schemas.Exam])
-def get_exams(category: str = None, sub_category: str = None, db: Session = Depends(get_db)):
+def get_exams(category: str = None, sub_category: str = None, name: str = None, db: Session = Depends(get_db)):
     query = db.query(main_models.Exam)
-    if category:
+    if name:
+        query = query.filter(main_models.Exam.name.ilike(f"%{name}%"))
+    if category and category.lower() != 'any':
         query = query.filter(main_models.Exam.category == category)
     if sub_category:
         query = query.filter(main_models.Exam.sub_category == sub_category)
@@ -388,6 +390,21 @@ def get_user_sessions(user_id: int, db: Session = Depends(get_db)):
             "data": s.results_json
         } for s in sessions
     ]
+
+@app.get("/api/simulation/{session_id}/analyze")
+async def analyze_simulation(session_id: int, db: Session = Depends(get_db)):
+    session = db.query(main_models.ExamSession).get(session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+    if not session.results_json:
+        raise HTTPException(status_code=400, detail="Session is not completed yet")
+    
+    try:
+        from agent_core.core.ai import AIEngine
+        analysis = await AIEngine.analyze_exam_result(session.results_json)
+        return analysis
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn

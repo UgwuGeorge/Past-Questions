@@ -40,6 +40,8 @@ function App() {
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedExamType, setSelectedExamType] = useState(null);
   const [activeSubject, setActiveSubject] = useState(null);
+  const [examAutoStart, setExamAutoStart] = useState(false);
+  const [preferredDifficulty, setPreferredDifficulty] = useState('medium');
 
   // Helper to change view and push current view to history
   const navigateTo = (newView) => {
@@ -92,6 +94,26 @@ function App() {
   const startPDFRepo = (type) => {
     setSelectedExamType(type);
     navigateTo('pdf_repo');
+  };
+
+  const handleAIAction = (action) => {
+    console.log("AI Action Received:", action);
+    if (action.type === 'navigate') {
+      const page = action.page;
+      if (page === 'dashboard' || page === 'home') goHome();
+      else if (page === 'grading') startGrading();
+      else if (page === 'interview') startInterview();
+      else if (page === 'results') goHome(); // Could map to a real results page later
+      else if (page === 'explorer') navigateTo('waec_practice'); // Map explorer to the browser
+      else if (page === 'pdf' || page === 'repo') navigateTo('pdf_repo');
+      else navigateTo(page);
+    } else if (action.type === 'start_exam') {
+      setSelectedExamId(action.exam_id);
+      setSelectedSubject(action.subject_id);
+      setPreferredDifficulty(action.difficulty || 'medium');
+      setExamAutoStart(true);
+      navigateTo('practice');
+    }
   };
 
   return (
@@ -175,7 +197,9 @@ function App() {
             <CBTProcessor
               examId={selectedExamId}
               subjectId={selectedSubject}
-              onExit={goBack}
+              difficulty={preferredDifficulty}
+              autoStart={examAutoStart}
+              onExit={() => { setExamAutoStart(false); goBack(); }}
             />
           </div>
         )}
@@ -217,7 +241,7 @@ function App() {
         )}
 
         <div className="fixed bottom-8 right-8 z-[100]">
-          <AIChat subject={activeSubject} />
+          <AIChat subject={activeSubject} onAction={handleAIAction} />
         </div>
       </div>
     </div>

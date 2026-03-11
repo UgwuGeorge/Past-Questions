@@ -66,16 +66,38 @@ class ExamAgent:
         return f"Successfully logged performance for {q.topic}."
 
     def list_available_exams(self) -> str:
-        """Lists all supported exams and certifications in the local database."""
+        """Lists all supported exams and certifications in the local database with their IDs."""
         exams = self.db.query(Exam).all()
         if not exams:
             return "No exams found in the local database."
         
         result_lines = ["Current Database Catalog:"]
         for e in exams:
-            subjects = [s.name for s in e.subjects]
-            result_lines.append(f"- {e.name} ({e.category}): {', '.join(subjects)}")
+            subjects = [f"{s.name} (ID: {s.id})" for s in e.subjects]
+            result_lines.append(f"- {e.name} [ExamID: {e.id}] ({e.category}): {', '.join(subjects)}")
         return "\n".join(result_lines)
+
+    def search_exams(self, query: str) -> str:
+        """Searches for exams or subjects by name and returns their IDs."""
+        exams = self.db.query(Exam).filter(Exam.name.ilike(f"%{query}%")).all()
+        subjects = self.db.query(Subject).filter(Subject.name.ilike(f"%{query}%")).all()
+        
+        results = []
+        if exams:
+            results.append("Found Exams:")
+            for e in exams:
+                results.append(f"- {e.name} (ID: {e.id})")
+        
+        if subjects:
+            results.append("Found Subjects:")
+            for s in subjects:
+                exam_name = s.exam.name if s.exam else "Unknown Exam"
+                results.append(f"- {s.name} (ID: {s.id}) in {exam_name} (ExamID: {s.exam_id})")
+        
+        if not results:
+            return f"No exams or subjects found matching '{query}'."
+            
+        return "\n".join(results)
 
     def get_adaptive_v2(self, user_id: int, exam_name: str) -> str:
         """
@@ -321,6 +343,54 @@ class ExamAgent:
             {
                 "type": "function",
                 "function": {
+                    "name": "navigate_to",
+                    "description": "Navigates the user to a specific page/section of the application.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "page": {
+                                "type": "string",
+                                "enum": ["dashboard", "grading", "interview", "results", "settings", "explorer"],
+                                "description": "The exact page ID to transition to. Use 'grading' for the essay grader and 'interview' for the coach."
+                            }
+                        },
+                        "required": ["page"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "start_exam",
+                    "description": "Call this to IMMEDIATELY switch the user's view to the exam interface. Required for starting simulations. You MUST have integer IDs for both exam and subject.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "exam_id": {"type": "integer", "description": "The exact integer ID of the exam"},
+                            "subject_id": {"type": "integer", "description": "The exact integer ID of the subject"},
+                            "difficulty": {"type": "string", "enum": ["easy", "medium", "hard"]}
+                        },
+                        "required": ["exam_id", "subject_id", "difficulty"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "search_exams",
+                    "description": "Searches for exams or subjects by name to find their required IDs.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "query": {"type": "string", "description": "The name of the exam or subject to search for."}
+                        },
+                        "required": ["query"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
                     "name": "get_weak_topics",
                     "description": "Analyzes user performance and returns a string breakdown of accuracy per topic.",
                     "parameters": {
@@ -461,14 +531,14 @@ class ExamAgent:
 
         messages = [
             {"role": "system", "content": (
-                f"You are the 'Reharz Exam Architect', an expert AI Agent managing local exam systems.{subject_prompt} "
-                f"You are currently assisting User ID: {user_id}. "
-                f"Protocol: "
-                f"1. When a user wants to practice a specific number of questions, use 'get_practice_batch'. "
-                f"2. When they want a REAL EXAM simulation, tell them to click the 'Practice' button on any exam card in the dashboard. "
-                f"3. Ask questions ONE BY ONE for simple practice. "
-                f"4. After each response, use 'log_answer'. "
-                f"5. Use 'get_simulation_history' to see how they've performed in full proctored exams."
+                f"You are the 'Reharz AI Assistant', the central nervous system of the Reharz Exam Application.{subject_prompt} "
+                f"You assist User ID: {user_id} with learning, navigation, and exam setup. "
+                "\nCORE DIRECTIVES:"
+                "\n1. NAVIGATION: When the user asks to go to a section (e.g., 'Take me to grading', 'Show me results', 'Open interview prep'), you MUST EXCLUSIVELY use the 'navigate_to' tool. DO NOT JUST EXPLAIN; YOU MUST EXECUTE THE NAVIGATION."
+                "\n2. EXAM START: When the user asks for an exam or practice session, you MUST use the 'start_exam' tool. If you do not know the Exam ID or Subject ID, you MUST use 'search_exams' or 'list_available_exams' first to find them. NEVER GUESS IDs."
+                "\n3. TOOL USAGE: You are an AGENT, not a chatbot. Use tools for all core application actions."
+                "\n4. [ACTION_TRIGGERED]: Always include the text '[ACTION_TRIGGERED]' in your response whenever you perform a navigation or start an exam."
+                "\nVoice Mode Notice: You are also accessible via voice. Keep responses concise and action-oriented."
             )}
         ]
         
@@ -490,14 +560,31 @@ class ExamAgent:
         if response_message.tool_calls:
             messages.append(response_message)
             
+            actions_taken = []
+            print(f"DEBUG: Processing tool calls: {[tc.function.name for tc in response_message.tool_calls]}")
             for tool_call in response_message.tool_calls:
                 function_name = tool_call.function.name
                 function_args = json.loads(tool_call.function.arguments)
                 
-                # Execute the corresponding method
-                method = getattr(self, function_name)
-                # Ensure the result is a string
-                result = method(**function_args)
+                # Special handling for navigation/start_exam which don't have DB methods
+                if function_name == "navigate_to":
+                    result = f"Command sent: Navigating to {function_args['page']}"
+                    actions_taken.append({"type": "navigate", "page": function_args['page']})
+                elif function_name == "start_exam":
+                    result = f"Command sent: Starting exam session for subject {function_args['subject_id']} at {function_args['difficulty']} difficulty."
+                    actions_taken.append({
+                        "type": "start_exam", 
+                        "exam_id": function_args['exam_id'],
+                        "subject_id": function_args['subject_id'],
+                        "difficulty": function_args['difficulty']
+                    })
+                elif function_name == "search_exams":
+                    result = self.search_exams(**function_args)
+                else:
+                    # Execute the corresponding method
+                    method = getattr(self, function_name)
+                    result = method(**function_args)
+                
                 function_response = json.dumps(result) if not isinstance(result, str) else result
                 
                 messages.append({
@@ -511,6 +598,14 @@ class ExamAgent:
                 model=MODEL_ID,
                 messages=messages,
             )
-            return second_response.choices[0].message.content
+            final_text = second_response.choices[0].message.content
+            
+            # If we had navigation/exam actions, append them in a parsable way
+            if actions_taken:
+                # We prefix with [ACTION_TRIGGERED] if not already present (AI was told to include it, but we'll ensure)
+                action_json = json.dumps(actions_taken)
+                return f"{final_text}\n\n[ACTIONS: {action_json}]"
+            
+            return final_text
         
         return response_message.content

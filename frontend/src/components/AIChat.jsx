@@ -11,24 +11,81 @@ import {
     ShieldCheck,
     HelpCircle,
     Minimize2,
-    Move
+    Move,
+    Mic
 } from 'lucide-react';
 import { clsx } from 'clsx';
 
 const API_BASE = "http://localhost:8000/api";
 
-export default function AIChat() {
+export default function AIChat({ subject, onAction }) {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
-        { role: 'assistant', text: "Welcome to Reharz I'm your Exam Architect. How can I help you master your curriculum today?" }
+        { role: 'assistant', text: "Welcome to Reharz! I'm your Exam Architect. How can I help you master your curriculum today?" }
     ]);
     const [input, setInput] = useState('');
     const [isTyping, setIsTyping] = useState(false);
+    const [isListening, setIsListening] = useState(false);
     const scrollRef = useRef(null);
     const chatRef = useRef(null);
     const dragControls = useDragControls();
-    // Holds pending exam request details until difficulty is provided
-    const [pendingExam, setPendingExam] = useState(null);
+
+    // Voice Recognition Setup
+    const recognitionRef = useRef(null);
+
+    useEffect(() => {
+        if (typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition)) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognitionRef.current = new SpeechRecognition();
+            recognitionRef.current.continuous = false;
+            recognitionRef.current.interimResults = true;
+            recognitionRef.current.lang = 'en-US';
+
+            recognitionRef.current.onresult = (event) => {
+                let finalTranscript = '';
+                let interimTranscript = '';
+
+                for (let i = event.resultIndex; i < event.results.length; ++i) {
+                    if (event.results[i].isFinal) {
+                        finalTranscript += event.results[i][0].transcript;
+                    } else {
+                        interimTranscript += event.results[i][0].transcript;
+                    }
+                }
+
+                if (finalTranscript) {
+                    setInput(finalTranscript);
+                    // auto-send if final transcript is substantial
+                    if (finalTranscript.trim().length > 1) {
+                        setTimeout(() => handleSend(finalTranscript), 500);
+                        setIsListening(false);
+                        recognitionRef.current.stop();
+                    }
+                } else if (interimTranscript) {
+                    setInput(interimTranscript);
+                }
+            };
+
+            recognitionRef.current.onerror = (event) => {
+                console.error("Speech Recognition Error:", event.error);
+                setIsListening(false);
+            };
+            recognitionRef.current.onend = () => {
+                setIsListening(false);
+            };
+        }
+    }, []);
+
+    const toggleVoice = () => {
+        if (isListening) {
+            recognitionRef.current?.stop();
+            setIsListening(false);
+        } else {
+            setInput('');
+            recognitionRef.current?.start();
+            setIsListening(true);
+        }
+    };
 
     useEffect(() => {
         if (scrollRef.current) {
@@ -51,63 +108,41 @@ export default function AIChat() {
         };
     }, [isOpen]);
 
-    // Helper to detect exam related requests
-    const isExamRequest = (msg) => {
-        const lowered = msg.toLowerCase();
-        const keywords = ['post utme', 'jamb', 'mock exam', 'mock exams', 'exam', 'take a', 'i want to take'];
-        return keywords.some(k => lowered.includes(k));
+    const handleChoiceSelect = (choice, question) => {
+        const isCorrect = choice.is_correct;
+        const feedback = isCorrect
+            ? `Correct! ${choice.label} is the right answer. ${question.explanation || ''}`
+            : `That's incorrect. The correct answer was ${question.choices.find(c => c.is_correct)?.label}. ${question.explanation || ''}`;
+
+        setMessages(prev => [...prev,
+        { role: 'user', text: `I choose ${choice.label}: ${choice.text}` },
+        { role: 'assistant', text: feedback }
+        ]);
     };
 
-    const handleSend = async () => {
-        if (!input.trim() || isTyping) return;
+    const handleSend = async (overrideInput = null) => {
+        const textToSend = overrideInput || input;
+        if (!textToSend.trim() || isTyping) return;
 
-        const currentInput = input;
+        const currentInput = textToSend;
         const userMsg = { role: 'user', text: currentInput };
         setMessages(prev => [...prev, userMsg]);
         setInput('');
-        // If the message is an exam request, short‑circuit the backend and ask for difficulty
-        if (isExamRequest(currentInput)) {
-            // Store pending exam request (default to WAEC category for now)
-            setPendingExam({ category: 'WAEC' });
-            setMessages(prev => [...prev, { role: 'assistant', text: 'What difficulty level would you like? (easy, medium, hard)' }]);
-            setIsTyping(false);
-            return;
+
+        // Check if the user is answering a question by typing the label (A, B, C, D)
+        const lastMsg = messages[messages.length - 1];
+        if (lastMsg?.questionData) {
+            const inputLabel = currentInput.toUpperCase().trim();
+            const matchingChoice = lastMsg.questionData.choices.find(c => c.label.toUpperCase() === inputLabel);
+            if (matchingChoice) {
+                handleChoiceSelect(matchingChoice, lastMsg.questionData);
+                return;
+            }
         }
-        // If we are waiting for difficulty after an exam request
-        if (pendingExam && ['easy', 'medium', 'hard'].includes(currentInput.toLowerCase())) {
-            // Fetch an exam list for the stored category
-            (async () => {
-                try {
-                    const examRes = await fetch(`${API_BASE}/exams?category=${pendingExam.category}`);
-                    const exams = await examRes.json();
-                    const examId = exams?.[0]?.id;
-                    if (!examId) throw new Error('No exam found');
-                    // Get subjects for the exam
-                    const subjectsRes = await fetch(`${API_BASE}/exams/${examId}/subjects`);
-                    const subjects = await subjectsRes.json();
-                    const subjectId = subjects?.[0]?.id;
-                    if (!subjectId) throw new Error('No subject found');
-                    // Get first few questions for the subject
-                    const questionsRes = await fetch(`${API_BASE}/subjects/${subjectId}/questions?limit=1`);
-                    const questions = await questionsRes.json();
-                    const question = questions?.[0];
-                    if (!question) throw new Error('No question found');
-                    // Send the question back to the user
-                    setMessages(prev => [...prev, { role: 'assistant', text: `Here is a ${pendingExam.category} question (difficulty: ${currentInput}):\n\n${question.text}` }]);
-                } catch (e) {
-                    console.error(e);
-                    setMessages(prev => [...prev, { role: 'assistant', text: 'Sorry, I could not fetch a question right now.' }]);
-                } finally {
-                    setPendingExam(null);
-                    setIsTyping(false);
-                }
-            })();
-            return;
-        }
+
         setIsTyping(true);
 
         try {
-            // Rectified endpoint to match agent_core/main.py
             const res = await fetch(`${API_BASE}/chat/1`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -124,7 +159,29 @@ export default function AIChat() {
             if (!res.ok) throw new Error("Server error");
 
             const data = await res.json();
-            setMessages(prev => [...prev, { role: 'assistant', text: data.response }]);
+            let responseText = data.response;
+
+            // Parse structured actions if they exist
+            const actionMatch = responseText.match(/\[ACTIONS: ([\s\S]*?)\]/);
+            if (actionMatch) {
+                try {
+                    const actions = JSON.parse(actionMatch[1]);
+                    actions.forEach(action => {
+                        try {
+                            if (onAction) onAction(action);
+                        } catch (e) {
+                            console.error("Action execution failed:", e);
+                        }
+                    });
+                    // Clean text for display
+                    responseText = responseText.replace(/\[ACTIONS: .*?\]/, "").trim();
+                    responseText = responseText.replace(/\[ACTION_TRIGGERED\]/, "").trim();
+                } catch (e) {
+                    console.error("Failed to parse actions:", e);
+                }
+            }
+
+            setMessages(prev => [...prev, { role: 'assistant', text: responseText }]);
         } catch (err) {
             console.error("Chat Error:", err);
             setMessages(prev => [...prev, {
@@ -205,12 +262,27 @@ export default function AIChat() {
                                         {m.role === 'user' ? <User size={14} /> : <Zap size={14} />}
                                     </div>
                                     <div className={clsx(
-                                        "max-w-[75%] p-4 rounded-2xl text-sm leading-relaxed shadow-sm",
+                                        "max-w-[85%] p-4 rounded-2xl text-sm leading-relaxed shadow-sm flex flex-col gap-3",
                                         m.role === 'user'
                                             ? "bg-gradient-to-br from-primary/80 to-primary text-white rounded-tr-none font-medium"
                                             : "glass border border-white/5 text-white/90 rounded-tl-none"
                                     )}>
-                                        {m.text}
+                                        <div className="whitespace-pre-wrap font-medium">{m.text}</div>
+
+                                        {m.questionData && (
+                                            <div className="mt-4 grid grid-cols-1 gap-2">
+                                                {m.questionData.choices.map((choice) => (
+                                                    <button
+                                                        key={choice.id}
+                                                        onClick={() => handleChoiceSelect(choice, m.questionData)}
+                                                        className="text-left p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-primary/20 hover:border-primary/50 transition-all text-xs"
+                                                    >
+                                                        <span className="font-bold mr-2 text-primary">{choice.label}.</span>
+                                                        {choice.text}
+                                                    </button>
+                                                ))}
+                                            </div>
+                                        )}
                                     </div>
                                 </motion.div>
                             ))}
@@ -235,12 +307,22 @@ export default function AIChat() {
                             <div className="relative group">
                                 <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition duration-500" />
                                 <div className="relative flex items-center bg-white/5 border border-white/10 rounded-2xl p-2 pr-3 focus-within:border-primary/50 transition-all">
+                                    <button
+                                        onClick={toggleVoice}
+                                        className={clsx(
+                                            "w-10 h-10 rounded-xl flex items-center justify-center transition-all",
+                                            isListening ? "bg-red-500 text-white animate-pulse" : "text-white/30 hover:text-white hover:bg-white/5"
+                                        )}
+                                        title={isListening ? "Stop Listening" : "Voice Input"}
+                                    >
+                                        <Mic size={18} />
+                                    </button>
                                     <input
                                         type="text"
                                         value={input}
                                         onChange={(e) => setInput(e.target.value)}
                                         onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-                                        placeholder="Ask about JAMB, IELTS, or Career..."
+                                        placeholder={isListening ? "Listening..." : "Ask about exams or navigate..."}
                                         className="flex-1 bg-transparent px-4 py-3 outline-none text-sm placeholder:text-white/20"
                                     />
                                     <button
@@ -254,7 +336,7 @@ export default function AIChat() {
                             </div>
                             <div className="mt-4 flex items-center justify-center gap-6 text-[10px] font-black uppercase tracking-widest text-white/20">
                                 <div className="flex items-center gap-1.5"><ShieldCheck size={12} /> Secure</div>
-                                <div className="flex items-center gap-1.5"><HelpCircle size={12} /> Adaptive</div>
+                                <div className="flex items-center gap-1.5"><Zap size={12} /> Real-time</div>
                             </div>
                         </div>
                     </motion.div>

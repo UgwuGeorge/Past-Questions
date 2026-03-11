@@ -10,14 +10,25 @@ import GlowCard from '../components/GlowCard';
 const API_BASE = "http://localhost:8000/api";
 const USER_ID = 1;
 
-export default function CBTProcessor({ examId, subjectId, onExit }) {
+export default function CBTProcessor({ examId, subjectId, onExit, difficulty = 'medium', autoStart = false }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'
     const [config, setConfig] = useState({
         questionCount: 40,
         duration: 45, // minutes
-        mode: 'standard', // 'standard' | 'blitz' | 'hardcore'
+        mode: difficulty === 'hard' ? 'hardcore' : 'standard',
         subjectId: subjectId || null
     });
+
+    // Update config when props change
+    useEffect(() => {
+        if (subjectId) {
+            setConfig(prev => ({
+                ...prev,
+                subjectId: subjectId,
+                mode: difficulty === 'hard' ? 'hardcore' : 'standard'
+            }));
+        }
+    }, [subjectId, difficulty]);
 
     const [subjects, setSubjects] = useState([]);
     const [questions, setQuestions] = useState([]);
@@ -29,15 +40,25 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [error, setError] = useState(null);
     const [results, setResults] = useState(null);
+    const [analysis, setAnalysis] = useState(null);
+    const [isAnalyzing, setIsAnalyzing] = useState(false);
 
     // Fetch subjects for config
     useEffect(() => {
         if (!examId) return;
         fetch(`${API_BASE}/exams/${examId}/subjects`)
             .then(r => r.json())
-            .then(data => setSubjects(Array.isArray(data) ? data : []))
+            .then(data => {
+                const fetchedSubjects = Array.isArray(data) ? data : [];
+                setSubjects(fetchedSubjects);
+
+                if (autoStart) {
+                    // Small delay to ensure state and props are settled
+                    setTimeout(() => startSimulation(), 600);
+                }
+            })
             .catch(err => console.error("Failed to fetch subjects:", err));
-    }, [examId]);
+    }, [examId, autoStart, subjectId]);
 
     // Timer logic
     useEffect(() => {
@@ -56,6 +77,14 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
     };
 
     const startSimulation = async () => {
+        // Use the prop subjectId if available, else first subject, else config
+        const finalSubjectId = subjectId || (subjects.length > 0 ? subjects[0].id : config.subjectId);
+
+        if (!finalSubjectId) {
+            setError("No subject selected. Please choose a subject to continue.");
+            return;
+        }
+
         setStep('loading');
         try {
             const res = await fetch(`${API_BASE}/simulation/start`, {
@@ -64,7 +93,7 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
                 body: JSON.stringify({
                     user_id: USER_ID,
                     exam_id: examId,
-                    subject_id: config.subjectId,
+                    subject_id: finalSubjectId,
                     question_count: config.questionCount,
                     duration_minutes: config.duration
                 })
@@ -106,6 +135,20 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
             alert("Connection lost. Retrying submission...");
         } finally {
             setIsSubmitting(false);
+        }
+    };
+
+    const requestAnalysis = async () => {
+        if (!sessionData?.session_id || isAnalyzing) return;
+        setIsAnalyzing(true);
+        try {
+            const res = await fetch(`${API_BASE}/simulation/${sessionData.session_id}/analyze`);
+            const data = await res.json();
+            setAnalysis(data);
+        } catch (err) {
+            console.error("Analysis failed:", err);
+        } finally {
+            setIsAnalyzing(false);
         }
     };
 
@@ -459,32 +502,86 @@ export default function CBTProcessor({ examId, subjectId, onExit }) {
                             </div>
                         </GlowCard>
 
-                        <GlowCard className="p-10 bg-primary/[0.02]">
+                        <GlowCard className="p-10 bg-primary/[0.02] flex flex-col h-full">
                             <h3 className="text-xs font-black uppercase tracking-[0.2em] text-white/30 mb-8 flex items-center gap-2">
                                 <Clock size={14} className="text-primary" /> Session Insights
                             </h3>
-                            <div className="space-y-4">
-                                <div className="flex items-center gap-4 p-4 glass rounded-2xl border border-white/5">
-                                    <Zap size={20} className="text-primary" />
-                                    <div>
-                                        <div className="text-xs font-bold">Fastest Response</div>
-                                        <div className="text-[10px] text-text-dim">Topic: {Object.keys(results.topics)[0] || 'N/A'}</div>
+
+                            {!analysis ? (
+                                <>
+                                    <div className="space-y-4 flex-1">
+                                        <div className="flex items-center gap-4 p-4 glass rounded-2xl border border-white/5">
+                                            <Zap size={20} className="text-primary" />
+                                            <div>
+                                                <div className="text-xs font-bold">Fastest Response</div>
+                                                <div className="text-[10px] text-text-dim">Topic: {Object.keys(results.topics)[0] || 'N/A'}</div>
+                                            </div>
+                                        </div>
+                                        <div className="flex items-center gap-4 p-4 glass rounded-2xl border border-white/5">
+                                            <AlertTriangle size={20} className="text-rose-400" />
+                                            <div>
+                                                <div className="text-xs font-bold">Weak Topic Detected</div>
+                                                <div className="text-[10px] text-text-dim">Recommendation: Focus on {Object.entries(results.topics).sort((a, b) => (a[1].correct / a[1].total) - (b[1].correct / b[1].total))[0]?.[0] || 'N/A'}</div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="flex items-center gap-4 p-4 glass rounded-2xl border border-white/5">
-                                    <AlertTriangle size={20} className="text-rose-400" />
+                                    <button
+                                        onClick={requestAnalysis}
+                                        disabled={isAnalyzing}
+                                        className="w-full mt-10 py-4 bg-primary/20 border border-primary/40 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-primary/30 transition-all text-primary flex items-center justify-center gap-2"
+                                    >
+                                        {isAnalyzing ? (
+                                            <>
+                                                <div className="w-4 h-4 border-2 border-primary/20 border-t-primary rounded-full animate-spin" />
+                                                Synthesizing Strategy...
+                                            </>
+                                        ) : (
+                                            <>
+                                                <Sparkles size={14} /> Request AI Strategy Breakdown
+                                            </>
+                                        )}
+                                    </button>
+                                </>
+                            ) : (
+                                <div className="space-y-6 flex-1 overflow-y-auto custom-scrollbar pr-2">
                                     <div>
-                                        <div className="text-xs font-bold">Weak Topic Detected</div>
-                                        <div className="text-[10px] text-text-dim">Recommendation: Focus on {Object.entries(results.topics).sort((a, b) => (a[1].correct / a[1].total) - (b[1].correct / b[1].total))[0]?.[0] || 'N/A'}</div>
+                                        <div className="text-[10px] font-black text-primary uppercase tracking-widest mb-2">Proctor Summary</div>
+                                        <p className="text-sm italic leading-relaxed text-white/70">"{analysis.overall_assessment}"</p>
                                     </div>
+
+                                    <div>
+                                        <div className="text-[10px] font-black text-emerald-400 uppercase tracking-widest mb-2">Strong Assets</div>
+                                        <div className="flex flex-wrap gap-2">
+                                            {analysis.strong_topics.map((t, idx) => (
+                                                <span key={idx} className="px-2 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded text-[10px] font-bold text-emerald-400 uppercase">{t}</span>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="text-[10px] font-black text-rose-400 uppercase tracking-widest mb-2">Strategic Gaps</div>
+                                        <div className="flex flex-wrap gap-2">
+                                            {analysis.critical_gaps.map((t, idx) => (
+                                                <span key={idx} className="px-2 py-1 bg-rose-500/10 border border-rose-500/20 rounded text-[10px] font-bold text-rose-400 uppercase">{t}</span>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    <div className="pt-4 border-t border-white/5">
+                                        <div className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-3">Action Plan</div>
+                                        <ul className="space-y-2">
+                                            {analysis.action_plan.map((step, idx) => (
+                                                <li key={idx} className="text-xs text-white/60 flex items-start gap-2">
+                                                    <div className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0" />
+                                                    {step}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+
+                                    <p className="text-[10px] font-bold italic text-white/20 pt-4 border-t border-white/5">{analysis.encouragement}</p>
                                 </div>
-                            </div>
-                            <button
-                                onClick={() => { }} // Could trigger AI breakdown
-                                className="w-full mt-10 py-4 bg-white/5 border border-white/10 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-white/10 transition-all"
-                            >
-                                Request Analysis Breakdown
-                            </button>
+                            )}
                         </GlowCard>
                     </div>
 

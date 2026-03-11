@@ -252,3 +252,32 @@ class AIEngine:
             response_format={"type": "json_object"}
         )
         return json.loads(response.choices[0].message.content)
+
+    @staticmethod
+    async def analyze_exam_result(results: Dict) -> Dict:
+        """
+        Analyzes the results of a CBT simulation to provide strategic feedback.
+        """
+        prompt = f"""
+        Act as a Senior Educational Consultant and Exam Strategist.
+        I have a set of exam results for a user. Analyze them and provide a detailed breakdown and improvement strategy.
+        
+        Results Data:
+        {json.dumps(results)}
+        
+        Generate a JSON object with:
+        1. "overall_assessment": "Short motivational summary of performance"
+        2. "strong_topics": [List of topics they mastered]
+        3. "critical_gaps": [List of topics they failed or underperformed in]
+        4. "action_plan": [Specific steps to improve, e.g., 'Review Newton's Laws', 'Practice 20 objective questions on calculus']
+        5. "encouragement": "A supportive closing statement"
+        
+        Return ONLY valid JSON.
+        """
+        
+        response = await async_client.chat.completions.create(
+            model=MODEL_ID,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
+        )
+        return json.loads(response.choices[0].message.content)
