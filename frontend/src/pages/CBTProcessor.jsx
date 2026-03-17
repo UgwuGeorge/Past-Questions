@@ -8,9 +8,8 @@ import {
 import GlowCard from '../components/GlowCard';
 
 const API_BASE = "http://localhost:8000/api";
-const USER_ID = 1;
 
-export default function CBTProcessor({ examId, subjectId, onExit, difficulty = 'medium', autoStart = false }) {
+export default function CBTProcessor({ userId, examId, subjectId, onExit, difficulty = 'medium', autoStart = false }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'
     const [config, setConfig] = useState({
         questionCount: 40,
@@ -91,7 +90,7 @@ export default function CBTProcessor({ examId, subjectId, onExit, difficulty = '
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    user_id: USER_ID,
+                    user_id: userId,
                     exam_id: examId,
                     subject_id: finalSubjectId,
                     question_count: config.questionCount,

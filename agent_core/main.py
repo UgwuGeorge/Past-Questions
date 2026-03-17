@@ -15,6 +15,7 @@ from agent_core.database import get_db, engine, Base
 from agent_core.models import main_models
 from agent_core.schemas import main_schemas
 from agent_core.core.agent import ExamAgent
+from agent_core.core import auth
 from typing import List, Optional
 from pydantic import BaseModel
 from datetime import datetime, timedelta
@@ -44,6 +45,61 @@ def read_root():
 def get_categories():
     return [c.value for c in main_models.ExamCategory]
 
+# --- AUTH ENDPOINTS ---
+
+@app.post("/api/auth/register")
+def register(user_data: main_schemas.UserCreate, db: Session = Depends(get_db)):
+    # Check if user exists
+    existing_user = db.query(main_models.User).filter(
+        (main_models.User.username == user_data.username) | 
+        (main_models.User.email == user_data.email)
+    ).first()
+    if existing_user:
+        raise HTTPException(status_code=400, detail="Username or Email already registered")
+    
+    # Create new user
+    new_user = main_models.User(
+        username=user_data.username,
+        email=user_data.email,
+        hashed_password=auth.get_password_hash(user_data.password)
+    )
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+    
+    # Create token
+    access_token = auth.create_access_token(data={"sub": new_user.username, "user_id": new_user.id})
+    return {
+        "access_token": access_token, 
+        "token_type": "bearer",
+        "user": {
+            "id": new_user.id,
+            "username": new_user.username,
+            "email": new_user.email
+        }
+    }
+
+@app.post("/api/auth/login")
+def login(login_data: dict, db: Session = Depends(get_db)):
+    # Simplified login_data as dict for now, or could use a schema
+    username = login_data.get("username")
+    password = login_data.get("password")
+    
+    user = db.query(main_models.User).filter(main_models.User.username == username).first()
+    if not user or not auth.verify_password(password, user.hashed_password):
+        raise HTTPException(status_code=401, detail="Invalid username or password")
+    
+    access_token = auth.create_access_token(data={"sub": user.username, "user_id": user.id})
+    return {
+        "access_token": access_token, 
+        "token_type": "bearer",
+        "user": {
+            "id": user.id,
+            "username": user.username,
+            "email": user.email
+        }
+    }
+
 @app.get("/api/exams", response_model=List[main_schemas.Exam])
 def get_exams(category: str = None, sub_category: str = None, name: str = None, db: Session = Depends(get_db)):
     query = db.query(main_models.Exam)
@@ -65,8 +121,8 @@ def get_subjects(exam_id: int, db: Session = Depends(get_db)):
     return [{"id": s.id, "name": s.name, "exam_id": s.exam_id} for s in subjects]
 
 @app.get("/api/subjects/{subject_id}/profile")
-def get_subject_profile(subject_id: int):
-    return json.loads(agent.get_subject_profile(subject_id))
+def get_subject_profile(subject_id: int, user_id: int = 1):
+    return json.loads(agent.get_subject_profile(subject_id, user_id=user_id))
 
 @app.get("/api/subjects/{subject_id}/questions")
 def get_questions(subject_id: int, limit: int = 20, db: Session = Depends(get_db)):
@@ -142,31 +198,55 @@ def submit_answer(payload: SubmitPayload, db: Session = Depends(get_db)):
     return {"status": "ok", "is_correct": payload.is_correct}
 
 class EssayPayload(BaseModel):
+    userId: int
     content: str
     criteria: str = "IELTS"
 
 @app.post("/api/grade-essay")
-async def grade_essay(payload: EssayPayload):
+async def grade_essay(payload: EssayPayload, db: Session = Depends(get_db)):
     if not payload.content.strip():
         raise HTTPException(status_code=400, detail="Essay content cannot be empty")
     try:
         from agent_core.core.ai import AIEngine
         result = await AIEngine.grade_essay_or_sop(payload.content, payload.criteria)
+        
+        # Persist feedback
+        feedback = main_models.AIFeedback(
+            user_id=payload.userId,
+            content_type=f"essay_{payload.criteria}",
+            input_text=payload.content,
+            feedback_json=result
+        )
+        db.add(feedback)
+        db.commit()
+        
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 class InterviewPayload(BaseModel):
+    userId: int
     question: str
     answer: str
 
 @app.post("/api/interview-evaluate")
-async def interview_evaluate(payload: InterviewPayload):
+async def interview_evaluate(payload: InterviewPayload, db: Session = Depends(get_db)):
     if not payload.answer.strip():
         raise HTTPException(status_code=400, detail="Answer cannot be empty")
     try:
         from agent_core.core.ai import AIEngine
         result = await AIEngine.simulate_interview(payload.question, payload.answer)
+        
+        # Persist feedback
+        feedback = main_models.AIFeedback(
+            user_id=payload.userId,
+            content_type="interview",
+            input_text=payload.answer,
+            feedback_json=result
+        )
+        db.add(feedback)
+        db.commit()
+        
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

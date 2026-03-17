@@ -11,7 +11,7 @@ const ESSAY_TYPES = [
     { id: "WAEC", label: "Academic Essay", color: "border-blue-500/40 bg-blue-500/5", activeColor: "border-blue-500 bg-blue-500/20 text-blue-300" },
 ];
 
-export default function AIGrading({ onBack }) {
+export default function AIGrading({ userId, onBack }) {
     const [text, setText] = useState('');
     const [criteria, setCriteria] = useState('IELTS');
     const [isGrading, setIsGrading] = useState(false);
@@ -28,7 +28,7 @@ export default function AIGrading({ onBack }) {
             const res = await fetch(`${API_BASE}/grade-essay`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ content: text, criteria })
+                body: JSON.stringify({ userId, content: text, criteria })
             });
             if (!res.ok) throw new Error(`Server error: ${res.status}`);
             const data = await res.json();

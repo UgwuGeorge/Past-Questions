@@ -18,7 +18,7 @@ import { clsx } from 'clsx';
 
 const API_BASE = "http://localhost:8000/api";
 
-export default function AIChat({ subject, onAction }) {
+export default function AIChat({ userId, subject, onAction }) {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
         { role: 'assistant', text: "Welcome to Reharz! I'm your Exam Architect. How can I help you master your curriculum today?" }
@@ -143,7 +143,7 @@ export default function AIChat({ subject, onAction }) {
         setIsTyping(true);
 
         try {
-            const res = await fetch(`${API_BASE}/chat/1`, {
+            const res = await fetch(`${API_BASE}/chat/${userId}`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

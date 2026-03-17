@@ -23,15 +23,14 @@ import {
 } from 'lucide-react';
 
 const API_BASE = "http://localhost:8000/api";
-const USER_ID = 1;
 
 const CATEGORY_MAP = {
     'Academics': ['WAEC', 'NECO', 'JAMB', 'NABTEB', 'NDA', 'POLAC'],
-    'Professional': ['ICAN', 'Med/Nursing license', 'The bar exam', 'TRCN', 'CIBN', 'COREN'],
+    'Professional': ['ICAN Foundation', 'ICAN Skills', 'ICAN Professional', 'Med/Nursing license', 'The bar exam', 'TRCN', 'CIBN', 'COREN'],
     'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
-export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub }) {
+export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub }) {
     const [exams, setExams] = useState([]);
     const [recentSessions, setRecentSessions] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -52,7 +51,7 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
 
                 setExams(fullExams);
 
-                const sessionsRes = await fetch(`${API_BASE}/simulation/sessions/${USER_ID}`);
+                const sessionsRes = await fetch(`${API_BASE}/simulation/sessions/${userId}`);
                 const sessionsData = await sessionsRes.json();
                 setRecentSessions(sessionsData.slice(0, 3));
 
@@ -70,11 +69,12 @@ export default function Dashboard({ onStartPractice, onStartPDFRepo, onStartGrad
             const name = e.name.toUpperCase();
             const display = displayName.toUpperCase();
             if (name === display) return true;
+            if (display.startsWith('ICAN') && name.startsWith(display)) return true;
             if (display === 'JAMB' && (name === 'UTME' || name.includes('JAMB'))) return true;
             if (display === 'THE BAR EXAM' && name.includes('BAR')) return true;
             if (display === 'MED/NURSING LICENSE' && (name.includes('MED') || name.includes('NURSING'))) return true;
             if (display === 'NNPC/TOTAL ENERGIES' && (name.includes('NNPC') || name.includes('TOTAL'))) return true;
-            if (name.startsWith(display.split(' ')[0])) return true;
+            if (name.startsWith(display.split(' ')[0]) && !display.startsWith('ICAN')) return true;
             return false;
         });
     };

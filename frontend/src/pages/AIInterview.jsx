@@ -5,7 +5,6 @@ import { Mic, MicOff, Sparkles, ChevronLeft, Send, User, Bot, Brain, Star, Chevr
 import GlowCard from '../components/GlowCard';
 
 const API_BASE = "http://localhost:8000/api";
-const USER_ID = 1;
 
 const SEGMENT_QUESTIONS = [
     "Tell me about yourself and why you are applying for this scholarship.",
@@ -14,7 +13,7 @@ const SEGMENT_QUESTIONS = [
     "What unique contribution will you bring to your field of study?",
 ];
 
-export default function AIInterview({ onBack }) {
+export default function AIInterview({ userId, onBack }) {
     const [messages, setMessages] = useState([
         { role: 'bot', text: "Hello! I'm your Interview Coach. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null }
     ]);
@@ -59,7 +58,7 @@ export default function AIInterview({ onBack }) {
             const res = await fetch(`${API_BASE}/interview-evaluate`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ question: currentQuestion, answer: userText })
+                body: JSON.stringify({ userId, question: currentQuestion, answer: userText })
             });
             const evalResult = await res.json();
 

@@ -239,7 +239,7 @@ class ExamAgent:
         result = AIEngine.simulate_interview_sync(scenario, user_text)
         return json.dumps(result, indent=2)
 
-    def get_subject_profile(self, subject_id: int) -> str:
+    def get_subject_profile(self, subject_id: int, user_id: int = 1) -> str:
         """
         Generates a profile for a specific subject by analyzing its questions 
          and finding related documentation in the data folder.
@@ -268,9 +268,10 @@ class ExamAgent:
         # 3. Analyze via AI
         profile = AIEngine.analyze_syllabus_sync(subject.name, q_data, extra_content)
         
-        # 4. Integrate stats
+        # 4. Integrate stats (User Specific)
         topics = self.db.query(UserProgress.topic, func.avg(UserProgress.is_correct.cast(Float)))\
             .join(Question).filter(Question.subject_id == subject_id)\
+            .filter(UserProgress.user_id == user_id)\
             .group_by(UserProgress.topic).all()
         
         profile["performance"] = {t: round(acc * 100, 1) for t, acc in topics}

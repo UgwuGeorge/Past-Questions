@@ -9,9 +9,8 @@ import {
 import GlowCard from '../components/GlowCard';
 
 const API_BASE = "http://localhost:8000/api";
-const USER_ID = 1;
 
-export default function WAECBrowser({ onExit, examId: propExamId, examName: propExamName }) {
+export default function WAECBrowser({ userId, onExit, examId: propExamId, examName: propExamName }) {
     const [view, setView] = useState('subjects'); // subjects | config | loading | exam | results
     const [subjects, setSubjects] = useState([]);
     const [selectedSubject, setSelectedSubject] = useState(null);
@@ -99,7 +98,7 @@ export default function WAECBrowser({ onExit, examId: propExamId, examName: prop
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    user_id: USER_ID,
+                    user_id: userId,
                     exam_id: examId,
                     subject_id: selectedSubject.id,
                     question_count: config.questionCount,

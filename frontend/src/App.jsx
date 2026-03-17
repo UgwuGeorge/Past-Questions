@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Dashboard from './pages/Dashboard';
 import CBTProcessor from './pages/CBTProcessor';
 import AIGrading from './pages/AIGrading';
@@ -7,9 +7,10 @@ import AIChat from './components/AIChat';
 import WAECBrowser from './pages/WAECBrowser';
 import ExamRepo from './pages/ExamRepo';
 import SubjectHub from './pages/SubjectHub';
+import Auth from './pages/Auth';
 import {
   ChevronLeft, LayoutDashboard, PenTool, Mic, FileText,
-  Settings, LogOut, Home, ArrowLeft
+  Settings, LogOut, Home, ArrowLeft, User as UserIcon
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import './index.css';
@@ -33,6 +34,7 @@ function NavItem({ icon, label, active = false, onClick }) {
 }
 
 function App() {
+  const [user, setUser] = useState(null);
   const [view, setView] = useState('dashboard');
   const [navHistory, setNavHistory] = useState([]); // True history stack
   const [selectedExamId, setSelectedExamId] = useState(null);
@@ -42,6 +44,21 @@ function App() {
   const [activeSubject, setActiveSubject] = useState(null);
   const [examAutoStart, setExamAutoStart] = useState(false);
   const [preferredDifficulty, setPreferredDifficulty] = useState('medium');
+
+  // Persistence
+  useEffect(() => {
+    const savedUser = localStorage.getItem('user');
+    if (savedUser) {
+      setUser(JSON.parse(savedUser));
+    }
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('user');
+    localStorage.removeItem('token');
+    setUser(null);
+    goHome();
+  };
 
   // Helper to change view and push current view to history
   const navigateTo = (newView) => {
@@ -116,6 +133,10 @@ function App() {
     }
   };
 
+  if (!user) {
+    return <Auth onLoginSuccess={(u) => setUser(u)} />;
+  }
+
   return (
     <div className="flex h-screen bg-[#0b0f1a] text-white selection:bg-primary/30 antialiased overflow-hidden">
       {/* GLOBAL SIDEBAR */}
@@ -155,12 +176,24 @@ function App() {
             active={false}
           />
 
-          <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">User</div>
+          <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">User Profile</div>
+          <div className="px-4 py-3 flex items-center gap-3 bg-white/5 rounded-2xl border border-white/10 group cursor-default">
+             <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+                <UserIcon size={16} />
+             </div>
+             <div className="flex flex-col">
+                <span className="text-xs font-black truncate max-w-[120px]">{user.username}</span>
+                <span className="text-[10px] text-white/30 font-bold">Lvl 1 Agent</span>
+             </div>
+          </div>
           <NavItem icon={<Settings size={20} />} label="Settings" />
         </nav>
 
         <div className="mt-auto pt-6 border-t border-white/5">
-          <button className="flex items-center gap-3 px-4 py-3 w-full text-white/50 hover:text-white hover:bg-white/5 rounded-xl transition-all group">
+          <button 
+            onClick={handleLogout}
+            className="flex items-center gap-3 px-4 py-3 w-full text-white/50 hover:text-white hover:bg-white/5 rounded-xl transition-all group"
+          >
             <LogOut size={20} className="group-hover:text-rose-500 transition-colors" />
             <span className="font-bold text-sm">Sign Out</span>
           </button>
@@ -171,6 +204,7 @@ function App() {
       <div className="flex-1 overflow-hidden relative">
         {view === 'dashboard' && (
           <Dashboard
+            userId={user.id}
             onStartPractice={startPractice}
             onStartPDFRepo={startPDFRepo}
             onStartGrading={startGrading}
@@ -181,6 +215,7 @@ function App() {
 
         {view === 'subject_hub' && (
           <SubjectHub
+            userId={user.id}
             subject={activeSubject}
             examName={activeSubject.examName}
             onBack={goBack}
@@ -195,6 +230,7 @@ function App() {
         {view === 'practice' && (
           <div className="h-full overflow-hidden">
             <CBTProcessor
+              userId={user.id}
               examId={selectedExamId}
               subjectId={selectedSubject}
               difficulty={preferredDifficulty}
@@ -206,6 +242,7 @@ function App() {
 
         {view === 'waec_practice' && (
           <WAECBrowser
+            userId={user.id}
             onExit={goBack}
             examId={selectedExamId}
             examName={selectedExamName || selectedExamType}
@@ -224,7 +261,7 @@ function App() {
             >
               <ChevronLeft size={16} /> Back
             </button>
-            <AIGrading onBack={goBack} />
+            <AIGrading userId={user.id} onBack={goBack} />
           </div>
         )}
 
@@ -236,12 +273,12 @@ function App() {
             >
               <ChevronLeft size={16} /> Back
             </button>
-            <AIInterview onBack={goBack} />
+            <AIInterview userId={user.id} onBack={goBack} />
           </div>
         )}
 
         <div className="fixed bottom-8 right-8 z-[100]">
-          <AIChat subject={activeSubject} onAction={handleAIAction} />
+          <AIChat userId={user.id} subject={activeSubject} onAction={handleAIAction} />
         </div>
       </div>
     </div>

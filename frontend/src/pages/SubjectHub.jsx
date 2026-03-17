@@ -10,14 +10,14 @@ import { clsx } from 'clsx';
 
 const API_BASE = "http://localhost:8000/api";
 
-export default function SubjectHub({ subject, examName, onBack, onStartSimulation }) {
+export default function SubjectHub({ userId, subject, examName, onBack, onStartSimulation }) {
     const [profile, setProfile] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const res = await fetch(`${API_BASE}/subjects/${subject.id}/profile`);
+                const res = await fetch(`${API_BASE}/subjects/${subject.id}/profile?user_id=${userId}`);
                 const data = await res.json();
                 setProfile(data);
                 setLoading(false);
