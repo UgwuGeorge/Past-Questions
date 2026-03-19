@@ -29,7 +29,7 @@ app = FastAPI(title="Reharz AI Exam Backend")
 # CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -75,7 +75,8 @@ def register(user_data: main_schemas.UserCreate, db: Session = Depends(get_db)):
         "user": {
             "id": new_user.id,
             "username": new_user.username,
-            "email": new_user.email
+            "email": new_user.email,
+            "is_admin": new_user.is_admin
         }
     }
 
@@ -96,8 +97,46 @@ def login(login_data: dict, db: Session = Depends(get_db)):
         "user": {
             "id": user.id,
             "username": user.username,
-            "email": user.email
+            "email": user.email,
+            "is_admin": user.is_admin
         }
+    }
+
+@app.get("/api/user/{user_id}/stats")
+def get_user_stats(user_id: int, db: Session = Depends(get_db)):
+    sessions = db.query(main_models.ExamSession).filter(
+        main_models.ExamSession.user_id == user_id,
+        main_models.ExamSession.end_time != None
+    ).all()
+    
+    if not sessions:
+        return {
+            "exams_completed": 0,
+            "avg_score": 0,
+            "study_hours": 0,
+            "mastery_level": 0
+        }
+    
+    total_score = sum(s.score for s in sessions if s.score is not None)
+    avg_score = round(total_score / len(sessions), 1) if sessions else 0
+    
+    # Estimate time: session end - session start
+    total_duration_secs = 0
+    for s in sessions:
+        if s.end_time and s.start_time:
+            diff = s.end_time - s.start_time
+            total_duration_secs += diff.total_seconds()
+            
+    study_hours = round(total_duration_secs / 3600, 1)
+    
+    # Simple mastery mapping
+    mastery = round((avg_score / 100) * 100, 1)
+    
+    return {
+        "exams_completed": len(sessions),
+        "avg_score": avg_score,
+        "study_hours": study_hours,
+        "mastery_level": mastery
     }
 
 @app.get("/api/exams", response_model=List[main_schemas.Exam])
@@ -485,6 +524,62 @@ async def analyze_simulation(session_id: int, db: Session = Depends(get_db)):
         return analysis
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/user/ai-feedback/{user_id}")
+def get_user_ai_feedback(user_id: int, db: Session = Depends(get_db)):
+    feedback = db.query(main_models.AIFeedback).filter(
+        main_models.AIFeedback.user_id == user_id
+    ).order_by(main_models.AIFeedback.created_at.desc()).all()
+    
+    return [
+        {
+            "id": f.id,
+            "type": f.content_type,
+            "input": f.input_text[:120] + "..." if len(f.input_text) > 120 else f.input_text,
+            "date": f.created_at.strftime("%Y-%m-%d %H:%M:%S"),
+            "data": f.feedback_json
+        } for f in feedback
+    ]
+
+# --- ADMIN ENDPOINTS ---
+
+@app.get("/api/admin/users")
+def get_all_users(db: Session = Depends(get_db)):
+    users = db.query(main_models.User).all()
+    return [
+        {
+            "id": u.id,
+            "username": u.username,
+            "email": u.email,
+            "is_admin": u.is_admin,
+            "created_at": u.created_at.strftime("%Y-%m-%d %H:%M:%S")
+        } for u in users
+    ]
+
+@app.post("/api/admin/user/{user_id}/toggle_admin")
+def toggle_admin(user_id: int, db: Session = Depends(get_db)):
+    user = db.query(main_models.User).get(user_id)
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    user.is_admin = not user.is_admin
+    db.commit()
+    return {"id": user.id, "username": user.username, "is_admin": user.is_admin}
+
+@app.get("/api/admin/system_stats")
+def get_system_stats(db: Session = Depends(get_db)):
+    total_users = db.query(main_models.User).count()
+    total_sessions = db.query(main_models.ExamSession).count()
+    total_exams = db.query(main_models.Exam).count()
+    total_subjects = db.query(main_models.Subject).count()
+    total_questions = db.query(main_models.Question).count()
+    
+    return {
+        "users": total_users,
+        "sessions": total_sessions,
+        "exams": total_exams,
+        "subjects": total_subjects,
+        "questions": total_questions
+    }
 
 if __name__ == "__main__":
     import uvicorn

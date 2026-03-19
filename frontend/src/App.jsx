@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Dashboard from './pages/Dashboard';
+import { motion, AnimatePresence } from 'framer-motion';
 import CBTProcessor from './pages/CBTProcessor';
 import AIGrading from './pages/AIGrading';
 import AIInterview from './pages/AIInterview';
@@ -8,9 +9,12 @@ import WAECBrowser from './pages/WAECBrowser';
 import ExamRepo from './pages/ExamRepo';
 import SubjectHub from './pages/SubjectHub';
 import Auth from './pages/Auth';
+import MyResults from './pages/MyResults';
+import AdminPanel from './pages/AdminPanel';
 import {
-  ChevronLeft, LayoutDashboard, PenTool, Mic, FileText,
-  Settings, LogOut, Home, ArrowLeft, User as UserIcon
+    ChevronLeft, LayoutDashboard, PenTool, Mic, FileText,
+    Settings, LogOut, Home, ArrowLeft, User as UserIcon,
+    ShieldAlert, Menu, X
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import './index.css';
@@ -44,6 +48,8 @@ function App() {
   const [activeSubject, setActiveSubject] = useState(null);
   const [examAutoStart, setExamAutoStart] = useState(false);
   const [preferredDifficulty, setPreferredDifficulty] = useState('medium');
+  const [initialResultId, setInitialResultId] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // Persistence
   useEffect(() => {
@@ -64,6 +70,7 @@ function App() {
   const navigateTo = (newView) => {
     setNavHistory(prev => [...prev, view]);
     setView(newView);
+    setSidebarOpen(false); // Close sidebar on mobile after navigation
   };
 
   // Helper to go back to previous view in history
@@ -88,6 +95,10 @@ function App() {
 
   const startGrading = () => navigateTo('grading');
   const startInterview = () => navigateTo('interview');
+  const startResults = (sessionId = null) => {
+    setInitialResultId(sessionId);
+    navigateTo('results');
+  };
 
   // All exam types now use the unified subject-select + config flow (WAECBrowser)
   const startPractice = (type, examId = null, examName = null) => {
@@ -120,8 +131,8 @@ function App() {
       if (page === 'dashboard' || page === 'home') goHome();
       else if (page === 'grading') startGrading();
       else if (page === 'interview') startInterview();
-      else if (page === 'results') goHome(); // Could map to a real results page later
-      else if (page === 'explorer') navigateTo('waec_practice'); // Map explorer to the browser
+      else if (page === 'results' || page === 'my_results') startResults(); 
+      else if (page === 'explorer') navigateTo('waec_practice'); 
       else if (page === 'pdf' || page === 'repo') navigateTo('pdf_repo');
       else navigateTo(page);
     } else if (action.type === 'start_exam') {
@@ -130,6 +141,8 @@ function App() {
       setPreferredDifficulty(action.difficulty || 'medium');
       setExamAutoStart(true);
       navigateTo('practice');
+    } else if (action.type === 'view_session' || action.type === 'view_result') {
+      startResults(action.session_id);
     }
   };
 
@@ -138,9 +151,49 @@ function App() {
   }
 
   return (
-    <div className="flex h-screen bg-[#0b0f1a] text-white selection:bg-primary/30 antialiased overflow-hidden">
+    <div className="flex h-screen bg-[#0b0f1a] text-white selection:bg-primary/30 antialiased overflow-hidden relative">
+      {/* MOBILE TOP BAR */}
+      <div className="lg:hidden fixed top-0 left-0 right-0 h-16 glass-hover bg-[#0b0f1a]/80 backdrop-blur-xl border-b border-white/5 z-40 flex items-center justify-between px-6">
+        <div className="flex items-center gap-3 cursor-pointer" onClick={goHome}>
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+            <span className="font-black text-white italic text-xs">R</span>
+          </div>
+          <span className="text-xl font-black tracking-tighter">Reharz</span>
+        </div>
+        <button 
+          onClick={() => setSidebarOpen(true)}
+          className="p-2 rounded-xl bg-white/5 border border-white/10"
+        >
+          <Menu size={20} />
+        </button>
+      </div>
+
+      {/* OVERLAY FOR MOBILE SIDEBAR */}
+      <AnimatePresence>
+        {sidebarOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSidebarOpen(false)}
+            className="fixed inset-0 bg-black/60 backdrop-blur-md z-[60] lg:hidden"
+          />
+        )}
+      </AnimatePresence>
+
       {/* GLOBAL SIDEBAR */}
-      <aside className="w-64 glass border-r border-white/5 p-6 flex flex-col z-50 shrink-0">
+      <aside className={clsx(
+        "fixed lg:relative inset-y-0 left-0 w-64 glass border-r border-white/5 p-6 flex flex-col z-[100] transition-transform duration-300 ease-in-out lg:translate-x-0 shrink-0",
+        sidebarOpen ? "translate-x-0" : "-translate-x-full"
+      )}>
+        <div className="absolute top-4 right-4 lg:hidden">
+            <button 
+                onClick={() => setSidebarOpen(false)}
+                className="p-2 rounded-lg bg-white/5 hover:bg-white/10"
+            >
+                <X size={20} className="text-white/40" />
+            </button>
+        </div>
         <div className="flex items-center gap-4 mb-10 px-2 group cursor-pointer" onClick={goHome}>
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg group-hover:scale-110 transition-all">
             <span className="font-black text-white italic">R</span>
@@ -173,18 +226,36 @@ function App() {
           <NavItem
             icon={<FileText size={20} />}
             label="My Results"
-            active={false}
+            active={view === 'results'}
+            onClick={startResults}
           />
+
+          {user.is_admin && (
+            <>
+              <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">Oversight</div>
+              <NavItem
+                icon={<ShieldAlert size={20} />}
+                label="Admin Panel"
+                active={view === 'admin'}
+                onClick={() => navigateTo('admin')}
+              />
+            </>
+          )}
 
           <div className="pt-6 pb-2 px-4 text-[10px] font-black text-white/30 uppercase tracking-[0.2em]">User Profile</div>
           <div className="px-4 py-3 flex items-center gap-3 bg-white/5 rounded-2xl border border-white/10 group cursor-default">
              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
                 <UserIcon size={16} />
              </div>
-             <div className="flex flex-col">
-                <span className="text-xs font-black truncate max-w-[120px]">{user.username}</span>
-                <span className="text-[10px] text-white/30 font-bold">Lvl 1 Agent</span>
-             </div>
+              <div className="flex flex-col">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-black truncate max-w-[100px]">{user.username}</span>
+                  {user.is_admin && (
+                    <span className="px-1.5 py-0.5 bg-amber-500/20 text-amber-500 text-[8px] font-black rounded uppercase border border-amber-500/20">Admin</span>
+                  )}
+                </div>
+                <span className="text-[10px] text-white/30 font-bold">{user.is_admin ? 'System Architect' : 'Lvl 1 Agent'}</span>
+              </div>
           </div>
           <NavItem icon={<Settings size={20} />} label="Settings" />
         </nav>
@@ -201,7 +272,11 @@ function App() {
       </aside>
 
       {/* VIEWPORT CONTENT */}
-      <div className="flex-1 overflow-hidden relative">
+      <div className="flex-1 overflow-hidden relative flex flex-col">
+        {/* MOBILE SPACER */}
+        <div className="h-16 lg:hidden shrink-0" />
+        
+        <div className="flex-1 overflow-hidden relative">
         {view === 'dashboard' && (
           <Dashboard
             userId={user.id}
@@ -210,6 +285,7 @@ function App() {
             onStartGrading={startGrading}
             onStartInterview={startInterview}
             onOpenSubjectHub={openSubjectHub}
+            onViewResult={startResults}
           />
         )}
 
@@ -253,6 +329,14 @@ function App() {
           <ExamRepo examType={selectedExamType} onExit={goBack} />
         )}
 
+        {view === 'results' && (
+          <MyResults userId={user.id} initialSessionId={initialResultId} />
+        )}
+
+        {view === 'admin' && (
+          <AdminPanel userId={user.id} />
+        )}
+
         {view === 'grading' && (
           <div className="p-8 h-full overflow-y-auto">
             <button
@@ -280,6 +364,7 @@ function App() {
         <div className="fixed bottom-8 right-8 z-[100]">
           <AIChat userId={user.id} subject={activeSubject} onAction={handleAIAction} />
         </div>
+       </div>
       </div>
     </div>
   );

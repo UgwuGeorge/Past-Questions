@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:frontend": "vite",
+    "dev:frontend": "vite --host",
     "dev:backend": "cd .. && venv\\Scripts\\python.exe agent_core\\main.py",
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
     "build": "vite build",

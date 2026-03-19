@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { LogIn, UserPlus, Mail, Lock, User, ArrowRight, Loader2, Sparkles } from 'lucide-react';
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = `http://${window.location.hostname}:8000/api`;
 
 export default function Auth({ onLoginSuccess }) {
     const [isLogin, setIsLogin] = useState(true);
@@ -130,21 +130,34 @@ export default function Auth({ onLoginSuccess }) {
                                 )}
 
                                 <div className="space-y-2">
-                                    <label className="text-[10px] font-black uppercase tracking-widest text-white/30 ml-2">Password</label>
-                                    <div className="relative group">
-                                        <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-white/30 group-focus-within:text-primary transition-colors">
-                                            <Lock size={18} />
-                                        </div>
-                                        <input 
-                                            type="password"
-                                            required
-                                            value={formData.password}
-                                            onChange={(e) => setFormData({...formData, password: e.target.value})}
-                                            className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:border-primary/50 focus:ring-4 focus:ring-primary/10 transition-all"
-                                            placeholder="••••••••"
-                                        />
-                                    </div>
-                                </div>
+                                     <label className="text-[10px] font-black uppercase tracking-widest text-white/30 ml-2">Password</label>
+                                     <div className="relative group">
+                                         <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-white/30 group-focus-within:text-primary transition-colors">
+                                             <Lock size={18} />
+                                         </div>
+                                         <input 
+                                             type="password"
+                                             required
+                                             value={formData.password}
+                                             onChange={(e) => setFormData({...formData, password: e.target.value})}
+                                             className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:border-primary/50 focus:ring-4 focus:ring-primary/10 transition-all"
+                                             placeholder="••••••••"
+                                         />
+                                     </div>
+                                 </div>
+
+                                 {isLogin && (
+                                     <div className="flex items-center justify-between px-2 pt-2">
+                                         <label className="flex items-center gap-2 cursor-pointer group">
+                                             <div className="w-4 h-4 rounded border border-white/10 bg-white/5 flex items-center justify-center group-hover:border-primary/50 transition-all">
+                                                 <input type="checkbox" className="sr-only" />
+                                                 <div className="w-2 h-2 rounded-sm bg-primary opacity-0 group-has-[:checked]:opacity-100 transition-opacity" />
+                                             </div>
+                                             <span className="text-[10px] font-bold text-white/40 uppercase tracking-widest group-hover:text-white/60 transition-colors">Remember me</span>
+                                         </label>
+                                         <button type="button" className="text-[10px] font-bold text-primary/60 uppercase tracking-widest hover:text-primary transition-colors">Forgot Password?</button>
+                                     </div>
+                                 )}
                             </motion.div>
                         </AnimatePresence>
 

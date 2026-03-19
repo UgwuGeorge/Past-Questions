@@ -12,6 +12,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 async_client = AsyncOpenAI(api_key=api_key)
 MODEL_ID = "gpt-4o"
+FAST_MODEL_ID = "gpt-4o-mini"
 
 class AIEngine:
     @staticmethod
@@ -105,7 +106,7 @@ class AIEngine:
         Return ONLY valid JSON.
         """
         response = client.chat.completions.create(
-            model=MODEL_ID,
+            model=FAST_MODEL_ID,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"}
         )
@@ -139,7 +140,7 @@ class AIEngine:
         """
         
         response = await async_client.chat.completions.create(
-            model=MODEL_ID,
+            model=FAST_MODEL_ID,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"}
         )
@@ -151,7 +152,7 @@ class AIEngine:
         """Sync version of interview evaluation."""
         prompt = f"Act as an interviewer. Question: {question}\nAnswer: {user_answer}\nEvaluate and return ONLY JSON."
         response = client.chat.completions.create(
-            model=MODEL_ID,
+            model=FAST_MODEL_ID,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"}
         )
@@ -185,7 +186,7 @@ class AIEngine:
         """
         
         response = await async_client.chat.completions.create(
-            model=MODEL_ID,
+            model=FAST_MODEL_ID,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"}
         )
@@ -276,7 +277,7 @@ class AIEngine:
         """
         
         response = await async_client.chat.completions.create(
-            model=MODEL_ID,
+            model=FAST_MODEL_ID,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"}
         )
