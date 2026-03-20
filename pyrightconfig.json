@@ -1,0 +1,16 @@
+{
+  "include": [
+    "server/scripts",
+    "agent_core",
+    "."
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    ".venv",
+    "Past-Questions"
+  ],
+  "venvPath": "C:/Users/USER/.gemini/antigravity/scratch/Past-Questions",
+  "venv": ".venv",
+  "typeCheckingMode": "basic"
+}
