@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 375,
+    "question": "It is likely that the governor will exact his pound of flesh ",
+    "option": {
+      "a": "He will probably demand a hefty  bribe ",
+      "b": "He will probably engineer the assassination of his opponents ",
+      "c": "He will probably impose crushing new taxes",
+      "d": "He will probably demand for and get all that is due to him ",
+      "e": ""
+    },
+    "section": "select the option that bost explains the information conveyed in the sentence.",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2008",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 309,
+    "question": "The tax rebate was a <i>concession</i> given to the civil servants ",
+    "option": {
+      "a": "a donation ",
+      "b": " an allowance",
+      "c": "an incentive  ",
+      "d": "an emolument. ",
+      "e": ""
+    },
+    "section": "choose the option nearest in meaning to the word or phrase in italics.",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2007",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 566,
+    "question": "His wife was badly injured in the fracas, but I think  she will pull",
+    "option": {
+      "a": "up  ",
+      "b": "over ",
+      "c": "through ",
+      "d": "back",
+      "e": ""
+    },
+    "section": "choose the option that best completes the gap(s)",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1531,
+    "question": "We saw Ifueko ____________ an egg on the wall",
+    "option": {
+      "a": "smashed",
+      "b": "smash",
+      "c": "smashing",
+      "d": "smashes",
+      "e": ""
+    },
+    "section": "Choose the word(s) or phrase(s) which best fill(s) the gap. ",
+    "image": "",
+    "answer": "b",
+    "solution": "‘Smash’ is the correct answer because the action conveyed is a single action.\n\nIn reported statements, writers/ speakers should retain the present tense.",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 48,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1347,
+    "question": "What a ________! the more you look, the less you see",
+    "option": {
+      "a": "wonder",
+      "b": "miracle",
+      "c": "challenge",
+      "d": "paradox",
+      "e": ""
+    },
+    "section": "From the words lettered A to D, choose the word or group of words that best completes each of the following sentences.",
+    "image": "",
+    "answer": "d",
+    "solution": "The more you look, the less you see is contradictory and that is a paradox.",
+    "examtype": "utme",
+    "examyear": "2020",
+    "questionNub": 34,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 929,
+    "question": "Since its <u>inception</u> 1983, the newspaper has attracted thousands of readers?",
+    "option": {
+      "a": "renaissance",
+      "b": "coming",
+      "c": "commencement",
+      "d": "publication",
+      "e": ""
+    },
+    "section": "<b>In each of the questions 34 to 48, Choose the option nearest in meaning to the underlined word(s).</b>\n",
+    "image": "",
+    "answer": "c",
+    "solution": "Inception; the commencement or starting point of something",
+    "examtype": "utme",
+    "examyear": "2011",
+    "questionNub": 34,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 295,
+    "question": "The point you have made is quite <i>apt</i>",
+    "option": {
+      "a": "illogical ",
+      "b": "helpful ",
+      "c": "irrelevant ",
+      "d": "insensitive",
+      "e": ""
+    },
+    "section": "choose the option opposite in meaning to the word or phrase in italics.",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1366,
+    "question": "Rather than make <u>derogatory<u/> remarks about the host, a guest should make ________ ones",
+    "option": {
+      "a": "polite",
+      "b": "complimentary",
+      "c": "interesting",
+      "d": "honest",
+      "e": ""
+    },
+    "section": "From the list of words or group of words lettered A to D, choose the one that is most nearest opposite in meaning to the underlined word or group of words and that will, at the same time correctly fill in the gap in the sentence. ",
+    "image": "",
+    "answer": "b",
+    "solution": "Derogatory implies 'to lessen one's value'. However, complimentary is an expression of praise.",
+    "examtype": "utme",
+    "examyear": "2020",
+    "questionNub": 53,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1690,
+    "question": "Who were the two people Seyi lawal and Jimi met coming out of the principal office?",
+    "option": {
+      "a": "Efua and her Mother",
+      "b": "Mr and Mrs Solade",
+      "c": "Caro and Nene Ekpo",
+      "d": "Teacher okoro and mama Silifat",
+      "e": ""
+    },
+    "section": " This question is from the novel 'The Last Days at Forcados High school'.\n",
+    "image": "",
+    "answer": "a",
+    "solution": "While entering Mr Mallum’s office, Jimi and Seyi Lawal met two persons coming out of the principal’s office, they were Efua and her mother. The others in the options were not present at the time of the event\n\nSee page 9-10",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 3,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1830,
+    "question": "The most notable thing about snakes, according to the passage, is that they",
+    "option": {
+      "a": "Exist in families",
+      "b": "Abound in Gombe and Plateau States",
+      "c": "Are versatile in reproduction",
+      "d": "Eat big but seldom",
+      "e": ""
+    },
+    "section": "Like all reptiles, snakes are cold blooded, or more correctly, ectothermic - they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat, snakes can survive on an extremely meager diet. some wait for months between successive meals, and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small piece. Many snakes have specialized jaws that enable them to swallow animals that are far larger than their own heads. Although uncommon, some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow. <br><br>\nWith over two thousand five hundred species belonging to more than ten families, snakes are a large and successful groups. They owe much of this success to their versatility - snakes occupy habitat ranging from underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica, and although they are most abundant in tropical areas, many survive in regions marked by extreme cold. The only places without snakes are parts of the polar regions and isolated islands, such as the Republic of Ireland and New-Zealand as opposed to places in Nigeria like Plateau and Gombe States in the Northern part where there is a large population of snakes. ",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 71,
+    "hasPassage": 1,
+    "category": "passage-b"
+  },
+  {
+    "id": 392,
+    "question": "<i>Mutual</i> love is what Kabi and Musa have in common, and nothing else.   ",
+    "option": {
+      "a": " insincere     ",
+      "b": "unhappy",
+      "c": "one-sided    ",
+      "d": "disrespectful. ",
+      "e": ""
+    },
+    "section": "choose the option opposite in meaning to the word or phrase in italics.",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2008",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1648,
+    "question": "\n\nMr. Ojo has a <i>fickle</i> character.",
+    "option": {
+      "a": "a genuine",
+      "b": " a stable",
+      "c": "an imperfect",
+      "d": "an unpredictable",
+      "e": ""
+    },
+    "section": "For this question, choose the option nearest in meaning to the word or phrase in italics",
+    "image": "",
+    "answer": "d",
+    "solution": "<i>fickle</i>; changing frequently, especially as regards one's loyalties or affections.",
+    "examtype": "utme",
+    "examyear": "2016",
+    "questionNub": 36,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 244,
+    "question": "Catholicism ",
+    "option": {
+      "a": "caTHOlicism ",
+      "b": "catholiCism",
+      "c": "CAtholicism ",
+      "d": "cathoLIcism ",
+      "e": ""
+    },
+    "section": "choose the appropriate stress pattern from the options. The syllables are written in capital letters.",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 286,
+    "question": "That little boy has become quite <i>chubby</i>",
+    "option": {
+      "a": "thin    ",
+      "b": " intelligent   ",
+      "c": "huge    ",
+      "d": "tall",
+      "e": ""
+    },
+    "section": "choose the option opposite in meaning to the word or phrase in italics.",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 684,
+    "question": "The <u>coalescence</u> of the groups created additional problems?",
+    "option": {
+      "a": " proscription",
+      "b": "fighting",
+      "c": "disbandments",
+      "d": "union",
+      "e": ""
+    },
+    "section": "<b>In each of questions 86 to 100 choose from the options nearest in meaning to the word underlined.</b>\n",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001",
+    "questionNub": 88,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 843,
+    "question": "He is ....... Kaduna ......... an official assignment?",
+    "option": {
+      "a": "in / on",
+      "b": "at / in",
+      "c": "at / for",
+      "d": " for / in",
+      "e": ""
+    },
+    "section": "<b>LEXIS, STRUCTUREAND ORAL FORMS\n(Questions 26 to 75 carry 1 mark each)\nIn each of questions 26 to 50, fill each gap with the most appropriate option from the lists provided.</b>\n",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002",
+    "questionNub": 47,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 401,
+    "question": "Our teacher described Agbo's story as a <i>phantom</i>",
+    "option": {
+      "a": "scary  ",
+      "b": "realistic ",
+      "c": "fanciful   ",
+      "d": "interesting ",
+      "e": ""
+    },
+    "section": "choose the option nearest in meaning to the word or phrase In Italics",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2008",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 769,
+    "question": "The man was able to persuade his <u>willful and obstinate</u> daughter to follow the career he chose for her?",
+    "option": {
+      "a": "intelligent but arrogant",
+      "b": "unyielding and obdurate",
+      "c": "secure and odious",
+      "d": "hardworking and intelligent",
+      "e": ""
+    },
+    "section": "<b>In each of questions 68 to 84, choose from the option nearest in meaning to the word underlined.</b>\n",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2000",
+    "questionNub": 73,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 683,
+    "question": "The conference Centre caters for <u>transients</u> only?",
+    "option": {
+      "a": "temporary guest",
+      "b": "professional",
+      "c": "permanent guests",
+      "d": "novices",
+      "e": ""
+    },
+    "section": "<b>In each of questions 86 to 100 choose from the options nearest in meaning to the word underlined.</b>\n",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001",
+    "questionNub": 87,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1447,
+    "question": "...9.... in oilskin ran in the light drizzle",
+    "option": {
+      "a": "workers",
+      "b": "engineers",
+      "c": "fitters",
+      "d": "repairers",
+      "e": ""
+    },
+    "section": "Read the passage and choose the most appropriate option for each gap.<br><br> \nJust after ...1..... the aircraft gave a shudder and coughed. The pilot, from the ..2...... activated the emergency sheet to cover the improperly secured left rear ....3.... At the same time, he pushed a button on the panel to activate automatic turning, and the airplane ....4.... north-east He called the control ....5.... to report the misshaped requested clearance for emergency ....6....The plane circled the airport and prepared to return to the airport it had just left. Moments later, the aircraft ....7....to stop on a ....8.... ....9.... in oilskin ran in the light drizzle and were soon perched on the ....10.... of the plane, from where they began their inspection. ",
+    "image": "",
+    "answer": "b",
+    "solution": "The flight engineers are the members of an aircraft's crew responsible for monitoring and operating its complex aircraft systems.",
+    "examtype": "utme",
+    "examyear": "2019",
+    "questionNub": 74,
+    "hasPassage": 1,
+    "category": "register"
+  },
+  {
+    "id": 1702,
+    "question": "From the words lettered A to D, choose the word that rhymes with the given word.\n\nFret",
+    "option": {
+      "a": "freight",
+      "b": "height",
+      "c": "threat",
+      "d": "thread",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The answer is ‘C’ because only ‘threat’ rhymes with ‘fret’. The others do not rhyme.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 15,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1746,
+    "question": "The officer was compelled to ------------------- the suspect’s car.",
+    "option": {
+      "a": "seize",
+      "b": "cease",
+      "c": "sieze",
+      "d": "sease",
+      "e": ""
+    },
+    "section": "Choose the option that best fills the gap.",
+    "image": "",
+    "answer": "a",
+    "solution": "The correct answer is ‘A’ which means to take possession of (by force, laws etc).While option ‘B’ means to stop doing something’",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 59,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1039,
+    "question": "His gift to the poor was always <u>infinitesimal</u>",
+    "option": {
+      "a": "large",
+      "b": "small",
+      "c": "supportive",
+      "d": "shameful",
+      "e": ""
+    },
+    "section": "In each of the questions 36 to 50 choose the option <b>opposite</b> in meaning to the underlined word or phrase.\n",
+    "image": "",
+    "answer": "a",
+    "solution": "Infinitesimal; extremely small.",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 45,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1303,
+    "question": "If James fails his examination, his teachers, his parents, his friends, or I ______ to be blame.",
+    "option": {
+      "a": "are",
+      "b": "is",
+      "c": "am",
+      "d": "not",
+      "e": ""
+    },
+    "section": "Fill in the gap with the option that best completes the sentence.",
+    "image": "",
+    "answer": "c",
+    "solution": "When there is a list of nouns or pronouns at the level of the subject, it is the nearest noun or pronoun to the position of the verb that will determine the choice of the verb.",
+    "examtype": "utme",
+    "examyear": "2022",
+    "questionNub": 50,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 223,
+    "question": "The police claim that a number of stolen cars…… recovered ",
+    "option": {
+      "a": "have been ",
+      "b": "has been  ",
+      "c": "has being",
+      "d": " have being ",
+      "e": ""
+    },
+    "section": "choose the option that best completes the gap(s).",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1554,
+    "question": " The pastor asked the women to _________ their hearts to God in prayers.",
+    "option": {
+      "a": "Bare",
+      "b": "Bear",
+      "c": "Bar",
+      "d": "Barrr",
+      "e": ""
+    },
+    "section": "choose the word(s) or phrase(s) which best fill(s) the gap(s).",
+    "image": "",
+    "answer": "a",
+    "solution": "To bare one’s mind means to reveal or uncover all that is in it.\n\n  Note the spelling.",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 71,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1045,
+    "question": "Some men will continue to cause offences until they are given <u>a taste of their own medicine</u>",
+    "option": {
+      "a": "placated",
+      "b": " revenged on",
+      "c": "recompense for",
+      "d": "cured",
+      "e": ""
+    },
+    "section": "In each of the questions 51 to 65 choose the option <b>nearest in meaning</b> to the underlined word or phrase.",
+    "image": "",
+    "answer": "c",
+    "solution": "You use the expression 'A Taste of Your Own Medicine' to indicate that someone is. receiving the same unpleasant experience they've been dishing out to others",
+    "examtype": "utme",
+    "examyear": "2012",
+    "questionNub": 51,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 251,
+    "question": "",
+    "option": {
+      "a": "Frequent (verb)",
+      "b": "mature ",
+      "c": "madam",
+      "d": "convict (verb)",
+      "e": ""
+    },
+    "section": "choose the option that has the stress on the first syllable.",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 50,
+    "question": "I am <i>loath</i> to do the assignment ",
+    "option": {
+      "a": "unwilling ",
+      "b": "waiting ",
+      "c": "dying ",
+      "d": "willing ",
+      "e": ""
+    },
+    "section": "opposite in meaning to the word(s) or phrase in italics ",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1132,
+    "question": "Zinana's examination result was not unfavourable",
+    "option": {
+      "a": " Her examination did not meet expectation",
+      "b": "she was successful in her examination",
+      "c": "her result could not earn her admission",
+      "d": "she failed her examination",
+      "e": ""
+    },
+    "section": "<b>questions 36 - 45 are on LEXIS, STRUCTURE AND ORAL FORMS</b>\nIn each of this question select the option that best explains the information conveyed in the sentence.",
+    "image": "",
+    "answer": "b",
+    "solution": "Her exam was good, it was favourable, it met expectations.",
+    "examtype": "utme",
+    "examyear": "2013",
+    "questionNub": 40,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 610,
+    "question": "In question number 14 above, choose the best option from the letters A-D that best completes the gab.",
+    "option": {
+      "a": "editing",
+      "b": "posting",
+      "c": "listing",
+      "d": "auditing",
+      "e": ""
+    },
+    "section": "The passage below has gaps numbered 6 to 15. Immediately following each gap are provided. Choose the most appropriate option for each gap.<br><brBefore any detailed analysis begins, the first thing to do with the data is to check through the field record book and questionnaires for any........6......[A. records B. events C. odds D. mistakes], inconsistencies and incompleteness. In some cases, it may be possible to correct any discovered shortcomings. When it is possible to carry out these........7......[A. plans B. possibilities C. corrections D. expectations].<br><br>In most scientific......8.....[A. experiment B. data C. conclusion D. questionnaires] such revisits are clearly impossible. This is true of many surveys too. A road traffic survey.......9......[A. conducted B. experimented C. classified D. precoded] to find out the amount and frequency of daily traffic between two towns cannot be expected to be........10.....[A. reproducible B. undertaken C. observed D. produced]. There is no way of going back to check whether the number of vehicles reported for any particular hour is correct or not. With open- ended questions the......11.....[A. methods B. responses C. errors D. conclusion] have to be classified into relatively small number of groups. The process of classifying answers and of sometimes identifying them by number and letter is called.......12.......[A. recording B. recoding C. encoding D. coding]. When closed-ended questions are used, it is possible to code all the possible answers before they are actually received. This is called........13.....[A. precoding B. coding C. encoding D. recoding]. What is done, a check through the answers for proper classification, numbering and lettering is still called for at this stage. This whole process of checking through questionnaires and notebooks is called......14.....[A. editing B. posting C. listing D. auditing]. Collected data will eventually have to be used in drawing......15.....[A. references B. examples C. conclusions D. analogies] and writing a report about the population from which it came.",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001",
+    "questionNub": 14,
+    "hasPassage": 1,
+    "category": "register"
+  },
+  {
+    "id": 1428,
+    "question": "Choose the word that has a different stress pattern",
+    "option": {
+      "a": "enlighten",
+      "b": "unwanted",
+      "c": "agitate",
+      "d": "Informal",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The first syllable in 'agitate' is stressed, the other options are stressed differently",
+    "examtype": "utme",
+    "examyear": "2019",
+    "questionNub": 55,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1790,
+    "question": "The house and the senate will at noon next Wednesday, _________ to hear a special address by the president.",
+    "option": {
+      "a": "Collude.",
+      "b": "Convene.",
+      "c": "Adjourn.",
+      "d": "Rise.",
+      "e": ""
+    },
+    "section": "Choose the option that best complete the gap.",
+    "image": "",
+    "answer": "b",
+    "solution": "The house and the senate will at noon next Wednesday, Convene to hear a special address by the president.\n\nConvene; come or bring together for a meeting or activity; assemble.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 31,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 581,
+    "question": "Many people would always find reasons to ... the law",
+    "option": {
+      "a": "arrogate ",
+      "b": "debase  ",
+      "c": " circumvent ",
+      "d": "circumspect",
+      "e": ""
+    },
+    "section": "choose the option that best completes the gap(s)",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 160,
+    "question": "The man puts his foot down whenever he is convince of his action",
+    "option": {
+      "a": "He desires to assert his will in the situation",
+      "b": "He makes his mark wherever he goes",
+      "c": "His attitude demonstrates someone who likes  to oppress others around him",
+      "d": "He demonstrates firmness of character",
+      "e": ""
+    },
+    "section": "select the option that best explains the information conveyed in the sentence.",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1826,
+    "question": "It can be deduced from the passage that political and social changes are",
+    "option": {
+      "a": "repulsive",
+      "b": "Intertwined",
+      "c": "Antithetical",
+      "d": "Independent",
+      "e": ""
+    },
+    "section": "Political change and social transformation in the form of revolutions have radically altered the course of human civilization and history. Today, the world is witnessing political and social changes arising from the desire of people all over the globe for greater freedom and a voice in the way they are governed and a better standard of living. Pan of these struggles and processes have become more pronounced in the Third World since the end of the East-West cold War in the late 1980's, and in the face of the challenges being posed by the ongoing process of globalization. <br><br>\nWhile political and social changes may appear to be distinct phenomena, they are analytically inseparable. Political and social changes refer to alteration or transformations in human behavior, norms and politico-social institutions. Such changes are often a collective response to the need to change, or as a tacit recognition of a shift in the prevalent power relations in the society. Therefore, the coming to power of a new set of rulers, or the establishment of new structure and processes of governance broadly typifies socio-political changes. <br><br>\n\nIt is important to note that changes can either be positive or negative. In most cases, political and social changes are caused by certain factors or reasons. This push people to collectively organize themselves to struggle for a change in the existing power relations. Another reason is to capture political power in the hope of making life better for the generality of the people. If politics is defined as who gels what, when and how; It then implies that political change refers to an alteration in the form of power and the identity of the group or class which controls the wields states power. ",
+    "image": "",
+    "answer": "b",
+    "solution": "Intertwined; connect or link (two or more things) closely.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 67,
+    "hasPassage": 1,
+    "category": "passage-a"
+  },
+  {
+    "id": 59,
+    "question": "The boys knew that a storm was <i>imminent</i>",
+    "option": {
+      "a": "Impending ",
+      "b": "encroaching ",
+      "c": "possible ",
+      "d": "threatening ",
+      "e": ""
+    },
+    "section": "choose the option nearest in meaning to the word(s) or phrase in italics.",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 133,
+    "question": "Okonkwo manages his household <i>with a heavy hand.</i>",
+    "option": {
+      "a": "like a powerful dictator",
+      "b": "using the cane on every occasion",
+      "c": "without tolerating weakness",
+      "d": "like a heavy weight champion.",
+      "e": ""
+    },
+    "section": "choose the option nearest in meaning to the word or phrase in italics.",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2004",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 567,
+    "question": "A wide range of options",
+    "option": {
+      "a": "is ",
+      "b": "were   ",
+      "c": "are",
+      "d": " was",
+      "e": ""
+    },
+    "section": "choose the option that best completes the gap(s)",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 193,
+    "question": "I was often angry …… Oche since he differed…   me often",
+    "option": {
+      "a": "with/to ",
+      "b": "about/with   ",
+      "c": "against/from",
+      "d": "with/with",
+      "e": ""
+    },
+    "section": "choose the option that best completes the gap(s)",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1712,
+    "question": "Shakespearian ------------------- are generally the victims of circumstance.",
+    "option": {
+      "a": "heros",
+      "b": "heroses",
+      "c": "hero",
+      "d": "heroes",
+      "e": ""
+    },
+    "section": "From the options, choose the word(s) that best fill the gap.",
+    "image": "",
+    "answer": "d",
+    "solution": "The correct answer is ‘D’ heroes because it is the plural form of ‘hero’. The others are wrongly spelt.",
+    "examtype": "utme",
+    "examyear": "2015",
+    "questionNub": 25,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 890,
+    "question": "The workers suddenly became <u>restive</u>?",
+    "option": {
+      "a": "fidgety",
+      "b": "disorderly",
+      "c": "submissive",
+      "d": "calm",
+      "e": ""
+    },
+    "section": "<b>In each of questions 86 to 100, choose the option opposite in meaning to the underlined word(s).</b>",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002",
+    "questionNub": 94,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 562,
+    "question": "Lemoti ………..",
+    "option": {
+      "a": "is gifted only not ",
+      "b": "is only not gifted  ",
+      "c": "not only ",
+      "d": "is only gifted",
+      "e": ""
+    },
+    "section": "choose the option that best completes the gap(s)",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1308,
+    "question": "It is wise not to depend on <u>mundane</u> things.",
+    "option": {
+      "a": "imported",
+      "b": "material",
+      "c": "attractive",
+      "d": "expensive",
+      "e": ""
+    },
+    "section": "From the options lettered A-D, choose the option that is nearest in meaning to the underlined word.\n",
+    "image": "",
+    "answer": "b",
+    "solution": "Both means things that are of this earthly world rather than a heavenly or spiritual one.",
+    "examtype": "utme",
+    "examyear": "2022",
+    "questionNub": 55,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1643,
+    "question": "The idea makes me <i>cringe</i>",
+    "option": {
+      "a": "quiver",
+      "b": "tremble",
+      "c": "resolute",
+      "d": "writhe",
+      "e": ""
+    },
+    "section": "For this question, choose the option opposite in meaning to the word or phrase in italics ",
+    "image": "",
+    "answer": "c",
+    "solution": "<i>cringe</i>; bend one's head and body in fear or apprehension or in a servile manner.\nsynonyms; shake, tremble, quiver, quail, quake\nresolute; admirably purposeful, determined, and unwavering.",
+    "examtype": "utme",
+    "examyear": "2016",
+    "questionNub": 31,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1280,
+    "question": "Prison",
+    "option": {
+      "a": "rising",
+      "b": "risen",
+      "c": "potion",
+      "d": "motion",
+      "e": ""
+    },
+    "section": "From the words lettered A to D, choose the word that rhymes with the given word.",
+    "image": "",
+    "answer": "b",
+    "solution": "Both words have the same sound at the end of their pronunciation.",
+    "examtype": "utme",
+    "examyear": "2022",
+    "questionNub": 27,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 402,
+    "question": "I find the way she approaches her customers quite <i>repugnant</i> ",
+    "option": {
+      "a": "unpleasant   ",
+      "b": "attractive. ",
+      "c": "ungodly    ",
+      "d": "encouraging",
+      "e": ""
+    },
+    "section": "choose the option nearest in meaning to the word or phrase In Italics",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2008",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1475,
+    "question": "These policies have been [espoused] by the ruling party",
+    "option": {
+      "a": "condemned",
+      "b": "rejected",
+      "c": "supported",
+      "d": "outlined",
+      "e": ""
+    },
+    "section": "CHOOSE THE OPTION THAT IS NEAREST IN MEANING TO THE WORD(S) IN BRACKET, FOR  THE QUESTIONS ",
+    "image": "",
+    "answer": "c",
+    "solution": "To espouse is to adopt or support a belief or strategy.",
+    "examtype": "utme",
+    "examyear": "2019",
+    "questionNub": 102,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 814,
+    "question": "In question number 18 above, choose the best option from letters A-D that best completes the gap.",
+    "option": {
+      "a": "studies",
+      "b": "procedures",
+      "c": "objects",
+      "d": "conditions",
+      "e": ""
+    },
+    "section": "The passage below has gaps numbered 11 to 20. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap.<br><br>It is business of the scientist to accumulate knowledge about the universe and all that is in it and to find if he is able, common......16.....[A. experiment B. instruments C. approaches D. factors] which underlie and account for the facts that he knows. He chooses when he can, the method of the controlled.......17.....[A. respondent B. experiment C. system D. data]. If he wants to find out the effect of light on growing plants, he takes many plants, as alike as possible. Some he stand in the sun, some in the shade, some in the dark, all the time keeping all other....18....[A. studies B. procedures C. objects D. conditions] (temperature, moisture, nourishment) the same. In this way, by keeping other variables........19......[A. constant B. good C. dark D. natural] and by varying the light only, the effect of light on plants can be clearly seen. This .......20.....[A. research B. method C. tool D. rationale] of using ‘controls’ can be applied to a variety of situations and can be used to find the answers to questions as widely different as ‘must moisture be present if.......21....[A. an alloy B. gold C. bar D. iron] is to rust?’ and which variety of beans give the greatest yield in one......22..A. climate B. period C. season D. weather]?<br><br>In the course of his......23.....[A. finding B. queries C. experiment D. inquiries], the scientist may find what he thinks is one common explanation for an increasing number of facts the explanation, if it seems consistently to fit the various facts, is called.......24......[A. an antithesis B. a principle C. a thesis D. a hypothesis]. If this continues to stand the test of numerous experiments and remains unshaken, it becomes a......25.....[A. deduction B. law C. notion D. thesis].",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002",
+    "questionNub": 18,
+    "hasPassage": 1,
+    "category": "register"
+  },
+  {
+    "id": 1540,
+    "question": "<u>ch</u>ateau",
+    "option": {
+      "a": "chart",
+      "b": "church",
+      "c": "champagne",
+      "d": "chemical",
+      "e": ""
+    },
+    "section": "Choose the option that has the same consonant sound as the one represented by the letter(s) underlined.",
+    "image": "",
+    "answer": "c",
+    "solution": "chateau; /ˈʃatəʊ/\n\nchampagne; /ʃamˈpeɪn/",
+    "examtype": "utme",
+    "examyear": "2018",
+    "questionNub": 57,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 633,
+    "question": "Of course we all saw the culprit ....... and hit the man on the head?",
+    "option": {
+      "a": "approached",
+      "b": "approching",
+      "c": "approach",
+      "d": "approches",
+      "e": ""
+    },
+    "section": "<b>In each of the questions 32 to 56, fill the each gap with the most appropriate option from the list option from the list provided.</b>",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001",
+    "questionNub": 37,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1270,
+    "question": "What is the full meaning of the acronym EMAL",
+    "option": {
+      "a": "Examination Malpractice",
+      "b": "Examination misconduct",
+      "c": "Examination management",
+      "d": "Examination Manners",
+      "e": ""
+    },
+    "section": "This question is based on Khadijat Abubakar Jalli's novel, \"The Life Changer\"",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2022",
+    "questionNub": 17,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 798,
+    "question": "One of these summarizes the approaches to definition discussed in the passage",
+    "option": {
+      "a": " mentioning the class of a word or object with its specific property",
+      "b": "indicating the class of a word and mentioning its general property with examples",
+      "c": "specifying clearly what distinguishes a particular word or object from its traditional group",
+      "d": " giving general and specific features followed by example of what the object or word includes",
+      "e": ""
+    },
+    "section": "If our thoughts is to be clear and we are to succeed in communicating it to other people, we must hbr>ave some method of fixing the meaning of the words we use. When we use a word whose meaning is not certain, we may well be asked to define it. There is a usual traditional device for doing this by indicating the class to which whatever is indicated by the term belongs and also other particular property which distinguishes it from all other members of the same class. Thus we may define a whale as a ‘marine animal that spouts’. ‘Marine animals’ in this definition indicates the general class to which the whale belongs and ‘spouts’ indicates the particular property that distinguishes whales from other such marine animals as fishes, seals, jellyfish and lobsters. In the same way, we can define an even number as a finite integer divisible by two or a democracy as a system of government in which the people themselves rule.<br><br>There are other ways, of course of indicating the meaning of words. We may for example, find it hard to make a suitable definition of the word ‘animal’, as we say that an animal is such a thing as a rabbit, dog fish or goat. Similarly, we may say that religion is such a system as Christianity, Islam, Judaism and Buddhism. This way of indicating the meaning of a term by enumerating examples of what it includes is obviously of limited usefulness. If we indicate our use of the word ‘animal’ as above, our hearers might for example be doubtful whether a sea- anemone or a slug was to be included in the class of animals. It is however, a useful way of supplementing a definition if the definition itself id definite without being easily understandable. Failure of an attempt at definition to serve its purpose may result from giving as distinguishing mark one which either does not belong to all the things the definition id intended to include, or does belong to some members of the same general class which the definition is intended to exclude.",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002",
+    "questionNub": 2,
+    "hasPassage": 1,
+    "category": "passage-a"
+  },
+  {
+    "id": 757,
+    "question": "Our culture does not allow one to ........ when an elderly person is speaking?",
+    "option": {
+      "a": "cut of",
+      "b": "cut off",
+      "c": "cut in",
+      "d": " cut on",
+      "e": ""
+    },
+    "section": "<b>In each of questions 41 to 62, fill the gap with the most appropriate option from the list provided.</b>",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2000",
+    "questionNub": 61,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1206,
+    "question": "In question number 13 above choose the best option from letters A- E that best complete the gap",
+    "option": {
+      "a": "servant",
+      "b": "maid",
+      "c": "workers",
+      "d": "errand",
+      "e": "worker"
+    },
+    "section": "In the passage below, the numbered gaps (11-20) indicate missing words. From the options lettered A- E the most appropriate option. <br><br>\nThe head of the -11- is called the queen bee. She is -12-than the rest of the bees. Her main task in the colony is to lay eggs. Most of the other bees are the -13- bees. These bees collect nectar and -14- from flowers. The nectar that is carried by the worker bees is deposited on the hive and then -15- into honey. The worker bees also help to look after the young bees. As soon as they are -16-, the worker bees feed the young bees with pollen and nectar. The third type of bee found in the colony is the -17- or male bee. The main task of such a bee is to -18- with a new queen. The queen bee has a life span of about three years. During this period, she would have - 19- more than half a million eggs. When the queen bee is dying, a new queen would be groomed. This new queen will eventually take over the duties of the old queen when the -20- dies. ",
+    "image": "",
+    "answer": "e",
+    "solution": "The term 'workers' or 'worker bees' is correct and can be applied but according to the context, 'worker' is grammatically appropriate.",
+    "examtype": "utme",
+    "examyear": "2021",
+    "questionNub": 13,
+    "hasPassage": 1,
+    "category": "passage-c"
+  },
+  {
+    "id": 274,
+    "question": "77. The recommended novel has a <i>convoluted</i> theme",
+    "option": {
+      "a": " a simple ",
+      "b": "an attractive ",
+      "c": "a disgusting ",
+      "d": "a complicated ",
+      "e": ""
+    },
+    "section": "choose the option nearest in meaning to the word or phrase in italics",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 334,
+    "question": "capitalism    ",
+    "option": {
+      "a": "capiTAIism   ",
+      "b": "capitaLIsm",
+      "c": "caPItalism ",
+      "d": "CApitalism.",
+      "e": ""
+    },
+    "section": "choose the appropriate stress pattern from the options. The syllables are written in capital letters.",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2007",
+    "questionNub": null,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1107,
+    "question": "Choose the most appropriate answer in the numbered 15",
+    "option": {
+      "a": "commotion",
+      "b": "detonation",
+      "c": "distortion",
+      "d": "reduction",
+      "e": ""
+    },
+    "section": "The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. <br><br>Whatever may be its wider implications, the explosion of hydrogen bomb is, for the meteorologist, simply another atmospheric disturbance. It should therefore be classed with certain rare natural.....11...... (A. programmes B. occurrences C. resources D. laws), such as volcanic ....12... But there are certain features of a man-made disturbance that requires special examination. As with all events on this ....13...It is impossible to describe what happens in details. However we can be reasonably sure of the main effects, and most impressive of these arises from ....14...The immediate result of the ....15....is that the air surrounding the bomb is raised very rapidly to an enormously high.....16....The hot gases expand violently as great........17.....compressing the air around them into what is called .....18......or blast wave that is responsible for much of terrible destructive power of the weapon.<br><br>Another kind of wave arises because of the weight of the air. The force of the explosion lifts the ....19... (A. atmosphere B. space C. height D. form around the bomb. The gravity waves can also resemble ordinary.....20..... (A. stream B. lake C. ocean D. river) waves. Waves of this type are normally felt by human beings and they have their effect on the weather.<br><br>Adapted from Ayoola K. (2007) University for All Students, Lagos, Nigeria: Olive Free Venture",
+    "image": "",
+    "answer": "b",
+    "solution": "Detonation; a loud explosion.",
+    "examtype": "utme",
+    "examyear": "2013",
+    "questionNub": 15,
+    "hasPassage": 1,
+    "category": "passage-c"
+  },
+  {
+    "id": 632,
+    "question": "The government which .....recruiting ....... workers suddenly stopped doing so?\n",
+    "option": {
+      "a": "are / its",
+      "b": "was / its",
+      "c": " is / their",
+      "d": "were / their",
+      "e": ""
+    },
+    "section": "<b>In each of the questions 32 to 56, fill the each gap with the most appropriate option from the list option from the list provided.</b>",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001",
+    "questionNub": 36,
+    "hasPassage": 0,
+    "category": "others"
+  },
+  {
+    "id": 1771,
+    "question": "One of the students bought a <u>plagiarised</u> copy of the book.",
+    "option": {
+      "a": "An annotated.",
+      "b": "A used.",
+      "c": "An original.",
+      "d": "A revised.",
+      "e": ""
+    },
+    "section": "Choose the option <b>opposite</b> in meaning to the underlined word or phrase.",
+    "image": "",
+    "answer": "c",
+    "solution": "plagiarize; take (the work or an idea of someone else) and pass it off as one's own.",
+    "examtype": "utme",
+    "examyear": "2014",
+    "questionNub": 12,
+    "hasPassage": 0,
+    "category": "others"
+  }
+]

@@ -1,0 +1,682 @@
+[
+  {
+    "id": 93,
+    "question": "When 10g of sodium hydroxide is dissolved in 1000cm3 of water, the solution formed is approximately   [Na = 23, H = 1, O = 16]",
+    "option": {
+      "a": "0.01 mol dm-3",
+      "b": "0.10 mol dm-3",
+      "c": "0.25 mol dm-3",
+      "d": "0.50 mol dm-3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 105,
+    "question": "Metals of the first transition series have special proper ties which are different from those of groups I and II elements because they have partially filled",
+    "option": {
+      "a": "s  orbitals",
+      "b": "p orbitals",
+      "c": "d orbitals",
+      "d": "f orbitals",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 116,
+    "question": "The formula for ethyl butanoate is",
+    "option": {
+      "a": "C3H7COOC2H5",
+      "b": "C2H5COOC3H7",
+      "c": "C4H9COOC2H5",
+      "d": "C2H5COOC4H9",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 31,
+    "question": "The general formula for the alkanals is",
+    "option": {
+      "a": "ROH",
+      "b": "R2CO",
+      "c": "RCOOR1",
+      "d": "RCHO",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 122,
+    "question": "the principal constituent of natural gas is methane",
+    "option": {
+      "a": "ethane",
+      "b": "propane",
+      "c": "butane",
+      "d": "butane",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 249,
+    "question": "One heating may be produced by shaking a detergent solution with",
+    "option": {
+      "a": "Cu(NO3)2",
+      "b": "AgNO3",
+      "c": "Ca(NO3)2",
+      "d": "NaNO3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 216,
+    "question": "H2(g)  +  Br2(g) →  2BHr(g)  The reaction above is carried out at 250C. If Δ H is kJ mol-1 and   Δ S is -106J mol-1K-1 the reaction will",
+    "option": {
+      "a": "Proceed spontaneously at lower temperatures",
+      "b": "Not proceed spontaneously at the given temperature",
+      "c": "Proceed spontaneously at the given temperature",
+      "d": "[proceed in the reverse direction at the given temperature",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 213,
+    "question": "Which of the following equimolar solutions will have the highest pH",
+    "option": {
+      "a": "NH4OH",
+      "b": "CH3COONa",
+      "c": "HCI",
+      "d": "NaOH",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 188,
+    "question": "How many moles of limestone will be required to produce 5.6g of CaO",
+    "option": {
+      "a": "0.20 mol",
+      "b": "1, 12mol",
+      "c": "0.10 mol",
+      "d": "0.56 mol",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 257,
+    "question": "Group IA metals are not found free in nature because they",
+    "option": {
+      "a": "Have high melting and boiling points",
+      "b": "Conduct heat and electricity",
+      "c": "Are very reactive and unstable",
+      "d": "Are malleable and ductile",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 47,
+    "question": "The formula CH2O for ethanoic acid is regarded as its",
+    "option": {
+      "a": "General formula",
+      "b": "Structural formula",
+      "c": "Molecular formula",
+      "d": "Empirical formula",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 49,
+    "question": "The chromatographic separation of ink is based on the ability of the components to",
+    "option": {
+      "a": "React with each other",
+      "b": "React with the solvent",
+      "c": "Dissolve in each other in the column",
+      "d": "Move at different speeds in the column",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 15,
+    "question": "The chemiocal used for coagulation in water purification is",
+    "option": {
+      "a": "Aluminum tetraoxosulphate(VI)",
+      "b": "Copper tetratoxosulphate (VI)",
+      "c": "Sodium tetraoxosulphate(VI)",
+      "d": "Calcium tetraoxosulphate (VI)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 230,
+    "question": "2C2H2(g)  +  5O2(g)     4CO2(g)  +  2H2O(g) In the reaction, the mass of carbon (IV) oxide produced on burning 78g of ethyne is [C = 12, O = 16, H = 1]",
+    "option": {
+      "a": "39",
+      "b": "352g",
+      "c": "264g",
+      "d": "156g",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 7,
+    "question": "Four elements W, X, Y, and Z have atomic numbers 2, 6, 16 and 20 respectively. Which of these elements is a metal",
+    "option": {
+      "a": "X",
+      "b": "W",
+      "c": "Z",
+      "d": "Y",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 148,
+    "question": "Which of the following hydrogen halides has the highest entropy value",
+    "option": {
+      "a": "HF",
+      "b": "HCl",
+      "c": "HBr",
+      "d": "Hl",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2004"
+  },
+  {
+    "id": 104,
+    "question": "Chlorine gas is prepared in the laboratory by",
+    "option": {
+      "a": "Adding concentrated hydrochloric acid to solid manganese (IV) oxide",
+      "b": "Adding concentrated tetraoxosulphate (VI) acid to solid sodium chloride",
+      "c": "Dropping concentrated hydrochloric acid onto potassium tetraoxomanganate (VII) crystals",
+      "d": "Oxidizing concentrated hydrochloric acid using potassium heptaoxodichromate (VI) crystals",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 226,
+    "question": "What is the mola. Mass of a substance, if 0.4 mole of the substance has a mass of 25.0g",
+    "option": {
+      "a": "6.3g",
+      "b": "40.0g",
+      "c": "62.5g",
+      "d": "2.5g",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 139,
+    "question": "Calcium Tetraoxosulphate(VI) dissolves in water only sparingly to form a",
+    "option": {
+      "a": "Solution",
+      "b": "Suspension",
+      "c": "Precipitate",
+      "d": "Colloid",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2004"
+  },
+  {
+    "id": 3,
+    "question": "A particle that contains 9 protons, 10 neutrons and 10electrons is a",
+    "option": {
+      "a": "Neghative ion",
+      "b": "Positive ion",
+      "c": "Neutral atom of a non metal",
+      "d": "Neutral atom of a metal",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 136,
+    "question": "Pollution of underground water by metal ions is very likely in a soil that has high",
+    "option": {
+      "a": "Acidity",
+      "b": "Alkalinity",
+      "c": "Chloride content",
+      "d": "Nitrate content",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2004"
+  },
+  {
+    "id": 278,
+    "question": "The colour of methyl orange in alkaline medium is",
+    "option": {
+      "a": "Pink",
+      "b": "Orange",
+      "c": "Red",
+      "d": "Yellow",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 294,
+    "question": "The residual solids from the fractional distillation of petroleum are used as",
+    "option": {
+      "a": "Raw materials for the cracking process",
+      "b": "Fuel for driving tractors",
+      "c": "Fuel for jet engines",
+      "d": "Coatings for pipes",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 108,
+    "question": "The salt that will form a precipitate soluble in excess ammonia solution is",
+    "option": {
+      "a": "Ca(NO3)2",
+      "b": "Cu(NO3)2",
+      "c": "Mg(NO3)2",
+      "d": "Al(NO3)3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 212,
+    "question": "What will happen if an aluminum spoon is used to stir a solution of iron (II) trioxonitrate(V)",
+    "option": {
+      "a": "The spoon will be reduced while the iron(II) ions will be oxidized",
+      "b": "The spoon will be oxidized while the iron (II) ions will be reduced to the metal",
+      "c": "The spoon will be reduced",
+      "d": "The spoon will increase in size",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 261,
+    "question": "Which of the following is an example of a mixture",
+    "option": {
+      "a": "Blood",
+      "b": "Sand",
+      "c": "Washing soda",
+      "d": "Common salt",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 227,
+    "question": "The order in which a mixture of sand ammonium chloride and sodium chloride can be separated is",
+    "option": {
+      "a": "Sublimation   dissolution  filtration  evaporation",
+      "b": "Dissolution  dryness  filtration  evaporation",
+      "c": "Filtration  sublimation  evaporation  dryness",
+      "d": "Dissolution  filtration  sublimation  evaporation",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 127,
+    "question": "According to Charles  law, the volume of a gas becomes zero at",
+    "option": {
+      "a": "00C",
+      "b": "-1000C",
+      "c": "-2730C",
+      "d": "-3730C",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2004"
+  },
+  {
+    "id": 46,
+    "question": "A compound contains 31.91% potassium, 28.93% chlorine and the rest oxygen. What is the chemical formular of the compound",
+    "option": {
+      "a": "KCLO3",
+      "b": "KCLO4",
+      "c": "KCLO",
+      "d": "KCLO2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 19,
+    "question": "A metal M displaces zinc from zinc chloride solution. This shows that",
+    "option": {
+      "a": "M is more electronegative than zinc",
+      "b": "Zinc is above hydrogen in the series",
+      "c": "M is more electropositive than zinc",
+      "d": "Electrons flow from zinc to M",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 88,
+    "question": "Which of the following ions is acidic",
+    "option": {
+      "a": "K+",
+      "b": "NO-3",
+      "c": "S2-",
+      "d": "H3O+",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2003"
+  },
+  {
+    "id": 143,
+    "question": "ZnO(s) + CO (g) → Zn(s) + CO2 (g). ",
+    "option": {
+      "a": "Decomposed",
+      "b": "Displaced",
+      "c": "Oxidized",
+      "d": "Reduced",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2004"
+  },
+  {
+    "id": 21,
+    "question": "What current in amperes will deposit 2.7g of aluminium in 2 hours [Al = 27, f = 96500 C mol-1]",
+    "option": {
+      "a": "32",
+      "b": "8",
+      "c": "4",
+      "d": "16",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 191,
+    "question": "The component of an atom that contributes least to its mass is the",
+    "option": {
+      "a": "Nucleus",
+      "b": "Neutron",
+      "c": "Electron",
+      "d": "Proton",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2005"
+  },
+  {
+    "id": 239,
+    "question": "One mole of a hydrocarbon contains 36g of carbon and its vapour density is 20. The structure of the hydrocarbon is",
+    "option": {
+      "a": "CH3CH2CH3",
+      "b": "CH3CH = CH2",
+      "c": "CH3CH2C = CH",
+      "d": "CH3C = CH",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 298,
+    "question": "Which of the following is used to hasten the ripening of fruit",
+    "option": {
+      "a": "Ethanol",
+      "b": "Ethyne",
+      "c": "Ethane",
+      "d": "Ethane",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 67,
+    "question": "Ordinary glass is manufactured from silica, Ca CO3 and",
+    "option": {
+      "a": "K2CO3",
+      "b": "NaHCO3",
+      "c": "Na2CO3",
+      "d": "K2SO4",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2002"
+  },
+  {
+    "id": 281,
+    "question": "The IUPAC nomencalatyre of the compound LiAIH4 is",
+    "option": {
+      "a": "Aluminium tetrahydrido lithium",
+      "b": "Tetrahydrido lithium aluminate (III)",
+      "c": "Lithium aluminium hydride",
+      "d": "Lithium tetrahydridoaluminate (III)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 11,
+    "question": "Deliquenscent substances are used for",
+    "option": {
+      "a": "Cooling",
+      "b": "Wetting",
+      "c": "Melting",
+      "d": "Drying",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2001"
+  },
+  {
+    "id": 156,
+    "question": "Aluminium hydroxide is used in the dyeing industry as a",
+    "option": {
+      "a": "Salt",
+      "b": "Dye",
+      "c": "Mordant",
+      "d": "Dispersant",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2004"
+  }
+]

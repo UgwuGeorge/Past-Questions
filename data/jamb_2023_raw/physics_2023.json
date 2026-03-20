@@ -1,0 +1,682 @@
+[
+  {
+    "id": 524,
+    "question": "A simple pendulum, has a period of 5.77 seconds. When the pendulum is shortened by 3 m, the period is 4.60 seconds. Calculate the new length of the pendulum",
+    "option": {
+      "a": " 5.23 m",
+      "b": "6.42 m",
+      "c": "4.87 m",
+      "d": "7.26 m",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nInitial period, T₁ = 5.77 s\nFinal period, T₂ = 4.60 s\nChange in length = 3 m (shortened)\nInitial length, L₁ = ?\nFinal length, L₂ = L₁ - 3\ng = 10 m/s² (or 9.8 m/s²)\n\nSolution:\nStep 1: Write period formula for both cases\nFor a simple pendulum:\nT = 2π√(L/g)\nInitial pendulum:\nT₁ = 2π√(L₁/g)  -----(1)\nShortened pendulum:\nT₂ = 2π√(L₂/g) = 2π√[(L₁-3)/g]  -----(2)\nStep 2: Form ratio to eliminate constants\nDividing equation (1) by equation (2):\nT₁/T₂ = √(L₁/(L₁-3))\n5.77/4.60 = √(L₁/(L₁-3))\n1.254 = √(L₁/(L₁-3))\nStep 3: Square both sides\n(1.254)² = L₁/(L₁-3)\n1.573 = L₁/(L₁-3)\nStep 4: Solve for L₁\n1.573(L₁-3) = L₁\n1.573L₁ - 4.719 = L₁\n1.573L₁ - L₁ = 4.719\n0.573L₁ = 4.719\nL₁ = 8.23 m\nStep 5: Calculate new length\nL₂ = L₁ - 3\nL₂ = 8.23 - 3\nL₂ = 5.23 m",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 513,
+    "question": "Which process is responsible for production of energy in stars?",
+    "option": {
+      "a": "Nuclear reaction",
+      "b": "Nuclear fission",
+      "c": "Nuclear fusion",
+      "d": "Radioactive decay",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Nuclear fusion is the process in which lighter nuclei are combined to form heavier ones. Matter lost in this process is converted into energy. The energy produced inside the stars is due to the process of nuclear fusion.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 521,
+    "question": "Which of the following thermometers measures temperature from the thermal radiation emitted by objects?",
+    "option": {
+      "a": " Pyrometer thermometer",
+      "b": "Platinum resistance thermometer",
+      "c": "Thermocouple thermometer",
+      "d": "Constant pressure gas thermometer",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "A pyrometer is a type of remote-sensing thermometer used to measure the temperature of a surface. It does this by measuring the thermal radiation or infrared energy being emitted from the object. Therefore, a pyrometer thermometer measures temperature from the thermal radiation emitted by objects.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 540,
+    "question": "The diagram above illustrates the penetrating power of some types of radiation. X, Y and Z are likely\n",
+    "option": {
+      "a": "X = α-particle; Y = γ-ray; Z = β-particle",
+      "b": "X = α-particle; Y = β-particle; Z = γ-ray",
+      "c": " X = γ-ray; Y = α-particle; Z = β-particle",
+      "d": "X = β-particle; Y = γ-ray; Z = α-particle",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614989/ALOC-Questions/Physics/2023/physics_2023-Q41_rawrld.png",
+    "answer": "c",
+    "solution": "The penetrating power of alpha rays, beta rays, and gamma rays varies greatly. Alpha particles can be blocked by a few pieces of paper. Beta particles pass through paper but are stopped by aluminum foil. Gamma rays are the most difficult to stop and require concrete, lead, or other heavy shielding to block them.\n\nTherefore, X = γ-ray; Y = α-particle; Z = β-particle",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 510,
+    "question": "Name the type of equilibrium for each position of the ball",
+    "option": {
+      "a": "A - unstable, B - neutral, C - stable",
+      "b": "A - stable, B - neutral, C - unstable",
+      "c": "A - stable, B - unstable, C - neutral",
+      "d": "A - unstable, B - stable, C - neutral",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614783/ALOC-Questions/Physics/2023/physics_2023-Q11_nw4jov.jpg",
+    "answer": "d",
+    "solution": "Object A will undergo unstable equilibrium as it can move farther from its original position\n\nObject B will undergo stable equilibrium as it can return to its original position\n\nObject C will undergo neutral equilibrium as it can remain in a new position",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 507,
+    "question": "A lorry accelerates uniformly in a straight line with acceleration of 4ms⁻² and covers a distance of 250 m in a time interval of 10 s. How far will it travel in the next 10 s?",
+    "option": {
+      "a": " 650 m",
+      "b": "900 m",
+      "c": "800 m",
+      "d": "250 m",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nAcceleration, a = 4 m/s²\nDistance in first 10 s, s₁ = 250 m\nTime for first interval, t₁ = 10 s\nTime for second interval, t₂ = 10 s\nDistance in next 10 s = ?\n\nSolution:\nStep 1: Find initial velocity using first 10 seconds data\nUsing: s = ut + ½at²\n250 = u(10) + ½(4)(10)²\n250 = 10u + ½(4)(100)\n250 = 10u + 200\n10u = 50\nu = 5 m/s\nStep 2: Find velocity at the end of first 10 seconds\nUsing: v = u + at\nv = 5 + 4(10)\nv = 5 + 40\nv = 45 m/s\nStep 3: Calculate distance in next 10 seconds\nFor the next 10 seconds:\n\nInitial velocity = 45 m/s (final velocity from first interval)\nTime = 10 s\nAcceleration = 4 m/s²\n\nUsing: s = ut + ½at²\ns₂ = 45(10) + ½(4)(10)²\ns₂ = 450 + ½(4)(100)\ns₂ = 450 + 200\ns₂ = 650 m",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 512,
+    "question": "\nThe surface temperature of a swimming pool on a warm day is 25ºC and the temperature at the bottom is 15ºC. If the swimming pool has a surface area of 620 m² and a depth of 1.5m. Find the rate at which energy is transferred by conduction from the surface to the bottom of the swimming pool. [Thermal conductivity of water (k) = 0.6071 Wm⁻¹K⁻¹]",
+    "option": {
+      "a": "2.5 kW",
+      "b": "250 kW",
+      "c": "300 kW",
+      "d": "3.0 kW",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nSurface temperature, T₁ = 25°C\nBottom temperature, T₂ = 15°C\nTemperature difference, ΔT = 25 - 15 = 10°C = 10 K\nSurface area, A = 620 m²\nDepth (thickness), d = 1.5 m\nThermal conductivity, k = 0.6071 W m⁻¹ K⁻¹\nRate of heat transfer, Q/t = ?\n\nSolution:\nUsing the thermal conduction formula:\nQ/t = kA(ΔT)/d\nStep 1: Substitute the known values\nQ/t = (0.6071 × 620 × 10)/1.5\nStep 2: Calculate the numerator\nQ/t = (0.6071 × 620 × 10)/1.5\nQ/t = (376.402 × 10)/1.5\nQ/t = 3764.02/1.5\nStep 3: Calculate the rate of heat transfer\nQ/t = 2509.35 W\nQ/t ≈ 2509 W\nStep 4: Convert to kilowatts\nQ/t = 2509/1000\nQ/t ≈ 2.5 kW",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 515,
+    "question": "A wire of radius 0.2 mm is extended by 0.5% of its length when supported by a load of 1.5 kg. Determine the Young's modulus for the material of the wire. [Take g = 10 ms⁻²]",
+    "option": {
+      "a": "2.4×10¹⁰ (Nm⁻²)",
+      "b": "1.5×10¹⁰ (Nm⁻²)",
+      "c": " 2.4×10⁹ (Nm⁻²)",
+      "d": " 1.3×10¹⁰ (Nm⁻²)",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nRadius, r = 0.2 mm = 0.2 × 10⁻³ m = 2 × 10⁻⁴ m\nExtension = 0.5% of original length\nStrain, ε = 0.5/100 = 0.005\nMass, m = 1.5 kg\nAcceleration due to gravity, g = 10 m/s²\nYoung's modulus, E = ?\n\nSolution:\nUsing Young's modulus formula:\nE = Stress/Strain = (F/A)/ε\nStep 1: Calculate the force (weight)\nF = mg\nF = 1.5 × 10\nF = 15 N\nStep 2: Calculate cross-sectional area\nA = πr²\nA = π × (2 × 10⁻⁴)²\nA = π × 4 × 10⁻⁸\nA = 3.142 × 4 × 10⁻⁸\nA = 1.257 × 10⁻⁷ m²\nStep 3: Calculate stress\nStress = F/A\nStress = 15/(1.257 × 10⁻⁷)\nStress = 1.193 × 10⁸ N/m²\nStep 4: Calculate Young's modulus\nE = Stress/Strain\nE = (1.193 × 10⁸)/0.005\nE = 2.386 × 10¹⁰ N/m²\nE ≈ 2.4 × 10¹⁰ N/m²",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 527,
+    "question": "The near point of a patient's eye is 50.0 cm. What power (in diopters) must a corrective lens have to enable the eye to see clearly an object 25.0 cm away?",
+    "option": {
+      "a": "2 diopters",
+      "b": "2.5 diopters",
+      "c": "0.5 diopters",
+      "d": "3 diopters",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nNear point (without correction) = 50.0 cm\nDesired object distance, u = 25.0 cm\nImage distance (where eye can see clearly), v = -50.0 cm (virtual image)\nPower, P = ?\n\nSolution:\nStep 1: Understand the requirement\nThe lens must form a virtual image at 50 cm (the eye's near point) when the object is at 25 cm. This allows the eye to see the object clearly.\nStep 2: Apply lens formula\n1/f = 1/v - 1/u\nSign convention:\n\nObject distance, u = -25.0 cm (object is on the left)\nImage distance, v = -50.0 cm (virtual image on the same side)\n\nStep 3: Calculate focal length\n1/f = 1/(-50) - 1/(-25)\n1/f = -1/50 + 1/25\n1/f = -1/50 + 2/50\n1/f = 1/50\nf = 50 cm = 0.50 m\nStep 4: Calculate power\nPower, P = 1/f (in meters)\nP = 1/0.50\nP = 2 diopters",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 509,
+    "question": "The number of holes in an intrinsic semiconductor",
+    "option": {
+      "a": "s not equal to the number of free electrons",
+      "b": "is greater than the number of free electrons",
+      "c": " is equal to the number of free electrons",
+      "d": "is less than the number of free electrons",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "An intrinsic semiconductor, also called an undoped semiconductor, is a pure semiconductor. In intrinsic semiconductors the number of excited electrons and the number of holes are equal: n = p",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 523,
+    "question": "\nLight of wavelength 589 nm in vacuum passes through a piece of fused quartz of index of refraction n = 1.458. What is the frequency of the light in fused quartz? [Speed of light c = 3.00×10⁸ms⁻¹]",
+    "option": {
+      "a": "5.09×10¹⁵Hz",
+      "b": "5.09×10¹⁴ Hz",
+      "c": "1.77×10¹⁵ Hz",
+      "d": "1.77×10¹⁴ Hz",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Given information:\n\nWavelength in vacuum, λ₀ = 589 nm = 589 × 10⁻⁹ m\nRefractive index of fused quartz, n = 1.458\nSpeed of light in vacuum, c = 3.00 × 10⁸ m/s\nFrequency in fused quartz, f = ?\n\nSolution:\nStep 1: Key principle\nWhen light passes from one medium to another:\n\nFrequency remains constant\nWavelength and speed change\n\nStep 2: Calculate frequency using vacuum values\nUsing the wave equation:\nc = fλ₀\nf = c/λ₀\nStep 3: Substitute values\nf = (3.00 × 10⁸)/(589 × 10⁻⁹)\nf = (3.00 × 10⁸)/(5.89 × 10⁻⁷)\nf = 5.093 × 10¹⁴ Hz\nf ≈ 5.09 × 10¹⁴ Hz",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 528,
+    "question": "Which of the following is/are not true about the heat capacity of a substance? (i) It is an intensive property (ii) Its S.I unit is jK⁻¹ (iii) It is an extensive property (iv) Its S.I unit is jkg⁻¹",
+    "option": {
+      "a": "(i) and (iii) only",
+      "b": "(i), (ii) and (iv) only",
+      "c": " (i) and (iv) only",
+      "d": "(ii) and (iii) only",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Heat capacity is an extensive property (depends on mass) with SI unit JK⁻¹. Statement (i) incorrectly calls it intensive, and statement (iv) gives the wrong unit (Jkg⁻¹ relates to specific energy, not heat capacity).",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 526,
+    "question": "A travelling wave of amplitude 0.80 m has a frequency of 16 Hz and a wave speed of 20 ms⁻¹. Calculate the wave number of the wave.",
+    "option": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Given information:\n\nAmplitude, A = 0.80 m\nFrequency, f = 16 Hz\nWave speed, v = 20 m/s\nWave number, k = ?\n\nSolution:\nStep 1: Calculate wavelength\nUsing the wave equation:\nv = fλ\nλ = v/f\nλ = 20/16\nλ = 1.25 m\nStep 2: Calculate wave number\nWave number is defined as:\nk = 2π/λ\nk = 2π/1.25\nk = 2 × 3.142/1.25\nk = 6.284/1.25\nk = 5.03 rad/m\nk ≈ 5 rad/m",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 530,
+    "question": "A step-down transformer is used on a 2.2 kV line to deliver 110 V. How many turns are on the primary windings if the secondary has 25 turns?",
+    "option": {
+      "a": "20",
+      "b": "250",
+      "c": "200",
+      "d": "500",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nPrimary voltage, Vₚ = 2.2 kV = 2200 V\nSecondary voltage, Vₛ = 110 V\nSecondary turns, Nₛ = 25 turns\nPrimary turns, Nₚ = ?\n\nSolution:\nStep 1: Apply transformer equation\nFor an ideal transformer:\nVₚ/Vₛ = Nₚ/Nₛ\nStep 2: Substitute the known values\n2200/110 = Nₚ/25\n20 = Nₚ/25\nStep 3: Solve for primary turns\nNₚ = 20 × 25\nNₚ = 500 turns",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 547,
+    "question": "When light of a certain frequency is incident on a metal surface, no photoelectrons are emitted. If the frequency of the light is increased, what happens to the stopping potential?",
+    "option": {
+      "a": "The stopping potential does not change.",
+      "b": "The stopping potential decreases.",
+      "c": "The stopping potential can either increase or decrease, depending on the intensity of the light.",
+      "d": "The stopping potential increases.",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The stopping potential is the voltage that is required to stop the emitted photoelectrons from reaching the anode. When the frequency of the light is increased, the kinetic energy of the emitted photoelectrons also increases. This means that a higher stopping potential will be required to stop the photoelectrons from reaching the anode.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 505,
+    "question": "Calculate the absolute pressure at the bottom of a lake at a depth of 32.8 m. Assume the density of the water is 1 × 10³ kgm⁻³ and the air above is at a pressure of 101.3 kPa. [Take g = 9.8 ms⁻²]",
+    "option": {
+      "a": " 422.7 kPa",
+      "b": " 220.14 kPa",
+      "c": "464.53 kPa",
+      "d": "321.74 kPa",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nDepth, h = 32.8 m\nDensity of water, ρ = 1 × 10³ kg/m³ = 1000 kg/m³\nAtmospheric pressure, P₀ = 101.3 kPa = 101,300 Pa\nAcceleration due to gravity, g = 9.8 m/s²\nAbsolute pressure, P = ?\n\nSolution:\nUsing the absolute pressure formula:\nP = P₀ + ρgh\nWhere:\n\nP₀ = atmospheric pressure\nρgh = pressure due to water column\n\nStep 1: Calculate pressure due to water column\nP_water = ρgh\nP_water = 1000 × 9.8 × 32.8\nP_water = 321,440 Pa\nP_water = 321.44 kPa\nStep 2: Calculate absolute pressure\nP = P₀ + P_water\nP = 101.3 + 321.44\nP = 422.74 kPa\nP ≈ 422.7 kPa",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 541,
+    "question": "An explosion occurs at an altitude of 312 m above the ground. If the air temperature is -10.00°C, how long does it take the sound to reach the ground? [velocity of sound at 0°C = 331 ms⁻¹]",
+    "option": {
+      "a": "0.94s",
+      "b": " 0.96s",
+      "c": " 0.93s",
+      "d": "0.95s",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Given information:\n\nHeight (distance), d = 312 m\nAir temperature, T = -10.00°C\nVelocity of sound at 0°C, v₀ = 331 m/s\nTime, t = ?\n\nSolution:\nStep 1: Calculate velocity of sound at -10°C\nThe velocity of sound in air varies with temperature:\nv = v₀ + 0.6T\nWhere T is in degrees Celsius.\nv = 331 + 0.6(-10)\nv = 331 - 6\nv = 325 m/s\nStep 2: Calculate time for sound to travel\nUsing the formula:\nt = d/v\nt = 312/325\nt = 0.96 s",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 543,
+    "question": "The branch of physics that deals with the motion of objects and the forces acting on them is called:",
+    "option": {
+      "a": "Electromagnetism",
+      "b": "Thermodynamics",
+      "c": "Mechanics",
+      "d": "Quantum mechanics",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Mechanics is the branch of physics that deals with the motion of objects and the forces acting on them. It is the foundation of all other branches of physics, and it is used to study everything from the motion of planets to the motion of electrons.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 542,
+    "question": "A charge of 4.6×10⁻⁵C is placed in an electric field of intensity 3.2×10⁴ Vm⁻¹. What is the force acting on the electron?",
+    "option": {
+      "a": " 1.5 N",
+      "b": "3.7 N",
+      "c": "4.2 N",
+      "d": " 2.5 N",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nCharge, q = 4.6×10⁻⁵ C\nElectric field intensity, E = 3.2×10⁴ V/m\nForce, F = ?\n\nSolution:\nStep 1: Apply electric force formula\nThe force on a charge in an electric field:\nF = qE\nStep 2: Substitute the known values\nF = 4.6×10⁻⁵ × 3.2×10⁴\nStep 3: Calculate the force\nF = (4.6 × 3.2) × (10⁻⁵ × 10⁴)\nF = 14.72 × 10⁻¹\nF = 1.472 N\nF ≈ 1.5 N",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 519,
+    "question": "A parallel plate capacitor separated by an air gap is made of 0.8m² tin plates and 20 mm apart. It is connected to 120 V battery. What is the charge on each plate? Take εo = 8.85×10⁻¹²Fm⁻¹",
+    "option": {
+      "a": "3.54nC",
+      "b": "42.5nC",
+      "c": "35.4nC",
+      "d": "4.25nC",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Given information:\n\nPlate area, A = 0.8 m²\nSeparation distance, d = 20 mm = 20 × 10⁻³ m = 0.02 m\nVoltage, V = 120 V\nPermittivity of free space, ε₀ = 8.85 × 10⁻¹² F/m\nCharge, Q = ?\n\nSolution:\nStep 1: Calculate capacitance\nUsing the capacitance formula for parallel plates:\nC = ε₀A/d\nC = (8.85 × 10⁻¹² × 0.8)/0.02\nC = (7.08 × 10⁻¹²)/0.02\nC = 3.54 × 10⁻¹⁰ F\nStep 2: Calculate charge\nUsing the charge formula:\nQ = CV\nQ = 3.54 × 10⁻¹⁰ × 120\nQ = 4.248 × 10⁻⁸ C\nQ = 42.48 × 10⁻⁹ C\nQ = 42.5 nC",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 533,
+    "question": "A piano wire 50 cm long has a total mass of 10 g and its stretched with a tension of 800 N. Find the frequency of the wire when it sounds its third overtone note.",
+    "option": {
+      "a": "800 Hz",
+      "b": "600 Hz",
+      "c": "400 Hz",
+      "d": " 200 Hz",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nLength of wire, L = 50 cm = 0.50 m\nTotal mass, m = 10 g = 0.01 kg\nTension, T = 800 N\nThird overtone frequency = ?\n\nSolution:\nStep 1: Calculate mass per unit length (linear density)\nμ = m/L\nμ = 0.01/0.50\nμ = 0.02 kg/m\nStep 2: Calculate wave velocity in the wire\nv = √(T/μ)\nv = √(800/0.02)\nv = √40000\nv = 200 m/s\nStep 3: Understand harmonics and overtones\nFor a string fixed at both ends:\n\nFundamental frequency (1st harmonic) = f₀\n1st overtone (2nd harmonic) = 2f₀\n2nd overtone (3rd harmonic) = 3f₀\n3rd overtone (4th harmonic) = 4f₀\n\nStep 4: Calculate fundamental frequency\nFundamental frequency:\nf₀ = v/(2L)\nf₀ = 200/(2 × 0.50)\nf₀ = 200/1\nf₀ = 200 Hz\nStep 5: Calculate third overtone frequency\nThird overtone = 4th harmonic = 4f₀\nf = 4 × 200\nf = 800 Hz",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 549,
+    "question": "Which of the following liquids has the highest surface tension?",
+    "option": {
+      "a": " Soapy water",
+      "b": "Water",
+      "c": "Mercury",
+      "d": "Oil",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Surface tension is the force that acts on the surface of a liquid, tending to minimize the surface area. It is caused by the cohesive forces between the molecules of the liquid. The stronger the cohesive forces, the higher the surface tension.\n\nMercury has the highest surface tension of all the liquids listed. This is because the atoms of mercury are very close together, and they have a strong attraction for each other. This strong cohesive force results in a high surface tension.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 532,
+    "question": "A 35 kΩ is connected in series with a resistance of 40 kΩ. What resistance R must be connected in parallel with the combination so that the equivalent resistance is equal to 25 kΩ?",
+    "option": {
+      "a": "40 kΩ",
+      "b": "37.5 kΩ",
+      "c": "45.5 kΩ",
+      "d": "30 kΩ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Given information:\n\nResistance 1, R₁ = 35 kΩ\nResistance 2, R₂ = 40 kΩ\nEquivalent resistance, Req = 25 kΩ\nUnknown parallel resistance, R = ?\n\nSolution:\nStep 1: Calculate series resistance\nWhen R₁ and R₂ are connected in series:\nRseries = R₁ + R₂\nRseries = 35 + 40\nRseries = 75 kΩ\nStep 2: Apply parallel resistance formula\nResistance R is connected in parallel with Rseries to give Req:\n1/Req = 1/Rseries + 1/R\nStep 3: Substitute known values\n1/25 = 1/75 + 1/R\nStep 4: Solve for R\n1/R = 1/25 - 1/75\n1/R = 3/75 - 1/75\n1/R = 2/75\nR = 75/2\nR = 37.5 kΩ",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 538,
+    "question": "An open-tube mercury manometer is used to measure the pressure in a gas tank. When the atmospheric pressure is 101,325 Pa, what is the absolute pressure in Pa in the tank if the height of the mercury in the open tube is 25 cm higher. density of mercury = 13600kg/m³, g=9.8m/s²",
+    "option": {
+      "a": "108,986 Pa",
+      "b": "165,238 Pa",
+      "c": "122,364 Pa",
+      "d": "134,645 Pa",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nAtmospheric pressure, P₀ = 101,325 Pa\nHeight difference, h = 25 cm = 0.25 m\nDensity of mercury, ρ = 13,600 kg/m³\nAcceleration due to gravity, g = 9.8 m/s²\nAbsolute pressure in tank, P = ?\n\nSolution:\nStep 1: Understand manometer reading\nWhen the mercury in the open tube is higher than in the tank side, the gas pressure in the tank is greater than atmospheric pressure.\nStep 2: Calculate pressure difference\nPressure difference due to mercury column:\nΔP = ρgh\nΔP = 13,600 × 9.8 × 0.25\nΔP = 33,320 Pa\nStep 3: Calculate absolute pressure in tank\nAbsolute pressure = Atmospheric pressure + Pressure difference\nP = P₀ + ΔP\nP = 101,325 + 33,320\nP = 134,645 Pa",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 518,
+    "question": "An air bubble of radius 4.5 cm initially at a depth of 12 m below the water surface rises to the surface. If the atmospheric pressure is equal to 10.34 m of water, the radius of the bubble just before it reaches the water surface is",
+    "option": {
+      "a": "6.43 cm",
+      "b": "8.24 cm",
+      "c": "4.26 cm",
+      "d": "5.82 cm",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nInitial radius, r₁ = 4.5 cm\nInitial depth, h₁ = 12 m\nFinal depth, h₂ = 0 m (at surface)\nAtmospheric pressure = 10.34 m of water\nFinal radius, r₂ = ?\n\nSolution:\nStep 1: Calculate initial pressure\nAt depth h₁:\nP₁ = atmospheric pressure + pressure due to water depth\nP₁ = 10.34 + 12 = 22.34 m of water\nStep 2: Calculate final pressure\nAt the surface:\nP₂ = atmospheric pressure = 10.34 m of water\nStep 3: Calculate initial and final volumes\nV₁ = (4/3)πr₁³ = (4/3)π(4.5)³\nV₂ = (4/3)πr₂³\nStep 4: Apply Boyle's Law (assuming constant temperature)\nP₁V₁ = P₂V₂\n22.34 × (4/3)π(4.5)³ = 10.34 × (4/3)πr₂³\nStep 5: Simplify and solve for r₂\n22.34 × (4.5)³ = 10.34 × r₂³\n22.34 × 91.125 = 10.34 × r₂³\n2035.97 = 10.34 × r₂³\nr₂³ = 2035.97/10.34\nr₂³ = 196.90\nr₂ = ³√196.90\nr₂ = 5.82 cm",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 501,
+    "question": "Which of the following statements regarding the application of electrical conduction via gases is/are correct?\nElectrical conduction in gas is applied in:\n(i) The identification of gases\n(ii) Lighting/fluorescent tubes\n(iii) Neon signs/Advertising industry\n(iv) Cathode ray oscilloscope/T.V. tubes",
+    "option": {
+      "a": "(i), (iii) and (iv) only",
+      "b": "(i), (ii), (iii) and (iv)",
+      "c": "(ii), (iii) and (iv) only",
+      "d": "(i), (ii) and (iii) only",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Electrical conduction through gases is the principle behind gas identification (spectroscopy), fluorescent tubes, neon signs, and certain aspects of CRT technology. Photocells, however, work on the photoelectric effect, not gas conduction.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 508,
+    "question": "The half life of a radioactive material is 12 days. Calculate the decay constant.",
+    "option": {
+      "a": "0.8663 day⁻¹",
+      "b": "0.04331 day⁻¹",
+      "c": " 0.17325 day⁻¹",
+      "d": "0.05775 day⁻¹",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nHalf-life, t½ = 12 days\nDecay constant, λ = ?\n\nSolution:\nUsing the relationship between half-life and decay constant:\nλ = ln(2)/t½\nor\nλ = 0.693/t½\nStep 1: Substitute the known values\nλ = 0.693/12\nStep 2: Calculate the decay constant\nλ = 0.05775 day⁻¹",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 525,
+    "question": "Three forces with magnitudes 16 N, 12 N and 21 N are shown in the diagram below. Determine the magnitude of their resultant force and angle with the x-axis",
+    "option": {
+      "a": "7.63N,61°",
+      "b": " 8.71N,61°",
+      "c": "7.63N,29°",
+      "d": " 8.71N,29°",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614922/ALOC-Questions/Physics/2023/physics_2023-Q26_gyyxse.png",
+    "answer": "b",
+    "solution": "Given information:\n\nForce F₁ = 16 N at 26° above negative x-axis\nForce F₂ = 12 N at 32° above positive x-axis\nForce F₃ = 21 N along negative y-axis\n\nSolution:\nStep 1: Resolve forces into x-components\nTaking right as positive (+ve) and left as negative (-ve):\nFₓ = 12 cos 32° - 16 cos 26°\nFₓ = 10.18 - 14.38\nFₓ = -4.20 N\nStep 2: Resolve forces into y-components\nTaking up as positive (+ve) and down as negative (-ve):\nFᵧ = 12 sin 32° + 16 sin 26° - 21\nFᵧ = 6.36 + 7.01 - 21\nFᵧ = -7.63 N\nStep 3: Calculate magnitude of resultant\nR² = Fₓ² + Fᵧ²\nR² = (-4.20)² + (-7.63)²\nR² = 17.64 + 58.22\nR² = 75.86\nR = √75.86\nR = 8.71 N\nStep 4: Calculate angle with x-axis\ntan θ = opposite/adjacent\ntan θ = Fᵧ/Fₓ\ntan θ = 7.63/4.20\ntan θ = 1.8095\nθ = tan⁻¹(1.8095)\nθ = 61°\nAnswer: B. 8.71N, 61°",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 536,
+    "question": "How much work is done against the gravitational force on a 3.0 kg object when it is carried from the ground floor to the roof of a building, a vertical climb of 240 m?",
+    "option": {
+      "a": "7.2 kJ",
+      "b": "4.6 kJ",
+      "c": "6.8 kJ",
+      "d": "8.4 kJ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given information:\n\nMass, m = 3.0 kg\nVertical height, h = 240 m\nAcceleration due to gravity, g = 10 m/s²\nWork done, W = ?\n\nSolution:\nStep 1: Identify the work done formula\nWork done against gravitational force equals the change in gravitational potential energy:\nW = mgh\nStep 2: Substitute the known values\nW = 3.0 × 10 × 240\nStep 3: Calculate the work done\nW = 7200 J\nW = 7.2 kJ",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 500,
+    "question": "The property of wave shown in the diagram above is?",
+    "option": {
+      "a": "Diffraction",
+      "b": "Refraction",
+      "c": "Polarisation",
+      "d": "Interference",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614425/ALOC-Questions/Physics/2023/physics_2023-Q1_jx0lbx.png",
+    "answer": "a",
+    "solution": "The diagram clearly shows plane waves passing through a narrow gap and spreading out in semicircular wavefronts. This is the characteristic pattern of wave diffraction, where waves bend and spread after passing through an aperture.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 529,
+    "question": "The pinhole camera works on",
+    "option": {
+      "a": "the principle of the reversibility of light",
+      "b": "the principle of the rectilinear propagation of light",
+      "c": "Huygen’s principle",
+      "d": "the principle of total internal reflection of light",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "A pinhole camera operates on the principle that light travels in straight lines (rectilinear propagation). Light from each point on the object passes through the small hole in a straight line to form an inverted image on the screen opposite the pinhole.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 514,
+    "question": "How much net work is required to accelerate a 1200 kg car from 10ms⁻¹ to 15ms⁻¹",
+    "option": {
+      "a": "1.95×10⁵ J",
+      "b": " 1.35×10⁴ J",
+      "c": "7.5×10⁴ J",
+      "d": "6.0×10⁴ J",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Given information:\n\nMass, m = 1200 kg\nInitial velocity, u = 10 m/s\nFinal velocity, v = 15 m/s\nNet work required, W = ?\n\nSolution:\nUsing the work-energy theorem:\nW = ΔKE = KE_final - KE_initial\nW = ½mv² - ½mu²\nStep 1: Calculate initial kinetic energy\nKE_initial = ½mu²\nKE_initial = ½ × 1200 × (10)²\nKE_initial = 600 × 100\nKE_initial = 60,000 J\nStep 2: Calculate final kinetic energy\nKE_final = ½mv²\nKE_final = ½ × 1200 × (15)²\nKE_final = 600 × 225\nKE_final = 135,000 J\nStep 3: Calculate net work done\nW = KE_final - KE_initial\nW = 135,000 - 60,000\nW = 75,000 J\nW = 7.5 × 10⁴ J",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 517,
+    "question": "A 200 kg load is raised using a 110 m long lever as shown in the diagram above. The load is 10m from the pivot P. If the efficiency of the lever is 80%, find the effort E required to lift the load. [Take g = 10ms⁻²]",
+    "option": {
+      "a": " 250 N",
+      "b": "300 N",
+      "c": "450 N",
+      "d": "200 N",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614819/ALOC-Questions/Physics/2023/physics_2023-Q18_fexzla.jpg",
+    "answer": "a",
+    "solution": "Given information:\n\nMass of load, m = 200 kg\nTotal lever length = 110 m\nLoad distance from pivot, d_load = 10 m\nEffort distance from pivot, d_effort = 110 - 10 = 100 m\nEfficiency, η = 80% = 0.8\nAcceleration due to gravity, g = 10 m/s²\nEffort required, E = ?\n\nSolution:\nStep 1: Calculate the load force (weight)\nLoad = mg\nLoad = 200 × 10\nLoad = 2000 N\nStep 2: Apply the principle of moments for ideal lever\nFor an ideal lever (100% efficiency):\nLoad × d_load = Effort × d_effort\n2000 × 10 = E_ideal × 100\n20,000 = E_ideal × 100\nE_ideal = 200 N\nStep 3: Account for efficiency\nSince efficiency = 80%, more effort is needed:\nEfficiency = (Ideal Effort/Actual Effort) × 100%\n0.8 = 200/E_actual\nE_actual = 200/0.8\nE_actual = 250 N",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 520,
+    "question": "What is the amount of heat required to raise the temperature of a 0.02 kg of ice cube from −10°C to 10°C ? [specific latent heat of fusion of ice = 3.34 x 10⁵ Jkg⁻¹, Specific heat capacity of water = 4200 Jkg⁻¹ k⁻¹, Specific heat capacity of ice = 2100 Jkg⁻¹ k⁻¹]",
+    "option": {
+      "a": "6680 J",
+      "b": "1680 J",
+      "c": "7520 J",
+      "d": "7940 J",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nMass, m = 0.02 kg\nInitial temperature = −10°C\nFinal temperature = 10°C\nSpecific latent heat of fusion, Lf = 3.34 × 10⁵ J/kg\nSpecific heat capacity of water, cw = 4200 J/(kg·K)\nSpecific heat capacity of ice, ci = 2100 J/(kg·K)\n\nSolution:\nThe process involves three stages:\nStage 1: Heat ice from −10°C to 0°C\nQ₁ = mciΔT\nQ₁ = 0.02 × 2100 × [0 − (−10)]\nQ₁ = 0.02 × 2100 × 10\nQ₁ = 420 J\nStage 2: Melt ice at 0°C to water at 0°C\nQ₂ = mLf\nQ₂ = 0.02 × 3.34 × 10⁵\nQ₂ = 6680 J\nStage 3: Heat water from 0°C to 10°C\nQ₃ = mcwΔT\nQ₃ = 0.02 × 4200 × 10\nQ₃ = 840 J\nStep 4: Calculate total heat required\nQtotal = Q₁ + Q₂ + Q₃\nQtotal = 420 + 6680 + 840\nQtotal = 7940 J",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 504,
+    "question": "On a particular hot day, the temperature is 40°C and the partial pressure of water vapor in the air is 38.8 mmHg. What is the relative humidity?",
+    "option": {
+      "a": "70",
+      "b": "62",
+      "c": "80",
+      "d": "42",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614729/ALOC-Questions/Physics/2023/physics_2023-Q5_snfh7b.png",
+    "answer": "a",
+    "solution": "Given information:\n\nTemperature = 40°C\nPartial pressure of water vapor (actual) = 38.8 mmHg\nSaturated vapor pressure at 40°C (from table) = 55.3 mmHg\nRelative humidity = ?\n\nSolution:\nUsing the relative humidity formula:\nRelative Humidity (RH) = (Actual vapor pressure / Saturated vapor pressure) × 100%\nStep 1: Identify values from the table\nAt 40°C:\n\nSaturated vapor pressure (s.v.p) = 55.3 mmHg\nActual vapor pressure = 38.8 mmHg\n\nStep 2: Calculate relative humidity\nRH = (38.8/55.3) × 100%\nRH = 0.7014 × 100%\nRH = 70.14%\nRH ≈ 70%",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 522,
+    "question": "A 400 N box is being pushed across a level floor at a constant speed by a force P of 100 N at an angle of 30.0° to the horizontal, as shown in the the diagram below. What is the coefficient of kinetic friction between the box and the floor?",
+    "option": {
+      "a": "0.19",
+      "b": "0.24",
+      "c": "0.4",
+      "d": "0.22",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614857/ALOC-Questions/Physics/2023/physics_2023-Q23_ehlmzy.png",
+    "answer": "a",
+    "solution": "Given information:\n\nWeight of box, W = 400 N\nApplied force, P = 100 N\nAngle, θ = 30.0°\nConstant speed (equilibrium condition)\nCoefficient of kinetic friction, μk = ?\n\nSolution:\nStep 1: Resolve force P into components\nHorizontal component: Px = P cos θ = 100 cos 30°\nPx = 100 × 0.866 = 86.6 N\nVertical component: Py = P sin θ = 100 sin 30°\nPy = 100 × 0.5 = 50 N (directed downward)\nStep 2: Calculate normal force (vertical equilibrium)\nThe vertical forces acting on the box:\n\nNormal force R (upward)\nWeight W (downward)\nVertical component Py (downward)\n\nAt equilibrium:\nR - W - Py = 0\nR = W + Py\nR = 400 + 50\nR = 450 N\nStep 3: Apply horizontal equilibrium\nAt constant speed, horizontal forces are balanced:\nPx = Ffriction\nPx = μkR\nStep 4: Solve for coefficient of kinetic friction\n86.6 = μk × 450\nμk = 86.6/450\nμk = 0.192\nμk ≈ 0.19",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 502,
+    "question": "Find the tension in the two cords shown in the figure above. Neglect the mass of the cords, and assume that the angle is 38° and the mass m is 220 kg\n[Take g = 9.8 ms⁻²]",
+    "option": {
+      "a": "T₁ = 2864 N, T₂= 3612 N",
+      "b": " T₁= 3612 N, T₂ = 2864 N",
+      "c": "T₁= 3502 N, T₂= 2760 N",
+      "d": "T₁ = 2760 N, T₂ = 3502 N",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1765614619/ALOC-Questions/Physics/2023/physics_2023-Q3_yxq78q.png",
+    "answer": "c",
+    "solution": "Given information:\n\nMass, m = 220 kg\nAngle with horizontal, θ = 38°\nAcceleration due to gravity, g = 9.8 m/s²\nT₁ = tension in inclined cord\nT₂ = tension in horizontal cord\nWeight W = 2156 N (acts vertically downward)\n\nSolution:\nStep 1: Calculate the weight of the mass\nW = mg = 220 × 9.8 = 2156 N\nStep 2: Analyze forces at the junction point\nAt the junction, three forces act in equilibrium:\n\nT₁ (along inclined cord at 38° to horizontal)\nT₂ (along horizontal cord)\nW = 2156 N (vertically downward)\n\nStep 3: Resolve forces vertically\nΣFᵧ = 0\nT₁ sin 38° = W\nT₁ sin 38° = 2156\nT₁ = 2156/sin 38°\nT₁ = 2156/0.6157\nT₁ = 3502 N\nStep 4: Resolve forces horizontally\nΣFₓ = 0\nT₁ cos 38° = T₂\nT₂ = 3502 × cos 38°\nT₂ = 3502 × 0.788\nT₂ = 2760 N  https://res.cloudinary.com/aloc-ng/image/upload/v1765614459/ALOC-Questions/Physics/2023/physics_2023-Q3_SOLUTION_aannes.png",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 539,
+    "question": "The sensitivity of a thermometer is",
+    "option": {
+      "a": "All of the above",
+      "b": "how quickly a temperature change can be detected",
+      "c": " the difference between the maximum and the minimum temperature",
+      "d": "the smallest temperature change that can be detected or measured",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The sensitivity of a thermometer is defined as the smallest temperature change that can be detected or measured, NOT how quickly that temperature change can be detected.\n\nIn contrast, the difference between the maximum and the minimum temperature is the range of a thermometer",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 534,
+    "question": "An object is placed 35 cm away from a convex mirror with a focal length of magnitude 15 cm. What is the location of the image?",
+    "option": {
+      "a": "26.25 cm behind the mirror",
+      "b": "10.5 cm behind the mirror",
+      "c": "26.25 cm in front of the mirror",
+      "d": "10.5 cm in front of the mirror",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Given information:\n\nObject distance, u = 35 cm\nFocal length magnitude = 15 cm\nFor convex mirror, f = +15 cm (positive by sign convention)\nImage distance, v = ?\n\nSolution:\nStep 1: Apply sign convention for convex mirror\nFor a convex mirror:\n\nObject distance, u = -35 cm (object is in front, negative)\nFocal length, f = +15 cm (focal point is behind mirror, positive)\n\nStep 2: Apply mirror formula\n1/f = 1/v + 1/u\n1/v = 1/f - 1/u\nStep 3: Substitute values\n1/v = 1/(+15) - 1/(-35)\n1/v = 1/15 + 1/35\nStep 4: Find common denominator and solve\n1/v = 7/105 + 3/105\n1/v = 10/105\n1/v = 2/21\nv = 21/2\nv = 10.5 cm",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 506,
+    "question": "The terminals of a battery of emf 24.0 V and internal resistance of 1.0 Ω is connected to an external resistor 5.0 Ω. Find the terminal p.d.",
+    "option": {
+      "a": "18.0V",
+      "b": "12.0V",
+      "c": "16.0V",
+      "d": "20.0V",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given information:\n\nEMF of battery, E = 24.0 V\nInternal resistance, r = 1.0 Ω\nExternal resistance, R = 5.0 Ω\nTerminal potential difference, V = ?\n\nSolution:\nStep 1: Calculate total resistance\nTotal resistance = R + r\nR_total = 5.0 + 1.0 = 6.0 Ω\nStep 2: Calculate current in the circuit\nUsing Ohm's law:\nI = E/R_total\nI = 24.0/6.0\nI = 4.0 A\nStep 3: Calculate terminal potential difference\nTerminal p.d. = EMF - voltage drop across internal resistance\nV = E - Ir\nV = 24.0 - (4.0 × 1.0)\nV = 24.0 - 4.0\nV = 20.0 V\nAlternative method:\nV = IR (voltage across external resistor)\nV = 4.0 × 5.0\nV = 20.0 V",
+    "examtype": "utme",
+    "examyear": "2023"
+  }
+]
