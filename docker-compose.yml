@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  # Database Service
+  db:
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+      POSTGRES_DB: ${POSTGRES_DB:-exam_db}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend Service
+  backend:
+    build:
+      context: ./agent_core
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-password}@db:5432/${POSTGRES_DB:-exam_db}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - ADMIN_EMAILS=${ADMIN_EMAILS}
+      - ENFORCE_HTTPS=True
+    volumes:
+      - ./agent_core/certs:/app/certs:ro
+      - ./agent_core/past_questions_v2.db:/app/past_questions_v2.db # Optional persist for sqlite fallback
+    # The app starts uvicorn via Dockerfile CMD
+
+  # Frontend & Nginx Orchestrator
+  proxy:
+    image: nginx:stable-alpine
+    depends_on:
+      - backend
+      - frontend-builder
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./agent_core/certs:/etc/nginx/certs:ro
+      - frontend_dist:/usr/share/nginx/html:ro
+    restart: always
+
+  # Single-run builder for frontend content (Internal service)
+  frontend-builder:
+    build:
+      context: ./frontend
+    volumes:
+      - frontend_dist:/app/dist
+    command: /bin/sh -c "npm install && npm run build"
+
+volumes:
+  postgres_data:
+  frontend_dist:

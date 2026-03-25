@@ -359,40 +359,66 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                                     </div>
 
                                     <div className="glass p-10 rounded-[32px] border border-white/5 mb-10 shadow-2xl">
-                                        <h3 className="text-2xl font-medium leading-relaxed text-white/90">
+                                        <h3 className="text-2xl font-medium leading-relaxed text-white/90 whitespace-pre-wrap">
                                             {currentQ.text}
                                         </h3>
+                                        {currentQ.image_url && (
+                                            <div className="mt-8 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                                                <img src={currentQ.image_url} alt="Question context" className="w-full h-auto object-cover max-h-[400px]" />
+                                            </div>
+                                        )}
                                     </div>
 
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        {currentQ.choices.map((choice) => (
-                                            <button
-                                                key={choice.id}
-                                                onClick={() => setAnswers({ ...answers, [currentQ.id]: choice.label })}
-                                                className={clsx(
-                                                    "p-6 rounded-2xl text-left border transition-all flex items-center gap-5 group relative overflow-hidden",
-                                                    answers[currentQ.id] === choice.label
-                                                        ? "bg-primary/20 border-primary shadow-lg shadow-primary/20"
-                                                        : "glass border-white/5 hover:border-white/20 hover:bg-white/[0.04]"
-                                                )}
-                                            >
-                                                {answers[currentQ.id] === choice.label && (
-                                                    <div className="absolute right-4 top-4">
-                                                        <CheckCircle2 size={18} className="text-primary" />
+                                    {/* Choice Grid vs Theory Textarea */}
+                                    {currentQ.choices && currentQ.choices.length > 0 ? (
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            {currentQ.choices.map((choice) => (
+                                                <button
+                                                    key={choice.id}
+                                                    onClick={() => setAnswers({ ...answers, [currentQ.id]: choice.label })}
+                                                    className={clsx(
+                                                        "p-6 rounded-2xl text-left border transition-all flex items-center gap-5 group relative overflow-hidden",
+                                                        answers[currentQ.id] === choice.label
+                                                            ? "bg-primary/20 border-primary shadow-lg shadow-primary/20"
+                                                            : "glass border-white/5 hover:border-white/20 hover:bg-white/[0.04]"
+                                                    )}
+                                                >
+                                                    {answers[currentQ.id] === choice.label && (
+                                                        <div className="absolute right-4 top-4">
+                                                            <CheckCircle2 size={18} className="text-primary" />
+                                                        </div>
+                                                    )}
+                                                    <div className={clsx(
+                                                        "w-10 h-10 rounded-xl flex items-center justify-center font-black text-sm shrink-0 border transition-colors",
+                                                        answers[currentQ.id] === choice.label
+                                                            ? "bg-primary border-primary text-white"
+                                                            : "bg-white/5 border-white/10 text-white/40 group-hover:text-white"
+                                                    )}>
+                                                        {choice.label}
                                                     </div>
-                                                )}
-                                                <div className={clsx(
-                                                    "w-10 h-10 rounded-xl flex items-center justify-center font-black text-sm shrink-0 border transition-colors",
-                                                    answers[currentQ.id] === choice.label
-                                                        ? "bg-primary border-primary text-white"
-                                                        : "bg-white/5 border-white/10 text-white/40 group-hover:text-white"
-                                                )}>
-                                                    {choice.label}
-                                                </div>
-                                                <span className="text-lg font-medium tracking-tight text-white/80">{choice.text}</span>
-                                            </button>
-                                        ))}
-                                    </div>
+                                                    <span className="text-lg font-medium tracking-tight text-white/80">{choice.text}</span>
+                                                </button>
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <div className="space-y-6">
+                                            <div className="flex items-center gap-2 px-4 py-2 bg-secondary/10 border border-secondary/20 rounded-lg w-max">
+                                                <BookOpen size={14} className="text-secondary" />
+                                                <span className="text-[10px] font-black uppercase text-secondary tracking-widest">Section B: Theory / Computation</span>
+                                            </div>
+                                            <textarea
+                                                className="w-full h-64 bg-white/5 border border-white/10 rounded-2xl p-8 text-white outline-none focus:border-primary/50 transition-all font-medium leading-relaxed resize-none text-lg"
+                                                placeholder="Begin typing your professional response here. You can use standard formatting for accounting notes..."
+                                                value={answers[currentQ.id] || ""}
+                                                onChange={(e) => setAnswers({ ...answers, [currentQ.id]: e.target.value })}
+                                            />
+                                            <div className="flex items-center justify-between text-[10px] font-black text-white/20 uppercase tracking-[0.2em] px-2 italic">
+                                                <span>AI-Enabled Grading Protocol Active</span>
+                                                <span>{answers[currentQ.id]?.length || 0} characters recorded</span>
+                                            </div>
+                                        </div>
+                                    )}
+
                                 </motion.div>
                             </AnimatePresence>
                         </div>

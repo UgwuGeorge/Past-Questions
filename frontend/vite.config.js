@@ -10,4 +10,13 @@ export default defineConfig({
     tailwindcss(),
     basicSsl()
   ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://localhost:8000',
+        changeOrigin: true,
+        secure: false, // Localhost cert is self-signed, ignore validation
+      }
+    }
+  }
 })

@@ -8,7 +8,7 @@ window.fetch = async (...args) => {
   let [resource, config] = args;
   const token = localStorage.getItem('token');
   
-  if (token && typeof resource === 'string' && resource.includes(':8000/api')) {
+  if (token && typeof resource === 'string' && resource.startsWith('/api')) {
     config = config || {};
     config.headers = {
       ...config.headers,

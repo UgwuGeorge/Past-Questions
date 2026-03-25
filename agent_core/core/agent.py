@@ -25,12 +25,14 @@ class ExamAgent:
     and Professional Examination Support.
     """
     
-    def __init__(self):
-        self.db = SessionLocal()
+    def __init__(self, db: Session = None):
+        self.db = db if db else SessionLocal()
+        self._owned_session = db is None
 
-    def __del__(self):
-        if hasattr(self, 'db'):
+    def close(self):
+        if self._owned_session and self.db:
             self.db.close()
+
 
     def get_weak_topics(self, user_id: int) -> str:
         """Analyzes user performance and returns a string breakdown of accuracy per topic."""
@@ -393,13 +395,11 @@ class ExamAgent:
                 "type": "function",
                 "function": {
                     "name": "get_weak_topics",
-                    "description": "Analyzes user performance and returns a string breakdown of accuracy per topic.",
+                    "description": "Analyzes user performance and returns a string breakdown of accuracy per topic. (User ID is handled internally)",
                     "parameters": {
                         "type": "object",
-                        "properties": {
-                            "user_id": {"type": "integer"}
-                        },
-                        "required": ["user_id"],
+                        "properties": {},
+                        "required": [],
                     },
                 },
             },
@@ -407,14 +407,13 @@ class ExamAgent:
                 "type": "function",
                 "function": {
                     "name": "get_adaptive_v2",
-                    "description": "Fetches a question specifically tailored to the user's current weakness level.",
+                    "description": "Fetches a question specifically tailored to the user's current weakness level. (User ID is handled internally)",
                     "parameters": {
                         "type": "object",
                         "properties": {
-                            "user_id": {"type": "integer"},
                             "exam_name": {"type": "string"}
                         },
-                        "required": ["user_id", "exam_name"],
+                        "required": ["exam_name"],
                     },
                 },
             },
@@ -422,15 +421,14 @@ class ExamAgent:
                 "type": "function",
                 "function": {
                     "name": "log_answer",
-                    "description": "Records a user attempt in the database to track learning progress.",
+                    "description": "Records a user attempt in the database to track learning progress. (User ID is handled internally)",
                     "parameters": {
                         "type": "object",
                         "properties": {
-                            "user_id": {"type": "integer"},
                             "question_id": {"type": "integer"},
                             "is_correct": {"type": "boolean"}
                         },
-                        "required": ["user_id", "question_id", "is_correct"],
+                        "required": ["question_id", "is_correct"],
                     },
                 },
             },
@@ -485,15 +483,14 @@ class ExamAgent:
                 "type": "function",
                 "function": {
                     "name": "get_practice_batch",
-                    "description": "Fetches a batch of tailored questions for a practice session.",
+                    "description": "Fetches a batch of tailored questions for a practice session. (User ID is handled internally)",
                     "parameters": {
                         "type": "object",
                         "properties": {
-                            "user_id": {"type": "integer"},
                             "exam_name": {"type": "string"},
                             "count": {"type": "integer", "default": 5}
                         },
-                        "required": ["user_id", "exam_name"],
+                        "required": ["exam_name"],
                     },
                 },
             },
@@ -501,14 +498,13 @@ class ExamAgent:
                 "type": "function",
                 "function": {
                     "name": "get_session_summary",
-                    "description": "Analyzes the last N logged answers and provides a score.",
+                    "description": "Analyzes the last N logged answers and provides a score. (User ID is handled internally)",
                     "parameters": {
                         "type": "object",
                         "properties": {
-                            "user_id": {"type": "integer"},
                             "last_n": {"type": "integer"}
                         },
-                        "required": ["user_id", "last_n"],
+                        "required": ["last_n"],
                     },
                 },
             },
@@ -516,13 +512,11 @@ class ExamAgent:
                 "type": "function",
                 "function": {
                     "name": "get_simulation_history",
-                    "description": "Retrieves and analyzes the user's past full exam simulation scores.",
+                    "description": "Retrieves and analyzes the user's past full exam simulation scores. (User ID is handled internally)",
                     "parameters": {
                         "type": "object",
-                        "properties": {
-                            "user_id": {"type": "integer"}
-                        },
-                        "required": ["user_id"],
+                        "properties": {},
+                        "required": [],
                     },
                 },
             }
@@ -533,7 +527,7 @@ class ExamAgent:
         messages = [
             {"role": "system", "content": (
                 f"You are the 'Reharz AI Assistant', the central nervous system of the Reharz Exam Application.{subject_prompt} "
-                f"You assist User ID: {user_id} with learning, navigation, and exam setup. "
+                f"You assist current User (User ID: {user_id}) with learning, navigation, and exam setup. "
                 "\nCORE DIRECTIVES:"
                 "\n1. NAVIGATION: When the user asks to go to a section (e.g., 'Take me to grading', 'Show me results', 'Open interview prep'), you MUST EXCLUSIVELY use the 'navigate_to' tool. DO NOT JUST EXPLAIN; YOU MUST EXECUTE THE NAVIGATION."
                 "\n2. EXAM START: When the user asks for an exam or practice session, you MUST use the 'start_exam' tool. If you do not know the Exam ID or Subject ID, you MUST use 'search_exams' or 'list_available_exams' first to find them. NEVER GUESS IDs."
@@ -544,7 +538,7 @@ class ExamAgent:
         ]
         
         for h in history:
-            role = "assistant" if h["role"] == "model" else h["role"]
+            role = "assistant" if h["role"] == "model" else (h["role"] if h["role"] in ["assistant", "user", "system"] else "user")
             messages.append({"role": role, "content": h["text"]})
         
         messages.append({"role": "user", "content": message})
@@ -562,10 +556,18 @@ class ExamAgent:
             messages.append(response_message)
             
             actions_taken = []
-            print(f"DEBUG: Processing tool calls: {[tc.function.name for tc in response_message.tool_calls]}")
+            print(f"DEBUG: Processing tool calls for User {user_id}: {[tc.function.name for tc in response_message.tool_calls]}")
             for tool_call in response_message.tool_calls:
                 function_name = tool_call.function.name
                 function_args = json.loads(tool_call.function.arguments)
+                
+                # FORCE injection of current user_id to prevent IDOR via tool-guessing
+                # If the tool expects a user_id, it will be overridden by the session's verified user_id.
+                if "user_id" in function_args or function_name in [
+                    "get_weak_topics", "get_adaptive_v2", "log_answer", 
+                    "get_practice_batch", "get_session_summary", "get_simulation_history"
+                ]:
+                    function_args["user_id"] = user_id
                 
                 # Special handling for navigation/start_exam which don't have DB methods
                 if function_name == "navigate_to":

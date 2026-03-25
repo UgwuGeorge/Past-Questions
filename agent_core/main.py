@@ -1,4 +1,9 @@
-from fastapi import FastAPI, Depends, HTTPException
+import time
+from collections import defaultdict
+from datetime import datetime, timedelta
+import random
+from fastapi import FastAPI, Depends, HTTPException, Request
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import os
@@ -31,12 +36,66 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=Fals
 # Create tables
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Reharz Exam Simulation Engine", debug=True)
+app = FastAPI(title="Reharz Exam Simulation Engine", debug=False) # Turned off debug for error hiding
 
-# CORS for frontend access — allow both HTTP and HTTPS for all Vite dev ports
+# --- SECURITY MIDDLEWARES & HELPERS ---
+
+# 1. Simple Rate Limiter (Memory-based)
+RATE_LIMIT_DURATION = 60 # 1 minute
+MAX_REQUESTS = 100 # per minute
+request_counts = defaultdict(list)
+
+@app.middleware("http")
+async def rate_limit_middleware(request: Request, call_next):
+    client_ip = request.client.host
+    now = time.time()
+    
+    # Filter out requests older than the duration
+    request_counts[client_ip] = [t for t in request_counts[client_ip] if now - t < RATE_LIMIT_DURATION]
+    
+    if len(request_counts[client_ip]) >= MAX_REQUESTS:
+        return JSONResponse(status_code=429, content={"detail": "Too many requests. Please try again later."})
+    
+    request_counts[client_ip].append(now)
+    return await call_next(request)
+
+# 2. Global Exception Handler (Hide stack traces)
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    # Log the real error for debugging (internally)
+    print(f"INTERNAL ERROR: {str(exc)}")
+    if isinstance(exc, HTTPException):
+        return JSONResponse(status_code=exc.status_code, content={"detail": exc.detail})
+        
+    return JSONResponse(
+        status_code=500,
+        content={"detail": "An internal server error occurred. Our engineers have been notified. [Error Code: SYS-PROD]"}
+    )
+
+# 3. Global Authentication Middleware (Force JWT on all /api endpoints)
+@app.middleware("http")
+async def auth_middleware(request: Request, call_next):
+    # Allow open paths
+    open_paths = ["/", "/api/auth/login", "/api/auth/register", "/api/auth/token"]
+    if request.url.path not in open_paths and request.url.path.startswith("/api/"):
+        token = request.headers.get("Authorization")
+        if not token or not token.startswith("Bearer "):
+            return JSONResponse(status_code=401, content={"detail": "Authentication required to access this resource."})
+        
+        try:
+            raw_token = token.split(" ")[1]
+            jwt.decode(raw_token, auth.SECRET_KEY, algorithms=[auth.ALGORITHM])
+        except JWTError:
+            return JSONResponse(status_code=401, content={"detail": "Invalid or expired session token."})
+            
+    return await call_next(request)
+
+# CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "http://localhost", "https://localhost",
+        "http://127.0.0.1", "https://127.0.0.1",
         "http://localhost:5173",  "https://localhost:5173",
         "http://localhost:5174",  "https://localhost:5174",
         "http://localhost:5175",  "https://localhost:5175",
@@ -48,7 +107,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-agent = ExamAgent()
+
 
 @app.get("/")
 def read_root():
@@ -214,7 +273,8 @@ def get_subjects(exam_id: int, current_user: main_models.User = Depends(get_curr
     return [{"id": s.id, "name": s.name, "exam_id": s.exam_id, "exam_name": exam_name} for s in subjects]
 
 @app.get("/api/subjects/{subject_id}/profile")
-def get_subject_profile(subject_id: int, current_user: main_models.User = Depends(get_current_user)):
+def get_subject_profile(subject_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    agent = ExamAgent(db=db)
     return json.loads(agent.get_subject_profile(subject_id, user_id=current_user.id))
 
 @app.get("/api/subjects/{subject_id}/questions")
@@ -368,14 +428,15 @@ class ChatPayload(BaseModel):
     history: list = []
 
 @app.get("/api/user/stats/{user_id}")
-def get_user_stats_detailed(user_id: int, current_user: main_models.User = Depends(get_current_user)):
+def get_user_stats_detailed(user_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     if user_id != current_user.id and not current_user.is_admin:
         raise HTTPException(status_code=403, detail="Access denied")
+    agent = ExamAgent(db=db)
     stats_text = agent.get_weak_topics(user_id)
     return {"stats_raw": stats_text}
 
 @app.post("/api/chat/{user_id}")
-async def chat_with_agent(user_id: int, request: dict, current_user: main_models.User = Depends(get_current_user)):
+async def chat_with_agent(user_id: int, request: dict, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     if user_id != current_user.id:
         raise HTTPException(status_code=403, detail="Cannot chat as another user")
     
@@ -407,6 +468,7 @@ async def chat_with_agent(user_id: int, request: dict, current_user: main_models
     
     safe_subject_context = html.escape(request.get("subject_context", "")) if request.get("subject_context") else None
     
+    agent = ExamAgent(db=db)
     response = await agent.chat(user_id=user_id, message=safe_message, history=safe_history, subject_context=safe_subject_context)
     return {"response": response}
 
@@ -452,9 +514,30 @@ class SimulationStartPayload(BaseModel):
 def start_simulation(payload: SimulationStartPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     if payload.user_id != current_user.id:
         raise HTTPException(status_code=403, detail="Cannot start simulation for another user")
+    
+    # --- SUBSCRIPTION GATING ---
+    exam = db.query(main_models.Exam).filter(main_models.Exam.id == payload.exam_id).first()
+    if not exam:
+        raise HTTPException(status_code=404, detail="Exam not found")
+        
+    # Logic: ELITE (2) > PREMIUM (1) > FREE (0)
+    tier_power = {
+        main_models.SubscriptionTier.FREE: 0,
+        main_models.SubscriptionTier.PREMIUM: 1,
+        main_models.SubscriptionTier.ELITE: 2
+    }
+    
+    # Fetch user's current tier (derived from subscriptions in model property)
+    if tier_power[current_user.current_tier] < tier_power[exam.required_tier]:
+        # User is not at the required level
+        raise HTTPException(
+            status_code=402, 
+            detail=f"Subscription required. This exam requires a {exam.required_tier.value} plan. Visit the Hub to upgrade."
+        )
+    # --- END GATING ---
+
     # 1. Select questions
     query = db.query(main_models.Question)
-    exam = db.query(main_models.Exam).get(payload.exam_id)
     is_ican = exam and "ICAN" in exam.name.upper()
     level = exam.sub_category if exam else None
 
@@ -651,9 +734,32 @@ async def analyze_simulation(session_id: int, current_user: main_models.User = D
     if not session.results_json:
         raise HTTPException(status_code=400, detail="Session is not completed yet")
     
+    # Enrich results with question text and correct answers for AI context
+    full_results = session.results_json.copy()
+    enriched_answers = []
+    
+    for q_id, user_answer in full_results.get("answers", {}).items():
+        q = db.query(main_models.Question).get(int(q_id))
+        if q:
+            correct_choice = db.query(main_models.Choice).filter(
+                main_models.Choice.question_id == q.id,
+                main_models.Choice.is_correct == True
+            ).first()
+            
+            enriched_answers.append({
+                "question_id": q.id,
+                "text": q.text,
+                "topic": q.topic,
+                "user_answer": user_answer,
+                "correct_answer": correct_choice.text if correct_choice else q.explanation, # Use explanation for theory
+                "type": "MCQ" if correct_choice else "Theory"
+            })
+    
+    full_results["detailed_breakdown"] = enriched_answers
+    
     try:
         from agent_core.core.ai import AIEngine
-        analysis = await AIEngine.analyze_exam_result(session.results_json)
+        analysis = await AIEngine.analyze_exam_result(full_results)
         return analysis
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

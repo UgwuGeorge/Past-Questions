@@ -258,26 +258,33 @@ class AIEngine:
     async def analyze_exam_result(results: Dict) -> Dict:
         """
         Analyzes the results of a CBT simulation to provide strategic feedback.
+        Handles both MCQ accuracy and subjective Theory/Computational grading.
         """
         prompt = f"""
-        Act as a Senior Educational Consultant and Exam Strategist.
-        I have a set of exam results for a user. Analyze them and provide a detailed breakdown and improvement strategy.
+        Act as a Senior Educational Consultant and Exam Strategist for a professional certification board (like ICAN or CIBN).
+        I have a set of exam results for a candidate session. Analyze them and provide a detailed breakdown and improvement strategy.
         
         Results Data:
         {json.dumps(results)}
         
+        CORE INSTRUCTIONS:
+        1. If MCQ questions are present (type "MCQ"), use their correct/incorrect status for the aggregate statistics.
+        2. If THEORY questions are present (type "Theory"), you MUST grade each "user_answer" against the "correct_answer" (marking guide) provided.
+        3. For Theory questions, grade out of 20 points each unless specified otherwise.
+        
         Generate a JSON object with:
-        1. "overall_assessment": "Short motivational summary of performance"
+        1. "overall_assessment": "Short, authoritative situational summary of performance"
         2. "strong_topics": [List of topics they mastered]
         3. "critical_gaps": [List of topics they failed or underperformed in]
-        4. "action_plan": [Specific steps to improve, e.g., 'Review Newton's Laws', 'Practice 20 objective questions on calculus']
-        5. "encouragement": "A supportive closing statement"
+        4. "theory_grading": [List of {{"question_id": int, "score": float, "feedback": "Brief pedagogical critique", "correct_answer_summary": "Core points they missed"}}]
+        5. "action_plan": [Specific, actionable steps to improve mastery]
+        6. "encouragement": "A supportive closing statement"
         
         Return ONLY valid JSON.
         """
         
         response = await async_client.chat.completions.create(
-            model=FAST_MODEL_ID,
+            model=MODEL_ID, # Use GPT-4o for complex grading
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"}
         )

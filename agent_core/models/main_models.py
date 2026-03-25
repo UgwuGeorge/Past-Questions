@@ -21,6 +21,11 @@ class ExamCategory(enum.Enum):
     SCHOLARSHIPS = "SCHOLARSHIPS"
     Standardized = "Standardized"
 
+class SubscriptionTier(enum.Enum):
+    FREE = "FREE"
+    PREMIUM = "PREMIUM"
+    ELITE = "ELITE" # Professional/ICAN level
+
 class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True)
@@ -33,6 +38,15 @@ class User(Base):
     
     sessions = relationship("ExamSession", back_populates="user")
     ai_feedback = relationship("AIFeedback", back_populates="user")
+    subscriptions = relationship("Subscription", back_populates="user")
+
+    @property
+    def current_tier(self):
+        # Logic to find latest active subscription
+        for sub in sorted(self.subscriptions, key=lambda x: x.start_date, reverse=True):
+            if sub.expiry_date > datetime.utcnow() and sub.is_active:
+                return sub.tier
+        return SubscriptionTier.FREE
 
 class Exam(Base):
     __tablename__ = "exams"
@@ -41,6 +55,8 @@ class Exam(Base):
     category = Column(SQLEnum(ExamCategory), nullable=False)
     sub_category = Column(String) # e.g., "Medical", "Secondary"
     description = Column(String)
+    required_tier = Column(SQLEnum(SubscriptionTier), default=SubscriptionTier.FREE)
+    price = Column(Float, default=0.0) # For one-time purchases if enabled
     
     subjects = relationship("Subject", back_populates="exam")
     sessions = relationship("ExamSession", back_populates="exam")
@@ -147,3 +163,15 @@ class UserProgress(Base):
     
     user = relationship("User")
     question = relationship("Question")
+
+class Subscription(Base):
+    __tablename__ = "subscriptions"
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    tier = Column(SQLEnum(SubscriptionTier), default=SubscriptionTier.FREE)
+    start_date = Column(DateTime, default=datetime.utcnow)
+    expiry_date = Column(DateTime)
+    is_active = Column(Boolean, default=True)
+    transaction_id = Column(String, unique=True) # Payment gateway ref
+
+    user = relationship("User", back_populates="subscriptions")
