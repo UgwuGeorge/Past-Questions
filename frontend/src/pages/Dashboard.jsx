@@ -23,8 +23,7 @@ import {
     Clock,
     Target
 } from 'lucide-react';
-
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 const CATEGORY_MAP = {
     'Academics': ['WAEC', 'NECO', 'JAMB', 'NABTEB', 'NDA', 'POLAC'],
@@ -43,26 +42,24 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const examsRes = await fetch(`${API_BASE}/exams`);
-                const examsData = await examsRes.json();
+                const examsData = await apiClient.get('/exams');
 
                 // Fetch subjects for each exam to have them ready
                 const fullExams = await Promise.all(examsData.map(async (e) => {
-                    const sRes = await fetch(`${API_BASE}/exams/${e.id}/subjects`);
-                    const subjects = await sRes.json();
+                    const subjects = await apiClient.get(`/exams/${e.id}/subjects`);
                     return { ...e, subjects: Array.isArray(subjects) ? subjects : [] };
                 }));
 
                 setExams(fullExams);
 
-                const sessionsRes = await fetch(`${API_BASE}/simulation/sessions/${userId}`);
-                const sessionsData = await sessionsRes.json();
+                const sessionsData = await apiClient.get(`/simulation/sessions/${userId}`);
                 setRecentSessions(sessionsData.slice(0, 3));
 
-                const statsRes = await fetch(`${API_BASE}/user/${userId}/stats`);
-                if (statsRes.ok) {
-                    const statsData = await statsRes.json();
+                try {
+                    const statsData = await apiClient.get(`/user/${userId}/stats`);
                     setStats(statsData);
+                } catch (e) {
+                    console.warn("Stats fetch failed (might be new user)");
                 }
 
                 setLoading(false);

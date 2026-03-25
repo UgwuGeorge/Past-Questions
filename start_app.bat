@@ -1,4 +1,5 @@
 @echo off
-echo Starting Reharz AI Exam Application...
+echo Launching Reharz AI Integrated Suite (SSL Enabled)...
 cd frontend
 npm run dev
+pause

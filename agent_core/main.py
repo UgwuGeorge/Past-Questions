@@ -33,10 +33,16 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Reharz Exam Simulation Engine", debug=True)
 
-# CORS for frontend access
+# CORS for frontend access — allow both HTTP and HTTPS for all Vite dev ports
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=[
+        "http://localhost:5173",  "https://localhost:5173",
+        "http://localhost:5174",  "https://localhost:5174",
+        "http://localhost:5175",  "https://localhost:5175",
+        "http://127.0.0.1:5173", "https://127.0.0.1:5173",
+        "http://192.168.0.195:5173", "https://192.168.0.195:5173",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -71,7 +77,7 @@ def get_admin(current_user: main_models.User = Depends(get_current_user)):
     return current_user
 
 @app.get("/api/categories")
-def get_categories():
+def get_categories(current_user: main_models.User = Depends(get_current_user)):
     return [c.value for c in main_models.ExamCategory]
 
 # --- AUTH ENDPOINTS ---
@@ -188,7 +194,7 @@ def get_user_stats(user_id: int, current_user: main_models.User = Depends(get_cu
     }
 
 @app.get("/api/exams", response_model=List[main_schemas.Exam])
-def get_exams(category: str = None, sub_category: str = None, name: str = None, db: Session = Depends(get_db)):
+def get_exams(category: str = None, sub_category: str = None, name: str = None, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     query = db.query(main_models.Exam)
     if name:
         query = query.filter(main_models.Exam.name.ilike(f"%{name}%"))
@@ -375,11 +381,29 @@ async def chat_with_agent(user_id: int, request: dict, current_user: main_models
     
     message = request.get("message", "")
     safe_message = html.escape(message.strip())
+    
     if not safe_message:
         raise HTTPException(status_code=400, detail="Message is required and cannot be empty")
+    
+    # Character limit for single message
+    if len(safe_message) > 2000:
+        raise HTTPException(status_code=400, detail="Message too long (max 2,000 chars)")
         
     history = request.get("history", [])
-    safe_history = [{"role": h.get("role"), "text": html.escape(h.get("text", ""))} for h in history if "role" in h and "text" in h]
+    # Limit history depth to prevent massive context payloads
+    max_history = 10
+    trimmed_history = history[-max_history:] if len(history) > max_history else history
+    
+    safe_history = []
+    for h in trimmed_history:
+        role = h.get("role")
+        text = h.get("text", "")
+        if role and text:
+            # Also limit individual history item lengths
+            safe_history.append({
+                "role": html.escape(role),
+                "text": html.escape(text[:2000])
+            })
     
     safe_subject_context = html.escape(request.get("subject_context", "")) if request.get("subject_context") else None
     
@@ -405,7 +429,7 @@ def get_history(user_id: int, current_user: main_models.User = Depends(get_curre
     ]
 
 @app.get("/api/waec")
-def get_waec_catalogue():
+def get_waec_catalogue(current_user: main_models.User = Depends(get_current_user)):
     catalogue_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "waec_catalogue.json")
     if not os.path.exists(catalogue_path):
         raise HTTPException(status_code=404, detail="WAEC catalogue not generated")
@@ -696,7 +720,7 @@ def get_system_stats(db: Session = Depends(get_db), admin: main_models.User = De
 # In production, we assume a reverse proxy (like Nginx/Traefik) terminates SSL.
 # However, if running raw, we enforce HTTPS Redirection internally if asked.
 from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
-if os.getenv("ENFORCE_HTTPS", "False").lower() == "true":
+if os.getenv("ENFORCE_HTTPS", "True").lower() == "true":
     app.add_middleware(HTTPSRedirectMiddleware)
 
 if __name__ == "__main__":

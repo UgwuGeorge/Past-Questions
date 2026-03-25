@@ -7,8 +7,7 @@ import {
 } from 'lucide-react';
 import { clsx } from "clsx";
 import GlowCard from "../components/GlowCard";
-
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 export default function AdminPanel({ userId }) {
     const [users, setUsers] = useState([]);
@@ -24,20 +23,10 @@ export default function AdminPanel({ userId }) {
     const fetchAdminData = async () => {
         setLoading(true);
         try {
-            const token = localStorage.getItem('token');
-            const [usersRes, statsRes] = await Promise.all([
-                fetch(`${API_BASE}/admin/users`, {
-                    headers: { 'Authorization': `Bearer ${token}` }
-                }),
-                fetch(`${API_BASE}/admin/system_stats`, {
-                    headers: { 'Authorization': `Bearer ${token}` }
-                })
+            const [usersData, statsData] = await Promise.all([
+                apiClient.get('/admin/users'),
+                apiClient.get('/admin/system_stats')
             ]);
-
-            if (!usersRes.ok || !statsRes.ok) throw new Error("Failed to fetch admin data (Permissions?)");
-
-            const usersData = await usersRes.json();
-            const statsData = await statsRes.json();
 
             setUsers(usersData);
             setStats(statsData);
@@ -50,15 +39,8 @@ export default function AdminPanel({ userId }) {
 
     const toggleAdmin = async (targetId) => {
         try {
-            const token = localStorage.getItem('token');
-            const res = await fetch(`${API_BASE}/admin/user/${targetId}/toggle_admin`, {
-                method: 'POST',
-                headers: { 'Authorization': `Bearer ${token}` }
-            });
-            if (res.ok) {
-                const updated = await res.json();
-                setUsers(prev => prev.map(u => u.id === targetId ? { ...u, is_admin: updated.is_admin } : u));
-            }
+            const updated = await apiClient.post(`/admin/user/${targetId}/toggle_admin`);
+            setUsers(prev => prev.map(u => u.id === targetId ? { ...u, is_admin: updated.is_admin } : u));
         } catch (err) {
             console.error("Toggle failed:", err);
         }

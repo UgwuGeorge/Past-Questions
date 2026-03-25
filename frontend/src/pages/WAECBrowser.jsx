@@ -7,8 +7,7 @@ import {
     Target, Clock
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
-
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 export default function WAECBrowser({ userId, onExit, examId: propExamId, examName: propExamName }) {
     const [view, setView] = useState('subjects'); // subjects | config | loading | exam | results
@@ -46,9 +45,7 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
         const fetchSubjects = async () => {
             setLoading(true);
             try {
-                const res = await fetch(`${API_BASE}/exams/${examId}/subjects`);
-                if (!res.ok) throw new Error("Could not load subjects");
-                const data = await res.json();
+                const data = await apiClient.get(`/exams/${examId}/subjects`);
                 setSubjects(Array.isArray(data) ? data : []);
             } catch (err) {
                 setError(err.message);
@@ -118,21 +115,15 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
                 ? config.specificTopics.split(',').map(t => t.trim()).filter(t => t)
                 : null;
 
-            const res = await fetch(`${API_BASE}/simulation/start`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    user_id: userId,
-                    exam_id: examId,
-                    subject_id: selectedSubject.id,
-                    question_count: config.questionCount,
-                    duration_minutes: config.duration,
-                    topics: topics,
-                    section: config.section
-                })
+            const data = await apiClient.post('/simulation/start', {
+                user_id: userId,
+                exam_id: examId,
+                subject_id: selectedSubject.id,
+                question_count: config.questionCount,
+                duration_minutes: config.duration,
+                topics: topics,
+                section: config.section
             });
-            const data = await res.json();
-            if (data.detail) throw new Error(data.detail);
 
             // Normalize choices for display if they aren't already
             const normalized = data.questions.map(q => ({
@@ -171,15 +162,10 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
         setIsSubmitted(true);
         setView('loading');
         try {
-            const res = await fetch(`${API_BASE}/simulation/submit`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    session_id: sessionData.session_id,
-                    answers: answers
-                })
+            const data = await apiClient.post('/simulation/submit', {
+                session_id: sessionData.session_id,
+                answers: answers
             });
-            const data = await res.json();
             setSessionData({ ...sessionData, results: data });
             setView('results');
         } catch (err) {

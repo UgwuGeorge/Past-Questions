@@ -6,8 +6,7 @@ import {
     XCircle, BookOpen, Layers, ShieldCheck, Zap, BarChart3, Clock, AlertTriangle
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
-
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 export default function CBTProcessor({ userId, examId, subjectId, onExit, difficulty = 'medium', autoStart = false }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'
@@ -46,8 +45,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
     // Fetch subjects for config
     useEffect(() => {
         if (!examId) return;
-        fetch(`${API_BASE}/exams/${examId}/subjects`)
-            .then(r => r.json())
+        apiClient.get(`/exams/${examId}/subjects`)
             .then(data => {
                 const fetchedSubjects = Array.isArray(data) ? data : [];
                 setSubjects(fetchedSubjects);
@@ -87,20 +85,14 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
 
         setStep('loading');
         try {
-            const res = await fetch(`${API_BASE}/simulation/start`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    user_id: userId,
-                    exam_id: examId,
-                    subject_id: finalSubjectId,
-                    question_count: config.questionCount,
-                    duration_minutes: config.duration,
-                    section: config.section
-                })
+            const data = await apiClient.post('/simulation/start', {
+                user_id: userId,
+                exam_id: examId,
+                subject_id: finalSubjectId,
+                question_count: config.questionCount,
+                duration_minutes: config.duration,
+                section: config.section
             });
-            const data = await res.json();
-            if (data.detail) throw new Error(data.detail);
 
             setQuestions(data.questions);
             setSessionData(data);
@@ -120,15 +112,10 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
     const submitExam = async () => {
         setIsSubmitting(true);
         try {
-            const res = await fetch(`${API_BASE}/simulation/submit`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    session_id: sessionData.session_id,
-                    answers: answers
-                })
+            const data = await apiClient.post('/simulation/submit', {
+                session_id: sessionData.session_id,
+                answers: answers
             });
-            const data = await res.json();
             setResults(data);
             setStep('result');
         } catch (err) {
@@ -143,8 +130,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
         if (!sessionData?.session_id || isAnalyzing) return;
         setIsAnalyzing(true);
         try {
-            const res = await fetch(`${API_BASE}/simulation/${sessionData.session_id}/analyze`);
-            const data = await res.json();
+            const data = await apiClient.get(`/simulation/${sessionData.session_id}/analyze`);
             setAnalysis(data);
         } catch (err) {
             console.error("Analysis failed:", err);

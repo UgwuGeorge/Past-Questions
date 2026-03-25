@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 import { Mic, MicOff, Sparkles, ChevronLeft, Send, User, Bot, Brain, Star, ChevronRight } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 const SEGMENT_QUESTIONS = [
     "Tell me about yourself and why you are applying for this scholarship.",
@@ -55,12 +55,7 @@ export default function AIInterview({ userId, onBack }) {
         setMessages([...newMessages, { role: 'bot', text: '...', feedback: null, typing: true }]);
 
         try {
-            const res = await fetch(`${API_BASE}/interview-evaluate`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ userId, question: currentQuestion, answer: userText })
-            });
-            const evalResult = await res.json();
+            const evalResult = await apiClient.post('/interview-evaluate', { userId, question: currentQuestion, answer: userText });
 
             const nextSegment = currentSegment + 1;
             const isLast = nextSegment >= SEGMENT_QUESTIONS.length;

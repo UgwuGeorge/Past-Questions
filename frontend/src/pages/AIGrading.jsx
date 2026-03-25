@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FileText, Upload, Sparkles, CheckCircle, ChevronLeft, AlertCircle, XCircle, TrendingUp, TrendingDown } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 const ESSAY_TYPES = [
     { id: "IELTS", label: "IELTS Writing Task 2", color: "border-rose-500/40 bg-rose-500/5", activeColor: "border-rose-500 bg-rose-500/20 text-rose-300" },
@@ -25,13 +25,7 @@ export default function AIGrading({ userId, onBack }) {
         setError(null);
 
         try {
-            const res = await fetch(`${API_BASE}/grade-essay`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ userId, content: text, criteria })
-            });
-            if (!res.ok) throw new Error(`Server error: ${res.status}`);
-            const data = await res.json();
+            const data = await apiClient.post('/grade-essay', { userId, content: text, criteria });
             setResult(data);
         } catch (err) {
             setError(err.message);

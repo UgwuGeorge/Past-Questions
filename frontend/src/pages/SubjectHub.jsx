@@ -8,7 +8,7 @@ import {
 import GlowCard from '../components/GlowCard';
 import { clsx } from 'clsx';
 
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 export default function SubjectHub({ userId, subject, examName, onBack, onStartSimulation }) {
     const [profile, setProfile] = useState(null);
@@ -17,8 +17,7 @@ export default function SubjectHub({ userId, subject, examName, onBack, onStartS
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const res = await fetch(`${API_BASE}/subjects/${subject.id}/profile?user_id=${userId}`);
-                const data = await res.json();
+                const data = await apiClient.get(`/subjects/${subject.id}/profile?user_id=${userId}`);
                 setProfile(data);
                 setLoading(false);
             } catch (err) {

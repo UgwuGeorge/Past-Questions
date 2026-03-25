@@ -8,8 +8,7 @@ import {
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 import { clsx } from 'clsx';
-
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 const ProgressRing = ({ percentage, color = "stroke-primary", size = 80 }) => {
     const radius = size * 0.4;
@@ -72,13 +71,10 @@ export default function MyResults({ userId, initialSessionId = null }) {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const [examsRes, aiRes] = await Promise.all([
-                    fetch(`${API_BASE}/simulation/sessions/${userId}`),
-                    fetch(`${API_BASE}/user/ai-feedback/${userId}`)
+                const [examsData, aiData] = await Promise.all([
+                    apiClient.get(`/simulation/sessions/${userId}`),
+                    apiClient.get(`/user/ai-feedback/${userId}`)
                 ]);
-                
-                const examsData = await examsRes.json();
-                const aiData = await aiRes.json();
                 
                 setExams(examsData);
                 setAiFeedback(aiData);
@@ -95,8 +91,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
         setAnalyzing(true);
         setAiAnalysisResult(null);
         try {
-            const res = await fetch(`${API_BASE}/simulation/${sessionId}/analyze`);
-            const data = await res.json();
+            const data = await apiClient.get(`/simulation/${sessionId}/analyze`);
             setAiAnalysisResult(data);
         } catch (err) {
             console.error("Analysis failed:", err);

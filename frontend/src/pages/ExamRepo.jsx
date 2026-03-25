@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 import { ChevronLeft, FileText, Download, Eye, Search, BookOpen, Layers, Clock } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 export default function ExamRepo({ examType, onExit }) {
     const [id, setId] = useState(null);
@@ -22,8 +22,7 @@ export default function ExamRepo({ examType, onExit }) {
             setLoading(true);
             try {
                 // First find the exam record by name to get its ID
-                const examsRes = await fetch(`${API_BASE}/exams`);
-                const examsData = await examsRes.json();
+                const examsData = await apiClient.get('/exams');
                 const examRecord = examsData.find(e =>
                     e.name.toUpperCase() === examType.toUpperCase() ||
                     (examType === 'THE BAR EXAM' && e.name.includes('BAR')) ||
@@ -34,8 +33,7 @@ export default function ExamRepo({ examType, onExit }) {
                 setId(examRecord.id);
 
                 // Fetch subjects for this exam
-                const subRes = await fetch(`${API_BASE}/exams/${examRecord.id}/subjects`);
-                const subData = await subRes.json();
+                const subData = await apiClient.get(`/exams/${examRecord.id}/subjects`);
                 setSubjects(Array.isArray(subData) ? subData : []);
                 setLoading(false);
             } catch (err) {
@@ -56,8 +54,7 @@ export default function ExamRepo({ examType, onExit }) {
         setLoading(true);
         try {
             // Fetch questions for the selected subject
-            const qRes = await fetch(`${API_BASE}/subjects/${selectedSubject.id}/questions?limit=50`);
-            const qData = await qRes.json();
+            const qData = await apiClient.get(`/subjects/${selectedSubject.id}/questions?limit=50`);
 
             // If we have year data, filter by it. Otherwise show all.
             const filtered = Array.isArray(qData)

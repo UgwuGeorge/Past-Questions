@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { clsx } from 'clsx';
 
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
+import apiClient from '../api/client';
 
 export default function AIChat({ userId, subject, onAction }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -143,22 +143,14 @@ export default function AIChat({ userId, subject, onAction }) {
         setIsTyping(true);
 
         try {
-            const res = await fetch(`${API_BASE}/chat/${userId}`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    message: currentInput,
-                    history: messages.map(m => ({
-                        role: m.role === 'assistant' ? 'model' : 'user',
-                        text: m.text
-                    })),
-                    subject_context: subject?.name
-                }),
+            const data = await apiClient.post(`/chat/${userId}`, {
+                message: currentInput,
+                history: messages.map(m => ({
+                    role: m.role === 'assistant' ? 'model' : 'user',
+                    text: m.text
+                })),
+                subject_context: subject?.name
             });
-
-            if (!res.ok) throw new Error("Server error");
-
-            const data = await res.json();
             let responseText = data.response;
 
             // Parse structured actions if they exist
