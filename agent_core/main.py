@@ -20,11 +20,15 @@ from typing import List, Optional
 from pydantic import BaseModel
 from datetime import datetime, timedelta
 import random
+from fastapi.security import OAuth2PasswordBearer
+from jose import JWTError, jwt
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=False)
 
 # Create tables
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Reharz AI Exam Backend")
+app = FastAPI(title="Reharz Exam Simulation Engine", debug=True)
 
 # CORS for frontend access
 app.add_middleware(
@@ -40,6 +44,28 @@ agent = ExamAgent()
 @app.get("/")
 def read_root():
     return {"message": "Reharz AI Exam Backend is running"}
+
+def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
+    if not token:
+        raise HTTPException(status_code=401, detail="Not authenticated")
+    try:
+        payload = jwt.decode(token, auth.SECRET_KEY, algorithms=[auth.ALGORITHM])
+        username: str = payload.get("sub")
+        user_id: int = payload.get("user_id")
+        if username is None or user_id is None:
+            raise HTTPException(status_code=401, detail="Invalid token")
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Could not validate credentials")
+    
+    user = db.query(main_models.User).filter(main_models.User.id == user_id).first()
+    if user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return user
+
+def get_admin(current_user: main_models.User = Depends(get_current_user)):
+    if not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Not enough permissions (Admin required)")
+    return current_user
 
 @app.get("/api/categories")
 def get_categories():
@@ -103,7 +129,9 @@ def login(login_data: dict, db: Session = Depends(get_db)):
     }
 
 @app.get("/api/user/{user_id}/stats")
-def get_user_stats(user_id: int, db: Session = Depends(get_db)):
+def get_user_stats(user_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if user_id != current_user.id and not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Not permitted to access this user's stats")
     sessions = db.query(main_models.ExamSession).filter(
         main_models.ExamSession.user_id == user_id,
         main_models.ExamSession.end_time != None
@@ -151,20 +179,20 @@ def get_exams(category: str = None, sub_category: str = None, name: str = None, 
     return query.all()
 
 @app.get("/api/exams/{exam_id}/subjects")
-def get_subjects(exam_id: int, db: Session = Depends(get_db)):
+def get_subjects(exam_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     subjects = db.query(main_models.Subject).filter(
         main_models.Subject.exam_id == exam_id
     ).all()
-    if not subjects:
-        raise HTTPException(status_code=404, detail="No subjects found for this exam")
-    return [{"id": s.id, "name": s.name, "exam_id": s.exam_id} for s in subjects]
+    exam = db.query(main_models.Exam).get(exam_id)
+    exam_name = exam.name if exam else "Unknown Exam"
+    return [{"id": s.id, "name": s.name, "exam_id": s.exam_id, "exam_name": exam_name} for s in subjects]
 
 @app.get("/api/subjects/{subject_id}/profile")
-def get_subject_profile(subject_id: int, user_id: int = 1):
-    return json.loads(agent.get_subject_profile(subject_id, user_id=user_id))
+def get_subject_profile(subject_id: int, current_user: main_models.User = Depends(get_current_user)):
+    return json.loads(agent.get_subject_profile(subject_id, user_id=current_user.id))
 
 @app.get("/api/subjects/{subject_id}/questions")
-def get_questions(subject_id: int, limit: int = 20, db: Session = Depends(get_db)):
+def get_questions(subject_id: int, limit: int = 20, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     questions = db.query(main_models.Question).filter(
         main_models.Question.subject_id == subject_id
     ).limit(limit).all()
@@ -190,7 +218,7 @@ def get_questions(subject_id: int, limit: int = 20, db: Session = Depends(get_db
     return result
 
 @app.get("/api/questions/{question_id}")
-def get_question(question_id: int, db: Session = Depends(get_db)):
+def get_question(question_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     question = db.query(main_models.Question).filter(main_models.Question.id == question_id).first()
     if not question:
         raise HTTPException(status_code=404, detail="Question not found")
@@ -218,7 +246,9 @@ class SubmitPayload(BaseModel):
     difficulty: str = "medium"
 
 @app.post("/api/submit")
-def submit_answer(payload: SubmitPayload, db: Session = Depends(get_db)):
+def submit_answer(payload: SubmitPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if payload.user_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Cannot submit for another user")
     diff_map = {
         "easy": main_models.DifficultyLevel.EASY,
         "medium": main_models.DifficultyLevel.MEDIUM,
@@ -242,9 +272,13 @@ class EssayPayload(BaseModel):
     criteria: str = "IELTS"
 
 @app.post("/api/grade-essay")
-async def grade_essay(payload: EssayPayload, db: Session = Depends(get_db)):
+async def grade_essay(payload: EssayPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if payload.userId != current_user.id:
+        raise HTTPException(status_code=403, detail="User ID mismatch in request payload")
     if not payload.content.strip():
         raise HTTPException(status_code=400, detail="Essay content cannot be empty")
+    if len(payload.content) > 10000:
+        raise HTTPException(status_code=400, detail="Essay too long (max 10,000 chars)")
     try:
         from agent_core.core.ai import AIEngine
         result = await AIEngine.grade_essay_or_sop(payload.content, payload.criteria)
@@ -269,9 +303,13 @@ class InterviewPayload(BaseModel):
     answer: str
 
 @app.post("/api/interview-evaluate")
-async def interview_evaluate(payload: InterviewPayload, db: Session = Depends(get_db)):
+async def interview_evaluate(payload: InterviewPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if payload.userId != current_user.id:
+        raise HTTPException(status_code=403, detail="User ID mismatch in request payload")
     if not payload.answer.strip():
         raise HTTPException(status_code=400, detail="Answer cannot be empty")
+    if len(payload.answer) > 5000:
+        raise HTTPException(status_code=400, detail="Answer too long (max 5,000 chars)")
     try:
         from agent_core.core.ai import AIEngine
         result = await AIEngine.simulate_interview(payload.question, payload.answer)
@@ -295,12 +333,16 @@ class ChatPayload(BaseModel):
     history: list = []
 
 @app.get("/api/user/stats/{user_id}")
-def get_user_stats(user_id: int):
+def get_user_stats_detailed(user_id: int, current_user: main_models.User = Depends(get_current_user)):
+    if user_id != current_user.id and not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Access denied")
     stats_text = agent.get_weak_topics(user_id)
     return {"stats_raw": stats_text}
 
 @app.post("/api/chat/{user_id}")
-async def chat_with_agent(user_id: int, request: dict):
+async def chat_with_agent(user_id: int, request: dict, current_user: main_models.User = Depends(get_current_user)):
+    if user_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Cannot chat as another user")
     message = request.get("message")
     history = request.get("history", [])
     subject_context = request.get("subject_context")
@@ -310,7 +352,9 @@ async def chat_with_agent(user_id: int, request: dict):
     return {"response": response}
 
 @app.get("/api/history/{user_id}")
-def get_history(user_id: int, db: Session = Depends(get_db)):
+def get_history(user_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if user_id != current_user.id and not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Access denied to history")
     history = db.query(main_models.UserProgress).filter(
         main_models.UserProgress.user_id == user_id
     ).order_by(main_models.UserProgress.attempt_date.desc()).limit(10).all()
@@ -346,67 +390,89 @@ class SimulationStartPayload(BaseModel):
     year: Optional[int] = None
 
 @app.post("/api/simulation/start")
-def start_simulation(payload: SimulationStartPayload, db: Session = Depends(get_db)):
+def start_simulation(payload: SimulationStartPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if payload.user_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Cannot start simulation for another user")
     # 1. Select questions
     query = db.query(main_models.Question)
+    exam = db.query(main_models.Exam).get(payload.exam_id)
+    is_ican = exam and "ICAN" in exam.name.upper()
+    level = exam.sub_category if exam else None
+
+    # Determine desired question count for ICAN if looking for "Full Exam" / official format
+    target_count = payload.question_count
+    if is_ican and payload.section == "Section A: Multiple Choice":
+        # Official ICAN Section A has 20 MCQs for Foundation, 
+        # but Skills/Professional don't usually have a pure MCQ section A anymore 
+        # (they have a 30-mark scenario). 
+        # However, for our currently available MCQ data, 20 is the standard Section A count.
+        if not payload.question_count or payload.question_count == 50: # If default
+             target_count = 20
+
     if payload.subject_id:
-        query = db.query(main_models.Question).filter(
-            main_models.Question.subject_id == payload.subject_id
-        )
+        query = query.filter(main_models.Question.subject_id == payload.subject_id)
     else:
         # All subjects for this exam
-        subjects = db.query(main_models.Subject).filter(
-            main_models.Subject.exam_id == payload.exam_id
-        ).all()
+        subjects = db.query(main_models.Subject).filter(main_models.Subject.exam_id == payload.exam_id).all()
         sub_ids = [s.id for s in subjects]
-        query = db.query(main_models.Question).filter(
-            main_models.Question.subject_id.in_(sub_ids)
-        )
+        query = query.filter(main_models.Question.subject_id.in_(sub_ids))
     
-    # Topic filter (exact match on stored topic values)
+    # Topic filter
     if payload.topics:
-        # Use LIKE for partial matching so "Algebra" matches "Algebra" or any topic containing it
         from sqlalchemy import or_
         topic_filters = [main_models.Question.topic.ilike(f"%{t}%") for t in payload.topics]
         query = query.filter(or_(*topic_filters))
     
-    # Section filter - try DB section field first, but fall back to choice-based detection
-    # since many questions have section=NULL in the database
     all_questions = query.all()
     
-    if payload.section and payload.section.lower() != 'full exam':
-        if any(q.section for q in all_questions):
-            # DB has section data - use it
-            filtered = [q for q in all_questions if q.section and payload.section.lower() in q.section.lower()]
-            if filtered:
-                all_questions = filtered
-            # Otherwise keep all_questions (no section match = don't restrict)
-        else:
-            # Section not stored in DB - infer from choices:
-            # objective = questions with multiple-choice options
-            # theory/practical = questions without choices (or all if no split)
-            q_ids_with_choices = {
-                row[0] for row in db.query(main_models.Choice.question_id).distinct().all()
-            }
-            if payload.section.lower() == 'objective':
-                theory_filtered = [q for q in all_questions if q.id in q_ids_with_choices]
-                if theory_filtered:
-                    all_questions = theory_filtered
-            elif payload.section.lower() in ('theory', 'practical'):
-                theory_filtered = [q for q in all_questions if q.id not in q_ids_with_choices]
-                if theory_filtered:
-                    all_questions = theory_filtered
-    
+    # Year filter (apply before section structure logic)
     if payload.year:
         year_filtered = [q for q in all_questions if q.year == payload.year]
         if year_filtered:
             all_questions = year_filtered
 
-    if not all_questions:
-        raise HTTPException(status_code=404, detail="No questions found for this configuration")
-    
-    # Use random.choices (with replacement) to ALWAYS return exactly question_count items
-    selected = random.choices(all_questions, k=payload.question_count)
+    # ICAN-specific "Full Exam" structure
+    if is_ican and payload.section == 'full exam':
+        all_qs = all_questions # Already year-filtered
+        
+        # Categorize by presence of choices (most reliable for mixed imports)
+        mcq_qs = [q for q in all_qs if len(q.choices) > 0]
+        theory_qs = [q for q in all_qs if len(q.choices) == 0]
+        
+        # Fallback to section labels if choices detection yields nothing for a known structured paper
+        if not mcq_qs and not theory_qs:
+            mcq_qs = [q for q in all_qs if q.section and 'Multiple Choice' in q.section]
+            theory_qs = [q for q in all_qs if q.section and 'Theory' in q.section]
+
+        if level == "Foundation":
+            # Foundation: 20 MCQs + 5 Theory (Standard ICAN structure)
+            sampled_mcq = random.sample(mcq_qs, k=min(20, len(mcq_qs)))
+            sampled_theory = random.sample(theory_qs, k=min(5, len(theory_qs)))
+            selected = sampled_mcq + sampled_theory
+        else:
+            # Skills & Professional: Purely Theory/Computational (usually 5-6 questions)
+            # We sample up to 6 total theory questions
+            selected = random.sample(theory_qs, k=min(6, len(theory_qs)))
+            
+            # If we have less than 6 theory questions, fill the gap with MCQs if available
+            if len(selected) < 6 and mcq_qs:
+                gap = 6 - len(selected)
+                extra = random.sample(mcq_qs, k=min(gap, len(mcq_qs)))
+                selected += extra
+        
+        selected.sort(key=lambda x: x.section if x.section else "")
+    else:
+        # Standard filter 
+        if payload.section and payload.section.lower() != 'full exam':
+            filtered = [q for q in all_questions if q.section and payload.section.lower() in q.section.lower()]
+            if filtered:
+                all_questions = filtered
+        
+        if not all_questions:
+            raise HTTPException(status_code=404, detail="No questions found for this configuration")
+        
+        k = target_count if target_count <= len(all_questions) else len(all_questions)
+        selected = random.sample(all_questions, k=k) if k > 0 else []
     
     # 2. Create Session
     session = main_models.ExamSession(
@@ -426,6 +492,7 @@ def start_simulation(payload: SimulationStartPayload, db: Session = Depends(get_
             "id": q.id,
             "text": q.text,
             "topic": q.topic,
+            "section": q.section if q.section else ("Section A: Multiple Choice" if len(choices) > 0 else "Section B: Theory"),
             "difficulty": str(q.difficulty.value),
             "choices": [{"id": c.id, "label": c.label, "text": c.text} for c in choices]
         })
@@ -442,10 +509,13 @@ class SimulationSubmitPayload(BaseModel):
     answers: dict  # {question_id: selected_label}
 
 @app.post("/api/simulation/submit")
-def submit_simulation(payload: SimulationSubmitPayload, db: Session = Depends(get_db)):
+def submit_simulation(payload: SimulationSubmitPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     session = db.query(main_models.ExamSession).get(payload.session_id)
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
+    
+    if session.user_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Session ownership mismatch")
     
     session.end_time = datetime.utcnow()
     
@@ -495,7 +565,9 @@ def submit_simulation(payload: SimulationSubmitPayload, db: Session = Depends(ge
     return session.results_json
 
 @app.get("/api/simulation/sessions/{user_id}")
-def get_user_sessions(user_id: int, db: Session = Depends(get_db)):
+def get_user_sessions(user_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if user_id != current_user.id and not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Access denied to sessions")
     sessions = db.query(main_models.ExamSession).filter(
         main_models.ExamSession.user_id == user_id
     ).order_by(main_models.ExamSession.start_time.desc()).all()
@@ -511,10 +583,12 @@ def get_user_sessions(user_id: int, db: Session = Depends(get_db)):
     ]
 
 @app.get("/api/simulation/{session_id}/analyze")
-async def analyze_simulation(session_id: int, db: Session = Depends(get_db)):
+async def analyze_simulation(session_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     session = db.query(main_models.ExamSession).get(session_id)
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
+    if session.user_id != current_user.id and not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Not permitted to analyze this session")
     if not session.results_json:
         raise HTTPException(status_code=400, detail="Session is not completed yet")
     
@@ -526,7 +600,9 @@ async def analyze_simulation(session_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/api/user/ai-feedback/{user_id}")
-def get_user_ai_feedback(user_id: int, db: Session = Depends(get_db)):
+def get_user_ai_feedback(user_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    if user_id != current_user.id and not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Access denied to AI feedback")
     feedback = db.query(main_models.AIFeedback).filter(
         main_models.AIFeedback.user_id == user_id
     ).order_by(main_models.AIFeedback.created_at.desc()).all()
@@ -544,7 +620,7 @@ def get_user_ai_feedback(user_id: int, db: Session = Depends(get_db)):
 # --- ADMIN ENDPOINTS ---
 
 @app.get("/api/admin/users")
-def get_all_users(db: Session = Depends(get_db)):
+def get_all_users(db: Session = Depends(get_db), admin: main_models.User = Depends(get_admin)):
     users = db.query(main_models.User).all()
     return [
         {
@@ -557,16 +633,17 @@ def get_all_users(db: Session = Depends(get_db)):
     ]
 
 @app.post("/api/admin/user/{user_id}/toggle_admin")
-def toggle_admin(user_id: int, db: Session = Depends(get_db)):
+def toggle_admin(user_id: int, db: Session = Depends(get_db), admin: main_models.User = Depends(get_admin)):
     user = db.query(main_models.User).get(user_id)
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
+    # Prevent taking away your own admin rights if there's only one? (Optional)
     user.is_admin = not user.is_admin
     db.commit()
     return {"id": user.id, "username": user.username, "is_admin": user.is_admin}
 
 @app.get("/api/admin/system_stats")
-def get_system_stats(db: Session = Depends(get_db)):
+def get_system_stats(db: Session = Depends(get_db), admin: main_models.User = Depends(get_admin)):
     total_users = db.query(main_models.User).count()
     total_sessions = db.query(main_models.ExamSession).count()
     total_exams = db.query(main_models.Exam).count()

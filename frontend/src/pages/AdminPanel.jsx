@@ -24,9 +24,14 @@ export default function AdminPanel({ userId }) {
     const fetchAdminData = async () => {
         setLoading(true);
         try {
+            const token = localStorage.getItem('token');
             const [usersRes, statsRes] = await Promise.all([
-                fetch(`${API_BASE}/admin/users`),
-                fetch(`${API_BASE}/admin/system_stats`)
+                fetch(`${API_BASE}/admin/users`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                }),
+                fetch(`${API_BASE}/admin/system_stats`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                })
             ]);
 
             if (!usersRes.ok || !statsRes.ok) throw new Error("Failed to fetch admin data (Permissions?)");
@@ -45,8 +50,10 @@ export default function AdminPanel({ userId }) {
 
     const toggleAdmin = async (targetId) => {
         try {
+            const token = localStorage.getItem('token');
             const res = await fetch(`${API_BASE}/admin/user/${targetId}/toggle_admin`, {
-                method: 'POST'
+                method: 'POST',
+                headers: { 'Authorization': `Bearer ${token}` }
             });
             if (res.ok) {
                 const updated = await res.json();

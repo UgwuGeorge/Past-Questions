@@ -47,17 +47,41 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
             setLoading(true);
             try {
                 const res = await fetch(`${API_BASE}/exams/${examId}/subjects`);
-                if (!res.ok) throw new Error("Could not load WAEC subjects");
+                if (!res.ok) throw new Error("Could not load subjects");
                 const data = await res.json();
                 setSubjects(Array.isArray(data) ? data : []);
-                setLoading(false);
             } catch (err) {
                 setError(err.message);
+            } finally {
                 setLoading(false);
             }
         };
         fetchSubjects();
     }, [examId]);
+
+    // ICAN-specific defaults
+    useEffect(() => {
+        if (examName?.includes('ICAN')) {
+            const isFoundation = examName.includes('Foundation');
+            const isHigher = examName.includes('Skills') || examName.includes('Professional');
+
+            if (config.section === 'full exam') {
+                if (isFoundation) {
+                    setConfig(prev => ({ ...prev, questionCount: 25, duration: 180 }));
+                } else if (isHigher) {
+                    setConfig(prev => ({ ...prev, questionCount: 6, duration: 180 }));
+                } else {
+                    setConfig(prev => ({ ...prev, questionCount: 40, duration: 180 }));
+                }
+            } else if (config.section === 'objective') {
+                setConfig(prev => ({ ...prev, questionCount: 20, duration: 45 }));
+            }
+        } else if (examName?.includes('WAEC') || examName?.includes('JAMB')) {
+            if (config.section === 'full exam') {
+                setConfig(prev => ({ ...prev, questionCount: 50, duration: 120 }));
+            }
+        }
+    }, [examName, config.section]);
 
     // Timer countdown
     useEffect(() => {
@@ -318,7 +342,7 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
                             <h3 className="text-xs font-black uppercase tracking-[0.2em] text-white/30 mb-8 flex items-center gap-2">
                                 <Clock size={14} className="text-accent" /> Control Parameters
                             </h3>
-                            {config.section === 'full exam' ? (
+                            {(config.section === 'full exam' && (examName.includes('WAEC') || examName.includes('JAMB'))) ? (
                                 <div className="space-y-4 h-full flex flex-col justify-center pb-4">
                                     <GlowCard className="bg-primary/5 border-primary/20 p-6">
                                         <div className="flex items-center gap-3 mb-4">
@@ -477,7 +501,7 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
                         onClick={handleSubmit}
                         className="btn-primary py-3 px-8 rounded-xl text-[10px] font-black uppercase tracking-widest"
                     >
-                        Terminal Session
+                        Terminate Session
                     </button>
                 </header>
 
@@ -498,7 +522,10 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
                                             </div>
                                             <div>
                                                 <div className="text-[10px] text-text-dim font-black uppercase tracking-widest mb-1">Current Question Trace</div>
-                                                <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black text-white/40 uppercase">{currentQ.topic || 'General Topic'}</span>
+                                                <div className="flex gap-2">
+                                                    <span className="px-3 py-1 bg-primary/10 border border-primary/20 rounded-lg text-[10px] font-black text-primary uppercase">{currentQ.section || 'SECTION A'}</span>
+                                                    <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black text-white/40 uppercase">{currentQ.topic || 'General Topic'}</span>
+                                                </div>
                                             </div>
                                         </div>
                                         <button

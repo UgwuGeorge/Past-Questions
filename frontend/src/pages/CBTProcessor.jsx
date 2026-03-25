@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = `http://${window.location.hostname}:8000/api`;
 
 export default function CBTProcessor({ userId, examId, subjectId, onExit, difficulty = 'medium', autoStart = false }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'
@@ -15,7 +15,8 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
         questionCount: 40,
         duration: 45, // minutes
         mode: difficulty === 'hard' ? 'hardcore' : 'standard',
-        subjectId: subjectId || null
+        subjectId: subjectId || null,
+        section: 'Section A: Multiple Choice'
     });
 
     // Update config when props change
@@ -94,7 +95,8 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                     exam_id: examId,
                     subject_id: finalSubjectId,
                     question_count: config.questionCount,
-                    duration_minutes: config.duration
+                    duration_minutes: config.duration,
+                    section: config.section
                 })
             });
             const data = await res.json();
@@ -189,30 +191,54 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                                         value={config.subjectId || ''}
                                         onChange={e => setConfig({ ...config, subjectId: e.target.value ? parseInt(e.target.value) : null })}
                                     >
-                                        <option value="">All Subjects (Full Exam)</option>
+                                        <option value="">All Subjects (Diagnostic Mix)</option>
                                         {subjects.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
                                     </select>
                                 </div>
-                                <div className="grid grid-cols-2 gap-4">
                                     <div>
-                                        <label className="text-[10px] font-black uppercase text-white/40 block mb-2 tracking-widest">Questions</label>
-                                        <input
-                                            type="number"
-                                            className="w-full bg-white/5 border border-white/10 rounded-xl p-3 outline-none"
-                                            value={config.questionCount}
-                                            onChange={e => setConfig({ ...config, questionCount: parseInt(e.target.value) })}
-                                        />
+                                        <label className="text-[10px] font-black uppercase text-white/40 block mb-2 tracking-widest">Exam Section</label>
+                                        <select
+                                            className="w-full bg-white/5 border border-white/10 rounded-xl p-3 outline-none focus:border-primary/50"
+                                            value={config.section}
+                                            onChange={e => {
+                                                const newSection = e.target.value;
+                                                const isIcan = subjects[0]?.exam_name?.includes('ICAN');
+                                                let updates = { section: newSection };
+                                                
+                                                if (isIcan && newSection === 'Section A: Multiple Choice') {
+                                                    updates.questionCount = 20;
+                                                    updates.duration = 45; // 45 mins for Section A
+                                                } else {
+                                                    updates.questionCount = 40;
+                                                    updates.duration = 60;
+                                                }
+                                                setConfig({ ...config, ...updates });
+                                            }}
+                                        >
+                                            <option value="Section A: Multiple Choice">Section A (MCQs)</option>
+                                            <option value="Full Exam">Mixed Practice</option>
+                                        </select>
                                     </div>
-                                    <div>
-                                        <label className="text-[10px] font-black uppercase text-white/40 block mb-2 tracking-widest">Time (Mins)</label>
-                                        <input
-                                            type="number"
-                                            className="w-full bg-white/5 border border-white/10 rounded-xl p-3 outline-none"
-                                            value={config.duration}
-                                            onChange={e => setConfig({ ...config, duration: parseInt(e.target.value) })}
-                                        />
+                                    <div className="grid grid-cols-2 gap-4">
+                                        <div>
+                                            <label className="text-[10px] font-black uppercase text-white/40 block mb-2 tracking-widest">Questions</label>
+                                            <input
+                                                type="number"
+                                                className="w-full bg-white/5 border border-white/10 rounded-xl p-3 outline-none"
+                                                value={config.questionCount}
+                                                onChange={e => setConfig({ ...config, questionCount: parseInt(e.target.value) })}
+                                            />
+                                        </div>
+                                        <div>
+                                            <label className="text-[10px] font-black uppercase text-white/40 block mb-2 tracking-widest">Time (Mins)</label>
+                                            <input
+                                                type="number"
+                                                className="w-full bg-white/5 border border-white/10 rounded-xl p-3 outline-none"
+                                                value={config.duration}
+                                                onChange={e => setConfig({ ...config, duration: parseInt(e.target.value) })}
+                                            />
+                                        </div>
                                     </div>
-                                </div>
                             </div>
                         </GlowCard>
 
@@ -306,7 +332,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                         disabled={isSubmitting}
                         className="btn-primary px-8 h-12 rounded-xl text-xs font-black uppercase tracking-widest shadow-xl shadow-primary/20"
                     >
-                        {isSubmitting ? 'Processing Submission...' : 'Finish Simulation'}
+                        {isSubmitting ? 'Processing Submission...' : 'Terminate Session'}
                     </button>
                 </header>
 
@@ -329,6 +355,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                                             <div>
                                                 <div className="text-[10px] text-text-dim font-black uppercase tracking-widest mb-1">Current Question Context</div>
                                                 <div className="flex gap-2">
+                                                    <span className="px-2 py-0.5 bg-primary/10 border border-primary/20 rounded text-[10px] font-black text-primary uppercase">{currentQ.section || 'General Section'}</span>
                                                     <span className="px-2 py-0.5 bg-white/5 border border-white/10 rounded text-[10px] font-bold text-white/40">{currentQ.topic || 'General'}</span>
                                                     <span className="px-2 py-0.5 bg-white/5 border border-white/10 rounded text-[10px] font-bold text-white/40 uppercase">{currentQ.difficulty}</span>
                                                 </div>
@@ -452,7 +479,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                             <CheckCircle2 size={48} className="text-primary" />
                         </div>
                         <h1 className="text-5xl font-black italic tracking-tighter uppercase mb-4">Simulation Certified.</h1>
-                        <p className="text-text-dim max-w-md mx-auto">The Reharz engine has evaluated your performance with 98% confidence scoring.</p>
+                        <p className="text-text-dim max-w-md mx-auto">The Reharz engine has evaluated your performance on {exams.find(e => e.id === examId)?.name} {config.section}.</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">

@@ -7,7 +7,14 @@ import os
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 # JWT configuration
-SECRET_KEY = os.getenv("JWT_SECRET_KEY", "your-super-secret-key-12345")
+SECRET_KEY = os.getenv("JWT_SECRET_KEY")
+if not SECRET_KEY:
+    # Use a long, complex fallback only for local development. 
+    # In production, this should ALWAYS be set via environment variable.
+    SECRET_KEY = "reharz-dev-fallback-secret-x93!@#ksad-secure-long-string-avoid-defaults"
+    import warnings
+    warnings.warn("JWT_SECRET_KEY not set. Using insecure development fallback.")
+
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 # 1 day
 

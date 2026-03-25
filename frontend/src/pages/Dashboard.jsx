@@ -29,7 +29,7 @@ const API_BASE = `http://${window.location.hostname}:8000/api`;
 const CATEGORY_MAP = {
     'Academics': ['WAEC', 'NECO', 'JAMB', 'NABTEB', 'NDA', 'POLAC'],
     'Professional': ['ICAN Foundation', 'ICAN Skills', 'ICAN Professional', 'Med/Nursing license', 'The bar exam', 'TRCN', 'CIBN', 'COREN'],
-    'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
+    'Scholarships': ['IELTS Academic', 'IELTS General Training', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
 export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub, onViewResult }) {
