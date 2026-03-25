@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { clsx } from 'clsx';
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
 
 export default function AIChat({ userId, subject, onAction }) {
     const [isOpen, setIsOpen] = useState(false);

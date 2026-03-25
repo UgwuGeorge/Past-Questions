@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FileText, Upload, Sparkles, CheckCircle, ChevronLeft, AlertCircle, XCircle, TrendingUp, TrendingDown } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
 
 const ESSAY_TYPES = [
     { id: "IELTS", label: "IELTS Writing Task 2", color: "border-rose-500/40 bg-rose-500/5", activeColor: "border-rose-500 bg-rose-500/20 text-rose-300" },

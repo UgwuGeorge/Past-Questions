@@ -8,7 +8,7 @@ import {
 import GlowCard from '../components/GlowCard';
 import { clsx } from 'clsx';
 
-const API_BASE = `http://${window.location.hostname}:8000/api`;
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
 
 export default function SubjectHub({ userId, subject, examName, onBack, onStartSimulation }) {
     const [profile, setProfile] = useState(null);

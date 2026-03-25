@@ -9,7 +9,7 @@ import {
 import GlowCard from '../components/GlowCard';
 import { clsx } from 'clsx';
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
 
 const ProgressRing = ({ percentage, color = "stroke-primary", size = 80 }) => {
     const radius = size * 0.4;

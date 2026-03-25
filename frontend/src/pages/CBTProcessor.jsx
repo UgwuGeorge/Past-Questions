@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
-const API_BASE = `http://${window.location.hostname}:8000/api`;
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
 
 export default function CBTProcessor({ userId, examId, subjectId, onExit, difficulty = 'medium', autoStart = false }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'

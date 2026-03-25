@@ -17,9 +17,12 @@ from agent_core.schemas import main_schemas
 from agent_core.core.agent import ExamAgent
 from agent_core.core import auth
 from typing import List, Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, validator
 from datetime import datetime, timedelta
 import random
+import html
+import re
+
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 
@@ -75,6 +78,10 @@ def get_categories():
 
 @app.post("/api/auth/register")
 def register(user_data: main_schemas.UserCreate, db: Session = Depends(get_db)):
+    # Validate username (Alphanumeric and underscores only to prevent injections)
+    if not re.match(r"^[a-zA-Z0-9_.-]{3,30}$", user_data.username):
+        raise HTTPException(status_code=400, detail="Username must be 3-30 characters long and contain only letters, numbers, underscores, dots, or dashes.")
+        
     # Check if user exists
     existing_user = db.query(main_models.User).filter(
         (main_models.User.username == user_data.username) | 
@@ -82,12 +89,18 @@ def register(user_data: main_schemas.UserCreate, db: Session = Depends(get_db)):
     ).first()
     if existing_user:
         raise HTTPException(status_code=400, detail="Username or Email already registered")
+
     
+    # Determine if user should be an admin based on environment variables
+    admin_emails = [e.strip() for e in os.getenv("ADMIN_EMAILS", "").split(",") if e.strip()]
+    is_admin_user = user_data.email in admin_emails
+
     # Create new user
     new_user = main_models.User(
         username=user_data.username,
         email=user_data.email,
-        hashed_password=auth.get_password_hash(user_data.password)
+        hashed_password=auth.get_password_hash(user_data.password),
+        is_admin=is_admin_user
     )
     db.add(new_user)
     db.commit()
@@ -108,14 +121,21 @@ def register(user_data: main_schemas.UserCreate, db: Session = Depends(get_db)):
 
 @app.post("/api/auth/login")
 def login(login_data: dict, db: Session = Depends(get_db)):
-    # Simplified login_data as dict for now, or could use a schema
     username = login_data.get("username")
     password = login_data.get("password")
     
     user = db.query(main_models.User).filter(main_models.User.username == username).first()
     if not user or not auth.verify_password(password, user.hashed_password):
         raise HTTPException(status_code=401, detail="Invalid username or password")
-    
+
+    # Sync admin status on every login — if email is in ADMIN_EMAILS, promote automatically
+    admin_emails = [e.strip() for e in os.getenv("ADMIN_EMAILS", "").split(",") if e.strip()]
+    should_be_admin = user.email in admin_emails
+    if should_be_admin and not user.is_admin:
+        user.is_admin = True
+        db.commit()
+        db.refresh(user)
+
     access_token = auth.create_access_token(data={"sub": user.username, "user_id": user.id})
     return {
         "access_token": access_token, 
@@ -254,10 +274,11 @@ def submit_answer(payload: SubmitPayload, current_user: main_models.User = Depen
         "medium": main_models.DifficultyLevel.MEDIUM,
         "hard": main_models.DifficultyLevel.HARD,
     }
+    safe_topic = html.escape(payload.topic.strip()) if payload.topic else "General"
     progress = main_models.UserProgress(
         user_id=payload.user_id,
         question_id=payload.question_id,
-        topic=payload.topic or "General",
+        topic=safe_topic,
         difficulty=diff_map.get(payload.difficulty, main_models.DifficultyLevel.MEDIUM),
         is_correct=payload.is_correct,
         attempt_date=datetime.utcnow()
@@ -275,19 +296,23 @@ class EssayPayload(BaseModel):
 async def grade_essay(payload: EssayPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     if payload.userId != current_user.id:
         raise HTTPException(status_code=403, detail="User ID mismatch in request payload")
-    if not payload.content.strip():
+    
+    # Sanitize content before passing to AI or storing
+    safe_content = html.escape(payload.content.strip())
+    
+    if not safe_content:
         raise HTTPException(status_code=400, detail="Essay content cannot be empty")
-    if len(payload.content) > 10000:
+    if len(safe_content) > 10000:
         raise HTTPException(status_code=400, detail="Essay too long (max 10,000 chars)")
     try:
         from agent_core.core.ai import AIEngine
-        result = await AIEngine.grade_essay_or_sop(payload.content, payload.criteria)
+        result = await AIEngine.grade_essay_or_sop(safe_content, html.escape(payload.criteria))
         
         # Persist feedback
         feedback = main_models.AIFeedback(
             user_id=payload.userId,
-            content_type=f"essay_{payload.criteria}",
-            input_text=payload.content,
+            content_type=f"essay_{html.escape(payload.criteria)}",
+            input_text=safe_content,
             feedback_json=result
         )
         db.add(feedback)
@@ -306,19 +331,23 @@ class InterviewPayload(BaseModel):
 async def interview_evaluate(payload: InterviewPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     if payload.userId != current_user.id:
         raise HTTPException(status_code=403, detail="User ID mismatch in request payload")
-    if not payload.answer.strip():
+    
+    safe_answer = html.escape(payload.answer.strip())
+    safe_question = html.escape(payload.question.strip())
+    
+    if not safe_answer:
         raise HTTPException(status_code=400, detail="Answer cannot be empty")
-    if len(payload.answer) > 5000:
+    if len(safe_answer) > 5000:
         raise HTTPException(status_code=400, detail="Answer too long (max 5,000 chars)")
     try:
         from agent_core.core.ai import AIEngine
-        result = await AIEngine.simulate_interview(payload.question, payload.answer)
+        result = await AIEngine.simulate_interview(safe_question, safe_answer)
         
         # Persist feedback
         feedback = main_models.AIFeedback(
             user_id=payload.userId,
             content_type="interview",
-            input_text=payload.answer,
+            input_text=safe_answer,
             feedback_json=result
         )
         db.add(feedback)
@@ -343,12 +372,18 @@ def get_user_stats_detailed(user_id: int, current_user: main_models.User = Depen
 async def chat_with_agent(user_id: int, request: dict, current_user: main_models.User = Depends(get_current_user)):
     if user_id != current_user.id:
         raise HTTPException(status_code=403, detail="Cannot chat as another user")
-    message = request.get("message")
+    
+    message = request.get("message", "")
+    safe_message = html.escape(message.strip())
+    if not safe_message:
+        raise HTTPException(status_code=400, detail="Message is required and cannot be empty")
+        
     history = request.get("history", [])
-    subject_context = request.get("subject_context")
-    if not message:
-        raise HTTPException(status_code=400, detail="Message is required")
-    response = await agent.chat(user_id=user_id, message=message, history=history, subject_context=subject_context)
+    safe_history = [{"role": h.get("role"), "text": html.escape(h.get("text", ""))} for h in history if "role" in h and "text" in h]
+    
+    safe_subject_context = html.escape(request.get("subject_context", "")) if request.get("subject_context") else None
+    
+    response = await agent.chat(user_id=user_id, message=safe_message, history=safe_history, subject_context=safe_subject_context)
     return {"response": response}
 
 @app.get("/api/history/{user_id}")
@@ -658,6 +693,21 @@ def get_system_stats(db: Session = Depends(get_db), admin: main_models.User = De
         "questions": total_questions
     }
 
+# In production, we assume a reverse proxy (like Nginx/Traefik) terminates SSL.
+# However, if running raw, we enforce HTTPS Redirection internally if asked.
+from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
+if os.getenv("ENFORCE_HTTPS", "False").lower() == "true":
+    app.add_middleware(HTTPSRedirectMiddleware)
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    # If standard SSL files exist in the certs directory, launch natively on HTTPS
+    ssl_cert = os.getenv("SSL_CERT_PATH", "agent_core/certs/cert.pem")
+    ssl_key = os.getenv("SSL_KEY_PATH", "agent_core/certs/key.pem")
+    
+    if os.path.exists(ssl_cert) and os.path.exists(ssl_key):
+        print("Launching Uvicorn natively with SSL/HTTPS...")
+        uvicorn.run(app, host="0.0.0.0", port=8000, ssl_certfile=ssl_cert, ssl_keyfile=ssl_key)
+    else:
+        print("Warning: SSL Certificates not found natively. We assume SSL is terminated via external Proxy (Nginx/Traefik).")
+        uvicorn.run(app, host="0.0.0.0", port=8000)

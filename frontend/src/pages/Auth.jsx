@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LogIn, UserPlus, Mail, Lock, User, ArrowRight, Loader2, Sparkles } from 'lucide-react';
+import { LogIn, UserPlus, Mail, Lock, User, ArrowRight, Loader2, Sparkles, Eye, EyeOff } from 'lucide-react';
 
-const API_BASE = `http://${window.location.hostname}:8000/api`;
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
 
 export default function Auth({ onLoginSuccess }) {
     const [isLogin, setIsLogin] = useState(true);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
     const [formData, setFormData] = useState({
         username: '',
         email: '',
@@ -136,13 +137,21 @@ export default function Auth({ onLoginSuccess }) {
                                              <Lock size={18} />
                                          </div>
                                          <input 
-                                             type="password"
+                                             type={showPassword ? 'text' : 'password'}
                                              required
                                              value={formData.password}
                                              onChange={(e) => setFormData({...formData, password: e.target.value})}
-                                             className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:border-primary/50 focus:ring-4 focus:ring-primary/10 transition-all"
+                                             className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-12 text-sm focus:outline-none focus:border-primary/50 focus:ring-4 focus:ring-primary/10 transition-all"
                                              placeholder="••••••••"
                                          />
+                                         <button
+                                             type="button"
+                                             onClick={() => setShowPassword(p => !p)}
+                                             className="absolute inset-y-0 right-4 flex items-center text-white/30 hover:text-primary transition-colors"
+                                             aria-label={showPassword ? 'Hide password' : 'Show password'}
+                                         >
+                                             {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+                                         </button>
                                      </div>
                                  </div>
 

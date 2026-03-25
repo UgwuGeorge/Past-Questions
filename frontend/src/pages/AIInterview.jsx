@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 import { Mic, MicOff, Sparkles, ChevronLeft, Send, User, Bot, Brain, Star, ChevronRight } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api`;
 
 const SEGMENT_QUESTIONS = [
     "Tell me about yourself and why you are applying for this scholarship.",
