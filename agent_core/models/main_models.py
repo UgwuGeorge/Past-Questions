@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, JSON, Floa
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
-from ..database import Base
+from agent_core.database import Base
 
 class ExamType(enum.Enum):
     CBT = "cbt"
