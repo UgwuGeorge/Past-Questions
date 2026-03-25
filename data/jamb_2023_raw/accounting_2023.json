@@ -1,0 +1,631 @@
+[
+  {
+    "id": 922,
+    "question": "Goodwill can be introduced when",
+    "option": {
+      "a": "the business suffers high loss",
+      "b": "the business is being expanded",
+      "c": " the partnership experience super profit",
+      "d": "a new member is admitted",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The circumstances giving rise to the ascertainment of goodwill are:\n- admission of a new partner\n- change in profit sharing ratio\n- death or retirement of a partner\n- the business has been purchased\n- dissolution of a business",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 889,
+    "question": "From the following information: Debtors opening balance is ₦4,000, Debtors closing balance is ₦1,500, Cash received from debtors amounts to ₦8,500, Bad debts written off total ₦350, Discount allowed is ₦500, and Discount received is ₦1,000. What is the amount of sales for the year?",
+    "option": {
+      "a": "₦6,850",
+      "b": "₦6,650",
+      "c": "₦3,850",
+      "d": "₦1,550",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Sales = Closing Debtors + Cash Received + Bad Debts Written Off + Discount Allowed - Opening Debtors\nCalculation:\n\nClosing Debtors: ₦1,500\nAdd: Cash received from debtors: ₦8,500\nAdd: Bad debts written off: ₦350\nAdd: Discount allowed: ₦500\nLess: Opening Debtors: ₦4,000\n\nSales = ₦1,500 + ₦8,500 + ₦350 + ₦500 - ₦4,000 = ₦6,850",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 924,
+    "question": "Given:\n\nI. Settlement of debts\nII. Cessation of business\nIII. Introduction of assets\nIV. Disposal of assets\n\nWhich of these constitutes dissolution of partnership?",
+    "option": {
+      "a": "I, II and III only",
+      "b": "I, II and IV only",
+      "c": ". II and IV only",
+      "d": "II and III and IV only",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Dissolution involves wrapping up operations, paying debts, and selling assets—not introducing new ones.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 911,
+    "question": "The account where the profit are distributed to the partner in their profit sharing ratio in partnership",
+    "option": {
+      "a": "appropriation account",
+      "b": "profit and loss account",
+      "c": "balance sheet",
+      "d": "trading account",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "For a partnership, the primary purpose of the appropriation account is to show how profits are distributed among the partners.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 918,
+    "question": "From the Sales Ledger Control Account shown, which displays various transactions including: Balance brought forward of ₦3,250, Sales of ₦19,075, Dishonoured cheque of ₦625, Stopped cheque of ₦250, and Balance carried down of ₦230 on the debit side; and Balance brought forward of ₦215, Bank of ₦16,387.50, Discount of ₦862.50, Returns inwards of ₦325, Set off of ₦900, and Balance carried down of ₦4,740 on the credit side, with both sides totaling ₦23,430. The amount ₦19,075 represents?",
+    "option": {
+      "a": "the double entry for the total sales account",
+      "b": " total sales for the month",
+      "c": "credit sales",
+      "d": "cash sales for the month",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "In a Sales Ledger Control Account, the figure ₦19,075 (appearing on the debit side) represents credit sales only — not total sales or cash sales.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 888,
+    "question": "The following appears in the trading account except",
+    "option": {
+      "a": " carriage inward",
+      "b": " opening stock",
+      "c": " carriage outward",
+      "d": "sales",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Carriage outward is an expenses and it does not appear in the trading account but appears in the profit and loss account.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 910,
+    "question": "An evidence of payment issued to a government ministry by a revenue collector is",
+    "option": {
+      "a": "treasury card",
+      "b": "payment voucher",
+      "c": " treasury receipt",
+      "d": " receipt voucher",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Receipt voucher are documents used for acknowledgement the receipt of public revenue. They must be issued out anytime revenue is collected by government ministries.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 906,
+    "question": "Capital for a profit making organization is generated through",
+    "option": {
+      "a": "gift",
+      "b": "donation",
+      "c": "shares",
+      "d": "subscription",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Shares can be issued to the public for subscription. A lot of money can be raised to finance the operation of the business through the issue of new shares to members of the public.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 913,
+    "question": "A double entry for a transaction that offsets one amount against another on both sides of the cashbook is a",
+    "option": {
+      "a": "original entry",
+      "b": "contract entry",
+      "c": "prime entry",
+      "d": " contra entry",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Contra entry shows that cash has been withdrawn from the office and deposited in the bank or withdrawals of cash from bank for office use. Contra entries affect both cash and bank accounts.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 909,
+    "question": "Which of these is not method of stock valuation?",
+    "option": {
+      "a": "FIFO method",
+      "b": " Base method",
+      "c": "Standard method",
+      "d": " LIFO method",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The methods of stock valuation are: FIFO, LIFO, Weighted Average Price Method, Simple Average Price Method, Base stock method.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 917,
+    "question": "From the Sales Ledger Control Account shown, which displays various transactions including: Balance brought forward of ₦3,250, Sales of ₦19,075, Dishonoured cheque of ₦625, Stopped cheque of ₦250, and Balance carried down of ₦230 on the debit side; and Balance brought forward of ₦215, Bank of ₦16,387.50, Discount of ₦862.50, Returns inwards of ₦325, Set off of ₦900, and Balance carried down of ₦4,740 on the credit side, with both sides totaling ₦23,430. The amount ₦16,378.50 described as \"Bank\" represents what?",
+    "option": {
+      "a": " receipts from trade debtors only",
+      "b": " cash sales for the month including discount",
+      "c": "receipts from all debtors of the business",
+      "d": "cash sales for the month excluding discount",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "In a Sales Ledger Control Account, the \"Bank\" entry on the credit side specifically represents cash received from trade debtors (customers who owed money from credit sales).",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 920,
+    "question": "When expenses are paid on behalf of the venture, the accounting entries is to debit",
+    "option": {
+      "a": "expenses account and credit bank account",
+      "b": " bank account and credit joint venture account",
+      "c": "joint venture account and credit bank account",
+      "d": "joint venture account and credit expenses account",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Expenditure paid on bahalf of joint venture\nAccountint entries:\nDr: Joint venture account\nCr: Bank account",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 887,
+    "question": "The authority warrant issued prior to the approval of the appropriate bill at the begining of the year",
+    "option": {
+      "a": "contigencies",
+      "b": "reserved expenditure warrant",
+      "c": " annual general warrant",
+      "d": "provisional general warrant",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Provisional general warrant is used to release fund for the payment of emolument and other services before the budget is approved. It will be in operation for four months.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 896,
+    "question": "Subscription in advance is treated in the balance sheet as a",
+    "option": {
+      "a": " fixed asset",
+      "b": "long term liability",
+      "c": "current asset",
+      "d": "current liability",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Subscription in advance is the sum of money prepaid by the members of club representing their dues for next year. It is treated as a liability in the balance sheet.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 915,
+    "question": "Discount allowed is enjoyed by",
+    "option": {
+      "a": "managers",
+      "b": "customers",
+      "c": " staff of the company",
+      "d": "suppliers",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Discount allowed is allowed by a firm to its customers when they pay their accounts quickly or promptly.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 923,
+    "question": "Which fund is used to meet unforeseen or urgent expenditure",
+    "option": {
+      "a": "special fund",
+      "b": " contigencies fund",
+      "c": "general reserve fund",
+      "d": " consolidated reserve fund",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Contigency fund is established by the constitution of 1979 to take care of any nation disaster or unforeseen circumstances.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 893,
+    "question": "One of the options below is not the source of income for non - profit organization",
+    "option": {
+      "a": " ordinary shares",
+      "b": "donations",
+      "c": "subscription/dues",
+      "d": "entrance fees",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Subscription is the contribution made by the members to the club or society at regular intervals. It can be paid by members in advance or in arrears.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 885,
+    "question": "The following are importance of branch account except",
+    "option": {
+      "a": "it allows fraud and wastage of resources",
+      "b": "it assist the organization to determine the performance of a branch manager",
+      "c": "it enable the organization to determine the branch that is making either profit or loss",
+      "d": "it allows proper control over the branch by the head office",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Branch accounts are intended to improve control, oversight, and performance evaluation of individual branches—not to facilitate fraud or resource wastage. The other options correctly describe benefits of maintaining branch accounts.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 912,
+    "question": "The main purpose of transaction file is?",
+    "option": {
+      "a": "to record assets and liabilities",
+      "b": "to update income and expenses",
+      "c": "to make organization decision",
+      "d": " to update master files",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "A transaction file is used to hold data during transaction processing. The file is later used to update the master file and audit daily, weekly or monthly transactions.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 898,
+    "question": "When goods are received from head office, head office will be credited while",
+    "option": {
+      "a": "sales will be debited",
+      "b": "requisition will be debited",
+      "c": " issue will be debited",
+      "d": "purchases will be debited",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Goods received from head office\nAccounting entries:\nDr: Purchase account\nCr: Head office current account",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 903,
+    "question": "The effect of transaction when cash is paid into the bank is?",
+    "option": {
+      "a": "bank balance decrease and cash balance increase",
+      "b": "cash balance decrease and bank balance increase",
+      "c": " bank balance decrease and cash balance decrease",
+      "d": "cash balance increase and bank balance increase",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "When cash is paid into the bank, the cash balance decreases because you are taking cash out of your possession and depositing it into the bank. On the other hand, your bank balance increases because you are adding money to your bank account. Therefore, the effect of the transaction is that the cash balance decreases and the bank balance increases.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 894,
+    "question": "Which of these is the main source document for recording cash paid into bank?",
+    "option": {
+      "a": "invoice",
+      "b": " credit note",
+      "c": "cheque book",
+      "d": " pay-in-slip",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "A pay-in-slip is a bank deposit that is used to deposit money into a bank account. It includes information such as date, account number, amount to be paid etc.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 899,
+    "question": "Changes in the profit sharing ratio may occur as a result of\n\nI. skill contributed by partners\nII. health status\nIII. old age\nIV. Intangible asset increase",
+    "option": {
+      "a": " I, III and IV",
+      "b": " I and III",
+      "c": "I, II and III",
+      "d": " I, II and IV",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Changes in the profit‐sharing ratio typically arise from partners contributing additional resources or from partners leaving the firm.\n\nI. Skill contributed by partners can justify a larger share of profits if one partner brings specialized expertise.\n\nIII. Old age may lead a partner to retire or reduce involvement, prompting a reallocation of profit shares.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 890,
+    "question": "The principle of double entry developed from the axioms of accounting equation is given as",
+    "option": {
+      "a": " Liabilties + Equity = Net assets",
+      "b": "Assets + Equity = Liabilities",
+      "c": "Liabilities + Equity = Assets",
+      "d": " Assets + Liability = Equity",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The accounting equation states that:\n- Capital( Equity) = Assets - Liabilities\n- Assets = Capital (Equity) - Liabilties\n- Liabilties = Assets - Capital (Equity)\n- Equity(Capital ) = Assets",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 919,
+    "question": "An advantage of FIFO method of stock valuation is that",
+    "option": {
+      "a": " it is calculated at the end of the year",
+      "b": " its flow of cost is in sequence with the flow of stock",
+      "c": " it is progressive in nature",
+      "d": " it serves as a control during inflation",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "One of the advantages of FIFO method is that the stock received first will be issued out first thereby reducing the problem of deterioration or obsolesence and also items are issued in order of receipt therefore, it is realistic.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 905,
+    "question": "Salaries in arrears is treated in the balance sheet as a",
+    "option": {
+      "a": "current asset",
+      "b": " current liability",
+      "c": " long term liability",
+      "d": "fixed asset",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Salaries in arreas is an unpaid salary with amount due from the past. It is treated as current liabilities in the balance sheet.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 914,
+    "question": "When starting with the cash book balance in preparing the bank reconciliation statement, the followings are added except",
+    "option": {
+      "a": "uncredited cheque",
+      "b": "credit transfer",
+      "c": " dividend",
+      "d": "unpresented cheque",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "When starting with balanace as per cash book, unpresented cheques, dividend, credit transfers are added while uncredited cheques, bank charges, dishonoured cheuqes, standing order are substracted.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 892,
+    "question": "Accounting entry for dissolution expenses is",
+    "option": {
+      "a": "Dr : Partnership account ;Cr: Realization account",
+      "b": "Dr: Revaluation account; Cr: Partnership account",
+      "c": "Dr: Realization account; Cr: Cash account",
+      "d": "Dr: Partners current account; Cr: Realization account",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "When dissolution expenses are paid, the Realization account is debited because it represents the expenses related to the dissolution of the partnership. The Cash account is credited because cash is going out of the business to pay for these expenses. Hence, the correct accounting entry is 'Dr: Realization account; Cr: Cash account'.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 908,
+    "question": "From the following information: Plant and Machinery is valued at ₦190,000, Motor Vehicle at ₦170,000, Stock at ₦60,000, Current Liabilities amount to ₦50,000, and Purchase consideration is ₦400,000. What is the goodwill?",
+    "option": {
+      "a": "₦110,000",
+      "b": " ₦30,000",
+      "c": " ₦90,000",
+      "d": " ₦80,000",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Net assets = ₦190,000 + ₦170,000 + ₦60,000 – ₦50,000 = ₦370,000\n\nGoodwill = ₦400,000 – ₦370,000 = ₦30,000",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 897,
+    "question": "From the following bank reconciliation information: Balance as per cash book is ₦5,467, Uncredited cheques amount to ₦4,410, and Unpresented cheques total ₦19,404. What is the balance as per bank statement?",
+    "option": {
+      "a": "₦20,461",
+      "b": "₦21,091",
+      "c": "₦21,109",
+      "d": " ₦19,021",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Balance per bank statement = Balance per cash book + Unpresented cheques − Uncredited cheques\n= ₦5,467 + ₦19,404 − ₦4,410\n= ₦20,461",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 921,
+    "question": "The discount column on the left-hand side of cash book represents a discount",
+    "option": {
+      "a": "received from a debtor",
+      "b": " allowed to a creditor",
+      "c": "allowed to a debtor",
+      "d": "received from a creditor",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The discount on the left hand side is known as discount allowed and it is given by a firm to its customers when they pay their accounts quickly or promptly.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 902,
+    "question": "Which of the following is used to service all operations of government?",
+    "option": {
+      "a": " general reserve fund",
+      "b": "consolidated revenue fund",
+      "c": " special operational fund",
+      "d": " consolidated reserve fund",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Consolidate revenue fund shows the total income derived by the government from all the sources of revenue.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 904,
+    "question": "Which of these is not a subsidiary books?",
+    "option": {
+      "a": "sales day book",
+      "b": "purchase day book",
+      "c": "credit note",
+      "d": " return inward day book",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The subsidiary book is a book of original entr or prime entry which consists of: purchases day book, sales day book, returns inwards day book, returns outward day book, cash book, journal, petty cash book.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 891,
+    "question": "A part of public company's profit belonging to the shareholders is",
+    "option": {
+      "a": " right issue",
+      "b": "bonus",
+      "c": "dividends",
+      "d": " public issue",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Dividends are a part of a public company's profit that is distributed to shareholders. It is a way for companies to distribute a portion of their earnings back to their shareholders. Public issue, bonus, and right issue are not parts of a company's profit that belong to the shareholders.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 916,
+    "question": "In manufacturing, depreciation of office machine is charged to",
+    "option": {
+      "a": "trading account",
+      "b": "balance sheet",
+      "c": " appropriation account",
+      "d": "profit and loss account",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Depreciation of office machine equipment is an administration expenses. Administration expenses comprises of cost of accounting and secretarial work.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 907,
+    "question": "One of the options below have the same features as the profit and loss account in non-profit organization",
+    "option": {
+      "a": " non profit account",
+      "b": " profit and loss account",
+      "c": " income and expenditure account",
+      "d": "receipts and payment account",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The income and expenditure account shows the summary of revenue and running costs of a non-profit making organization. It follows the same principles as the profit and loss account of a trading concern.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 886,
+    "question": "The use of three column cash book is determined by",
+    "option": {
+      "a": "trade discount",
+      "b": "cash transaction",
+      "c": "bank transaction",
+      "d": "cash discount",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The cash discount is allowed for prompt payment of an account or for payment within a specified period of time. It is divided into discount allowed and discount received.",
+    "examtype": "utme",
+    "examyear": "2023"
+  }
+]

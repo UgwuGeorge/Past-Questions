@@ -1,0 +1,682 @@
+[
+  {
+    "id": 378,
+    "question": "A radio message sent from a location on Longitude 15°W at 7.00 a.m is received at another location at 2.00 p.m on the same day. What is the longitudinal position of the other location?",
+    "option": {
+      "a": "90°W",
+      "b": "105°E",
+      "c": "75°W",
+      "d": "105°W",
+      "e": "90°E"
+    },
+    "section": "",
+    "image": "",
+    "answer": "e",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 434,
+    "question": "Which of the following farming system is likely to give rise to nucleated settlements?",
+    "option": {
+      "a": "Irrigation farming",
+      "b": "Subsistence farming",
+      "c": "Large-scale farming",
+      "d": "Grazing",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 85,
+    "question": "Commercial grape cultivation is associated with?  ",
+    "option": {
+      "a": "cool temperature climate  ",
+      "b": "monsoon regions  ",
+      "c": "Mediterranean regions  ",
+      "d": "Montane climate ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2009"
+  },
+  {
+    "id": 218,
+    "question": "A lines drawn on a maps to show places of equal rainfall is called ",
+    "option": {
+      "a": "Rainline ",
+      "b": "Isotope ",
+      "c": "Isotherm ",
+      "d": "Hydrotope ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 3,
+    "question": "The scale of a map is the ratio between the  ",
+    "option": {
+      "a": "distance over the land and the distance over the water ",
+      "b": "distance on the map and the distance on the globe ",
+      "c": "vertical and horizontal differences  ",
+      "d": "distance on the map and that on the earth’s surface ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 57,
+    "question": "“High uniform temperature and heavy well distributed rainfall throughout the year” described ",
+    "option": {
+      "a": "Equaterial rainforest climate  ",
+      "b": "Mid altitude friendly environment  ",
+      "c": "the zone of forest with a lot of agricultural potentials  ",
+      "d": "the great Amazon basin including the Brazilian forests",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 312,
+    "question": "The equatorial circumference of the earth is",
+    "option": {
+      "a": "30,084 km",
+      "b": "40,084 km",
+      "c": "60,084 km",
+      "d": "20,084km",
+      "e": "50,084 km"
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 226,
+    "question": "Precipitation include all the following except ",
+    "option": {
+      "a": "Fog",
+      "b": "Snow ",
+      "c": "Dust   ",
+      "d": "Dew ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 148,
+    "question": "Akosomo dam is on the River  ",
+    "option": {
+      "a": "Niger  ",
+      "b": "Nile  ",
+      "c": "Congo  ",
+      "d": "Volta",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 189,
+    "question": "Temperature is a measure of: ",
+    "option": {
+      "a": "The average hotness",
+      "b": "The average coolness",
+      "c": "The average heat. ",
+      "d": "The average emission.",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 383,
+    "question": "The rock type that is not likely to produce rich agricultural soil after weathering is",
+    "option": {
+      "a": "Graphite",
+      "b": " Limestone",
+      "c": "Volcanic rock",
+      "d": "Granitic rock",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2019"
+  },
+  {
+    "id": 209,
+    "question": "Freetown is a: ",
+    "option": {
+      "a": "North African City ",
+      "b": "West African City ",
+      "c": "South African City ",
+      "d": "East African City ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 280,
+    "question": "The following lakes have outlets to the sea Except lake",
+    "option": {
+      "a": "Chad",
+      "b": "Michigan",
+      "c": "Victoria",
+      "d": "Michigan",
+      "e": "Athabasca"
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2017"
+  },
+  {
+    "id": 227,
+    "question": "The location of iron and steel industry at Ajaokuta in Nigeria is best explained by the presence of ",
+    "option": {
+      "a": "Limestone and coal  ",
+      "b": "Iron ore   ",
+      "c": "Bauxite  ",
+      "d": "Manganese ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 45,
+    "question": "Which of the following is correct?  ",
+    "option": {
+      "a": "The Canaries current is cold and washes the coast of NE Africa  ",
+      "b": "The Peruvian current is warm and washes the West coast of America  ",
+      "c": "The Gulf stream is warm and moves north eastward on the Atlantic  ",
+      "d": "The middle east current is warm and washes the coast of Saudi Arabia ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2007"
+  },
+  {
+    "id": 240,
+    "question": "Which of the following lakes owes its origin mainly to faulting",
+    "option": {
+      "a": "Lake Victoria",
+      "b": "Lake Malawi",
+      "c": "Lake Superior",
+      "d": "Lake Kariba",
+      "e": "Lake Chad"
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 430,
+    "question": "The most significant economic use of ocean water is for",
+    "option": {
+      "a": "Bathing",
+      "b": "Recreation",
+      "c": "Drinking",
+      "d": "Transportaion",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 272,
+    "question": "Which of the following minerals is produced in Niger Republic?",
+    "option": {
+      "a": "Uranium",
+      "b": "Crude oil",
+      "c": "Copper",
+      "d": "Tin and Columbite",
+      "e": "Steel"
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 132,
+    "question": "Which of the following statements is not true for lines of latitudes?",
+    "option": {
+      "a": "they range from 00 to 1800 North and South ",
+      "b": "they range from 00 to 900 North and South ",
+      "c": "They vary in D. they form parallel circles",
+      "d": "only one line is a great circle.",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 72,
+    "question": "Which of the following Nigerian towns is Not situated near a big river? ",
+    "option": {
+      "a": "Lokoja ",
+      "b": "Onitsha  ",
+      "c": "Jebba  ",
+      "d": "Abuja",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 101,
+    "question": "Campos is the name for the grassland in  ",
+    "option": {
+      "a": "North America  ",
+      "b": "South America  ",
+      "c": "Africa  ",
+      "d": "Asia ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 137,
+    "question": "The representative fraction of 1:50,000 can be converted to the following  ",
+    "option": {
+      "a": "one cm to 5km  ",
+      "b": "one cm to 0.05km  ",
+      "c": "one cm to 2km  ",
+      "d": "one cm to 4km  ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2011"
+  },
+  {
+    "id": 214,
+    "question": "The World largest Ocean is: ",
+    "option": {
+      "a": "Pacific Ocean ",
+      "b": "Atlantic Ocean ",
+      "c": "Indian Ocean ",
+      "d": "Arctic Ocean ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 159,
+    "question": "Sandstone is metamorphosed into  ",
+    "option": {
+      "a": "Slate  ",
+      "b": "Quartzite  ",
+      "c": "Schiest  ",
+      "d": "Graphite ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 93,
+    "question": "Which one of these is not a thermometric scale:  ",
+    "option": {
+      "a": "Celsius  ",
+      "b": "Kelvin  ",
+      "c": "Fahrenheit  ",
+      "d": "Octas ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 397,
+    "question": "If a map at scale of 1:50,000 is reduced by half, what is the scale of the new map?",
+    "option": {
+      "a": "1:100,000",
+      "b": "1:750,000",
+      "c": "1:200,000",
+      "d": "1:25,000",
+      "e": ""
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2020"
+  },
+  {
+    "id": 237,
+    "question": "Which of these is a textual classification of soils?",
+    "option": {
+      "a": "Rounded, Irregular, and Flat",
+      "b": "Angular, Prismatic and Columnar",
+      "c": "Rounded, Pebbles, and Silt",
+      "d": "Angular, Sand, and Clay",
+      "e": "Sand, Loamy, and Clay"
+    },
+    "section": "",
+    "image": "",
+    "answer": "e",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following scales should show the greatest amount of detail on a map?  ",
+    "option": {
+      "a": "1:50,000  ",
+      "b": "1:500,000  ",
+      "c": "1:20,000  ",
+      "d": "1:200,000",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2006"
+  },
+  {
+    "id": 142,
+    "question": "What is the Centigrade equivalent of 950 Fahrenheit? ",
+    "option": {
+      "a": "1390C  ",
+      "b": "37.20C  ",
+      "c": "350C",
+      "d": "3.60C",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2012"
+  },
+  {
+    "id": 215,
+    "question": "Dominican Republic is in: ",
+    "option": {
+      "a": "Europe ",
+      "b": "Africa ",
+      "c": "America ",
+      "d": "Asia ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 70,
+    "question": "Which of the following countries has a large number of people of Africa descent? ",
+    "option": {
+      "a": "England  ",
+      "b": "Canada  ",
+      "c": "Chile  ",
+      "d": "Brazil ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2008"
+  },
+  {
+    "id": 203,
+    "question": "The ethnic groups in Nigeria are: ",
+    "option": {
+      "a": "More than 250  ",
+      "b": "More than 150   ",
+      "c": "More than 100   ",
+      "d": "Less than 150 ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 219,
+    "question": "Wind erosion is most common in ",
+    "option": {
+      "a": "Rocky areas ",
+      "b": "Riverine areas ",
+      "c": "Arid areas ",
+      "d": "Humid areas ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 259,
+    "question": "From a point, the whole circle bearing of a line is 135°. A clockwise angle from the line was measured to be 260° to another line. What is the whole circle bearing of the later line?",
+    "option": {
+      "a": "225°",
+      "b": "35°",
+      "c": "125°",
+      "d": "395°",
+      "e": "90°"
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2016"
+  },
+  {
+    "id": 216,
+    "question": "The World Longest Coastlines is in: ",
+    "option": {
+      "a": "Austria ",
+      "b": "England  ",
+      "c": "United States of America ",
+      "d": "Canada ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 224,
+    "question": "Which of the following is a major hindrance to H.E.P.",
+    "option": {
+      "a": "Inadequate capital  ",
+      "b": "Unavailability of good sites  ",
+      "c": "Absence of domestic market  ",
+      "d": "Sufficient volume of water  ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 352,
+    "question": "A type of landforms that is associated with large scale orogeny is a",
+    "option": {
+      "a": "Fold mountain",
+      "b": "Residual mountain",
+      "c": "Block mountain",
+      "d": "Volcanic mountain",
+      "e": "OX-bow lake"
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2018"
+  },
+  {
+    "id": 97,
+    "question": "Sandstone is metamorphosed into  ",
+    "option": {
+      "a": "Slate  ",
+      "b": "Schist  ",
+      "c": "graphite  ",
+      "d": "Quartzite ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "post-utme",
+    "examyear": "2010"
+  },
+  {
+    "id": 198,
+    "question": "A valley is a:   ",
+    "option": {
+      "a": "Highland between hills",
+      "b": "Lowland between hills",
+      "c": "Rock between hills",
+      "d": "Highland between trees. ",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "",
+    "examtype": "post-utme-aaua",
+    "examyear": "2014"
+  },
+  {
+    "id": 320,
+    "question": "The bearing of Jata from Adaba is approximately",
+    "option": {
+      "a": "29°",
+      "b": "17°",
+      "c": "21°",
+      "d": "25°",
+      "e": "30°"
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1632582574/ALOC-Questions/Geography/UTME/JAMB%20GEOGRAPHY%202016_2020/Geography_2018_03_and_07_byo7zc.jpg",
+    "answer": "c",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2018"
+  }
+]

@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1037,
+    "question": "Civil servants are typically protected by",
+    "option": {
+      "a": "Military forces and security agencies",
+      "b": "Civil service commission",
+      "c": "Trade union and labour laws",
+      "d": "Human rights organizations",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Civil servants are typically protected by the Civil Service Commission. The Civil Service Commission is a government agency that is responsible for the appointment, promotion, and discipline of civil servants.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1024,
+    "question": "In a parliamentary system, the head of government is usually the",
+    "option": {
+      "a": "Chief Justice",
+      "b": "King or Queen",
+      "c": "President",
+      "d": "Prime minister",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "In a parliamentary system, the head of government is usually the Prime Minister. The Prime Minister is the leader of the political party that has the most seats in the parliament. The Prime Minister is responsible for running the government and implementing its policies. The President or the Monarch, if there is one, is usually the head of state and performs ceremonial duties.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1022,
+    "question": "__________ was a major factor that contributed to the rise of the Sokoto Caliphate.",
+    "option": {
+      "a": "Agricultural revolution.",
+      "b": "Slave trade",
+      "c": "European colonization",
+      "d": " Islamic Jihad",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Islamic Jihad was a major factor that contributed to the rise of the Sokoto Caliphate. The Sokoto Caliphate was an Islamic state in what is now northern Nigeria, led by Usman dan Fodio, who led a jihad to spread Islam in the region.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1033,
+    "question": "Which Nigerian leader advocated for the New Partnership for Africa's Development(NEPAD)?",
+    "option": {
+      "a": "Olusegun Obasanjo",
+      "b": "Yakubu Gowon",
+      "c": "Muhammadu Buhari",
+      "d": "Shehu Shagari",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The New Partnership for Africa's Development (NEPAD) was advocated for by Olusegun Obasanjo, who was the President of Nigeria from 1999 to 2007. NEPAD is a socio-economic development tool of the African Union that aims to provide an overarching vision and policy framework for accelerating economic co-operation and integration among African countries.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1040,
+    "question": "Jus Sanguinis is a principle that grants citizenship based on",
+    "option": {
+      "a": " parental citizenship",
+      "b": " place of birth",
+      "c": "ethnic background",
+      "d": "length of residency",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Jus Sanguinis is a principle of nationality law by which citizenship is determined or acquired by the nationality or ethnicity of one or both parents. This contrasts with jus soli, which is a principle by which citizenship is determined by place of birth.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1027,
+    "question": "Which of the following is the basic unit of a local government in Nigeria?",
+    "option": {
+      "a": "State assembly",
+      "b": "Ward",
+      "c": " Local Council Development Area(LCDA)",
+      "d": " Ministry of Local government",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The basic unit of a local government in Nigeria is the Ward. A local government area is divided into wards, each of which is represented by a councillor. Local Council Development Areas (LCDAs), state assemblies, and the Ministry of Local government are not the basic units of local government",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1005,
+    "question": "Which of the following is a limitation of pressure groups?",
+    "option": {
+      "a": "They only represent the interests of the wealthy.",
+      "b": "They have no influence on the government policies",
+      "c": "They may prioritize their own interests over the public interest",
+      "d": "They often resort to violent tactics",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Pressure groups may prioritize their own interests over the public interest. This is because pressure groups are formed by individuals or organizations with specific interests or objectives. They aim to influence public policy and decision-making in favor of their interests, which may not always align with the broader public interest.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1000,
+    "question": "During the cold war, Nigeria's foreign policy was characterized by",
+    "option": {
+      "a": "alignment with the United States",
+      "b": "Neutrality and non-alignment",
+      "c": "Pursuit of colonial interest",
+      "d": " alignment with the Soviet Union",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "During the cold war, Nigeria's foreign policy was characterized by Neutrality and non-alignment. This is because Nigeria did not want to be seen as taking sides in the ideological war between the United States and the Soviet Union. Instead, Nigeria pursued a policy of neutrality and non-alignment, focusing on its own national interests and the promotion of peace and stability in Africa.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1041,
+    "question": "which pre-colonial Nigerian Kingdom was known for its artistic and cultural achievement?",
+    "option": {
+      "a": "Nupe",
+      "b": "Igbo",
+      "c": "Kanem-Bornu",
+      "d": "Benin",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The Benin Kingdom, in pre-colonial Nigeria, was known for its artistic and cultural achievements. The kingdom was renowned for its brass sculptures, its ivory carvings, and its palace architecture. The Benin Kingdom's art was so highly valued that it influenced the development of modern Western art.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1034,
+    "question": "Which African country experienced a violent resistance movement against British colonial rule known as the Mau Mau rebellion?",
+    "option": {
+      "a": "Sudan",
+      "b": "Kenya",
+      "c": "Ghana",
+      "d": "Nigeria",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The Mau Mau rebellion was a military conflict that took place in British Kenya between 1952 and 1960. It was a violent resistance movement against British colonial rule. The Mau Mau, a secret society that was predominantly Kikuyu, initiated the conflict with the goal of removing British rule and European settlers from the country.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1010,
+    "question": "If the president refuses to sign a bill within a specific period, it can still become a law through",
+    "option": {
+      "a": " legislative override",
+      "b": "none of the above",
+      "c": "judicial review",
+      "d": "public petition",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "If the president refuses to sign a bill within a specific period, it can still become a law through legislative override. This means that if a sufficient majority of the legislature votes in favor of the bill, they can override the president's veto and the bill becomes law.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1009,
+    "question": "Which of the following is a feature of Nigerian Federalism?",
+    "option": {
+      "a": "Single-party system",
+      "b": " Centralized fiscal system",
+      "c": "Autonomy of local government",
+      "d": "Strong central government",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "A feature of Nigerian Federalism is the autonomy of local government. This means that local governments have the power to govern themselves in certain areas. A strong central government, a single-party system, and a centralized fiscal system are not features of Nigerian Federalism.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1004,
+    "question": "What is the main source of funding for public corporations in Nigeria?",
+    "option": {
+      "a": "Government budget allocations",
+      "b": "Foreign aid",
+      "c": " Revenues generated from their operations",
+      "d": "Donations from private companies",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The main source of funding for public corporations in Nigeria is Government budget allocations. Public corporations are owned and operated by the government, and their operations are funded through the government's budget. This is different from private corporations, which are funded through private investments and revenues generated from their operations.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1019,
+    "question": "In a communist system, who owns and controls the means of production?",
+    "option": {
+      "a": "corporations",
+      "b": "The government",
+      "c": "private individuals",
+      "d": " non-profit organizations",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "In a communist system, the means of production are owned and controlled by the government. This is because communism advocates for a classless society where wealth and power are distributed equally among the citizens. Therefore, the government controls the means of production to ensure this equal distribution.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1007,
+    "question": "What is the term for a system of government in which power is held by a small group of people?",
+    "option": {
+      "a": "Oligarchy",
+      "b": "Monarchy",
+      "c": "Theocracy",
+      "d": "Democracy",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "An oligarchy is a system of government in which power is held by a small group of people. This can be contrasted with a democracy, where power is held by the people, or a monarchy, where power is held by a single individual.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1012,
+    "question": "Pressure groups primarily aim to",
+    "option": {
+      "a": "promote social equality and justice",
+      "b": "gain political power and control",
+      "c": " influence public opinion through media campaigns",
+      "d": "disrupt the functioning of the government",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Pressure groups primarily aim to influence public opinion through media campaigns. They use various forms of advocacy to shape the perceptions and attitudes of the public towards certain issues, with the goal of influencing policy and decision-making in their favor.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1035,
+    "question": "Public corporations and parastatals are typically established by",
+    "option": {
+      "a": "private individuals",
+      "b": " legislative acts and statutes",
+      "c": "trade unions",
+      "d": "International organizations",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Public corporations and parastatals are typically established by legislative acts and statutes. These are government-owned entities created to undertake commercial activities on behalf of the government.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1032,
+    "question": "The process of selecting candidates to represent a political party in elections is known as",
+    "option": {
+      "a": "campaigning",
+      "b": "primaries",
+      "c": "electioneering",
+      "d": "lobbying",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The process of selecting candidates to represent a political party in elections is known as primaries. In the primary election, party members or delegates vote for their preferred candidate from a list of candidates. The winner of the primary election becomes the party's candidate in the general election.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1028,
+    "question": "The civil service in Nigeria operates under the principle of",
+    "option": {
+      "a": "autonomy",
+      "b": " separation of powers",
+      "c": "none of the above",
+      "d": "meritocracy",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The civil service in Nigeria operates under the principle of meritocracy. This means that positions and promotions in the civil service are based on merit, rather than factors such as political affiliation or personal connections. This is intended to ensure that the civil service is staffed by competent and qualified individuals.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1013,
+    "question": "n which system of government is the executive and legislature fused?",
+    "option": {
+      "a": "Cabinet",
+      "b": "Presidential",
+      "c": "Unitary",
+      "d": "Federal",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "All members of the executive are part of the legislature.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1038,
+    "question": "The judiciary checks the other arms of government through",
+    "option": {
+      "a": "Judicial recall",
+      "b": " Judicial precedence",
+      "c": " Judicial review",
+      "d": "Judicial oversight",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The judiciary checks the other arms of government through judicial review. Judicial review is a process under which executive and legislative actions are subject to review by the judiciary. This is a key aspect of the separation of powers.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1002,
+    "question": "Which of the following is a right associated with citizenship?",
+    "option": {
+      "a": "Right to education",
+      "b": "Right to vote",
+      "c": "Right to privacy",
+      "d": "Right to property",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The right to vote is a right associated with citizenship. This is because voting is a fundamental way in which citizens participate in the democratic process. Other rights associated with citizenship include the right to run for public office, the right to work, and the right to receive government services.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 998,
+    "question": "Who is the current chairperson of ECOWAS?",
+    "option": {
+      "a": "Bola Ahmed Tinubu",
+      "b": " Alassane Ouattara",
+      "c": "Macky Sall",
+      "d": "Nana-Akufo Ado",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "President Bola Ahmed Tinubu has been elected the chairman of the Economic Community of West African States (ECOWAS). He was elected at the 63rd ordinary session of the ECOWAS Authority of Heads of State and Government in Bissau, the capital city of the Republic of Guinea-Bissau.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1023,
+    "question": "Which political party was known for its socialist ideology and populist policies in the 1980s?",
+    "option": {
+      "a": "People's Redemption party",
+      "b": "All Nigeria's People's Party",
+      "c": " National Party of Nigeria",
+      "d": "Nigerian National Democratic Party",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The People's Redemption Party was known for its socialist ideology and populist policies in the 1980s. The party was founded by Mallam Aminu Kano and was known for its commitment to representing the interests of the common people.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1029,
+    "question": "The Commonwealth of Nations was initially known as",
+    "option": {
+      "a": "British Commonwealth",
+      "b": "Imperial Commonwealth",
+      "c": "Commonwealth Realm",
+      "d": " League of Nations",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The Commonwealth of Nations was initially known as the British Commonwealth. It was created as a way for countries that were formerly part of the British Empire to maintain political, economic, and social connections.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1021,
+    "question": "Which of the following was a significant trade commodity in the pre-colonial Kingdom of Benin?",
+    "option": {
+      "a": "Ivory",
+      "b": "Gold",
+      "c": "Rubber",
+      "d": "Salt",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Ivory was a significant trade commodity in the pre-colonial Kingdom of Benin. The Kingdom of Benin, located in modern-day Nigeria, was known for its ivory carvings, which were traded with European merchants.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1011,
+    "question": "Which document serves as the constitution of the United Nations?",
+    "option": {
+      "a": "Universal Declaration of Human Rights",
+      "b": "Geneva conventions",
+      "c": "Treaty of the Non-proliferation of Nuclear Weapons",
+      "d": "Charter of the United Nations",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The document that serves as the constitution of the United Nations is the Charter of the United Nations. This document outlines the rights and obligations of member states and establishes the United Nations' organs and procedures.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1018,
+    "question": "A key principle of the socialist system of government is the ___________.",
+    "option": {
+      "a": "minimal government intervention in the economy",
+      "b": "private ownership of the means of production",
+      "c": "power concentrated in the hands of a few elite individuals",
+      "d": "equality of opportunity and outcome",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "A key principle of the socialist system of government is the equality of opportunity and outcome. This means that in a socialist system, the government controls the means of production and wealth is distributed equally among the population to ensure everyone has the same opportunities and outcomes.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1017,
+    "question": "The arm of government responsible for budget approval and oversight is the",
+    "option": {
+      "a": "judiciary",
+      "b": "executive",
+      "c": "administrative",
+      "d": "legislative",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The legislative arm of government is responsible for budget approval and oversight. This is because the legislature has the power of the purse, meaning it is responsible for approving the government's budget and overseeing its implementation to ensure that funds are used as intended.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1003,
+    "question": "In a parliamentary system of government, the executive branch is",
+    "option": {
+      "a": "under the control of the judiciary",
+      "b": "combined with the legislative branch",
+      "c": "elected through popular votes",
+      "d": "separate from the legislative branch",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "In a parliamentary system of government, the executive branch is combined with the legislative branch. This is because the executive, which includes the Prime Minister and the cabinet, is drawn from the members of the legislature. This is different from a presidential system, where the executive and legislative branches are separate.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1039,
+    "question": "What is the primary source of revenue for the local government in Nigeria?",
+    "option": {
+      "a": "taxes",
+      "b": "grants from foreign countries",
+      "c": "oil revenue",
+      "d": "Federal government allocations",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The primary source of revenue for local governments in Nigeria is the Federal government allocations. This is because a significant portion of the revenue generated by the country is distributed among the three tiers of government - federal, state, and local government. While local governments can generate revenue through taxes, the bulk of their funding comes from federal allocations.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 996,
+    "question": "In a parliamentary system of government, the head of government is typically ___________.",
+    "option": {
+      "a": "elected directly by the people",
+      "b": "the leader of the majority party in the legislature",
+      "c": "appointed by the judiciary",
+      "d": "chosen by the head of state",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "In a parliamentary system of government, the head of government is typically the leader of the majority party in the legislature. This is because the head of government, often called the prime minister, is usually the leader of the political party that has the most seats in the legislature.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1006,
+    "question": "Which of the following is a function of the Public Complaints Commission?",
+    "option": {
+      "a": "Managing public transportation",
+      "b": "Enforcing criminal laws",
+      "c": "Conducting investigations and enquiries",
+      "d": "Implementing foreign policies",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Public commissions are responsible for conducting investigations and enquiries. They are established to investigate matters of public concern and to make recommendations based on their findings. They do not implement foreign policies, enforce criminal laws, or manage public transportation.\n",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1014,
+    "question": "Which of the following African leaders played a significant role in the formation of NEPAD?",
+    "option": {
+      "a": "Julius Nyerere",
+      "b": "Nelson Mandela",
+      "c": "Muammar Gaddafi",
+      "d": "Robert Mugabe",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "The New Partnership for Africa's Development (NEPAD) was an economic development program of the African Union. Nelson Mandela, among others, played a significant role in its formation.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1015,
+    "question": "Nigeria is a founding member of which regional organization?",
+    "option": {
+      "a": "ECOWAS",
+      "b": "Non-aligned Movement",
+      "c": "OPEC",
+      "d": "IMF",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Nigeria is a founding member of the Economic Community of West African States (ECOWAS). ECOWAS is a regional political and economic union of fifteen countries located in West Africa. It was established on May 28, 1975, and Nigeria is one of the founding members.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1043,
+    "question": "The Nigerian constitution guarantees freedom of speech under which fundamental right?",
+    "option": {
+      "a": "Right to freedom of thought",
+      "b": " Right to privacy",
+      "c": "Right to freedom of expression",
+      "d": "Right to life",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "The Nigerian constitution guarantees freedom of speech under the Right to freedom of expression. This right allows individuals to express their thoughts, ideas, and opinions without fear of government restraint.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1026,
+    "question": "Which of the following countries operate a direct democracy?",
+    "option": {
+      "a": "Russia",
+      "b": "United Kingdom",
+      "c": "United States of America",
+      "d": "Switzerland",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Switzerland operates a direct democracy. In a direct democracy, citizens have the right to vote on every issue that affects them, rather than their elected representatives making those decisions. This is different from a representative democracy, where citizens elect representatives who make decisions on their behalf, which is the system used in the United Kingdom, United States, and Russia.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 994,
+    "question": "Which of the following is a fundamental principle of democratic governance?",
+    "option": {
+      "a": "Centralized decision-making",
+      "b": "Censorship of the media",
+      "c": " Citizen Participation",
+      "d": "Authoritarianism",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Citizen Participation is a fundamental principle of democratic governance. In a democracy, citizens have the right to participate in decision-making processes that affect their lives and their community. This participation can take various forms, including voting in elections, running for office, participating in civic groups, and voicing their opinions through protest and dialogue.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 995,
+    "question": "Which of the following is not a source of public opinion?",
+    "option": {
+      "a": "Opinion polls",
+      "b": "Academic Journals",
+      "c": " Social media",
+      "d": "political parties",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Academic Journals are not a source of public opinion. They are scholarly publications that focus on academic or scientific research, and while they may contain articles that analyze public opinion, they are not themselves a source of public opinion. Public opinion is typically gauged through methods like opinion polls, social media analysis, and the platforms of political parties.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 997,
+    "question": "The policy of 'indigenization' was introduced under the regime of?",
+    "option": {
+      "a": "General Yakubu Gowon",
+      "b": " General Olusegun Obasanjo",
+      "c": "General Ibrahim Babangida",
+      "d": " General Sani Abacha",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "The policy of 'indigenization' was introduced under the regime of General Yakubu Gowon. The Indigenization policy was a government initiative that aimed to increase the participation of Nigerians in the economy by restricting certain businesses to Nigerian citizens.",
+    "examtype": "utme",
+    "examyear": "2023"
+  }
+]

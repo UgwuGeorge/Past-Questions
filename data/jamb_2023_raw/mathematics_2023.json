@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1147,
+    "question": "If a car runs at a constant speed and takes 4.5 hrs to run a distance of 225 km, what time will it take to run 150 km?",
+    "option": {
+      "a": " 2 hrs",
+      "b": " 4 hrs",
+      "c": "3 hrs",
+      "d": "1 hr",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Let T be the time taken and D is the distance\n\nFor the case given in the problem, the distance covered is directly proportional to the time taken i.e D α T\n\n⇒ D = ST where S is the constant speed\n\nD = 225 km and T = 4.5 hrs\n\n∴ 225 = S x 4.5\n\nS = 225/4.5 = 50 km/hr\n\nWhen D = 150 km\n\nD = ST\n\n150 = 50 × T\n\nT = 150/50 = 3 hrs\n\nSo it will take 3 hrs",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1158,
+    "question": "Find the equation of straight line passing through (2, 3) and perpendicular to the line 3x+2y+4=0",
+    "option": {
+      "a": " 3y = 5x - 2",
+      "b": " y = 5/3× − 2",
+      "c": "None of these",
+      "d": " 3y = 2x + 5",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "3x + 2y + 4 = 0\nRearrange:\n\n2y = −3x − 4\nDivide both sides by 2\n\ny = (−3× − 4)/2\ny = −3/2×−2\n∴ the gradient of the line 3x + 2y + 4 = 0 is −3/2\nIf two lines are perpendicular to each other ∴ m<sub>1</sub>xm<sub>2</sub> = -1\n\nLet m<sub>1</sub> =−3/2 ∴ m<sub>2</sub> = −1/m<sub>1</sub> = −1/(−3/2) = 2/3\nFrom the equation of a line which is given as m = (y − y<sub>1</sub>)/x − x<sub>1</sub>) where (x<sub>1</sub>, y<sub>1</sub>) = (2, 3)\n∴ 2/3 = (y − 3)/x − 2)\n=3(y  -  3) = 2(x  -  2)\n\n= 3y  -  9  =  2  x  -4\n\n= 3y  =  2  x  -4  +  9\n\n∴ 3y  =  2x  +  5",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1142,
+    "question": "The interior angle of a regular polygon is five times the size of its exterior angle. Identify the polygon.",
+    "option": {
+      "a": " dodecagon",
+      "b": "enneadecagon",
+      "c": " icosagon",
+      "d": "hendecagon",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "An interior angle of a regular polygon = ((2n−4)×90)/n\n\n\nAn exterior angle of a regular polygon = 360/n\n\n\n((2n−4)×90)/n = 5 ×  360/n (Given)\n= (2n-4) x 90 = 5 x 360\n= 180n - 360 = 1800\n= 180n = 1800 + 360\n= 180n = 2160\n= n = 2160/180 = 12\nThe polygon has 12 sides which is dodecagon",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1171,
+    "question": "If −2x<sup></sup> +6x<sup>2</sup> +17x - 21 is divided by (x+1), then the remainder is",
+    "option": {
+      "a": "32",
+      "b": "30",
+      "c": " -30",
+      "d": "-32",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Let p(x)=−2x<sup>3</sup> + 6x<sup>2</sup> + 17x − 21\n\n\nUsing the remainder theorem\n\nLet x + 1 = 0\n\n\n∴ x = −1\n\n\nSince, (x+1) divides p(x), then, remainder will be p(-1)\n\n⇒ p(-1) = -2(-1)<sup>3</sup> +6(−1)<sup>2</sup>  + 17(-1) - 21\n\n∴ p(-1) = -30",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1155,
+    "question": "If D = [241−11−3321]\nFind |D|",
+    "option": {
+      "a": "16",
+      "b": "14",
+      "c": " -23",
+      "d": "-37",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mrow>\n    <mo>[</mo>\n    <mtable rowspacing=\"4pt\" columnspacing=\"1em\">\n      <mtr>\n        <mtd>\n          <mn>2</mn>\n        </mtd>\n        <mtd>\n          <mo>&#x2212;<!-- − --></mo>\n          <mn>1</mn>\n        </mtd>\n        <mtd>\n          <mn>3</mn>\n        </mtd>\n      </mtr>\n      <mtr>\n        <mtd>\n          <mn>4</mn>\n        </mtd>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n        <mtd>\n          <mn>2</mn>\n        </mtd>\n      </mtr>\n      <mtr>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n        <mtd>\n          <mo>&#x2212;<!-- − --></mo>\n          <mn>3</mn>\n        </mtd>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n      </mtr>\n    </mtable>\n    <mo>]</mo>\n  </mrow>\n</math>",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007932/ALOC-Questions/Mathematics/2023/Screenshot_2024-08-18_at_8.05.23_PM_octd6l.png",
+    "answer": "c",
+    "solution": " 2[(1 x 1) - (2 x -3)] - (-1)[(4 x 1) - (2 x 1)] + 3[(4 x -3) - (1 x 1)]\n\n= 2(1 - (-6)) + 1(4 - 2) + 3(-12 - 1)\n\n= 2(1 + 6) + 1(2) + 3(-13)\n\n= 2(7) + 1(2) + 3(-13)\n\n= 14 + 2 - 39\n\n∴ |D| = -23",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1185,
+    "question": "Find the volume of the cylinder above[Take π=22/7\n]",
+    "option": {
+      "a": " 9,856 cm<sup>3</sup>",
+      "b": "14,784 cm<sup>3</sup>",
+      "c": " 4,928 cm<sup>3</sup>",
+      "d": "19,712 cm<sup>3</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724008105/ALOC-Questions/Mathematics/2023/MATH_2023_Q49_sjanft.jpg",
+    "answer": "b",
+    "solution": "Volume of the cylinder = θ/360×πr<sup>2</sup>h\nθ = 360<sup>o</sup> - 90<sup>o</sup>\n = 270<sup>o</sup>\n∴ Volume of the cylinder = 270/360 × 22/7 × 14<sup>2</sup>/1 × 32/1 = 37,255,680/2520 =14,784 cm<sup>3</sup>",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1178,
+    "question": "Calculate, correct to three significant figures, the length AB in the diagram above.",
+    "option": {
+      "a": "36.4 cm",
+      "b": "36.1 cm",
+      "c": "36.2 cm",
+      "d": " 36.3 cm",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724008055/ALOC-Questions/Mathematics/2023/MATH_2023_Q42_msoqr6.jpg",
+    "answer": "c",
+    "solution": "sinA/a = sinB/b = sinC/c\n⟹sin82<sup>0</sup>/43.2 = sin56<sup>0</sup>/AB\n⟹AB × sin82<sup>0</sup> = 43.2 × sin56<sup>0</sup>\n∴ AB = (43.2 × sin56<sup>0</sup>)/sin82<sup>0</sup>  = 36.2cm (to 3 s.f)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1146,
+    "question": "The diagram above is a circle with centre C. P, Q and S are points on the circumference. PS and SR are tangents to the circle. ∠PSR = 36<sup>o</sup>\n. Find ∠PQR",
+    "option": {
+      "a": "72<sup>o</sup>",
+      "b": "36<sup>o</sup>",
+      "c": " 144<sup>o</sup>",
+      "d": "54<sup>o</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007804/ALOC-Questions/Mathematics/2023/Screenshot_2024-08-18_at_8.03.15_PM_e3llyp.png",
+    "answer": "a",
+    "solution": "From ∆PSR\n\n|PS| = |SR| (If two tangents are drawn from an external point of the circle, then they are of equal lengths)\n\n∴ ∆PSR is isosceles\n\n∠PSR + ∠SRP + ∠SPR = 180\n <sup>o</sup> (sum of angles in a triangle)\n\nSince |PS| = |SR|; ∠SRP = ∠SPR\n\n⇒ ∠PSR + ∠SRP + ∠SRP = 180<sup>o</sup>\n\n\n∠PSR + 2∠SRP = 180<sup>o</sup>\n\n\n36<sup>o</sup>\n + 2∠SRP = 180<sup>o</sup>\n\n\n2∠SRP = 180<sup>o</sup>\n - 36<sup>o</sup>\n\n\n2∠SRP = 144<sup>o</sup>\n∠SRP = 144<sup>o</sup>/2=72<sup>o</sup>\n∠SRP = ∠PQR (angle formed by a tangent and chord is equal to the angle in the alternate segment)\n\n∴ ∠PQR = 72<sup>o</sup>",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1144,
+    "question": "Make x the subject of the formula: y = (3x−9c)/(4x+5d)",
+    "option": {
+      "a": " x = −(9c−5dy)/4y−3",
+      "b": " x = 9c + 5dy/4y − 3",
+      "c": "x = 9c−5dy/4y−3",
+      "d": " x = −(9c+5dy)/4y−3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "y = (3x − 9c)/(4x+5d)\ny/1 = (3x − 9c)/(4x + 5d)\n=  y(4x + 5d) = 3x - 9c\n\n= 4xy + 5dy = 3x - 9c\n\n= 4xy - 3x = -9c - 5dy\n\n= (4y - 3)x = -9c - 5dy\n\n= x = (−9c−5dy)/(4y − 3)\nx = −(9c+5dy)/(4y − 3)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1152,
+    "question": "Evaluate the following limit: lim <sub>(x→2)</sub> (x<sup>2</sup> + 4x − 12)/(x<sup>2</sup> − 2x)",
+    "option": {
+      "a": "4",
+      "b": "8",
+      "c": "0",
+      "d": "2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "lim <sub>(x→2)</sub> x<sup>2</sup> + 4x − 12)/(x<sup>2</sup> −2x) \n = lim <sub>(x→2)</sub> ((x−2)(x+6))/(x(x − 2))\nlim<sub>x→2 x+6/x</sub>\n2 + 6/2 = 8/2\n = 4",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1176,
+    "question": "Two numbers are respectively 35% and 80% more than a third number. The ratio of the two numbers is",
+    "option": {
+      "a": "7 : 16",
+      "b": "3 : 4",
+      "c": "16 : 7",
+      "d": " 4 : 3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "Let the third number = x\nThen the first number = 100% x + 35%x = 135x/100 = 1.35x (Note: 100% x=x)\n\nThe second number = 180% x = 180x/100 = 1.80x\n∴ The ratio of the first number to the second number = 1.35x:1.80x=3:4",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1167,
+    "question": "A bag contains 8 red balls and some white balls. If the probability of drawing a white ball is half of the probability of drawing a red ball then find the probability of drawing a red ball and a white ball if the balls are drawn without replacement.",
+    "option": {
+      "a": "1/3",
+      "b": "2/9",
+      "c": "2/3",
+      "d": "8/33",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Let the number of white balls be n\n\nThe number of red balls = 8\n\nNow, the probability of drawing a white ball = n/n+8\nThe probability of drawing a red ball = 8/n+8\nSince Pr(White ball) = 1/2\n x Pr(Red ball)\n\n∴n/(n + 8)= 1/2 × 8/(n + 8)\n= n/(n + 8) = 4/(n + 8)\n∴n = 4\nNumber of white balls = 4\n\nThe possible number of outcomes = n + 8 = 4 + 8 = 12\n\nPr(Red ball and White ball) = Pr(Red ball) x Pr(White ball)\n\nPr(Red ball) = 8/12\nPr(Red ball) = 4/11\nPr(Red ball and white ball) = 8/12 × 4/11\n∴ Pr(Red ball and white ball) = 8/33",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1186,
+    "question": "The third term of an A.P is 6 and the fifth term is 12. Find the sum of its first twelve terms",
+    "option": {
+      "a": " 201",
+      "b": "144",
+      "c": "198",
+      "d": " 72",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "T<sub>3</sub>  = 6\n\nT<sub>5</sub>  = 12\n\nS<sub>12</sub>  = ?\n\nT<sub>n</sub>  = a + (n - 1)d\n\n⇒ T<sub>3</sub>  = a + 2d = 6 ----- (i)\n\n⇒ T<sub>5</sub>  = a + 4d = 12 ----- (ii)\n\nSubtract equation (ii) from (i)\n\n⇒ -2d = -6\n\n⇒ d(−6/−2) = 3\n\nSubstitute 3 for d in equation (i)\n\n⇒ a + 2(3) = 6\n\n⇒ a + 6 = 6\n\n⇒ a = 6 - 6 = 0\n\nS<sub>n</sub>  = (n(2a+(n−1)d))/2\n⇒ S<sub>12</sub>  = (12(2×0+(12−1)3)/2\n⇒ S<sub>12</sub>  = 6(0 + 11 x 3)\n\n⇒ S<sub>12</sub>  = 6(33)\n\n∴ S<sub>12</sub>  = 198",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1174,
+    "question": "What is the general term of the sequence 3, 8, 13, 18, ...?",
+    "option": {
+      "a": " 5n - 2",
+      "b": "5n + 2",
+      "c": " 5",
+      "d": " 5n",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Given the sequence 3, 8, 13, 18, ... which is an arithmetic sequence\n\na = 3\n\nd = T<sub>2</sub>  - T<sub>1</sub>  = 8 - 3 = 5\n\nThe general term of an A.P is:\n\nT<sub>n</sub>  = a + (n - 1)d\n\n⇒ T<sub>n</sub> = 3 + (n - 1)5\n\n= T<sub>n</sub> = 3 + 5n - 5\n\n∴ T<sub>n</sub> = 5n - 2",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1165,
+    "question": "Factorize: 16x<sup>4</sup>−y<sup>4</sup>",
+    "option": {
+      "a": "(2x−y)(2x+y)(4x<sup>2</sup>+y<sup>2</sup>)",
+      "b": "(2x+y)(2x+y)(4x<sup>2</sup>+y<sup>2</sup>)",
+      "c": "(2x−y)(2x−y)(4x<sup>2</sup>+y<sup>2</sup>)",
+      "d": "(2x−y)(2x+y)(4x<sup>2</sup>−y<sup>2</sup>)",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>16</mn>\n  <msup>\n    <mi>x</mi>\n    <mn>4</mn>\n  </msup>\n  <mo>&#x2212;<!-- − --></mo>\n  <msup>\n    <mi>y</mi>\n    <mn>4</mn>\n  </msup>\n</math>                                                                                                                                                                                            =                                            <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mrow>\n    <mo>[</mo>\n    <mtable rowspacing=\"4pt\" columnspacing=\"1em\">\n      <mtr>\n        <mtd>\n          <mn>2</mn>\n        </mtd>\n        <mtd>\n          <mo>&#x2212;<!-- − --></mo>\n          <mn>1</mn>\n        </mtd>\n      </mtr>\n      <mtr>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n        <mtd>\n          <mn>0</mn>\n        </mtd>\n      </mtr>\n    </mtable>\n    <mo>]</mo>\n  </mrow>\n</math>",
+    "image": "",
+    "answer": "a",
+    "solution": "16x<sup>4</sup> − y<sup>4</sup>\n\n\n= 2<sup>4</sup>x<sup>4</sup> − y<sup>4</sup>\n\n\n= (2x)<sup>4</sup> − y<sup>4</sup>\n\n\n= ((2x)<sup>2</sup>)<sup>2</sup> − (y<sup>2</sup>)<sup>2</sup>\n\n\nUsing a<sup>2</sup> − b<sup>2</sup> = (a - b)(a + b) identity\n\n= ((2x)<sup>2</sup>−y<sup>2</sup>)((2x)<sup>2</sup>+y<sup>2</sup>)\n\n\nUsing the identity one more time\n\n= (2x − y)(2x + y)((2x)<sup>2</sup> + y<sup>2</sup>)\n\n\n∴ (2x − y)(2x + y)(4x<sup>2</sup> + y<sup>2</sup>)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1151,
+    "question": "At simple interest, a man made a deposit of some money in the bank. The amount in his bank account after 10 years is three times the money deposited. If the interest rate stays the same, after how many years will the amount be five times the money deposited?\n",
+    "option": {
+      "a": "15 years",
+      "b": "25 years",
+      "c": "20 years",
+      "d": "30 years",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Amount (A) = Principal (P) + Interest (I) i.e. A = P + I\n\n1 = PTR/100\nA = 3P; T = 10 years (Given)\n\nSince A = P + I\n\n⟹3P=P+P×10×R/100\n⟹3P=P+10PR/100\n⟹3P=P+PR/10\n⟹3P−P=PR/10\n⟹2P=PR/10\n⟹2P/1=PR/10\n⟹ PR = 20P\n\n∴ R = 20%\n\nSince the rate stays the same\n\nA = 5P; R = 20%;T =?; A  =P + I\n\n⟹5P = P + (p × T × 20)/100\n⟹5P − P = (2PT)/10\n⟹4P = (2PT)/10\n⟹2P = PT/10\n⟹ PT = 20P\n\n∴ T = 20 years",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1150,
+    "question": "Find the value of t, if the distance between the points P(–3, –14) and Q(t, –5) is 9 units.",
+    "option": {
+      "a": "3",
+      "b": "2",
+      "c": " - 3",
+      "d": "- 2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Let the given points be:\n\nP(-3, -14) = (x<sub>1</sub> , y<sub>1</sub>)\n\nQ(t, -5) = (x<sub>2</sub>, y<sub>2</sub>)\n\nPQ = 9 units (given)\n\nUsing the distance formula,\n\nd = √ [ (x<sub>2</sub> − x<sub>1</sub> )<sup>2</sup> + (y<sub>2</sub> − y<sub>1</sub>)<sup>2</sup>]\n\nPQ = √ [ (t − (−3))<sup>2</sup> + (−5 + 14)<sup>2</sup>]\n\n⟹ √ [ ( t + 3)<sup>2</sup> + 81] = 9\n\nSquaring on both sides,\n\n⇒ (t + 3)<sup>2</sup> + 81 = 81\n\n⇒ (t + 3)<sup>2</sup>  = 0\n\n⇒ t + 3 = 0\n\n∴ t = -3",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1159,
+    "question": "Differentiate the function y = <sup>3</sup>√x<sup>2</sup>(2x − x<sup>2</sup>)",
+    "option": {
+      "a": "dy/dx=10x<sup>5/3</sup>/3−8x<sup>2/3</sup>/3",
+      "b": "dy/dx=10x<sup>2/3</sup>/3−8x<sup>5/3</sup>/3",
+      "c": "dy/dx=10x<sup>5/3</sup>/3−8x<sup>5/3</sup>/3",
+      "d": "dy/dx=10x<sup>2/3</sup>/3−8x<sup>5/3</sup>/3",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mroot>\n    <msup>\n      <mi>x</mi>\n      <mn>2</mn>\n    </msup>\n    <mn>3</mn>\n  </mroot>\n  <mo stretchy=\"false\">(</mo>\n  <mn>2</mn>\n  <mi>x</mi>\n  <mo>&#x2212;<!-- − --></mo>\n  <msup>\n    <mi>x</mi>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "y = <sup>3</sup>√x<sup>2</sup>(2x−x<sup>2</sup>) = x<sup>(2/3)</sup>(2x − x<sup>2</sup>)\n= 2x<sup>(5/3)</sup> − x<sup>(8/3)</sup> Now, we can differentiate the function\n\n∴dy/dx = (10x<sup>(2/3)</sup>)/3 − (8x<sup>(5/3)</sup>/3",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1140,
+    "question": "Evaluate ∫<sup>1</sup> <sub>0</sub> 4x−6<sup>3</sup>√x<sup>2</sup>−dx",
+    "option": {
+      "a": "- 5/8",
+      "b": "-8/5",
+      "c": "8/5",
+      "d": "5/8",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msubsup>\n    <mo>&#x222B;<!-- ∫ --></mo>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mn>4</mn>\n  <mi>x</mi>\n  <mo>&#x2212;<!-- − --></mo>\n  <mn>6</mn>\n  <mroot>\n    <msup>\n      <mi>x</mi>\n      <mn>2</mn>\n    </msup>\n    <mn>3</mn>\n  </mroot>\n  <mi>d</mi>\n  <mi>x</mi>\n</math>",
+    "image": "",
+    "answer": "b",
+    "solution": "∫<sup>1</sup> <sub>0</sub> 4x − 6<sup>3</sup>√x<sup>2</sup>  dx\n=∫<sup>1</sup> <sub>0</sub> 4x − 6x<sup>(2/3)</sup>\n  dx\n=(2x<sup>2</sup>−(8x<sup>5/3</sup>)/5)<sup>1</sup> <sub>0</sub>\n\n=(2(1)<sup>2</sup>−(18(1)<sup>5/3<s/sup>)/5)−(2(0)<sup>2</sup> − (18(0)<sup>5/3</sup>)/5\n\n= - 8/5 - 0\n    - 8/5",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1184,
+    "question": "Find the compound interest (CI) on ₦15,700 for 2 years at 8% per annum compounded annually.",
+    "option": {
+      "a": " ₦6,212.48",
+      "b": "₦2,834.48",
+      "c": " ₦18,312.48",
+      "d": " ₦2,612.48",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Principal (P) = ₦15,700\n\nRate (R) = 8\n\nNumber of years (t) = 2\n\nA = P (1 + R/100)<sup>t</sup>\n⇒ A = 15700 (1 + 8/100)<sup>2</sup>\n⇒ A = 15700 (1 + 0.08)<sup>2</sup>\n⇒ A = 15700 (1.08)<sup>2</sup>\n⇒ A = 15700  x 1.1664\n\n⇒ A = ₦18,312.48\n\nTotal amount, A = ₦18,312.48\n\nA = P + CI\n\n⇒ CI = A - P\n\n⇒ CI = 18,312.48 - 15,700\n\n∴ CI = ₦2,612.48",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1168,
+    "question": "The ages of students in a small primary school were recorded in the table below.                                                                               Estimate the median.",
+    "option": {
+      "a": "7.725",
+      "b": "6.225",
+      "c": " 7.5",
+      "d": "6.5",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007869/ALOC-Questions/Mathematics/2023/MATH_2023_Q32_qhpmgj.jpg",
+    "answer": "a",
+    "solution": "(N + 1)/2  = (107 + 1)/2 th = 54th value i.e the median age is in the interval \"7 - 8\" (29 + 25 = 54)?\n\nMedian = 1<sub>m</sub> + (((∑f)/2 − f<sub>b</sub>) /f<sub>m</sub> )c\n\nl<sub>m</sub>= lower class boundary of the median age = 6.5\n\n∑f = 107\n\nf<sub>b</sub> = sum of all frequencies before the median age = 29\n\nf<sub>m</sub> = frequency of the median age = 40\n\nc = class width = 8.5 - 6.5 = 2\n\nMedian = 6.5 + (((107/2) − 29)/40) x 2\n\n= 6.5 + ((53.5 − 29)/40) x 2\n\n= 6.5 + (24.5/40) x 2\n\n= 6.5 + 1.225\n\n∴\n median age = 7.725\n",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1175,
+    "question": "The locus of a point equidistant from two intersecting lines is",
+    "option": {
+      "a": "where the sum of the distances of two focal points is fixed",
+      "b": " the collection of points that are equally distant from a fixed point and a line",
+      "c": "the perpendicular bisector of the lines",
+      "d": "pair of bisectors of the angles between the two lines",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "The locus of a point equidistant from two intersecting lines is pair of bisectors of the angles between the two lines.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1138,
+    "question": "Evaluate: 16<sup>(0.16)</sup>\n × 16<sup>(0.04)</sup>(0.04) × 2<sup>(0.2)</sup>",
+    "option": {
+      "a": " 2",
+      "b": " 0",
+      "c": "2<sup>0</sup>",
+      "d": " 1/2",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "16<sup>0.16</sup> × 16<sup>0.04</sup> × 2<sup>0.2/sup>\n\n= 2<sup>4(0.16)</sup> × 2<sup>4(0.04)</sup> ×2<sup>0.2</sup>\n\n= 2<sup>0.64</sup> × 2<sup>0.16</sup> × 2<sup>0.2</sup>\n\n=2<sup>(0.64 × 0.16 × 0.2)</sup>\n\n=2<sup>1</sup>\n\n  = 2",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1145,
+    "question": "Solve for x: 3(x – 1) ≤ 2 (x – 3)",
+    "option": {
+      "a": " x ≤ -3",
+      "b": " x ≥ -3",
+      "c": " x ≤ 3",
+      "d": "x ≥ 3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "3(x – 1) ≤ 2 (x – 3)\n\n= 3x – 3 ≤ 2x – 6\n\nAdd 3 to both sides\n\n= 3x – 3+ 3 ≤ 2x – 6+ 3\n\n= 3x ≤ 2x – 3\n\nSubtract 2x from both the sides\n\n= 3x – 2x ≤ 2x – 3 – 2x\n\n∴ x ≤ -3",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1164,
+    "question": "In a group of 500 people, 350 people can speak English, and 400 people can speak French. Find how many people can speak both languages.",
+    "option": {
+      "a": "750",
+      "b": " 850",
+      "c": " 250",
+      "d": "150",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Let F be the set of people who can speak French and E be the set of people who can speak English. Then,\n\nn(F) = 400\n\nn(E) = 350\n\nn(F ∪ E) = 500\n\nWe have to find n(F ∩ E).\n\nNow, n(F ∪ E) = n(F) + n(E) – n(F ∩ E)\n\n⇒ 500 = 400 + 350 – n(F ∩ E)\n\n⇒ n(F ∩ E) = 750 – 500 = 250.\n\n∴ 250 people can speak both languages.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1139,
+    "question": "Let '*' and '^' be two binary operations such that a * b = a<sup>2</sup>b and a ^ b = 2a + b. Find (-4 * 2) ^ (7 * -1).",
+    "option": {
+      "a": "-49",
+      "b": "64",
+      "c": "113",
+      "d": "15",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Given that, a * b = a<sup>2</sup>b and a ^ b = 2a + b\n\n(-4 * 2) = (-4)<sup>2</sup> x 2 = 16 x 2 = 32\n\n(7 * -1) = 7<sup>2</sup> x (-1) = 49 x (-1) = -49\n\n∴ (-4 * 2) ^ (7 * -1) = 2(32) + (-49) = 64 - 49 = 15",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1157,
+    "question": "A coin is thrown 3 times. What is the probability that atleast one head is obtained?",
+    "option": {
+      "a": "7/8",
+      "b": "3/8",
+      "c": " None the above",
+      "d": "1/8",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Sample space = {HHH, HHT, HTH, THH, TTH, THT, HTT, TTT}\n\nTotal number of possible outcomes = 2 x 2 x 2 = 8\n\nfavourable number of outcomes = 7\n\n∴Pr(at least one head) = 7/8",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1179,
+    "question": "An article when sold for ₦230.00 makes a 15% profit. Find the profit or loss % if it was sold for ₦180.00",
+    "option": {
+      "a": "10% gain",
+      "b": " 10% loss",
+      "c": "12% loss",
+      "d": " 12% gain",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "First S.P = ₦230.00\n\n% profit = 15%\n\n% profit = S.P−C.P/C.P  x 100%\n\n⇒ 15% = 230−C.P/C.P x 100%\n\n⇒ 15/100 = (230 − C.)P/C.P\n⇒15C.P = 100 (230 - C.P)\n\n⇒15C.P = 23000 - 100C.P\n\n⇒ 15C.P + 100C.P = 23000\n\n⇒115C.P = 23000\n\n⇒ C.P = 23000/115 = ₦200.00\n\nSecond S.P = ₦180.00\n\nSince C.P is greater than S.P, therefore it's a loss\n\n% loss = C.P−S.P/C.P x 100%\n\n⇒ 200−180/200 x 100%\n\n⇒ 20/200 x 100%\n\n⇒ 1/10 x 100% = 10%\n\n∴ It's a loss of 10%",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1182,
+    "question": "A man sells different brands of an items. 1/9\n of the items he has in his shop are from Brand A, 5/8\n of the remainder are from Brand B and the rest are from Brand C. If the total number of Brand C items in the man's shop is 81, how many more Brand B items than Brand C does the shop has?",
+    "option": {
+      "a": " 243",
+      "b": "108",
+      "c": "54",
+      "d": "135",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "Let the total number of items in the man's shop = y\nNumber of Brand A's items in the man's shop = 1/9y\nRemaining items = 1 - 1/9y=8/9y\nNumber of Brand B's items in The man's shop = 5/8of8/9y=5/9y\nTotal of Brand A and Brand B's items = 1/9y+5/9y=2/3y\nNumber of Brand C's items in the man's shop = 1 - 2/3y=1/3y\n⟹1/3y = 81 (Given)\n\n⟹y = 81 x 3 = 243\n\n∴ The total number of items in the man's shop = 243\n\n∴ Number of Brand B's items in the man's shop = 5/9\n x 243 = 135\n\n∴ The number of more Brand B items than Brand C = 135 - 81 =54",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1141,
+    "question": "The population of a village decreased from 1,230 to 1,040 due to breakout of an epidemic. What is the percentage decrease in the population?",
+    "option": {
+      "a": " 15.44%",
+      "b": "15.43%",
+      "c": " 15.42%",
+      "d": "15.45%",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Original population = 1,230\nNew population = 1,040\nDecrease in population = 1,230 – 1,040 = 190\nPercentage decrease in population =(decrease in population/original population) x 100%         \n\n= 190/1,230\n x 100 = 15.45%",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1163,
+    "question": "Find the value of y, if log (y + 8) + log (y - 8) = 2log 3 + 2log 5",
+    "option": {
+      "a": " y = ±5",
+      "b": " y = ±10",
+      "c": " y = ±17",
+      "d": " y = ±13",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "log (y + 8) + log (y - 8) = 2log 3 + 2log 5\n\n⇒ log (y + 8)(y - 8) = 2log 3 + 2log 5 (log ab = log a + log b)\n\n⇒ log (y<sup>2</sup> -8y + 8y - 64) = log 3<sup>2</sup> + log 5<sup>2</sup>\n\n\n⇒ log (y<sup>2</sup> - 64) = log 3<sup>2</sup> + log 5<sup>2</sup>\n\n\n⇒ log (y<sup>2</sup> - 64) = log 9 + log 25\n\n⇒ log (y<sup>2</sup> - 64) = log (9 × 25)\n\n⇒ log(y<sup>2</sup> - 64) = log 225\n\n⇒ y<sup>2</sup> - 64 = 225\n\n⇒ y<sup>2</sup> = 225 + 64\n\n⇒ y<sup>2</sup> = 289\n\n⇒ y = ±√289\n\n∴ y = ±17",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1153,
+    "question": "The ages of students in a small primary school were recorded in the table below.  Estimate the mean",
+    "option": {
+      "a": "7.7",
+      "b": "7.5",
+      "c": "7.8",
+      "d": " 7.6",
+      "e": null
+    },
+    "section": "",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007869/ALOC-Questions/Mathematics/2023/MATH_2023_Q32_qhpmgj.jpg",
+    "answer": "a",
+    "solution": "Mean = ∑fx/∑f=820.5/107\n = 7.7 (1 d.p)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1169,
+    "question": "Find the matrix A",
+    "option": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": null
+    },
+    "section": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mrow>\n    <mo>[</mo>\n    <mtable rowspacing=\"4pt\" columnspacing=\"1em\">\n      <mtr>\n        <mtd>\n          <mn>0</mn>\n        </mtd>\n        <mtd>\n          <mn>1</mn>\n        </mtd>\n      </mtr>\n      <mtr>\n        <mtd>\n          <mn>2</mn>\n        </mtd>\n        <mtd>\n          <mo>&#x2212;<!-- − --></mo>\n          <mn>1</mn>\n        </mtd>\n      </mtr>\n    </mtable>\n    <mo>]</mo>\n  </mrow>\n</math>",
+    "image": "https://res.cloudinary.com/aloc-ng/image/upload/v1724007996/ALOC-Questions/Mathematics/2023/Screenshot_2024-08-18_at_8.06.28_PM_nw7cet.png",
+    "answer": "b",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1137,
+    "question": "How many different 8 letter words are possible using the letters of the word SYLLABUS?",
+    "option": {
+      "a": "(8 - 1)!",
+      "b": "8!/2!",
+      "c": "8!/2!2!",
+      "d": "8!",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "c",
+    "solution": "SYLLABUS has 8 letters, 2S's and 2L's\n\n8!/2!2!",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1183,
+    "question": "Find the area, to the nearest cm<sup>2</sup>, of the triangle whose sides are in the ratio 2 : 3 : 4 and whose perimeter is 180 cm.",
+    "option": {
+      "a": "1162 cm<sup>2</sup>",
+      "b": " 1163 cm<sup>2</sup>",
+      "c": "1160 cm<sup>2</sup>",
+      "d": "1161 cm<sup>2</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "Let the length of the sides of triangle be 2x, 3x and 4x.\n\nPerimeter of triangle = 180cm\n\n⇒ 2x + 3x + 4x = 180\n⇒ 9x = 180\n⇒ x=180/9\n = 20 cm\n\nThen the sides of the triangle are:\n\n2x = 2 × 20 = 40 cm; 3x = 3 × 20 = 60cm and 4x = 4 × 20 = 80cm\n\nUsing Heron's formula\n\nArea of triangle = s√(s−a)(s−b)(s−c)\nWhere s = (a + b + c)/2\nLet a = 40cm, b = 60cm, c = 80cm and s = (40 + 60 + 80)/2 =180/2 = 90cm\n\n⇒ A = √90(90−40)(90−60)(90−80)=√90×50×30×10=√(1350000)\n∴ A =1162cm<sup>2</sup> (to the nearest cm<sup>2</sup>)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1148,
+    "question": "Divide 1101001<sub>two</sub> by 101<sub>two</sub>",
+    "option": {
+      "a": "11101<sub>two</sub>",
+      "b": "111<sub>two</sub>",
+      "c": "10111<sub>two</sub>",
+      "d": "10101<sub>two</sub>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1149,
+    "question": "If (3−√3)/(2+√3) = a + b√3, what are the values a and b?",
+    "option": {
+      "a": "a = 9, b = -5",
+      "b": " a = 5, b = 9",
+      "c": " a = 9, b = 5",
+      "d": "a = -5, b = 9",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "a",
+    "solution": "(3−√3)/(2+√3) = a + b√3\nRationalize\n\n= (3 − √3)/(2+√3) × (2−√3)/(2−√3)\n= (3−√3)/(2+√3)(2−√3)/(2−√3)\n= 6−3√3−2√3+(√3)<sup>2</sup>/4−2√3 + 2√3 − (√3)<sup>2</sup>\n= (6−5√3+3)/(4−3)\n= (9−5√3)/1 = 9 − 5√3\n= 9 + (-5)√3\n∴a= 9, b = −5",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1173,
+    "question": "Solve the following quadratic inequality: x<sup>2</sup> − x - 4 ≤ 2",
+    "option": {
+      "a": "−3 < x < 2",
+      "b": "−2 ≤ x ≤ 3",
+      "c": "x ≤ −2, x ≤ 3",
+      "d": " −2 < x < 3",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "x<sup>2</sup> − x − 4 ≤ 2\n\nSubtract two from both sides to rewrite it in the quadratic standard form:\n= x<sup>2</sup> − x −4 −2 ≤ 2 −2\n\n= x<sup>2</sup> − x − 6 ≤ 0\n\nNow set it = 0 and factor and solve like normal.\n= x<sup>2</sup> − x - 6 =0\n= (x − 3)(x + 2) = 0\nx + 2 = 0 or x - 3 = 0\nx = -2 or x = 3\nSo the two zeros are -2 and 3, and will mark the boundaries of our answer interval. To find out if the interval is between -2 and 3, or on either side, we simply take a test point between -2 and 3 (for instance, x = 0) and evaluate the original inequality.\n= x<sup>2</sup> − x − 4 ≤ 2\n\n= (0)<sup>2</sup> − (0) − 4 ≤ 2\n\n= 0 − 0 − 4 ≤ 2\n\n−4 ≤ 2\n\nSince the above is a true statement, we know that the solution interval is between -2 and 3, the same region where we picked our test point. Since the original inequality was less than or equal, we include the endpoints.\n∴ −2 ≤ x ≤ 3.",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1156,
+    "question": "A boat sails 8 km north from P to Q and then sails 6 km west from Q to R. Calculate the bearing of R from P. Give your answer to the nearest degree.",
+    "option": {
+      "a": " 217<sup>o</sup>",
+      "b": "323<sup>o</sup>",
+      "c": "037<sup>o</sup>",
+      "d": "053<sup>o</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "b",
+    "solution": "tan θ = opp/adj = RQ/QP = 6/8\ntan θ = 0.75\n\nθ = tan<sup>−1</sup>(0.75) = 36.87°\n\n\n∴ The bearing of R from P = 360° - 36.87° = 323°\n (to the nearest degree)",
+    "examtype": "utme",
+    "examyear": "2023"
+  },
+  {
+    "id": 1143,
+    "question": "The area A of a circle is increasing at a constant rate of 1.5 cm <sup>2</sup>s<sup>−1</sup>\n. Find, to 3 significant figures, the rate at which the radius r of the circle is increasing when the area of the circle is 2 cm<sup>2</sup>\n.",
+    "option": {
+      "a": " 0.200 cms<sup>−1</sup>",
+      "b": "0.798 cms<sup>−1</sup>",
+      "c": " 0.300 cms<sup>−1</sup>",
+      "d": " 0.299 cms<sup>−1</sup>",
+      "e": null
+    },
+    "section": "",
+    "image": "",
+    "answer": "d",
+    "solution": "Area of a circle (A) = πr<sup>2</sup>\n\n\nGiven\n\ndA/dt=1.5 cm<sup>2</sup>s<sup>-1</sup>\n\n\ndr/dt = ?\n\nA = 2cm<sup>2</sup>\n\n\nNow\n\n2 = πr <sup>2</sup> \n\n\n= r<sup>2</sup> = 2/π\n\n\nr = √(2/π) cm = 0.798cm\n\ndr/dt = dA/dt × dr/dt\n\n\ndA/dr= 2πr (differentiating A = πr<sup>2</sup>)\n\n\ndr/dA=1/2πr\n\n\ndr/dt=1.5 × 1/(2 × π × 0.798) = 1.5 × 0.199\n\n\ndr/dt = 0.299cms<sup>−1</sup> (to 3 s.f)",
+    "examtype": "utme",
+    "examyear": "2023"
+  }
+]
