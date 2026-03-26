@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
 import {
     Timer, ChevronLeft, ChevronRight, Flag, HelpCircle, CheckCircle2,
-    XCircle, BookOpen, Layers, ShieldCheck, Zap, BarChart3, Clock, AlertTriangle
+    XCircle, BookOpen, Layers, ShieldCheck, Zap, BarChart3, Clock, AlertTriangle, Crown
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 import apiClient from '../api/client';
 
-export default function CBTProcessor({ userId, examId, subjectId, onExit, difficulty = 'medium', autoStart = false }) {
+export default function CBTProcessor({ userId, examId, subjectId, onExit, difficulty = 'medium', autoStart = false, onUnlockPro }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'
     const [config, setConfig] = useState({
         questionCount: 40,
@@ -158,9 +158,23 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                     </div>
 
                     {error && (
-                        <div className="mb-6 p-4 rounded-2xl bg-rose-500/10 border border-rose-500/20 flex gap-3 text-rose-500 text-sm font-bold items-start">
-                            <AlertTriangle size={18} className="shrink-0 mt-0.5" />
-                            <p>{error}</p>
+                        <div className={clsx("mb-6 p-4 rounded-2xl border flex flex-col gap-3 text-sm font-bold items-start", 
+                            error.includes('Subscription') 
+                                ? "bg-amber-500/10 border-amber-500/20 text-amber-500"
+                                : "bg-rose-500/10 border-rose-500/20 text-rose-500"
+                        )}>
+                            <div className="flex gap-3">
+                                {error.includes('Subscription') ? <Crown size={18} className="shrink-0 mt-0.5" /> : <AlertTriangle size={18} className="shrink-0 mt-0.5" />}
+                                <p>{error}</p>
+                            </div>
+                            {error.includes('Subscription') && onUnlockPro && (
+                                <button
+                                    onClick={onUnlockPro}
+                                    className="px-4 py-2 mt-2 bg-gradient-to-r from-amber-500 to-orange-500 text-black rounded-lg uppercase tracking-widest text-[10px] font-black hover:opacity-90 transition-opacity flex items-center gap-2"
+                                >
+                                    <Crown size={14} /> Unlock Pro
+                                </button>
+                            )}
                         </div>
                     )}
 

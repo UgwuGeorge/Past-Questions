@@ -1,0 +1,7 @@
+# ICAN Management Information (2024)
+
+## Theory Section
+
+MANAGEMENT INFORMATION 34 – 60
+BUSINESS, MANAGEMENT & FINANCE 61 – 85
+86 - 106

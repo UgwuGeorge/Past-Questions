@@ -240,7 +240,7 @@ def parse_markdown_file(file_path: str) -> dict | None:
     subject_name = heading_match.group(1).strip() if heading_match else folder
 
     # Remove year from subject name if present
-    subject_name = re.sub(r'\(?20\d{2}\)?', '', subject_name).strip().strip('()')
+    subject_name = re.sub(r'\s*\([^)]*\)$', '', subject_name).strip()
 
     # Parse questions
     # Pattern: (**)?N.(**)? question text ... A) ... (**)?Answer: X(**)?
@@ -257,10 +257,10 @@ def parse_markdown_file(file_path: str) -> dict | None:
         q_text = q_match.group(2).strip().replace('\n', ' ')
 
         # Get choices - patterns like "A) text" or "A. text"
-        choices_raw = re.findall(r'([A-D])[)\.]\s+(.+?)(?=\n\s*[A-D][).]|(?:\*\*|)Answer|(?:\*\*|)Explanation|\Z)', block, re.DOTALL)
+        choices_raw = re.findall(r'([A-E])[)\.]\s+(.+?)(?=\n\s*[A-E][).]|(?:\*\*|)Answer|(?:\*\*|)Explanation|\Z)', block, re.DOTALL)
 
         # Get correct answer - supports both **Answer: X** and Answer: X
-        answer_match = re.search(r'(?:\*\*|)Answer:\s*([A-D])(?:\*\*|)', block)
+        answer_match = re.search(r'(?:\*\*|)Answer:\s*([A-E])(?:\*\*|)', block)
         correct_label = answer_match.group(1).strip() if answer_match else None
 
         if not choices_raw or not correct_label:
@@ -285,7 +285,21 @@ def parse_markdown_file(file_path: str) -> dict | None:
         })
 
     if not questions:
-        return None
+        # Check for Theory Section fallback
+        theory_match = re.search(r'## Theory .*?Section\n\n(.+)', content, re.DOTALL | re.IGNORECASE)
+        if theory_match:
+            theory_text = theory_match.group(1).strip()
+            questions.append({
+                "number": 1,
+                "text": theory_text,
+                "choices": [],
+                "topic": "Theory",
+                "difficulty": "MEDIUM",
+                "section": "Theory",
+                "explanation": None
+            })
+        else:
+            return None
 
     return {
         "exam_name": exam_name,
@@ -339,7 +353,8 @@ def import_markdown_file(file_path: str, db: Session):
             topic=q_data.get('topic'),
             difficulty=DifficultyLevel.MEDIUM,
             explanation=q_data.get('explanation'),
-            year=year, is_ai_generated=False
+            year=year, is_ai_generated=False,
+            section=q_data.get('section')
         )
         db.add(new_q)
         db.flush()

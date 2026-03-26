@@ -4,12 +4,12 @@ import { clsx } from 'clsx';
 import {
     ChevronLeft, ChevronRight, CheckCircle2, Flag, Timer,
     BookOpen, Layers, XCircle, Zap, Settings2, ShieldCheck,
-    Target, Clock
+    Target, Clock, Crown
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 import apiClient from '../api/client';
 
-export default function WAECBrowser({ userId, onExit, examId: propExamId, examName: propExamName }) {
+export default function WAECBrowser({ userId, onExit, examId: propExamId, examName: propExamName, onUnlockPro }) {
     const [view, setView] = useState('subjects'); // subjects | config | loading | exam | results
     const [subjects, setSubjects] = useState([]);
     const [selectedSubject, setSelectedSubject] = useState(null);
@@ -191,14 +191,26 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
     }
 
     if (error) {
+        const isSubError = error.includes('Subscription');
         return (
             <div className="h-screen flex items-center justify-center bg-background">
-                <GlowCard className="max-w-lg w-full text-center">
-                    <XCircle className="w-16 h-16 text-rose-500 mx-auto mb-4" />
-                    <h2 className="text-2xl font-bold mb-2">Oops!</h2>
-                    <p className="text-text-dim mb-6">{error}</p>
-                    <button onClick={() => { setError(null); setView('subjects'); }} className="btn-primary w-full justify-center">Try Again</button>
-                    <button onClick={onExit} className="mt-4 text-xs text-text-dim hover:text-white transition-colors">Back to Dashboard</button>
+                <GlowCard className={clsx("max-w-lg w-full text-center p-8", isSubError && "border-amber-500/30")}>
+                    {isSubError ? (
+                        <Crown className="w-16 h-16 text-amber-500 mx-auto mb-4" />
+                    ) : (
+                        <XCircle className="w-16 h-16 text-rose-500 mx-auto mb-4" />
+                    )}
+                    <h2 className="text-2xl font-bold mb-2">{isSubError ? "Premium Access Required" : "Oops!"}</h2>
+                    <p className={clsx("mb-6 text-sm font-bold", isSubError ? "text-amber-500/80" : "text-text-dim")}>{error}</p>
+                    
+                    {isSubError && onUnlockPro ? (
+                        <button onClick={onUnlockPro} className="w-full py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-black rounded-xl font-black uppercase tracking-widest text-xs hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                            <Crown size={16} /> Unlock Pro
+                        </button>
+                    ) : (
+                        <button onClick={() => { setError(null); setView('subjects'); }} className="btn-primary w-full justify-center">Try Again</button>
+                    )}
+                    <button onClick={onExit} className="mt-4 text-[10px] uppercase tracking-widest text-white/40 hover:text-white transition-colors">Back to Dashboard</button>
                 </GlowCard>
             </div>
         );

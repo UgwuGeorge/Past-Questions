@@ -21,7 +21,8 @@ import {
     Brain,
     Layers,
     Clock,
-    Target
+    Target,
+    Crown
 } from 'lucide-react';
 import apiClient from '../api/client';
 
@@ -31,11 +32,12 @@ const CATEGORY_MAP = {
     'Scholarships': ['IELTS Academic', 'IELTS General Training', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
 };
 
-export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub, onViewResult }) {
+export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub, onViewResult, onUnlockPro }) {
     const [exams, setExams] = useState([]);
     const [recentSessions, setRecentSessions] = useState([]);
     const [loading, setLoading] = useState(true);
     const [stats, setStats] = useState({ exams_completed: 0, avg_score: 0, study_hours: 0, mastery_level: 0 });
+    const [subStatus, setSubStatus] = useState(null);
     const [selectedExamForSubjects, setSelectedExamForSubjects] = useState(null); // { id, name, subjects }
     const [searchQuery, setSearchQuery] = useState("");
 
@@ -58,8 +60,10 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                 try {
                     const statsData = await apiClient.get(`/user/${userId}/stats`);
                     setStats(statsData);
+                    const subData = await apiClient.get('/subscription/status');
+                    setSubStatus(subData);
                 } catch (e) {
-                    console.warn("Stats fetch failed (might be new user)");
+                    console.warn("Stats or Sub fetch failed");
                 }
 
                 setLoading(false);
@@ -121,8 +125,13 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                         <div className="h-8 w-px bg-white/10" />
                         <div className="flex items-center gap-3 group cursor-pointer">
                             <div className="text-right">
-                                <div className="text-sm font-bold">Daniel</div>
-                                <div className="text-[10px] text-emerald-400 font-bold uppercase tracking-widest">Premium</div>
+                                <div className="text-sm font-bold opacity-0">User</div> {/* Hidden to keep layout, use actual username if available */}
+                                <div className={clsx(
+                                    "text-[10px] font-bold uppercase tracking-widest text-right mt-3",
+                                    subStatus?.tier === 'ELITE' ? "text-amber-500" : subStatus?.tier === 'PREMIUM' ? "text-emerald-400" : "text-white/40"
+                                )}>
+                                    {subStatus?.tier || '...'}
+                                </div>
                             </div>
                             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary/40 to-secondary/40 border border-white/10" />
                         </div>
@@ -130,6 +139,28 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                 </header>
 
                 <main className="flex-1 overflow-y-auto p-6 md:p-10 custom-scrollbar">
+                    {/* PROMO BANNER */}
+                    {subStatus && subStatus.tier !== 'ELITE' && (
+                        <div className="mb-10 p-6 rounded-[32px] bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/20 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+                            <div className="absolute top-0 right-0 w-[30%] h-full bg-amber-500/10 blur-[50px] rounded-full" />
+                            <div className="flex items-center gap-5 z-10">
+                                <div className="w-16 h-16 rounded-2xl bg-amber-500/20 flex items-center justify-center text-amber-500 border border-amber-500/30">
+                                    <Crown size={32} />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-black text-amber-500 italic tracking-tighter">REHARZ PRO</h3>
+                                    <p className="text-white/60 text-sm font-medium">Unlock ICAN Pathfinders, Theory Grading, and AI Master Models.</p>
+                                </div>
+                            </div>
+                            <button 
+                                onClick={onUnlockPro} 
+                                className="z-10 w-full md:w-auto px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-black uppercase tracking-widest text-xs rounded-xl shadow-[0_0_40px_-10px_rgba(245,158,11,0.5)] hover:scale-105 hover:opacity-90 transition-all flex items-center justify-center gap-2"
+                            >
+                                <Crown size={16} /> Upgrade Now
+                            </button>
+                        </div>
+                    )}
+
                     {/* Hero */}
                     <div className="flex flex-col md:flex-row gap-10 mb-12 md:mb-20 items-start md:items-end">
                         <div className="flex-1">

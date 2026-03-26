@@ -11,10 +11,11 @@ import SubjectHub from './pages/SubjectHub';
 import Auth from './pages/Auth';
 import MyResults from './pages/MyResults';
 import AdminPanel from './pages/AdminPanel';
+import SubscriptionHub from './pages/SubscriptionHub';
 import {
     ChevronLeft, LayoutDashboard, PenTool, Mic, FileText,
     Settings, LogOut, Home, ArrowLeft, User as UserIcon,
-    ShieldAlert, Menu, X
+    ShieldAlert, Menu, X, Crown
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import './index.css';
@@ -258,6 +259,15 @@ function App() {
               </div>
           </div>
           <NavItem icon={<Settings size={20} />} label="Settings" />
+          
+          <div className="mt-4">
+            <button
+              onClick={() => navigateTo('subscription')}
+              className="w-full relative flex items-center justify-center gap-2 px-4 py-3 rounded-2xl bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/30 text-amber-500 font-black tracking-widest text-xs uppercase hover:scale-[1.02] transition-all"
+            >
+                <Crown size={16} /> Unlock Pro
+            </button>
+          </div>
         </nav>
 
         <div className="mt-auto pt-6 border-t border-white/5">
@@ -286,6 +296,7 @@ function App() {
             onStartInterview={startInterview}
             onOpenSubjectHub={openSubjectHub}
             onViewResult={startResults}
+            onUnlockPro={() => navigateTo('subscription')}
           />
         )}
 
@@ -300,6 +311,7 @@ function App() {
               setSelectedSubject(activeSubject.id);
               navigateTo('practice');
             }}
+            onUnlockPro={() => navigateTo('subscription')}
           />
         )}
 
@@ -312,6 +324,7 @@ function App() {
               difficulty={preferredDifficulty}
               autoStart={examAutoStart}
               onExit={() => { setExamAutoStart(false); goBack(); }}
+              onUnlockPro={() => navigateTo('subscription')}
             />
           </div>
         )}
@@ -322,6 +335,7 @@ function App() {
             onExit={goBack}
             examId={selectedExamId}
             examName={selectedExamName || selectedExamType}
+            onUnlockPro={() => navigateTo('subscription')}
           />
         )}
 
@@ -359,6 +373,10 @@ function App() {
             </button>
             <AIInterview userId={user.id} onBack={goBack} />
           </div>
+        )}
+
+        {view === 'subscription' && (
+          <SubscriptionHub />
         )}
 
         <div className="fixed bottom-8 right-8 z-[100]">
