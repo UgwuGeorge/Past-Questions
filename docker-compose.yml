@@ -20,7 +20,8 @@ services:
   # Backend Service
   backend:
     build:
-      context: ./agent_core
+      context: .
+      dockerfile: agent_core/Dockerfile
     depends_on:
       db:
         condition: service_healthy
@@ -37,27 +38,18 @@ services:
 
   # Frontend & Nginx Orchestrator
   proxy:
-    image: nginx:stable-alpine
+    build:
+      context: ./frontend
     depends_on:
       - backend
-      - frontend-builder
     ports:
       - "80:80"
       - "443:443"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./agent_core/certs:/etc/nginx/certs:ro
-      - frontend_dist:/usr/share/nginx/html:ro
     restart: always
-
-  # Single-run builder for frontend content (Internal service)
-  frontend-builder:
-    build:
-      context: ./frontend
-    volumes:
-      - frontend_dist:/app/dist
-    command: /bin/sh -c "npm install && npm run build"
 
 volumes:
   postgres_data:
-  frontend_dist:
+

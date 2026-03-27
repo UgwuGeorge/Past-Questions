@@ -5,7 +5,7 @@ import GlowCard from '../components/GlowCard';
 import apiClient from '../api/client';
 import { clsx } from 'clsx';
 
-export default function SubscriptionHub() {
+export default function SubscriptionHub({ user }) {
     const [status, setStatus] = useState(null);
     const [loading, setLoading] = useState(true);
     const [processing, setProcessing] = useState(false);
@@ -27,22 +27,38 @@ export default function SubscriptionHub() {
         }
     };
 
-    const handleUpgrade = async (tier) => {
-        setProcessing(true);
-        try {
-            // Mock integration - ready for Paystack/Flutterwave
-            const res = await apiClient.post('/subscription/purchase', {
-                tier: tier,
-                duration: 30
-            });
-            setSuccessMsg(res.message);
-            await fetchStatus();
-            setTimeout(() => setSuccessMsg(''), 4000);
-        } catch (err) {
-            alert(err.message);
-        } finally {
-            setProcessing(false);
+    const handleUpgrade = (tierPlan) => {
+        if (!window.PaystackPop) {
+            alert("Payment service is loading. Please try again in a few seconds.");
+            return;
         }
+
+        const handler = window.PaystackPop.setup({
+            key: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY || 'pk_test_your_public_key_here',
+            email: user?.email || 'customer@reharz.ai',
+            amount: tierPlan.name === 'ELITE' ? 1500000 : 500000, // Naira to Kobo
+            currency: 'NGN',
+            callback: async (response) => {
+                setProcessing(true);
+                try {
+                    const res = await apiClient.post('/subscription/purchase', {
+                        tier: tierPlan.name,
+                        reference: response.reference,
+                        duration: 30
+                    });
+                    setSuccessMsg(res.message);
+                    await fetchStatus();
+                } catch (err) {
+                    alert(err.message);
+                } finally {
+                    setProcessing(false);
+                }
+            },
+            onClose: () => {
+                console.log('Payment window closed.');
+            }
+        });
+        handler.openIframe();
     };
 
     const plans = [

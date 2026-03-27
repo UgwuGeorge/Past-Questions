@@ -8,6 +8,8 @@ import {
 } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 import apiClient from '../api/client';
+import ScrollToTop from '../components/ScrollToTop';
+import { useRef } from 'react';
 
 export default function WAECBrowser({ userId, onExit, examId: propExamId, examName: propExamName, onUnlockPro }) {
     const [view, setView] = useState('subjects'); // subjects | config | loading | exam | results
@@ -25,6 +27,7 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
     const [sessionData, setSessionData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const scrollRef = useRef(null);
 
     // Exam state
     const [currentIdx, setCurrentIdx] = useState(0);
@@ -218,7 +221,8 @@ export default function WAECBrowser({ userId, onExit, examId: propExamId, examNa
 
     if (view === 'subjects') {
         return (
-            <div className="h-screen flex flex-col bg-background overflow-y-auto">
+            <div ref={scrollRef} className="h-screen flex flex-col bg-background overflow-y-auto">
+                <ScrollToTop scrollContainerRef={scrollRef} />
                 <header className="glass px-8 py-5 flex items-center gap-4 border-b border-white/5 sticky top-0 z-10">
                     <button onClick={onExit} className="p-2 hover:bg-white/5 rounded-lg transition-colors">
                         <ChevronLeft />

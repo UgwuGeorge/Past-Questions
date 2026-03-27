@@ -1,4 +1,5 @@
 import time
+import httpx
 from collections import defaultdict
 from datetime import datetime, timedelta
 import random
@@ -25,6 +26,9 @@ from typing import List, Optional
 from pydantic import BaseModel, Field, validator
 from datetime import datetime, timedelta
 import random
+import time
+print("DEBUG: Loading main.py from agent_core folder")
+import os
 import html
 import re
 
@@ -821,6 +825,127 @@ def get_system_stats(db: Session = Depends(get_db), admin: main_models.User = De
         "exams": total_exams,
         "subjects": total_subjects,
         "questions": total_questions
+    }
+
+@app.get("/api/admin/diagnostics")
+def run_diagnostics(db: Session = Depends(get_db), admin: main_models.User = Depends(get_admin)):
+    issues = []
+    
+    # 1. Exams without subjects
+    exams_no_subs = db.query(main_models.Exam).filter(~main_models.Exam.subjects.any()).all()
+    for e in exams_no_subs:
+        issues.append(f"Critical: Exam '{e.name}' [ID {e.id}] is empty (no subjects).")
+        
+    # 2. Subjects without questions
+    subs_no_qs = db.query(main_models.Subject).filter(~main_models.Subject.questions.any()).all()
+    for s in subs_no_qs:
+        issues.append(f"Warning: Subject '{s.name}' [ID {s.id}] in {s.exam.name if s.exam else '???'} has no questions.")
+        
+    # 3. MCQs without choices
+    qs_no_choices = db.query(main_models.Question).filter(~main_models.Question.choices.any()).limit(11).all()
+    for q in qs_no_choices:
+        if q.section and 'Theory' in q.section: continue
+        issues.append(f"Sync Issue: Question {q.id} in {q.topic or 'General'} has 0 options.")
+        
+    return {
+        "integrity": "pass" if not issues else "fail",
+        "report": issues if issues else ["System integrity verified across all nodes."],
+        "timestamp": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+    }
+
+# --- SUBSCRIPTION ENDPOINTS ---
+
+@app.get("/api/subscription/status")
+def get_subscription_status(current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    # Calculate days left for the best active subscription
+    now = datetime.utcnow()
+    # Find all active subscriptions that haven't expired
+    active_subs = [s for s in current_user.subscriptions if s.is_active and s.expiry_date > now]
+    
+    if not active_subs:
+        return {
+            "tier": "FREE",
+            "is_premium": False,
+            "expiry_date": None,
+            "days_left": 0
+        }
+    
+    # Sort to find the highest tier or longest expiry
+    # tier_power: ELITE (2) > PREMIUM (1) > FREE (0)
+    tier_map = {"FREE": 0, "PREMIUM": 1, "ELITE": 2}
+    latest_sub = max(active_subs, key=lambda x: (tier_map.get(x.tier.value, 0), x.expiry_date))
+    
+    days_left = (latest_sub.expiry_date - now).days
+    return {
+        "tier": latest_sub.tier.value if hasattr(latest_sub.tier, 'value') else str(latest_sub.tier),
+        "is_premium": latest_sub.tier != main_models.SubscriptionTier.FREE,
+        "expiry_date": latest_sub.expiry_date.strftime("%Y-%m-%d"),
+        "days_left": max(0, days_left)
+    }
+
+class PurchasePayload(BaseModel):
+    tier: str
+    reference: str  # Paystack reference
+    duration: int = 30 # days
+
+@app.post("/api/subscription/purchase")
+async def purchase_subscription(payload: PurchasePayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+    try:
+        tier_str = payload.tier.upper()
+        # Handle cases where tier might be transmitted as "PREMIUM PLAN" etc
+        if "PREMIUM" in tier_str: tier_enum = main_models.SubscriptionTier.PREMIUM
+        elif "ELITE" in tier_str: tier_enum = main_models.SubscriptionTier.ELITE
+        else: tier_enum = main_models.SubscriptionTier.FREE
+    except Exception:
+        raise HTTPException(status_code=400, detail=f"Invalid tier: {payload.tier}")
+    
+    # 1. Verify Transaction with Paystack if not a local mock
+    sk = os.getenv("PAYSTACK_SECRET_KEY")
+    is_test_env = os.getenv("DEBUG", "False").lower() == "true"
+    
+    if sk and not payload.reference.startswith("MOCK-"):
+        # Real verification if we have a key and it's not a forced mock
+        async with httpx.AsyncClient() as client:
+            try:
+                # Paystack returns 200 for valid verify calls, check 'status' in data
+                resp = await client.get(
+                    f"https://api.paystack.co/transaction/verify/{payload.reference}",
+                    headers={"Authorization": f"Bearer {sk}"}
+                )
+                if resp.status_code != 200:
+                    raise HTTPException(status_code=400, detail="Transaction verification failed at gateway.")
+                
+                data = resp.json()
+                if not data.get("status") or data["data"]["status"] != "success":
+                    raise HTTPException(status_code=400, detail="Payment verification failed.")
+                
+                # Verify amount matches (optional but recommended in production)
+                # expected_amount = 500000 if tier_enum == main_models.SubscriptionTier.PREMIUM else 1500000
+                # if data["data"]["amount"] < expected_amount:
+                #     raise HTTPException(status_code=400, detail="Payment amount mismatch.")
+                
+            except Exception as e:
+                if not isinstance(e, HTTPException):
+                    raise HTTPException(status_code=500, detail=f"Payment Service Unavailable: {str(e)}")
+                raise e
+    
+    # 2. Record Subscription
+    new_sub = main_models.Subscription(
+        user_id=current_user.id,
+        tier=tier_enum,
+        start_date=datetime.utcnow(),
+        expiry_date=datetime.utcnow() + timedelta(days=payload.duration),
+        is_active=True,
+        transaction_id=payload.reference
+    )
+    db.add(new_sub)
+    db.commit()
+    db.refresh(new_sub)
+    
+    return {
+        "message": f"Successfully upgraded to {tier_enum.value}!",
+        "tier": tier_enum.value,
+        "expiry_date": new_sub.expiry_date.strftime("%Y-%m-%d")
     }
 
 # In production, we assume a reverse proxy (like Nginx/Traefik) terminates SSL.

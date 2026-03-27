@@ -9,6 +9,8 @@ import {
 import GlowCard from '../components/GlowCard';
 import { clsx } from 'clsx';
 import apiClient from '../api/client';
+import ScrollToTop from '../components/ScrollToTop';
+import { useRef } from 'react';
 
 const ProgressRing = ({ percentage, color = "stroke-primary", size = 80 }) => {
     const radius = size * 0.4;
@@ -55,6 +57,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
     const [selectedItem, setSelectedItem] = useState(null);
     const [analyzing, setAnalyzing] = useState(false);
     const [aiAnalysisResult, setAiAnalysisResult] = useState(null);
+    const scrollRef = useRef(null);
 
     useEffect(() => {
         if (initialSessionId && exams.length > 0) {
@@ -287,7 +290,8 @@ export default function MyResults({ userId, initialSessionId = null }) {
                 </div>
 
                 {/* Detail Viewport */}
-                <div className="flex-1 glass rounded-[3rem] border border-white/5 p-12 overflow-y-auto custom-scrollbar relative bg-white/[0.01]">
+                <div ref={scrollRef} className="flex-1 glass rounded-[3rem] border border-white/5 p-12 overflow-y-auto custom-scrollbar relative bg-white/[0.01]">
+                    <ScrollToTop scrollContainerRef={scrollRef} />
                     <AnimatePresence mode='wait'>
                         {selectedItem ? (
                             <motion.div 

@@ -13,9 +13,9 @@ const SEGMENT_QUESTIONS = [
     "What unique contribution will you bring to your field of study?",
 ];
 
-export default function AIInterview({ userId, onBack }) {
+export default function AIInterview({ userId, onBack, onUnlockPro }) {
     const [messages, setMessages] = useState([
-        { role: 'bot', text: "Hello! I'm your Interview Coach. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null }
+        { role: 'bot', text: "Hello! I'm your Interview Coach. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null, isError: false }
     ]);
     const [input, setInput] = useState('');
     const [isRecording, setIsRecording] = useState(false);
@@ -81,9 +81,16 @@ export default function AIInterview({ userId, onBack }) {
                 setCurrentSegment(nextSegment);
             }
         } catch (e) {
+            const errorText = e.message;
             setMessages(prev => [
                 ...prev.filter(m => !m.typing),
-                { role: 'bot', text: "Sorry, I couldn't evaluate that response. Please try again.", feedback: null }
+                { 
+                    role: 'bot', 
+                    text: errorText, 
+                    feedback: null, 
+                    isError: true,
+                    isSubscriptionError: errorText.includes('Subscription')
+                }
             ]);
         } finally {
             setIsEvaluating(false);
@@ -209,6 +216,7 @@ export default function AIInterview({ userId, onBack }) {
                             </div>
                             <div className={clsx(
                                 "p-5 rounded-2xl leading-relaxed text-sm max-w-lg",
+                                msg.isError ? "bg-rose-500/10 border border-rose-500/20" :
                                 msg.role === 'bot' ? "glass rounded-tl-none border border-white/5" :
                                     "bg-secondary/10 border border-secondary/20 rounded-tr-none"
                             )}>
@@ -219,7 +227,17 @@ export default function AIInterview({ userId, onBack }) {
                                         <span className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
                                     </div>
                                 ) : (
-                                    <div className="whitespace-pre-line">{msg.text}</div>
+                                    <>
+                                        <div className="whitespace-pre-line">{msg.text}</div>
+                                        {msg.isSubscriptionError && (
+                                            <button
+                                                onClick={onUnlockPro}
+                                                className="mt-4 px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-black rounded-lg font-black uppercase text-[10px] tracking-widest flex items-center gap-2 hover:opacity-90 transition-opacity"
+                                            >
+                                                <Crown size={12} /> Upgrade to Pro
+                                            </button>
+                                        )}
+                                    </>
                                 )}
                             </div>
                         </motion.div>

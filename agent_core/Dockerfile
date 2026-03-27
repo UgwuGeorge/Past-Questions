@@ -12,16 +12,18 @@ RUN apt-get update && apt-get install -y \
 # Optimize for Python
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
 
 # Install Python requirements
-COPY requirements.txt .
+COPY agent_core/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy backend code
-COPY . .
+# Copy required folders to maintain module structure
+COPY agent_core/ ./agent_core/
+COPY data/ ./data/
 
 # Expose backend port
 EXPOSE 8000
 
-# Start with uvicorn (Nginx will handle SSL termination in compose if we use it there, but we can also use python main.py)
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Start with uvicorn (Nginx will handle SSL termination in compose if we use it there)
+CMD ["uvicorn", "agent_core.main:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -46,6 +46,21 @@ export default function AdminPanel({ userId }) {
         }
     };
 
+    const runDiagnostics = async () => {
+        try {
+            const result = await apiClient.get('/admin/diagnostics');
+            if (result.integrity === 'fail') {
+                const head = `SYSTEM ANOMALIES DETECTED (${result.timestamp})`;
+                const body = result.report.slice(0, 5).join('\n-- ');
+                alert(`${head}\n\n-- ${body}${result.report.length > 5 ? '\n...and more.' : ''}`);
+            } else {
+                alert(`CONTROL CHANNEL SECURE\n\n${result.report[0]}\nTimestamp: ${result.timestamp}`);
+            }
+        } catch (err) {
+            alert("DIAGNOSTIC FAULT: " + err.message);
+        }
+    };
+
     const filteredUsers = users.filter(u => 
         u.username.toLowerCase().includes(searchQuery.toLowerCase()) || 
         u.email.toLowerCase().includes(searchQuery.toLowerCase())
@@ -200,14 +215,24 @@ export default function AdminPanel({ userId }) {
                         <FileText size={48} className="text-secondary mb-6" />
                         <h4 className="text-2xl font-black tracking-tighter mb-2 italic">PDF Dataset Ingestion.</h4>
                         <p className="text-white/40 text-sm max-w-sm mb-8 leading-relaxed italic">Upload official examination pathfinders to the neural vault for CBT synthesis.</p>
-                        <button className="btn-primary w-full py-4 text-[10px] font-black uppercase tracking-widest bg-secondary/80 hover:bg-secondary">Launch Uploader</button>
+                        <button 
+                            onClick={() => alert("Uploader is secured for private server nodes. Please use the 'sync_production.bat' command from the CLI.")}
+                            className="btn-primary w-full py-4 text-[10px] font-black uppercase tracking-widest bg-secondary/80 hover:bg-secondary"
+                        >
+                            Launch Uploader
+                        </button>
                      </GlowCard>
 
                      <GlowCard className="p-10 border border-white/5 flex flex-col items-center text-center">
                         <Database size={48} className="text-accent mb-6" />
                         <h4 className="text-2xl font-black tracking-tighter mb-2 italic">Question Vault Audit.</h4>
                         <p className="text-white/40 text-sm max-w-sm mb-8 leading-relaxed italic">Perform structural integrity checks on {stats.questions} proctored items across 3 layers.</p>
-                        <button className="btn-primary w-full py-4 text-[10px] font-black uppercase tracking-widest bg-emerald-500/80 hover:bg-emerald-500">Run Diagnostics</button>
+                        <button 
+                            onClick={runDiagnostics}
+                            className="btn-primary w-full py-4 text-[10px] font-black uppercase tracking-widest bg-emerald-500/80 hover:bg-emerald-500"
+                        >
+                            Run Diagnostics
+                        </button>
                      </GlowCard>
                 </div>
             </main>

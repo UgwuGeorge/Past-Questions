@@ -359,7 +359,7 @@ function App() {
             >
               <ChevronLeft size={16} /> Back
             </button>
-            <AIGrading userId={user.id} onBack={goBack} />
+            <AIGrading userId={user.id} onBack={goBack} onUnlockPro={() => navigateTo('subscription')} />
           </div>
         )}
 
@@ -371,12 +371,12 @@ function App() {
             >
               <ChevronLeft size={16} /> Back
             </button>
-            <AIInterview userId={user.id} onBack={goBack} />
+            <AIInterview userId={user.id} onBack={goBack} onUnlockPro={() => navigateTo('subscription')} />
           </div>
         )}
 
         {view === 'subscription' && (
-          <SubscriptionHub />
+          <SubscriptionHub user={user} />
         )}
 
         <div className="fixed bottom-8 right-8 z-[100]">

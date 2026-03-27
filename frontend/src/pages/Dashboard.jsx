@@ -22,14 +22,24 @@ import {
     Layers,
     Clock,
     Target,
-    Crown
+    Crown,
+    Lock,
+    ChevronUp
 } from 'lucide-react';
 import apiClient from '../api/client';
+import ScrollToTop from '../components/ScrollToTop';
+import { useRef } from 'react';
 
 const CATEGORY_MAP = {
     'Academics': ['WAEC', 'NECO', 'JAMB', 'NABTEB', 'NDA', 'POLAC'],
     'Professional': ['ICAN Foundation', 'ICAN Skills', 'ICAN Professional', 'Med/Nursing license', 'The bar exam', 'TRCN', 'CIBN', 'COREN'],
     'Scholarships': ['IELTS Academic', 'IELTS General Training', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
+};
+
+const TIER_PRIORITY = {
+    'FREE': 0,
+    'PREMIUM': 1,
+    'ELITE': 2
 };
 
 export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onStartGrading, onStartInterview, onOpenSubjectHub, onViewResult, onUnlockPro }) {
@@ -40,6 +50,7 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
     const [subStatus, setSubStatus] = useState(null);
     const [selectedExamForSubjects, setSelectedExamForSubjects] = useState(null); // { id, name, subjects }
     const [searchQuery, setSearchQuery] = useState("");
+    const scrollRef = useRef(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -138,7 +149,8 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                     </div>
                 </header>
 
-                <main className="flex-1 overflow-y-auto p-6 md:p-10 custom-scrollbar">
+                <main ref={scrollRef} className="flex-1 overflow-y-auto p-6 md:p-10 custom-scrollbar">
+                    <ScrollToTop scrollContainerRef={scrollRef} />
                     {/* PROMO BANNER */}
                     {subStatus && subStatus.tier !== 'ELITE' && (
                         <div className="mb-10 p-6 rounded-[32px] bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/20 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
@@ -256,6 +268,9 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                         {filteredList.map((item, i) => {
                                             const examRecord = findExamInDb(item);
                                             const isAvailable = (item === 'WAEC' || examRecord);
+                                            const userTierPower = TIER_PRIORITY[subStatus?.tier] || 0;
+                                            const requiredTierPower = TIER_PRIORITY[examRecord?.required_tier] || 0;
+                                            const isLocked = isAvailable && examRecord && userTierPower < requiredTierPower;
                                             return (
                                                 <motion.div
                                                     key={item}
@@ -275,8 +290,17 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                                 {item[0]}
                                                             </div>
                                                             {isAvailable ? (
-                                                                <div className="px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full">
-                                                                    <span className="text-[10px] font-black text-emerald-400 tracking-tighter uppercase">Available</span>
+                                                                <div className={clsx(
+                                                                    "px-3 py-1 border rounded-full flex items-center gap-1.5",
+                                                                    isLocked ? "bg-amber-500/10 border-amber-500/20" : "bg-emerald-500/10 border-emerald-500/20"
+                                                                )}>
+                                                                    {isLocked && <Lock size={10} className="text-amber-500" />}
+                                                                    <span className={clsx(
+                                                                        "text-[10px] font-black tracking-tighter uppercase",
+                                                                        isLocked ? "text-amber-500" : "text-emerald-400"
+                                                                    )}>
+                                                                        {isLocked ? "Locked" : "Available"}
+                                                                    </span>
                                                                 </div>
                                                             ) : (
                                                                 <div className="px-3 py-1 bg-white/5 border border-white/10 rounded-full">
@@ -306,19 +330,24 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                                 disabled={!isAvailable}
                                                                 onClick={(e) => {
                                                                     e.stopPropagation();
+                                                                    if (isLocked) {
+                                                                        onUnlockPro();
+                                                                        return;
+                                                                    }
                                                                     if (examRecord) {
-                                                                        // All exams with DB records go through the unified subject→config→exam flow
                                                                         onStartPractice?.(item, examRecord.id, examRecord.name);
                                                                     }
                                                                 }}
                                                                 className={clsx(
                                                                     "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
                                                                     isAvailable
-                                                                        ? "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
+                                                                        ? isLocked 
+                                                                            ? "bg-amber-500/20 text-amber-500 border border-amber-500/40 hover:bg-amber-500/30"
+                                                                            : "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
                                                                         : "bg-white/5 text-white/20 cursor-not-allowed"
                                                                 )}
                                                             >
-                                                                {isAvailable ? <><Layers size={14} /> Explorer</> : "Coming Soon"}
+                                                                {isAvailable ? (isLocked ? <><Crown size={14} /> Upgrade</> : <><Layers size={14} /> Explorer</>) : "Coming Soon"}
                                                             </button>
                                                         </div>
                                                     </div>

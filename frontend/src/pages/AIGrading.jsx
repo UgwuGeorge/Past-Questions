@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FileText, Upload, Sparkles, CheckCircle, ChevronLeft, AlertCircle, XCircle, TrendingUp, TrendingDown } from 'lucide-react';
+import { FileText, Upload, Sparkles, CheckCircle, ChevronLeft, AlertCircle, XCircle, TrendingUp, TrendingDown, Crown } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
 import apiClient from '../api/client';
@@ -11,7 +11,7 @@ const ESSAY_TYPES = [
     { id: "WAEC", label: "Academic Essay", color: "border-blue-500/40 bg-blue-500/5", activeColor: "border-blue-500 bg-blue-500/20 text-blue-300" },
 ];
 
-export default function AIGrading({ userId, onBack }) {
+export default function AIGrading({ userId, onBack, onUnlockPro }) {
     const [text, setText] = useState('');
     const [criteria, setCriteria] = useState('IELTS');
     const [isGrading, setIsGrading] = useState(false);
@@ -129,7 +129,17 @@ export default function AIGrading({ userId, onBack }) {
                                 <XCircle className="text-rose-500 w-12 h-12 mx-auto mb-4" />
                                 <h3 className="text-xl font-bold mb-2">Grading Failed</h3>
                                 <p className="text-text-dim text-sm">{error}</p>
-                                <button onClick={() => setError(null)} className="mt-6 btn-secondary">Try Again</button>
+                                
+                                {error.includes('Subscription') ? (
+                                    <button
+                                        onClick={onUnlockPro}
+                                        className="mt-6 px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-black rounded-xl font-black uppercase tracking-widest text-xs shadow-lg shadow-amber-500/20 hover:scale-105 transition-all flex items-center justify-center gap-2 mx-auto"
+                                    >
+                                        <Crown size={16} /> Upgrade to Pro
+                                    </button>
+                                ) : (
+                                    <button onClick={() => setError(null)} className="mt-6 btn-secondary">Try Again</button>
+                                )}
                             </motion.div>
                         )}
 

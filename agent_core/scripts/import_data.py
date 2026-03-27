@@ -37,7 +37,7 @@ load_dotenv(os.path.join(project_root, ".env"))
 from agent_core.database import SessionLocal, engine, Base
 from agent_core.models.main_models import (
     Exam, Subject, Question, Choice, QuestionPaper, QuestionContext,
-    ExamCategory, DifficultyLevel
+    ExamCategory, DifficultyLevel, SubscriptionTier
 )
 
 Base.metadata.create_all(bind=engine)
@@ -58,6 +58,12 @@ EXAM_MAP = {
     "COMMONWEALTH": ExamCategory.SCHOLARSHIPS, "DAAD": ExamCategory.SCHOLARSHIPS,
     "ERASMUS": ExamCategory.SCHOLARSHIPS, "SHELL": ExamCategory.SCHOLARSHIPS,
     "NNPC-TOTAL": ExamCategory.SCHOLARSHIPS,
+}
+
+TIER_MAP = {
+    "PROFESSIONAL": (SubscriptionTier.ELITE, 15000.0),
+    "SCHOLARSHIPS": (SubscriptionTier.PREMIUM, 5000.0),
+    "ACADEMICS": (SubscriptionTier.FREE, 0.0),
 }
 
 DIFFICULTY_MAP = {
@@ -83,11 +89,15 @@ def get_or_create_exam(db: Session, exam_name: str, file_path: str, sub_category
     target_category = EXAM_MAP.get(key, get_category_from_path(file_path))
 
     if not exam:
+        cat_key = target_category.value if hasattr(target_category, 'value') else str(target_category)
+        tier, price = TIER_MAP.get(cat_key, (SubscriptionTier.FREE, 0.0))
         exam = Exam(
             name=exam_name.upper(),
             category=target_category,
             sub_category=sub_category,
-            description=f"{exam_name} Examination"
+            description=f"{exam_name} Examination",
+            required_tier=tier,
+            price=price
         )
         db.add(exam)
         db.commit()
@@ -103,8 +113,17 @@ def get_or_create_exam(db: Session, exam_name: str, file_path: str, sub_category
             exam.category = target_category
             if sub_category:
                 exam.sub_category = sub_category
-            db.commit()
-            db.refresh(exam)
+            
+        # Ensure tier and price are correct
+        cat_key = exam.category.value if hasattr(exam.category, 'value') else str(exam.category)
+        tier, price = TIER_MAP.get(cat_key, (SubscriptionTier.FREE, 0.0))
+        if exam.required_tier != tier or exam.price != price:
+            print(f"  [~] Updating Exam gating for {exam.name}: {tier.value} @ {price}")
+            exam.required_tier = tier
+            exam.price = price
+
+        db.commit()
+        db.refresh(exam)
             
     return exam
 

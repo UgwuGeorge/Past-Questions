@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
-import { ChevronLeft, FileText, Download, Eye, Search, BookOpen, Layers, Clock } from 'lucide-react';
+import { ChevronLeft, FileText, Download, Eye, Search, BookOpen, Layers, Clock, ChevronUp } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
 import apiClient from '../api/client';
+import ScrollToTop from '../components/ScrollToTop';
+import { useRef } from 'react';
 
 export default function ExamRepo({ examType, onExit }) {
     const [id, setId] = useState(null);
@@ -16,6 +18,7 @@ export default function ExamRepo({ examType, onExit }) {
     const [selectedSubject, setSelectedSubject] = useState(null); // This will be the subject object {id, name}
     const [selectedYear, setSelectedYear] = useState(null);
     const [questions, setQuestions] = useState([]);
+    const scrollRef = useRef(null);
 
     useEffect(() => {
         const fetchInitial = async () => {
@@ -122,7 +125,8 @@ export default function ExamRepo({ examType, onExit }) {
                 </div>
             </header>
 
-            <main className="flex-1 overflow-y-auto custom-scrollbar p-10">
+            <main ref={scrollRef} className="flex-1 overflow-y-auto custom-scrollbar p-10">
+                <ScrollToTop scrollContainerRef={scrollRef} />
                 <AnimatePresence mode="wait">
                     {view === 'subjects' && (
                         <motion.div
