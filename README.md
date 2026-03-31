@@ -1,6 +1,6 @@
-# Reharz AI: The Professional Exam Architect
+# Reharz: The Professional Exam Architect
 
-Reharz AI is a production-grade examination simulation platform designed for high-stakes professional and academic certifications (ICAN, JAMB, WAEC, IELTS). It features AI-powered grading, adaptive practice sessions, and a proctored simulation environment.
+Reharz is a production-grade examination simulation platform designed for high-stakes professional and academic certifications (ICAN, JAMB, WAEC, IELTS). It features expert-powered grading, adaptive practice sessions, and a proctored simulation environment.
 
 ## 🚀 Production Quick Start
 
@@ -44,4 +44,4 @@ To launch the full orchestrated environment (Nginx + Backend + Frontend + Postgr
 - `docker-compose.yml`: Production orchestration manifest.
 
 ---
-© 2026 Reharz AI Team. Confidential & Proprietary.
+© 2026 Reharz Team. Confidential & Proprietary.

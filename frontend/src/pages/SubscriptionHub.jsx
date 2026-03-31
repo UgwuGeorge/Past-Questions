@@ -35,7 +35,7 @@ export default function SubscriptionHub({ user }) {
 
         const handler = window.PaystackPop.setup({
             key: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY || 'pk_test_your_public_key_here',
-            email: user?.email || 'customer@reharz.ai',
+            email: user?.email || 'customer@reharz.com',
             amount: tierPlan.name === 'ELITE' ? 1500000 : 500000, // Naira to Kobo
             currency: 'NGN',
             callback: async (response) => {

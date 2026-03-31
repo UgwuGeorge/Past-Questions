@@ -267,7 +267,7 @@ class ExamAgent:
                     except:
                         pass
         
-        # 3. Analyze via AI
+        # 3. Analyze via Expert Engine
         profile = AIEngine.analyze_syllabus_sync(subject.name, q_data, extra_content)
         
         # 4. Integrate stats (User Specific)
@@ -304,7 +304,7 @@ class ExamAgent:
                 self.db.commit()
                 self.db.refresh(subject)
 
-        # 3. Generate via AI
+        # 3. Generate via Expert Engine
         questions_data = AIEngine.generate_questions_sync(exam_name, topic, difficulty, count)
         
         # 4. Save to DB
@@ -603,7 +603,7 @@ class ExamAgent:
             )
             final_text = second_response.choices[0].message.content or ''
             if actions_taken:
-                # We prefix with [ACTION_TRIGGERED] if not already present (AI was told to include it, but we'll ensure)
+                # We prefix with [ACTION_TRIGGERED] if not already present (Expert Engine was told to include it, but we'll ensure)
                 action_json = json.dumps(actions_taken)
                 return f"{final_text}\n\n[ACTIONS: {action_json}]"
             

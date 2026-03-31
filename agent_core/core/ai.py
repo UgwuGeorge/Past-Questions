@@ -249,7 +249,7 @@ class AIEngine:
         2. "scheme_of_work": [A list of key topics identified, e.g., ["Algebra", "Geometry"]]
         3. "structure_analysis": "A detailed explanation of how questions are structured in this subject (e.g., 'Heavy on calculations', 'Conceptual multiple choice')"
         4. "learning_path": [Recommended sequence of topics to master]
-        5. "ai_proctor_persona": "A brief description of how the AI should act as a proctor for this specific subject (e.g., 'A patient but rigorous Mathematics Mentor')"
+        5. "proctor_persona": "A brief description of how the expert should act as a proctor for this specific subject (e.g., 'A patient but rigorous Mathematics Mentor')"
         6. "mastery_tips": ["Tip 1", "Tip 2"]
         
         Return ONLY valid JSON.
@@ -277,7 +277,7 @@ class AIEngine:
         2. "scheme_of_work": [List of topics]
         3. "structure_analysis": "Explanation of structure"
         4. "learning_path": [Recommended sequence]
-        5. "ai_proctor_persona": "Persona"
+        5. "proctor_persona": "Persona"
         6. "mastery_tips": ["Tips"]
         
         Return ONLY valid JSON.

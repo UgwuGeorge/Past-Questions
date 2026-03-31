@@ -50,13 +50,13 @@ const ProgressRing = ({ percentage, color = "stroke-primary", size = 80 }) => {
 };
 
 export default function MyResults({ userId, initialSessionId = null }) {
-    const [activeTab, setActiveTab] = useState('exams'); // 'exams' | 'ai'
+    const [activeTab, setActiveTab] = useState('exams'); // 'exams' | 'expert'
     const [exams, setExams] = useState([]);
-    const [aiFeedback, setAiFeedback] = useState([]);
+    const [expertFeedback, setExpertFeedback] = useState([]);
     const [loading, setLoading] = useState(true);
     const [selectedItem, setSelectedItem] = useState(null);
     const [analyzing, setAnalyzing] = useState(false);
-    const [aiAnalysisResult, setAiAnalysisResult] = useState(null);
+    const [expertAnalysisResult, setExpertAnalysisResult] = useState(null);
     const scrollRef = useRef(null);
 
     useEffect(() => {
@@ -74,13 +74,13 @@ export default function MyResults({ userId, initialSessionId = null }) {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const [examsData, aiData] = await Promise.all([
+                const [examsData, expertData] = await Promise.all([
                     apiClient.get(`/simulation/sessions/${userId}`),
-                    apiClient.get(`/user/ai-feedback/${userId}`)
+                    apiClient.get(`/user/expert-feedback/${userId}`)
                 ]);
                 
                 setExams(examsData);
-                setAiFeedback(aiData);
+                setExpertFeedback(expertData);
             } catch (err) {
                 console.error("Failed to fetch results:", err);
             } finally {
@@ -92,10 +92,10 @@ export default function MyResults({ userId, initialSessionId = null }) {
 
     const handleAnalyze = async (sessionId) => {
         setAnalyzing(true);
-        setAiAnalysisResult(null);
+        setExpertAnalysisResult(null);
         try {
             const data = await apiClient.get(`/simulation/${sessionId}/analyze`);
-            setAiAnalysisResult(data);
+            setExpertAnalysisResult(data);
         } catch (err) {
             console.error("Analysis failed:", err);
         } finally {
@@ -169,7 +169,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                 
                 <div className="flex gap-2 p-1 bg-white/5 rounded-2xl border border-white/10 glass">
                     <button 
-                        onClick={() => { setActiveTab('exams'); setSelectedItem(null); setAiAnalysisResult(null); }}
+                        onClick={() => { setActiveTab('exams'); setSelectedItem(null); setExpertAnalysisResult(null); }}
                         className={clsx(
                             "px-6 py-2.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center gap-2",
                             activeTab === 'exams' ? "bg-primary text-white shadow-lg shadow-primary/20" : "text-white/40 hover:text-white"
@@ -178,10 +178,10 @@ export default function MyResults({ userId, initialSessionId = null }) {
                         <BarChart3 size={14} /> Simulations
                     </button>
                     <button 
-                        onClick={() => { setActiveTab('ai'); setSelectedItem(null); setAiAnalysisResult(null); }}
+                        onClick={() => { setActiveTab('expert'); setSelectedItem(null); setExpertAnalysisResult(null); }}
                         className={clsx(
                             "px-6 py-2.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center gap-2",
-                            activeTab === 'ai' ? "bg-secondary text-white shadow-lg shadow-secondary/20" : "text-white/40 hover:text-white"
+                            activeTab === 'expert' ? "bg-secondary text-white shadow-lg shadow-secondary/20" : "text-white/40 hover:text-white"
                         )}
                     >
                         <Brain size={14} /> System Artifacts
@@ -200,7 +200,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                     initial={{ opacity: 0, x: -20 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: idx * 0.05 }}
-                                    onClick={() => { setSelectedItem(exam); setAiAnalysisResult(null); }}
+                                    onClick={() => { setSelectedItem(exam); setExpertAnalysisResult(null); }}
                                     className={clsx(
                                         "p-6 rounded-[2rem] border transition-all cursor-pointer group relative overflow-hidden",
                                         selectedItem?.id === exam.id ? "bg-white/10 border-primary" : "glass border-white/5 hover:border-white/20"
@@ -248,7 +248,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                 </div>
                             )
                         ) : (
-                            aiFeedback.length > 0 ? aiFeedback.map((fb, idx) => (
+                            expertFeedback.length > 0 ? expertFeedback.map((fb, idx) => (
                                 <motion.div 
                                     key={fb.id}
                                     initial={{ opacity: 0, x: -20 }}
@@ -374,9 +374,9 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                                 </GlowCard>
                                             </div>
 
-                                            {/* AI Analysis Result Section (Animated) */}
+                                            {/* Expert Analysis Result Section (Animated) */}
                                             <AnimatePresence>
-                                                {aiAnalysisResult && (
+                                                {expertAnalysisResult && (
                                                     <motion.div 
                                                         initial={{ opacity: 0, height: 0 }}
                                                         animate={{ opacity: 1, height: 'auto' }}
@@ -393,7 +393,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                                                 <div>
                                                                     <div className="text-[10px] font-black uppercase text-primary mb-2 opacity-60">Global Assessment</div>
                                                                     <p className="text-lg font-bold italic text-white/90 leading-relaxed max-w-2xl">
-                                                                        "{aiAnalysisResult.overall_assessment}"
+                                                                        "{expertAnalysisResult.overall_assessment}"
                                                                     </p>
                                                                 </div>
                                                                 
@@ -403,7 +403,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                                                             <CheckCircle2 size={12} /> Domain Mastery
                                                                         </div>
                                                                         <div className="space-y-2">
-                                                                            {aiAnalysisResult.strong_topics?.map((topic, i) => (
+                                                                            {expertAnalysisResult.strong_topics?.map((topic, i) => (
                                                                                 <div key={i} className="flex items-center gap-2 text-xs font-bold text-white/70">
                                                                                     <div className="w-1 h-1 rounded-full bg-emerald-500" /> {topic}
                                                                                 </div>
@@ -415,7 +415,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                                                             <XCircle size={12} /> Vulnerable Sectors
                                                                         </div>
                                                                         <div className="space-y-2">
-                                                                            {aiAnalysisResult.critical_gaps?.map((topic, i) => (
+                                                                            {expertAnalysisResult.critical_gaps?.map((topic, i) => (
                                                                                 <div key={i} className="flex items-center gap-2 text-xs font-bold text-white/70">
                                                                                     <div className="w-1 h-1 rounded-full bg-rose-500" /> {topic}
                                                                                 </div>
@@ -429,7 +429,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                                                         <Target size={12} /> Tactical Improvement Plan
                                                                     </div>
                                                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                                                                        {aiAnalysisResult.action_plan?.map((step, i) => (
+                                                                        {expertAnalysisResult.action_plan?.map((step, i) => (
                                                                             <div key={i} className="p-4 rounded-xl bg-white/5 border border-white/10 text-[11px] font-medium text-white/60 flex items-start gap-3">
                                                                                 <div className="w-5 h-5 rounded flex items-center justify-center bg-primary text-white font-black text-[9px] shrink-0">{i+1}</div>
                                                                                 {step}
@@ -533,7 +533,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                     </div>
                                     <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/5">
                                         <div className="text-[10px] font-black uppercase text-white/20 mb-1">System Logs</div>
-                                        <div className="text-2xl font-black text-white/40">{aiFeedback.length}</div>
+                                        <div className="text-2xl font-black text-white/40">{expertFeedback.length}</div>
                                     </div>
                                 </div>
                             </div>

@@ -162,7 +162,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"message": "Reharz AI Exam Backend is running"}
+    return {"message": "Reharz Exam Backend is running"}
 
 def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
     if not token:
@@ -414,7 +414,7 @@ async def grade_essay(payload: EssayPayload, current_user: main_models.User = De
     if payload.userId != current_user.id:
         raise HTTPException(status_code=403, detail="User ID mismatch in request payload")
     
-    # Sanitize content before passing to AI or storing
+    # Sanitize content before passing to Expert or storing
     safe_content = html.escape(payload.content.strip())
     
     if not safe_content:
@@ -724,7 +724,7 @@ async def submit_simulation(payload: SimulationSubmitPayload, current_user: main
         is_theory = not (q.choices and len(q.choices) > 0)
         
         if is_theory:
-            # AI GRADING FOR THEORY
+            # EXPERT GRADING FOR THEORY
             grading = await AIEngine.grade_theory_response(q.text, q.explanation or "", response)
             is_correct = grading.get("score", 0) >= 50 # Pass threshold
             feedback = grading.get("feedback", "")
@@ -794,7 +794,7 @@ async def analyze_simulation(session_id: int, current_user: main_models.User = D
     if not session.results_json:
         raise HTTPException(status_code=400, detail="Session is not completed yet")
     
-    # Enrich results with question text and correct answers for AI context
+    # Enrich results with question text and correct answers for expert evaluation context
     full_results = session.results_json.copy()
     enriched_answers = []
     
@@ -824,10 +824,10 @@ async def analyze_simulation(session_id: int, current_user: main_models.User = D
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/api/user/ai-feedback/{user_id}")
-def get_user_ai_feedback(user_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+@app.get("/api/user/expert-feedback/{user_id}")
+def get_user_expert_feedback(user_id: int, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     if user_id != current_user.id and not current_user.is_admin:
-        raise HTTPException(status_code=403, detail="Access denied to AI feedback")
+        raise HTTPException(status_code=403, detail="Access denied to expert feedback")
     feedback = db.query(main_models.AIFeedback).filter(
         main_models.AIFeedback.user_id == user_id
     ).order_by(main_models.AIFeedback.created_at.desc()).all()

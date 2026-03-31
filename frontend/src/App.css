@@ -261,7 +261,7 @@ body {
   color: var(--text-700);
 }
 
-.ask-ai-fab {
+.ask-expert-fab {
   position: absolute;
   bottom: 24px;
   right: 24px;
@@ -306,7 +306,7 @@ body {
   border: 2px solid #f8faff;
 }
 
-.ask-ai-fab span {
+.ask-expert-fab span {
   font-weight: 700;
   color: var(--text-900);
   font-size: 0.95rem;
