@@ -161,7 +161,7 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-black text-amber-500 italic tracking-tighter">REHARZ PRO</h3>
-                                    <p className="text-white/60 text-sm font-medium">Unlock ICAN Pathfinders, Theory Grading, and AI Master Models.</p>
+                                    <p className="text-white/60 text-sm font-medium">Unlock ICAN Pathfinders, Theory Grading, and Advanced Simulation Models.</p>
                                 </div>
                             </div>
                             <button 
@@ -280,8 +280,18 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                     className="group"
                                                 >
                                                     <div
+                                                        onClick={() => {
+                                                            if (!isAvailable) return;
+                                                            if (isLocked) {
+                                                                onUnlockPro();
+                                                                return;
+                                                            }
+                                                            if (examRecord) {
+                                                                onStartPractice?.(item, examRecord.id, examRecord.name);
+                                                            }
+                                                        }}
                                                         className={clsx(
-                                                            "relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/40 transition-all flex flex-col h-full bg-white/[0.01]",
+                                                            "relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/40 transition-all flex flex-col h-full bg-white/[0.01] transition-all active:scale-[0.98]",
                                                             isAvailable ? "cursor-pointer" : "opacity-70"
                                                         )}
                                                     >
@@ -328,16 +338,6 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                         <div className="mt-auto pt-6 border-t border-white/5">
                                                             <button
                                                                 disabled={!isAvailable}
-                                                                onClick={(e) => {
-                                                                    e.stopPropagation();
-                                                                    if (isLocked) {
-                                                                        onUnlockPro();
-                                                                        return;
-                                                                    }
-                                                                    if (examRecord) {
-                                                                        onStartPractice?.(item, examRecord.id, examRecord.name);
-                                                                    }
-                                                                }}
                                                                 className={clsx(
                                                                     "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
                                                                     isAvailable

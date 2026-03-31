@@ -13,7 +13,7 @@ const SEGMENT_QUESTIONS = [
     "What unique contribution will you bring to your field of study?",
 ];
 
-export default function AIInterview({ userId, onBack, onUnlockPro }) {
+export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
     const [messages, setMessages] = useState([
         { role: 'bot', text: "Hello! I'm your Interview Coach. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null, isError: false }
     ]);

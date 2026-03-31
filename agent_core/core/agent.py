@@ -21,7 +21,7 @@ MODEL_ID = "gpt-4o"
 
 class ExamAgent:
     """
-    A senior AI-powered agent with Adaptive Learning, Weakness Detection, 
+    A senior virtual assistant with Adaptive Learning, Weakness Detection, 
     and Professional Examination Support.
     """
     
@@ -104,7 +104,7 @@ class ExamAgent:
     def get_adaptive_v2(self, user_id: int, exam_name: str) -> str:
         """
         Fetches a question specifically tailored to the user's current weakness level.
-        Includes correct answer metadata for internal AI verification.
+        Includes correct answer metadata for internal system verification.
         """
         # 1. Identify raw accuracy for topic selection
         stats = self.db.query(
@@ -143,7 +143,7 @@ class ExamAgent:
         if not question:
             return "No more questions for this topic/exam in the local database."
 
-        # 5. Result with internal metadata (for the AI's use)
+        # 5. Result with internal metadata (for the system's use)
         choices = []
         correct_choice_text = ""
         for c in question.choices:
@@ -526,7 +526,7 @@ class ExamAgent:
 
         messages = [
             {"role": "system", "content": (
-                f"You are the 'Reharz AI Assistant', the central nervous system of the Reharz Exam Application.{subject_prompt} "
+                f"You are the 'Reharz Exam Assistant', the central nervous system of the Reharz Exam Application.{subject_prompt} "
                 f"You assist current User (User ID: {user_id}) with learning, navigation, and exam setup. "
                 "\nCORE DIRECTIVES:"
                 "\n1. NAVIGATION: When the user asks to go to a section (e.g., 'Take me to grading', 'Show me results', 'Open interview prep'), you MUST EXCLUSIVELY use the 'navigate_to' tool. DO NOT JUST EXPLAIN; YOU MUST EXECUTE THE NAVIGATION."
@@ -601,9 +601,7 @@ class ExamAgent:
                 model=MODEL_ID,
                 messages=messages,
             )
-            final_text = second_response.choices[0].message.content
-            
-            # If we had navigation/exam actions, append them in a parsable way
+            final_text = second_response.choices[0].message.content or ''
             if actions_taken:
                 # We prefix with [ACTION_TRIGGERED] if not already present (AI was told to include it, but we'll ensure)
                 action_json = json.dumps(actions_taken)

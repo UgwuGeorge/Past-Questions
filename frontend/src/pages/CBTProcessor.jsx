@@ -427,7 +427,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                                                 onChange={(e) => setAnswers({ ...answers, [currentQ.id]: e.target.value })}
                                             />
                                             <div className="flex items-center justify-between text-[10px] font-black text-white/20 uppercase tracking-[0.2em] px-2 italic">
-                                                <span>AI-Enabled Grading Protocol Active</span>
+                                                <span>Automated Grading Protocol Active</span>
                                                 <span>{answers[currentQ.id]?.length || 0} characters recorded</span>
                                             </div>
                                         </div>
@@ -589,7 +589,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                                             </>
                                         ) : (
                                             <>
-                                                <Sparkles size={14} /> Request AI Strategy Breakdown
+                                                <Sparkles size={14} /> Request Strategy Breakdown
                                             </>
                                         )}
                                     </button>

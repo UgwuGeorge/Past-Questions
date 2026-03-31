@@ -30,7 +30,7 @@ services:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
       - ADMIN_EMAILS=${ADMIN_EMAILS}
-      - ENFORCE_HTTPS=True
+      - ENFORCE_HTTPS=False
     volumes:
       - ./agent_core/certs:/app/certs:ro
       - ./agent_core/past_questions_v2.db:/app/past_questions_v2.db # Optional persist for sqlite fallback

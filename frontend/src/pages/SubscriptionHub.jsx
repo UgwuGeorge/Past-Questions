@@ -69,7 +69,7 @@ export default function SubscriptionHub({ user }) {
             desc: "For JAMB, WAEC, and Post-UTME Candidates.",
             features: [
                 "Full Standardized Past Questions",
-                "Advanced AI Grading",
+                "Advanced Automated Assessment",
                 "Performance Analytics",
                 "Email Support"
             ],
@@ -84,7 +84,7 @@ export default function SubscriptionHub({ user }) {
                 "Everything in Premium",
                 "ICAN Pathfinders & Theory",
                 "Master's Answer Model Grading",
-                "Priority AI Coaching",
+                "Priority Expert Coaching",
                 "Simulated Proctored Environment"
             ],
             color: "amber-500",
@@ -109,7 +109,7 @@ export default function SubscriptionHub({ user }) {
                              <Crown className="text-amber-500" size={36} /> REHARZ PRO
                         </h1>
                         <p className="text-white/40 mt-2 text-sm max-w-xl">
-                            Unlock unrestricted access to advanced AI grading and professional-level exam simulations.
+                            Unlock unrestricted access to advanced automated grading and professional-level exam simulations.
                         </p>
                      </div>
                      <div className="bg-white/5 border border-white/10 p-4 rounded-2xl text-right">

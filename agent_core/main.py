@@ -13,6 +13,7 @@ import json
 from dotenv import load_dotenv
 
 load_dotenv()
+print(f"DATABASE: Using {os.getenv('DATABASE_URL')}")
 
 # Ensure agent_core is in path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -37,8 +38,54 @@ from jose import JWTError, jwt
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=False)
 
-# Create tables
-Base.metadata.create_all(bind=engine)
+# --- AUTO-MIGRATION: Adds missing columns to existing tables on startup ---
+def safe_migrate():
+    from sqlalchemy import inspect, text
+    from sqlalchemy import Integer, String, Boolean, Float, DateTime, JSON
+    inspector = inspect(engine)
+    existing_tables = inspector.get_table_names()
+
+    # First, create any brand-new tables
+    Base.metadata.create_all(bind=engine)
+
+    # Then, for each table defined in models, add any missing columns
+    type_map = {
+        'INTEGER': 'INTEGER',
+        'VARCHAR': 'VARCHAR',
+        'BOOLEAN': 'BOOLEAN',
+        'FLOAT': 'FLOAT DEFAULT 0.0',
+        'DATETIME': 'TIMESTAMP',
+        'JSON': 'JSON',
+    }
+
+    with engine.connect() as conn:
+        for table in Base.metadata.sorted_tables:
+            if table.name not in existing_tables:
+                continue  # Already handled by create_all above
+            existing_cols = {col['name'] for col in inspector.get_columns(table.name)}
+            for col in table.columns:
+                if col.name not in existing_cols:
+                    col_type = str(col.type).upper().split('(')[0].strip()
+                    sql_type = type_map.get(col_type, 'VARCHAR')
+                    default = ''
+                    if col.default is not None and hasattr(col.default, 'arg'):
+                        arg = col.default.arg
+                        if isinstance(arg, bool):
+                            default = f" DEFAULT {'TRUE' if arg else 'FALSE'}"
+                        elif isinstance(arg, (int, float)):
+                            default = f" DEFAULT {arg}"
+                        elif isinstance(arg, str):
+                            default = f" DEFAULT '{arg}'"
+                    elif col.nullable is False and col_type == 'BOOLEAN':
+                        default = ' DEFAULT FALSE'
+                    try:
+                        conn.execute(text(f'ALTER TABLE {table.name} ADD COLUMN IF NOT EXISTS "{col.name}" {sql_type}{default}'))
+                        conn.commit()
+                        print(f"AUTO-MIGRATE: Added column '{col.name}' to table '{table.name}'")
+                    except Exception as e:
+                        print(f"AUTO-MIGRATE WARNING: Could not add '{col.name}' to '{table.name}': {e}")
+
+safe_migrate()
 
 app = FastAPI(title="Reharz Exam Simulation Engine", debug=False) # Turned off debug for error hiding
 
@@ -46,7 +93,7 @@ app = FastAPI(title="Reharz Exam Simulation Engine", debug=False) # Turned off d
 
 # 1. Simple Rate Limiter (Memory-based)
 RATE_LIMIT_DURATION = 60 # 1 minute
-MAX_REQUESTS = 100 # per minute
+MAX_REQUESTS = 1000 # per minute
 request_counts = defaultdict(list)
 
 @app.middleware("http")
@@ -638,9 +685,9 @@ def start_simulation(payload: SimulationStartPayload, current_user: main_models.
             "id": q.id,
             "text": q.text,
             "topic": q.topic,
-            "section": q.section if q.section else ("Section A: Multiple Choice" if len(choices) > 0 else "Section B: Theory"),
+            "section": q.section if q.section else ("Section A: Multiple Choice" if (q.choices and len(q.choices) > 0) else "Section B: Theory"),
             "difficulty": str(q.difficulty.value),
-            "choices": [{"id": c.id, "label": c.label, "text": c.text} for c in choices]
+            "choices": [{"id": c.id, "label": c.label, "text": c.text} for c in q.choices] if q.choices else []
         })
     
     return {
@@ -655,7 +702,7 @@ class SimulationSubmitPayload(BaseModel):
     answers: dict  # {question_id: selected_label}
 
 @app.post("/api/simulation/submit")
-def submit_simulation(payload: SimulationSubmitPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
+async def submit_simulation(payload: SimulationSubmitPayload, current_user: main_models.User = Depends(get_current_user), db: Session = Depends(get_db)):
     session = db.query(main_models.ExamSession).get(payload.session_id)
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
@@ -670,24 +717,33 @@ def submit_simulation(payload: SimulationSubmitPayload, current_user: main_model
     total_count = len(payload.answers)
     topics_stats = {} # {topic: {correct, total}}
     
-    for q_id, label in payload.answers.items():
+    for q_id, response in payload.answers.items():
         q = db.query(main_models.Question).get(int(q_id))
         if not q: continue
         
-        correct_choice = db.query(main_models.Choice).filter(
-            main_models.Choice.question_id == q.id,
-            main_models.Choice.is_correct == True
-        ).first()
+        is_theory = not (q.choices and len(q.choices) > 0)
         
-        is_correct = (correct_choice and correct_choice.label == label)
-        if is_correct: correct_count += 1
+        if is_theory:
+            # AI GRADING FOR THEORY
+            grading = await AIEngine.grade_theory_response(q.text, q.explanation or "", response)
+            is_correct = grading.get("score", 0) >= 50 # Pass threshold
+            feedback = grading.get("feedback", "")
+            score_contribution = grading.get("score", 0) / 100.0
+        else:
+            # MCQ GRADING
+            correct_choice = next((c for c in q.choices if c.is_correct), None)
+            is_correct = (correct_choice and correct_choice.label == response)
+            score_contribution = 1.0 if is_correct else 0.0
+            feedback = q.explanation if not is_correct else ""
+
+        if is_correct: correct_count += score_contribution
         
         # Topic tracking
         topic = q.topic or "General"
         if topic not in topics_stats:
             topics_stats[topic] = {"correct": 0, "total": 0}
         topics_stats[topic]["total"] += 1
-        if is_correct: topics_stats[topic]["correct"] += 1
+        topics_stats[topic]["correct"] += score_contribution
         
         # Log to user progress
         progress = main_models.UserProgress(

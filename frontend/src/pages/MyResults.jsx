@@ -164,7 +164,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                         <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white/30">Analytics Dashboard</span>
                    </div>
                     <h1 className="text-5xl font-black italic tracking-tighter uppercase leading-none">Intelligence Vault</h1>
-                    <p className="text-text-dim text-sm italic mt-2">Personalized performance audit & AI-driven strategic feedback.</p>
+                    <p className="text-text-dim text-sm italic mt-2">Personalized performance audit & expert strategic feedback.</p>
                 </div>
                 
                 <div className="flex gap-2 p-1 bg-white/5 rounded-2xl border border-white/10 glass">
@@ -184,7 +184,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                             activeTab === 'ai' ? "bg-secondary text-white shadow-lg shadow-secondary/20" : "text-white/40 hover:text-white"
                         )}
                     >
-                        <Brain size={14} /> AI Artifacts
+                        <Brain size={14} /> System Artifacts
                     </button>
                 </div>
             </header>
@@ -274,7 +274,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                             <div className="w-6 h-6 rounded-lg bg-secondary/10 flex items-center justify-center">
                                                 <Sparkles size={12} className="text-secondary" />
                                             </div>
-                                            <span className="text-[9px] font-black uppercase text-white/40 tracking-widest">AI Synthesis</span>
+                                            <span className="text-[9px] font-black uppercase text-white/40 tracking-widest">System Synthesis</span>
                                         </div>
                                         <ChevronRight size={14} className="text-white/10" />
                                     </div>
@@ -282,7 +282,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                             )) : (
                                 <div className="text-center py-20 bg-white/5 rounded-[40px] border border-dashed border-white/10">
                                     <Brain className="mx-auto mb-4 opacity-10" size={48} />
-                                    <p className="text-text-dim text-xs font-bold uppercase tracking-widest">No AI Artifacts</p>
+                                    <p className="text-text-dim text-xs font-bold uppercase tracking-widest">No System Artifacts</p>
                                 </div>
                             )
                         )}
@@ -316,7 +316,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                         <div>
                                             <div className="text-[10px] font-black uppercase tracking-[0.3em] text-white/30 mb-2">Detailed Report</div>
                                             <h2 className="text-4xl font-black italic tracking-tighter uppercase leading-none mb-3">
-                                                {activeTab === 'exams' ? selectedItem.exam_name : `AI EVALUATION #${selectedItem.id}`}
+                                                {activeTab === 'exams' ? selectedItem.exam_name : `EVALUATION #${selectedItem.id}`}
                                             </h2>
                                             <div className="flex items-center gap-4 text-[10px] font-bold text-text-dim uppercase tracking-wider">
                                                 <span className="flex items-center gap-1.5"><Zap size={10} className="text-primary" /> Session {selectedItem.id}</span>
@@ -333,7 +333,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                             className="px-6 py-3 rounded-2xl bg-gradient-to-r from-primary to-accent text-white font-black text-[10px] uppercase tracking-widest shadow-xl shadow-primary/20 flex items-center gap-2 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 transition-all"
                                         >
                                             {analyzing ? <RefreshCw className="animate-spin" size={14} /> : <Sparkles size={14} />}
-                                            {analyzing ? "Synthesizing..." : "Request AI Coaching"}
+                                            {analyzing ? "Synthesizing..." : "Request Coaching"}
                                         </button>
                                     )}
                                 </div>
@@ -383,7 +383,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                                         className="space-y-6"
                                                     >
                                                         <h4 className="text-sm font-black uppercase tracking-[0.3em] text-primary flex items-center gap-2">
-                                                            <Brain size={16} /> AI Strategic Coaching
+                                                            <Brain size={16} /> Strategic Coaching
                                                         </h4>
                                                         <div className="p-8 rounded-[2.5rem] bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 shadow-2xl relative overflow-hidden group">
                                                             <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
@@ -523,7 +523,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                 </motion.div>
                                 <h3 className="text-2xl font-black text-white/20 uppercase tracking-[0.4em] italic leading-none">Intelligence Hub</h3>
                                 <p className="text-text-dim text-sm max-w-sm mt-6 font-medium leading-relaxed">
-                                    Select a simulation record or AI artifact from the sidebar to visualize granular performance metrics and expert coaching.
+                                    Select a simulation record or artifact from the sidebar to visualize granular performance metrics and expert coaching.
                                 </p>
                                 
                                 <div className="mt-12 grid grid-cols-2 gap-4 w-full max-w-md">
@@ -532,7 +532,7 @@ export default function MyResults({ userId, initialSessionId = null }) {
                                         <div className="text-2xl font-black text-white/40">{exams.length}</div>
                                     </div>
                                     <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/5">
-                                        <div className="text-[10px] font-black uppercase text-white/20 mb-1">AI Logs</div>
+                                        <div className="text-[10px] font-black uppercase text-white/20 mb-1">System Logs</div>
                                         <div className="text-2xl font-black text-white/40">{aiFeedback.length}</div>
                                     </div>
                                 </div>

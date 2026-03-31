@@ -46,7 +46,7 @@
 
   /* Scroll to top button animation */
   .scroll-to-top {
-    @apply fixed bottom-24 right-8 z-[90] p-4 rounded-full glass border-primary/20 text-primary shadow-2xl shadow-primary/20 hover:bg-primary/20 hover:scale-110 active:scale-95 transition-all duration-300;
+    @apply fixed bottom-24 right-8 z-[90] p-4 rounded-full backdrop-blur-2xl bg-white/[0.02] border border-white/[0.05] border-primary/20 text-primary shadow-2xl shadow-primary/20 hover:bg-primary/20 hover:scale-110 active:scale-95 transition-all duration-300;
   }
 }
 

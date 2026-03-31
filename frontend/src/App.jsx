@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import Dashboard from './pages/Dashboard';
 import { motion, AnimatePresence } from 'framer-motion';
 import CBTProcessor from './pages/CBTProcessor';
-import AIGrading from './pages/AIGrading';
-import AIInterview from './pages/AIInterview';
-import AIChat from './components/AIChat';
+import EssayGrader from './pages/EssayGrader';
+import InterviewCoach from './pages/InterviewCoach';
+import HubAssistant from './components/HubAssistant';
 import WAECBrowser from './pages/WAECBrowser';
 import ExamRepo from './pages/ExamRepo';
 import SubjectHub from './pages/SubjectHub';
@@ -12,6 +12,7 @@ import Auth from './pages/Auth';
 import MyResults from './pages/MyResults';
 import AdminPanel from './pages/AdminPanel';
 import SubscriptionHub from './pages/SubscriptionHub';
+import Profile from './pages/Profile';
 import {
     ChevronLeft, LayoutDashboard, PenTool, Mic, FileText,
     Settings, LogOut, Home, ArrowLeft, User as UserIcon,
@@ -125,8 +126,8 @@ function App() {
     navigateTo('pdf_repo');
   };
 
-  const handleAIAction = (action) => {
-    console.log("AI Action Received:", action);
+  const handleAssistantAction = (action) => {
+    console.log("Action Received:", action);
     if (action.type === 'navigate') {
       const page = action.page;
       if (page === 'dashboard' || page === 'home') goHome();
@@ -258,7 +259,7 @@ function App() {
                 <span className="text-[10px] text-white/30 font-bold">{user.is_admin ? 'System Architect' : 'Lvl 1 Agent'}</span>
               </div>
           </div>
-          <NavItem icon={<Settings size={20} />} label="Settings" />
+          <NavItem icon={<Settings size={20} />} label="Settings" active={view === 'profile'} onClick={() => navigateTo('profile')} />
           
           <div className="mt-4">
             <button
@@ -359,7 +360,7 @@ function App() {
             >
               <ChevronLeft size={16} /> Back
             </button>
-            <AIGrading userId={user.id} onBack={goBack} onUnlockPro={() => navigateTo('subscription')} />
+            <EssayGrader userId={user.id} onBack={goBack} onUnlockPro={() => navigateTo('subscription')} />
           </div>
         )}
 
@@ -371,7 +372,7 @@ function App() {
             >
               <ChevronLeft size={16} /> Back
             </button>
-            <AIInterview userId={user.id} onBack={goBack} onUnlockPro={() => navigateTo('subscription')} />
+            <InterviewCoach userId={user.id} onBack={goBack} onUnlockPro={() => navigateTo('subscription')} />
           </div>
         )}
 
@@ -379,9 +380,19 @@ function App() {
           <SubscriptionHub user={user} />
         )}
 
-        <div className="fixed bottom-8 right-8 z-[100]">
-          <AIChat userId={user.id} subject={activeSubject} onAction={handleAIAction} />
-        </div>
+        {view === 'profile' && (
+          <Profile
+            user={user}
+            onLogout={handleLogout}
+            onUnlockPro={() => navigateTo('subscription')}
+          />
+        )}
+
+        {user && (
+          <div className="fixed bottom-8 right-8 z-[100]">
+            <HubAssistant userId={user.id} subject={activeSubject} onAction={handleAssistantAction} />
+          </div>
+        )}
        </div>
       </div>
     </div>

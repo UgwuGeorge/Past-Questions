@@ -1,0 +1,12 @@
+Checking database: past_questions_v2.db
+Table: users, Count: 11
+Table: exams, Count: 51
+Table: question_contexts, Count: 1
+Table: subjects, Count: 189
+Table: exam_sessions, Count: 24
+Table: ai_feedback, Count: 0
+Table: question_papers, Count: 738
+Table: questions, Count: 13207
+Table: choices, Count: 52411
+Table: user_progress, Count: 2
+Table: subscriptions, Count: 0

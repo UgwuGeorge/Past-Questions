@@ -192,6 +192,41 @@ class AIEngine:
         )
         return json.loads(response.choices[0].message.content)
     @staticmethod
+    async def grade_theory_response(question_text: str, reference_solution: str, user_answer: str) -> Dict:
+        """
+        Grades an open-ended (Section B) professional response against a reference pathfinder solution.
+        """
+        prompt = f"""
+        Act as a professional ICAN examiner.
+        
+        Question: {question_text}
+        
+        Official Pathfinder Solution / Marking Guide:
+        {reference_solution}
+        
+        User's Response:
+        {user_answer}
+        
+        Evaluate the response based on ICAN standards. Look for key points, computational accuracy, and professional tone.
+        
+        Return a JSON object with:
+        - "score": (0-100)
+        - "key_points_matched": [List of points found in user response that match official guide]
+        - "missing_points": [List of important points the user missed]
+        - "feedback": "Constructive feedback on how to improve"
+        - "grade": "Fail | Pass | Credit | Distinction"
+        
+        Return ONLY valid JSON.
+        """
+        
+        response = await async_client.chat.completions.create(
+            model=FAST_MODEL_ID,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"}
+        )
+        return json.loads(response.choices[0].message.content)
+
+    @staticmethod
     async def analyze_syllabus(subject_name: str, questions: List[Dict], extra_content: str = "") -> Dict:
         """
         Analyzes a set of questions and additional material to generate a 'Scheme of Work'.

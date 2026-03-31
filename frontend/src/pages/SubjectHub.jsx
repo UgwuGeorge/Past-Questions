@@ -151,9 +151,12 @@ export default function SubjectHub({ userId, subject, examName, onBack, onStartS
                     </section>
                 </div>
 
-                {/* Right Column: AI Proctor & Simulation Launcher */}
+                {/* Right Column: Proctoring & Simulation Launcher */}
                 <div className="lg:col-span-4 space-y-8">
-                    <GlowCard className="p-10 bg-gradient-to-br from-primary/5 to-transparent border-primary/20">
+                    <GlowCard 
+                        onClick={() => onStartSimulation('standard')}
+                        className="p-10 bg-gradient-to-br from-primary/5 to-transparent border-primary/20 cursor-pointer hover:border-primary/40 transition-all active:scale-[0.98]"
+                    >
                         <div className="w-20 h-20 rounded-3xl bg-primary flex items-center justify-center mb-8 shadow-2xl shadow-primary/40">
                             <Play size={32} fill="white" className="text-white ml-1" />
                         </div>
@@ -163,13 +166,13 @@ export default function SubjectHub({ userId, subject, examName, onBack, onStartS
                         </p>
                         <div className="space-y-4">
                             <button
-                                onClick={() => onStartSimulation('standard')}
+                                onClick={(e) => { e.stopPropagation(); onStartSimulation('standard'); }}
                                 className="w-full py-5 bg-primary text-white font-black uppercase text-xs tracking-[0.2em] rounded-2xl hover:scale-[1.02] active:scale-[0.98] transition-all shadow-xl shadow-primary/20"
                             >
                                 Proctored Exam (50Q)
                             </button>
                             <button
-                                onClick={() => onStartSimulation('practice')}
+                                onClick={(e) => { e.stopPropagation(); onStartSimulation('practice'); }}
                                 className="w-full py-5 bg-white/5 border border-white/10 text-white font-black uppercase text-xs tracking-[0.2em] rounded-2xl hover:bg-white/10 transition-all"
                             >
                                 Adaptive Practice
@@ -186,8 +189,8 @@ export default function SubjectHub({ userId, subject, examName, onBack, onStartS
                                 <Brain className="text-primary" size={24} />
                             </div>
                             <div>
-                                <div className="font-bold text-sm">Professor Reharz</div>
-                                <div className="text-[10px] text-white/40 font-bold italic">{profile?.ai_proctor_persona || "Rigorous Academic Mentor"}</div>
+                                <div className="font-bold text-sm">Chief Proctor</div>
+                                <div className="text-[10px] text-white/40 font-bold italic">{profile?.proctor_persona || "Rigorous Academic Mentor"}</div>
                             </div>
                         </div>
                         <p className="text-xs text-white/30 leading-relaxed mb-6">

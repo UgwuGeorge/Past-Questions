@@ -64,8 +64,8 @@ export default function Auth({ onLoginSuccess }) {
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary mb-4 shadow-2xl shadow-primary/20">
                         <span className="text-3xl font-black italic text-white italic">R</span>
                     </div>
-                    <h1 className="text-3xl font-black tracking-tighter mb-2">Reharz AI</h1>
-                    <p className="text-white/50 text-sm font-medium">Your personalized exam success agent</p>
+                    <h1 className="text-3xl font-black tracking-tighter mb-2">Reharz</h1>
+                    <p className="text-white/50 text-sm font-medium">Your personalized exam success platform</p>
                 </div>
 
                 <div className="glass border border-white/10 rounded-[32px] p-8 shadow-2xl backdrop-blur-xl">

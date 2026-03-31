@@ -18,7 +18,7 @@ import { clsx } from 'clsx';
 
 import apiClient from '../api/client';
 
-export default function AIChat({ userId, subject, onAction }) {
+export default function HubAssistant({ userId, subject, onAction }) {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
         { role: 'assistant', text: "Welcome to Reharz! I'm your Exam Architect. How can I help you master your curriculum today?" }
@@ -151,10 +151,16 @@ export default function AIChat({ userId, subject, onAction }) {
                 })),
                 subject_context: subject?.name
             });
-            let responseText = data.response;
+            const responseText = data.response || "I'm ready. What's our next objective?";
+            
+            // Speak the response if not in silent mode
+            if (window.speechSynthesis) {
+                const utterance = new SpeechSynthesisUtterance(responseText.replace(/\[ACTIONS: .*?\]/, "").replace(/\[ACTION_TRIGGERED\]/, "").trim());
+                window.speechSynthesis.speak(utterance);
+            }
 
             // Parse structured actions if they exist
-            const actionMatch = responseText.match(/\[ACTIONS: ([\s\S]*?)\]/);
+            const actionMatch = typeof responseText === 'string' ? responseText.match(/\[ACTIONS: ([\s\S]*?)\]/) : null;
             if (actionMatch) {
                 try {
                     const actions = JSON.parse(actionMatch[1]);
@@ -165,15 +171,17 @@ export default function AIChat({ userId, subject, onAction }) {
                             console.error("Action execution failed:", e);
                         }
                     });
-                    // Clean text for display
-                    responseText = responseText.replace(/\[ACTIONS: .*?\]/, "").trim();
-                    responseText = responseText.replace(/\[ACTION_TRIGGERED\]/, "").trim();
+                    
+                    let cleanText = responseText.replace(/\[ACTIONS: .*?\]/, "").trim();
+                    cleanText = cleanText.replace(/\[ACTION_TRIGGERED\]/, "").trim();
+                    setMessages(prev => [...prev, { role: 'assistant', text: cleanText || "Executing your request..." }]);
                 } catch (e) {
                     console.error("Failed to parse actions:", e);
+                    setMessages(prev => [...prev, { role: 'assistant', text: responseText }]);
                 }
+            } else {
+                setMessages(prev => [...prev, { role: 'assistant', text: responseText }]);
             }
-
-            setMessages(prev => [...prev, { role: 'assistant', text: responseText }]);
         } catch (err) {
             console.error("Chat Error:", err);
             setMessages(prev => [...prev, {

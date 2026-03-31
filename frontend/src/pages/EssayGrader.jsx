@@ -11,7 +11,7 @@ const ESSAY_TYPES = [
     { id: "WAEC", label: "Academic Essay", color: "border-blue-500/40 bg-blue-500/5", activeColor: "border-blue-500 bg-blue-500/20 text-blue-300" },
 ];
 
-export default function AIGrading({ userId, onBack, onUnlockPro }) {
+export default function EssayGrader({ userId, onBack, onUnlockPro }) {
     const [text, setText] = useState('');
     const [criteria, setCriteria] = useState('IELTS');
     const [isGrading, setIsGrading] = useState(false);

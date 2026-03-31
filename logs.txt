@@ -1,0 +1,11 @@
+time="2026-03-28T18:52:22+01:00" level=warning msg="C:\\Users\\ugwug\\.gemini\\antigravity\\scratch\\Past-Questions\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+backend-1  | (Background on this error at: https://sqlalche.me/e/20/f405)
+backend-1  | INFO:     Shutting down
+backend-1  | INFO:     Waiting for application shutdown.
+backend-1  | INFO:     Application shutdown complete.
+backend-1  | INFO:     Finished server process [1]
+backend-1  | DEBUG: Loading main.py from agent_core folder
+backend-1  | INFO:     Started server process [1]
+backend-1  | INFO:     Waiting for application startup.
+backend-1  | INFO:     Application startup complete.
+backend-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
