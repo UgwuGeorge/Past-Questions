@@ -59,8 +59,12 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
 
                 // Fetch subjects for each exam to have them ready
                 const fullExams = await Promise.all(examsData.map(async (e) => {
-                    const subjects = await apiClient.get(`/exams/${e.id}/subjects`);
-                    return { ...e, subjects: Array.isArray(subjects) ? subjects : [] };
+                    try {
+                        const subjects = await apiClient.get(`/exams/${e.id}/subjects`);
+                        return { ...e, subjects: Array.isArray(subjects) ? subjects : [] };
+                    } catch {
+                        return { ...e, subjects: [] };
+                    }
                 }));
 
                 setExams(fullExams);
@@ -88,15 +92,26 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
 
     const findExamInDb = (displayName) => {
         return exams.find(e => {
-            const name = e.name.toUpperCase();
-            const display = displayName.toUpperCase();
+            const name = e.name.toUpperCase().trim();
+            const display = displayName.toUpperCase().trim();
+            // Exact match
             if (name === display) return true;
+            // ICAN family
             if (display.startsWith('ICAN') && name.startsWith(display)) return true;
-            if (display === 'JAMB' && (name === 'UTME' || name.includes('JAMB'))) return true;
-            if (display === 'THE BAR EXAM' && name.includes('BAR')) return true;
-            if (display === 'MED/NURSING LICENSE' && (name.includes('MED') || name.includes('NURSING'))) return true;
+            if (display.startsWith('ICAN') && name.includes(display.replace('ICAN ', ''))) return true;
+            // JAMB / UTME
+            if (display === 'JAMB' && (name === 'UTME' || name.includes('JAMB') || name.includes('UTME'))) return true;
+            // Bar exam
+            if (display === 'THE BAR EXAM' && (name.includes('BAR') || name.includes('THE BAR'))) return true;
+            // Medical / Nursing
+            if (display === 'MED/NURSING LICENSE' && (name.includes('MED') || name.includes('NURSING') || name.includes('MDCN'))) return true;
+            // NNPC
             if (display === 'NNPC/TOTAL ENERGIES' && (name.includes('NNPC') || name.includes('TOTAL'))) return true;
-            if (name.startsWith(display.split(' ')[0]) && !display.startsWith('ICAN')) return true;
+            // BEA / Chevening / Commonwealth / DAAD / Erasmus — partial keyword match
+            const firstWord = display.split(/[\s/]/)[0];
+            if (firstWord.length >= 3 && name.includes(firstWord)) return true;
+            // IELTS variants
+            if (display.startsWith('IELTS') && name.startsWith('IELTS') && (name.includes(display.split(' ')[1] || '') || display.includes(name.split(' ')[1] || ''))) return true;
             return false;
         });
     };

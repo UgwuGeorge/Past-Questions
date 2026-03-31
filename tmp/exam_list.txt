@@ -1,0 +1,51 @@
+ID: 41 - Name: ACCOUNTING
+ID: 3 - Name: ARTS
+ID: 13 - Name: BAR
+ID: 28 - Name: BEA
+ID: 6 - Name: BIOLOGY
+ID: 7 - Name: CHEMISTRY
+ID: 30 - Name: CHEVENING
+ID: 26 - Name: CIBN
+ID: 42 - Name: COMMERCE
+ID: 31 - Name: COMMONWEALTH
+ID: 4 - Name: CORE
+ID: 27 - Name: COREN
+ID: 32 - Name: DAAD
+ID: 43 - Name: ECONOMICS
+ID: 44 - Name: ENGLISH
+ID: 33 - Name: ERASMUS MUNDUS
+ID: 50 - Name: FOUNDATION
+ID: 45 - Name: GEOGRAPHY
+ID: 46 - Name: GOVERNMENT
+ID: 47 - Name: HISTORY
+ID: 23 - Name: ICAN
+ID: 36 - Name: ICAN Foundation
+ID: 38 - Name: ICAN Professional
+ID: 37 - Name: ICAN Skills
+ID: 15 - Name: IELTS
+ID: 16 - Name: IELTS ACADEMIC
+ID: 39 - Name: IELTS Academic
+ID: 40 - Name: IELTS General Training
+ID: 1 - Name: JAMB
+ID: 48 - Name: MATHEMATICS
+ID: 14 - Name: MDCN
+ID: 24 - Name: MED/NURSING LICENSE
+ID: 22 - Name: NABTEB
+ID: 2 - Name: NDA
+ID: 21 - Name: NECO
+ID: 17 - Name: NNPC
+ID: 20 - Name: NNPC-TOTAL
+ID: 29 - Name: NNPC/TOTAL ENERGIES
+ID: 49 - Name: PHYSICS
+ID: 9 - Name: POLAC
+ID: 35 - Name: POST-UTME
+ID: 51 - Name: PROFESSIONAL
+ID: 19 - Name: PTDF
+ID: 18 - Name: PTDF SCHOLARSHIP
+ID: 5 - Name: SCIENCE
+ID: 52 - Name: SKILLS
+ID: 8 - Name: SOCIAL
+ID: 25 - Name: THE BAR EXAM
+ID: 11 - Name: TRCN
+ID: 34 - Name: UTME
+ID: 10 - Name: WAEC
