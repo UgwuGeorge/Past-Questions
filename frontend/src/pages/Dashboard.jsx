@@ -32,8 +32,13 @@ import { useRef } from 'react';
 
 const CATEGORY_MAP = {
     'Academics': ['WAEC', 'NECO', 'JAMB', 'NABTEB', 'NDA', 'POLAC'],
-    'Professional': ['ICAN Foundation', 'ICAN Skills', 'ICAN Professional', 'Med/Nursing license', 'The bar exam', 'TRCN', 'CIBN', 'COREN'],
-    'Scholarships': ['IELTS Academic', 'IELTS General Training', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
+    'Professional': ['ICAN', 'Med/Nursing license', 'The bar exam', 'TRCN', 'CIBN', 'COREN'],
+    'Scholarships': ['IELTS', 'PTDF', 'BEA', 'NNPC/Total energies', 'chevening', 'commonwealth', 'DAAD', 'erasmus mundus']
+};
+
+const GROUPS = {
+    'ICAN': ['ICAN Foundation', 'ICAN Skills', 'ICAN Professional'],
+    'IELTS': ['IELTS Academic', 'IELTS General Training']
 };
 
 const TIER_PRIORITY = {
@@ -182,7 +187,7 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-black text-amber-500 italic tracking-tighter">REHARZ PRO</h3>
-                                    <p className="text-white/60 text-sm font-medium">Unlock ICAN Pathfinders, Theory Grading, and Advanced Simulation Models.</p>
+                                    <p className="text-white/60 text-sm font-medium">Unlock ICAN Pathfinders, Theory Grading, and Professional Evaluation Models.</p>
                                 </div>
                             </div>
                             <button 
@@ -238,7 +243,7 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                     {/* Stats Grid */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
                         {[
-                            { label: "Accuracy", value: `${stats.avg_score}%`, sub: "Avg per session", icon: Brain, color: "text-primary" },
+                            { label: "Accuracy", value: `${stats.avg_score}%`, sub: "Avg per session", icon: Target, color: "text-primary" },
                             { label: "Completion", value: stats.exams_completed, sub: "Total simulations", icon: FileText, color: "text-secondary" },
                             { label: "Study Time", value: `${stats.study_hours}h`, sub: "Eval. duration", icon: Clock, color: "text-accent" },
                             { label: "Mastery", value: `${stats.mastery_level}%`, sub: "Curriculum level", icon: Target, color: "text-emerald-400" },
@@ -287,11 +292,19 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
 
                                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                                         {filteredList.map((item, i) => {
-                                            const examRecord = findExamInDb(item);
-                                            const isAvailable = (item === 'WAEC' || examRecord);
+                                            const subItems = GROUPS[item] || [item];
+                                            const firstSubRecord = findExamInDb(subItems[0]);
+                                            
+                                            // Availability check (any subItem has content)
+                                            const availableSubRecords = subItems.map(si => findExamInDb(si)).filter(r => r && r.subjects?.length > 0);
+                                            const isAvailable = (item === 'WAEC' || availableSubRecords.length > 0);
+                                            const examRecord = availableSubRecords[0] || firstSubRecord; // Preference to one with subjects
+                                            
                                             const userTierPower = TIER_PRIORITY[subStatus?.tier] || 0;
                                             const requiredTierPower = TIER_PRIORITY[examRecord?.required_tier] || 0;
                                             const isLocked = isAvailable && examRecord && userTierPower < requiredTierPower;
+                                            const isGroup = !!GROUPS[item];
+
                                             return (
                                                 <motion.div
                                                     key={item}
@@ -301,8 +314,12 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                     className="group"
                                                 >
                                                     <div
+                                                        className={clsx(
+                                                            "relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/40 transition-all flex flex-col h-full bg-white/[0.01] transition-all active:scale-[0.98]",
+                                                            isAvailable && !isGroup ? "cursor-pointer" : "cursor-default"
+                                                        )}
                                                         onClick={() => {
-                                                            if (!isAvailable) return;
+                                                            if (isGroup || !isAvailable) return;
                                                             if (isLocked) {
                                                                 onUnlockPro();
                                                                 return;
@@ -311,10 +328,6 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                                 onStartPractice?.(item, examRecord.id, examRecord.name);
                                                             }
                                                         }}
-                                                        className={clsx(
-                                                            "relative glass border border-white/5 rounded-3xl p-6 hover:border-primary/40 transition-all flex flex-col h-full bg-white/[0.01] transition-all active:scale-[0.98]",
-                                                            isAvailable ? "cursor-pointer" : "opacity-70"
-                                                        )}
                                                     >
                                                         <div className="flex items-center justify-between mb-6">
                                                             <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center font-black text-xl text-primary border border-white/5 group-hover:bg-primary/10 transition-colors">
@@ -343,34 +356,63 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                         <h3 className="text-xl font-bold mb-1 tracking-tight group-hover:text-primary transition-colors">{item}</h3>
                                                         <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] mb-4">{catName}</p>
 
-                                                        {isAvailable && examRecord?.subjects?.length > 0 && (
-                                                            <div className="mt-4 space-y-1">
-                                                                <p className="text-[8px] font-black uppercase text-white/20 mb-2">Popular Subjects</p>
-                                                                <div className="flex flex-wrap gap-1">
-                                                                    {examRecord.subjects.slice(0, 3).map(s => (
-                                                                        <span key={s.id} className="px-2 py-0.5 bg-white/5 rounded text-[8px] font-bold text-white/40">
-                                                                            {s.name}
-                                                                        </span>
-                                                                    ))}
-                                                                </div>
+                                                        {isGroup ? (
+                                                            <div className="mt-4 space-y-2">
+                                                                {subItems.map(sub => {
+                                                                    const subRec = findExamInDb(sub);
+                                                                    const subAvail = subRec && subRec.subjects?.length > 0;
+                                                                    return (
+                                                                        <button 
+                                                                            key={sub}
+                                                                            disabled={!subAvail}
+                                                                            onClick={(e) => {
+                                                                                e.stopPropagation();
+                                                                                if (isLocked) onUnlockPro();
+                                                                                else onStartPractice?.(sub, subRec.id, subRec.name);
+                                                                            }}
+                                                                            className={clsx(
+                                                                                "w-full px-4 py-2 rounded-xl text-[10px] font-black text-left uppercase flex items-center justify-between transition-all",
+                                                                                subAvail ? "bg-white/5 hover:bg-primary/20 text-white/60 hover:text-primary border border-white/5 hover:border-primary/30" : "opacity-30 cursor-not-allowed"
+                                                                            )}
+                                                                        >
+                                                                            {sub.replace(`${item} `, '')}
+                                                                            {subAvail && <ChevronRight size={12} />}
+                                                                        </button>
+                                                                    );
+                                                                })}
                                                             </div>
-                                                        )}
-
-                                                        <div className="mt-auto pt-6 border-t border-white/5">
-                                                            <button
-                                                                disabled={!isAvailable}
-                                                                className={clsx(
-                                                                    "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
-                                                                    isAvailable
-                                                                        ? isLocked 
-                                                                            ? "bg-amber-500/20 text-amber-500 border border-amber-500/40 hover:bg-amber-500/30"
-                                                                            : "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
-                                                                        : "bg-white/5 text-white/20 cursor-not-allowed"
+                                                        ) : (
+                                                            <>
+                                                                {isAvailable && examRecord?.subjects?.length > 0 && (
+                                                                    <div className="mt-4 space-y-1">
+                                                                        <p className="text-[8px] font-black uppercase text-white/20 mb-2">Popular Subjects</p>
+                                                                        <div className="flex flex-wrap gap-1">
+                                                                            {examRecord.subjects.slice(0, 3).map(s => (
+                                                                                <span key={s.id} className="px-2 py-0.5 bg-white/5 rounded text-[8px] font-bold text-white/40">
+                                                                                    {s.name}
+                                                                                </span>
+                                                                            ))}
+                                                                        </div>
+                                                                    </div>
                                                                 )}
-                                                            >
-                                                                {isAvailable ? (isLocked ? <><Crown size={14} /> Upgrade</> : <><Layers size={14} /> Explorer</>) : "Coming Soon"}
-                                                            </button>
-                                                        </div>
+
+                                                                <div className="mt-auto pt-6 border-t border-white/5">
+                                                                    <button
+                                                                        disabled={!isAvailable}
+                                                                        className={clsx(
+                                                                            "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
+                                                                            isAvailable
+                                                                                ? isLocked 
+                                                                                    ? "bg-amber-500/20 text-amber-500 border border-amber-500/40 hover:bg-amber-500/30"
+                                                                                    : "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
+                                                                                : "bg-white/5 text-white/20 cursor-not-allowed"
+                                                                        )}
+                                                                    >
+                                                                        {isAvailable ? (isLocked ? <><Crown size={14} /> Upgrade</> : <><Layers size={14} /> Explorer</>) : "Coming Soon"}
+                                                                    </button>
+                                                                </div>
+                                                            </>
+                                                        )}
                                                     </div>
                                                 </motion.div>
                                             );

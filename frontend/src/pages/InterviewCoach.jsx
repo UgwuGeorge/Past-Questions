@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
-import { Mic, MicOff, Sparkles, ChevronLeft, Send, User, Bot, Brain, Star, ChevronRight } from 'lucide-react';
+import { Mic, MicOff, Sparkles, ChevronLeft, Send, User, ShieldCheck, Target, Star, ChevronRight, Crown } from 'lucide-react';
 import GlowCard from '../components/GlowCard';
 
 import apiClient from '../api/client';
@@ -15,7 +15,7 @@ const SEGMENT_QUESTIONS = [
 
 export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
     const [messages, setMessages] = useState([
-        { role: 'bot', text: "Hello! I'm your Interview Coach. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null, isError: false }
+        { role: 'expert', text: "Hello! I'm your Interview Architect. I'll be guiding you through a mock scholarship interview. Ready to begin? I'll start with the first question.", feedback: null, isError: false }
     ]);
     const [input, setInput] = useState('');
     const [isRecording, setIsRecording] = useState(false);
@@ -45,14 +45,14 @@ export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
             setHasSentFirst(true);
             setMessages([
                 ...newMessages,
-                { role: 'bot', text: `Great! Let's begin.\n\n**Q${currentSegment + 1}: ${currentQuestion}**`, feedback: null }
+                { role: 'expert', text: `Great! Let's begin.\n\n**Q${currentSegment + 1}: ${currentQuestion}**`, feedback: null }
             ]);
             return;
         }
 
         // Evaluate the response against the current question
         setIsEvaluating(true);
-        setMessages([...newMessages, { role: 'bot', text: '...', feedback: null, typing: true }]);
+        setMessages([...newMessages, { role: 'expert', text: '...', feedback: null, typing: true }]);
 
         try {
             const evalResult = await apiClient.post('/interview-evaluate', { userId, question: currentQuestion, answer: userText });
@@ -72,7 +72,7 @@ export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
             setAllFeedback(prev => [...prev, { question: currentQuestion, answer: userText, eval: evalResult }]);
             setMessages(prev => [
                 ...prev.filter(m => !m.typing),
-                { role: 'bot', text: botText, feedback: evalResult }
+                { role: 'expert', text: botText, feedback: evalResult }
             ]);
 
             if (isLast) {
@@ -85,7 +85,7 @@ export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
             setMessages(prev => [
                 ...prev.filter(m => !m.typing),
                 { 
-                    role: 'bot', 
+                    role: 'expert', 
                     text: errorText, 
                     feedback: null, 
                     isError: true,
@@ -107,7 +107,7 @@ export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
                 <GlowCard className="max-w-3xl w-full">
                     <div className="flex items-center gap-4 mb-8">
                         <div className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify-center">
-                            <Brain className="text-primary" />
+                            <Target className="text-primary" />
                         </div>
                         <div>
                             <h1 className="text-3xl font-bold">Interview Complete!</h1>
@@ -170,7 +170,7 @@ export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
                     </button>
                     <div>
                         <h2 className="text-xl font-bold flex items-center gap-2">
-                            <Brain size={20} className="text-primary" /> Mock Interview
+                            <Target size={20} className="text-primary" /> Professional Simulation
                         </h2>
                         <p className="text-xs text-text-dim">Scholarship Preparation Track</p>
                     </div>
@@ -210,14 +210,14 @@ export default function InterviewCoach({ userId, onBack, onUnlockPro }) {
                         >
                             <div className={clsx(
                                 "w-10 h-10 rounded-xl flex items-center justify-center shrink-0",
-                                msg.role === 'bot' ? "bg-primary/20 text-primary" : "bg-secondary/20 text-secondary"
+                                msg.role === 'expert' ? "bg-primary/20 text-primary" : "bg-secondary/20 text-secondary"
                             )}>
-                                {msg.role === 'bot' ? <Bot size={20} /> : <User size={20} />}
+                                {msg.role === 'expert' ? <ShieldCheck size={20} /> : <User size={20} />}
                             </div>
                             <div className={clsx(
                                 "p-5 rounded-2xl leading-relaxed text-sm max-w-lg",
                                 msg.isError ? "bg-rose-500/10 border border-rose-500/20" :
-                                msg.role === 'bot' ? "glass rounded-tl-none border border-white/5" :
+                                msg.role === 'expert' ? "glass rounded-tl-none border border-white/5" :
                                     "bg-secondary/10 border border-secondary/20 rounded-tr-none"
                             )}>
                                 {msg.typing ? (

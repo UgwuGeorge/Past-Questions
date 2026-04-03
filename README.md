@@ -24,7 +24,7 @@ To launch the full orchestrated environment (Nginx + Backend + Frontend + Postgr
 
 - **Frontend**: React (Vite), Framer Motion, Lucide Icons, Vanilla CSS.
 - **Backend**: FastAPI (Python), SQLAlchemy, JWT Auth, Httpx.
-- **AI Engine**: GPT-4o powered Adaptive Learning & Essay Grading.
+- **Expert Analysis Engine**: GPT-4o powered Adaptive Learning & Essay Grading.
 - **Database**: PostgreSQL (Production) / SQLite (Local Dev).
 - **Proxy**: Nginx with SSL/TLS termination and security hardening.
 

@@ -17,6 +17,7 @@ const apiClient = {
             if (response.status === 401) {
                 localStorage.removeItem('token');
                 localStorage.removeItem('userId');
+                localStorage.removeItem('user');
                 window.location.href = '/';
             }
             throw new Error(error.detail || 'API request failed');
@@ -38,6 +39,12 @@ const apiClient = {
         });
         if (!response.ok) {
             const error = await response.json();
+            if (response.status === 401) {
+                localStorage.removeItem('token');
+                localStorage.removeItem('userId');
+                localStorage.removeItem('user');
+                window.location.href = '/';
+            }
             throw new Error(error.detail || 'API request failed');
         }
         return response.json();

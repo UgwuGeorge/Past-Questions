@@ -11,7 +11,7 @@ load_dotenv()
 
 from agent_core.database import SessionLocal
 from agent_core.models.main_models import Exam, Subject, Question, Choice, UserProgress, DifficultyLevel, ExamSession
-from agent_core.core.ai import AIEngine
+from agent_core.core.expert_engine import ExpertEngine
 
 # Configure OpenAI
 api_key = os.getenv("OPENAI_API_KEY")
@@ -305,7 +305,7 @@ class ExamAgent:
                 self.db.refresh(subject)
 
         # 3. Generate via Expert Engine
-        questions_data = AIEngine.generate_questions_sync(exam_name, topic, difficulty, count)
+        questions_data = ExpertEngine.generate_questions_sync(exam_name, topic, difficulty, count)
         
         # 4. Save to DB
         added_count = 0
@@ -316,7 +316,7 @@ class ExamAgent:
                 topic=topic,
                 difficulty=DifficultyLevel(difficulty.lower()) if difficulty.lower() in [d.value for d in DifficultyLevel] else DifficultyLevel.MEDIUM,
                 explanation=q_data.get('explanation'),
-                is_ai_generated=True
+                is_expert_derived=True
             )
             self.db.add(new_q)
             self.db.flush()

@@ -37,7 +37,7 @@ class User(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     
     sessions = relationship("ExamSession", back_populates="user")
-    ai_feedback = relationship("AIFeedback", back_populates="user")
+    ai_analysis = relationship("ExpertAnalysis", back_populates="user")
     subscriptions = relationship("Subscription", back_populates="user")
 
     @property
@@ -109,7 +109,7 @@ class Question(Base):
     difficulty = Column(SQLEnum(DifficultyLevel), default=DifficultyLevel.MEDIUM)
     topic = Column(String, index=True)
     year = Column(Integer)
-    is_ai_generated = Column(Boolean, default=False)
+    is_expert_derived = Column(Boolean, default=False)
     
     subject = relationship("Subject", back_populates="questions")
     paper = relationship("QuestionPaper", back_populates="questions")
@@ -140,16 +140,16 @@ class ExamSession(Base):
     user = relationship("User", back_populates="sessions")
     exam = relationship("Exam", back_populates="sessions")
 
-class AIFeedback(Base):
-    __tablename__ = "ai_feedback"
+class ExpertAnalysis(Base):
+    __tablename__ = "expert_analysis"
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey("users.id"))
     content_type = Column(String)  # "essay", "sop", "interview"
     input_text = Column(String)    # User submission
-    feedback_json = Column(JSON)   # AI breakdown
+    analysis_json = Column(JSON)   # Expert breakdown
     created_at = Column(DateTime, default=datetime.utcnow)
     
-    user = relationship("User", back_populates="ai_feedback")
+    user = relationship("User", back_populates="ai_analysis")
 
 class UserProgress(Base):
     __tablename__ = "user_progress"

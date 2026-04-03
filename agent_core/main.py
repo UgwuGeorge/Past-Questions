@@ -422,17 +422,17 @@ async def grade_essay(payload: EssayPayload, current_user: main_models.User = De
     if len(safe_content) > 10000:
         raise HTTPException(status_code=400, detail="Essay too long (max 10,000 chars)")
     try:
-        from agent_core.core.ai import AIEngine
-        result = await AIEngine.grade_essay_or_sop(safe_content, html.escape(payload.criteria))
+        from agent_core.core.expert_engine import ExpertEngine
+        result = await ExpertEngine.grade_essay_or_sop(safe_content, html.escape(payload.criteria))
         
         # Persist feedback
-        feedback = main_models.AIFeedback(
+        analysis = main_models.ExpertAnalysis(
             user_id=payload.userId,
             content_type=f"essay_{html.escape(payload.criteria)}",
             input_text=safe_content,
-            feedback_json=result
+            analysis_json=result
         )
-        db.add(feedback)
+        db.add(analysis)
         db.commit()
         
         return result
@@ -457,17 +457,17 @@ async def interview_evaluate(payload: InterviewPayload, current_user: main_model
     if len(safe_answer) > 5000:
         raise HTTPException(status_code=400, detail="Answer too long (max 5,000 chars)")
     try:
-        from agent_core.core.ai import AIEngine
-        result = await AIEngine.simulate_interview(safe_question, safe_answer)
+        from agent_core.core.expert_engine import ExpertEngine
+        result = await ExpertEngine.simulate_interview(safe_question, safe_answer)
         
         # Persist feedback
-        feedback = main_models.AIFeedback(
+        analysis = main_models.ExpertAnalysis(
             user_id=payload.userId,
             content_type="interview",
             input_text=safe_answer,
-            feedback_json=result
+            analysis_json=result
         )
-        db.add(feedback)
+        db.add(analysis)
         db.commit()
         
         return result

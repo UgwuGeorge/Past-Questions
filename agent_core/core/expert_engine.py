@@ -14,7 +14,7 @@ async_client = AsyncOpenAI(api_key=api_key)
 MODEL_ID = "gpt-4o"
 FAST_MODEL_ID = "gpt-4o-mini"
 
-class AIEngine:
+class ExpertEngine:
     @staticmethod
     def grade_essay_or_sop_sync(content: str, criteria: str) -> Dict:
         """Sync version of grading."""
