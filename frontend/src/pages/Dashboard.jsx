@@ -55,7 +55,11 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
     useEffect(() => {
         const fetchData = async () => {
             try {
+                const token = localStorage.getItem('token');
+                console.log('[Dashboard] Token present:', !!token);
+
                 const examsData = await apiClient.get('/exams');
+                console.log('[Dashboard] Exams loaded:', examsData?.length, examsData?.slice(0, 3));
 
                 // Fetch subjects for each exam to have them ready
                 const fullExams = await Promise.all(examsData.map(async (e) => {
@@ -68,6 +72,7 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                 }));
 
                 setExams(fullExams);
+                console.log('[Dashboard] setExams called with', fullExams.length, 'exams');
 
                 const sessionsData = await apiClient.get(`/simulation/sessions/${userId}`);
                 setRecentSessions(sessionsData.slice(0, 3));
@@ -83,12 +88,13 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
 
                 setLoading(false);
             } catch (err) {
-                console.error("Failed to fetch backend data:", err);
+                console.error('[Dashboard] Failed to fetch backend data:', err);
                 setLoading(false);
             }
         };
         fetchData();
     }, []);
+
 
     const findExamInDb = (displayName) => {
         return exams.find(e => {

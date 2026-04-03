@@ -13,7 +13,7 @@ if not SECRET_KEY:
     raise ValueError("CRITICAL SECURITY ERROR: JWT_SECRET_KEY environment variable is missing. Halting application to prevent insecure defaults.")
 
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 # 1 day
+ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 30 # 30 days
 
 def verify_password(plain_password, hashed_password):
     return pwd_context.verify(plain_password, hashed_password)

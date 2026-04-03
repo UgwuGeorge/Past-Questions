@@ -13,6 +13,12 @@ const apiClient = {
         });
         if (!response.ok) {
             const error = await response.json();
+            // Auto-logout on expired/invalid session
+            if (response.status === 401) {
+                localStorage.removeItem('token');
+                localStorage.removeItem('userId');
+                window.location.href = '/';
+            }
             throw new Error(error.detail || 'API request failed');
         }
         return response.json();
