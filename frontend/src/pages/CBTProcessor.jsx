@@ -8,7 +8,7 @@ import {
 import GlowCard from '../components/GlowCard';
 import apiClient from '../api/client';
 
-export default function CBTProcessor({ userId, examId, subjectId, onExit, difficulty = 'medium', autoStart = false, onUnlockPro }) {
+export default function CBTProcessor({ userId, examId, examName, subjectId, onExit, difficulty = 'medium', autoStart = false, onUnlockPro }) {
     const [step, setStep] = useState('config'); // 'config' | 'loading' | 'exam' | 'result'
     const [config, setConfig] = useState({
         questionCount: 40,
@@ -21,13 +21,17 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
     // Update config when props change
     useEffect(() => {
         if (subjectId) {
-            setConfig(prev => ({
-                ...prev,
-                subjectId: subjectId,
-                mode: difficulty === 'hard' ? 'hardcore' : 'standard'
-            }));
+            setConfig(prev => {
+                const isWaec = examName?.includes('WAEC');
+                return {
+                    ...prev,
+                    subjectId: subjectId,
+                    duration: isWaec ? 40 : prev.duration,
+                    mode: difficulty === 'hard' ? 'hardcore' : 'standard'
+                };
+            });
         }
-    }, [subjectId, difficulty]);
+    }, [subjectId, difficulty, examName]);
 
     const [subjects, setSubjects] = useState([]);
     const [questions, setQuestions] = useState([]);
@@ -202,12 +206,16 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                                             value={config.section}
                                             onChange={e => {
                                                 const newSection = e.target.value;
-                                                const isIcan = subjects[0]?.exam_name?.includes('ICAN');
+                                                const isIcan = examName?.includes('ICAN');
+                                                const isWaec = examName?.includes('WAEC');
                                                 let updates = { section: newSection };
                                                 
                                                 if (isIcan && newSection === 'Section A: Multiple Choice') {
                                                     updates.questionCount = 20;
-                                                    updates.duration = 45; // 45 mins for Section A
+                                                    updates.duration = 45; 
+                                                } else if (isWaec && newSection === 'Section A: Multiple Choice') {
+                                                    updates.questionCount = 40;
+                                                    updates.duration = 40; // Set to 40 mins for WAEC Objective per request
                                                 } else {
                                                     updates.questionCount = 40;
                                                     updates.duration = 60;
@@ -505,7 +513,7 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                             <CheckCircle2 size={48} className="text-primary" />
                         </div>
                         <h1 className="text-5xl font-black italic tracking-tighter uppercase mb-4">Simulation Certified.</h1>
-                        <p className="text-text-dim max-w-md mx-auto">The Reharz engine has evaluated your performance on {exams.find(e => e.id === examId)?.name} {config.section}.</p>
+                        <p className="text-text-dim max-w-md mx-auto">The Reharz engine has evaluated your performance on {examName} {config.section}.</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
@@ -643,6 +651,86 @@ export default function CBTProcessor({ userId, examId, subjectId, onExit, diffic
                     >
                         Archive and Return to Command Center
                     </button>
+
+                    {/* Question Review Section */}
+                    <div className="mt-20">
+                        <div className="flex items-center gap-4 mb-10">
+                            <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center border border-orange-500/20">
+                                <BookOpen size={24} className="text-orange-500" />
+                            </div>
+                            <div>
+                                <h2 className="text-2xl font-black uppercase tracking-tighter italic">Detailed Review</h2>
+                                <p className="text-text-dim text-xs uppercase font-bold tracking-widest">Post-Exam Diagnostic Analysis</p>
+                            </div>
+                        </div>
+
+                        <div className="space-y-6">
+                            {questions.map((q, idx) => {
+                                const userAns = answers[q.id];
+                                const correctChoice = q.choices?.find(c => c.is_correct);
+                                const isCorrect = userAns === correctChoice?.label;
+
+                                return (
+                                    <GlowCard key={q.id} className={clsx("p-8 overflow-hidden", isCorrect ? "border-emerald-500/10" : "border-rose-500/10")}>
+                                        <div className="flex items-start gap-6">
+                                            <div className={clsx(
+                                                "w-10 h-10 rounded-lg shrink-0 flex items-center justify-center font-black",
+                                                isCorrect ? "bg-emerald-500/10 text-emerald-500" : "bg-rose-500/10 text-rose-500"
+                                            )}>
+                                                {idx + 1}
+                                            </div>
+                                            <div className="flex-1">
+                                                <div className="text-lg font-medium text-white/90 mb-6 leading-relaxed">
+                                                    {q.text}
+                                                </div>
+
+                                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                                    {q.choices?.map(choice => {
+                                                        const isUserChoice = userAns === choice.label;
+                                                        const isActuallyCorrect = choice.is_correct;
+
+                                                        return (
+                                                            <div 
+                                                                key={choice.id}
+                                                                className={clsx(
+                                                                    "p-4 rounded-xl border flex items-center gap-4 text-sm font-bold",
+                                                                    isActuallyCorrect ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-500" :
+                                                                    isUserChoice ? "bg-rose-500/10 border-rose-500/20 text-rose-500" :
+                                                                    "bg-white/5 border-white/10 text-white/40"
+                                                                )}
+                                                            >
+                                                                <div className={clsx(
+                                                                    "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 border",
+                                                                    isActuallyCorrect ? "bg-emerald-500 border-emerald-500 text-black" :
+                                                                    isUserChoice ? "bg-rose-500 border-rose-500 text-black" :
+                                                                    "bg-white/5 border-white/10"
+                                                                )}>
+                                                                    {choice.label}
+                                                                </div>
+                                                                <span>{choice.text}</span>
+                                                                {isActuallyCorrect && <CheckCircle2 size={16} className="ml-auto" />}
+                                                                {isUserChoice && !isActuallyCorrect && <XCircle size={16} className="ml-auto" />}
+                                                            </div>
+                                                        );
+                                                    })}
+                                                </div>
+
+                                                {q.explanation && (
+                                                    <div className="mt-8 p-6 bg-white/5 rounded-2xl border border-white/10 flex gap-4">
+                                                        <HelpCircle size={18} className="text-primary shrink-0 mt-0.5" />
+                                                        <div>
+                                                            <div className="text-[10px] font-black text-primary uppercase tracking-widest mb-1">Reharz Explanation</div>
+                                                            <p className="text-sm text-text-dim leading-relaxed">{q.explanation}</p>
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </div>
+                                        </div>
+                                    </GlowCard>
+                                );
+                            })}
+                        </div>
+                    </div>
                 </motion.div>
             </div>
         );

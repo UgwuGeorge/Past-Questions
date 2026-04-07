@@ -1,0 +1,47 @@
+ID: 2 | Name: Mathematics | Count: 65
+ID: 109 | Name: Biology | Count: 60
+ID: 118 | Name: English Language | Count: 60
+ID: 111 | Name: Chemistry | Count: 59
+ID: 134 | Name: Physics | Count: 56
+ID: 117 | Name: Economics | Count: 53
+ID: 121 | Name: Food and Nutrition | Count: 53
+ID: 123 | Name: Geography | Count: 53
+ID: 129 | Name: Literature in English | Count: 53
+ID: 132 | Name: Office Practice | Count: 53
+ID: 110 | Name: Business Management | Count: 51
+ID: 124 | Name: Government | Count: 51
+ID: 113 | Name: Civic Education | Count: 50
+ID: 119 | Name: WAEC Financial Accounting | Count: 50
+ID: 125 | Name: WAEC Health Education | Count: 50
+ID: 127 | Name: WAEC Home Management | Count: 50
+ID: 128 | Name: Islamic Religious Studies | Count: 50
+ID: 133 | Name: WAEC Physical Education | Count: 50
+ID: 209 | Name: WAEC Financial Accounting 2023 | Count: 50
+ID: 212 | Name: WAEC Health Education 2023 | Count: 50
+ID: 214 | Name: WAEC Home Management 2023 | Count: 50
+ID: 216 | Name: WAEC Physical Education 2023 | Count: 50
+ID: 115 | Name: Computer Studies | Count: 49
+ID: 114 | Name: WAEC Commerce | Count: 48
+ID: 208 | Name: WAEC Commerce 2023 | Count: 48
+ID: 131 | Name: WAEC Music | Count: 44
+ID: 215 | Name: WAEC Music 2023 | Count: 44
+ID: 130 | Name: Marketing | Count: 43
+ID: 116 | Name: Data Processing | Count: 42
+ID: 126 | Name: WAEC History | Count: 41
+ID: 213 | Name: WAEC History 2023 | Count: 41
+ID: 120 | Name: WAEC Fine Arts (General Knowledge in Art | Count: 40
+ID: 122 | Name: WAEC French | Count: 40
+ID: 210 | Name: WAEC Fine Arts (General Knowledge in Art) 2023 | Count: 40
+ID: 211 | Name: WAEC French 2023 | Count: 40
+ID: 112 | Name: WAEC Christian Religious Studies | Count: 30
+ID: 207 | Name: WAEC Christian Religious Studies 2023 | Count: 30
+ID: 223 | Name: Financial Accounting | Count: 7
+ID: 221 | Name: CRS | Count: 3
+ID: 222 | Name: Commerce | Count: 3
+ID: 224 | Name: Fine Arts | Count: 3
+ID: 225 | Name: French | Count: 3
+ID: 226 | Name: History | Count: 3
+ID: 227 | Name: Home Management | Count: 3
+ID: 228 | Name: IRS | Count: 3
+ID: 229 | Name: Music | Count: 3
+ID: 230 | Name: Physical Education | Count: 3

@@ -22,6 +22,7 @@ from agent_core.database import get_db, engine, Base
 from agent_core.models import main_models
 from agent_core.schemas import main_schemas
 from agent_core.core.agent import ExamAgent
+from agent_core.core.expert_engine import ExpertEngine
 from agent_core.core import auth
 from typing import List, Optional
 from pydantic import BaseModel, Field, validator
@@ -661,11 +662,23 @@ def start_simulation(payload: SimulationStartPayload, current_user: main_models.
             if filtered:
                 all_questions = filtered
         
+        from sqlalchemy import func
         if not all_questions:
-            raise HTTPException(status_code=404, detail="No questions found for this configuration")
+            # Fallback to general subjects if filtered pool is empty
+            query = db.query(main_models.Question)
+            if payload.subject_id:
+                query = query.filter(main_models.Question.subject_id == payload.subject_id)
+            else:
+                subjects = db.query(main_models.Subject).filter(main_models.Subject.exam_id == payload.exam_id).all()
+                query = query.filter(main_models.Question.subject_id.in_([s.id for s in subjects]))
+            
+            all_questions = query.order_by(func.random()).limit(target_count).all()
+        else:
+            # If we already have a filtered pool, shuffle it well
+            random.shuffle(all_questions)
+            all_questions = all_questions[:target_count]
         
-        k = target_count if target_count <= len(all_questions) else len(all_questions)
-        selected = random.sample(all_questions, k=k) if k > 0 else []
+        selected = all_questions
     
     # 2. Create Session
     session = main_models.ExamSession(
@@ -725,7 +738,7 @@ async def submit_simulation(payload: SimulationSubmitPayload, current_user: main
         
         if is_theory:
             # EXPERT GRADING FOR THEORY
-            grading = await AIEngine.grade_theory_response(q.text, q.explanation or "", response)
+            grading = await ExpertEngine.grade_theory_response(q.text, q.explanation or "", response)
             is_correct = grading.get("score", 0) >= 50 # Pass threshold
             feedback = grading.get("feedback", "")
             score_contribution = grading.get("score", 0) / 100.0

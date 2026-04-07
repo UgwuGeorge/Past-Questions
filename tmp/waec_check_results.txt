@@ -1,0 +1,104 @@
+
+--- Checking agent_local_data.db ---
+
+Exam: WAEC (ID: 2)
+  - Subject: Mathematics (ID: 2) | Questions: 65
+  - Subject: Biology (ID: 109) | Questions: 60
+  - Subject: Business Management (ID: 110) | Questions: 51
+  - Subject: Chemistry (ID: 111) | Questions: 59
+  - Subject: WAEC Christian Religious Studies (ID: 112) | Questions: 30
+  - Subject: Civic Education (ID: 113) | Questions: 50
+  - Subject: WAEC Commerce (ID: 114) | Questions: 48
+  - Subject: Computer Studies (ID: 115) | Questions: 49
+  - Subject: Data Processing (ID: 116) | Questions: 42
+  - Subject: Economics (ID: 117) | Questions: 53
+  - Subject: English Language (ID: 118) | Questions: 60
+  - Subject: WAEC Financial Accounting (ID: 119) | Questions: 50
+  - Subject: WAEC Fine Arts (General Knowledge in Art (ID: 120) | Questions: 40
+  - Subject: Food and Nutrition (ID: 121) | Questions: 53
+  - Subject: WAEC French (ID: 122) | Questions: 40
+  - Subject: Geography (ID: 123) | Questions: 53
+  - Subject: Government (ID: 124) | Questions: 51
+  - Subject: WAEC Health Education (ID: 125) | Questions: 50
+  - Subject: WAEC History (ID: 126) | Questions: 41
+  - Subject: WAEC Home Management (ID: 127) | Questions: 50
+  - Subject: Islamic Religious Studies (ID: 128) | Questions: 50
+  - Subject: Literature in English (ID: 129) | Questions: 53
+  - Subject: Marketing (ID: 130) | Questions: 43
+  - Subject: WAEC Music (ID: 131) | Questions: 44
+  - Subject: Office Practice (ID: 132) | Questions: 53
+  - Subject: WAEC Physical Education (ID: 133) | Questions: 50
+  - Subject: Physics (ID: 134) | Questions: 56
+  - Subject: WAEC Christian Religious Studies 2023 (ID: 207) | Questions: 30
+  - Subject: WAEC Commerce 2023 (ID: 208) | Questions: 48
+  - Subject: WAEC Financial Accounting 2023 (ID: 209) | Questions: 50
+  - Subject: WAEC Fine Arts (General Knowledge in Art) 2023 (ID: 210) | Questions: 40
+  - Subject: WAEC French 2023 (ID: 211) | Questions: 40
+  - Subject: WAEC Health Education 2023 (ID: 212) | Questions: 50
+  - Subject: WAEC History 2023 (ID: 213) | Questions: 41
+  - Subject: WAEC Home Management 2023 (ID: 214) | Questions: 50
+  - Subject: WAEC Music 2023 (ID: 215) | Questions: 44
+  - Subject: WAEC Physical Education 2023 (ID: 216) | Questions: 50
+  - Subject: CRS (ID: 221) | Questions: 3
+  - Subject: Commerce (ID: 222) | Questions: 3
+  - Subject: Financial Accounting (ID: 223) | Questions: 7
+  - Subject: Fine Arts (ID: 224) | Questions: 3
+  - Subject: French (ID: 225) | Questions: 3
+  - Subject: History (ID: 226) | Questions: 3
+  - Subject: Home Management (ID: 227) | Questions: 3
+  - Subject: IRS (ID: 228) | Questions: 3
+  - Subject: Music (ID: 229) | Questions: 3
+  - Subject: Physical Education (ID: 230) | Questions: 3
+Total Questions for WAEC: 1821
+
+--- Checking past_questions_v2.db ---
+
+Exam: WAEC (ID: 10)
+  - Subject: Mathematics (ID: 17) | Questions: 62
+  - Subject: Biology (ID: 46) | Questions: 60
+  - Subject: Business Management (ID: 47) | Questions: 51
+  - Subject: Chemistry (ID: 48) | Questions: 59
+  - Subject: CRS (ID: 49) | Questions: 3
+  - Subject: Commerce (ID: 50) | Questions: 3
+  - Subject: Computer Studies (ID: 51) | Questions: 49
+  - Subject: Data Processing (ID: 52) | Questions: 42
+  - Subject: Economics (ID: 53) | Questions: 53
+  - Subject: English Language (ID: 54) | Questions: 60
+  - Subject: Financial Accounting (ID: 55) | Questions: 7
+  - Subject: Fine Arts (ID: 56) | Questions: 3
+  - Subject: Food and Nutrition (ID: 57) | Questions: 53
+  - Subject: French (ID: 58) | Questions: 3
+  - Subject: Geography (ID: 59) | Questions: 53
+  - Subject: Government (ID: 60) | Questions: 51
+  - Subject: History (ID: 61) | Questions: 3
+  - Subject: Home Management (ID: 62) | Questions: 3
+  - Subject: IRS (ID: 63) | Questions: 3
+  - Subject: Literature in English (ID: 64) | Questions: 53
+  - Subject: Marketing (ID: 65) | Questions: 43
+  - Subject: Music (ID: 66) | Questions: 3
+  - Subject: Office Practice (ID: 67) | Questions: 53
+  - Subject: Physical Education (ID: 68) | Questions: 3
+  - Subject: Physics (ID: 69) | Questions: 56
+  - Subject: WAEC Christian Religious Studies (ID: 77) | Questions: 30
+  - Subject: Civic Education (ID: 78) | Questions: 50
+  - Subject: WAEC Commerce (ID: 79) | Questions: 48
+  - Subject: WAEC Financial Accounting (ID: 80) | Questions: 50
+  - Subject: WAEC Fine Arts (General Knowledge in Art (ID: 81) | Questions: 40
+  - Subject: WAEC French (ID: 82) | Questions: 40
+  - Subject: WAEC Health Education (ID: 83) | Questions: 50
+  - Subject: WAEC History (ID: 84) | Questions: 41
+  - Subject: WAEC Home Management (ID: 85) | Questions: 50
+  - Subject: Islamic Religious Studies (ID: 86) | Questions: 50
+  - Subject: WAEC Music (ID: 87) | Questions: 44
+  - Subject: WAEC Physical Education (ID: 88) | Questions: 50
+  - Subject: WAEC Christian Religious Studies 2023 (ID: 148) | Questions: 30
+  - Subject: WAEC Commerce 2023 (ID: 149) | Questions: 48
+  - Subject: WAEC Financial Accounting 2023 (ID: 150) | Questions: 50
+  - Subject: WAEC Fine Arts (General Knowledge in Art) 2023 (ID: 151) | Questions: 40
+  - Subject: WAEC French 2023 (ID: 152) | Questions: 40
+  - Subject: WAEC Health Education 2023 (ID: 153) | Questions: 50
+  - Subject: WAEC History 2023 (ID: 154) | Questions: 41
+  - Subject: WAEC Home Management 2023 (ID: 155) | Questions: 50
+  - Subject: WAEC Music 2023 (ID: 156) | Questions: 44
+  - Subject: WAEC Physical Education 2023 (ID: 157) | Questions: 50
+Total Questions for WAEC: 1818

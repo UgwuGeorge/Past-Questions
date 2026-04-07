@@ -321,6 +321,7 @@ function App() {
             <CBTProcessor
               userId={user.id}
               examId={selectedExamId}
+              examName={selectedExamName}
               subjectId={selectedSubject}
               difficulty={preferredDifficulty}
               autoStart={examAutoStart}

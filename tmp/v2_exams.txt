@@ -1,0 +1,37 @@
+Exam ID: 31 | Name: ACCOUNTING
+Exam ID: 5 | Name: ARTS
+Exam ID: 24 | Name: BAR
+Exam ID: 8 | Name: BIOLOGY
+Exam ID: 9 | Name: CHEMISTRY
+Exam ID: 12 | Name: COMMERCE
+Exam ID: 6 | Name: CORE
+Exam ID: 13 | Name: ECONOMICS
+Exam ID: 14 | Name: ENGLISH
+Exam ID: 35 | Name: FOUNDATION
+Exam ID: 32 | Name: GEOGRAPHY
+Exam ID: 11 | Name: GOVERNMENT
+Exam ID: 33 | Name: HISTORY
+Exam ID: 21 | Name: ICAN
+Exam ID: 23 | Name: ICAN PROFESSIONAL
+Exam ID: 20 | Name: IELTS
+Exam ID: 27 | Name: IELTS ACADEMIC
+Exam ID: 1 | Name: JAMB
+Exam ID: 15 | Name: MATHEMATICS
+Exam ID: 25 | Name: MDCN
+Exam ID: 3 | Name: NDA
+Exam ID: 28 | Name: NNPC
+Exam ID: 26 | Name: PCN
+Exam ID: 16 | Name: PHYSICS
+Exam ID: 4 | Name: POLICE
+Exam ID: 34 | Name: POST-UTME
+Exam ID: 36 | Name: PROFESSIONAL
+Exam ID: 30 | Name: PTDF
+Exam ID: 29 | Name: PTDF SCHOLARSHIP
+Exam ID: 7 | Name: SCIENCE
+Exam ID: 37 | Name: SKILLS
+Exam ID: 10 | Name: SOCIAL
+Exam ID: 22 | Name: TRCN
+Exam ID: 17 | Name: UI
+Exam ID: 18 | Name: UNILAG
+Exam ID: 19 | Name: UNN
+Exam ID: 2 | Name: WAEC

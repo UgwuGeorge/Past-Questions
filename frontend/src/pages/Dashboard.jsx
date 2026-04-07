@@ -53,7 +53,7 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
     const [loading, setLoading] = useState(true);
     const [stats, setStats] = useState({ exams_completed: 0, avg_score: 0, study_hours: 0, mastery_level: 0 });
     const [subStatus, setSubStatus] = useState(null);
-    const [selectedExamForSubjects, setSelectedExamForSubjects] = useState(null); // { id, name, subjects }
+    const [activeGroup, setActiveGroup] = useState(null);
     const [searchQuery, setSearchQuery] = useState("");
     const scrollRef = useRef(null);
 
@@ -356,63 +356,46 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                                                         <h3 className="text-xl font-bold mb-1 tracking-tight group-hover:text-primary transition-colors">{item}</h3>
                                                         <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] mb-4">{catName}</p>
 
-                                                        {isGroup ? (
-                                                            <div className="mt-4 space-y-2">
-                                                                {subItems.map(sub => {
-                                                                    const subRec = findExamInDb(sub);
-                                                                    const subAvail = subRec && subRec.subjects?.length > 0;
-                                                                    return (
-                                                                        <button 
-                                                                            key={sub}
-                                                                            disabled={!subAvail}
-                                                                            onClick={(e) => {
-                                                                                e.stopPropagation();
-                                                                                if (isLocked) onUnlockPro();
-                                                                                else onStartPractice?.(sub, subRec.id, subRec.name);
-                                                                            }}
-                                                                            className={clsx(
-                                                                                "w-full px-4 py-2 rounded-xl text-[10px] font-black text-left uppercase flex items-center justify-between transition-all",
-                                                                                subAvail ? "bg-white/5 hover:bg-primary/20 text-white/60 hover:text-primary border border-white/5 hover:border-primary/30" : "opacity-30 cursor-not-allowed"
-                                                                            )}
-                                                                        >
-                                                                            {sub.replace(`${item} `, '')}
-                                                                            {subAvail && <ChevronRight size={12} />}
-                                                                        </button>
-                                                                    );
-                                                                })}
-                                                            </div>
-                                                        ) : (
-                                                            <>
-                                                                {isAvailable && examRecord?.subjects?.length > 0 && (
-                                                                    <div className="mt-4 space-y-1">
-                                                                        <p className="text-[8px] font-black uppercase text-white/20 mb-2">Popular Subjects</p>
-                                                                        <div className="flex flex-wrap gap-1">
-                                                                            {examRecord.subjects.slice(0, 3).map(s => (
-                                                                                <span key={s.id} className="px-2 py-0.5 bg-white/5 rounded text-[8px] font-bold text-white/40">
-                                                                                    {s.name}
-                                                                                </span>
-                                                                            ))}
-                                                                        </div>
-                                                                    </div>
-                                                                )}
-
-                                                                <div className="mt-auto pt-6 border-t border-white/5">
-                                                                    <button
-                                                                        disabled={!isAvailable}
-                                                                        className={clsx(
-                                                                            "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
-                                                                            isAvailable
-                                                                                ? isLocked 
-                                                                                    ? "bg-amber-500/20 text-amber-500 border border-amber-500/40 hover:bg-amber-500/30"
-                                                                                    : "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
-                                                                                : "bg-white/5 text-white/20 cursor-not-allowed"
-                                                                        )}
-                                                                    >
-                                                                        {isAvailable ? (isLocked ? <><Crown size={14} /> Upgrade</> : <><Layers size={14} /> Explorer</>) : "Coming Soon"}
-                                                                    </button>
+                                                        {isAvailable && examRecord?.subjects?.length > 0 && (
+                                                            <div className="mt-4 space-y-1">
+                                                                <p className="text-[8px] font-black uppercase text-white/20 mb-2">Popular Subjects</p>
+                                                                <div className="flex flex-wrap gap-1">
+                                                                    {examRecord.subjects.slice(0, 3).map(s => (
+                                                                        <span key={s.id} className="px-2 py-0.5 bg-white/5 rounded text-[8px] font-bold text-white/40">
+                                                                            {s.name}
+                                                                        </span>
+                                                                    ))}
                                                                 </div>
-                                                            </>
+                                                            </div>
                                                         )}
+
+                                                        <div className="mt-auto pt-6 border-t border-white/5">
+                                                            <button
+                                                                disabled={!isAvailable}
+                                                                onClick={(e) => {
+                                                                    e.stopPropagation();
+                                                                    if (isLocked) {
+                                                                        onUnlockPro();
+                                                                        return;
+                                                                    }
+                                                                    if (isGroup) {
+                                                                        setActiveGroup({ name: item, category: catName, subItems });
+                                                                    } else if (examRecord) {
+                                                                        onStartPractice?.(item, examRecord.id, examRecord.name);
+                                                                    }
+                                                                }}
+                                                                className={clsx(
+                                                                    "w-full flex items-center justify-center gap-2 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all",
+                                                                    isAvailable
+                                                                        ? isLocked 
+                                                                            ? "bg-amber-500/20 text-amber-500 border border-amber-500/40 hover:bg-amber-500/30"
+                                                                            : "bg-primary text-white shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]"
+                                                                        : "bg-white/5 text-white/20 cursor-not-allowed"
+                                                                )}
+                                                            >
+                                                                {isAvailable ? (isLocked ? <><Crown size={14} /> Upgrade</> : <><Layers size={14} /> Explorer</>) : "Coming Soon"}
+                                                            </button>
+                                                        </div>
                                                     </div>
                                                 </motion.div>
                                             );
@@ -423,6 +406,88 @@ export default function Dashboard({ userId, onStartPractice, onStartPDFRepo, onS
                         })}
                     </div>
                 </main>
+
+                <AnimatePresence>
+                    {activeGroup && (
+                        <div className="fixed inset-0 z-[200] flex items-center justify-center p-6">
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                onClick={() => setActiveGroup(null)}
+                                className="absolute inset-0 bg-black/80 backdrop-blur-xl"
+                            />
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.9, y: 20 }}
+                                animate={{ opacity: 1, scale: 1, y: 0 }}
+                                exit={{ opacity: 0, scale: 0.9, y: 20 }}
+                                className="relative w-full max-w-lg glass rounded-[40px] border border-white/10 p-10 shadow-2xl overflow-hidden"
+                            >
+                                <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/10 blur-[80px] rounded-full" />
+                                
+                                <div className="flex items-center justify-between mb-8">
+                                    <div>
+                                        <h2 className="text-3xl font-black italic tracking-tighter uppercase">{activeGroup.name}</h2>
+                                        <p className="text-white/40 text-[10px] font-black uppercase tracking-[0.2em]">{activeGroup.category} Track Selection</p>
+                                    </div>
+                                    <button onClick={() => setActiveGroup(null)} className="p-2 hover:bg-white/5 rounded-xl transition-colors">
+                                        <XCircle size={24} className="text-white/30" />
+                                    </button>
+                                </div>
+
+                                <div className="space-y-3">
+                                    {activeGroup.subItems.map((sub, i) => {
+                                        const subRec = findExamInDb(sub);
+                                        const subAvail = subRec && subRec.subjects?.length > 0;
+                                        const subRequiredTierPower = TIER_PRIORITY[subRec?.required_tier] || 0;
+                                        const subLocked = subAvail && userTierPower < subRequiredTierPower;
+
+                                        return (
+                                            <motion.button
+                                                key={sub}
+                                                initial={{ opacity: 0, x: -10 }}
+                                                animate={{ opacity: 1, x: 0 }}
+                                                transition={{ delay: i * 0.05 }}
+                                                disabled={!subAvail}
+                                                onClick={() => {
+                                                    if (subLocked) onUnlockPro();
+                                                    else onStartPractice?.(sub, subRec.id, subRec.name);
+                                                }}
+                                                className={clsx(
+                                                    "w-full p-6 rounded-3xl border text-left flex items-center justify-between transition-all group/btn",
+                                                    subAvail 
+                                                        ? subLocked 
+                                                            ? "bg-amber-500/5 hover:bg-amber-500/10 border-amber-500/20 text-amber-500/60" 
+                                                            : "bg-white/5 hover:bg-primary/10 border-white/5 hover:border-primary/40 text-white/50 hover:text-white"
+                                                        : "opacity-30 cursor-not-allowed grayscale"
+                                                )}
+                                            >
+                                                <div className="flex items-center gap-4">
+                                                    <div className={clsx(
+                                                        "w-10 h-10 rounded-xl flex items-center justify-center font-black transition-all",
+                                                        subLocked ? "bg-amber-500/20 text-amber-500" : "bg-white/5 group-hover/btn:bg-primary group-hover/btn:text-black"
+                                                    )}>
+                                                        {subLocked ? <Lock size={16} /> : i + 1}
+                                                    </div>
+                                                    <div>
+                                                        <div className="font-bold tracking-tight">{sub.replace(`${activeGroup.name} `, '')}</div>
+                                                        <div className="text-[9px] font-black uppercase tracking-widest opacity-40">{subAvail ? "Curriculum Verified" : "Coming Soon"}</div>
+                                                    </div>
+                                                </div>
+                                                {subAvail && !subLocked && <ChevronRight size={20} className="text-primary group-hover/btn:translate-x-1 transition-transform" />}
+                                                {subLocked && <Crown size={16} className="text-amber-500/40" />}
+                                            </motion.button>
+                                        );
+                                    })}
+                                </div>
+                                
+                                <p className="mt-8 text-[9px] text-center text-white/20 font-black uppercase tracking-[0.3em]">
+                                    Select level to initialize simulation
+                                </p>
+                            </motion.div>
+                        </div>
+                    )}
+                </AnimatePresence>
             </div>
         </div>
     );
